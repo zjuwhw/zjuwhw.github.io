@@ -16,6 +16,4 @@ twitter_username: zjuwhw
 github_username:  zjuwhw
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-    extensions: ["tables"]
+markdown: kramdown
