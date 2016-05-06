@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zjuwhw&#39;s blog</title>
+    <description>This is zjuwhw&#39;s personal blog. Powered by Jekyll and Host in Github.
+</description>
+    <link>zjuwhw.github.io/</link>
+    <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 06 May 2016 21:30:13 +0800</pubDate>
+    <lastBuildDate>Fri, 06 May 2016 21:30:13 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Python学习笔记</title>
+        <description>&lt;h2&gt;主要资源&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.quora.com/How-should-I-start-learning-Python-1&quot;&gt;&amp;quot;How should I start learning Python?&amp;quot; on Quora&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://docs.python.org/2/&quot;&gt;Official Python Document&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.codecademy.com/learn/python&quot;&gt;Python Course on Codecademy&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://learnpythonthehardway.org/&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Official Python Document - Tutorial&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#启动Python解释器Interpreter
+python
+#在shell中运行python命令
+python -c “print &#39;Hello,world!&#39;”
+#在shell中运行python module
+python -m &amp;lt;module&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;参数传递（Argument Passing）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#sys.argv返回一个字符串的列表（a list of strings）
+import sys
+print sys.argv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Source Code Encoding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/env python&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# -*- coding: encoding/iso-8859-15/utf-8 -*-&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Fri, 06 May 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/notebook/2016/05/06/python-notebook.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/06/python-notebook.html</guid>
+        
+        
+        <category>notebook</category>
+        
+      </item>
+    
+      <item>
+        <title>Git学习笔记</title>
+        <description>&lt;p&gt;注：本文为git的学习笔记，全部内容来自《&lt;a href=&quot;https://git-scm.com/book/en/v2&quot;&gt;pro git&lt;/a&gt;》&lt;/p&gt;
+
+&lt;h2&gt;Chapter 1: Getting Started&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;配置文件
+/etc/gitconfig
+~/.gitconfig or ~/.config/git/config
+.git/config
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#全局设置
+git config --global core.editor vim
+#局部设置
+git config --local user.name &quot;name&quot;
+git config --local user.email &quot;email&quot;
+#查看设置
+git config --list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Chapter 2: Git Basics&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#Add file contents to the index
+git add filename
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#Record changes to the repository
+git commit #打开文本编辑器
+git commit -m &quot;your text&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#克隆到本地
+git clone https://github.com/zjuwhw/test-repo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#查看状态
+#-untracted
+#-tracked: unmodified, modified, staged
+git status
+git status -s #简短显示
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#忽略跟踪文件或文件夹&quot;.gitignore&quot;
+$cat .gitignore
+*.a
+*.o
+*.[ao] #以上两行可以利用正则合并成这一行
+build/ #忽略文件夹
+doc/**/*.pdf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#查看区别
+git diff
+git diff --staged
+git diff --cached
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#不再跟踪文件
+git rm filename
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#重命名
+git mv old_filename new_filename
+#相当于
+mv old_filename new_filename
+git rm old_filename
+git add new_filename
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#查阅历史
+git log
+git log -p #显示不同
+git log -n #显示几个
+git --stat #显示统计
+git log --oneline #一行显示
+git log --pretty=format: &quot;%h %an %ar %s&quot; #按照特定格式显示
+git log --graph
+git log --since=2.weeks
+git log --since=&quot;2008-10-01&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#git log的format参数支持的特定格式
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align: left&quot;&gt;Option&lt;/th&gt;
+&lt;th style=&quot;text-align: left&quot;&gt;Descripton of Output&lt;/th&gt;
+&lt;th style=&quot;text-align: left&quot;&gt;Option&lt;/th&gt;
+&lt;th style=&quot;text-align: left&quot;&gt;Descripton of Output&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%H&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;commit hash&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%h&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;abbreviated commit hash&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%T&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;tree hash&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%t&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;abbreviated tree hash&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%P&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;parent hashes&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%p&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;abbreviated parent hashes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%an&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;author name&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%ae&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;author email&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%ad&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;author date&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%ar&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;author data, relative&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%cn&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;committer name&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%ce&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;committer email&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%cd&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;committer date&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%cr&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;committer data, relative&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;%s&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;subject&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#remote
+git remote
+git remote -v
+git remote add origin https://github.com/name/repo.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;git fetch
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Chapter 3: Git Branching&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#查看branch
+git branch
+#新建branch
+git branch newbranch
+#切换branch
+git checkout newbranch
+#新建并切换branch
+git checkout -b newbranch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#log中查看branch信息
+git log --decorate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#合并一个分支
+git checkout master
+git merge issue#2940
+#删除一个分支
+git branch -d issue#2940
+#删除一个远端的分支
+git push origin --delete issue#2940
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;#查看merged或没有merged的分支
+git branch --merged
+git branch --no-merged
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Wed, 04 May 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/notebook/2016/05/04/git-notebook.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/04/git-notebook.html</guid>
+        
+        
+        <category>notebook</category>
+        
+      </item>
+    
+      <item>
+        <title>Genomic Alteration名词解释</title>
+        <description>&lt;h1&gt;Glossary of Genomic Alteration&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;1. &lt;a href=&quot;http://www.cancer.gov/publications/dictionaries/cancer-terms?CdrID=446539&quot;&gt;SNP (Single Nucleotide Polymorphism)&lt;/a&gt;:&lt;/strong&gt; The most common type of change in DNA (molecules inside cells that carry genetic information). SNPs occur when a single nucleotide (building block of DNA) is replaced with another. These changes may cause disease, and may affect how a person reacts to bacteria, viruses, drugs, and other substances. Also called single nucleotide polymorphism.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=99&quot;&gt;Haplotype&lt;/a&gt;&lt;/strong&gt;: A haplotype is a set of DNA variations, or polymorphisms, that tend to be inherited together. A haplotype can refer to a combination of alleles or to a set of single nucleotide polymorphisms (SNPs) found on the same chromosome. Information about haplotypes is being collected by the International HapMap Project and is used to investigate the influence of genes on disease.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. SNV:&lt;/strong&gt; Single Nucleotide Variation. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. MNV:&lt;/strong&gt; Multinucleotide variation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. &lt;a href=&quot;http://www.cancer.gov/publications/dictionaries/cancer-terms?CdrID=446539&quot;&gt;Mutation&lt;/a&gt;&lt;/strong&gt;: Any change in the DNA sequence of a cell. Mutations may be caused by mistakes during cell division, or they may be caused by exposure to DNA-damaging agents in the environment. Mutations can be harmful, beneficial, or have no effect. If they occur in cells that make eggs or sperm, they can be inherited; if mutations occur in other types of cells, they are not inherited. Certain mutations may lead to cancer or other diseases.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=190&quot;&gt;Substitution&lt;/a&gt;&lt;/strong&gt;: Substitution is a type of mutation where one base pair is replaced by a different base pair. The term also refers to the replacement of one amino acid in a protein with a different amino acid.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=156&quot;&gt;Point mutation&lt;/a&gt;&lt;/strong&gt;: A point mutation is when a single base pair is altered. Point mutations can have one of three effects. First, the base substitution can be a silent mutation where the altered codon corresponds to the same amino acid. Second, the base substitution can be a missense mutation where the altered codon corresponds to a different amino acid. Or third, the base substitution can be a nonsense mutation where the altered codon corresponds to a stop signal.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8. &lt;a href=&quot;http://ghr.nlm.nih.gov/glossary=silentmutation&quot;&gt;Silent mutation&lt;/a&gt;:&lt;/strong&gt; A silent mutation alters DNA sequence, but has no apparent detectable effect on a phenotype or a function.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=127&quot;&gt;Missense (Conservative/Non-conservative) mutation&lt;/a&gt;:&lt;/strong&gt; A missense mutation is when the change of a single base pair causes the substitution of a different amino acid in the resulting protein. This amino acid substitution may have no effect, or it may render the protein nonfunctional.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=138&quot;&gt;Nonsense mutation&lt;/a&gt;&lt;/strong&gt;: A nonsense mutation is the substitution of a single base pair that leads to the appearance of a stop codon where previously there was a codon specifying an amino acid. The presence of this premature stop codon results in the production of a shortened, and likely nonfunctional, protein.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=112&quot;&gt;Insertion&lt;/a&gt;&lt;/strong&gt;: Insertion is a type of mutation involving the addition of genetic material. An insertion mutation can be small, involving a single extra DNA base pair, or large, involving a piece of a chromosome.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;12. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=45&quot;&gt;Deletion&lt;/a&gt;&lt;/strong&gt;: Deletion is a type of mutation involving the loss of genetic material. It can be small, involving a single missing DNA base pair, or large, involving a piece of a chromosome.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;13. Indel:&lt;/strong&gt; insertion and deletion.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=68&quot;&gt;Frameshift mutation&lt;/a&gt;&lt;/strong&gt;: A frameshift mutation is a type of mutation involving the insertion or deletion of a nucleotide in which the number of deleted base pairs is not divisible by three. &amp;quot;Divisible by three&amp;quot; is important because the cell reads a gene in groups of three bases. Each group of three bases corresponds to one of 20 different amino acids used to build a protein. If a mutation disrupts this reading frame, then the entire DNA sequence following the mutation will be read incorrectly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;15. &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19360079&quot;&gt;Somatic/Germline mutation&lt;/a&gt;:&lt;/strong&gt; Like all the cells that constitute the human body, a cancer cell is a direct descendant, through a lineage of mitotic cell divisions, of the fertilized egg from which the cancer patient developed and therefore carries a copy of its diploid genome. However, the DNA sequence of a cancer cell genome, and indeed of most normal cell genomes, has acquired a set of differences from its progenitor fertilized egg. These are collectively termed &lt;strong&gt;somatic mutations&lt;/strong&gt; to distinguish them from &lt;strong&gt;germline mutations&lt;/strong&gt; that are inherited from parents and transmitted to offspring,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Blog6_genome.alteration.glossary_mutations.png&quot; alt=&quot;mutation&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;16. &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19360079&quot;&gt;Driver/Passager mutation&lt;/a&gt;:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All cancers arise as a result of somatically acquired changes in the DNA cancer cells. That does not mean, however, that all the somatic abnormalities present in a cancer genome have been involved in development of the cancer. Indeed, it is likely that some have made no contribution at all. To embody this concept, the terms &amp;quot;driver&amp;quot; and &amp;quot;passenger&amp;quot; mutation have been coined.&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;driver mutation&lt;/strong&gt; is causally implicated in oncognesis. It has conferred growth advantage on the cancer cell and has been positively selected in the microenvironment of the tissue in which the cancer arises. A driver mutation need not be required for maintenance of the final cancer (although it often is) but it must have been selected at some point along the lieage of cancer development shown in above figure.&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;passenger mutation&lt;/strong&gt; has not been selected, has not conferred clonal growth advantage and has therefore not contributed to cancer development. Passenger mutations are found within cancer genomes because somatic mutations without functional consequences often occur during cell divison. Thus, a cell that acquires a driver mutation will already have biologically insert somatic mutations within its genome. These will be carried along in the clonal expansion that follows and therefore will be present in all cells of the final cancer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;17. &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/dbvar/content/overview/&quot;&gt;Structural variation (SV)&lt;/a&gt;:&lt;/strong&gt; Structural variation (SV) is generally defined as a region of DNA approximately 1 kb and larger in size and can include inversions and balanced translocations or genomic imbalances (insertions and deletions), commonly referred to as copy number variants (CNVs). These CNVs often overlap with segmental duplications, regions of DNA &amp;gt;1 kb present more than once in the genome, copies of which are &amp;gt;90% identical . If present at &amp;gt;1% in a population a CNV may be referred to as copy number polymorphism (CNP).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;18. &lt;a href=&quot;https://en.wikipedia.org/wiki/Chromosomal_rearrangement&quot;&gt;Chromosomal rearrangement&lt;/a&gt;:&lt;/strong&gt; In genetics, a chromosomal rearrangement is a type of chromosome abnormality involving a change in the structure of the native chromosome. Such changes may involve several different classes of events, like deletions, duplications, inversions, and translocations. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;19. &lt;a href=&quot;http://ghr.nlm.nih.gov/glossary=inversion&quot;&gt;Inversion&lt;/a&gt;:&lt;/strong&gt; A chromosomal rearrangement in which a segment of genetic material is broken away from the chromosome, inverted from end to end, and re-inserted into the chromosome at the same breakage site. Balanced inversions (no net loss or gain of genetic material) are usually not associated with phenotypic abnormalities, although in some cases gene disruptions at the breakpoints can cause adverse phenotypic effects, including some known genetic diseases; unbalanced inversions (loss or gain of chromosome material) nearly always yield an abnormal phenotype.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;20. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=201&quot;&gt;Translocation&lt;/a&gt;:&lt;/strong&gt; Translocation is a type of chromosomal abnormality in which a chromosome breaks and a portion of it reattaches to a different chromosome. Chromosomal translocations can be detected by analyzing karyotypes of the affected cells.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;21. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=40&quot;&gt;Copy number variation (CNV)&lt;/a&gt;&lt;/strong&gt;: A copy number variation (CNV) is when the number of copies of a particular gene varies from one individual to the next. Following the completion of the Human Genome Project, it became apparent that the genome experiences gains and losses of genetic material. The extent to which copy number variation contributes to human disease is not yet known. It has long been recognized that some cancers are associated with elevated copy numbers of particular genes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;22. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=55&quot;&gt;Duplication&lt;/a&gt;:&lt;/strong&gt; Duplication is a type of mutation that involves the production of one or more copies of a gene or region of a chromosome. Gene and chromosome duplications occur in all organisms, though they are especially prominent among plants. Gene duplication is an important mechanism by which evolution occurs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;23. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=71&quot;&gt;Gene amplification&lt;/a&gt;&lt;/strong&gt;: Gene amplification is an increase in the number of copies of a gene sequence. Cancer cells sometimes produce multiple copies of genes in response to signals from other cells or their environment. The term also can refer to polymerase chain reaction (PCR), a laboratory technique that is used by scientists to amplify gene sequences in a test tube.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;24. &lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=89&quot;&gt;Genetic variation&lt;/a&gt;:&lt;/strong&gt; Genetic variation refers to diversity in gene frequencies. Genetic variation can refer to differences between individuals or to differences between populations. Mutation is the ultimate source of genetic variation, but mechanisms such as sexual reproduction and genetic drift contribute to it as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;25.&lt;a href=&quot;http://www.genome.gov/glossary/index.cfm?id=193&quot;&gt;Tandem Repeat&lt;/a&gt;:&lt;/strong&gt; A tandem repeat is a sequence of two or more DNA base pairs that is repeated in such a way that the repeats lie adjacent to each other on the chromosome. Tandem repeats are generally associated with non-coding DNA. In some instances, the number of times the DNA sequence is repeated is variable. Such variable tandem repeats are used in DNA fingerprinting procedures.&lt;/p&gt;
+
+&lt;h3&gt;Reference:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.cancer.gov/publications/dictionaries/cancer-terms&quot;&gt;http://www.cancer.gov/publications/dictionaries/cancer-terms&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.genome.gov/glossary/&quot;&gt;http://www.genome.gov/glossary/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org&quot;&gt;https://en.wikipedia.org&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://ghr.nlm.nih.gov/&quot;&gt;http://ghr.nlm.nih.gov/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/dbvar/content/overview/&quot;&gt;http://www.ncbi.nlm.nih.gov/dbvar/content/overview/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/19360079&quot;&gt;Michael R. Stratton et al., Nature 2009.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;a href=&quot;/documents/genome_alteration.pdf&quot;&gt;pdf version&lt;/a&gt; of this blog.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Oct 2015 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2015/10/15/genome_alteration.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2015/10/15/genome_alteration.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>RNA-seq连特异性</title>
+        <description>&lt;h1&gt;The strandness of RNA-seq analysis&lt;/h1&gt;
+
+&lt;p&gt;前段时间一直在研究关于illumina TrueSeq stranded RNA-seq中的strand如何判断的问题。之后我又查了很多资料，终于弄懂了。现在写下来,如果我有错误，欢迎继续指正。
+以下文字和图片的引用链接都已经给出，如果图片在邮件中无法显示，可以打开链接的。&lt;/p&gt;
+
+&lt;p&gt;先说结论：对于Illumina TrueSeq stranded RNA protocol，主要采用的是dUTP method。RNA的strand是与read1（先测的read）相反，与read2（后测的read）的strand相同的。换句话说，如果read1比对到基因组正链上，则对应的RNA是在基因组的负链上。如果read2比对到基因组正链上，则对应的RNA应该是比对到正链上。&lt;/p&gt;
+
+&lt;p&gt;具体解释如下：&lt;/p&gt;
+
+&lt;h2&gt;1.关于strand：&lt;/h2&gt;
+
+&lt;p&gt;1）DNA是由两条互补配对的链组成的。按照预定俗称，把其中一条链称为正链（plus strand or forward strand），另一条则是负链（minus strand or reverse strand），这个定义完全是人为的。我们下载的hg18、hg19、hg38的fasta格式只给出了正链的序列。另一条链可以根据互补配对得出。&lt;/p&gt;
+
+&lt;p&gt;2）我们读取的链的时候，经常是从5&amp;#39;到3&amp;#39;的，无论DNA还是RNA。测序出来的两个read，也都是从5&amp;#39;到3&amp;#39;的。视觉上，我们读取plus strand的时候，from left to right。读取minus strand的时候，from right to left。&lt;/p&gt;
+
+&lt;p&gt;3）RNA会根据一条DNA模板合成，我们在IGV或者UCSC上会看到RNA的链的信息，如果一条RNA在正链上（如下图），其实该条RNA是以负链作为模板形成的，但是该条RNA与正链的序列一直。我们把和合成RNA时的DNA模板的链称为template strand或者antisense strand。把与RNA序列相同的DNA的链称为coding strand或者sense strand。sense/antisense, coding/template strand可以在基因组的plus strand也可以在基因组的minus strand。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Blog5_RNAseq_sense.and.antisense.jpg&quot; alt=&quot;sense-and-antisense&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.majordifferences.com/2015/01/difference-between-sense-and-antisense.html&quot;&gt;http://www.majordifferences.com/2015/01/difference-between-sense-and-antisense.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;2、illumina测序之sample preparation：&lt;/h2&gt;
+
+&lt;p&gt;1）illumina测序的sample preparation的步骤，一般是讲DNA或者是cDNA打断，然后repair ends，add A at 3&amp;#39;end （为了和Y-shaped adaptor结合），然后加上adaptor。&lt;/p&gt;
+
+&lt;p&gt;2）adaptor也是由两条链组成的（universal adaptor和indexed adaptor）。unversal adaptor的3&amp;#39;端有一个T，为了可以和DNA fragment上的A互补。universal adaptor的3&amp;#39;端和indexed adaptor的5&amp;#39;端有12bp的碱基互补配对，使得他们两个可以呈现Y字形。indexed adaptor的中间有6个bp的indexed sequence，可以用来在同一个land中有多个样本时做区分。&lt;/p&gt;
+
+&lt;p&gt;3）若是非连特异性的，对于最后合成的sample，中间的DNA fragment既可以来自正链，也可以来自负链。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Blog5_RNAseq_hiseq2000.adaptor.jpg&quot; alt=&quot;hiseq2000-adaptor1&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html&quot;&gt;http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;3、dUTP method的sample preparation：&lt;/h2&gt;
+
+&lt;p&gt;dUTP metod主要是在反转完first-strand cDNA之后，在合成second-strand cDNA的时候，用dUTP代替了dTTP，之后加完adaptor，用UDGase处理，将second-strand cDNA消化掉。这样最后合成的sample，中间的DNA fragment一定是first-strand cDNA。这也是为什么对于dUTP数据处理，tophat的参数应该为“--library-type fr-firststrand”。注意，这里的first-strand cDNA与RNA strand（或者基因组上的coding strand）相反。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Blog5_RNAseq_hiseq2000.adaptor2.jpg&quot; alt=&quot;hiseq2000-adaptor2&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html&quot;&gt;http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html&lt;/a&gt;  &lt;/p&gt;
+
+&lt;h2&gt;4、illumina测序之cluster generation和sequencing&lt;/h2&gt;
+
+&lt;p&gt;1）sample preparation之后，样品就上机测序了。在flow cell的表面，固定着很多个DNA序列，他们有两种P5和P7，均是5&amp;#39;在flow cell的表面，3&amp;#39;露在上面。&lt;/p&gt;
+
+&lt;p&gt;2）P5的序列与sample 5&amp;#39;端的unversial adapter 开始的44（数字可以不同）个bases相同，P7的是与sample的3&amp;#39;端的indexed adapter的24（数字可以不同）个bases互补配对。P5和P7同时可以充当与sample DNA序列杂交的探针还有PCR扩增的引物。&lt;/p&gt;
+
+&lt;p&gt;3）sample DNA上机后，首先与P7杂交，然后以P7为引物合成。如下图，之后洗掉原来的sample DNA，然后P7上的DNA的3&amp;#39;端正好与P5杂交，建起bright，然后再以P5为引物合成。就这样不断amplification。&lt;/p&gt;
+
+&lt;p&gt;4）之后测序的时候，会先将P5进行Periodate linearization（具体不是很懂，应该就是把P5上的DNA弄走）。然后用引物来测定P7中间DNA fragment的序列，就是read1中的序列（注意，这里的引物与P5和P7不同，可以保证直接测出中间感兴趣的序列。但是若中间DNA fragement太短，就会测到adaptor序列，这就是为什么fastq文件要做adaptor trimming）。如果是Pair-end序列。P7上的序列测完之后，再合成P5的DNA，然后再用另一种酶把P7弄走，去测P5的序列。这样就保证测量了pair-end。从这个过程可以看到read1和read2一定是分布会比对到基因组不同的链上。&lt;/p&gt;
+
+&lt;p&gt;5）对于strand-specifc，由于sample DNA中间感兴趣的DNA fragement只有first-strand。这个fragment先于P7杂交，然后合成second strand cDNA。然后测序的时候，read1是与P7上的second strand cDNA互补配对的。（first-strand cDNA &amp;lt;- rc -&amp;gt; P7上的second strand cDNA &amp;lt;-rc-&amp;gt;read1的序列）。故read1与first-strand cDNA的链相同，与RNA的strand链相反。反之，read2与RNA strand的链相同。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Blog5_RNAseq_hiseq2000.adaptor3.jpg&quot; alt=&quot;hiseq2000-adaptor3&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://onetipperday.blogspot.com/2013/12/illumina-hiseq2000-adaptor-and.html&quot;&gt;http://onetipperday.blogspot.com/2013/12/illumina-hiseq2000-adaptor-and.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Blog5_RNAseq_linearization.jpg&quot; alt=&quot;linearization&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://skatebase.org/sites/skatebase.org/files/workshops/W1_IntroIlluminaNGS.pdf&quot;&gt;http://skatebase.org/sites/skatebase.org/files/workshops/W1_IntroIlluminaNGS.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;5、tophat中output的bam文件中有一个tag XS是错的&lt;/h2&gt;
+
+&lt;p&gt;tophat输出的bam文件的attribute tag中有一个XS是指示RNA所在的strand的。但是很多人都发现了错误。而且Encode还写了&lt;a href=&quot;https://github.com/ENCODE-DCC/long-rna-seq-pipeline/blob/e0ed26ac18f15422fe320add46b60159647eb838/DAC/tophat_bam_xsA_tag_fix.pl&quot;&gt;一个perl脚本&lt;/a&gt;来修改XS tag。也有人说XS主要是根据splite site的序列判断的。XS: &amp;quot;+&amp;quot; for GT-AG and &amp;quot;-&amp;quot; for CT-AC。另外，因为cufflinks是需要XS的这个tag的，所以这个问题还需要再研究一下。&lt;/p&gt;
+
+&lt;h2&gt;6、可以通过sam文件的第2列的flag来判断read的strand&lt;/h2&gt;
+
+&lt;p&gt;sam flag可以指示该条read是read1（first in pair）还是read2（second in pair），或者比对到正链上（mate reverse strand）还是负链上（read reverse strand）。
+我其实也不懂得flag这个16进制，&lt;a href=&quot;http://broadinstitute.github.io/picard/explain-flags.html&quot;&gt;这有个网址&lt;/a&gt;给了一个简单的软件，可以帮助计算。然后用samtools view -f或者-F就可以根据flag来筛选了。&lt;/p&gt;
+
+&lt;h2&gt;7、参考资料：&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html&quot;&gt;http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://onetipperday.blogspot.com/2012/07/how-to-tell-which-library-type-to-use.html&quot;&gt;http://onetipperday.blogspot.com/2012/07/how-to-tell-which-library-type-to-use.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://onetipperday.blogspot.com/2013/12/illumina-hiseq2000-adaptor-and.html&quot;&gt;http://onetipperday.blogspot.com/2013/12/illumina-hiseq2000-adaptor-and.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.personal.psu.edu/iua1/courses/illumina-sequencing.html&quot;&gt;http://www.personal.psu.edu/iua1/courses/illumina-sequencing.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://skatebase.org/sites/skatebase.org/files/workshops/W1_IntroIlluminaNGS.pdf&quot;&gt;http://skatebase.org/sites/skatebase.org/files/workshops/W1_IntroIlluminaNGS.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://seqanswers.com/forums/showthread.php?t=9303&quot;&gt;http://seqanswers.com/forums/showthread.php?t=9303&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Oct 2015 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2015/10/15/RNAseq_strand.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2015/10/15/RNAseq_strand.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Edx-Python学习笔记</title>
+        <description>&lt;h1&gt;Lecture 1: Introduction to computation&lt;/h1&gt;
+
+&lt;h2&gt;1.1 Introduction&lt;/h2&gt;
+
+&lt;h2&gt;1.2 Basics of Computation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What does a computer do?&lt;/li&gt;
+&lt;li&gt;Fundamentally a computer: (1) Performs calculations; (2) Remember the results&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Calculation is: (1) Built in primitives; (2) Creating our own methods of calculations&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;So are ther limits?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Some problems still too complex&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Some problems are fundamentally impossible to compute&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;1.3 Types of Knowledge&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Declarative knowledge: statments of facts&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Imperative knowledge: &amp;quot;how to&amp;quot; methods or recipes&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;1.4 Basic Machine Architecture&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Fixed Program Computers&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Stored Program Computers&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What are the basic primitives?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Turning shows that using six primitives, can compute anything. (Truning complete)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fortunately, modern programming languages have a more convenient set of primitives.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Also have ways to abstract methods to create new &amp;quot;primitives&amp;quot;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;But anything computable in one language is computable in any other programming language&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;1.5 Programming language characteristics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Primitive constructs&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Syntax&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Static semantics&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Semantics&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Lecture 2: Core Elements of Programs&lt;/h1&gt;
+
+&lt;h2&gt;2.1 Introduction&lt;/h2&gt;
+
+&lt;h2&gt;2.2 Types of Programming languages&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Options for programming languages:&lt;/li&gt;
+&lt;li&gt;Source code -&amp;gt; checker -&amp;gt; interpreter -&amp;gt; output&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Source code -&amp;gt; checker -&amp;gt; compiler -&amp;gt; object code -&amp;gt; interpreter -&amp;gt; output&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Low level: Source code (low level) -&amp;gt; checker -&amp;gt; interpreter -&amp;gt; output&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;High level (compiled language): Source code (high level) -&amp;gt; checker -&amp;gt; compiler -&amp;gt; object code (low level) -&amp;gt; interpreter -&amp;gt; output&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;High level (interpreted language, such as Python): Source code (high level) -&amp;gt; checker -&amp;gt; interpreter -&amp;gt; output&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2.3 Python objects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Python programs&lt;/li&gt;
+&lt;li&gt;Program (or script) is a sequence of definitions and commands&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Command (or statement) instructs interpreter to do something&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Objects&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Each object has a &lt;strong&gt;type&lt;/strong&gt; that dfeines the kind of things programs can do to it&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Objecst are: (1) Scalar (&lt;em&gt;i.e.&lt;/em&gt; cannot be subdivided); (2) Non-scalr (&lt;em&gt;i.e.&lt;/em&gt; have internal structure that can be accessed)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Scalr objects&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;int&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;float&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;bool - Boolean values&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Expressions: [object] [operator] [object]&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Operators on ints and floats: +, -, &lt;em&gt;, /, %, *&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Comparison operators on ints and floats: &amp;gt;, &amp;gt;=, &amp;lt;, &amp;lt;=, ==, !=&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Operators on bools: and, or, not&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Type conversions (type casting): float(3), int(3.9)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2.4 Variables and Naming&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;assignment: binding variables and values&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2.5 Strings&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;non-scalar objects&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Extracting parts of strings: indexing and slicing&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2.6 Simple Scripts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;statements (not expressions): &lt;em&gt;print()&lt;/em&gt;, &lt;em&gt;raw_input()&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Comments appear after #&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2.7 Branching Programs&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Branching programs: the simplest one is a &lt;strong&gt;conditional&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The indentation is important.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What have we added?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Branching programs allow us to make choices and do different things&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;But still the case that at most, each statement gets executed once.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;So maximum time to run the program depends only on the length of the program.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;These programs run in constant time&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Lecture 3: Simple Algorithms&lt;/h1&gt;
+
+&lt;h2&gt;3.1 Introduction&lt;/h2&gt;
+
+&lt;h2&gt;3.2 Iteration&lt;/h2&gt;
+
+&lt;h2&gt;3.3 Guess and check algorithm&lt;/h2&gt;
+
+&lt;h2&gt;3.4 Loop mechanisms&lt;/h2&gt;
+
+&lt;h2&gt;3.5 Floating point accuracy&lt;/h2&gt;
+
+&lt;h2&gt;3.6 Approximate methods&lt;/h2&gt;
+
+&lt;h2&gt;3.7 Bisection search&lt;/h2&gt;
+
+&lt;h2&gt;3.8 Newton-Paphson root finding&lt;/h2&gt;
+
+&lt;p&gt;Notes for the &lt;a href=&quot;www.edx.org&quot;&gt;edx&lt;/a&gt; course &lt;a href=&quot;https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5&quot;&gt;Introduction to Computer Science and Programming Using Python&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Sep 2015 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2015/09/16/MITx_computer_science_and_programming_using_Python.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2015/09/16/MITx_computer_science_and_programming_using_Python.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Edx-biomanufacturing学习笔记</title>
+        <description>&lt;h2&gt;Table of Content&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#unit1&quot;&gt;Unit 1 Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#unit2&quot;&gt;Unit 2 Protein Structure and Examples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;&lt;a name=&quot;unit1&quot;&gt;&lt;/a&gt; Unit 1 Introduction&lt;/h1&gt;
+
+&lt;h2&gt;Section 1 Introduction&lt;/h2&gt;
+
+&lt;h3&gt;1.1A Why Biologic Drugs are important?&lt;/h3&gt;
+
+&lt;h3&gt;1.1B What to expect for the course&lt;/h3&gt;
+
+&lt;h3&gt;1.2 What are biologic drugs?&lt;/h3&gt;
+
+&lt;p&gt;In the FDA definition, biologic drugs: Proteins, Vaccines, Blood components, Cell therapies, Natural hormones, Pland/animal extracts&lt;/p&gt;
+
+&lt;p&gt;Biologics manufactured using recombinant DNA technology: Replace missing function, Selective, Fewer off-target effects&lt;/p&gt;
+
+&lt;h2&gt;Section 2 Using Cells for manufacturing&lt;/h2&gt;
+
+&lt;h3&gt;1.3 An introduction to the history of modern biomanufacturing&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1441869699042.png&quot; alt=&quot;timeline&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;1675, Antonie van Leeuwenhoek, Netherlands, mciroscope&lt;/p&gt;
+
+&lt;p&gt;1850, Louis Pasteur, France, alcoholic fermentation (yeast: alcohol; bacteria: lactic acid)&lt;/p&gt;
+
+&lt;h3&gt;1.4 USING CELLS TO MANUFACTURE CHEMICALS&lt;/h3&gt;
+
+&lt;p&gt;1915, Wilhelm Connstein and Karl Ludecke, together with Carl Alexander Neuberg and Elsa Reinfurth, German, used yeast to manufacture glycerol (甘油).&lt;/p&gt;
+
+&lt;p&gt;1904, Chaim Weizmann, UK,  isolated the bacterium, Clostridium acetobutylicum, which could ferment grain to produce butanol (丁醇).&lt;/p&gt;
+
+&lt;p&gt;(Cell manufacture chemicals; Aseptic processing = better control)&lt;/p&gt;
+
+&lt;h3&gt;1.5 USING CELLS TO MANUFACTURE PENICILLIN AND VACCINES&lt;/h3&gt;
+
+&lt;p&gt;1928, Alexander Fleming, London, identified penicillin, which killed or prevented the growth of a number of different bacterial species.&lt;/p&gt;
+
+&lt;p&gt;1939, Howard Florey and Ernst Boris Chain succeeded in isolating penicillin.&lt;/p&gt;
+
+&lt;p&gt;1957, Jonas Salk,  the production of the polio (骨髓灰质炎) vaccine was the first time mammalian cells were used in manufacturing.&lt;/p&gt;
+
+&lt;p&gt;(First, aseptic processing provides better control of the culture and its products.)&lt;/p&gt;
+
+&lt;p&gt;(Second, microorganisms can produce safe and effective drugs.)&lt;/p&gt;
+
+&lt;p&gt;(Third, genetic mutation and selection can be used to improve cellular productivity.)&lt;/p&gt;
+
+&lt;p&gt;(And fourth, mammalian cells can produce therapeutics.)&lt;/p&gt;
+
+&lt;h2&gt;Section 3 Protein as therapeutics&lt;/h2&gt;
+
+&lt;h3&gt;1.6 THE HISTORY OF PROTEINS AS THERAPEUTICS: ANTI-TOXINS&lt;/h3&gt;
+
+&lt;p&gt;1894, Emil von Behring, German, invented the diphtheria (白喉) anti-toxin&lt;/p&gt;
+
+&lt;h3&gt;1.7 THE DISCOVERY AND ISOLATION OF INSULIN&lt;/h3&gt;
+
+&lt;p&gt;1989, Oscar Minkowski and Joseph von Mering found unknown substance in the pancreas, which we now know is insulin, was responsible for regulating sugar levels in the body&lt;/p&gt;
+
+&lt;p&gt;1920, Frederick Grant Banting and Charles Herbert Best extracted what they hoped was insulin from the pancreas of dogs&lt;/p&gt;
+
+&lt;p&gt;(Challenges: 1. Different sequence; 2. Supply)&lt;/p&gt;
+
+&lt;h3&gt;1.8 ISOLATION OF PROTEIN THERAPEUTICS FROM PLASMA&lt;/h3&gt;
+
+&lt;p&gt;1940, Edwin J. Cohn, began to work on isolating Albumin (白蛋白) from blood plasma through a process called fractionation.&lt;/p&gt;
+
+&lt;p&gt;1970s, factor III replaced albumin as the most profitable product in the plasma fractionation industry.&lt;/p&gt;
+
+&lt;p&gt;(Challenges: 1. Supply; 2. Contamination)&lt;/p&gt;
+
+&lt;h2&gt;Section 4 Intro to modern biomanufacturing&lt;/h2&gt;
+
+&lt;h3&gt;1.9 THE BIRTH OF MODERN BIOMANUFACTURING&lt;/h3&gt;
+
+&lt;p&gt;1973, the recombinant DNA technology&lt;/p&gt;
+
+&lt;p&gt;1979 ~ 1981, Genzyme (beta-glucoserebrosidase purified from human placenta, Ceredase, Cerezyme), Genentech (first human insulin produced using recombinant DNA technology)&lt;/p&gt;
+
+&lt;h3&gt;1.10 BIOMANUFACTURING IS THE VEHICLE TO DELIVER HIGH-QUALITY BIOLOGICS&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/1441870976573.png&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+
+&lt;h1&gt;&lt;a name=&quot;unit2&quot;&gt;&lt;/a&gt; Unit 2 Protein Structure &amp;amp; Examples&lt;/h1&gt;
+
+&lt;h2&gt;Section 1 Introduction to Protein Structure&lt;/h2&gt;
+
+&lt;h3&gt;2.1 Introduction to biologic drugs&lt;/h3&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align: left&quot;&gt;small molecules&lt;/th&gt;
+&lt;th style=&quot;text-align: right&quot;&gt;Recombinant biologics&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;Aspirin, Penicillin, Ibuprofen&lt;/td&gt;
+&lt;td style=&quot;text-align: right&quot;&gt;MAb (e.g. Rituximab), insulin&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;100 - 900 Da&lt;/td&gt;
+&lt;td style=&quot;text-align: right&quot;&gt;5,000 - 250,000 Da&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;Chemical systhesis&lt;/td&gt;
+&lt;td style=&quot;text-align: right&quot;&gt;Cellular synthesis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;Simple analysis&lt;/td&gt;
+&lt;td style=&quot;text-align: right&quot;&gt;Complex analysis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;absorbed through GI tract&lt;/td&gt;
+&lt;td style=&quot;text-align: right&quot;&gt;parenteral: bypass GI tract&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left&quot;&gt;mimic compounds; block pathways; unintended interatcions&lt;/td&gt;
+&lt;td style=&quot;text-align: right&quot;&gt;specific; few off-target effects&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Drug targets: &lt;/li&gt;
+&lt;li&gt;Receptor proteins;&lt;/li&gt;
+&lt;li&gt;DNA; &lt;/li&gt;
+&lt;li&gt;RNA&lt;/li&gt;
+&lt;li&gt;Reduce biologic effectiveness: &lt;/li&gt;
+&lt;li&gt;misfolding; &lt;/li&gt;
+&lt;li&gt;aggregate&lt;/li&gt;
+&lt;li&gt;Parenteral (不经肠的): &lt;/li&gt;
+&lt;li&gt;intravenous (静脉) injection; &lt;/li&gt;
+&lt;li&gt;intramuscular (肌肉) injection; &lt;/li&gt;
+&lt;li&gt;subcutaneous (皮下) injection; &lt;/li&gt;
+&lt;li&gt;inhalation (吸入); &lt;/li&gt;
+&lt;li&gt;mucosal (粘膜) transmission&lt;/li&gt;
+&lt;li&gt;Categories of biotherapeutics:&lt;/li&gt;
+&lt;li&gt;Enzymatic or regulatory activity (&lt;em&gt;e.g.&lt;/em&gt; Insulin; Imiglucerase for Gaucher&amp;#39;s disease; Erythropoietin for stimulating production of  RBCs and anemia (贫血));&lt;/li&gt;
+&lt;li&gt;Special targeting activity (&lt;em&gt;e.g.&lt;/em&gt; Rituximab for B-cell non-Hodgkin&amp;#39;s lymphomas (淋巴瘤));&lt;/li&gt;
+&lt;li&gt;Protein vaccines (&lt;em&gt;e.g.&lt;/em&gt; Hepatitis (肝炎) B; Influenza (流感); Human papillomavirus)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;2.2 Introduction to amino acids&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;20 amino acids&lt;/li&gt;
+&lt;li&gt;Polar, Uncharged: Serine (Ser, S); Threonine (Thr, T); Asparagine (Asn, N); Glutamine (Gln, Q)&lt;/li&gt;
+&lt;li&gt;Polar, negatively charged: Aspartic acide (Asp, D); Glutamic acid (Gln, Q)&lt;/li&gt;
+&lt;li&gt;Polar, positively charged: Lysinee (Lys, K); Arginine (Arg, R); Histidine (His, H)&lt;/li&gt;
+&lt;li&gt;Hydrophobic: Alanine (Ala, A); Valine (Val, V); Methionine (Met, M); Leucine (Leu, L); Isoleucine (Ile, I); Phenylalanine (Phe, F); Tyrosine (Tyr, Y); Tryptophan (Try, W)&lt;/li&gt;
+&lt;li&gt;Special: Glycine (Gly, G); Cysteine (Cys, C); Proline (Pro, P)
+|Peptides|Proteins|
+| :-------- | --------:|
+|&amp;lt;= 40 amino acids| &amp;gt; 40 amino acids|&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;2.3 Introduction to Protein Structure&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Protein Structure:&lt;/li&gt;
+&lt;li&gt;Primary structure: the amino acid sequence&lt;/li&gt;
+&lt;li&gt;Secondary structure: interactions among backbone atoms (α-helix, β-sheet, loop) (hydrogen bone between backbones)&lt;/li&gt;
+&lt;li&gt;Tertiary structure: interactions among all atoms in 3D space (bisulfide bonds of cysteines, electrostatic interactions - ionic bonds bewteen opposite charges, hydrogen bone between threonine with water, hydrophobic interactions)&lt;/li&gt;
+&lt;li&gt;Quaternary structure: arrangement of multiple protein subunits (monomer, dimer, hexamer)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;2.4 Post translational modifications (PTMs)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Types of PTMs:&lt;/li&gt;
+&lt;li&gt;Glycosylation (糖基化)&lt;/li&gt;
+&lt;li&gt;Deamidation (脱酰胺)&lt;/li&gt;
+&lt;li&gt;Oxidation&lt;/li&gt;
+&lt;li&gt;Acylation (乙酰化)&lt;/li&gt;
+&lt;li&gt;PEGylation (PEG, Polyethylene Glycol, 聚乙二醇)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Notes for the &lt;a href=&quot;https://www.edx.org/&quot;&gt;edx&lt;/a&gt; course &lt;a href=&quot;https://www.edx.org/course/making-biologic-medicines-patients-mitx-10-03x&quot;&gt;Making Biologic Medicines for Patients: The Principles of Biopharmaceutical Manufacturing&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 14 Sep 2015 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2015/09/14/MITx_biomanufacturing.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2015/09/14/MITx_biomanufacturing.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hello, world</title>
+        <description>&lt;p&gt;Hello, world&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Sep 2015 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2015/09/12/hello-world.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2015/09/12/hello-world.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>RNA-seq连特异性</title>
+  <meta name="description" content="The strandness of RNA-seq analysis">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="zjuwhw.github.io/2015/10/15/RNAseq_strand.html">
+  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="zjuwhw.github.io/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">zjuwhw's blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">RNA-seq连特异性</h1>
+    <p class="post-meta"><time datetime="2015-10-15T00:00:00+08:00" itemprop="datePublished">Oct 15, 2015</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <h1>The strandness of RNA-seq analysis</h1>
+
+<p>前段时间一直在研究关于illumina TrueSeq stranded RNA-seq中的strand如何判断的问题。之后我又查了很多资料，终于弄懂了。现在写下来,如果我有错误，欢迎继续指正。
+以下文字和图片的引用链接都已经给出，如果图片在邮件中无法显示，可以打开链接的。</p>
+
+<p>先说结论：对于Illumina TrueSeq stranded RNA protocol，主要采用的是dUTP method。RNA的strand是与read1（先测的read）相反，与read2（后测的read）的strand相同的。换句话说，如果read1比对到基因组正链上，则对应的RNA是在基因组的负链上。如果read2比对到基因组正链上，则对应的RNA应该是比对到正链上。</p>
+
+<p>具体解释如下：</p>
+
+<h2>1.关于strand：</h2>
+
+<p>1）DNA是由两条互补配对的链组成的。按照预定俗称，把其中一条链称为正链（plus strand or forward strand），另一条则是负链（minus strand or reverse strand），这个定义完全是人为的。我们下载的hg18、hg19、hg38的fasta格式只给出了正链的序列。另一条链可以根据互补配对得出。</p>
+
+<p>2）我们读取的链的时候，经常是从5&#39;到3&#39;的，无论DNA还是RNA。测序出来的两个read，也都是从5&#39;到3&#39;的。视觉上，我们读取plus strand的时候，from left to right。读取minus strand的时候，from right to left。</p>
+
+<p>3）RNA会根据一条DNA模板合成，我们在IGV或者UCSC上会看到RNA的链的信息，如果一条RNA在正链上（如下图），其实该条RNA是以负链作为模板形成的，但是该条RNA与正链的序列一直。我们把和合成RNA时的DNA模板的链称为template strand或者antisense strand。把与RNA序列相同的DNA的链称为coding strand或者sense strand。sense/antisense, coding/template strand可以在基因组的plus strand也可以在基因组的minus strand。</p>
+
+<p><img src="/images/Blog5_RNAseq_sense.and.antisense.jpg" alt="sense-and-antisense"></p>
+
+<p><a href="http://www.majordifferences.com/2015/01/difference-between-sense-and-antisense.html">http://www.majordifferences.com/2015/01/difference-between-sense-and-antisense.html</a></p>
+
+<h2>2、illumina测序之sample preparation：</h2>
+
+<p>1）illumina测序的sample preparation的步骤，一般是讲DNA或者是cDNA打断，然后repair ends，add A at 3&#39;end （为了和Y-shaped adaptor结合），然后加上adaptor。</p>
+
+<p>2）adaptor也是由两条链组成的（universal adaptor和indexed adaptor）。unversal adaptor的3&#39;端有一个T，为了可以和DNA fragment上的A互补。universal adaptor的3&#39;端和indexed adaptor的5&#39;端有12bp的碱基互补配对，使得他们两个可以呈现Y字形。indexed adaptor的中间有6个bp的indexed sequence，可以用来在同一个land中有多个样本时做区分。</p>
+
+<p>3）若是非连特异性的，对于最后合成的sample，中间的DNA fragment既可以来自正链，也可以来自负链。</p>
+
+<p><img src="/images/Blog5_RNAseq_hiseq2000.adaptor.jpg" alt="hiseq2000-adaptor1"></p>
+
+<p><a href="http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html">http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html</a></p>
+
+<h2>3、dUTP method的sample preparation：</h2>
+
+<p>dUTP metod主要是在反转完first-strand cDNA之后，在合成second-strand cDNA的时候，用dUTP代替了dTTP，之后加完adaptor，用UDGase处理，将second-strand cDNA消化掉。这样最后合成的sample，中间的DNA fragment一定是first-strand cDNA。这也是为什么对于dUTP数据处理，tophat的参数应该为“--library-type fr-firststrand”。注意，这里的first-strand cDNA与RNA strand（或者基因组上的coding strand）相反。</p>
+
+<p><img src="/images/Blog5_RNAseq_hiseq2000.adaptor2.jpg" alt="hiseq2000-adaptor2"></p>
+
+<p><a href="http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html">http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html</a>  </p>
+
+<h2>4、illumina测序之cluster generation和sequencing</h2>
+
+<p>1）sample preparation之后，样品就上机测序了。在flow cell的表面，固定着很多个DNA序列，他们有两种P5和P7，均是5&#39;在flow cell的表面，3&#39;露在上面。</p>
+
+<p>2）P5的序列与sample 5&#39;端的unversial adapter 开始的44（数字可以不同）个bases相同，P7的是与sample的3&#39;端的indexed adapter的24（数字可以不同）个bases互补配对。P5和P7同时可以充当与sample DNA序列杂交的探针还有PCR扩增的引物。</p>
+
+<p>3）sample DNA上机后，首先与P7杂交，然后以P7为引物合成。如下图，之后洗掉原来的sample DNA，然后P7上的DNA的3&#39;端正好与P5杂交，建起bright，然后再以P5为引物合成。就这样不断amplification。</p>
+
+<p>4）之后测序的时候，会先将P5进行Periodate linearization（具体不是很懂，应该就是把P5上的DNA弄走）。然后用引物来测定P7中间DNA fragment的序列，就是read1中的序列（注意，这里的引物与P5和P7不同，可以保证直接测出中间感兴趣的序列。但是若中间DNA fragement太短，就会测到adaptor序列，这就是为什么fastq文件要做adaptor trimming）。如果是Pair-end序列。P7上的序列测完之后，再合成P5的DNA，然后再用另一种酶把P7弄走，去测P5的序列。这样就保证测量了pair-end。从这个过程可以看到read1和read2一定是分布会比对到基因组不同的链上。</p>
+
+<p>5）对于strand-specifc，由于sample DNA中间感兴趣的DNA fragement只有first-strand。这个fragment先于P7杂交，然后合成second strand cDNA。然后测序的时候，read1是与P7上的second strand cDNA互补配对的。（first-strand cDNA &lt;- rc -&gt; P7上的second strand cDNA &lt;-rc-&gt;read1的序列）。故read1与first-strand cDNA的链相同，与RNA的strand链相反。反之，read2与RNA strand的链相同。</p>
+
+<p><img src="/images/Blog5_RNAseq_hiseq2000.adaptor3.jpg" alt="hiseq2000-adaptor3"></p>
+
+<p><a href="http://onetipperday.blogspot.com/2013/12/illumina-hiseq2000-adaptor-and.html">http://onetipperday.blogspot.com/2013/12/illumina-hiseq2000-adaptor-and.html</a></p>
+
+<p><img src="/images/Blog5_RNAseq_linearization.jpg" alt="linearization"></p>
+
+<p><a href="http://skatebase.org/sites/skatebase.org/files/workshops/W1_IntroIlluminaNGS.pdf">http://skatebase.org/sites/skatebase.org/files/workshops/W1_IntroIlluminaNGS.pdf</a></p>
+
+<h2>5、tophat中output的bam文件中有一个tag XS是错的</h2>
+
+<p>tophat输出的bam文件的attribute tag中有一个XS是指示RNA所在的strand的。但是很多人都发现了错误。而且Encode还写了<a href="https://github.com/ENCODE-DCC/long-rna-seq-pipeline/blob/e0ed26ac18f15422fe320add46b60159647eb838/DAC/tophat_bam_xsA_tag_fix.pl">一个perl脚本</a>来修改XS tag。也有人说XS主要是根据splite site的序列判断的。XS: &quot;+&quot; for GT-AG and &quot;-&quot; for CT-AC。另外，因为cufflinks是需要XS的这个tag的，所以这个问题还需要再研究一下。</p>
+
+<h2>6、可以通过sam文件的第2列的flag来判断read的strand</h2>
+
+<p>sam flag可以指示该条read是read1（first in pair）还是read2（second in pair），或者比对到正链上（mate reverse strand）还是负链上（read reverse strand）。
+我其实也不懂得flag这个16进制，<a href="http://broadinstitute.github.io/picard/explain-flags.html">这有个网址</a>给了一个简单的软件，可以帮助计算。然后用samtools view -f或者-F就可以根据flag来筛选了。</p>
+
+<h2>7、参考资料：</h2>
+
+<p><a href="http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html">http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html</a></p>
+
+<p><a href="http://onetipperday.blogspot.com/2012/07/how-to-tell-which-library-type-to-use.html">http://onetipperday.blogspot.com/2012/07/how-to-tell-which-library-type-to-use.html</a></p>
+
+<p><a href="http://onetipperday.blogspot.com/2013/12/illumina-hiseq2000-adaptor-and.html">http://onetipperday.blogspot.com/2013/12/illumina-hiseq2000-adaptor-and.html</a></p>
+
+<p><a href="http://www.personal.psu.edu/iua1/courses/illumina-sequencing.html">http://www.personal.psu.edu/iua1/courses/illumina-sequencing.html</a></p>
+
+<p><a href="http://skatebase.org/sites/skatebase.org/files/workshops/W1_IntroIlluminaNGS.pdf">http://skatebase.org/sites/skatebase.org/files/workshops/W1_IntroIlluminaNGS.pdf</a></p>
+
+<p><a href="http://seqanswers.com/forums/showthread.php?t=9303">http://seqanswers.com/forums/showthread.php?t=9303</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>zjuwhw's blog</li>
+          <li><a href="mailto:zju_whw@163.com">zju_whw@163.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/zjuwhw"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">zjuwhw</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/zjuwhw"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">zjuwhw</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
