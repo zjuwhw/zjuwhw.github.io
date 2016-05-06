@@ -6,9 +6,94 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 May 2016 23:59:07 +0800</pubDate>
-    <lastBuildDate>Fri, 06 May 2016 23:59:07 +0800</lastBuildDate>
+    <pubDate>Sat, 07 May 2016 00:36:45 +0800</pubDate>
+    <lastBuildDate>Sat, 07 May 2016 00:36:45 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>IT行业缩写整理</title>
+        <description>&lt;h2 id=&quot;section&quot;&gt;职位&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;CEO: 首席执行官，Cheif Executive Officer&lt;/li&gt;
+  &lt;li&gt;CTO: 首席技术官，Cheif Technology Officer&lt;/li&gt;
+  &lt;li&gt;COO: 首席运营官，Cheif Operating Officer&lt;/li&gt;
+  &lt;li&gt;VP: 副总，Vice President&lt;/li&gt;
+  &lt;li&gt;BD: 商务，Business Development&lt;/li&gt;
+  &lt;li&gt;PM: 产品经理，Product Manager&lt;/li&gt;
+  &lt;li&gt;PD: 产品设计，Product Designer&lt;/li&gt;
+  &lt;li&gt;UED: User Experience Design&lt;/li&gt;
+  &lt;li&gt;FE: 前端，Front End&lt;/li&gt;
+  &lt;li&gt;RD: 研发, Research and Development&lt;/li&gt;
+  &lt;li&gt;QA: 测试, quality assurance&lt;/li&gt;
+  &lt;li&gt;UE: 用户体验, User Experience design&lt;/li&gt;
+  &lt;li&gt;OP: 运维, operations&lt;/li&gt;
+  &lt;li&gt;UI: 用户设计, User interface design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;常用&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;OKR: Objectives and Key Results&lt;/li&gt;
+  &lt;li&gt;KPI: Key Performance Indicator&lt;/li&gt;
+  &lt;li&gt;PRD: Product-Requirement-Document&lt;/li&gt;
+  &lt;li&gt;ETL: Extract, Transform and Load&lt;/li&gt;
+  &lt;li&gt;PR: Public Relationship&lt;/li&gt;
+  &lt;li&gt;PR: Pull request (on github)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;it&quot;&gt;IT&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;CPU: Central processing unit&lt;/li&gt;
+  &lt;li&gt;GPU: Graphics processing unit&lt;/li&gt;
+  &lt;li&gt;CLI: Cammand-line interface&lt;/li&gt;
+  &lt;li&gt;GUI: Graphical User Interface&lt;/li&gt;
+  &lt;li&gt;UI: User Interface&lt;/li&gt;
+  &lt;li&gt;API: Application Programming Interface&lt;/li&gt;
+  &lt;li&gt;MPI: Message Passing interface&lt;/li&gt;
+  &lt;li&gt;SDK: Software Development Kit&lt;/li&gt;
+  &lt;li&gt;JDK: Jave Development Kit&lt;/li&gt;
+  &lt;li&gt;JRE: Jave Runtime Environment&lt;/li&gt;
+  &lt;li&gt;JAR: Java Archive&lt;/li&gt;
+  &lt;li&gt;DB: database&lt;/li&gt;
+  &lt;li&gt;OPDS: Open Data Processing Service&lt;/li&gt;
+  &lt;li&gt;HDFS: Hadoop distributed file system&lt;/li&gt;
+  &lt;li&gt;ASF: Apache Software Foudation&lt;/li&gt;
+  &lt;li&gt;URL: Uniform Resource Locator&lt;/li&gt;
+  &lt;li&gt;URI: Uniform Resource Identifier&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;云计算&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;HaaS: Hardware as a Service&lt;/li&gt;
+  &lt;li&gt;IaaS: Infrastructure as a Service&lt;/li&gt;
+  &lt;li&gt;PaaS: Platform as a Service (such as Google’s AppEngine)&lt;/li&gt;
+  &lt;li&gt;SaaS: Software as a Service (such as Google docs, MS Office)&lt;/li&gt;
+  &lt;li&gt;AWS: Amazon Web Services
+    &lt;ul&gt;
+      &lt;li&gt;EC2: Elastic Compute Cloud&lt;/li&gt;
+      &lt;li&gt;S3: Simple Storage Service&lt;/li&gt;
+      &lt;li&gt;EBS: Elastic Block Storage&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Aliyun: 阿里云
+    &lt;ul&gt;
+      &lt;li&gt;OSS: Object Storage Service&lt;/li&gt;
+      &lt;li&gt;ECS: Elastic Compute Service&lt;/li&gt;
+      &lt;li&gt;RDS: Relational Database Service&lt;/li&gt;
+      &lt;li&gt;DiKu: Batch Compute&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;其他云服务商：Microsoft Azure, Google Compute Engine, Rightscale, Salesforce, EMC, Gigaspaces, 10gen, Datastax, Oracle, VMWare, Yahoo, Cloudera&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 May 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/notebook/2016/05/07/work-title.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/07/work-title.html</guid>
+        
+        
+        <category>notebook</category>
+        
+      </item>
     
       <item>
         <title>Python学习笔记</title>
