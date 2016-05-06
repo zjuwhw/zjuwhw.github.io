@@ -64,52 +64,75 @@
   <div class="post-content" itemprop="articleBody">
     <p>注：本文为git的学习笔记，全部内容来自《<a href="https://git-scm.com/book/en/v2">pro git</a>》</p>
 
-<h2>Chapter 1: Getting Started</h2>
-<div class="highlight"><pre><code class="language-" data-lang="">配置文件
+<h2 id="chapter-1-getting-started">Chapter 1: Getting Started</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>配置文件
 /etc/gitconfig
 ~/.gitconfig or ~/.config/git/config
 .git/config
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#全局设置
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>#全局设置
 git config --global core.editor vim
 #局部设置
 git config --local user.name "name"
 git config --local user.email "email"
 #查看设置
 git config --list
-</code></pre></div>
-<h2>Chapter 2: Git Basics</h2>
-<div class="highlight"><pre><code class="language-" data-lang="">#Add file contents to the index
+</code></pre>
+</div>
+
+<h2 id="chapter-2-git-basics">Chapter 2: Git Basics</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>#Add file contents to the index
 git add filename
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#Record changes to the repository
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#Record changes to the repository
 git commit #打开文本编辑器
 git commit -m "your text"
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#克隆到本地
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#克隆到本地
 git clone https://github.com/zjuwhw/test-repo
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#查看状态
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#查看状态
 #-untracted
 #-tracked: unmodified, modified, staged
 git status
 git status -s #简短显示
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#忽略跟踪文件或文件夹".gitignore"
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#忽略跟踪文件或文件夹".gitignore"
 $cat .gitignore
 *.a
 *.o
 *.[ao] #以上两行可以利用正则合并成这一行
 build/ #忽略文件夹
 doc/**/*.pdf
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#查看区别
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#查看区别
 git diff
 git diff --staged
 git diff --cached
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#不再跟踪文件
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#不再跟踪文件
 git rm filename
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#重命名
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#重命名
 git mv old_filename new_filename
 #相当于
 mv old_filename new_filename
 git rm old_filename
 git add new_filename
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#查阅历史
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#查阅历史
 git log
 git log -p #显示不同
 git log -n #显示几个
@@ -119,74 +142,87 @@ git log --pretty=format: "%h %an %ar %s" #按照特定格式显示
 git log --graph
 git log --since=2.weeks
 git log --since="2008-10-01"
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#git log的format参数支持的特定格式
-</code></pre></div>
-<table><thead>
-<tr>
-<th style="text-align: left">Option</th>
-<th style="text-align: left">Descripton of Output</th>
-<th style="text-align: left">Option</th>
-<th style="text-align: left">Descripton of Output</th>
-</tr>
-</thead><tbody>
-<tr>
-<td style="text-align: left">%H</td>
-<td style="text-align: left">commit hash</td>
-<td style="text-align: left">%h</td>
-<td style="text-align: left">abbreviated commit hash</td>
-</tr>
-<tr>
-<td style="text-align: left">%T</td>
-<td style="text-align: left">tree hash</td>
-<td style="text-align: left">%t</td>
-<td style="text-align: left">abbreviated tree hash</td>
-</tr>
-<tr>
-<td style="text-align: left">%P</td>
-<td style="text-align: left">parent hashes</td>
-<td style="text-align: left">%p</td>
-<td style="text-align: left">abbreviated parent hashes</td>
-</tr>
-<tr>
-<td style="text-align: left">%an</td>
-<td style="text-align: left">author name</td>
-<td style="text-align: left">%ae</td>
-<td style="text-align: left">author email</td>
-</tr>
-<tr>
-<td style="text-align: left">%ad</td>
-<td style="text-align: left">author date</td>
-<td style="text-align: left">%ar</td>
-<td style="text-align: left">author data, relative</td>
-</tr>
-<tr>
-<td style="text-align: left">%cn</td>
-<td style="text-align: left">committer name</td>
-<td style="text-align: left">%ce</td>
-<td style="text-align: left">committer email</td>
-</tr>
-<tr>
-<td style="text-align: left">%cd</td>
-<td style="text-align: left">committer date</td>
-<td style="text-align: left">%cr</td>
-<td style="text-align: left">committer data, relative</td>
-</tr>
-<tr>
-<td style="text-align: left">%s</td>
-<td style="text-align: left">subject</td>
-<td style="text-align: left"></td>
-<td style="text-align: left"></td>
-</tr>
-</tbody></table>
-<div class="highlight"><pre><code class="language-" data-lang="">#remote
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#git log的format参数支持的特定格式
+</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Option</th>
+      <th style="text-align: center">Descripton of Output</th>
+      <th style="text-align: center">Option</th>
+      <th style="text-align: right">Descripton of Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">%H</td>
+      <td style="text-align: center">commit hash</td>
+      <td style="text-align: center">%h</td>
+      <td style="text-align: right">abbreviated commit hash</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">%T</td>
+      <td style="text-align: center">tree hash</td>
+      <td style="text-align: center">%t</td>
+      <td style="text-align: right">abbreviated tree hash</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">%P</td>
+      <td style="text-align: center">parent hashes</td>
+      <td style="text-align: center">%p</td>
+      <td style="text-align: right">abbreviated parent hashes</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">%an</td>
+      <td style="text-align: center">author name</td>
+      <td style="text-align: center">%ae</td>
+      <td style="text-align: right">author email</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">%ad</td>
+      <td style="text-align: center">author date</td>
+      <td style="text-align: center">%ar</td>
+      <td style="text-align: right">author data, relative</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">%cn</td>
+      <td style="text-align: center">committer name</td>
+      <td style="text-align: center">%ce</td>
+      <td style="text-align: right">committer email</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">%cd</td>
+      <td style="text-align: center">committer date</td>
+      <td style="text-align: center">%cr</td>
+      <td style="text-align: right">committer data, relative</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">%s</td>
+      <td style="text-align: center">subject</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>#remote
 git remote
 git remote -v
 git remote add origin https://github.com/name/repo.git
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">git fetch
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>git fetch
 git push origin master
-</code></pre></div>
-<h2>Chapter 3: Git Branching</h2>
-<div class="highlight"><pre><code class="language-" data-lang="">#查看branch
+</code></pre>
+</div>
+
+<h2 id="chapter-3-git-branching">Chapter 3: Git Branching</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>#查看branch
 git branch
 #新建branch
 git branch newbranch
@@ -194,19 +230,27 @@ git branch newbranch
 git checkout newbranch
 #新建并切换branch
 git checkout -b newbranch
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#log中查看branch信息
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#log中查看branch信息
 git log --decorate
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#合并一个分支
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#合并一个分支
 git checkout master
 git merge issue#2940
 #删除一个分支
 git branch -d issue#2940
 #删除一个远端的分支
 git push origin --delete issue#2940
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">#查看merged或没有merged的分支
+</code></pre>
+</div>
+<div class="highlighter-rouge"><pre class="highlight"><code>#查看merged或没有merged的分支
 git branch --merged
 git branch --no-merged
-</code></pre></div>
+</code></pre>
+</div>
+
   </div>
 
 </article>

@@ -92,7 +92,7 @@ git log --since="2008-10-01"
 ```
 
 |Option|Descripton of Output|Option|Descripton of Output|
-|:--|:--|:--|:--|
+|:--|:--:|:--:|--:|
 |%H|commit hash|%h|abbreviated commit hash
 |%T|tree hash|%t|abbreviated tree hash
 |%P|parent hashes|%p|abbreviated parent hashes
@@ -101,6 +101,8 @@ git log --since="2008-10-01"
 |%cn|committer name|%ce|committer email
 |%cd|committer date|%cr|committer data, relative
 |%s|subject
+
+
 ```
 #remote
 git remote
