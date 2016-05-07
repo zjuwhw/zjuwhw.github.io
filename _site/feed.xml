@@ -6,8 +6,8 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 May 2016 00:36:45 +0800</pubDate>
-    <lastBuildDate>Sat, 07 May 2016 00:36:45 +0800</lastBuildDate>
+    <pubDate>Sun, 08 May 2016 00:14:03 +0800</pubDate>
+    <lastBuildDate>Sun, 08 May 2016 00:14:03 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -59,6 +59,10 @@
   &lt;li&gt;ASF: Apache Software Foudation&lt;/li&gt;
   &lt;li&gt;URL: Uniform Resource Locator&lt;/li&gt;
   &lt;li&gt;URI: Uniform Resource Identifier&lt;/li&gt;
+  &lt;li&gt;DOM: Document Object Model&lt;/li&gt;
+  &lt;li&gt;SSL: Secure Sockets Layer&lt;/li&gt;
+  &lt;li&gt;TLS: Transport Layer Security&lt;/li&gt;
+  &lt;li&gt;GCC: GNU Compiler Collection&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;section-2&quot;&gt;云计算&lt;/h2&gt;
@@ -86,9 +90,163 @@
 
 &lt;p&gt;其他云服务商：Microsoft Azure, Google Compute Engine, Rightscale, Salesforce, EMC, Gigaspaces, 10gen, Datastax, Oracle, VMWare, Yahoo, Cloudera&lt;/p&gt;
 </description>
-        <pubDate>Sat, 07 May 2016 00:00:00 +0800</pubDate>
+        <pubDate>Sat, 07 May 2016 08:12:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/05/07/work-title.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/07/work-title.html</guid>
+        
+        
+        <category>notebook</category>
+        
+      </item>
+    
+      <item>
+        <title>HTML&amp;CSS学习笔记</title>
+        <description>&lt;p&gt;注：本文为Front-End技术HTML和CSS的学习笔记，内容来自图书&lt;a href=&quot;https://book.douban.com/subject/6585090/&quot;&gt;《HTML&amp;amp;CSS: design and build websites》&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;1&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;web browser&lt;/li&gt;
+  &lt;li&gt;web server&lt;/li&gt;
+  &lt;li&gt;web hosting&lt;/li&gt;
+  &lt;li&gt;devices&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;2&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;small website: HTML + CSS&lt;/li&gt;
+  &lt;li&gt;larger website: HTML + CSS produced by
+    &lt;ul&gt;
+      &lt;li&gt;content management system (CMS)&lt;/li&gt;
+      &lt;li&gt;blogging tools&lt;/li&gt;
+      &lt;li&gt;e-commerce software&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;more complext website:
+    &lt;ul&gt;
+      &lt;li&gt;database&lt;/li&gt;
+      &lt;li&gt;programming languages: PHP, ASP.Net, Java or Ruby&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;3&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Internet Service Provider (ISP)&lt;/li&gt;
+  &lt;li&gt;Domain Name System (DNS)&lt;/li&gt;
+  &lt;li&gt;contact the web server via IP&lt;/li&gt;
+  &lt;li&gt;the web server sends the page&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;elements: &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; stands for paragraph&lt;/li&gt;
+  &lt;li&gt;two tags: opening tag, closing tag&lt;/li&gt;
+  &lt;li&gt;atrributes: a name and a value, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;lang=&quot;en-us&quot;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;body&gt;, &lt;head&gt; &amp;amp; &lt;title&gt;
+&lt;/title&gt;&lt;/head&gt;&lt;/body&gt;
+  &lt;/li&gt;
+  &lt;li&gt;HTML: HyperText Markup Language&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 07 May 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/notebook/2016/05/07/HTML-CSS-notebook.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/07/HTML-CSS-notebook.html</guid>
+        
+        
+        <category>notebook</category>
+        
+      </item>
+    
+      <item>
+        <title>Coursera-Frontend学习笔记</title>
+        <description>&lt;p&gt;注：本文为Front-End技术HTML，CSS和JavaScript的学习笔记，内容来自Coursera课程&lt;a href=&quot;https://www.coursera.org/learn/html-css-javascript-for-web-developers/&quot;&gt;《HTML, CSS, and JavaScript for Web Developers》&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;p {
+	color: blue;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; is Selector&lt;/li&gt;
+  &lt;li&gt;‘color: blue;’ is Declaration&lt;/li&gt;
+  &lt;li&gt;‘color’ is Property&lt;/li&gt;
+  &lt;li&gt;‘blue’ is Value&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* element selector */
+p {
+	color: blue;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: green;
+	opacity: .6;
+}
+
+
+/* class selector */
+.blue {
+	color: blue;
+}
+
+&amp;lt;p class = &quot;blue&quot;&amp;gt; ... &amp;lt;/p&amp;gt;
+&amp;lt;div class = &quot;blue&quot;&amp;gt; ... &amp;lt;/div&amp;gt;
+
+
+/* id selector */
+#name {
+	color: blue;
+}
+
+&amp;lt;p id = &quot;name&quot;&amp;gt; ... &amp;lt;/p&amp;gt;
+
+/* grouping selectors */
+div, .blue {
+	color: blue;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;combing selectors&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* element with class selector */
+p.big {
+	font-size: 20px;
+}
+
+&amp;lt;p class = &quot;big&quot;&amp;gt; ... &amp;lt;/p&amp;gt;
+
+
+/* child selector */
+article &amp;gt; p {
+	color: blue;
+}
+
+&amp;lt;article&amp;gt;
+	&amp;lt;p&amp;gt;  ... &amp;lt;/p&amp;gt;
+&amp;lt;/article&amp;gt;
+
+
+/* Descendant selector */
+article p {
+	color: blue;
+}
+
+&amp;lt;article&amp;gt;
+	&amp;lt;div&amp;gt;&amp;lt;p&amp;gt; ... &amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/article&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 07 May 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/notebook/2016/05/07/FrontEnd-notebook.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/07/FrontEnd-notebook.html</guid>
         
         
         <category>notebook</category>

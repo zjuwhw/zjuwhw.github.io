@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "IT行业缩写整理"
-date:   2016-05-07
+date:   2016-05-07 00:12:00
 categories: notebook
 ---
 
@@ -47,6 +47,10 @@ categories: notebook
 - ASF: Apache Software Foudation
 - URL: Uniform Resource Locator
 - URI: Uniform Resource Identifier
+- DOM: Document Object Model
+- SSL: Secure Sockets Layer
+- TLS: Transport Layer Security
+- GCC: GNU Compiler Collection
 
 ## 云计算
 - HaaS: Hardware as a Service
