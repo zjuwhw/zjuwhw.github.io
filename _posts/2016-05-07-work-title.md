@@ -51,6 +51,8 @@ categories: notebook
 - SSL: Secure Sockets Layer
 - TLS: Transport Layer Security
 - GCC: GNU Compiler Collection
+- env: environment
+- db: database
 
 ## 云计算
 - HaaS: Hardware as a Service

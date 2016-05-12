@@ -6,9 +6,81 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 May 2016 16:44:59 +0800</pubDate>
-    <lastBuildDate>Sun, 08 May 2016 16:44:59 +0800</lastBuildDate>
+    <pubDate>Thu, 12 May 2016 16:05:57 +0800</pubDate>
+    <lastBuildDate>Thu, 12 May 2016 16:05:57 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Linux</title>
+        <description>&lt;p&gt;注：本位为Linux系统的学习笔记，内容来自图书&lt;a href=&quot;https://book.douban.com/subject/2361237/&quot;&gt;《Beginning Linux Programming》&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;get-started&quot;&gt;Get Started&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unix: originally developed at Bell Laboratories, designed in the 1970s.&lt;/li&gt;
+  &lt;li&gt;Unix-like systems:
+    &lt;ul&gt;
+      &lt;li&gt;some available commercially: IBM’s AIX, HP’s HP-UX, and Sun’s Solaris&lt;/li&gt;
+      &lt;li&gt;some available for free: FreeBSD and Linux&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Linux: freely distributed implementation of a UNIX-like kernel.&lt;/li&gt;
+  &lt;li&gt;GNU: stands for the recursive GNU’s Not UNIX&lt;/li&gt;
+  &lt;li&gt;GPL: GNU General Public License&lt;/li&gt;
+  &lt;li&gt;softwares from the GNU project under GPL:
+    &lt;ul&gt;
+      &lt;li&gt;GCC: The GNU Compiler Collection, containing the GNU C compiler&lt;/li&gt;
+      &lt;li&gt;G++: A C++ compiler, included as part of GCC&lt;/li&gt;
+      &lt;li&gt;GDB: A source code-level debugger&lt;/li&gt;
+      &lt;li&gt;GNU maker: A version of UNIX make&lt;/li&gt;
+      &lt;li&gt;Bison: A parser generator compatible with UNIX yacc&lt;/li&gt;
+      &lt;li&gt;bash: A command shell&lt;/li&gt;
+      &lt;li&gt;GNU Emacs: A text editor and environment&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;/bin, /usr/bin, /usr/local/bin&lt;/li&gt;
+      &lt;li&gt;/sbin, /usr/sbin (system administration program)&lt;/li&gt;
+      &lt;li&gt;/opt (optional operating system components and third-party applications)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Header Files
+    &lt;ul&gt;
+      &lt;li&gt;provide definitions of constants and declarations for system and library function calls&lt;/li&gt;
+      &lt;li&gt;/usr/include&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Library Files
+    &lt;ul&gt;
+      &lt;li&gt;collections of precompiled functions&lt;/li&gt;
+      &lt;li&gt;standard system libaries: /lib, /usr/lib&lt;/li&gt;
+      &lt;li&gt;.a for traditional, static libraries&lt;/li&gt;
+      &lt;li&gt;.so for shared libraries&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;gcc
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-o&lt;/code&gt; write output to &lt;file&gt;&lt;/file&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-I&lt;/code&gt; use header files in subdirectories or nonstandard places&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-l&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-L&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Static libraries&lt;/li&gt;
+  &lt;li&gt;Shared Libraries&lt;/li&gt;
+  &lt;li&gt;Getting help: &lt;code class=&quot;highlighter-rouge&quot;&gt;man gcc&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;info gcc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;shell-programming&quot;&gt;Shell Programming&lt;/h2&gt;
+
+</description>
+        <pubDate>Mon, 09 May 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/05/09/Linux.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/05/09/Linux.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>中国伤医事件的文献翻译</title>
@@ -171,6 +243,8 @@ seems likely that only systematic change can reverse this trend.&lt;/p&gt;
   &lt;li&gt;SSL: Secure Sockets Layer&lt;/li&gt;
   &lt;li&gt;TLS: Transport Layer Security&lt;/li&gt;
   &lt;li&gt;GCC: GNU Compiler Collection&lt;/li&gt;
+  &lt;li&gt;env: environment&lt;/li&gt;
+  &lt;li&gt;db: database&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;section-2&quot;&gt;云计算&lt;/h2&gt;
@@ -1005,205 +1079,6 @@ git branch --no-merged
         <pubDate>Wed, 16 Sep 2015 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2015/09/16/MITx_computer_science_and_programming_using_Python.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2015/09/16/MITx_computer_science_and_programming_using_Python.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Edx-biomanufacturing学习笔记</title>
-        <description>&lt;h2 id=&quot;table-of-content&quot;&gt;Table of Content&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#unit1&quot;&gt;Unit 1 Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#unit2&quot;&gt;Unit 2 Protein Structure and Examples&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;a-nameunit1a-unit-1-introduction&quot;&gt;&lt;a name=&quot;unit1&quot;&gt;&lt;/a&gt; Unit 1 Introduction&lt;/h1&gt;
-
-&lt;h2 id=&quot;section-1-introduction&quot;&gt;Section 1 Introduction&lt;/h2&gt;
-
-&lt;h3 id=&quot;a-why-biologic-drugs-are-important&quot;&gt;1.1A Why Biologic Drugs are important?&lt;/h3&gt;
-
-&lt;h3 id=&quot;b-what-to-expect-for-the-course&quot;&gt;1.1B What to expect for the course&lt;/h3&gt;
-
-&lt;h3 id=&quot;what-are-biologic-drugs&quot;&gt;1.2 What are biologic drugs?&lt;/h3&gt;
-
-&lt;p&gt;In the FDA definition, biologic drugs: Proteins, Vaccines, Blood components, Cell therapies, Natural hormones, Pland/animal extracts&lt;/p&gt;
-
-&lt;p&gt;Biologics manufactured using recombinant DNA technology: Replace missing function, Selective, Fewer off-target effects&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2-using-cells-for-manufacturing&quot;&gt;Section 2 Using Cells for manufacturing&lt;/h2&gt;
-
-&lt;p&gt;###1.3 An introduction to the history of modern biomanufacturing&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/1441869699042.png&quot; alt=&quot;timeline&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;1675, Antonie van Leeuwenhoek, Netherlands, mciroscope&lt;/p&gt;
-
-&lt;p&gt;1850, Louis Pasteur, France, alcoholic fermentation (yeast: alcohol; bacteria: lactic acid)&lt;/p&gt;
-
-&lt;h3 id=&quot;using-cells-to-manufacture-chemicals&quot;&gt;1.4 USING CELLS TO MANUFACTURE CHEMICALS&lt;/h3&gt;
-
-&lt;p&gt;1915, Wilhelm Connstein and Karl Ludecke, together with Carl Alexander Neuberg and Elsa Reinfurth, German, used yeast to manufacture glycerol (甘油).&lt;/p&gt;
-
-&lt;p&gt;1904, Chaim Weizmann, UK,  isolated the bacterium, Clostridium acetobutylicum, which could ferment grain to produce butanol (丁醇).&lt;/p&gt;
-
-&lt;p&gt;(Cell manufacture chemicals; Aseptic processing = better control)&lt;/p&gt;
-
-&lt;h3 id=&quot;using-cells-to-manufacture-penicillin-and-vaccines&quot;&gt;1.5 USING CELLS TO MANUFACTURE PENICILLIN AND VACCINES&lt;/h3&gt;
-
-&lt;p&gt;1928, Alexander Fleming, London, identified penicillin, which killed or prevented the growth of a number of different bacterial species.&lt;/p&gt;
-
-&lt;p&gt;1939, Howard Florey and Ernst Boris Chain succeeded in isolating penicillin.&lt;/p&gt;
-
-&lt;p&gt;1957, Jonas Salk,  the production of the polio (骨髓灰质炎) vaccine was the first time mammalian cells were used in manufacturing.&lt;/p&gt;
-
-&lt;p&gt;(First, aseptic processing provides better control of the culture and its products.)&lt;/p&gt;
-
-&lt;p&gt;(Second, microorganisms can produce safe and effective drugs.)&lt;/p&gt;
-
-&lt;p&gt;(Third, genetic mutation and selection can be used to improve cellular productivity.)&lt;/p&gt;
-
-&lt;p&gt;(And fourth, mammalian cells can produce therapeutics.)&lt;/p&gt;
-
-&lt;p&gt;##Section 3 Protein as therapeutics&lt;/p&gt;
-
-&lt;p&gt;###1.6 THE HISTORY OF PROTEINS AS THERAPEUTICS: ANTI-TOXINS&lt;/p&gt;
-
-&lt;p&gt;1894, Emil von Behring, German, invented the diphtheria (白喉) anti-toxin&lt;/p&gt;
-
-&lt;h3 id=&quot;the-discovery-and-isolation-of-insulin&quot;&gt;1.7 THE DISCOVERY AND ISOLATION OF INSULIN&lt;/h3&gt;
-
-&lt;p&gt;1989, Oscar Minkowski and Joseph von Mering found unknown substance in the pancreas, which we now know is insulin, was responsible for regulating sugar levels in the body&lt;/p&gt;
-
-&lt;p&gt;1920, Frederick Grant Banting and Charles Herbert Best extracted what they hoped was insulin from the pancreas of dogs&lt;/p&gt;
-
-&lt;p&gt;(Challenges: 1. Different sequence; 2. Supply)&lt;/p&gt;
-
-&lt;h3 id=&quot;isolation-of-protein-therapeutics-from-plasma&quot;&gt;1.8 ISOLATION OF PROTEIN THERAPEUTICS FROM PLASMA&lt;/h3&gt;
-
-&lt;p&gt;1940, Edwin J. Cohn, began to work on isolating Albumin (白蛋白) from blood plasma through a process called fractionation.&lt;/p&gt;
-
-&lt;p&gt;1970s, factor III replaced albumin as the most profitable product in the plasma fractionation industry.&lt;/p&gt;
-
-&lt;p&gt;(Challenges: 1. Supply; 2. Contamination)&lt;/p&gt;
-
-&lt;p&gt;##Section 4 Intro to modern biomanufacturing&lt;/p&gt;
-
-&lt;h3 id=&quot;the-birth-of-modern-biomanufacturing&quot;&gt;1.9 THE BIRTH OF MODERN BIOMANUFACTURING&lt;/h3&gt;
-
-&lt;p&gt;1973, the recombinant DNA technology&lt;/p&gt;
-
-&lt;p&gt;1979 ~ 1981, Genzyme (beta-glucoserebrosidase purified from human placenta, Ceredase, Cerezyme), Genentech (first human insulin produced using recombinant DNA technology)&lt;/p&gt;
-
-&lt;p&gt;###1.10 BIOMANUFACTURING IS THE VEHICLE TO DELIVER HIGH-QUALITY BIOLOGICS&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/1441870976573.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;a-nameunit2a-unit-2-protein-structure--examples&quot;&gt;&lt;a name=&quot;unit2&quot;&gt;&lt;/a&gt; Unit 2 Protein Structure &amp;amp; Examples&lt;/h1&gt;
-
-&lt;h2 id=&quot;section-1-introduction-to-protein-structure&quot;&gt;Section 1 Introduction to Protein Structure&lt;/h2&gt;
-
-&lt;h3 id=&quot;introduction-to-biologic-drugs&quot;&gt;2.1 Introduction to biologic drugs&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;small molecules&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Recombinant biologics&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Aspirin, Penicillin, Ibuprofen&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;MAb (e.g. Rituximab), insulin&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;100 - 900 Da&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;5,000 - 250,000 Da&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Chemical systhesis&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Cellular synthesis&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Simple analysis&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Complex analysis&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;absorbed through GI tract&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;parenteral: bypass GI tract&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;mimic compounds; block pathways; unintended interatcions&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;specific; few off-target effects&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Drug targets:
-    &lt;ol&gt;
-      &lt;li&gt;Receptor proteins;&lt;/li&gt;
-      &lt;li&gt;DNA;&lt;/li&gt;
-      &lt;li&gt;RNA&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Reduce biologic effectiveness:
-    &lt;ol&gt;
-      &lt;li&gt;misfolding;&lt;/li&gt;
-      &lt;li&gt;aggregate&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Parenteral (不经肠的):
-    &lt;ol&gt;
-      &lt;li&gt;intravenous (静脉) injection;&lt;/li&gt;
-      &lt;li&gt;intramuscular (肌肉) injection;&lt;/li&gt;
-      &lt;li&gt;subcutaneous (皮下) injection;&lt;/li&gt;
-      &lt;li&gt;inhalation (吸入);&lt;/li&gt;
-      &lt;li&gt;mucosal (粘膜) transmission&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Categories of biotherapeutics:
-    &lt;ol&gt;
-      &lt;li&gt;Enzymatic or regulatory activity (&lt;em&gt;e.g.&lt;/em&gt; Insulin; Imiglucerase for Gaucher’s disease; Erythropoietin for stimulating production of  RBCs and anemia (贫血));&lt;/li&gt;
-      &lt;li&gt;Special targeting activity (&lt;em&gt;e.g.&lt;/em&gt; Rituximab for B-cell non-Hodgkin’s lymphomas (淋巴瘤));&lt;/li&gt;
-      &lt;li&gt;Protein vaccines (&lt;em&gt;e.g.&lt;/em&gt; Hepatitis (肝炎) B; Influenza (流感); Human papillomavirus)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;###2.2 Introduction to amino acids
-- 20 amino acids
-1. Polar, Uncharged: Serine (Ser, S); Threonine (Thr, T); Asparagine (Asn, N); Glutamine (Gln, Q)
-2. Polar, negatively charged: Aspartic acide (Asp, D); Glutamic acid (Gln, Q)
-3. Polar, positively charged: Lysinee (Lys, K); Arginine (Arg, R); Histidine (His, H)
-4. Hydrophobic: Alanine (Ala, A); Valine (Val, V); Methionine (Met, M); Leucine (Leu, L); Isoleucine (Ile, I); Phenylalanine (Phe, F); Tyrosine (Tyr, Y); Tryptophan (Try, W)
-5. Special: Glycine (Gly, G); Cysteine (Cys, C); Proline (Pro, P)
-|Peptides|Proteins|
-| :——– | ——–:|
-|&amp;lt;= 40 amino acids| &amp;gt; 40 amino acids|&lt;/p&gt;
-
-&lt;p&gt;###2.3 Introduction to Protein Structure
-- Protein Structure:
-1. Primary structure: the amino acid sequence
-2. Secondary structure: interactions among backbone atoms (α-helix, β-sheet, loop) (hydrogen bone between backbones)
-3. Tertiary structure: interactions among all atoms in 3D space (bisulfide bonds of cysteines, electrostatic interactions - ionic bonds bewteen opposite charges, hydrogen bone between threonine with water, hydrophobic interactions)
-4. Quaternary structure: arrangement of multiple protein subunits (monomer, dimer, hexamer)&lt;/p&gt;
-
-&lt;p&gt;###2.4 Post translational modifications (PTMs)
-- Types of PTMs:
-1. Glycosylation (糖基化)
-2. Deamidation (脱酰胺)
-3. Oxidation
-4. Acylation (乙酰化)
-5. PEGylation (PEG, Polyethylene Glycol, 聚乙二醇)&lt;/p&gt;
-
-&lt;p&gt;Notes for the &lt;a href=&quot;https://www.edx.org/&quot;&gt;edx&lt;/a&gt; course &lt;a href=&quot;https://www.edx.org/course/making-biologic-medicines-patients-mitx-10-03x&quot;&gt;Making Biologic Medicines for Patients: The Principles of Biopharmaceutical Manufacturing&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 14 Sep 2015 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2015/09/14/MITx_biomanufacturing.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2015/09/14/MITx_biomanufacturing.html</guid>
         
         
       </item>
