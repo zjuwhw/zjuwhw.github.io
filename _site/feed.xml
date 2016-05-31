@@ -6,12 +6,343 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 May 2016 16:05:57 +0800</pubDate>
-    <lastBuildDate>Thu, 12 May 2016 16:05:57 +0800</lastBuildDate>
+    <pubDate>Tue, 31 May 2016 22:52:58 +0800</pubDate>
+    <lastBuildDate>Tue, 31 May 2016 22:52:58 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>Linux</title>
+        <title>有用的links</title>
+        <description>&lt;h2 id=&quot;bioinformatics&quot;&gt;Bioinformatics&lt;/h2&gt;
+
+&lt;h3 id=&quot;blogs&quot;&gt;Blogs&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;陈国强： http://blog.shsmu-path.com.cn/&lt;/li&gt;
+  &lt;li&gt;薛宇： http://blog.sciencenet.cn/home.php?mod=space&amp;amp;uid=404304&lt;/li&gt;
+  &lt;li&gt;饶毅： http://blog.sciencenet.cn/?2237&lt;/li&gt;
+  &lt;li&gt;雁起平沙： http://yanping.me/cn/&lt;/li&gt;
+  &lt;li&gt;萧之逸： http://lwzhanghz.blog.163.com/blog/#m=0&lt;/li&gt;
+  &lt;li&gt;云之南： http://fhqdddddd.blog.163.com/&lt;/li&gt;
+  &lt;li&gt;陈连福： http://www.hzaumycology.com/chenlianfu_blog/&lt;/li&gt;
+  &lt;li&gt;鲁白： http://blog.sciencenet.cn/home.php?mod=space&amp;amp;uid=393255&lt;/li&gt;
+  &lt;li&gt;YGC： http://ygc.name/&lt;/li&gt;
+  &lt;li&gt;yixf：http://yixf.name/&lt;/li&gt;
+  &lt;li&gt;azalea： http://azaleasays.com/&lt;/li&gt;
+  &lt;li&gt;David Langenberger: http://www.davidlangenberger.info/&lt;/li&gt;
+  &lt;li&gt;Jiang Li： https://sites.google.com/site/riverlee2008/&lt;/li&gt;
+  &lt;li&gt;Heng Li: http://lh3lh3.users.sourceforge.net/  http://lh3.github.io/&lt;/li&gt;
+  &lt;li&gt;onetipperday： http://onetipperday.blogspot.com/&lt;/li&gt;
+  &lt;li&gt;Bergman Lab: http://bergmanlab.ls.manchester.ac.uk/?page_id=45&lt;/li&gt;
+  &lt;li&gt;Ewan’s blog: http://genomeinformatician.blogspot.com/&lt;/li&gt;
+  &lt;li&gt;Xiaole Shirley Liu’s Blog Site: http://www.longwoodgenomics.org/&lt;/li&gt;
+  &lt;li&gt;Yokofakun: http://plindenbaum.blogspot.com/&lt;/li&gt;
+  &lt;li&gt;Puriney: http://joseph.yy.blog.163.com/&lt;/li&gt;
+  &lt;li&gt;RNA-seq Bolg: http://www.rna-seqblog.com/&lt;/li&gt;
+  &lt;li&gt;Simply Statistics: http://simplystatistics.org/&lt;/li&gt;
+  &lt;li&gt;What You’re Doing Is Rahter Desperate: https://nsaunders.wordpress.com/&lt;/li&gt;
+  &lt;li&gt;Win-Vector Blog: http://www.win-vector.com/blog/&lt;/li&gt;
+  &lt;li&gt;Genomes Unzipped: http://genomesunzipped.org/&lt;/li&gt;
+  &lt;li&gt;MassGenomics: http://massgenomics.org/&lt;/li&gt;
+  &lt;li&gt;CoreGenomics: http://core-genomics.blogspot.com/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;softwares&quot;&gt;Softwares&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;ChIP-seq&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bwa：http://bio-bwa.sourceforge.net/&lt;/li&gt;
+  &lt;li&gt;bowtie: http://bowtie-bio.sourceforge.net/index.shtml&lt;/li&gt;
+  &lt;li&gt;MACS：http://liulab.dfci.harvard.edu/MACS/&lt;/li&gt;
+  &lt;li&gt;MACS2:  https://github.com/taoliu/MACS/&lt;/li&gt;
+  &lt;li&gt;SPP: http://compbio.med.harvard.edu/Supplements/ChIP-seq/&lt;/li&gt;
+  &lt;li&gt;HPeak：http://www.sph.umich.edu/csg/qin/HPeak/Readme.html&lt;/li&gt;
+  &lt;li&gt;meme-chip：http://meme.nbcr.net/meme/doc/meme-chip.html&lt;/li&gt;
+  &lt;li&gt;GimmeMotif: http://131.174.198.125/bioinfo/gimmemotifs/&lt;/li&gt;
+  &lt;li&gt;homer：http://biowhat.ucsd.edu/homer/&lt;/li&gt;
+  &lt;li&gt;CEAS:  http://liulab.dfci.harvard.edu/CEAS/&lt;/li&gt;
+  &lt;li&gt;STAMP: http://www.benoslab.pitt.edu/stamp/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;RNA-seq&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;tophat: http://tophat.cbcb.umd.edu/&lt;/li&gt;
+  &lt;li&gt;STAR: https://github.com/alexdobin/STAR&lt;/li&gt;
+  &lt;li&gt;HISAT: https://ccb.jhu.edu/software/hisat/index.shtml&lt;/li&gt;
+  &lt;li&gt;StringTie: http://www.ccb.jhu.edu/software/stringtie/&lt;/li&gt;
+  &lt;li&gt;RSeQC: http://rseqc.sourceforge.net/&lt;/li&gt;
+  &lt;li&gt;RNA-SeQC: http://www.broadinstitute.org/cancer/cga/rna-seqc&lt;/li&gt;
+  &lt;li&gt;Cufflinks: http://cufflinks.cbcb.umd.edu/&lt;/li&gt;
+  &lt;li&gt;Scripture: https://www.broadinstitute.org/software/scripture/&lt;/li&gt;
+  &lt;li&gt;HTSeq: http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html&lt;/li&gt;
+  &lt;li&gt;featurecount: http://bioinf.wehi.edu.au/featureCounts/&lt;/li&gt;
+  &lt;li&gt;GFold: http://web.tongji.edu.cn/~zhanglab/GFOLD/&lt;/li&gt;
+  &lt;li&gt;DESeq: http://bioconductor.org/packages/2.12/bioc/html/DESeq.html&lt;/li&gt;
+  &lt;li&gt;DESeq2: http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html&lt;/li&gt;
+  &lt;li&gt;DEGseq: http://bioinfo.au.tsinghua.edu.cn/software/degseq/&lt;/li&gt;
+  &lt;li&gt;DEXSeq: http://www.bioconductor.org/packages/release/bioc/html/DEXSeq.html&lt;/li&gt;
+  &lt;li&gt;eXpress: http://bio.math.berkeley.edu/eXpress/overview.html&lt;/li&gt;
+  &lt;li&gt;RSEM: http://deweylab.biostat.wisc.edu/rsem/&lt;/li&gt;
+  &lt;li&gt;MISO:  http://genes.mit.edu/burgelab/miso/&lt;/li&gt;
+  &lt;li&gt;MATS: http://rnaseq-mats.sourceforge.net/&lt;/li&gt;
+  &lt;li&gt;MMSEQ: http://bgx.org.uk/software/mmseq.html&lt;/li&gt;
+  &lt;li&gt;CIRCexplorer: https://github.com/YangLab/CIRCexplorer&lt;/li&gt;
+  &lt;li&gt;CIRCfinder: https://github.com/YangLab/CIRCfinder&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;WGS/WXS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GATK:  https://www.broadinstitute.org/gatk/&lt;/li&gt;
+  &lt;li&gt;MuTect: http://www.broadinstitute.org/cancer/cga/MuTect&lt;/li&gt;
+  &lt;li&gt;Pindel: http://gmt.genome.wustl.edu/packages/pindel/&lt;/li&gt;
+  &lt;li&gt;CREST:  http://www.ncbi.nlm.nih.gov/pubmed/21666668&lt;/li&gt;
+  &lt;li&gt;SomaticSniper: http://gmt.genome.wustl.edu/packages/somatic-sniper/index.html&lt;/li&gt;
+  &lt;li&gt;VarScan2: http://varscan.sourceforge.net/&lt;/li&gt;
+  &lt;li&gt;Strelka:  https://sites.google.com/site/strelkasomaticvariantcaller/&lt;/li&gt;
+  &lt;li&gt;JointSNVMix: https://code.google.com/p/joint-snv-mix/&lt;/li&gt;
+  &lt;li&gt;MutSig: https://www.broadinstitute.org/cancer/cga/mutsig&lt;/li&gt;
+  &lt;li&gt;InVEx: http://www.broadinstitute.org/cancer/cga/invex/&lt;/li&gt;
+  &lt;li&gt;Oncotator: http://www.broadinstitute.org/oncotator/&lt;/li&gt;
+  &lt;li&gt;copyCat:&lt;/li&gt;
+  &lt;li&gt;bradkDancer:&lt;/li&gt;
+  &lt;li&gt;SquareDancer:&lt;/li&gt;
+  &lt;li&gt;Tigra-SV:&lt;/li&gt;
+  &lt;li&gt;SciClone:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;SNP array&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;OncoSNP:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;microarray&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RMA:&lt;/li&gt;
+  &lt;li&gt;MAS5.0:&lt;/li&gt;
+  &lt;li&gt;GCRMA:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Common Tools&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;samtools: http://samtools.sourceforge.net/&lt;/li&gt;
+  &lt;li&gt;samstat: http://samstat.sourceforge.net/&lt;/li&gt;
+  &lt;li&gt;bedtools: http://www.broadinstitute.org/cancer/cga/rna-seqc&lt;/li&gt;
+  &lt;li&gt;bedops: https://code.google.com/p/bedops/&lt;/li&gt;
+  &lt;li&gt;Fastqc: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/&lt;/li&gt;
+  &lt;li&gt;Fastx_toolkit: http://hannonlab.cshl.edu/fastx_toolkit/&lt;/li&gt;
+  &lt;li&gt;trimmomatic: http://www.usadellab.org/cms/index.php?page=trimmomatic&lt;/li&gt;
+  &lt;li&gt;Picard: http://broadinstitute.github.io/picard/&lt;/li&gt;
+  &lt;li&gt;ucsc tools: http://hgdownload.cse.ucsc.edu/admin/exe/&lt;/li&gt;
+  &lt;li&gt;CIRCOS: http://mkweb.bcgsc.ca/circos&lt;/li&gt;
+  &lt;li&gt;SRAtoolkit: https://github.com/ncbi/sratoolkit&lt;/li&gt;
+  &lt;li&gt;Entrez Direct: http://www.ncbi.nlm.nih.gov/news/02-06-2014-entrez-direct-released/&lt;/li&gt;
+  &lt;li&gt;GenePattern: http://www.broadinstitute.org/cancer/software/genepattern/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bioinformatic-forum&quot;&gt;Bioinformatic forum:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Biostars: http://www.biostars.org/&lt;/li&gt;
+  &lt;li&gt;Seqanswers: http://seqanswers.com/&lt;/li&gt;
+  &lt;li&gt;links directory:http://bioinformatics.ca/links_directory/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;personal-website&quot;&gt;Personal website&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Hematology&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Daniel G Tenen: http://hsci.harvard.edu/people/daniel-g-tenen&lt;/li&gt;
+  &lt;li&gt;Ellen Rothenberg: http://www.bbe.caltech.edu/content/ellen-rothenberg&lt;/li&gt;
+  &lt;li&gt;James C. Mulloy: http://www.cincinnatichildrens.org/bio/m/james-mulloy/&lt;/li&gt;
+  &lt;li&gt;Constanze Bonifer: http://www.birmingham.ac.uk/staff/profiles/cancer/bonifer-constanze.aspx&lt;/li&gt;
+  &lt;li&gt;Bertie G?ttgens: http://www.stemcells.cam.ac.uk/researchers/principal-investigators/bertie-gottgens&lt;/li&gt;
+  &lt;li&gt;DongEr Zhang: http://labs.biology.ucsd.edu/zhang/&lt;/li&gt;
+  &lt;li&gt;Jinghui Zhang: http://www.stjude.org/stjude/v/index.jsp?vgnextoid=39254a82840f7210VgnVCM1000001e0215acRCRD&lt;/li&gt;
+  &lt;li&gt;Margaret A. Goodell: https://www.bcm.edu/research/labs/goodell/&lt;/li&gt;
+  &lt;li&gt;Robert G Roeder: http://www.rockefeller.edu/research/faculty/labheads/RobertRoeder/&lt;/li&gt;
+  &lt;li&gt;Stephen D. Nimer: http://uhealthsystem.com/doctors/profile/134105&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Genome Research&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Eric S. Lander: http://www.broadinstitute.org/history-leadership/scientific-leadership/core-members/eric-s-lander&lt;/li&gt;
+  &lt;li&gt;Alexander Stark: http://www.starklab.org/&lt;/li&gt;
+  &lt;li&gt;Yi Zhang: http://zhanglab.tch.harvard.edu/lab.htm&lt;/li&gt;
+  &lt;li&gt;Howard Chang: http://changlab.stanford.edu/&lt;/li&gt;
+  &lt;li&gt;John Stamatoyannopoulos: http://www.stamlab.org/&lt;/li&gt;
+  &lt;li&gt;Bin Ren:   http://bioinformatics-renlab.ucsd.edu/rentrac/&lt;/li&gt;
+  &lt;li&gt;Zhiping Weng: http://zlab.umassmed.edu/zlab/index.shtml&lt;/li&gt;
+  &lt;li&gt;Stunnenberg: http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&amp;amp;term=Stunnenberg+HG%5Bau%5D&amp;amp;dispmax=50&lt;/li&gt;
+  &lt;li&gt;Xiaole(Shirley) Liu: http://liulab.dfci.harvard.edu/&lt;/li&gt;
+  &lt;li&gt;Young Lab: http://younglab.wi.mit.edu/&lt;/li&gt;
+  &lt;li&gt;Wang Ting: http://wang.wustl.edu/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Computational Biologist&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yang Li: http://www.picb.ac.cn/rnomics/yanglab/&lt;/li&gt;
+  &lt;li&gt;Istvan Albert : http://www.personal.psu.edu/iua1/&lt;/li&gt;
+  &lt;li&gt;Xuegong Zhang:  http://bioinfo.au.tsinghua.edu.cn/member/xzhang/XZhang_Chinese.html&lt;/li&gt;
+  &lt;li&gt;Ao Ping: http://systemsbiology.sjtu.edu.cn/&lt;/li&gt;
+  &lt;li&gt;rafalab： http://rafalab.dfci.harvard.edu/&lt;/li&gt;
+  &lt;li&gt;Lior Pachter: https://math.berkeley.edu/~lpachter/index.html&lt;/li&gt;
+  &lt;li&gt;Cole Trapnell: http://cole-trapnell-lab.github.io/&lt;/li&gt;
+  &lt;li&gt;Steven Salzberg: http://salzberg-lab.org/&lt;/li&gt;
+  &lt;li&gt;Yarden Katz: http://www.mit.edu/~yarden/&lt;/li&gt;
+  &lt;li&gt;Wolfgang Huber: http://www.embl.de/research/units/genome_biology/huber/index.html&lt;/li&gt;
+  &lt;li&gt;Mike Snyder: http://snyderlab.stanford.edu/&lt;/li&gt;
+  &lt;li&gt;Wong Yong Wang: http://web.stanford.edu/group/wonglab/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;My lab&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;王侃侃：http://daoshi.shsmu.edu.cn/teacherInfo.jsp?code=M7000071&lt;/li&gt;
+  &lt;li&gt;方海： http://www.cs.bris.ac.uk/~hfang/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;journal&quot;&gt;Journal:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cell: http://www.cell.com/&lt;/li&gt;
+  &lt;li&gt;Science: http://www.sciencemag.org/&lt;/li&gt;
+  &lt;li&gt;Nature: http://www.nature.com/&lt;/li&gt;
+  &lt;li&gt;Blood: http://bloodjournal.hematologylibrary.org/&lt;/li&gt;
+  &lt;li&gt;Leukemia: http://www.nature.com/leu/index.html&lt;/li&gt;
+  &lt;li&gt;PNAS: http://www.pnas.org/&lt;/li&gt;
+  &lt;li&gt;NEJM: http://www.nejm.org/&lt;/li&gt;
+  &lt;li&gt;Genome Research: http://genome.cshlp.org/&lt;/li&gt;
+  &lt;li&gt;Nature biotechnology: http://www.nature.com/nbt/index.html&lt;/li&gt;
+  &lt;li&gt;Nature Review Genetics: http://www.nature.com/nrg/index.html&lt;/li&gt;
+  &lt;li&gt;Nature Review Cancer: http://www.nature.com/nrc/index.html&lt;/li&gt;
+  &lt;li&gt;PLOS Computational Biology: http://www.ploscompbiol.org/&lt;/li&gt;
+  &lt;li&gt;Annual Review: http://www.annualreviews.org/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;courses&quot;&gt;Courses&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;龙星计划2013-翁志萍：http://www.youku.com/playlist_show/id_19532648.html&lt;/li&gt;
+  &lt;li&gt;Statistical methods and data mining in microarray analysis-George C. Tseng: http://www.biostat.pitt.edu/biost2055/11/&lt;/li&gt;
+  &lt;li&gt;Analyzing High Throughput Sequencing Data-Istvan Albert: http://www.personal.psu.edu/iua1/courses/courselist.html&lt;/li&gt;
+  &lt;li&gt;Applied Bioinformatics-Istvan Albert: http://www.personal.psu.edu/iua1/courses/2014-BMMB-852.html&lt;/li&gt;
+  &lt;li&gt;NGS Data Analysis Course: http://ngscourse.github.io/&lt;/li&gt;
+  &lt;li&gt;SSC Intro to NGS Bioinformatics Course-University of Texas: https://wikis.utexas.edu/display/bioiteam/SSC+Intro+to+NGS+Bioinformatics+Course&lt;/li&gt;
+  &lt;li&gt;Yunlong Liu: http://compbio.iupui.edu/group/1/pages/next_gen_course&lt;/li&gt;
+  &lt;li&gt;Computational Biology-Shirley Xiaole Liu: http://www.stat115.org/index.html&lt;/li&gt;
+  &lt;li&gt;Hot topics-MIT: http://jura.wi.mit.edu/bio/education/hot_topics/&lt;/li&gt;
+  &lt;li&gt;Biological Statistic: http://udel.edu/~mcdonald/statintro.html&lt;/li&gt;
+  &lt;li&gt;ROSALIND: http://rosalind.info/problems/locations/&lt;/li&gt;
+  &lt;li&gt;简明python教程：http://woodpecker.org.cn/abyteofpython_cn/chinese/index.html&lt;/li&gt;
+  &lt;li&gt;Machine Learning-Andrew Ng: http://cs229.stanford.edu/&lt;/li&gt;
+  &lt;li&gt;Machine Learning-Bo(Eric) Xing: http://www.cs.cmu.edu/~epxing/Class/10701/&lt;/li&gt;
+  &lt;li&gt;Workshop of Bioinformatic.ca: http://bioinformatics.ca/workshops&lt;/li&gt;
+  &lt;li&gt;edx: https://www.edx.org/&lt;/li&gt;
+  &lt;li&gt;coursera: https://www.coursera.org/&lt;/li&gt;
+  &lt;li&gt;Genetic Epidemiology: http://www.montefiore.ulg.ac.be/~kvansteen/TeachingGEUA20142015final.html; http://www.dorak.info/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;project&quot;&gt;Project:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ENCODE: http://genome.ucsc.edu/ENCODE/&lt;/li&gt;
+  &lt;li&gt;TCGA: http://cancergenome.nih.gov/&lt;/li&gt;
+  &lt;li&gt;1000 Genomes: http://www.1000genomes.org/&lt;/li&gt;
+  &lt;li&gt;HapMap: http://hapmap.ncbi.nlm.nih.gov/&lt;/li&gt;
+  &lt;li&gt;RoadMap Epigenomics Project: http://www.roadmapepigenomics.org/&lt;/li&gt;
+  &lt;li&gt;TARGET: http://target.nci.nih.gov/dataMatrix/&lt;/li&gt;
+  &lt;li&gt;GTEx: http://www.gtexportal.org/home/&lt;/li&gt;
+  &lt;li&gt;Fantom5: http://fantom.gsc.riken.jp/5/&lt;/li&gt;
+  &lt;li&gt;CCLE: http://www.broadinstitute.org/ccle/home&lt;/li&gt;
+  &lt;li&gt;HMP: http://hmpdacc.org/&lt;/li&gt;
+  &lt;li&gt;The Wellcome Trust UK10K project: http://www.uk10k.org/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;funding&quot;&gt;Funding:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;NIH: http://www.nih.gov/&lt;/li&gt;
+  &lt;li&gt;NCI: http://www.cancer.gov/&lt;/li&gt;
+  &lt;li&gt;NHGRI: https://www.genome.gov/&lt;/li&gt;
+  &lt;li&gt;国自然：http://www.nsfc.gov.cn/&lt;/li&gt;
+  &lt;li&gt;科技部：http://www.most.gov.cn/kjjh/xmsb/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;database&quot;&gt;Database:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;NCBI: http://www.ncbi.nlm.nih.gov/&lt;/li&gt;
+  &lt;li&gt;GEO: http://www.ncbi.nlm.nih.gov/geo/&lt;/li&gt;
+  &lt;li&gt;Array-express: http://www.ebi.ac.uk/arrayexpress/&lt;/li&gt;
+  &lt;li&gt;SRA: http://www.ncbi.nlm.nih.gov/sra/&lt;/li&gt;
+  &lt;li&gt;GenBank:  http://www.ncbi.nlm.nih.gov/genbank/&lt;/li&gt;
+  &lt;li&gt;PDB:  http://www.rcsb.org/pdb/home/home.do&lt;/li&gt;
+  &lt;li&gt;GO (Gene Ontology) : http://geneontology.org/&lt;/li&gt;
+  &lt;li&gt;SO (Sequence Ontology): http://www.sequenceontology.org/&lt;/li&gt;
+  &lt;li&gt;KEGG: http://www.genome.jp/kegg/&lt;/li&gt;
+  &lt;li&gt;UCSC Genome Browser: http://genome.ucsc.edu/&lt;/li&gt;
+  &lt;li&gt;Ensembl: http://www.ensembl.org/index.html&lt;/li&gt;
+  &lt;li&gt;dbSNP: http://www.ncbi.nlm.nih.gov/snp/&lt;/li&gt;
+  &lt;li&gt;COSMIC: http://www.sanger.ac.uk/genetics/CGP/cosmic/&lt;/li&gt;
+  &lt;li&gt;ClinVar: http://www.ncbi.nlm.nih.gov/clinvar/&lt;/li&gt;
+  &lt;li&gt;primer design database: http://www.hsls.pitt.edu/obrc/index.php?page=pcr_oligos&lt;/li&gt;
+  &lt;li&gt;ExAC: http://exac.broadinstitute.org/&lt;/li&gt;
+  &lt;li&gt;Omictools: http://omictools.com/&lt;/li&gt;
+  &lt;li&gt;HGMD (Human Gene Mutation Database): http://www.hgmd.cf.ac.uk/ac/index.php&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;your-favorite-blog-on-biostar&quot;&gt;Your favorite blog on Biostar:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Your Favorite Bioinformatics Blogs (March 2010)&lt;/li&gt;
+  &lt;li&gt;Your Favorite Bioinformatics Blogs (October 2011)&lt;/li&gt;
+  &lt;li&gt;What Are Your Favorite Bioit News Resources / Blogs (2012 Edition)&lt;/li&gt;
+  &lt;li&gt;Your Favorite Bioinformatics Blog(S) (2013 Edition)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;微信公众账号：&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;赛先生&lt;/li&gt;
+  &lt;li&gt;知识分子&lt;/li&gt;
+  &lt;li&gt;测序中国&lt;/li&gt;
+  &lt;li&gt;丁香园&lt;/li&gt;
+  &lt;li&gt;生物谷&lt;/li&gt;
+  &lt;li&gt;知因knowgene&lt;/li&gt;
+  &lt;li&gt;博士圈Illumina&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;computer-science&quot;&gt;computer science:&lt;/h2&gt;
+
+&lt;h3 id=&quot;blogs-1&quot;&gt;Blogs:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;阮一峰： http://www.ruanyifeng.com/blog/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;courses-1&quot;&gt;Courses:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/afs/cs/academic/class/15213-f14/www/index.html&quot;&gt;Introduction to Computer Systems by CMU&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 23 May 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/notebook/2016/05/23/links.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/23/links.html</guid>
+        
+        
+        <category>notebook</category>
+        
+      </item>
+    
+      <item>
+        <title>Linux学习笔记</title>
         <description>&lt;p&gt;注：本位为Linux系统的学习笔记，内容来自图书&lt;a href=&quot;https://book.douban.com/subject/2361237/&quot;&gt;《Beginning Linux Programming》&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;get-started&quot;&gt;Get Started&lt;/h2&gt;
@@ -74,11 +405,70 @@
 
 &lt;h2 id=&quot;shell-programming&quot;&gt;Shell Programming&lt;/h2&gt;
 
+&lt;h3 id=&quot;shell-and-bash&quot;&gt;shell and bash&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A &lt;em&gt;shell&lt;/em&gt; is a program that acts as the interface between you and the Linux system, enabling you to enter commands for the operating system to execute.&lt;/li&gt;
+  &lt;li&gt;In linux, the standard shell that is always installed as &lt;code class=&quot;highlighter-rouge&quot;&gt;/bin/sh&lt;/code&gt; is called &lt;em&gt;bash&lt;/em&gt; (the GNU Bourne-Again SHell), from the GNU suite of tools.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pipes-and-redirection&quot;&gt;Pipes and Redirection&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;file descriptor:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;: standard input to a program&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;: standard output&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;: standard error&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Redirecting Output
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;: redirect the standard output into a file&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&amp;gt;&lt;/code&gt;: append the standard output into a file&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#分开output和error信息
+kill 1234 &amp;gt;killout.txt 2&amp;gt;killerr.txt
+
+#利用&amp;gt;&amp;amp;结合output和error信息
+kill 1234 &amp;gt;killouterr.txt 2&amp;gt;&amp;amp;1
+
+#利用/dev/null扔掉输出
+kill 1234 &amp;gt;/dev/null 2&amp;gt;&amp;amp;1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Redirecting Input&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;more &amp;lt; killout.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;但是这看起来并没有什么太大的用处。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pipes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ps –xo comm | sort | uniq | grep -v sh | more
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;shell-programming-1&quot;&gt;Shell Programming&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;shell script&lt;/em&gt;: store commands in a file&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Mon, 09 May 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/05/09/Linux.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/05/09/Linux.html</guid>
+        <link>zjuwhw.github.io/notebook/2016/05/09/Linux.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/09/Linux.html</guid>
         
+        
+        <category>notebook</category>
         
       </item>
     
@@ -245,6 +635,8 @@ seems likely that only systematic change can reverse this trend.&lt;/p&gt;
   &lt;li&gt;GCC: GNU Compiler Collection&lt;/li&gt;
   &lt;li&gt;env: environment&lt;/li&gt;
   &lt;li&gt;db: database&lt;/li&gt;
+  &lt;li&gt;HTTP: HyperText Transfer Protocol&lt;/li&gt;
+  &lt;li&gt;HTML: HyperText Markup Language&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;section-2&quot;&gt;云计算&lt;/h2&gt;
@@ -271,6 +663,28 @@ seems likely that only systematic change can reverse this trend.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;其他云服务商：Microsoft Azure, Google Compute Engine, Rightscale, Salesforce, EMC, Gigaspaces, 10gen, Datastax, Oracle, VMWare, Yahoo, Cloudera&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;软件&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Bootstrap&lt;/strong&gt; is a free and open-source collection of tools for creating websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Django&lt;/strong&gt;:  Django (/ˈdʒæŋɡoʊ/ jang-goh)[4] is a free and open-source web framework, written in Python, which follows the model–view–controller (MVC) architectural pattern.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Flask&lt;/strong&gt; is a micro web framework written in Python and based on the Werkzeug toolkit and Jinja2 template engine. It is BSD licensed.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jinja2&lt;/strong&gt; is a full featured template engine for Python. It has full unicode support, an optional integrated sandboxed execution environment, widely used and BSD licensed.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nginx&lt;/strong&gt;: Nginx (pronounced “engine x”) is a web server. It can act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MongoDB&lt;/strong&gt;: is a cross-platform document-oriented database. Classified as a NoSQL database, MongoDB eschews the traditional table-basedrelational database structure in favor of JSON-like documents with dynamicschemas (MongoDB calls the format BSON), making the integration of data in certain types of applications easier and faster.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The Web Server Gateway Interface (WSGI)&lt;/strong&gt; is a specification for simple and universal interface between web servers and web applications or frameworks for thePython programming language.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Splunk&lt;/strong&gt; is an American multinational corporation based in San Francisco, California, that produces software for searching, monitoring, and analyzing machine-generated big data, via a web-style interface.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Travis CI&lt;/strong&gt; is a FOSS, hosted, distributed[2] continuous integration service used to build and test software projects hosted atGitHub.[3]&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sun Grid Engine (SGE)&lt;/strong&gt;, CODINE (Computing in Distributed Networked Environments) or GRD (Global Resource Director),[2] was a grid computing computer cluster software system (otherwise known as batch-queuing system), acquired as part of a purchase of Terraspring,[3] then improved and supported by Sun Microsystems and later Oracle.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gunicorn&lt;/strong&gt; “Green Unicorn” is a Python Web Server Gateway Interface (WSGI) HTTP server.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;YAML&lt;/strong&gt; (/ˈjæməl/, rhymes with camel) is a human-readable data serialization language that takes concepts from programming languages such as C, Perl, and Python, and ideas from XML and the data format of electronic mail&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;JSON&lt;/strong&gt;: an open-standardformat that uses human-readable text to transmit data objects consisting of attribute–value pairs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;RESTful&lt;/strong&gt;: In computing, representational state transfer (REST) is the software architectural style of the World Wide Web&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;OpenSSL&lt;/strong&gt;: In computer networking, OpenSSL is a software library to be used in applications that need to secure communications against eavesdropping or need to ascertain the identity of the party at the other end.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;RSA&lt;/strong&gt; is one of the first practical public-key cryptosystems and is widely used for secure data transmission&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;OpenSSH&lt;/strong&gt;, also known as OpenBSD Secure Shell,[a] is a suite of security-related network-level utilities based on the SSH protocol, which help to secure network communications via the encryption of network traffic over multiple authentication methods and by providing secure tunneling capabilities.[4]&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         <pubDate>Sat, 07 May 2016 08:12:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/05/07/work-title.html</link>
@@ -874,211 +1288,6 @@ git branch --no-merged
         <pubDate>Thu, 15 Oct 2015 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2015/10/15/RNAseq_strand.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2015/10/15/RNAseq_strand.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Edx-Python学习笔记</title>
-        <description>&lt;h1 id=&quot;lecture-1-introduction-to-computation&quot;&gt;Lecture 1: Introduction to computation&lt;/h1&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;1.1 Introduction&lt;/h2&gt;
-
-&lt;h2 id=&quot;basics-of-computation&quot;&gt;1.2 Basics of Computation&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What does a computer do?
-    &lt;ol&gt;
-      &lt;li&gt;Fundamentally a computer: (1) Performs calculations; (2) Remember the results&lt;/li&gt;
-      &lt;li&gt;Calculation is: (1) Built in primitives; (2) Creating our own methods of calculations&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;So are ther limits?
-    &lt;ol&gt;
-      &lt;li&gt;Some problems still too complex&lt;/li&gt;
-      &lt;li&gt;Some problems are fundamentally impossible to compute&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;types-of-knowledge&quot;&gt;1.3 Types of Knowledge&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Declarative knowledge: statments of facts&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Imperative knowledge: “how to” methods or recipes&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;basic-machine-architecture&quot;&gt;1.4 Basic Machine Architecture&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Fixed Program Computers&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Stored Program Computers&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What are the basic primitives?&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Turning shows that using six primitives, can compute anything. (Truning complete)&lt;/li&gt;
-      &lt;li&gt;Fortunately, modern programming languages have a more convenient set of primitives.&lt;/li&gt;
-      &lt;li&gt;Also have ways to abstract methods to create new “primitives”.&lt;/li&gt;
-      &lt;li&gt;But anything computable in one language is computable in any other programming language&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;programming-language-characteristics&quot;&gt;1.5 Programming language characteristics&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Primitive constructs&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Syntax&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Static semantics&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Semantics&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;lecture-2-core-elements-of-programs&quot;&gt;Lecture 2: Core Elements of Programs&lt;/h1&gt;
-
-&lt;h2 id=&quot;introduction-1&quot;&gt;2.1 Introduction&lt;/h2&gt;
-
-&lt;h2 id=&quot;types-of-programming-languages&quot;&gt;2.2 Types of Programming languages&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Options for programming languages:
-    &lt;ol&gt;
-      &lt;li&gt;Source code -&amp;gt; checker -&amp;gt; interpreter -&amp;gt; output&lt;/li&gt;
-      &lt;li&gt;Source code -&amp;gt; checker -&amp;gt; compiler -&amp;gt; object code -&amp;gt; interpreter -&amp;gt; output&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Low level: Source code (low level) -&amp;gt; checker -&amp;gt; interpreter -&amp;gt; output&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;High level (compiled language): Source code (high level) -&amp;gt; checker -&amp;gt; compiler -&amp;gt; object code (low level) -&amp;gt; interpreter -&amp;gt; output&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;High level (interpreted language, such as Python): Source code (high level) -&amp;gt; checker -&amp;gt; interpreter -&amp;gt; output&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;python-objects&quot;&gt;2.3 Python objects&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Python programs
-    &lt;ol&gt;
-      &lt;li&gt;Program (or script) is a sequence of definitions and commands&lt;/li&gt;
-      &lt;li&gt;Command (or statement) instructs interpreter to do something&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Objects
-    &lt;ol&gt;
-      &lt;li&gt;Each object has a &lt;strong&gt;type&lt;/strong&gt; that dfeines the kind of things programs can do to it&lt;/li&gt;
-      &lt;li&gt;Objecst are: (1) Scalar (&lt;em&gt;i.e.&lt;/em&gt; cannot be subdivided); (2) Non-scalr (&lt;em&gt;i.e.&lt;/em&gt; have internal structure that can be accessed)&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Scalr objects
-    &lt;ol&gt;
-      &lt;li&gt;int&lt;/li&gt;
-      &lt;li&gt;float&lt;/li&gt;
-      &lt;li&gt;bool - Boolean values&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Expressions: [object] [operator] [object]&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Operators on ints and floats: +, -, *, /, %, **&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Comparison operators on ints and floats: &amp;gt;, &amp;gt;=, &amp;lt;, &amp;lt;=, ==, !=&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Operators on bools: and, or, not&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Type conversions (type casting): float(3), int(3.9)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;variables-and-naming&quot;&gt;2.4 Variables and Naming&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;assignment: binding variables and values&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;strings&quot;&gt;2.5 Strings&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;non-scalar objects&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Extracting parts of strings: indexing and slicing&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;simple-scripts&quot;&gt;2.6 Simple Scripts&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;statements (not expressions): &lt;em&gt;print()&lt;/em&gt;, &lt;em&gt;raw_input()&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Comments appear after #&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;branching-programs&quot;&gt;2.7 Branching Programs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Branching programs: the simplest one is a &lt;strong&gt;conditional&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The indentation is important.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What have we added?&lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Branching programs allow us to make choices and do different things&lt;/li&gt;
-      &lt;li&gt;But still the case that at most, each statement gets executed once.&lt;/li&gt;
-      &lt;li&gt;So maximum time to run the program depends only on the length of the program.&lt;/li&gt;
-      &lt;li&gt;These programs run in constant time&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;lecture-3-simple-algorithms&quot;&gt;Lecture 3: Simple Algorithms&lt;/h1&gt;
-
-&lt;h2 id=&quot;introduction-2&quot;&gt;3.1 Introduction&lt;/h2&gt;
-
-&lt;h2 id=&quot;iteration&quot;&gt;3.2 Iteration&lt;/h2&gt;
-
-&lt;h2 id=&quot;guess-and-check-algorithm&quot;&gt;3.3 Guess and check algorithm&lt;/h2&gt;
-
-&lt;h2 id=&quot;loop-mechanisms&quot;&gt;3.4 Loop mechanisms&lt;/h2&gt;
-
-&lt;h2 id=&quot;floating-point-accuracy&quot;&gt;3.5 Floating point accuracy&lt;/h2&gt;
-
-&lt;h2 id=&quot;approximate-methods&quot;&gt;3.6 Approximate methods&lt;/h2&gt;
-
-&lt;h2 id=&quot;bisection-search&quot;&gt;3.7 Bisection search&lt;/h2&gt;
-
-&lt;h2 id=&quot;newton-paphson-root-finding&quot;&gt;3.8 Newton-Paphson root finding&lt;/h2&gt;
-
-&lt;p&gt;Notes for the &lt;a href=&quot;www.edx.org&quot;&gt;edx&lt;/a&gt; course &lt;a href=&quot;https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5&quot;&gt;Introduction to Computer Science and Programming Using Python&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 16 Sep 2015 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2015/09/16/MITx_computer_science_and_programming_using_Python.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2015/09/16/MITx_computer_science_and_programming_using_Python.html</guid>
         
         
       </item>
