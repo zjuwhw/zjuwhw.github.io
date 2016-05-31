@@ -6,35 +6,34 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 May 2016 23:14:35 +0800</pubDate>
-    <lastBuildDate>Tue, 31 May 2016 23:14:35 +0800</lastBuildDate>
+    <pubDate>Tue, 31 May 2016 23:27:48 +0800</pubDate>
+    <lastBuildDate>Tue, 31 May 2016 23:27:48 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>有用的links</title>
-        <description>&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Bioinformatics&lt;/a&gt;
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#table-of-contents&quot;&gt;Table of Contents&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#bioinformatics&quot;&gt;Bioinformatics&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Blogs&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Softwares&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Bioinformatic forum&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Personal website&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Journal&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Courses&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Project&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Funding&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Database&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Your favorite blog on Biostar&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;微信公众账号&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#blogs&quot;&gt;Blogs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#softwares&quot;&gt;Softwares&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#bioinformatic-forum&quot;&gt;Bioinformatic forum&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#personal-website&quot;&gt;Personal website&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#journal&quot;&gt;Journal&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#courses&quot;&gt;Courses&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#project&quot;&gt;Project&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#funding&quot;&gt;Funding&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#database&quot;&gt;Database&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#your-favorite-blog-on-biostar&quot;&gt;Your favorite blog on Biostar&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#微信公众账号&quot;&gt;微信公众账号&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Computer science&lt;/a&gt;
+  &lt;li&gt;&lt;a href=&quot;#computer-science&quot;&gt;Computer science&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Blogs&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Courses&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Books&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#blogs-1&quot;&gt;Blogs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#courses-1&quot;&gt;Courses&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#books&quot;&gt;Books&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -365,7 +364,7 @@
 &lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
 
 </description>
-        <pubDate>Mon, 23 May 2016 00:00:00 +0800</pubDate>
+        <pubDate>Mon, 23 May 2016 08:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/05/23/links.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/23/links.html</guid>
         
