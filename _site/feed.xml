@@ -6,8 +6,8 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 May 2016 22:52:58 +0800</pubDate>
-    <lastBuildDate>Tue, 31 May 2016 22:52:58 +0800</lastBuildDate>
+    <pubDate>Tue, 31 May 2016 23:08:45 +0800</pubDate>
+    <lastBuildDate>Tue, 31 May 2016 23:08:45 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -318,7 +318,7 @@
   &lt;li&gt;博士圈Illumina&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;computer-science&quot;&gt;computer science:&lt;/h2&gt;
+&lt;h2 id=&quot;computer-science&quot;&gt;Computer science:&lt;/h2&gt;
 
 &lt;h3 id=&quot;blogs-1&quot;&gt;Blogs:&lt;/h3&gt;
 
@@ -330,7 +330,13 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/afs/cs/academic/class/15213-f14/www/index.html&quot;&gt;Introduction to Computer Systems by CMU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/full-stack&quot;&gt;Build Complete Web Solutions by HST on coursera&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/python&quot;&gt;Learn to Program and Analyze Data with Python by Uiversity of Michigan on coursera&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/ruby-on-rails&quot;&gt;Become a Rails Developer by JHU on couresra&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&quot;books&quot;&gt;Books:&lt;/h3&gt;
+
 </description>
         <pubDate>Mon, 23 May 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/05/23/links.html</link>
