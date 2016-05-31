@@ -6,13 +6,40 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 May 2016 23:08:45 +0800</pubDate>
-    <lastBuildDate>Tue, 31 May 2016 23:08:45 +0800</lastBuildDate>
+    <pubDate>Tue, 31 May 2016 23:14:35 +0800</pubDate>
+    <lastBuildDate>Tue, 31 May 2016 23:14:35 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>有用的links</title>
-        <description>&lt;h2 id=&quot;bioinformatics&quot;&gt;Bioinformatics&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Bioinformatics&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Blogs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Softwares&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Bioinformatic forum&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Personal website&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Journal&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Courses&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Project&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Funding&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Database&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Your favorite blog on Biostar&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;微信公众账号&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Computer science&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Blogs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Courses&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Books&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bioinformatics&quot;&gt;Bioinformatics&lt;/h2&gt;
 
 &lt;h3 id=&quot;blogs&quot;&gt;Blogs&lt;/h3&gt;
 
@@ -144,7 +171,7 @@
   &lt;li&gt;GenePattern: http://www.broadinstitute.org/cancer/software/genepattern/&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;bioinformatic-forum&quot;&gt;Bioinformatic forum:&lt;/h3&gt;
+&lt;h3 id=&quot;bioinformatic-forum&quot;&gt;Bioinformatic forum&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Biostars: http://www.biostars.org/&lt;/li&gt;
@@ -209,7 +236,7 @@
   &lt;li&gt;方海： http://www.cs.bris.ac.uk/~hfang/&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;journal&quot;&gt;Journal:&lt;/h3&gt;
+&lt;h3 id=&quot;journal&quot;&gt;Journal&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Cell: http://www.cell.com/&lt;/li&gt;
   &lt;li&gt;Science: http://www.sciencemag.org/&lt;/li&gt;
@@ -249,7 +276,7 @@
   &lt;li&gt;Genetic Epidemiology: http://www.montefiore.ulg.ac.be/~kvansteen/TeachingGEUA20142015final.html; http://www.dorak.info/&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;project&quot;&gt;Project:&lt;/h3&gt;
+&lt;h3 id=&quot;project&quot;&gt;Project&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;ENCODE: http://genome.ucsc.edu/ENCODE/&lt;/li&gt;
@@ -265,7 +292,7 @@
   &lt;li&gt;The Wellcome Trust UK10K project: http://www.uk10k.org/&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;funding&quot;&gt;Funding:&lt;/h3&gt;
+&lt;h3 id=&quot;funding&quot;&gt;Funding&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;NIH: http://www.nih.gov/&lt;/li&gt;
@@ -275,7 +302,7 @@
   &lt;li&gt;科技部：http://www.most.gov.cn/kjjh/xmsb/&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;database&quot;&gt;Database:&lt;/h3&gt;
+&lt;h3 id=&quot;database&quot;&gt;Database&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;NCBI: http://www.ncbi.nlm.nih.gov/&lt;/li&gt;
@@ -298,7 +325,7 @@
   &lt;li&gt;HGMD (Human Gene Mutation Database): http://www.hgmd.cf.ac.uk/ac/index.php&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;your-favorite-blog-on-biostar&quot;&gt;Your favorite blog on Biostar:&lt;/h3&gt;
+&lt;h3 id=&quot;your-favorite-blog-on-biostar&quot;&gt;Your favorite blog on Biostar&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Your Favorite Bioinformatics Blogs (March 2010)&lt;/li&gt;
@@ -307,7 +334,7 @@
   &lt;li&gt;Your Favorite Bioinformatics Blog(S) (2013 Edition)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;微信公众账号：&lt;/h3&gt;
+&lt;h3 id=&quot;section&quot;&gt;微信公众账号&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;赛先生&lt;/li&gt;
   &lt;li&gt;知识分子&lt;/li&gt;
@@ -318,15 +345,15 @@
   &lt;li&gt;博士圈Illumina&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;computer-science&quot;&gt;Computer science:&lt;/h2&gt;
+&lt;h2 id=&quot;computer-science&quot;&gt;Computer science&lt;/h2&gt;
 
-&lt;h3 id=&quot;blogs-1&quot;&gt;Blogs:&lt;/h3&gt;
+&lt;h3 id=&quot;blogs-1&quot;&gt;Blogs&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;阮一峰： http://www.ruanyifeng.com/blog/&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;courses-1&quot;&gt;Courses:&lt;/h3&gt;
+&lt;h3 id=&quot;courses-1&quot;&gt;Courses&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/afs/cs/academic/class/15213-f14/www/index.html&quot;&gt;Introduction to Computer Systems by CMU&lt;/a&gt;&lt;/li&gt;
@@ -335,7 +362,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/ruby-on-rails&quot;&gt;Become a Rails Developer by JHU on couresra&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;books&quot;&gt;Books:&lt;/h3&gt;
+&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
 
 </description>
         <pubDate>Mon, 23 May 2016 00:00:00 +0800</pubDate>
