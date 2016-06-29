@@ -17,3 +17,8 @@ github_username:  zjuwhw
 
 # Build settings
 markdown: kramdown
+
+# paginate
+paginate: 5
+paginate_path: "page:num"
+gems: [jekyll-paginate]
