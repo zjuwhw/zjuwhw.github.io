@@ -6,9 +6,94 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jun 2016 23:44:55 +0800</pubDate>
-    <lastBuildDate>Tue, 07 Jun 2016 23:44:55 +0800</lastBuildDate>
+    <pubDate>Wed, 29 Jun 2016 14:03:46 +0800</pubDate>
+    <lastBuildDate>Wed, 29 Jun 2016 14:03:46 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Mac使用</title>
+        <description>&lt;h2 id=&quot;section&quot;&gt;系统功能键：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;⌘ — Command ()&lt;/li&gt;
+  &lt;li&gt;⌥ — Option (alt)&lt;/li&gt;
+  &lt;li&gt;⌃ — Control&lt;/li&gt;
+  &lt;li&gt;fn — 功能键就是fn&lt;/li&gt;
+  &lt;li&gt;⇧ — Shift&lt;/li&gt;
+  &lt;li&gt;⇪ — caps lock&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mac&quot;&gt;Mac常用软件：&lt;/h2&gt;
+&lt;p&gt;atom，sublime3, dash, pycharm, iterm2&lt;/p&gt;
+
+&lt;h2 id=&quot;item2&quot;&gt;终端/item2快捷键：&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;标签&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;新建标签：command + t&lt;/li&gt;
+  &lt;li&gt;关闭标签：command + w&lt;/li&gt;
+  &lt;li&gt;切换标签：
+    &lt;ul&gt;
+      &lt;li&gt;command + 数字&lt;/li&gt;
+      &lt;li&gt;command + 左右方向键&lt;/li&gt;
+      &lt;li&gt;ctrl + tab&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;查看&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;查找：command + f&lt;/li&gt;
+  &lt;li&gt;历史命令：command + ;&lt;/li&gt;
+  &lt;li&gt;剪贴板历史：command + shift + h&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;清除、删除&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;清除当前行：ctrl + u&lt;/li&gt;
+  &lt;li&gt;删除光标之前的单词：ctrl + w&lt;/li&gt;
+  &lt;li&gt;删除到文本末尾：ctrl + k&lt;/li&gt;
+  &lt;li&gt;清屏:
+    &lt;ul&gt;
+      &lt;li&gt;command + r&lt;/li&gt;
+      &lt;li&gt;ctrl + l&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;移动&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;行首：ctrl + a&lt;/li&gt;
+  &lt;li&gt;行末：ctrl + e&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;分屏：&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;垂直分屏：command + d&lt;/li&gt;
+  &lt;li&gt;水平分屏：command + shift + d&lt;/li&gt;
+  &lt;li&gt;切换分屏：
+    &lt;ul&gt;
+      &lt;li&gt;command + option + 方向键&lt;/li&gt;
+      &lt;li&gt;command + [&lt;/li&gt;
+      &lt;li&gt;command + ]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-6&quot;&gt;参考资料：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/sumiaowen/iterm2-shortcuts&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 09 Jun 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/notebook/2016/06/09/Mac.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/06/09/Mac.html</guid>
+        
+        
+        <category>notebook</category>
+        
+      </item>
     
       <item>
         <title>正则表达式</title>
@@ -560,9 +645,61 @@ kill 1234 &amp;gt;/dev/null 2&amp;gt;&amp;amp;1
 
 &lt;h3 id=&quot;shell-programming-1&quot;&gt;Shell Programming&lt;/h3&gt;
 
+&lt;h4 id=&quot;creating-a-script&quot;&gt;Creating a script&lt;/h4&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;shell script&lt;/em&gt;: store commands in a file&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;: comments&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;#!&lt;/code&gt;(in the first line): tell the system which program to be used to execute this file. For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;c&quot;&gt;#! /bin/sh&lt;/span&gt;&lt;/code&gt; is the default shell program.&lt;/li&gt;
+  &lt;li&gt;commands: any Linux commands referenced by you &lt;em&gt;PATH&lt;/em&gt; environment variable&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;exit&lt;/code&gt;: returns a sensible exit code. &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt; denotes success&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;file&lt;/code&gt; command: check file type&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h4 id=&quot;making-a-script-executable&quot;&gt;Making a Script Executable&lt;/h4&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;chmod +x script
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;chmod&lt;/code&gt;: change file modes or Access Control Lists&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;chown&lt;/code&gt;: change file owner and group&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;chgrp&lt;/code&gt;: change group&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;shell-syntax&quot;&gt;Shell Syntax&lt;/h3&gt;
+
+&lt;h4 id=&quot;variables&quot;&gt;Variables&lt;/h4&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#所有的变量都被当成字符串，且case-sensitive
+#数字类的字符串可以用一些utilities转换
+#获取变量内容使用$
+salutation=Hello
+echo $salutation     ##输出“Hello”
+# 有空格时，可以用引号
+salutation=&quot;Yes Dear&quot;
+echo $salutation     ##输出“Yes Dear”
+
+salutation=7+5
+echo $salutation      ##输出“7+5”
+
+# 使用read命令让用户对变量赋值
+read salutation     ##用户输入“Hi”
+echo $salutation      ##输出“Hi”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;quoting&quot;&gt;Quoting&lt;/h4&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;myvar=”Hi there”
+echo $myvar        ##输出&quot;Hi there&quot;
+echo “$myvar”      ##输出&quot;Hi there&quot;
+echo ‘$myvar’      ##输出&quot;$myvar&quot; 
+echo \$myvar       ##输出&quot;$myvar&quot; 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;environment-variables&quot;&gt;Environment Variables&lt;/h4&gt;
 </description>
         <pubDate>Mon, 09 May 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/05/09/Linux.html</link>
@@ -1000,206 +1137,6 @@ print sys.argv
         <pubDate>Fri, 06 May 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/05/06/python-notebook.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/06/python-notebook.html</guid>
-        
-        
-        <category>notebook</category>
-        
-      </item>
-    
-      <item>
-        <title>Git学习笔记</title>
-        <description>&lt;p&gt;注：本文为git的学习笔记，全部内容来自《&lt;a href=&quot;https://git-scm.com/book/en/v2&quot;&gt;pro git&lt;/a&gt;》&lt;/p&gt;
-
-&lt;h2 id=&quot;chapter-1-getting-started&quot;&gt;Chapter 1: Getting Started&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;配置文件
-/etc/gitconfig
-~/.gitconfig or ~/.config/git/config
-.git/config
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#全局设置
-git config --global core.editor vim
-#局部设置
-git config --local user.name &quot;name&quot;
-git config --local user.email &quot;email&quot;
-#查看设置
-git config --list
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;chapter-2-git-basics&quot;&gt;Chapter 2: Git Basics&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#Add file contents to the index
-git add filename
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#Record changes to the repository
-git commit #打开文本编辑器
-git commit -m &quot;your text&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#克隆到本地
-git clone https://github.com/zjuwhw/test-repo
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#查看状态
-#-untracted
-#-tracked: unmodified, modified, staged
-git status
-git status -s #简短显示
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#忽略跟踪文件或文件夹&quot;.gitignore&quot;
-$cat .gitignore
-*.a
-*.o
-*.[ao] #以上两行可以利用正则合并成这一行
-build/ #忽略文件夹
-doc/**/*.pdf
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#查看区别
-git diff
-git diff --staged
-git diff --cached
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#不再跟踪文件
-git rm filename
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#重命名
-git mv old_filename new_filename
-#相当于
-mv old_filename new_filename
-git rm old_filename
-git add new_filename
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#查阅历史
-git log
-git log -p #显示不同
-git log -n #显示几个
-git --stat #显示统计
-git log --oneline #一行显示
-git log --pretty=format: &quot;%h %an %ar %s&quot; #按照特定格式显示
-git log --graph
-git log --since=2.weeks
-git log --since=&quot;2008-10-01&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#git log的format参数支持的特定格式
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Option&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Descripton of Output&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Option&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Descripton of Output&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;%H&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;commit hash&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;%h&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;abbreviated commit hash&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;%T&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;tree hash&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;%t&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;abbreviated tree hash&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;%P&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;parent hashes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;%p&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;abbreviated parent hashes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;%an&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;author name&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;%ae&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;author email&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;%ad&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;author date&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;%ar&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;author data, relative&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;%cn&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;committer name&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;%ce&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;committer email&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;%cd&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;committer date&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;%cr&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;committer data, relative&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;%s&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;subject&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#remote
-git remote
-git remote -v
-git remote add origin https://github.com/name/repo.git
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git fetch
-git push origin master
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;chapter-3-git-branching&quot;&gt;Chapter 3: Git Branching&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#查看branch
-git branch
-#新建branch
-git branch newbranch
-#切换branch
-git checkout newbranch
-#新建并切换branch
-git checkout -b newbranch
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#log中查看branch信息
-git log --decorate
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#合并一个分支
-git checkout master
-git merge issue#2940
-#删除一个分支
-git branch -d issue#2940
-#删除一个远端的分支
-git push origin --delete issue#2940
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#查看merged或没有merged的分支
-git branch --merged
-git branch --no-merged
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Wed, 04 May 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/notebook/2016/05/04/git-notebook.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/04/git-notebook.html</guid>
         
         
         <category>notebook</category>
