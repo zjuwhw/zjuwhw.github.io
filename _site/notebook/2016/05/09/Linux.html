@@ -66,6 +66,33 @@
   <div class="post-content" itemprop="articleBody">
     <p>注：本位为Linux系统的学习笔记，内容来自图书<a href="https://book.douban.com/subject/2361237/">《Beginning Linux Programming》</a></p>
 
+<h2 id="section">目录</h2>
+
+<ul>
+  <li><a href="#get-started">Get Started</a></li>
+  <li><a href="#shell-programming">Shell Programming</a>
+    <ul>
+      <li><a href="#shell-and-bash">shell and bash</a></li>
+      <li><a href="#pipes-and-redirection">Pipes and Redirection</a></li>
+      <li><a href="#shell-programming-1">Shell Programming</a>
+        <ul>
+          <li><a href="#creating-a-script">Creating a script</a></li>
+          <li><a href="#making-a-script-executable">Making a Script Executable</a></li>
+        </ul>
+      </li>
+      <li><a href="#shell-syntax">Shell Syntax</a>
+        <ul>
+          <li><a href="#variables">Variables</a></li>
+          <li><a href="#quoting">Quoting</a></li>
+          <li><a href="#environment-variables">Environment Variables</a></li>
+          <li><a href="#parameters-variables">Parameters Variables</a></li>
+          <li><a href="#conditions">Conditions</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 <h2 id="get-started">Get Started</h2>
 
 <ul>
@@ -235,6 +262,199 @@ echo \$myvar       ##输出"$myvar"
 </div>
 
 <h4 id="environment-variables">Environment Variables</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Environment Variable</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">$HOME</td>
+      <td style="text-align: left">home目录路径</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">$PATH</td>
+      <td style="text-align: left">命令搜索的目录路径列表，用冒号分隔</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">$0</td>
+      <td style="text-align: left">运行的脚本的名字</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">$#</td>
+      <td style="text-align: left">运行的脚本的参数数目</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">$$</td>
+      <td style="text-align: left">运行的脚本的process ID，经常用来生成临时文件，如<code class="highlighter-rouge">/tmp/tmpfile_$$</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="parameters-variables">Parameters Variables</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Parameters Variables</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">$1, $2</td>
+      <td style="text-align: left">第1，2个参数</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">$*</td>
+      <td style="text-align: left">所有的参数列表，作为一个变量</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="conditions">Conditions</h4>
+
+<ul>
+  <li><code class="highlighter-rouge">test</code> or <code class="highlighter-rouge">[</code>: the shell’s Boolean check</li>
+  <li>condition structure:</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>## 检查是否存在文件
+## test的exit code决定是否继续执行代码
+if test -f fred.c
+then
+## 插入代码
+fi
+</code></pre>
+</div>
+<p>或者</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>##请注意之间的空格
+if [ -f fred.c ]
+then
+## 插入代码
+fi
+</code></pre>
+</div>
+<p>完整的</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>if + 条件判断
+then
+## 插入代码
+elif + 条件判断
+then
+## 插入代码
+else
+## 插入代码
+fi
+
+</code></pre>
+</div>
+
+<ul>
+  <li>condition types: <code class="highlighter-rouge">String Comparison</code>，<code class="highlighter-rouge">Arithmetic Comparison</code>，<code class="highlighter-rouge">File Conditional</code></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Type</th>
+      <th style="text-align: left">Expression</th>
+      <th style="text-align: left">Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">String Comparison</td>
+      <td style="text-align: left">string1 = string2</td>
+      <td style="text-align: left">字符串相同</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">string1 != string2</td>
+      <td style="text-align: left">字符串不同</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">-n string</td>
+      <td style="text-align: left">字符串不空（不为null）</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">-z string</td>
+      <td style="text-align: left">字符串为空</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Arithmetic Comparison</td>
+      <td style="text-align: left">expr1 -eq expr2</td>
+      <td style="text-align: left">expression相同e</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">expr1 -ne expr2</td>
+      <td style="text-align: left">expression不同</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">expr1 -gt expr2</td>
+      <td style="text-align: left">expr1大于expr2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">expr1 -ge expr2</td>
+      <td style="text-align: left">expr1大于等于expr2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">expr1 -lt expr2</td>
+      <td style="text-align: left">expr1小于expr2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">expr1 -le expr2</td>
+      <td style="text-align: left">expr1小于等于expr2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">！ expr</td>
+      <td style="text-align: left">expr不是True</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">File Conditional</td>
+      <td style="text-align: left">-d file</td>
+      <td style="text-align: left">file是目录</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">-f file</td>
+      <td style="text-align: left">file是一个常规文件</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">-r file</td>
+      <td style="text-align: left">file可读</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">-s file</td>
+      <td style="text-align: left">file的大小非0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">-w file</td>
+      <td style="text-align: left">file可写</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">-x file</td>
+      <td style="text-align: left">file可执行</td>
+    </tr>
+  </tbody>
+</table>
+
 
   </div>
 

@@ -6,9 +6,66 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jun 2016 16:10:08 +0800</pubDate>
-    <lastBuildDate>Wed, 29 Jun 2016 16:10:08 +0800</lastBuildDate>
+    <pubDate>Thu, 30 Jun 2016 14:04:23 +0800</pubDate>
+    <lastBuildDate>Thu, 30 Jun 2016 14:04:23 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Python的模块整理</title>
+        <description>&lt;h3 id=&quot;section&quot;&gt;内置&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;os&lt;/li&gt;
+  &lt;li&gt;sys&lt;/li&gt;
+  &lt;li&gt;ConfigParser&lt;/li&gt;
+  &lt;li&gt;argparse&lt;/li&gt;
+  &lt;li&gt;PyYAML&lt;/li&gt;
+  &lt;li&gt;logging&lt;/li&gt;
+  &lt;li&gt;platform&lt;/li&gt;
+  &lt;li&gt;uuid&lt;/li&gt;
+  &lt;li&gt;collections&lt;/li&gt;
+  &lt;li&gt;threading&lt;/li&gt;
+  &lt;li&gt;json&lt;/li&gt;
+  &lt;li&gt;jinja2&lt;/li&gt;
+  &lt;li&gt;traceback&lt;/li&gt;
+  &lt;li&gt;time&lt;/li&gt;
+  &lt;li&gt;docker-py&lt;/li&gt;
+  &lt;li&gt;pymongo&lt;/li&gt;
+  &lt;li&gt;requests&lt;/li&gt;
+  &lt;li&gt;urllib2&lt;/li&gt;
+  &lt;li&gt;urllib&lt;/li&gt;
+  &lt;li&gt;hashlib&lt;/li&gt;
+  &lt;li&gt;zlib&lt;/li&gt;
+  &lt;li&gt;tarfile&lt;/li&gt;
+  &lt;li&gt;random&lt;/li&gt;
+  &lt;li&gt;base64&lt;/li&gt;
+  &lt;li&gt;setuptools&lt;/li&gt;
+  &lt;li&gt;distutils&lt;/li&gt;
+  &lt;li&gt;pypiserver&lt;/li&gt;
+  &lt;li&gt;unittest&lt;/li&gt;
+  &lt;li&gt;flask&lt;/li&gt;
+  &lt;li&gt;multiprocessing&lt;/li&gt;
+  &lt;li&gt;virtualenv&lt;/li&gt;
+  &lt;li&gt;pip&lt;/li&gt;
+  &lt;li&gt;hmac&lt;/li&gt;
+  &lt;li&gt;functools&lt;/li&gt;
+  &lt;li&gt;Celery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;扩展阅读&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/vinta/awesome-python&quot;&gt;https://github.com/vinta/awesome-python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 30 Jun 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/notebook/2016/06/30/python-modules.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/06/30/python-modules.html</guid>
+        
+        
+        <category>notebook</category>
+        
+      </item>
     
       <item>
         <title>Mac使用</title>
@@ -86,9 +143,9 @@
   &lt;li&gt;https://github.com/sumiaowen/iterm2-shortcuts&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Thu, 09 Jun 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/notebook/2016/06/09/Mac.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/06/09/Mac.html</guid>
+        <pubDate>Wed, 29 Jun 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/notebook/2016/06/29/Mac.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/06/29/Mac.html</guid>
         
         
         <category>notebook</category>
@@ -531,6 +588,33 @@ $   Matches the end of the line
         <title>Linux学习笔记</title>
         <description>&lt;p&gt;注：本位为Linux系统的学习笔记，内容来自图书&lt;a href=&quot;https://book.douban.com/subject/2361237/&quot;&gt;《Beginning Linux Programming》&lt;/a&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;section&quot;&gt;目录&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#get-started&quot;&gt;Get Started&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#shell-programming&quot;&gt;Shell Programming&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#shell-and-bash&quot;&gt;shell and bash&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pipes-and-redirection&quot;&gt;Pipes and Redirection&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#shell-programming-1&quot;&gt;Shell Programming&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#creating-a-script&quot;&gt;Creating a script&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#making-a-script-executable&quot;&gt;Making a Script Executable&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#shell-syntax&quot;&gt;Shell Syntax&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#variables&quot;&gt;Variables&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#quoting&quot;&gt;Quoting&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#environment-variables&quot;&gt;Environment Variables&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#parameters-variables&quot;&gt;Parameters Variables&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#conditions&quot;&gt;Conditions&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;get-started&quot;&gt;Get Started&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -700,6 +784,199 @@ echo \$myvar       ##输出&quot;$myvar&quot;
 &lt;/div&gt;
 
 &lt;h4 id=&quot;environment-variables&quot;&gt;Environment Variables&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Environment Variable&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$HOME&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;home目录路径&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$PATH&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;命令搜索的目录路径列表，用冒号分隔&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$0&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;运行的脚本的名字&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$#&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;运行的脚本的参数数目&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$$&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;运行的脚本的process ID，经常用来生成临时文件，如&lt;code class=&quot;highlighter-rouge&quot;&gt;/tmp/tmpfile_$$&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;parameters-variables&quot;&gt;Parameters Variables&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Parameters Variables&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$1, $2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;第1，2个参数&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$*&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;所有的参数列表，作为一个变量&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;conditions&quot;&gt;Conditions&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;test&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;[&lt;/code&gt;: the shell’s Boolean check&lt;/li&gt;
+  &lt;li&gt;condition structure:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 检查是否存在文件
+## test的exit code决定是否继续执行代码
+if test -f fred.c
+then
+## 插入代码
+fi
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;或者&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##请注意之间的空格
+if [ -f fred.c ]
+then
+## 插入代码
+fi
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;完整的&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if + 条件判断
+then
+## 插入代码
+elif + 条件判断
+then
+## 插入代码
+else
+## 插入代码
+fi
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;condition types: &lt;code class=&quot;highlighter-rouge&quot;&gt;String Comparison&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;Arithmetic Comparison&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;File Conditional&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Type&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Expression&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Result&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;String Comparison&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;string1 = string2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;字符串相同&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;string1 != string2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;字符串不同&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-n string&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;字符串不空（不为null）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-z string&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;字符串为空&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Arithmetic Comparison&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expr1 -eq expr2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expression相同e&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expr1 -ne expr2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expression不同&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expr1 -gt expr2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expr1大于expr2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expr1 -ge expr2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expr1大于等于expr2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expr1 -lt expr2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expr1小于expr2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expr1 -le expr2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expr1小于等于expr2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;！ expr&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expr不是True&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;File Conditional&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-d file&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;file是目录&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-f file&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;file是一个常规文件&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-r file&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;file可读&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-s file&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;file的大小非0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-w file&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;file可写&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-x file&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;file可执行&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 </description>
         <pubDate>Mon, 09 May 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/05/09/Linux.html</link>
@@ -1081,62 +1358,6 @@ article p {
         <pubDate>Sat, 07 May 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/05/07/FrontEnd-notebook.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/07/FrontEnd-notebook.html</guid>
-        
-        
-        <category>notebook</category>
-        
-      </item>
-    
-      <item>
-        <title>Python学习笔记</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;主要资源&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.quora.com/How-should-I-start-learning-Python-1&quot;&gt;“How should I start learning Python?” on Quora&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://docs.python.org/2/&quot;&gt;Official Python Document&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.codecademy.com/learn/python&quot;&gt;Python Course on Codecademy&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://learnpythonthehardway.org/&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;official-python-document---tutorial&quot;&gt;Official Python Document - Tutorial&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#启动Python解释器Interpreter
-python
-#在shell中运行python命令
-python -c “print &#39;Hello,world!&#39;”
-#在shell中运行python module
-python -m &amp;lt;module&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;参数传递（Argument Passing）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#sys.argv返回一个字符串的列表（a list of strings）
-import sys
-print sys.argv
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Source Code Encoding&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/env python&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# -*- coding: encoding/iso-8859-15/utf-8 -*-&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Fri, 06 May 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/notebook/2016/05/06/python-notebook.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/06/python-notebook.html</guid>
         
         
         <category>notebook</category>

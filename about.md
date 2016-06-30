@@ -14,19 +14,19 @@ Email:
 
 Social Media:
 
-- LinkedIn: [https://cn.linkedin.com/in/huanwei-wang-53205b61](https://cn.linkedin.com/in/huanwei-wang-53205b61)
-- Zhihu: [https://www.zhihu.com/people/wang-huan-wei](https://www.zhihu.com/people/wang-huan-wei)
-- Github:
-- weibo:
-- ResearchGate:
-- Quora:
-- Facebook:
-- Twitter:
+- [LinkedIn](https://cn.linkedin.com/in/huanwei-wang-53205b61)
+- [Zhihu](https://www.zhihu.com/people/wang-huan-wei)
+- [Github](https://github.com/zjuwhw)
+- [weibo](http://weibo.com/u/1862168475)
+- [ResearchGate](https://www.researchgate.net/profile/Huanwei_Wang)
+- [Quora](https://www.quora.com/profile/Wang-Huanwei)
+- [Facebook](https://www.facebook.com/zju.whw)
+- [Twitter](https://twitter.com/zjuwhw)
 
 Blogs:
 
-- google site:
-- 163 blog:
+- [google site](https://sites.google.com/site/zjuwhwsblog/home)
+- [163 blog](http://blog.163.com/zju_whw/)
 
 This is my [2015 CV](/documents/CV_whw-2015.pdf)
 
