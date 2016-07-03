@@ -6,8 +6,8 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Jul 2016 12:15:51 +0800</pubDate>
-    <lastBuildDate>Sun, 03 Jul 2016 12:15:51 +0800</lastBuildDate>
+    <pubDate>Sun, 03 Jul 2016 14:22:25 +0800</pubDate>
+    <lastBuildDate>Sun, 03 Jul 2016 14:22:25 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -108,13 +108,15 @@ db.collection.deleteMany()
       </item>
     
       <item>
-        <title>Html Tag</title>
+        <title>html tag</title>
         <description>
 </description>
         <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/07/01/html-tag.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/07/01/html-tag.html</guid>
+        <link>zjuwhw.github.io/notebook/2016/07/01/html-tag.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/07/01/html-tag.html</guid>
         
+        
+        <category>notebook</category>
         
       </item>
     
@@ -320,379 +322,6 @@ $   Matches the end of the line
         <pubDate>Tue, 07 Jun 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/06/07/Network.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/06/07/Network.html</guid>
-        
-        
-        <category>notebook</category>
-        
-      </item>
-    
-      <item>
-        <title>有用的links</title>
-        <description>&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#bioinformatics&quot;&gt;Bioinformatics&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#blogs&quot;&gt;Blogs&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#softwares&quot;&gt;Softwares&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#bioinformatic-forum&quot;&gt;Bioinformatic forum&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#personal-website&quot;&gt;Personal website&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#journal&quot;&gt;Journal&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#courses&quot;&gt;Courses&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#project&quot;&gt;Project&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#funding&quot;&gt;Funding&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#database&quot;&gt;Database&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#your-favorite-blog-on-biostar&quot;&gt;Your favorite blog on Biostar&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#微信公众账号&quot;&gt;微信公众账号&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#computer-science&quot;&gt;Computer science&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#blogs-1&quot;&gt;Blogs&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#courses-1&quot;&gt;Courses&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#books&quot;&gt;Books&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;bioinformatics&quot;&gt;Bioinformatics&lt;/h2&gt;
-
-&lt;h3 id=&quot;blogs&quot;&gt;Blogs&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.shsmu-path.com.cn/&quot;&gt;陈国强&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.sciencenet.cn/home.php?mod=space&amp;amp;uid=404304&quot;&gt;薛宇&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.sciencenet.cn/?2237&quot;&gt;饶毅&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://yanping.me/cn/&quot;&gt;雁起平沙&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lwzhanghz.blog.163.com/blog/#m=0&quot;&gt;萧之逸&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://fhqdddddd.blog.163.com/&quot;&gt;云之南&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.chenlianfu.com/&quot;&gt;陈连福&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.sciencenet.cn/home.php?mod=space&amp;amp;uid=393255&quot;&gt;鲁白&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://guangchuangyu.github.io/&quot;&gt;YGC&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://yixf.name/&quot;&gt;yixf&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://azaleasays.com/&quot;&gt;azalea&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://hoffmann.bioinf.uni-leipzig.de/LIFE/David.html&quot;&gt;David Langenberger&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sites.google.com/site/riverlee2008/&quot;&gt;Jiang Li&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Heng Li: 1) &lt;a href=&quot;http://lh3lh3.users.sourceforge.net/&quot;&gt;sourceforge&lt;/a&gt; 2) &lt;a href=&quot;http://lh3.github.io/&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://onetipperday.blogspot.com/&quot;&gt;onetipperday&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bergmanlab.ls.manchester.ac.uk/?page_id=45&quot;&gt;Bergman Lab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://genomeinformatician.blogspot.com/&quot;&gt;Ewan’s blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.longwoodgenomics.org/&quot;&gt;Xiaole Shirley Liu’s Blog Site&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://plindenbaum.blogspot.com/&quot;&gt;Yokofakun&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://joseph.yy.blog.163.com/&quot;&gt;Puriney&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.rna-seqblog.com/&quot;&gt;RNA-seq Bolg&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://simplystatistics.org/&quot;&gt;Simply Statistics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nsaunders.wordpress.com/&quot;&gt;What You’re Doing Is Rahter Desperate&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.win-vector.com/blog/&quot;&gt;Win-Vector Blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://genomesunzipped.org/&quot;&gt;Genomes Unzipped&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://massgenomics.org/&quot;&gt;MassGenomics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://core-genomics.blogspot.com/&quot;&gt;CoreGenomics&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;softwares&quot;&gt;Softwares&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;ChIP-seq&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bio-bwa.sourceforge.net/&quot;&gt;bwa&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bowtie-bio.sourceforge.net/index.shtml&quot;&gt;bowtie&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://liulab.dfci.harvard.edu/MACS/&quot;&gt;MACS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/taoliu/MACS/&quot;&gt;MACS2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://compbio.med.harvard.edu/Supplements/ChIP-seq/&quot;&gt;SPP&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.sph.umich.edu/csg/qin/HPeak/Readme.html&quot;&gt;HPeak&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://meme.nbcr.net/meme/doc/meme-chip.html&quot;&gt;meme-chip&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://131.174.198.125/bioinfo/gimmemotifs/&quot;&gt;GimmeMotif&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://biowhat.ucsd.edu/homer/&quot;&gt;homer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://liulab.dfci.harvard.edu/CEAS/&quot;&gt;CEAS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.benoslab.pitt.edu/stamp/&quot;&gt;STAMP&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;RNA-seq&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://tophat.cbcb.umd.edu/&quot;&gt;tophat&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/alexdobin/STAR&quot;&gt;STAR&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ccb.jhu.edu/software/hisat/index.shtml&quot;&gt;HISAT&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ccb.jhu.edu/software/stringtie/&quot;&gt;StringTie&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rseqc.sourceforge.net/&quot;&gt;RSeQC&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.broadinstitute.org/cancer/cga/rna-seqc&quot;&gt;RNA-SeQC&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://cufflinks.cbcb.umd.edu/&quot;&gt;Cufflinks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.broadinstitute.org/software/scripture/&quot;&gt;Scripture&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html&quot;&gt;HTSeq&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bioinf.wehi.edu.au/featureCounts/&quot;&gt;featurecount&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://web.tongji.edu.cn/~zhanglab/GFOLD/&quot;&gt;GFold&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bioconductor.org/packages/2.12/bioc/html/DESeq.html&quot;&gt;DESeq&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html&quot;&gt;DESeq2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bioinfo.au.tsinghua.edu.cn/software/degseq/&quot;&gt;DEGseq&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bioconductor.org/packages/release/bioc/html/DEXSeq.html&quot;&gt;DEXSeq&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bio.math.berkeley.edu/eXpress/overview.html&quot;&gt;eXpress&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://deweylab.biostat.wisc.edu/rsem/&quot;&gt;RSEM&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://genes.mit.edu/burgelab/miso/&quot;&gt;MISO&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rnaseq-mats.sourceforge.net/&quot;&gt;MATS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bgx.org.uk/software/mmseq.html&quot;&gt;MMSEQ&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/YangLab/CIRCexplorer&quot;&gt;CIRCexplorer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/YangLab/CIRCfinder&quot;&gt;CIRCfinder&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;WGS/WXS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.broadinstitute.org/gatk/&quot;&gt;GATK&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.broadinstitute.org/cancer/cga/MuTect&quot;&gt;MuTect&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://gmt.genome.wustl.edu/packages/pindel/&quot;&gt;Pindel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21666668&quot;&gt;CREST&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://gmt.genome.wustl.edu/packages/somatic-sniper/index.html&quot;&gt;SomaticSniper&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://varscan.sourceforge.net/&quot;&gt;VarScan2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sites.google.com/site/strelkasomaticvariantcaller/&quot;&gt;Strelka&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://code.google.com/p/joint-snv-mix/&quot;&gt;JointSNVMix&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.broadinstitute.org/cancer/cga/mutsig&quot;&gt;MutSig&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.broadinstitute.org/cancer/cga/invex/&quot;&gt;InVEx&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.broadinstitute.org/oncotator/&quot;&gt;Oncotator&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;copyCat&lt;/li&gt;
-  &lt;li&gt;bradkDancer&lt;/li&gt;
-  &lt;li&gt;SquareDancer&lt;/li&gt;
-  &lt;li&gt;Tigra-SV&lt;/li&gt;
-  &lt;li&gt;SciClone&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;SNP array&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;OncoSNP:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;microarray&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;RMA:&lt;/li&gt;
-  &lt;li&gt;MAS5.0:&lt;/li&gt;
-  &lt;li&gt;GCRMA:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Common Tools&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://samtools.sourceforge.net/&quot;&gt;samtools&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://samstat.sourceforge.net/&quot;&gt;samstat&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.broadinstitute.org/cancer/cga/rna-seqc&quot;&gt;bedtools&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://code.google.com/p/bedops/&quot;&gt;bedops&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bioinformatics.babraham.ac.uk/projects/fastqc/&quot;&gt;Fastqc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://hannonlab.cshl.edu/fastx_toolkit/&quot;&gt;Fastx_toolkit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.usadellab.org/cms/index.php?page=trimmomatic&quot;&gt;trimmomatic&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://broadinstitute.github.io/picard/&quot;&gt;Picard&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://hgdownload.cse.ucsc.edu/admin/exe/&quot;&gt;ucsc tools&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://mkweb.bcgsc.ca/circos&quot;&gt;CIRCOS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ncbi/sratoolkit&quot;&gt;SRAtoolkit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/news/02-06-2014-entrez-direct-released/&quot;&gt;Entrez Direct&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.broadinstitute.org/cancer/software/genepattern/&quot;&gt;GenePattern&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;bioinformatic-forum&quot;&gt;Bioinformatic forum&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.biostars.org/&quot;&gt;Biostars&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://seqanswers.com/&quot;&gt;Seqanswers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bioinformatics.ca/links_directory/&quot;&gt;links directory&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;personal-website&quot;&gt;Personal website&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Hematology&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://hsci.harvard.edu/people/daniel-g-tenen&quot;&gt;Daniel G Tenen&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bbe.caltech.edu/content/ellen-rothenberg&quot;&gt;Ellen Rothenberg&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cincinnatichildrens.org/bio/m/james-mulloy/&quot;&gt;James C. Mulloy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.birmingham.ac.uk/staff/profiles/cancer/bonifer-constanze.aspx&quot;&gt;Constanze Bonifer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.stemcells.cam.ac.uk/researchers/principal-investigators/bertie-gottgens&quot;&gt;Bertie G?ttgens&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://labs.biology.ucsd.edu/zhang/&quot;&gt;DongEr Zhang&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.stjude.org/stjude/v/index.jsp?vgnextoid=39254a82840f7210VgnVCM1000001e0215acRCRD&quot;&gt;Jinghui Zhang&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bcm.edu/research/labs/goodell/&quot;&gt;Margaret A. Goodell&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.rockefeller.edu/research/faculty/labheads/RobertRoeder/&quot;&gt;Robert G Roeder&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uhealthsystem.com/doctors/profile/134105&quot;&gt;Stephen D. Nimer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Genome Research&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.broadinstitute.org/history-leadership/scientific-leadership/core-members/eric-s-lander&quot;&gt;Eric S. Lander&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.starklab.org/&quot;&gt;Alexander Stark&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://zhanglab.tch.harvard.edu/lab.htm&quot;&gt;Yi Zhang&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://changlab.stanford.edu/&quot;&gt;Howard Chang&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.stamlab.org/&quot;&gt;John Stamatoyannopoulos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bioinformatics-renlab.ucsd.edu/rentrac/&quot;&gt;Bin Ren&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://zlab.umassmed.edu/zlab/index.shtml&quot;&gt;Zhiping Weng&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&amp;amp;term=Stunnenberg+HG%5Bau%5D&amp;amp;dispmax=50&quot;&gt;Stunnenberg&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://liulab.dfci.harvard.edu/&quot;&gt;Xiaole(Shirley) Liu&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://younglab.wi.mit.edu/&quot;&gt;Young Lab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wang.wustl.edu/&quot;&gt;Wang Ting&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Computational Biologist&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.picb.ac.cn/rnomics/yanglab/&quot;&gt;Yang Li&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.personal.psu.edu/iua1/&quot;&gt;Istvan Albert &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bioinfo.au.tsinghua.edu.cn/member/xzhang/XZhang_Chinese.html&quot;&gt;Xuegong Zhang&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://systemsbiology.sjtu.edu.cn/&quot;&gt;Ao Ping&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rafalab.dfci.harvard.edu/&quot;&gt;rafalab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://math.berkeley.edu/~lpachter/index.html&quot;&gt;Lior Pachter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://cole-trapnell-lab.github.io/&quot;&gt;Cole Trapnell&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://salzberg-lab.org/&quot;&gt;Steven Salzberg&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.mit.edu/~yarden/&quot;&gt;Yarden Katz&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.embl.de/research/units/genome_biology/huber/index.html&quot;&gt;Wolfgang Huber&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://snyderlab.stanford.edu/&quot;&gt;Mike Snyder&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://web.stanford.edu/group/wonglab/&quot;&gt;Wong Yong Wang&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;My lab&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://daoshi.shsmu.edu.cn/teacherInfo.jsp?code=M7000071&quot;&gt;王侃侃&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cs.bris.ac.uk/~hfang/&quot;&gt;方海&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;journal&quot;&gt;Journal&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cell.com/&quot;&gt;Cell&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.sciencemag.org/&quot;&gt;Science&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nature.com/&quot;&gt;Nature&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bloodjournal.hematologylibrary.org/&quot;&gt;Blood&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nature.com/leu/index.html&quot;&gt;Leukemia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.pnas.org/&quot;&gt;PNAS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nejm.org/&quot;&gt;NEJM&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://genome.cshlp.org/&quot;&gt;Genome Research&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nature.com/nbt/index.html&quot;&gt;Nature biotechnology&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nature.com/nrg/index.html&quot;&gt;Nature Review Genetics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nature.com/nrc/index.html&quot;&gt;Nature Review Cancer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ploscompbiol.org/&quot;&gt;PLOS Computational Biology&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.annualreviews.org/&quot;&gt;Annual Review&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;courses&quot;&gt;Courses&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.youku.com/playlist_show/id_19532648.html&quot;&gt;龙星计划2013-翁志萍&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.biostat.pitt.edu/biost2055/11/&quot;&gt;Statistical methods and data mining in microarray analysis-George C. Tseng&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.personal.psu.edu/iua1/courses/courselist.html&quot;&gt;Analyzing High Throughput Sequencing Data-Istvan Albert&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.personal.psu.edu/iua1/courses/2014-BMMB-852.html&quot;&gt;Applied Bioinformatics-Istvan Albert&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://ngscourse.github.io/&quot;&gt;NGS Data Analysis Course&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://wikis.utexas.edu/display/bioiteam/SSC+Intro+to+NGS+Bioinformatics+Course&quot;&gt;SSC Intro to NGS Bioinformatics Course-University of Texas&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://compbio.iupui.edu/group/1/pages/next_gen_course&quot;&gt;Yunlong Liu&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.stat115.org/index.html&quot;&gt;Computational Biology-Shirley Xiaole Liu&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://jura.wi.mit.edu/bio/education/hot_topics/&quot;&gt;Hot topics-MIT&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://udel.edu/~mcdonald/statintro.html&quot;&gt;Biological Statistic&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rosalind.info/problems/locations/&quot;&gt;ROSALIND&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://woodpecker.org.cn/abyteofpython_cn/chinese/index.html&quot;&gt;简明python教程&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://cs229.stanford.edu/&quot;&gt;Machine Learning-Andrew Ng&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/~epxing/Class/10701/&quot;&gt;Machine Learning-Bo(Eric) Xing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bioinformatics.ca/workshops&quot;&gt;Workshop of Bioinformatic.ca&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.edx.org/&quot;&gt;edx&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/&quot;&gt;coursera&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.montefiore.ulg.ac.be/~kvansteen/TeachingGEUA20142015final.html; http://www.dorak.info/&quot;&gt;Genetic Epidemiology&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002632&quot;&gt;An Online Bioinformatics Curriculum by Plos Computational Biology&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003662&quot;&gt;A New Online Computational Biology Curriculum&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;project&quot;&gt;Project&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://genome.ucsc.edu/ENCODE/&quot;&gt;ENCODE&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://cancergenome.nih.gov/&quot;&gt;TCGA&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.1000genomes.org/&quot;&gt;1000 Genomes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://hapmap.ncbi.nlm.nih.gov/&quot;&gt;HapMap&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.roadmapepigenomics.org/&quot;&gt;RoadMap Epigenomics Project&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://target.nci.nih.gov/dataMatrix/&quot;&gt;TARGET&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.gtexportal.org/home/&quot;&gt;GTEx&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://fantom.gsc.riken.jp/5/&quot;&gt;Fantom5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.broadinstitute.org/ccle/home&quot;&gt;CCLE&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://hmpdacc.org/&quot;&gt;HMP&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.uk10k.org/&quot;&gt;The Wellcome Trust UK10K project&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;funding&quot;&gt;Funding&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nih.gov/&quot;&gt;NIH&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cancer.gov/&quot;&gt;NCI&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.genome.gov/&quot;&gt;NHGRI&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nsfc.gov.cn/&quot;&gt;国自然&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.most.gov.cn/kjjh/xmsb/&quot;&gt;科技部&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;database&quot;&gt;Database&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/&quot;&gt;NCBI&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/geo/&quot;&gt;GEO&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ebi.ac.uk/arrayexpress/&quot;&gt;Array-express&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/sra/&quot;&gt;SRA&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/genbank/&quot;&gt;GenBank&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.rcsb.org/pdb/home/home.do&quot;&gt;PDB&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://geneontology.org/&quot;&gt;GO (Gene Ontology) &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.sequenceontology.org/&quot;&gt;SO (Sequence Ontology)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.genome.jp/kegg/&quot;&gt;KEGG&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://genome.ucsc.edu/&quot;&gt;UCSC Genome Browser&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ensembl.org/index.html&quot;&gt;Ensembl&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/snp/&quot;&gt;dbSNP&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.sanger.ac.uk/genetics/CGP/cosmic/&quot;&gt;COSMIC&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ncbi.nlm.nih.gov/clinvar/&quot;&gt;ClinVar&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.hsls.pitt.edu/obrc/index.php?page=pcr_oligos&quot;&gt;primer design database&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://exac.broadinstitute.org/&quot;&gt;ExAC&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://omictools.com/&quot;&gt;Omictools&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.hgmd.cf.ac.uk/ac/index.php&quot;&gt;HGMD (Human Gene Mutation Database)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;your-favorite-blog-on-biostar&quot;&gt;Your favorite blog on Biostar&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Your Favorite Bioinformatics Blogs (March 2010)&lt;/li&gt;
-  &lt;li&gt;Your Favorite Bioinformatics Blogs (October 2011)&lt;/li&gt;
-  &lt;li&gt;What Are Your Favorite Bioit News Resources / Blogs (2012 Edition)&lt;/li&gt;
-  &lt;li&gt;Your Favorite Bioinformatics Blog(S) (2013 Edition)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;微信公众账号&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;赛先生&lt;/li&gt;
-  &lt;li&gt;知识分子&lt;/li&gt;
-  &lt;li&gt;测序中国&lt;/li&gt;
-  &lt;li&gt;丁香园&lt;/li&gt;
-  &lt;li&gt;生物谷&lt;/li&gt;
-  &lt;li&gt;知因knowgene&lt;/li&gt;
-  &lt;li&gt;博士圈Illumina&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;computer-science&quot;&gt;Computer science&lt;/h2&gt;
-
-&lt;h3 id=&quot;blogs-1&quot;&gt;Blogs&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/&quot;&gt;阮一峰&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.chengweiyang.cn/archives/&quot;&gt;Chengwei’s Words&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mozillazg.com/&quot;&gt;Mozillazg’s Blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://perspectives.mvdirona.com/&quot;&gt;James Hamilton - VP at Amazon Web Services&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.dennybritz.com/&quot;&gt;Denny Britz, a engineer in Google&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;courses-1&quot;&gt;Courses&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/afs/cs/academic/class/15213-f14/www/index.html&quot;&gt;“Introduction to Computer Systems” by CMU&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/full-stack&quot;&gt;“Build Complete Web Solutions” by HST on coursera&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/python&quot;&gt;“Learn to Program and Analyze Data with Python “by Uiversity of Michigan on coursera&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/ruby-on-rails&quot;&gt;“Become a Rails Developer by JHU” on couresra&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html&quot;&gt;Linux工具快速教程&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.csd.cs.cmu.edu/content/bachelors-curriculum-admitted-2014&quot;&gt;Bachelors Curriculum of CMU CS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://15418.courses.cs.cmu.edu/spring2016/home&quot;&gt;“Parallel Computer Architecture and Programming”&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/~prs/15-441-F14/index.html&quot;&gt;“Computer Networks”&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
-
-</description>
-        <pubDate>Mon, 23 May 2016 08:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/notebook/2016/05/23/links.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/23/links.html</guid>
         
         
         <category>notebook</category>
@@ -1319,6 +948,69 @@ seems likely that only systematic change can reverse this trend.&lt;/p&gt;
         <pubDate>Sat, 07 May 2016 08:12:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/05/07/work-title.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/07/work-title.html</guid>
+        
+        
+        <category>notebook</category>
+        
+      </item>
+    
+      <item>
+        <title>HTML&amp;CSS学习笔记</title>
+        <description>&lt;p&gt;注：本文为Front-End技术HTML和CSS的学习笔记，内容来自图书&lt;a href=&quot;https://book.douban.com/subject/6585090/&quot;&gt;《HTML&amp;amp;CSS: design and build websites》&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;1&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;web browser&lt;/li&gt;
+  &lt;li&gt;web server&lt;/li&gt;
+  &lt;li&gt;web hosting&lt;/li&gt;
+  &lt;li&gt;devices&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;2&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;small website: HTML + CSS&lt;/li&gt;
+  &lt;li&gt;larger website: HTML + CSS produced by
+    &lt;ul&gt;
+      &lt;li&gt;content management system (CMS)&lt;/li&gt;
+      &lt;li&gt;blogging tools&lt;/li&gt;
+      &lt;li&gt;e-commerce software&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;more complext website:
+    &lt;ul&gt;
+      &lt;li&gt;database&lt;/li&gt;
+      &lt;li&gt;programming languages: PHP, ASP.Net, Java or Ruby&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;3&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Internet Service Provider (ISP)&lt;/li&gt;
+  &lt;li&gt;Domain Name System (DNS)&lt;/li&gt;
+  &lt;li&gt;contact the web server via IP&lt;/li&gt;
+  &lt;li&gt;the web server sends the page&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;elements: &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; stands for paragraph&lt;/li&gt;
+  &lt;li&gt;two tags: opening tag, closing tag&lt;/li&gt;
+  &lt;li&gt;atrributes: a name and a value, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;lang=&quot;en-us&quot;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;body&gt;, &lt;head&gt; &amp;amp; &lt;title&gt;
+&lt;/title&gt;&lt;/head&gt;&lt;/body&gt;
+  &lt;/li&gt;
+  &lt;li&gt;HTML: HyperText Markup Language&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 07 May 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/notebook/2016/05/07/HTML-CSS-notebook.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/07/HTML-CSS-notebook.html</guid>
         
         
         <category>notebook</category>

@@ -1,8 +1,7 @@
 ---
-layout: post
-title: 有用的links
-date: 2016-05-23T00:00:00.000Z
-categories: notebook
+layout: page
+title: Links
+permalink: /links/
 ---
 
 ## Table of Contents
