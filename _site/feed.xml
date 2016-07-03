@@ -6,13 +6,28 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Jul 2016 14:22:25 +0800</pubDate>
-    <lastBuildDate>Sun, 03 Jul 2016 14:22:25 +0800</lastBuildDate>
+    <pubDate>Sun, 03 Jul 2016 15:11:27 +0800</pubDate>
+    <lastBuildDate>Sun, 03 Jul 2016 15:11:27 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>mongoDB学习笔记</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;基本概念&lt;/h2&gt;
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;基本概念&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#mongodb-package-componetshttpsdocsmongodbcommanualreferenceprogram&quot; id=&quot;markdown-toc-mongodb-package-componetshttpsdocsmongodbcommanualreferenceprogram&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/reference/program/&quot;&gt;MongoDB Package Componets&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#mongodb-crud-operationshttpsdocsmongodbcommanualcrud&quot; id=&quot;markdown-toc-mongodb-crud-operationshttpsdocsmongodbcommanualcrud&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/crud/&quot;&gt;MongoDB CRUD Operations&lt;/a&gt;&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#create-operations&quot; id=&quot;markdown-toc-create-operations&quot;&gt;Create Operations&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#read-operations&quot; id=&quot;markdown-toc-read-operations&quot;&gt;Read Operations&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#update-operations&quot; id=&quot;markdown-toc-update-operations&quot;&gt;Update Operations&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#mongo-and-sql&quot; id=&quot;markdown-toc-mongo-and-sql&quot;&gt;Mongo and SQL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#mongo-by-python&quot; id=&quot;markdown-toc-mongo-by-python&quot;&gt;Mongo by Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#manage-mongod-processeshttpsdocsmongodbcommanualtutorialmanage-mongodb-processes&quot; id=&quot;markdown-toc-manage-mongod-processeshttpsdocsmongodbcommanualtutorialmanage-mongodb-processes&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/&quot;&gt;Manage mongod Processes&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;扩展阅读：&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;基本概念&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;MongoDB: an open-source document database&lt;/li&gt;
@@ -108,8 +123,145 @@ db.collection.deleteMany()
       </item>
     
       <item>
-        <title>html tag</title>
-        <description>
+        <title>HTML tag</title>
+        <description>&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Tag&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a comment&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!DOCTYPE&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines the document type&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a hyperlink&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;article&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines an article&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines the document’s body&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a single line break&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;button&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a clickable button&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a piece of computer code&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a section in a document&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;footer&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a footer for a document or section&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h6&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines HTML headings&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines information about the document&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;header&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a header for a document or section&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines the root of an HTML document&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines an image&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;li&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a list item&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines the relationship between a document and an external resource (most used to link to style sheets)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;menu&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a list/menu of commands&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nav&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines navigation links&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ol&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines an ordered list&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a paragraph&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a section in a document&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;table&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a table&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;td&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a cell in a table&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a title for the document&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;tr&amp;gt;	&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a row in a table&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ul&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines an unordered list&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;video&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Defines a video	or movie&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;source: &lt;a href=&quot;http://www.w3schools.com/tags/&quot;&gt;w3schools&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;anatomy-of-an-html-tag&quot;&gt;Anatomy of an HTML tag&lt;/h3&gt;
+
+&lt;h4 id=&quot;tag-structure&quot;&gt;tag structure&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/html-tag1.png&quot; alt=&quot;html tag 1&quot; style=&quot;width: 480px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;attribute&quot;&gt;attribute&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/html-tag2.png&quot; alt=&quot;html tag 2&quot; style=&quot;width: 480px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;source: &lt;a href=&quot;https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome&quot;&gt;MOOC by JHU&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/07/01/html-tag.html</link>

@@ -4,23 +4,8 @@ title: Links
 permalink: /links/
 ---
 
-## Table of Contents
-- [Bioinformatics](#bioinformatics)
-  * [Blogs](#blogs)
-  * [Softwares](#softwares)
-  * [Bioinformatic forum](#bioinformatic-forum)
-  * [Personal website](#personal-website)
-  * [Journal](#journal)
-  * [Courses](#courses)
-  * [Project](#project)
-  * [Funding](#funding)
-  * [Database](#database)
-  * [Your favorite blog on Biostar](#your-favorite-blog-on-biostar)
-  * [微信公众账号](#微信公众账号)
-- [Computer science](#computer-science)
-  * [Blogs](#blogs-1)
-  * [Courses](#courses-1)
-  * [Books](#books)
+* TOC
+{:toc}
 
 ## Bioinformatics
 
