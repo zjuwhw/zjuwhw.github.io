@@ -2,7 +2,7 @@
 layout: post
 title: Git学习笔记
 date:   2016-05-04
-categories: notebook
+tags: cs
 ---
 
 注：本文为git的学习笔记，全部内容来自《[pro git](https://git-scm.com/book/en/v2)》

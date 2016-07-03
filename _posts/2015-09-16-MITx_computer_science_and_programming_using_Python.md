@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Edx-Python学习笔记
+tags: [cs, mooc]
 ---
 
 # Lecture 1: Introduction to computation

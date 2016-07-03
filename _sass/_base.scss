@@ -205,7 +205,7 @@ pre {
     }
 }
 
-table{
+table {
     border-collapse: collapse;
     border-spacing: 0;
     border:2px solid #000000;
@@ -218,3 +218,11 @@ th{
 td{
     border:2px solid #000000;
 }
+
+.post-tag {
+  display: inline-block;
+  padding: 0 .5rem;
+  margin-   : .5rem;
+  border-radius: 4px;
+}
+

@@ -2,7 +2,7 @@
 layout: post
 title:  "Python学习笔记"
 date:   2016-05-06
-categories: notebook
+tags: cs
 ---
 
 ## 主要资源

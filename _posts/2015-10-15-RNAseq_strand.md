@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RNA-seq连特异性
+tags: bioinfo
 ---
 
 # The strandness of RNA-seq analysis

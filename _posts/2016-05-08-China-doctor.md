@@ -2,7 +2,7 @@
 layout: post
 title:  "中国伤医事件的文献翻译"
 date:   2016-05-08
-categories: notebook
+tags: [bio, medi]
 ---
 
 
@@ -61,7 +61,8 @@ categories: notebook
 
 上诉所有的因素加在一起，导致了对医疗系统各个层面的不满，不仅导致了暴力冲突，也形成了“一个无辜的年轻医生的杀手是不会得到大众责难的”这样的文化。然而，只是一小部分有着负面经历的声音引起了对整个系统不成比例的上海。目前少数中国可用的的患者满意度调查显示了对医护工作者的高度满意。我们自己最近的研究也显示超过70%的病人仍然觉得医生和护士个体是在竭尽全力救治，但是对系统中的问题感到不舒服。例如，患者明白低的咨询费会鼓励过度给药和治疗，认为医生和护士，尤其是二级和三级医院的医生和护士，过度工作，牺牲了治疗的标准
 
-> The level of violence in Chinese hospitals is increasing. Itseems likely that only systematic change can reverse this trend.
+> The level of violence in Chinese hospitals is increasing. It
+seems likely that only systematic change can reverse this trend.
 
 在中国，暴力的级别在增加。似乎只有系统性的改变才有可能扭转这种势头。
 

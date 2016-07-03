@@ -2,7 +2,7 @@
 layout: post
 title: Python的模块整理
 date: 2016-06-30
-categories: notebook
+tags: cs
 ---
 
 - [os](https://docs.python.org/2/library/os.html): Miscellaneous operating system interfaces

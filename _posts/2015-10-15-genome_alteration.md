@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Genomic Alteration名词解释
+tags: bio
 ---
 
 # Glossary of Genomic Alteration

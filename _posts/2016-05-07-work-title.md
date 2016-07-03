@@ -2,7 +2,7 @@
 layout: post
 title:  "IT行业缩写整理"
 date:   2016-05-07 00:12:00
-categories: notebook
+tags: cs
 ---
 
 ## 职位

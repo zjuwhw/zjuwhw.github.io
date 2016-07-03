@@ -2,7 +2,7 @@
 layout: post
 title:  "Coursera-Frontend学习笔记"
 date:   2016-05-07
-categories: notebook
+tags: [cs, mooc]
 ---
 注：本文为Front-End技术HTML，CSS和JavaScript的学习笔记，内容来自Coursera课程[《HTML, CSS, and JavaScript for Web Developers》](https://www.coursera.org/learn/html-css-javascript-for-web-developers/)
 
