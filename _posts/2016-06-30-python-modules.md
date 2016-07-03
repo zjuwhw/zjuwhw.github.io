@@ -16,6 +16,7 @@ categories: notebook
 - [threading](https://docs.python.org/2/library/threading.html): Higher-level threading interface
 - [json](https://docs.python.org/2/library/json.html): JSON encoder and decoder
 - [traceback](https://docs.python.org/2/library/traceback.html): Print or retrieve a stack traceback
+- [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html): Simple HTTP request handler
 - time
 - docker-py
 - pymongo

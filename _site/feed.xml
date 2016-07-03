@@ -6,28 +6,133 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Jun 2016 14:04:23 +0800</pubDate>
-    <lastBuildDate>Thu, 30 Jun 2016 14:04:23 +0800</lastBuildDate>
+    <pubDate>Sun, 03 Jul 2016 12:15:51 +0800</pubDate>
+    <lastBuildDate>Sun, 03 Jul 2016 12:15:51 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>Python的模块整理</title>
-        <description>&lt;h3 id=&quot;section&quot;&gt;内置&lt;/h3&gt;
+        <title>mongoDB学习笔记</title>
+        <description>&lt;h2 id=&quot;section&quot;&gt;基本概念&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;os&lt;/li&gt;
-  &lt;li&gt;sys&lt;/li&gt;
-  &lt;li&gt;ConfigParser&lt;/li&gt;
-  &lt;li&gt;argparse&lt;/li&gt;
-  &lt;li&gt;PyYAML&lt;/li&gt;
-  &lt;li&gt;logging&lt;/li&gt;
-  &lt;li&gt;platform&lt;/li&gt;
-  &lt;li&gt;uuid&lt;/li&gt;
-  &lt;li&gt;collections&lt;/li&gt;
-  &lt;li&gt;threading&lt;/li&gt;
-  &lt;li&gt;json&lt;/li&gt;
-  &lt;li&gt;jinja2&lt;/li&gt;
-  &lt;li&gt;traceback&lt;/li&gt;
+  &lt;li&gt;MongoDB: an open-source document database&lt;/li&gt;
+  &lt;li&gt;ORM: Object Relational Mapping&lt;/li&gt;
+  &lt;li&gt;Documents: a record in MongoDB, similar to JSON objects&lt;/li&gt;
+  &lt;li&gt;Collections: MongoDB stores documents in collections, analogous to tables in relational databases&lt;/li&gt;
+  &lt;li&gt;_id field: unique, acts as a primary key&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.json.org/&quot;&gt;JSON&lt;/a&gt;: JavaScript Object Notation&lt;/li&gt;
+  &lt;li&gt;BSON: a binary representation of JSON documents&lt;/li&gt;
+  &lt;li&gt;CRUD: create, read, update, and delete documents&lt;/li&gt;
+  &lt;li&gt;drivers: an application communicates with MongoDB by way of a client library, including shell, python, C, java, Node.js, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mongodb-package-componetshttpsdocsmongodbcommanualreferenceprogram&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/reference/program/&quot;&gt;MongoDB Package Componets&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongod&lt;/code&gt;: the primary daemon process(守护进程) for the MongoDB system&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongos&lt;/code&gt;: MongoDB Shard. Sharding means a method for distributing data across multiple machines.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongo&lt;/code&gt;: &lt;strong&gt;an interactive JavaScript shell interface to MongoDB&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongodump&lt;/code&gt;: a utility for creating a binary export of the contents of a database&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongorestore&lt;/code&gt;: writes data from a binary database dump created by mongodump to a MongoDB instance.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bsondump&lt;/code&gt;: converts BSON files into human-readable formats, including JSON.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongooplog&lt;/code&gt;: a simple tool that polls operations from the replication oplog of a remote server, and applies them to the local server.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongoimport&lt;/code&gt;: imports content from an Extended JSON, CSV, or TSV export created by mongoexport, or potentially, another third-party export tool.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongoexport&lt;/code&gt;: a utility that produces a JSON or CSV export of data stored in a MongoDB instance.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongostat&lt;/code&gt;: provides a quick overview of the status of a currently running mongod or mongos instance&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongotop&lt;/code&gt;: provides a method to track the amount of time a MongoDB instance spends reading and writing data&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongosniff&lt;/code&gt;: provides a low-level operation tracing/sniffing view into database activity in real time&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongoperf&lt;/code&gt;: a utility to check disk I/O performance independently of MongoDB&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongofiles&lt;/code&gt;: makes it possible to manipulate files stored in your MongoDB instance in GridFS objects from the command line.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mongodb-crud-operationshttpsdocsmongodbcommanualcrud&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/crud/&quot;&gt;MongoDB CRUD Operations&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;create-operations&quot;&gt;Create Operations&lt;/h3&gt;
+
+&lt;p&gt;add new documents to a collection&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.collection.insert()
+db.collection.insertOne()
+db.collection.insertMany() 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;read-operations&quot;&gt;Read Operations&lt;/h3&gt;
+
+&lt;p&gt;read documents from a collection, i.e. queries a collection for documents&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.collection.find()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;update-operations&quot;&gt;Update Operations&lt;/h3&gt;
+
+&lt;p&gt;modify existing documents in a collection&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.collection.update()
+db.collection.updateOne()
+db.collection.updateMany()
+db.collection.replaceOne()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;### Delete Operations&lt;/p&gt;
+
+&lt;p&gt;remove documents from a collection&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.collection.remove()
+db.collection.deleteOne()
+db.collection.deleteMany()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;mongo-and-sql&quot;&gt;Mongo and SQL&lt;/h2&gt;
+
+&lt;h2 id=&quot;mongo-by-python&quot;&gt;Mongo by Python&lt;/h2&gt;
+
+&lt;h2 id=&quot;manage-mongod-processeshttpsdocsmongodbcommanualtutorialmanage-mongodb-processes&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/&quot;&gt;Manage mongod Processes&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;扩展阅读：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;mongoDB official website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.mongodb.com/?&quot;&gt;mongoDB docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/notebook/2016/07/01/mongodb.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/07/01/mongodb.html</guid>
+        
+        
+        <category>notebook</category>
+        
+      </item>
+    
+      <item>
+        <title>Html Tag</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/07/01/html-tag.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/07/01/html-tag.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Python的模块整理</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/os.html&quot;&gt;os&lt;/a&gt;: Miscellaneous operating system interfaces&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/sys.html&quot;&gt;sys&lt;/a&gt;: System-specific parameters and functions&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/configparser.html&quot;&gt;ConfigParser&lt;/a&gt;: Configuration file parser&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/argparse.html&quot;&gt;argparse&lt;/a&gt;: Parser for command-line options, arguments and sub-commands&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/logging.html&quot;&gt;logging&lt;/a&gt;: Logging facility for Python&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/platform.html&quot;&gt;platform&lt;/a&gt;: Access to underlying platform’s identifying data&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/uuid.html&quot;&gt;uuid&lt;/a&gt;: UUID objects according to RFC 4122&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/collections.html&quot;&gt;collections&lt;/a&gt;: High-performance container datatypes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/threading.html&quot;&gt;threading&lt;/a&gt;: Higher-level threading interface&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/json.html&quot;&gt;json&lt;/a&gt;: JSON encoder and decoder&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/traceback.html&quot;&gt;traceback&lt;/a&gt;: Print or retrieve a stack traceback&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/simplehttpserver.html&quot;&gt;SimpleHTTPServer&lt;/a&gt;: Simple HTTP request handler&lt;/li&gt;
   &lt;li&gt;time&lt;/li&gt;
   &lt;li&gt;docker-py&lt;/li&gt;
   &lt;li&gt;pymongo&lt;/li&gt;
@@ -50,9 +155,11 @@
   &lt;li&gt;hmac&lt;/li&gt;
   &lt;li&gt;functools&lt;/li&gt;
   &lt;li&gt;Celery&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pyyaml.org/wiki/PyYAML&quot;&gt;PyYAML&lt;/a&gt;: YAML parser and emitter for Python&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jinja.pocoo.org/&quot;&gt;jinja2&lt;/a&gt;: a template engine written in pure Python&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-1&quot;&gt;扩展阅读&lt;/h3&gt;
+&lt;h3 id=&quot;section&quot;&gt;扩展阅读&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/vinta/awesome-python&quot;&gt;https://github.com/vinta/awesome-python&lt;/a&gt;&lt;/li&gt;
@@ -561,15 +668,23 @@ $   Matches the end of the line
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/&quot;&gt;阮一峰&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.chengweiyang.cn/archives/&quot;&gt;Chengwei’s Words&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mozillazg.com/&quot;&gt;Mozillazg’s Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://perspectives.mvdirona.com/&quot;&gt;James Hamilton - VP at Amazon Web Services&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.dennybritz.com/&quot;&gt;Denny Britz, a engineer in Google&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;courses-1&quot;&gt;Courses&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/afs/cs/academic/class/15213-f14/www/index.html&quot;&gt;Introduction to Computer Systems by CMU&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/full-stack&quot;&gt;Build Complete Web Solutions by HST on coursera&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/python&quot;&gt;Learn to Program and Analyze Data with Python by Uiversity of Michigan on coursera&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/ruby-on-rails&quot;&gt;Become a Rails Developer by JHU on couresra&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/afs/cs/academic/class/15213-f14/www/index.html&quot;&gt;“Introduction to Computer Systems” by CMU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/full-stack&quot;&gt;“Build Complete Web Solutions” by HST on coursera&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/python&quot;&gt;“Learn to Program and Analyze Data with Python “by Uiversity of Michigan on coursera&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/ruby-on-rails&quot;&gt;“Become a Rails Developer by JHU” on couresra&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html&quot;&gt;Linux工具快速教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.csd.cs.cmu.edu/content/bachelors-curriculum-admitted-2014&quot;&gt;Bachelors Curriculum of CMU CS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://15418.courses.cs.cmu.edu/spring2016/home&quot;&gt;“Parallel Computer Architecture and Programming”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cs.cmu.edu/~prs/15-441-F14/index.html&quot;&gt;“Computer Networks”&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
@@ -1204,160 +1319,6 @@ seems likely that only systematic change can reverse this trend.&lt;/p&gt;
         <pubDate>Sat, 07 May 2016 08:12:00 +0800</pubDate>
         <link>zjuwhw.github.io/notebook/2016/05/07/work-title.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/07/work-title.html</guid>
-        
-        
-        <category>notebook</category>
-        
-      </item>
-    
-      <item>
-        <title>HTML&amp;CSS学习笔记</title>
-        <description>&lt;p&gt;注：本文为Front-End技术HTML和CSS的学习笔记，内容来自图书&lt;a href=&quot;https://book.douban.com/subject/6585090/&quot;&gt;《HTML&amp;amp;CSS: design and build websites》&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;1&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;web browser&lt;/li&gt;
-  &lt;li&gt;web server&lt;/li&gt;
-  &lt;li&gt;web hosting&lt;/li&gt;
-  &lt;li&gt;devices&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;2&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;small website: HTML + CSS&lt;/li&gt;
-  &lt;li&gt;larger website: HTML + CSS produced by
-    &lt;ul&gt;
-      &lt;li&gt;content management system (CMS)&lt;/li&gt;
-      &lt;li&gt;blogging tools&lt;/li&gt;
-      &lt;li&gt;e-commerce software&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;more complext website:
-    &lt;ul&gt;
-      &lt;li&gt;database&lt;/li&gt;
-      &lt;li&gt;programming languages: PHP, ASP.Net, Java or Ruby&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-2&quot;&gt;3&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Internet Service Provider (ISP)&lt;/li&gt;
-  &lt;li&gt;Domain Name System (DNS)&lt;/li&gt;
-  &lt;li&gt;contact the web server via IP&lt;/li&gt;
-  &lt;li&gt;the web server sends the page&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;elements: &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; stands for paragraph&lt;/li&gt;
-  &lt;li&gt;two tags: opening tag, closing tag&lt;/li&gt;
-  &lt;li&gt;atrributes: a name and a value, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;lang=&quot;en-us&quot;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;body&gt;, &lt;head&gt; &amp;amp; &lt;title&gt;
-&lt;/title&gt;&lt;/head&gt;&lt;/body&gt;
-  &lt;/li&gt;
-  &lt;li&gt;HTML: HyperText Markup Language&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 07 May 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/notebook/2016/05/07/HTML-CSS-notebook.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/07/HTML-CSS-notebook.html</guid>
-        
-        
-        <category>notebook</category>
-        
-      </item>
-    
-      <item>
-        <title>Coursera-Frontend学习笔记</title>
-        <description>&lt;p&gt;注：本文为Front-End技术HTML，CSS和JavaScript的学习笔记，内容来自Coursera课程&lt;a href=&quot;https://www.coursera.org/learn/html-css-javascript-for-web-developers/&quot;&gt;《HTML, CSS, and JavaScript for Web Developers》&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;p {
-	color: blue;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; is Selector&lt;/li&gt;
-  &lt;li&gt;‘color: blue;’ is Declaration&lt;/li&gt;
-  &lt;li&gt;‘color’ is Property&lt;/li&gt;
-  &lt;li&gt;‘blue’ is Value&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* element selector */
-p {
-	color: blue;
-	text-align: center;
-	font-size: 20px;
-	font-weight: bold;
-	font-style: italic;
-	background-color: green;
-	opacity: .6;
-}
-
-
-/* class selector */
-.blue {
-	color: blue;
-}
-
-&amp;lt;p class = &quot;blue&quot;&amp;gt; ... &amp;lt;/p&amp;gt;
-&amp;lt;div class = &quot;blue&quot;&amp;gt; ... &amp;lt;/div&amp;gt;
-
-
-/* id selector */
-#name {
-	color: blue;
-}
-
-&amp;lt;p id = &quot;name&quot;&amp;gt; ... &amp;lt;/p&amp;gt;
-
-/* grouping selectors */
-div, .blue {
-	color: blue;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;combing selectors&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* element with class selector */
-p.big {
-	font-size: 20px;
-}
-
-&amp;lt;p class = &quot;big&quot;&amp;gt; ... &amp;lt;/p&amp;gt;
-
-
-/* child selector */
-article &amp;gt; p {
-	color: blue;
-}
-
-&amp;lt;article&amp;gt;
-	&amp;lt;p&amp;gt;  ... &amp;lt;/p&amp;gt;
-&amp;lt;/article&amp;gt;
-
-
-/* Descendant selector */
-article p {
-	color: blue;
-}
-
-&amp;lt;article&amp;gt;
-	&amp;lt;div&amp;gt;&amp;lt;p&amp;gt; ... &amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;
-&amp;lt;/article&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 07 May 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/notebook/2016/05/07/FrontEnd-notebook.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/notebook/2016/05/07/FrontEnd-notebook.html</guid>
         
         
         <category>notebook</category>
