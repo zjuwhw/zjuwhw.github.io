@@ -6,8 +6,8 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Jul 2016 16:20:23 +0800</pubDate>
-    <lastBuildDate>Sun, 03 Jul 2016 16:20:23 +0800</lastBuildDate>
+    <pubDate>Mon, 04 Jul 2016 17:09:45 +0800</pubDate>
+    <lastBuildDate>Mon, 04 Jul 2016 17:09:45 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -274,7 +274,9 @@ db.collection.deleteMany()
     
       <item>
         <title>Python的模块整理</title>
-        <description>&lt;ul&gt;
+        <description>&lt;h2 id=&quot;section&quot;&gt;内置&lt;/h2&gt;
+
+&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/os.html&quot;&gt;os&lt;/a&gt;: Miscellaneous operating system interfaces&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/sys.html&quot;&gt;sys&lt;/a&gt;: System-specific parameters and functions&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/configparser.html&quot;&gt;ConfigParser&lt;/a&gt;: Configuration file parser&lt;/li&gt;
@@ -287,33 +289,39 @@ db.collection.deleteMany()
   &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/json.html&quot;&gt;json&lt;/a&gt;: JSON encoder and decoder&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/traceback.html&quot;&gt;traceback&lt;/a&gt;: Print or retrieve a stack traceback&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/simplehttpserver.html&quot;&gt;SimpleHTTPServer&lt;/a&gt;: Simple HTTP request handler&lt;/li&gt;
-  &lt;li&gt;time&lt;/li&gt;
-  &lt;li&gt;docker-py&lt;/li&gt;
-  &lt;li&gt;pymongo&lt;/li&gt;
-  &lt;li&gt;requests&lt;/li&gt;
-  &lt;li&gt;urllib2&lt;/li&gt;
-  &lt;li&gt;urllib&lt;/li&gt;
-  &lt;li&gt;hashlib&lt;/li&gt;
-  &lt;li&gt;zlib&lt;/li&gt;
-  &lt;li&gt;tarfile&lt;/li&gt;
-  &lt;li&gt;random&lt;/li&gt;
-  &lt;li&gt;base64&lt;/li&gt;
-  &lt;li&gt;setuptools&lt;/li&gt;
-  &lt;li&gt;distutils&lt;/li&gt;
-  &lt;li&gt;pypiserver&lt;/li&gt;
-  &lt;li&gt;unittest&lt;/li&gt;
-  &lt;li&gt;flask&lt;/li&gt;
-  &lt;li&gt;multiprocessing&lt;/li&gt;
-  &lt;li&gt;virtualenv&lt;/li&gt;
-  &lt;li&gt;pip&lt;/li&gt;
-  &lt;li&gt;hmac&lt;/li&gt;
-  &lt;li&gt;functools&lt;/li&gt;
-  &lt;li&gt;Celery&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://pyyaml.org/wiki/PyYAML&quot;&gt;PyYAML&lt;/a&gt;: YAML parser and emitter for Python&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://jinja.pocoo.org/&quot;&gt;jinja2&lt;/a&gt;: a template engine written in pure Python&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/time.html&quot;&gt;time&lt;/a&gt;: Time access and conversions&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/shlex.html&quot;&gt;shlex&lt;/a&gt;: Simple lexical analysis&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/urllib2.html&quot;&gt;urllib2&lt;/a&gt;:  Extensible library for opening URLs&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/urllib.html&quot;&gt;urllib&lt;/a&gt;: Open arbitrary resources by URL&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/hashlib.html&quot;&gt;hashlib&lt;/a&gt;: Secure hashes and message digests&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/zlib.html&quot;&gt;zlib&lt;/a&gt;: Compression compatible with gzip&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/tarfile.html&quot;&gt;tarfile&lt;/a&gt;: Read and write tar archive files&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/random.html&quot;&gt;random&lt;/a&gt;: Generate pseudo-random numbers&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/base64.html&quot;&gt;base64&lt;/a&gt;: RFC 3548: Base16, Base32, Base64 Data Encodings&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2.7/library/unittest.html&quot;&gt;unittest&lt;/a&gt;: Unit testing framework&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/multiprocessing.html&quot;&gt;multiprocessing&lt;/a&gt;: Process-based “threading” interface&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/subprocess.html&quot;&gt;subprocess&lt;/a&gt;: Subprocess management&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/hmac.html&quot;&gt;hmac&lt;/a&gt;: Keyed-Hashing for Message Authentication&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/functools.html&quot;&gt;functools&lt;/a&gt;: Higher-order functions and operations on callable objects&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;扩展阅读&lt;/h3&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;非内置&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/docker/docker-py&quot;&gt;docker-py&lt;/a&gt;: An API client for docker written in Python&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://api.mongodb.com/python/current/&quot;&gt;pymongo&lt;/a&gt;: Tools for working with MongoDB&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.celeryproject.org/&quot;&gt;Celery&lt;/a&gt;: Distributed Task Queue&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://docs.python-requests.org/en/master/&quot;&gt;requests&lt;/a&gt;: HTTP for Humans&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pyyaml.org/wiki/PyYAML&quot;&gt;PyYAML&lt;/a&gt;: YAML parser and emitter for Python&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jinja.pocoo.org/&quot;&gt;jinja2&lt;/a&gt;: a template engine written in pure Python&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pip.pypa.io/en/stable/&quot;&gt;pip&lt;/a&gt;: pip supports installing from PyPI, version control, local projects, and directly from distribution files.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://docs.python-guide.org/en/latest/dev/virtualenvs/&quot;&gt;virtualenv&lt;/a&gt;: A tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flask.pocoo.org/&quot;&gt;flask&lt;/a&gt;: A lightweight Python web framework based on Werkzeug and Jinja 2&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://setuptools.readthedocs.io/en/latest/&quot;&gt;setuptools&lt;/a&gt;: Fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/pypiserver/pypiserver&quot;&gt;pypiserver&lt;/a&gt;: Minimal PyPI server for uploading &amp;amp; downloading packages with pip/easy_install&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;扩展阅读&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/vinta/awesome-python&quot;&gt;https://github.com/vinta/awesome-python&lt;/a&gt;&lt;/li&gt;

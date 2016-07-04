@@ -5,6 +5,8 @@ date: 2016-06-30
 tags: cs
 ---
 
+## 内置
+
 - [os](https://docs.python.org/2/library/os.html): Miscellaneous operating system interfaces
 - [sys](https://docs.python.org/2/library/sys.html): System-specific parameters and functions
 - [ConfigParser](https://docs.python.org/2/library/configparser.html): Configuration file parser
@@ -17,30 +19,34 @@ tags: cs
 - [json](https://docs.python.org/2/library/json.html): JSON encoder and decoder
 - [traceback](https://docs.python.org/2/library/traceback.html): Print or retrieve a stack traceback
 - [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html): Simple HTTP request handler
-- time
-- docker-py
-- pymongo
-- requests
-- urllib2
-- urllib
-- hashlib
-- zlib
-- tarfile
-- random
-- base64
-- setuptools
-- distutils
-- pypiserver
-- unittest
-- flask
-- multiprocessing
-- virtualenv 
-- pip
-- hmac
-- functools
-- Celery
+- [time](https://docs.python.org/2/library/time.html): Time access and conversions
+- [shlex](https://docs.python.org/2/library/shlex.html): Simple lexical analysis
+- [urllib2](https://docs.python.org/2/library/urllib2.html):  Extensible library for opening URLs
+- [urllib](https://docs.python.org/2/library/urllib.html): Open arbitrary resources by URL
+- [hashlib](https://docs.python.org/2/library/hashlib.html): Secure hashes and message digests
+- [zlib](https://docs.python.org/2/library/zlib.html): Compression compatible with gzip
+- [tarfile](https://docs.python.org/2/library/tarfile.html): Read and write tar archive files
+- [random](https://docs.python.org/2/library/random.html): Generate pseudo-random numbers
+- [base64](https://docs.python.org/2/library/base64.html): RFC 3548: Base16, Base32, Base64 Data Encodings
+- [unittest](https://docs.python.org/2.7/library/unittest.html): Unit testing framework
+- [multiprocessing](https://docs.python.org/2/library/multiprocessing.html): Process-based “threading” interface
+- [subprocess](https://docs.python.org/2/library/subprocess.html): Subprocess management
+- [hmac](https://docs.python.org/2/library/hmac.html): Keyed-Hashing for Message Authentication
+- [functools](https://docs.python.org/2/library/functools.html): Higher-order functions and operations on callable objects
+
+## 非内置
+
+- [docker-py](https://github.com/docker/docker-py): An API client for docker written in Python
+- [pymongo](https://api.mongodb.com/python/current/): Tools for working with MongoDB
+- [Celery](http://www.celeryproject.org/): Distributed Task Queue
+- [requests](http://docs.python-requests.org/en/master/): HTTP for Humans
 - [PyYAML](http://pyyaml.org/wiki/PyYAML): YAML parser and emitter for Python
 - [jinja2](http://jinja.pocoo.org/): a template engine written in pure Python
+- [pip](https://pip.pypa.io/en/stable/): pip supports installing from PyPI, version control, local projects, and directly from distribution files.
+- [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/): A tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them.
+- [flask](http://flask.pocoo.org/): A lightweight Python web framework based on Werkzeug and Jinja 2
+- [setuptools](https://setuptools.readthedocs.io/en/latest/): Fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects。
+- [pypiserver](https://github.com/pypiserver/pypiserver): Minimal PyPI server for uploading & downloading packages with pip/easy_install
 
 ### 扩展阅读
 
