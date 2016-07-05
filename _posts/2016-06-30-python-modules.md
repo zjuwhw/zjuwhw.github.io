@@ -33,6 +33,9 @@ tags: cs
 - [subprocess](https://docs.python.org/2/library/subprocess.html): Subprocess management
 - [hmac](https://docs.python.org/2/library/hmac.html): Keyed-Hashing for Message Authentication
 - [functools](https://docs.python.org/2/library/functools.html): Higher-order functions and operations on callable objects
+- [socker](https://docs.python.org/2/library/socket.html): Low-level networking interface
+- [SocketServer](https://docs.python.org/2/library/socketserver.html): A framework for network servers
+
 
 ## 非内置
 
@@ -47,6 +50,8 @@ tags: cs
 - [flask](http://flask.pocoo.org/): A lightweight Python web framework based on Werkzeug and Jinja 2
 - [setuptools](https://setuptools.readthedocs.io/en/latest/): Fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects。
 - [pypiserver](https://github.com/pypiserver/pypiserver): Minimal PyPI server for uploading & downloading packages with pip/easy_install
+- [gunicore](http://gunicorn.org/): a Python WSGI HTTP Server for UNIX
+- [sphinx](http://www.sphinx-doc.org/en/stable/): Python Documentation Generator
 
 ### 扩展阅读
 
