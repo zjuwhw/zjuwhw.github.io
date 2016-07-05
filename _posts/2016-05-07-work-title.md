@@ -28,6 +28,7 @@ tags: cs
 - ETL: Extract, Transform and Load
 - PR: Public Relationship
 - PR: Pull request (on github)
+- POC: Proof of Concept
 
 ## IT
 - CPU: Central processing unit
