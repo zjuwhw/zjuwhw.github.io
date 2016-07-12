@@ -2,7 +2,7 @@
 layout: post
 title:  "中国伤医事件的文献翻译"
 date:   2016-05-08
-tags: [bio, medi]
+tags: [bio, medi, "英文翻译"]
 ---
 
 

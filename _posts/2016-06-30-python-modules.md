@@ -47,6 +47,9 @@ tags: cs
 - [jinja2](http://jinja.pocoo.org/): a template engine written in pure Python
 - [pip](https://pip.pypa.io/en/stable/): pip supports installing from PyPI, version control, local projects, and directly from distribution files.
 - [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/): A tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them.
+	- virtualenvwrapper: a set of commands which makes working with virtual environments much more pleasant. It also places all your virtual environments in one place.
+	- virtualenv-burrito: you can have a working virtualenv + virtualenvwrapper environment in a single command
+	- autoenv: When you cd into a directory containing a .env, autoenv automagically activates the environment
 - [flask](http://flask.pocoo.org/): A lightweight Python web framework based on Werkzeug and Jinja 2
 - [setuptools](https://setuptools.readthedocs.io/en/latest/): Fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects。
 - [pypiserver](https://github.com/pypiserver/pypiserver): Minimal PyPI server for uploading & downloading packages with pip/easy_install
