@@ -6,12 +6,12 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Jul 2016 14:25:04 +0800</pubDate>
-    <lastBuildDate>Tue, 12 Jul 2016 14:25:04 +0800</lastBuildDate>
+    <pubDate>Tue, 12 Jul 2016 22:34:34 +0800</pubDate>
+    <lastBuildDate>Tue, 12 Jul 2016 22:34:34 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>就业小提示</title>
+        <title>就医小贴示</title>
         <description>&lt;h2 id=&quot;section&quot;&gt;小贴士&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;预约挂号：
@@ -374,15 +374,16 @@ Uric acid stones. Your doctor may prescribe allopurinol (Zyloprim, Aloprim) to r
   &lt;li&gt;结果：开药，预约下周B超，建议多喝水、多运动，接着排石&lt;/li&gt;
   &lt;li&gt;药物：
     &lt;ul&gt;
-      &lt;li&gt;盐酸坦索罗辛缓释胶囊
-## 师兄给我的诊疗策略图&lt;/li&gt;
+      &lt;li&gt;盐酸坦索罗辛缓释胶囊&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;section-11&quot;&gt;师兄给我的诊疗策略图&lt;/h2&gt;
+
 &lt;p&gt;&lt;img src=&quot;/images/kidney-stone-strategy.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section-11&quot;&gt;参考资料：&lt;/h2&gt;
+&lt;h2 id=&quot;section-12&quot;&gt;参考资料：&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;原文：&lt;a href=&quot;http://www.mayoclinic.org/diseases-conditions/kidney-stones/basics/definition/con-20024829&quot;&gt;梅奥诊所&lt;/a&gt;&lt;/li&gt;
@@ -443,6 +444,7 @@ Uric acid stones. Your doctor may prescribe allopurinol (Zyloprim, Aloprim) to r
       &lt;li&gt;&lt;a href=&quot;#create-operations&quot; id=&quot;markdown-toc-create-operations&quot;&gt;Create Operations&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#read-operations&quot; id=&quot;markdown-toc-read-operations&quot;&gt;Read Operations&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#update-operations&quot; id=&quot;markdown-toc-update-operations&quot;&gt;Update Operations&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#delete-operations&quot; id=&quot;markdown-toc-delete-operations&quot;&gt;Delete Operations&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#mongo-and-sql&quot; id=&quot;markdown-toc-mongo-and-sql&quot;&gt;Mongo and SQL&lt;/a&gt;&lt;/li&gt;
@@ -514,7 +516,8 @@ db.collection.updateMany()
 db.collection.replaceOne()
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;### Delete Operations&lt;/p&gt;
+
+&lt;h3 id=&quot;delete-operations&quot;&gt;Delete Operations&lt;/h3&gt;
 
 &lt;p&gt;remove documents from a collection&lt;/p&gt;
 
