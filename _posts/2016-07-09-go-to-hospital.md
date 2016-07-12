@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 就医小提示
+title: 就医小贴示
 date: 2016-07-09
 tags: ["medi","英文翻译"]
 ---

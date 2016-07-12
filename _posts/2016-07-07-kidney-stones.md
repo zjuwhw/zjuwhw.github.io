@@ -222,6 +222,7 @@ Uric acid stones. Your doctor may prescribe allopurinol (Zyloprim, Aloprim) to r
 - 结果：开药，预约下周B超，建议多喝水、多运动，接着排石
 - 药物：
 	- 盐酸坦索罗辛缓释胶囊
+
 ## 师兄给我的诊疗策略图
 
 ![](/images/kidney-stone-strategy.jpg)
