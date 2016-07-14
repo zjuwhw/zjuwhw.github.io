@@ -177,6 +177,7 @@ permalink: /links/
 - [Wolfgang Huber](http://www.embl.de/research/units/genome_biology/huber/index.html)
 - [Mike Snyder](http://snyderlab.stanford.edu/)
 - [Wong Yong Wang](http://web.stanford.edu/group/wonglab/)
+- [Peter Visshcer](http://cnsgenomics.com/index.html)
 
 **My lab**
 
