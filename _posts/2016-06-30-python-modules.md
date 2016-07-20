@@ -35,6 +35,7 @@ tags: cs
 - [functools](https://docs.python.org/2/library/functools.html): Higher-order functions and operations on callable objects
 - [socker](https://docs.python.org/2/library/socket.html): Low-level networking interface
 - [SocketServer](https://docs.python.org/2/library/socketserver.html): A framework for network servers
+- [csv](https://docs.python.org/2/library/csv.html): CSV File Reading and Writing
 
 
 ## 非内置
@@ -55,6 +56,7 @@ tags: cs
 - [pypiserver](https://github.com/pypiserver/pypiserver): Minimal PyPI server for uploading & downloading packages with pip/easy_install
 - [gunicore](http://gunicorn.org/): a Python WSGI HTTP Server for UNIX
 - [sphinx](http://www.sphinx-doc.org/en/stable/): Python Documentation Generator
+- [etetoolkit](http://etetoolkit.org/): A Python framework to work with trees
 
 ### 扩展阅读
 

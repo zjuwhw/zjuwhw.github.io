@@ -221,7 +221,7 @@ permalink: /links/
 - [Workshop of Bioinformatic.ca](http://bioinformatics.ca/workshops)
 - [edx](https://www.edx.org/)
 - [coursera](https://www.coursera.org/)
-- [Genetic Epidemiology](http://www.montefiore.ulg.ac.be/~kvansteen/TeachingGEUA20142015final.html; http://www.dorak.info/)
+- [Genetic Epidemiology](http://www.montefiore.ulg.ac.be/~kvansteen/TeachingGEUA20142015final.html)
 - [An Online Bioinformatics Curriculum by Plos Computational Biology](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002632)
 - [A New Online Computational Biology Curriculum](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003662)
 
