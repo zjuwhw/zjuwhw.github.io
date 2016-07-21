@@ -6,9 +6,39 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jul 2016 20:11:15 +0800</pubDate>
-    <lastBuildDate>Wed, 20 Jul 2016 20:11:15 +0800</lastBuildDate>
+    <pubDate>Thu, 21 Jul 2016 23:18:23 +0800</pubDate>
+    <lastBuildDate>Thu, 21 Jul 2016 23:18:23 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>生物信息相关学科</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;genetics&lt;/li&gt;
+  &lt;li&gt;population genetics&lt;/li&gt;
+  &lt;li&gt;statistical genetics&lt;/li&gt;
+  &lt;li&gt;medical genetics&lt;/li&gt;
+  &lt;li&gt;molecular genetics&lt;/li&gt;
+  &lt;li&gt;evolution&lt;/li&gt;
+  &lt;li&gt;epidemiology&lt;/li&gt;
+  &lt;li&gt;genetic epidemiology&lt;/li&gt;
+  &lt;li&gt;genomics&lt;/li&gt;
+  &lt;li&gt;bioinformatics&lt;/li&gt;
+  &lt;li&gt;biostatistics&lt;/li&gt;
+  &lt;li&gt;computational biology&lt;/li&gt;
+  &lt;li&gt;system biology&lt;/li&gt;
+  &lt;li&gt;quantitative genomics&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 20 Jul 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/07/20/population_glossary.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/07/20/population_glossary.html</guid>
+        
+        <category>medi</category>
+        
+        <category>bioinfo</category>
+        
+        
+      </item>
     
       <item>
         <title>就医小贴示</title>
@@ -82,10 +112,12 @@
   &lt;li&gt;&lt;a href=&quot;#section-8&quot; id=&quot;markdown-toc-section-8&quot;&gt;我的病情：&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#section-9&quot; id=&quot;markdown-toc-section-9&quot;&gt;初诊&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#section-10&quot; id=&quot;markdown-toc-section-10&quot;&gt;第一次复诊&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-11&quot; id=&quot;markdown-toc-section-11&quot;&gt;第二次复诊&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-12&quot; id=&quot;markdown-toc-section-12&quot;&gt;第三次查肝功能&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-11&quot; id=&quot;markdown-toc-section-11&quot;&gt;师兄给我的诊疗策略图&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-12&quot; id=&quot;markdown-toc-section-12&quot;&gt;参考资料：&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-13&quot; id=&quot;markdown-toc-section-13&quot;&gt;师兄给我的诊疗策略图&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-14&quot; id=&quot;markdown-toc-section-14&quot;&gt;参考资料：&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
@@ -397,11 +429,28 @@ Uric acid stones. Your doctor may prescribe allopurinol (Zyloprim, Aloprim) to r
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;section-11&quot;&gt;师兄给我的诊疗策略图&lt;/h2&gt;
+&lt;h3 id=&quot;section-11&quot;&gt;第二次复诊&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;时间：2016年7月20日&lt;/li&gt;
+  &lt;li&gt;就诊：北京大学第三医院，放射科B超，泌尿外科门诊&lt;/li&gt;
+  &lt;li&gt;结果：输尿管中结石已经排除，肾中还有，但是都不大（最大0.6cm）&lt;/li&gt;
+  &lt;li&gt;另：由于急诊时血常规发现丙氨酸氨基转移酶和快速天门冬氨酸氨基转移酶高出正常值。因此，开了肝功能的单子。由于要求空腹，第二天来查。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-12&quot;&gt;第三次查肝功能&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;时间：2016年7月21日上午&lt;/li&gt;
+  &lt;li&gt;就诊：北京大学第三医院，抽血化验&lt;/li&gt;
+  &lt;li&gt;结果：两个转氨酶依然高。已经预约了下周三的消化内科，接着查肝。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-13&quot;&gt;师兄给我的诊疗策略图&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/kidney-stone-strategy.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section-12&quot;&gt;参考资料：&lt;/h2&gt;
+&lt;h2 id=&quot;section-14&quot;&gt;参考资料：&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;原文：&lt;a href=&quot;http://www.mayoclinic.org/diseases-conditions/kidney-stones/basics/definition/con-20024829&quot;&gt;梅奥诊所&lt;/a&gt;&lt;/li&gt;
@@ -914,31 +963,6 @@ $   Matches the end of the line
         <pubDate>Tue, 07 Jun 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/06/07/Regex.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2016/06/07/Regex.html</guid>
-        
-        <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>网络</title>
-        <description>&lt;h2 id=&quot;common-tcp-ports&quot;&gt;Common TCP Ports&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Telnet (23) – Login&lt;/li&gt;
-  &lt;li&gt;SSH (22) – Secure Login&lt;/li&gt;
-  &lt;li&gt;HTTP (80)&lt;/li&gt;
-  &lt;li&gt;HTTPS (443) – Secure&lt;/li&gt;
-  &lt;li&gt;SMTP (25) – Mail&lt;/li&gt;
-  &lt;li&gt;IMAP (143/220/993) – Mail Retrieval&lt;/li&gt;
-  &lt;li&gt;POP (109/110) – Mail Retrieval&lt;/li&gt;
-  &lt;li&gt;DNS (53) – Domain Name&lt;/li&gt;
-  &lt;li&gt;FTP (21) – File Transfer&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 07 Jun 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/06/07/Network.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/06/07/Network.html</guid>
         
         <category>cs</category>
         

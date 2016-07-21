@@ -64,7 +64,7 @@ A **passenger mutation** has not been selected, has not conferred clonal growth 
 
 **25.[Tandem Repeat](http://www.genome.gov/glossary/index.cfm?id=193):** A tandem repeat is a sequence of two or more DNA base pairs that is repeated in such a way that the repeats lie adjacent to each other on the chromosome. Tandem repeats are generally associated with non-coding DNA. In some instances, the number of times the DNA sequence is repeated is variable. Such variable tandem repeats are used in DNA fingerprinting procedures.
 
-###Reference:
+### Reference:
 
 - <http://www.cancer.gov/publications/dictionaries/cancer-terms>
 
@@ -77,5 +77,3 @@ A **passenger mutation** has not been selected, has not conferred clonal growth 
 - <http://www.ncbi.nlm.nih.gov/dbvar/content/overview/>
 
 - [Michael R. Stratton et al., Nature 2009.](http://www.ncbi.nlm.nih.gov/pubmed/19360079)
-
-The [pdf version](/documents/genome_alteration.pdf) of this blog.

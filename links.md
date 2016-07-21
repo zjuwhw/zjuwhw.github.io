@@ -233,7 +233,7 @@ permalink: /links/
 - [HapMap](http://hapmap.ncbi.nlm.nih.gov/)
 - [RoadMap Epigenomics Project](http://www.roadmapepigenomics.org/)
 - [TARGET](http://target.nci.nih.gov/dataMatrix/)
-- [GTEx](http://www.gtexportal.org/home/)
+- [GTEx](http://www.gtexportal.org/home/): Genotype-Tissue Expression
 - [Fantom5](http://fantom.gsc.riken.jp/5/)
 - [CCLE](http://www.broadinstitute.org/ccle/home)
 - [HMP](http://hmpdacc.org/)
