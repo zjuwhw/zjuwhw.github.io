@@ -9,6 +9,7 @@ tags: cs
 screen -ls
 screen -S
 screen -r
+screen -wipe
 ```
 
 |C-a ?	|显示所有键绑定信息|
