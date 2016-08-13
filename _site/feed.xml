@@ -6,9 +6,404 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Jul 2016 23:18:23 +0800</pubDate>
-    <lastBuildDate>Thu, 21 Jul 2016 23:18:23 +0800</lastBuildDate>
+    <pubDate>Sat, 13 Aug 2016 19:47:38 +0800</pubDate>
+    <lastBuildDate>Sat, 13 Aug 2016 19:47:38 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Fastq格式</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/FASTQ_format&quot;&gt;Fastq&lt;/a&gt;是二代测序中常用的原始序列文件格式。&lt;/p&gt;
+
+&lt;h2 id=&quot;fastq&quot;&gt;Fastq文件如何得到？&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;After the sequencing platform generates the sequencing images, the data are analyzed in five steps: image analysis, base calling, bcl conversion, sequence alignment, and variant analysis and counting. CASAVA performs the bcl conversion, sequence alignment, and variant analysis and counting steps, demultiplexes multiplexed samples during the bcl conversion step.
+Bcl conversion — Converts *.bcl files into *.fastq.gz files (compressed FASTQ files) in CASAVA. Multiplexed samples are demultiplexed during this step.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在测序平台产生测序图像之后，数据分析有5个步骤：图像分析，base calling，bcl文件转换，序列比对和变异分析。illumina的CASAVA软件进行bcl转换，序列比对和变异分析这些步骤。在bcl转换步骤中，多样本数据将会拆分。&lt;/p&gt;
+
+&lt;p&gt;Bcl转换 - 用CASAVA软件转换bcl文件为fastq.gz文件（压缩的fastq文件）。多样本数据将会拆分。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;示例：&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@EAS139:136:FC706VJ:2:5:1000:12850 1:Y:18:ATCACG
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
++
+BBBBCCCC?&amp;lt;A?BC?7@@???????DBBA@@@@A@@
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;第1行：header&lt;/li&gt;
+  &lt;li&gt;第2行：序列&lt;/li&gt;
+  &lt;li&gt;第3行：固定为“+”&lt;/li&gt;
+  &lt;li&gt;第4行：质量值（quality score）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;header&quot;&gt;Header&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;@&amp;lt;instrument&amp;gt;:&amp;lt;run number&amp;gt;:&amp;lt;flowcell ID&amp;gt;:&amp;lt;lane&amp;gt;:&amp;lt;tile&amp;gt;:&amp;lt;x-pos&amp;gt;:&amp;lt;y-pos&amp;gt; &amp;lt;read&amp;gt;:&amp;lt;is filtered&amp;gt;:&amp;lt;control number&amp;gt;:&amp;lt;index sequence&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Element&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Requirements&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;@&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;@&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Each sequence identifier line starts with @&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;instrument&amp;gt; &lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Characters allowed: a-z, A-Z, 0-9 and underscore&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Instrument ID&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;run number&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Numerical&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Run number on instrument&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;flowcell ID&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Characters allowed: a-z, A-Z, 0-9&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;lane&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Numerical&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Lane number&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;tile&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Numerical&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tile number&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;x_pos&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Numerical&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;X coordinate of cluster&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;y_pos&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Numerical&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Y coordinate of cluster&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;read&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Numerical&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Read number. 1 can be single read or read 2 of paired-end&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;is filtered&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Y or N&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Y if the read is filtered, N otherwise&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;control number&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Numerical&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;0 when none of the control bits are on, otherwise it is an even number.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;index sequence&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ACTG&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Index sequence&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;因此&lt;code class=&quot;highlighter-rouge&quot;&gt;@EAS139:136:FC706VJ:2:5:1000:12850 1:Y:18:ATCACG&lt;/code&gt;可以解释为：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;测序仪id为&lt;code class=&quot;highlighter-rouge&quot;&gt;EAS139&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;run number：136&lt;/li&gt;
+  &lt;li&gt;flowcell ID：FC706VJ&lt;/li&gt;
+  &lt;li&gt;lane：2&lt;/li&gt;
+  &lt;li&gt;tile：5&lt;/li&gt;
+  &lt;li&gt;x_pos：1000&lt;/li&gt;
+  &lt;li&gt;y_pos：12850&lt;/li&gt;
+  &lt;li&gt;read：1，代表是单端测序&lt;/li&gt;
+  &lt;li&gt;is filtered：Y，代表是filtered&lt;/li&gt;
+  &lt;li&gt;control number：18&lt;/li&gt;
+  &lt;li&gt;index sequence：ATCACG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;phred-quality-score&quot;&gt;Phred quality score&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Phred_quality_score&quot;&gt;A Phred quality score&lt;/a&gt; is a measure of the quality of the identification of the nucleobases generated by automated DNA sequencing.[1][2] It was originally developed for Phred base calling to help in the automation of DNA sequencing in the Human Genome Project.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Phred quality score是用来测定DNA自动测序中每个核算的测序质量的。它最早是为了人类基因组计划中的程序Phred base calling而开发的。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;公式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Q = -10 * log10(P)&lt;/code&gt; &amp;lt;==&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;P = 10 ^(-Q/10)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;这里Q为Phred quality score，P为base-calling的error probabilities（错误率）。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;具体表格&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Phred Quality Score&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Probability of incorrect base call	（错误率）&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Base call accuracy（准确率）&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;十分之一（1 in 10）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;90%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;20&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;百分之一（1 in 100）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;99%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;30&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;千分之一（1 in 1000）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;99.9%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;40&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;万分之一（1 in 10,000）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;99.99%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;50&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;十万分之一（1 in 100,000	）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;99.999%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;60&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;百万分之一（1 in 1,000,000）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;99.9999%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;encoding-of-quality-score&quot;&gt;Encoding of Quality score&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;类型&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Quality score范围&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;ASCII范围&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Sanger format&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;0 ~ 93（rarely exceeds 60）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;33 ~ 126（Phred+33）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Solexa/Illumina 1.0 format&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-5 ~ 40&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;59 ~ 104（Solexa+64）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Illumina 1.3+&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;0 ~ 40&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;64 ~ 104（Phred+64）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Illumina 1.5+&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3 ~ 40&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;67 ~ 104（Phred+64）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Illumina 1.8+&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;0 ~ 41&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;33 ~ 74（Phred+33）&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For raw reads, the range of scores will depend on the technology and the base caller used, but will typically be up to 41 for recent Illumina chemistry&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;对于原始的序列，质量值的范围取决于所用的技术和base caller，但是对于目前的Illumina技术，最多能达到41。&lt;/p&gt;
+
+&lt;p&gt;另外，常用软件&lt;a href=&quot;http://www.bioinformatics.babraham.ac.uk/projects/fastqc/&quot;&gt;FastQC&lt;/a&gt;和&lt;a href=&quot;http://www.usadellab.org/cms/?page=trimmomatic&quot;&gt;Trimmomatic&lt;/a&gt;均可以自动判断encoding的。&lt;/p&gt;
+
+&lt;p&gt;因此，质量值&lt;code class=&quot;highlighter-rouge&quot;&gt;BBBBCCCC?&amp;lt;A?BC?7@@???????DBBA@@@@A@@&lt;/code&gt;：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;若采用Phred+64编码，应该为&lt;code class=&quot;highlighter-rouge&quot;&gt;2,2,2,6,6,6,6,6,6,6,6,6,6,9,9,9,9,9,9,9,9,9,9,9,9,9,9,2,6,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,6,6,6,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;若采用Phred+32编码，应该为&lt;code class=&quot;highlighter-rouge&quot;&gt;33,33,33,37,37,37,37,37,37,37,37,37,37,40,40,40,40,40,40,40,40,40,40,40,40,40,40,33,37,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,37,37,37,37,37,37,37,37,37,37,33,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,33,37,37,37,37,37,37,37&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;故，很明显，使用的是“Phred+32”编码，且质量值均大于30，错误率均小于千分之一，准确率大于99.9%。&lt;/p&gt;
+
+&lt;h2 id=&quot;ascii&quot;&gt;ASCII&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/ASCII&quot;&gt;ASCII（American Standand Code for Information Interchange）&lt;/a&gt;，是一套计算机编码系统。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ASCII-Table.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;参考资料&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://support.illumina.com/help/SequencingAnalysisWorkflow/Content/Vault/Informatics/Sequencing_Analysis/CASAVA/swSEQ_mCA_FASTQFiles.htm&quot;&gt;Illumina support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/FASTQ_format&quot;&gt;FASTQ format on wiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Phred_quality_score&quot;&gt;Phred quality score on wiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://broadinstitute.github.io/picard/explain-qualities.html&quot;&gt;explain qualities on picard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://support.illumina.com/sequencing/sequencing_software/casava&quot;&gt;Illumina CASAVA software&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://simple.wikipedia.org/wiki/ASCII&quot;&gt;ASCII table&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sat, 13 Aug 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/08/13/fastq_format.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/08/13/fastq_format.html</guid>
+        
+        <category>bioinfo</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Illumina测序仪</title>
+        <description>&lt;h2 id=&quot;illumina&quot;&gt;illumina测序仪：&lt;/h2&gt;
+
+&lt;p&gt;GA, GAII, MiSeq, NextSeq, HiSeq 2000, HiSeq 2500, HiSeq X Ten&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/illumina_sequencer_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/illumina_sequencer_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;flow-cell&quot;&gt;Flow Cell:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1个flow cell包含8个lane&lt;/li&gt;
+  &lt;li&gt;1个lane可以测1个样本或多样本的混合物&lt;/li&gt;
+  &lt;li&gt;1个lane包含2列&lt;/li&gt;
+  &lt;li&gt;1列包含50个tiles&lt;/li&gt;
+  &lt;li&gt;1个tile有不同的cluster&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/illumina_flowcell.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;各个测序仪之间的比较&lt;/h2&gt;
+
+&lt;p&gt;下图来自于著名的文献《Field Guide to Next Generation DNA Sequencers》&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sequencer_comparision.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;参考资料：&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;illumina线下讲座&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.sciencenet.cn/blog-777771-609814.html&quot;&gt;科学网一篇博客&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.molecularecologist.com/next-gen-fieldguide-2014/&quot;&gt;“Field Guide to Next Generation DNA Sequencers”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://omicsmaps.com/&quot;&gt;全球测序仪分布&lt;/a&gt;：可能更新不是特别及时，例如X-Ten的数据&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sat, 13 Aug 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/08/13/Illumina_sequencer.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/08/13/Illumina_sequencer.html</guid>
+        
+        <category>bioinfo</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>screen命令</title>
+        <description>&lt;h3 id=&quot;section&quot;&gt;常见命令&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;screen -ls
+screen -S
+screen -r
+screen -wipe
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;screen&quot;&gt;检查是否在一个screen中&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$echo $STY 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;常用快捷键&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;按键&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;解释&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C-a ?&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;显示所有键绑定信息&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C-a w&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;显示所有窗口列表&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C-a C-a&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;切换到之前显示的窗口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C-a c&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;创建一个新的运行shell的窗口并切换到该窗口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C-a n&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;切换到下一个窗口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C-a p&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;切换到前一个窗口(与C-a n相对)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C-a 0..9&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;切换到窗口0..9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C-a a&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;发送 C-a到当前窗口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C-a d&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;暂时断开screen会话&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C-a k&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;杀掉当前窗口&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C-a [&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;进入拷贝/回滚模式&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Mon, 08 Aug 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/08/08/screen_cammand.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/08/08/screen_cammand.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
     
       <item>
         <title>生物信息相关学科</title>
@@ -760,209 +1155,6 @@ db.collection.deleteMany()
         <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/07/01/html-tag.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2016/07/01/html-tag.html</guid>
-        
-        <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Python的模块整理</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;内置&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/os.html&quot;&gt;os&lt;/a&gt;: Miscellaneous operating system interfaces&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/sys.html&quot;&gt;sys&lt;/a&gt;: System-specific parameters and functions&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/configparser.html&quot;&gt;ConfigParser&lt;/a&gt;: Configuration file parser&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/argparse.html&quot;&gt;argparse&lt;/a&gt;: Parser for command-line options, arguments and sub-commands&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/logging.html&quot;&gt;logging&lt;/a&gt;: Logging facility for Python&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/platform.html&quot;&gt;platform&lt;/a&gt;: Access to underlying platform’s identifying data&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/uuid.html&quot;&gt;uuid&lt;/a&gt;: UUID objects according to RFC 4122&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/collections.html&quot;&gt;collections&lt;/a&gt;: High-performance container datatypes&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/threading.html&quot;&gt;threading&lt;/a&gt;: Higher-level threading interface&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/json.html&quot;&gt;json&lt;/a&gt;: JSON encoder and decoder&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/traceback.html&quot;&gt;traceback&lt;/a&gt;: Print or retrieve a stack traceback&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/simplehttpserver.html&quot;&gt;SimpleHTTPServer&lt;/a&gt;: Simple HTTP request handler&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/time.html&quot;&gt;time&lt;/a&gt;: Time access and conversions&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/shlex.html&quot;&gt;shlex&lt;/a&gt;: Simple lexical analysis&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/urllib2.html&quot;&gt;urllib2&lt;/a&gt;:  Extensible library for opening URLs&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/urllib.html&quot;&gt;urllib&lt;/a&gt;: Open arbitrary resources by URL&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/hashlib.html&quot;&gt;hashlib&lt;/a&gt;: Secure hashes and message digests&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/zlib.html&quot;&gt;zlib&lt;/a&gt;: Compression compatible with gzip&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/tarfile.html&quot;&gt;tarfile&lt;/a&gt;: Read and write tar archive files&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/random.html&quot;&gt;random&lt;/a&gt;: Generate pseudo-random numbers&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/base64.html&quot;&gt;base64&lt;/a&gt;: RFC 3548: Base16, Base32, Base64 Data Encodings&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2.7/library/unittest.html&quot;&gt;unittest&lt;/a&gt;: Unit testing framework&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/multiprocessing.html&quot;&gt;multiprocessing&lt;/a&gt;: Process-based “threading” interface&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/subprocess.html&quot;&gt;subprocess&lt;/a&gt;: Subprocess management&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/hmac.html&quot;&gt;hmac&lt;/a&gt;: Keyed-Hashing for Message Authentication&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/functools.html&quot;&gt;functools&lt;/a&gt;: Higher-order functions and operations on callable objects&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/socket.html&quot;&gt;socker&lt;/a&gt;: Low-level networking interface&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/socketserver.html&quot;&gt;SocketServer&lt;/a&gt;: A framework for network servers&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/csv.html&quot;&gt;csv&lt;/a&gt;: CSV File Reading and Writing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;非内置&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/docker/docker-py&quot;&gt;docker-py&lt;/a&gt;: An API client for docker written in Python&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://api.mongodb.com/python/current/&quot;&gt;pymongo&lt;/a&gt;: Tools for working with MongoDB&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.celeryproject.org/&quot;&gt;Celery&lt;/a&gt;: Distributed Task Queue&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://docs.python-requests.org/en/master/&quot;&gt;requests&lt;/a&gt;: HTTP for Humans&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://pyyaml.org/wiki/PyYAML&quot;&gt;PyYAML&lt;/a&gt;: YAML parser and emitter for Python&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://jinja.pocoo.org/&quot;&gt;jinja2&lt;/a&gt;: a template engine written in pure Python&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pip.pypa.io/en/stable/&quot;&gt;pip&lt;/a&gt;: pip supports installing from PyPI, version control, local projects, and directly from distribution files.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://docs.python-guide.org/en/latest/dev/virtualenvs/&quot;&gt;virtualenv&lt;/a&gt;: A tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them.
-    &lt;ul&gt;
-      &lt;li&gt;virtualenvwrapper: a set of commands which makes working with virtual environments much more pleasant. It also places all your virtual environments in one place.&lt;/li&gt;
-      &lt;li&gt;virtualenv-burrito: you can have a working virtualenv + virtualenvwrapper environment in a single command&lt;/li&gt;
-      &lt;li&gt;autoenv: When you cd into a directory containing a .env, autoenv automagically activates the environment&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://flask.pocoo.org/&quot;&gt;flask&lt;/a&gt;: A lightweight Python web framework based on Werkzeug and Jinja 2&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://setuptools.readthedocs.io/en/latest/&quot;&gt;setuptools&lt;/a&gt;: Fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/pypiserver/pypiserver&quot;&gt;pypiserver&lt;/a&gt;: Minimal PyPI server for uploading &amp;amp; downloading packages with pip/easy_install&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://gunicorn.org/&quot;&gt;gunicore&lt;/a&gt;: a Python WSGI HTTP Server for UNIX&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.sphinx-doc.org/en/stable/&quot;&gt;sphinx&lt;/a&gt;: Python Documentation Generator&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://etetoolkit.org/&quot;&gt;etetoolkit&lt;/a&gt;: A Python framework to work with trees&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-2&quot;&gt;扩展阅读&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/vinta/awesome-python&quot;&gt;https://github.com/vinta/awesome-python&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 30 Jun 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/06/30/python-modules.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/06/30/python-modules.html</guid>
-        
-        <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mac使用</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;系统功能键：&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;⌘ — Command ()&lt;/li&gt;
-  &lt;li&gt;⌥ — Option (alt)&lt;/li&gt;
-  &lt;li&gt;⌃ — Control&lt;/li&gt;
-  &lt;li&gt;fn — 功能键就是fn&lt;/li&gt;
-  &lt;li&gt;⇧ — Shift&lt;/li&gt;
-  &lt;li&gt;⇪ — caps lock&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mac&quot;&gt;Mac常用软件：&lt;/h2&gt;
-&lt;p&gt;atom，sublime3, dash, pycharm, iterm2&lt;/p&gt;
-
-&lt;h2 id=&quot;item2&quot;&gt;终端/item2快捷键：&lt;/h2&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;标签&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;新建标签：command + t&lt;/li&gt;
-  &lt;li&gt;关闭标签：command + w&lt;/li&gt;
-  &lt;li&gt;切换标签：
-    &lt;ul&gt;
-      &lt;li&gt;command + 数字&lt;/li&gt;
-      &lt;li&gt;command + 左右方向键&lt;/li&gt;
-      &lt;li&gt;ctrl + tab&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-2&quot;&gt;查看&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;查找：command + f&lt;/li&gt;
-  &lt;li&gt;历史命令：command + ;&lt;/li&gt;
-  &lt;li&gt;剪贴板历史：command + shift + h&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-3&quot;&gt;清除、删除&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;清除当前行：ctrl + u&lt;/li&gt;
-  &lt;li&gt;删除光标之前的单词：ctrl + w&lt;/li&gt;
-  &lt;li&gt;删除到文本末尾：ctrl + k&lt;/li&gt;
-  &lt;li&gt;清屏:
-    &lt;ul&gt;
-      &lt;li&gt;command + r&lt;/li&gt;
-      &lt;li&gt;ctrl + l&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-4&quot;&gt;移动&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;行首：ctrl + a&lt;/li&gt;
-  &lt;li&gt;行末：ctrl + e&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-5&quot;&gt;分屏：&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;垂直分屏：command + d&lt;/li&gt;
-  &lt;li&gt;水平分屏：command + shift + d&lt;/li&gt;
-  &lt;li&gt;切换分屏：
-    &lt;ul&gt;
-      &lt;li&gt;command + option + 方向键&lt;/li&gt;
-      &lt;li&gt;command + [&lt;/li&gt;
-      &lt;li&gt;command + ]&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section-6&quot;&gt;参考资料：&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;https://github.com/sumiaowen/iterm2-shortcuts&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 29 Jun 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/06/29/Mac.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/06/29/Mac.html</guid>
-        
-        <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>正则表达式</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;定义&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Regular Expression: In computing, a regular expression, also referred to as “regex” or “regexp”, provides a concise and flexible means for matching strings of text, such as particular characters, words, or patterns of characters. A regular expression is written in a formal language that can be interpreted by a regular expression processor.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;quick-guide&quot;&gt;Quick Guide&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;^   Matches the begining of a line
-$   Matches the end of the line
-.   Matches any character
-\s  Matches whitespace
-\S  Mathces any non-whitespace character
-*   Repeats a character zero or more times
-*?  Repeats a character zero or more times (non-greedy)
-+   Repeats a character one or more times
-+?  Repeats a character one or more times (non-greedy)
-[aeiou] Matches a single character in the listed set
-[^XYZ]  Matches a single character not in the listed set
-[a-z0-9]    The set of characters can include a range
-(   Indicates where tring extraction is to start
-)   Indicates where string extraction is to end
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;参考资料&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dr-chuck.net/pythonlearn/slides/EN_us/Py4Inf-11-Regex.pdf&quot;&gt;https://www.dr-chuck.net/pythonlearn/slides/EN_us/Py4Inf-11-Regex.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 07 Jun 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/06/07/Regex.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/06/07/Regex.html</guid>
         
         <category>cs</category>
         

@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>zjuwhw&#39;s blog</title>
-  <meta name="description" content="This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
-">
+  <title>screen命令</title>
+  <meta name="description" content="常见命令">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="zjuwhw.github.io/page2/">
+  <link rel="canonical" href="zjuwhw.github.io/2016/08/08/screen_cammand.html">
   <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="zjuwhw.github.io/feed.xml">
 </head>
 
@@ -67,91 +66,89 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">screen命令</h1>
+    <p class="post-meta"><time datetime="2016-08-08T00:00:00+08:00" itemprop="datePublished">Aug 8, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jun 30, 2016</span> &raquo; <a class="post-link" href="/2016/06/30/python-modules.html">Python的模块整理</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 29, 2016</span> &raquo; <a class="post-link" href="/2016/06/29/Mac.html">Mac使用</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 7, 2016</span> &raquo; <a class="post-link" href="/2016/06/07/Regex.html">正则表达式</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 7, 2016</span> &raquo; <a class="post-link" href="/2016/06/07/Network.html">网络</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 9, 2016</span> &raquo; <a class="post-link" href="/2016/05/09/Linux.html">Linux学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 8, 2016</span> &raquo; <a class="post-link" href="/2016/05/08/China-doctor.html">中国伤医事件的文献翻译</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2016</span> &raquo; <a class="post-link" href="/2016/05/07/work-title.html">IT行业缩写整理</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2016</span> &raquo; <a class="post-link" href="/2016/05/07/HTML-CSS-notebook.html">HTML&CSS学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2016</span> &raquo; <a class="post-link" href="/2016/05/07/FrontEnd-notebook.html">Coursera-Frontend学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 6, 2016</span> &raquo; <a class="post-link" href="/2016/05/06/python-notebook.html">Python学习笔记</a>
-      </li>
-    
-  </ul>
+  <div class="post-content" itemprop="articleBody">
+    <h3 id="section">常见命令</h3>
 
-
-<div class="pagination">
-  
-    <a href="/">&laquo; 上一页</a>
-  
-
-  
-    
-      <a href="/index.html">1</a>
-    
-  
-    
-      <em>2</em>
-    
-  
-    
-      <a href="/page3">3</a>
-    
-  
-
-  
-    <a href="/page3">下一页 &raquo;</a>
-  
-
+<div class="highlighter-rouge"><pre class="highlight"><code>screen -ls
+screen -S
+screen -r
+screen -wipe
+</code></pre>
 </div>
 
+<h3 id="screen">检查是否在一个screen中</h3>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
+<div class="highlighter-rouge"><pre class="highlight"><code>$echo $STY 
+</code></pre>
 </div>
 
+<h3 id="section-1">常用快捷键</h3>
 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">按键</th>
+      <th style="text-align: left">解释</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">C-a ?</td>
+      <td style="text-align: left">显示所有键绑定信息</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">C-a w</td>
+      <td style="text-align: left">显示所有窗口列表</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">C-a C-a</td>
+      <td style="text-align: left">切换到之前显示的窗口</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">C-a c</td>
+      <td style="text-align: left">创建一个新的运行shell的窗口并切换到该窗口</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">C-a n</td>
+      <td style="text-align: left">切换到下一个窗口</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">C-a p</td>
+      <td style="text-align: left">切换到前一个窗口(与C-a n相对)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">C-a 0..9</td>
+      <td style="text-align: left">切换到窗口0..9</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">C-a a</td>
+      <td style="text-align: left">发送 C-a到当前窗口</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">C-a d</td>
+      <td style="text-align: left">暂时断开screen会话</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">C-a k</td>
+      <td style="text-align: left">杀掉当前窗口</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">C-a [</td>
+      <td style="text-align: left">进入拷贝/回滚模式</td>
+    </tr>
+  </tbody>
+</table>
 
-<p> Number of visits:&nbsp; &nbsp; 
-<img src="http://hitwebcounter.com/counter/counter.php?page=6444042&style=0001&nbdigits=5&type=page&initCount=0" title="url and counting visits" Alt="url and counting visits"   border="0" >
-</p>     
+  </div>
 
+</article>
 
       </div>
     </div>

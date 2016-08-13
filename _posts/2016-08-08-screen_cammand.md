@@ -14,7 +14,7 @@ screen -r
 screen -wipe
 ```
 
-### 检查是否在一个screen钟
+### 检查是否在一个screen中
 
 ```
 $echo $STY 
