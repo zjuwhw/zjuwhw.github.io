@@ -6,9 +6,68 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Aug 2016 19:47:38 +0800</pubDate>
-    <lastBuildDate>Sat, 13 Aug 2016 19:47:38 +0800</lastBuildDate>
+    <pubDate>Tue, 16 Aug 2016 07:51:58 +0800</pubDate>
+    <lastBuildDate>Tue, 16 Aug 2016 07:51:58 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>肝酶偏高</title>
+        <description>&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;我是7月6日突发&lt;a href=&quot;/2016/07/07/kidney-stones.html&quot;&gt;肾/输尿管结石&lt;/a&gt;，当时做血常规的时候，就发现两个肝相关的转氨酶指标（丙氨酸氨基转移酶ALT和天冬氨酸氨基转移酶AST）高于正常值。&lt;/p&gt;
+
+&lt;p&gt;之后在7月20日肾结石复诊的时候，就再次检查了肝功能。发现两个酶的指标依然很高。于是就转到了消化科，看一下肝酶偏高的问题。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;第一次消化科就诊&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;时间：2016年7月27日&lt;/li&gt;
+  &lt;li&gt;就诊：北京大学第三医院消化科&lt;/li&gt;
+  &lt;li&gt;结果：开药，检查各种肝炎和肝功能&lt;/li&gt;
+  &lt;li&gt;药物：
+    &lt;ul&gt;
+      &lt;li&gt;多烯磷脂酰胆碱胶囊（易善复胶囊）&lt;/li&gt;
+      &lt;li&gt;甘草酸二胺肠溶胶囊（天晴甘平）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;第二次消化科就诊&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;时间：2016年8月8日&lt;/li&gt;
+  &lt;li&gt;就诊：北京大学第三医院消化科&lt;/li&gt;
+  &lt;li&gt;结果：
+    &lt;ul&gt;
+      &lt;li&gt;第一次肝炎检查：甲肝、乙肝、丙肝、戊肝均为阴性，且乙型肝炎表面抗体（Anti-HBs）指标高出参考值很多，是好的指标，说明我体内有乙肝抗体（我以前打过疫苗，可能因此而又抗体）&lt;/li&gt;
+      &lt;li&gt;第一次消化科肝功能：还是高&lt;/li&gt;
+      &lt;li&gt;给出意见：不要熬夜、不要饮酒、不要肥胖（说脂肪肝也会引起肝酶升高，不过这个海哥后来说，因为肾结石做B超的时候，有看肝，应该不是脂肪肝）&lt;/li&gt;
+      &lt;li&gt;开肝功能检查单子&lt;/li&gt;
+      &lt;li&gt;又开了一周的药&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;检验科肝功能&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;时间：2016年8月15日&lt;/li&gt;
+  &lt;li&gt;就诊：北京大学第三医院检验科&lt;/li&gt;
+  &lt;li&gt;结果：就是空腹抽血，今天去看医生。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;几次肝酶情况&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ALT_AST.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Aug 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/08/16/ALT_AST.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/08/16/ALT_AST.html</guid>
+        
+        <category>medi</category>
+        
+        
+      </item>
     
       <item>
         <title>Fastq格式</title>
@@ -1005,156 +1064,6 @@ db.collection.deleteMany()
         <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/07/01/mongodb.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2016/07/01/mongodb.html</guid>
-        
-        <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>HTML tag</title>
-        <description>&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Tag&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a comment&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!DOCTYPE&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines the document type&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a hyperlink&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;article&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines an article&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines the document’s body&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a single line break&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;button&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a clickable button&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a piece of computer code&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a section in a document&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;footer&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a footer for a document or section&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h6&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines HTML headings&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines information about the document&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;header&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a header for a document or section&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines the root of an HTML document&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines an image&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;li&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a list item&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines the relationship between a document and an external resource (most used to link to style sheets)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;menu&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a list/menu of commands&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;nav&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines navigation links&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ol&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines an ordered list&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a paragraph&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;span&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a section in a document&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;table&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a table&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;td&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a cell in a table&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;title&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a title for the document&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;tr&amp;gt;	&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a row in a table&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ul&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines an unordered list&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;video&amp;gt;&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Defines a video	or movie&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;source: &lt;a href=&quot;http://www.w3schools.com/tags/&quot;&gt;w3schools&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;anatomy-of-an-html-tag&quot;&gt;Anatomy of an HTML tag&lt;/h3&gt;
-
-&lt;h4 id=&quot;tag-structure&quot;&gt;tag structure&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/html-tag1.png&quot; alt=&quot;html tag 1&quot; style=&quot;width: 480px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;attribute&quot;&gt;attribute&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/html-tag2.png&quot; alt=&quot;html tag 2&quot; style=&quot;width: 480px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;source: &lt;a href=&quot;https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome&quot;&gt;MOOC by JHU&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/07/01/html-tag.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/07/01/html-tag.html</guid>
         
         <category>cs</category>
         
