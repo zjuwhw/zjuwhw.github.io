@@ -57,6 +57,11 @@ tags: cs
 - HTTP: HyperText Transfer Protocol
 - HTML: HyperText Markup Language
 
+## Information System
+
+- LIMS: Lab Information Management Systems
+- HIS: Hospital information system
+
 ## 云计算
 - HaaS: Hardware as a Service
 - IaaS: Infrastructure as a Service

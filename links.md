@@ -268,6 +268,14 @@ permalink: /links/
 - [Omictools](http://omictools.com/)
 - [HGMD (Human Gene Mutation Database)](http://www.hgmd.cf.ac.uk/ac/index.php)
 
+### Bioinformatic cloud
+
+- [Seven Bridge](https://www.sbgenomics.com/)
+- [DNAnexus](https://www.dnanexus.com/)
+- [Google Genomics](https://cloud.google.com/genomics/)
+- [NCI's Genomic Data Commons](https://gdc.nci.nih.gov/)
+- [Global Alliance for Genomics and Health](http://ga4gh.org)
+
 ### Your favorite blog on Biostar
 
 - Your Favorite Bioinformatics Blogs (March 2010)
