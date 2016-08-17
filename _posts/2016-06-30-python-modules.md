@@ -57,6 +57,7 @@ tags: cs
 - [gunicore](http://gunicorn.org/): a Python WSGI HTTP Server for UNIX
 - [sphinx](http://www.sphinx-doc.org/en/stable/): Python Documentation Generator
 - [etetoolkit](http://etetoolkit.org/): A Python framework to work with trees
+- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
 
 ### 扩展阅读
 
