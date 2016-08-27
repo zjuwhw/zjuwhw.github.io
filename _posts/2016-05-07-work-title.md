@@ -29,13 +29,14 @@ tags: cs
 - PR: Public Relationship
 - PR: Pull request (on github)
 - POC: Proof of Concept
+- LGTM: Looks good to me
+
 
 ## IT
 - CPU: Central processing unit
 - GPU: Graphics processing unit
 - CLI: Cammand-line interface
 - GUI: Graphical User Interface
-- UI: User Interface
 - API: Application Programming Interface
 - MPI: Message Passing interface
 - SDK: Software Development Kit
@@ -54,13 +55,23 @@ tags: cs
 - GCC: GNU Compiler Collection
 - env: environment
 - db: database
+- ORM: Object Relation Mapping
+
+## Transfore protocol:
+
+- SSH: Secure Shell
 - HTTP: HyperText Transfer Protocol
-- HTML: HyperText Markup Language
+- HTTPs：HTTP Secure, HTTP over SSL, HTTP over TLS
+- FTP: File Transfer Protocol 
 
 ## Information System
 
 - LIMS: Lab Information Management Systems
 - HIS: Hospital information system
+- EHR: Electornic health records
+- ICD: Classification of Diseases
+- HL7: Health Level-7 
+- OMS：Order Management System
 
 ## 云计算
 - HaaS: Hardware as a Service
@@ -79,6 +90,20 @@ tags: cs
 
 其他云服务商：Microsoft Azure, Google Compute Engine, Rightscale, Salesforce, EMC, Gigaspaces, 10gen, Datastax, Oracle, VMWare, Yahoo, Cloudera
 
+## 前端技术：
+
+- html (HyperText Markup Language): the standard markup language for creating web pages and web applications.
+- CSS (Cascading Style Sheets): a style sheet language used for describing the presentation of a document written in a markup language.
+- Javascript: a high-level, dynamic, untyped, and interpreted programming language.
+- JQuery: a cross-platform **JavaScript library** designed to simplify the client-side scripting of HTML.
+- Bootstrap: a free and open-source front-end **web framework** for designing websites and web applications.
+- AngularJS: a complete JavaScript-based open-source front-end **web application framework**.
+- NodeJS: an open-source, cross-platform runtime environment for developing server-side Web applications
+- gulp.js: the streaming build system
+- NPM: javascript package manager
+- nrm: NPM registry manager
+- nvm: Node Version Manager
+- React: a JavaScript library for building user interfaces
 
 ## 软件
 - **Bootstrap** is a free and open-source collection of tools for creating websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.
