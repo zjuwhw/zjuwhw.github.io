@@ -40,9 +40,6 @@ tags: cs
 - API: Application Programming Interface
 - MPI: Message Passing interface
 - SDK: Software Development Kit
-- JDK: Jave Development Kit
-- JRE: Jave Runtime Environment
-- JAR: Java Archive
 - DB: database
 - OPDS: Open Data Processing Service
 - HDFS: Hadoop distributed file system
@@ -57,12 +54,19 @@ tags: cs
 - db: database
 - ORM: Object Relation Mapping
 
-## Transfore protocol:
+## Transfore protocol
 
 - SSH: Secure Shell
 - HTTP: HyperText Transfer Protocol
 - HTTPs：HTTP Secure, HTTP over SSL, HTTP over TLS
 - FTP: File Transfer Protocol 
+
+## Java
+
+- JDK: Jave Development Kit
+- JRE: Jave Runtime Environment
+- JAR: Java Archive
+- JVM: Java Virtual Machine
 
 ## Information System
 
