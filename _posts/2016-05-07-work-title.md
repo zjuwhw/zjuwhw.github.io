@@ -68,6 +68,15 @@ tags: cs
 - JAR: Java Archive
 - JVM: Java Virtual Machine
 
+## 测试
+
+- Unit test（单元测试）: Specify and test one point of the contract of single method of a class. This should have a very narrow and well defined scope. Complex dependencies and interactions to the outside world are stubbed or mocked.
+- Integration test（集成测试）: Test the correct inter-operation of multiple subsystems. There is whole spectrum there, from testing integration between two classes, to testing integration with the production environment.
+- Smoke test (aka Sanity check，冒烟测试): A simple integration test where we just check that when the system under test is invoked it returns normally and does not blow up. It is an analogy with electronics, where the first test occurs when powering up a circuit: if it smokes, it's bad.
+- Regression test（回归测试）: A test that was written when a bug was fixed. It ensure that this specific bug will not occur again. The full name is "non-regression test". It can also be a test made prior to changing an application to make sure the application provides the same outcome.
+
+参考：[stackoverflow](http://stackoverflow.com/questions/520064/what-is-unit-test-integration-test-smoke-test-regression-test)
+
 ## Information System
 
 - LIMS: Lab Information Management Systems
