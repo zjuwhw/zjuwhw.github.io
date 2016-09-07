@@ -6,9 +6,577 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Aug 2016 07:51:58 +0800</pubDate>
-    <lastBuildDate>Tue, 16 Aug 2016 07:51:58 +0800</lastBuildDate>
+    <pubDate>Wed, 07 Sep 2016 09:50:10 +0800</pubDate>
+    <lastBuildDate>Wed, 07 Sep 2016 09:50:10 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>HTTP请求和返回示例</title>
+        <description>&lt;p&gt;以GeneDock官网（&lt;a href=&quot;https://genedock.com&quot;&gt;https://genedock.com&lt;/a&gt;）为例，用各种软件（curl，HTTPie，Postman REST Client，python的request）进行请求和返回。&lt;/p&gt;
+
+&lt;h2 id=&quot;curl&quot;&gt;Curl&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$curl -v https://genedock.com
+
+
+* Rebuilt URL to: https://genedock.com/
+*   Trying 182.92.0.168...
+* Connected to genedock.com (182.92.0.168) port 443 (#0)
+* TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate: *.genedock.com
+* Server certificate: RapidSSL SHA256 CA - G3
+* Server certificate: GeoTrust Global CA
+&amp;gt; GET / HTTP/1.1
+&amp;gt; Host: genedock.com
+&amp;gt; User-Agent: curl/7.43.0
+&amp;gt; Accept: */*
+&amp;gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt; HTTP&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;OK&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Server:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;nginx&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Date:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Mon&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;05&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Sep&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;2016&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;05:58:07&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;GMT&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Content-Type:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;utf-8&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Content-Length:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;8856&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Connection:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;keep-alive&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Set-Cookie:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;session=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;eyJfaWQiOnsiIGIiOiJaREZsWm1ObU16UTFabVJtWlRSa016ZGlabU5rWldWaU5qWmpPVFJoTTJJPSJ9fQ.Cq6a7w.LUjBEmjf-e6B_4aGSpSHElVIVzg;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;HttpOnly&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Path=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;zh-CN&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;&lt;/span&gt;GeneDock&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=1200&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;GeneDock,www.genedock.com,genedock.com,genedock,北京聚道,聚道科技,基因数据云服务,北京聚道科技有限公司,GeneDock,北京GeneDock&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Keywords&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;GeneDock,www.genedock.com,genedock.com,genedock,北京聚道,聚道科技,基因数据云服务,北京聚道科技有限公司,GeneDock,北京GeneDoc
+......
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-v&lt;/code&gt;参数显示整个http通信过程。更多可以参考&lt;a href=&quot;http://www.ruanyifeng.com/blog/2011/09/curl.html&quot;&gt;阮一峰博客《curl网站开发指南》&lt;/a&gt;。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;请求部分：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; GET / HTTP/1.1
+&amp;gt; Host: genedock.com
+&amp;gt; User-Agent: curl/7.43.0
+&amp;gt; Accept: */*
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;GET&lt;/code&gt;是http动词，&lt;code class=&quot;highlighter-rouge&quot;&gt;HTTP/1.1&lt;/code&gt;是HTTP的版本，&lt;code class=&quot;highlighter-rouge&quot;&gt;Host&lt;/code&gt;是服务端的主机，&lt;code class=&quot;highlighter-rouge&quot;&gt;User-Agent&lt;/code&gt;是发送请求的应用名称，&lt;code class=&quot;highlighter-rouge&quot;&gt;Accept&lt;/code&gt;是可以接受何种类型的返回。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;返回部分：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt; HTTP/1.1 200 OK
+&amp;lt; Server: nginx/1.6.0
+&amp;lt; Date: Mon, 05 Sep 2016 05:58:07 GMT
+&amp;lt; Content-Type: text/html; charset=utf-8
+&amp;lt; Content-Length: 8856
+&amp;lt; Connection: keep-alive
+&amp;lt; Set-Cookie: session=eyJfaWQiOnsiIGIiOiJaREZsWm1ObU16UTFabVJtWlRSa016ZGlabU5rWldWaU5qWmpPVFJoTTJJPSJ9fQ.Cq6a7w.LUjBEmjf-e6B_4aGSpSHElVIVzg; HttpOnly; Path=/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;200&lt;/code&gt;是status code（状态码），&lt;code class=&quot;highlighter-rouge&quot;&gt;Server&lt;/code&gt;是客户端应用软件的名字和版本号，&lt;code class=&quot;highlighter-rouge&quot;&gt;Date&lt;/code&gt;是消息产生的时间或者时间戳，&lt;code class=&quot;highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt;是返回body的对象类型，&lt;code class=&quot;highlighter-rouge&quot;&gt;Content-Length&lt;/code&gt;是返回body的长度或者大小，&lt;code class=&quot;highlighter-rouge&quot;&gt;Connection&lt;/code&gt;是允许客户端和服务端指定请求-返回链接的选项，&lt;code class=&quot;highlighter-rouge&quot;&gt;Set-Cookie&lt;/code&gt;是用来设置客户端的一个token，让服务端来识别身份。&lt;/p&gt;
+
+&lt;p&gt;返回的body部分是一个html文件。&lt;/p&gt;
+
+&lt;h2 id=&quot;httpie&quot;&gt;HTTPie&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$http --print=HhBb https://genedock.com
+
+
+GET / HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: genedock.com
+User-Agent: HTTPie/0.9.3
+
+
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Mon, 05 Sep 2016 06:34:50 GMT
+Server: nginx/1.6.0
+Set-Cookie: session=eyJfaWQiOnsiIGIiOiJZbUk1T0dReVpqbGhaakU0WkdObU1UazJaV05rTW1Fd05qVmtOakUzWW1ZPSJ9fQ.Cq6jig.rBqTiAoOL8QJj68W06WNs8lxlSY; HttpOnly; Path=/
+Transfer-Encoding: chunked
+
+&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;zh-CN&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;&lt;/span&gt;GeneDock&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+....
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;更多httpie的参数可见&lt;a href=&quot;https://github.com/jkbrzt/httpie&quot;&gt;https://github.com/jkbrzt/httpie&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;postman-rest-client&quot;&gt;Postman REST Client&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Postman-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Postman-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Postman-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pythonrequest&quot;&gt;Python的Request包&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21)
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+
+&amp;gt;&amp;gt;&amp;gt; import requests
+&amp;gt;&amp;gt;&amp;gt; r = requests.get(&quot;https://genedock.com&quot;)
+&amp;gt;&amp;gt;&amp;gt; print r.request.headers
+{&#39;Connection&#39;: &#39;keep-alive&#39;, &#39;Accept-Encoding&#39;: &#39;gzip, deflate&#39;, &#39;Accept&#39;: &#39;*/*&#39;, &#39;User-Agent&#39;: &#39;python-requests/2.11.1&#39;}
+
+&amp;gt;&amp;gt;&amp;gt; print r.headers
+{&#39;Content-Encoding&#39;: &#39;gzip&#39;, &#39;Transfer-Encoding&#39;: &#39;chunked&#39;, &#39;Set-Cookie&#39;: &#39;session=eyJfaWQiOnsiIGIiOiJaakkzTnpZd09UQmtNRFEyWkdNM016a3paR0ZoWVRFNVpUWXhPVFJqWXprPSJ9fQ.Cq6lCQ.KzSeM-tEKnZxK8bvVi77qZSJnPQ; HttpOnly; Path=/&#39;, &#39;Server&#39;: &#39;nginx/1.6.0&#39;, &#39;Connection&#39;: &#39;keep-alive&#39;, &#39;Date&#39;: &#39;Mon, 05 Sep 2016 06:41:13 GMT&#39;, &#39;Content-Type&#39;: &#39;text/html; charset=utf-8&#39;}
+
+&amp;gt;&amp;gt;&amp;gt; print r.status_code
+200
+
+&amp;gt;&amp;gt;&amp;gt; print r.content
+&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;zh-CN&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;&lt;/span&gt;GeneDock&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 05 Sep 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/09/05/http_example.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/09/05/http_example.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>RESTful API</title>
+        <description>&lt;h2 id=&quot;rest&quot;&gt;前言：什么是REST？&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;一种架构设计风格，提供了设计原则和约束条件，而不是架构。而满足这些约束条件和原则的应用程序或设计就是 RESTful架构或服务。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;— &lt;a href=&quot;https://segmentfault.com/q/1010000003064904&quot;&gt;segmentfault&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我理解“就是有了规范/规则/限制/风格”，就能享受到一些”好处“。&lt;/p&gt;
+
+&lt;h2 id=&quot;overview&quot;&gt;Overview（概况）&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;REST: REpresentational State Transfer&lt;/li&gt;
+  &lt;li&gt;Resource-based（基于资源）&lt;/li&gt;
+  &lt;li&gt;Representations（表述）&lt;/li&gt;
+  &lt;li&gt;Six constraints（6点限制）&lt;/li&gt;
+  &lt;li&gt;Uniform Interface（统一接口）&lt;/li&gt;
+  &lt;li&gt;Stateless（无状态性）&lt;/li&gt;
+  &lt;li&gt;Cacheable（可缓存）&lt;/li&gt;
+  &lt;li&gt;Client-Server（客户端-服务端结构）&lt;/li&gt;
+  &lt;li&gt;Layered System（分层系统）&lt;/li&gt;
+  &lt;li&gt;Code on Demand (optional)（按需编码）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resource-based&quot;&gt;Resource Based(基于资源)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Things vs. actions&lt;/li&gt;
+  &lt;li&gt;Nouns vs. verbs&lt;/li&gt;
+  &lt;li&gt;Versus SOAP-RPC（注：SOAP和RPC是另外两种主流的Web服务实现方案）&lt;/li&gt;
+  &lt;li&gt;Identified by URIs
+    &lt;ul&gt;
+      &lt;li&gt;Multiple URIs may refer to same resource&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Separate from their representation(s)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;representations&quot;&gt;Representations(表述)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How resources get manipulated（对资源的描述、如何操作资源的）&lt;/li&gt;
+  &lt;li&gt;Part of the resource state
+    &lt;ul&gt;
+      &lt;li&gt;Transferred between client and server&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Typically JSON or XML&lt;/li&gt;
+  &lt;li&gt;Example:
+    &lt;ul&gt;
+      &lt;li&gt;Resource: person(Todd)&lt;/li&gt;
+      &lt;li&gt;Service: contact information (GET)&lt;/li&gt;
+      &lt;li&gt;Representation:
+        &lt;ul&gt;
+          &lt;li&gt;name, address, phone number …&lt;/li&gt;
+          &lt;li&gt;JSON or XML format&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;uniform-interface&quot;&gt;Uniform Interface（统一接口）&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Defines the interface between client and server&lt;/li&gt;
+  &lt;li&gt;Simplifies and decouples the architecture&lt;/li&gt;
+  &lt;li&gt;Fundamental to RESTful design&lt;/li&gt;
+  &lt;li&gt;For us this means:
+    &lt;ul&gt;
+      &lt;li&gt;HTTP verbs(GET, PUT, POST, DELETE)&lt;/li&gt;
+      &lt;li&gt;URIs(resource name)&lt;/li&gt;
+      &lt;li&gt;HTTP response(status, body)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;stateless&quot;&gt;Stateless（无状态性）&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Server contains no client state（服务端不包含任何客户端的状态）&lt;/li&gt;
+  &lt;li&gt;Each request contains enough context to process the message（每一个请求都含有足够的内容来进行处理）
+    &lt;ul&gt;
+      &lt;li&gt;Self-descriptive messages（自明信息）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Any session state is held on the client（任何的状态都由客户端来保存）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;client-server-&quot;&gt;Client-Server（客户端-服务端结构）&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Assume a disconnected system（假设两端不相连）&lt;/li&gt;
+  &lt;li&gt;Separation of concerns（关注点分离）&lt;/li&gt;
+  &lt;li&gt;Uniform interface is the link between the two（由统一接口将两者链接）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cacheable&quot;&gt;Cacheable（可缓存）&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Server responses（representations）are cacheable（服务端的响应或者表述是可缓存的）
+    &lt;ul&gt;
+      &lt;li&gt;不准确地&lt;/li&gt;
+      &lt;li&gt;准确地&lt;/li&gt;
+      &lt;li&gt;可谈判地&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;layered-system&quot;&gt;Layered System（分层系统）&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Client can’t assume direct connection to server&lt;/li&gt;
+  &lt;li&gt;Software or hardware intermediaries between client and server&lt;/li&gt;
+  &lt;li&gt;Improves scalability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;code-on-demand&quot;&gt;Code on Demand（按需编码）&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Server can temporarily extend client（服务端可以临时扩展客户端）&lt;/li&gt;
+  &lt;li&gt;Transfer logic to client（将逻辑传给客户端）&lt;/li&gt;
+  &lt;li&gt;Client executes logic（客户端来执行逻辑）&lt;/li&gt;
+  &lt;li&gt;For example: Java applets; JavaScript&lt;/li&gt;
+  &lt;li&gt;The only optional constraiant（唯一可选的）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Violating any constraint other than Code On Demand means service is not strictly RESTful（违反任何除“按需编码”之外的限制，都意味着服务不是严格地RESTful。注：目前REST-like也很流行）
+    &lt;ul&gt;
+      &lt;li&gt;Example: Three-legged OAUTH2&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Compliance with REST constraints allows（好处）:
+    &lt;ul&gt;
+      &lt;li&gt;Scalability&lt;/li&gt;
+      &lt;li&gt;Simplicity&lt;/li&gt;
+      &lt;li&gt;Modifiability&lt;/li&gt;
+      &lt;li&gt;Visibility&lt;/li&gt;
+      &lt;li&gt;Portability&lt;/li&gt;
+      &lt;li&gt;Reliability&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;参考资料：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.restapitutorial.com/lessons/whatisrest.html&quot;&gt;《What is REST》视频&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 03 Sep 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/09/03/REST.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/09/03/REST.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>换行符</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;windows: \r\n&lt;/li&gt;
+  &lt;li&gt;unix: \n&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sed -e &#39;s/$/\r/&#39; inputfile &amp;gt; outputfile                # UNIX to DOS  (adding CRs)
+sed -e &#39;s/\r$//&#39; inputfile &amp;gt; outputfile                # DOS  to UNIX (removing CRs)
+perl -pe &#39;s/\r\n|\n|\r/\r\n/g&#39; inputfile &amp;gt; outputfile  # Convert to DOS
+perl -pe &#39;s/\r\n|\n|\r/\n/g&#39;   inputfile &amp;gt; outputfile  # Convert to UNIX
+perl -pe &#39;s/\r\n|\n|\r/\r/g&#39;   inputfile &amp;gt; outputfile  # Convert to old Mac
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;参考： &lt;a href=&quot;http://stackoverflow.com/questions/6373888/converting-newline-formatting-from-mac-to-windows&quot;&gt;stackoverflow.com&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Sep 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/09/02/line_break.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/09/02/line_break.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>http请求的工具</title>
+        <description>&lt;h2 id=&quot;third-party-tools&quot;&gt;第三方软件（third-party tools）&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;软件&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;描述&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://curl.haxx.se/docs/manpage.html&quot;&gt;Curl&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Command line tool&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://httpie.org/&quot;&gt;HTTPie&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Command line tool&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://www.getpostman.com/&quot;&gt;Postman REST Client&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;App for Google Chrome and OS X&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://restlet.com/products/dhc/&quot;&gt;DHC REST Client&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Google Chrome extension&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://www.google.com/chrome/&quot;&gt;Google Chrome&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Google Chrome web browser&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;python&quot;&gt;python的包&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;urllib2: Extensible library for opening URLs&lt;/li&gt;
+  &lt;li&gt;urllib: Open arbitrary resources by URL&lt;/li&gt;
+  &lt;li&gt;requests: HTTP for Humans, embedded urllib2 functionality&lt;/li&gt;
+  &lt;li&gt;httplib2:This is a comprehensive HTTP client library. It supports features like
+caching, keep-alive, compression, redirects and many kinds of authentication.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;参考：&lt;/h2&gt;
+
+&lt;p&gt;https://gdc-docs.nci.nih.gov/API/Users_Guide/Getting_Started&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Sep 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/09/02/http_tools.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/09/02/http_tools.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Github_issues</title>
+        <description>
+&lt;hr /&gt;
+&lt;p&gt;layout: post
+title: github的issue功能
+date: 2016-09-01
+tags: [“cs”]
+—&lt;/p&gt;
+
+&lt;p&gt;讨论一下issue的使用。&lt;/p&gt;
+
+&lt;h2 id=&quot;githubissuehttpsguidesgithubcomfeaturesissues&quot;&gt;&lt;a href=&quot;https://guides.github.com/features/issues/&quot;&gt;github官网关于issue功能的介绍&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;简介&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Issues are a great way to keep track of tasks, enhancements, and bugs for your projects. They’re kind of like email—except they can be shared and discussed with the rest of your team. Most software projects have a bug tracker of some kind. GitHub’s tracker is called Issues, and has its own section in every repository.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Issues是一种非常好的跟踪你项目中任务、改善和bug的方式。它们某种程度上类似于邮件，但是它们可以与团队中其他人分享和讨论。大多数的软件项目有类似的bug跟踪器。GitHub的bug跟踪器就叫做Issues，而且每个目录都有自己的一个section。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;功能&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;title和description：标题和描述&lt;/li&gt;
+  &lt;li&gt;labels：标签，用于分类&lt;/li&gt;
+  &lt;li&gt;milestone：时间点&lt;/li&gt;
+  &lt;li&gt;assignee：指定&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Comments：评论&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Notifications, @mentions, and References&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Notifications：消息提醒&lt;/li&gt;
+  &lt;li&gt;@mentions： 提到他人。github建议使用&lt;code class=&quot;highlighter-rouge&quot;&gt;/cc&lt;/code&gt;，即carbon copy，概念抄送。&lt;/li&gt;
+  &lt;li&gt;References： 依赖的其他issue、pr等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;requesting-supportreporting-bugbug&quot;&gt;requesting support（需求技术支持）和reporting bug（汇报bug）的区别&lt;/h2&gt;
+
+&lt;p&gt;参考网址：https://coenjacobs.me/2013/12/06/effective-bug-reports-on-github/&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;简介&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The purpose of resolving a support ticket is to solve a problem for one user. A bug report is to explain a bug in the software, to make the software more stable.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;解决技术问题是为一个客户解决一个问题。汇报bug是解释在软件中的一个bug，来使得软件更加稳定。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;举例&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;requesting support&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Error when using plugin X and Y
+I just activated plugin X and now plugin Y shows this error: …. How can I resolve this?
+
+使用插件X和Y的时候报错
+我刚刚激活插件X和插件Y，它显示如下错误： 。。。怎么解决它呢？
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;reporting bug&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Conflicting function name in plugin X and Y
+Both plugins X and Y use function name … and this results in the error: …
+
+插件X和插件Y函数名冲突
+插件X和插件Y都使用了同一函数名。。。，这样就导致了报错：。。。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;好的和坏的bug reporting&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;尽可能多的包含能帮助研发人员解决此bug的所有信息。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;坏的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Bug
+I just uploaded it and it doesn’t work. I can’t create products. Please fix.
+
+Bug
+我刚刚上传它，但是它失败了，我不能创建products了。请帮我解一下
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;好的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Parse error when creating new products (version 2.0)
+I just activated this plugin (version 2.0) on a fresh WordPress 3.7.1 install. When I now try to create a new product, the following error shows: … This didn’t happen in the previous version, which I have just confirmed using version 1.9 on the same fresh install.
+
+创建新product时解析错误（version 2.0）
+我刚刚在WordPress 3.7.1细心地激活这个插件（version 2.0）.当我现在试着创建新的product的时候，出现了以下报错：。。。我刚刚确认这个在前一个版本（version 1.9）这是不会发生的。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;github-issue&quot;&gt;我们公司目前github issue功能使用现状&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;好的方面&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;题目、labels、assign等都有要求和规范的：https://github.com/genedock/DNA/blob/master/README.md&lt;/li&gt;
+  &lt;li&gt;只有四个repository启动issue功能：DNA、ideabank和新加的FirstLove、Diamonds&lt;/li&gt;
+  &lt;li&gt;我们是使用@mention和reference的&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;有待提高的地方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;我们提bug时候，如何规范描述，提好的bug，有待提高&lt;/li&gt;
+  &lt;li&gt;不是所有工程师都会设置&lt;a href=&quot;https://github.com/settings/notifications&quot;&gt;notification&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;很多support requesting也开在issue中了。但是总要有个地方记这些客户问题呀，可能需要有技术支持论坛给客户和技术支持人员&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;参考资料：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/issues&quot;&gt;Mastering Issues&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://coenjacobs.me/2013/12/06/effective-bug-reports-on-github/&quot;&gt;How to effectively report bugs on GitHub (and what not to do)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 01 Sep 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/09/01/github_issues.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/09/01/github_issues.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>软件license</title>
+        <description>&lt;h2 id=&quot;license&quot;&gt;各种license&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/licenses/gpl.html&quot;&gt;GPL&lt;/a&gt;: GNU General Public License&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/MIT_License&quot;&gt;MIT&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Berkeley_Software_Distribution&quot;&gt;BSD&lt;/a&gt;: Berkeley Software Distribution&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)#License&quot;&gt;BSL&lt;/a&gt;: Boost Software license&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;阮一峰博客上的图解：&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/free_software_licenses.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;参考资料：&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html&quot;&gt;阮一峰博客《如何选择开源许可证》&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Wed, 17 Aug 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/08/17/Software_license.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/08/17/Software_license.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
     
       <item>
         <title>肝酶偏高</title>
@@ -18,7 +586,50 @@
 
 &lt;p&gt;之后在7月20日肾结石复诊的时候，就再次检查了肝功能。发现两个酶的指标依然很高。于是就转到了消化科，看一下肝酶偏高的问题。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;第一次消化科就诊&lt;/h2&gt;
+&lt;h2 id=&quot;altast&quot;&gt;什么是ALT和AST&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Alanine transaminase (ALT). ALT is an enzyme found in the liver that helps your body metabolize protein. When the liver is damaged, ALT is released into the bloodstream and levels increase.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;丙氨酸氨基转移酶是肝脏中的一种帮助机体蛋白代谢的酶，当肝受到损伤的时候，ALT会被释放到血液系统中，水平将会升高。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Aspartate transaminase (AST). AST is an enzyme that helps metabolize alanine, an amino acid. Like ALT, AST is normally present in blood at low levels. An increase in AST levels may indicate liver damage or disease or muscle damage.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;天冬氨酸氨基转移酶是帮助代谢丙氨酸的酶。与ALT一样，正常情况下，AST在血液中的水平很低。AST水平的升高也许会提示肝脏损伤、肝脏疾病或者是肌肉损伤。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;肝功能检测其他指标&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Alkaline phosphatase (ALP)，碱性磷酸酶&lt;/li&gt;
+  &lt;li&gt;Albumin and total protein，白蛋白和总蛋白&lt;/li&gt;
+  &lt;li&gt;Bilirubin，胆红素&lt;/li&gt;
+  &lt;li&gt;Gamma-glutamyltransferase (GGT）， γ-谷氨酰转移酶&lt;/li&gt;
+  &lt;li&gt;L-lactate dehydrogenase (LD)，L-乳酸脱氢酶&lt;/li&gt;
+  &lt;li&gt;Prothrombin time (PT)，凝血酶原时间&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;正常值&lt;/h2&gt;
+
+&lt;p&gt;对于健康的成年男性来说，正常指标如下：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ALT. 7 to 55 units per liter (U/L)&lt;/li&gt;
+  &lt;li&gt;AST. 8 to 48 U/L&lt;/li&gt;
+  &lt;li&gt;ALP. 45 to 115 U/L&lt;/li&gt;
+  &lt;li&gt;Albumin. 3.5 to 5.0 grams per deciliter (g/dL)&lt;/li&gt;
+  &lt;li&gt;Total protein. 6.3 to 7.9 g/dL&lt;/li&gt;
+  &lt;li&gt;Bilirubin. 0.1 to 1.2 milligrams per deciliter (mg/dL)&lt;/li&gt;
+  &lt;li&gt;GGT. 9 to 48 U/L&lt;/li&gt;
+  &lt;li&gt;LD. 122 to 222 U/L&lt;/li&gt;
+  &lt;li&gt;PT. 9.5 to 13.8 seconds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;结果可能会由于实验室的不同和小孩或女人而不同。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;第一次消化科就诊&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;时间：2016年7月27日&lt;/li&gt;
@@ -32,7 +643,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;第二次消化科就诊&lt;/h2&gt;
+&lt;h2 id=&quot;section-4&quot;&gt;第二次消化科就诊&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;时间：2016年8月8日&lt;/li&gt;
@@ -48,7 +659,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;section-3&quot;&gt;检验科肝功能&lt;/h2&gt;
+&lt;h2 id=&quot;section-5&quot;&gt;检验科肝功能&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;时间：2016年8月15日&lt;/li&gt;
@@ -56,9 +667,23 @@
   &lt;li&gt;结果：就是空腹抽血，今天去看医生。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;section-4&quot;&gt;几次肝酶情况&lt;/h2&gt;
+&lt;h2 id=&quot;section-6&quot;&gt;第三次消化科就诊&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;时间：2016年8月16日&lt;/li&gt;
+  &lt;li&gt;就诊：北京大学消化科&lt;/li&gt;
+  &lt;li&gt;结果：停药观察，择期复查肝功（2~4周后，开了肝功和免疫肝病七项的检查），生活方式调整（不熬夜、多运动、不饮酒）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;几次肝酶情况&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/ALT_AST.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-8&quot;&gt;参考资料&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;http://www.mayoclinic.org/tests-procedures/liver-function-tests/basics/definition/prc-20012602&lt;/li&gt;
+&lt;/ol&gt;
 </description>
         <pubDate>Tue, 16 Aug 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/08/16/ALT_AST.html</link>
@@ -458,612 +1083,6 @@ screen -wipe
         <pubDate>Mon, 08 Aug 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/08/08/screen_cammand.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2016/08/08/screen_cammand.html</guid>
-        
-        <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>生物信息相关学科</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;genetics&lt;/li&gt;
-  &lt;li&gt;population genetics&lt;/li&gt;
-  &lt;li&gt;statistical genetics&lt;/li&gt;
-  &lt;li&gt;medical genetics&lt;/li&gt;
-  &lt;li&gt;molecular genetics&lt;/li&gt;
-  &lt;li&gt;evolution&lt;/li&gt;
-  &lt;li&gt;epidemiology&lt;/li&gt;
-  &lt;li&gt;genetic epidemiology&lt;/li&gt;
-  &lt;li&gt;genomics&lt;/li&gt;
-  &lt;li&gt;bioinformatics&lt;/li&gt;
-  &lt;li&gt;biostatistics&lt;/li&gt;
-  &lt;li&gt;computational biology&lt;/li&gt;
-  &lt;li&gt;system biology&lt;/li&gt;
-  &lt;li&gt;quantitative genomics&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 20 Jul 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/07/20/population_glossary.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/07/20/population_glossary.html</guid>
-        
-        <category>medi</category>
-        
-        <category>bioinfo</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>就医小贴示</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;小贴士&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;预约挂号：
-    &lt;ul&gt;
-      &lt;li&gt;电话拨打114&lt;/li&gt;
-      &lt;li&gt;支付宝-城市服务&lt;/li&gt;
-      &lt;li&gt;微信关注“北京114”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;随身携带社会保障卡，方便医保报销。若未带，可凭身份证办理就医卡，但不能报销。&lt;/li&gt;
-  &lt;li&gt;北医三院7点上班，周六上午上班，周日休息。&lt;/li&gt;
-  &lt;li&gt;急诊24小时。&lt;/li&gt;
-  &lt;li&gt;输液可以到社区医院，北京医保可指定四家社区医院，通过百度地图或者高德地图搜索“社区医院”、“卫生服务中心”等关键词，找到离家最近的地方。&lt;/li&gt;
-  &lt;li&gt;北医三院有自助挂号机，通过医保卡或就医卡自动挂号、预约取号等，银行卡缴费等。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;个人认为可靠的医疗信息网站&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.fudanmed.com/institute/news222.aspx&quot;&gt;复旦大学医院排名&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://health.usnews.com/best-hospitals/rankings&quot;&gt;US NEWS美国医院排名&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.mayoclinic.org/healthy-lifestyle&quot;&gt;梅奥诊所网站&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Main_Page&quot;&gt;维基百科 英文版&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;美国的各大官方医学协会：如&lt;a href=&quot;http://www.ada.org/en/&quot;&gt;美国牙医协会(American Dental Association)&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Sat, 09 Jul 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/07/09/go-to-hospital.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/07/09/go-to-hospital.html</guid>
-        
-        <category>medi</category>
-        
-        <category>英文翻译</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>高龄产妇</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;参考资料：&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;http://www.mayoclinic.org/healthy-lifestyle/getting-pregnant/in-depth/pregnancy/art-20045756&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 08 Jul 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/07/08/pregnancy.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/07/08/pregnancy.html</guid>
-        
-        <category>medi</category>
-        
-        <category>英文翻译</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>肾结石</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;前言&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;定义：&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-2&quot; id=&quot;markdown-toc-section-2&quot;&gt;症状：&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-3&quot; id=&quot;markdown-toc-section-3&quot;&gt;肾结石的种类：&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-4&quot; id=&quot;markdown-toc-section-4&quot;&gt;危险因素：&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-5&quot; id=&quot;markdown-toc-section-5&quot;&gt;检测与诊断：&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-6&quot; id=&quot;markdown-toc-section-6&quot;&gt;治疗与药物：&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-7&quot; id=&quot;markdown-toc-section-7&quot;&gt;预防：&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-8&quot; id=&quot;markdown-toc-section-8&quot;&gt;我的病情：&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-9&quot; id=&quot;markdown-toc-section-9&quot;&gt;初诊&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-10&quot; id=&quot;markdown-toc-section-10&quot;&gt;第一次复诊&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-11&quot; id=&quot;markdown-toc-section-11&quot;&gt;第二次复诊&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-12&quot; id=&quot;markdown-toc-section-12&quot;&gt;第三次查肝功能&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-13&quot; id=&quot;markdown-toc-section-13&quot;&gt;师兄给我的诊疗策略图&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-14&quot; id=&quot;markdown-toc-section-14&quot;&gt;参考资料：&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
-
-&lt;p&gt;虽然是本科药学、研究生在医院中做癌症研究，但是面对于疾病的到来往往也是束手无策的，要相信医生会利用专业的知识做出对你最好的治疗。&lt;/p&gt;
-
-&lt;p&gt;周三下午突发急性肾结石，疼痛剧烈难忍。非常感谢两位同事陪同，去&lt;a href=&quot;http://www.puh3.net.cn/&quot;&gt;北医三院&lt;/a&gt;看了急症。最终B超结果显示，双肾结石，左肾多发，另有一颗卡在输尿管中，引起痉挛。&lt;/p&gt;
-
-&lt;p&gt;经过治疗（主要是解挛、止痛和消炎），目前已经不疼了，周二去复诊。&lt;/p&gt;
-
-&lt;p&gt;下面是翻译的关于肾结石的医学知识，也提醒大家注意身体。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;定义：&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Kidney stones (renal lithiasis, nephrolithiasis) are small, hard mineral deposits that form inside your kidneys. The stones are made of mineral and acid salts.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;肾结石是肾中形成的小的、坚硬的矿物结晶，由矿物质和酸盐组成。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Kidney stones have many causes and can affect any part of your urinary tract — from your kidneys to your bladder. Often, stones form when the urine becomes concentrated, allowing minerals to crystallize and stick together.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;肾结石有很多原因造成，可以对尿路的任意部分产生影响，从肾脏到膀胱。肾结石经常形成于尿液浓缩的过程，使得矿物结晶并粘附在一起。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Passing kidney stones can be quite painful, but the stones usually cause no permanent damage. Depending on your situation, you may need nothing more than to take pain medication and drink lots of water to pass a kidney stone. In other instances — for example, if stones become lodged in the urinary tract or cause complications — surgery may be needed.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;排除肾结石可以非常痛苦，但是解释经常不会造成永久性的伤害。根据具体情况，除了吃止疼片和饮更多的水，你可能什么都不用做，即可以排除结石。但是在另一些情况，例如如果结石卡在尿路或者引起并发症，可能就需要手术了。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;症状：&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A kidney stone may not cause symptoms until it moves around within your kidney or passes into your ureter — the tube connecting the kidney and bladder. At that point, you may experience these signs and symptoms:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Severe pain in the side and back, below the ribs&lt;/li&gt;
-    &lt;li&gt;Pain that spreads to the lower abdomen and groin&lt;/li&gt;
-    &lt;li&gt;Pain that comes in waves and fluctuates in intensity&lt;/li&gt;
-    &lt;li&gt;Pain on urination&lt;/li&gt;
-    &lt;li&gt;Pink, red or brown urine&lt;/li&gt;
-    &lt;li&gt;Cloudy or foul-smelling urine&lt;/li&gt;
-    &lt;li&gt;Nausea and vomiting&lt;/li&gt;
-    &lt;li&gt;Persistent need to urinate&lt;/li&gt;
-    &lt;li&gt;Urinating more often than usual&lt;/li&gt;
-    &lt;li&gt;Fever and chills if an infection is present&lt;/li&gt;
-    &lt;li&gt;Urinating small amounts of urine&lt;/li&gt;
-    &lt;li&gt;Pain caused by a kidney stone may change — for instance, shifting to a different location or increasing in intensity — as the stone moves through your urinary tract.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;肾结石可能直到它在肾中移动或者排出到输尿管（连接肾和膀胱的管道）中才会引起症状。那一刻你可能会感受到如下症状：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;在肋骨下方，两侧和后背感受到急剧的疼痛&lt;/li&gt;
-  &lt;li&gt;疼痛蔓延到腹部和腹股沟下方&lt;/li&gt;
-  &lt;li&gt;疼痛时强时弱&lt;/li&gt;
-  &lt;li&gt;排尿疼痛&lt;/li&gt;
-  &lt;li&gt;粉、红或者棕色的尿液&lt;/li&gt;
-  &lt;li&gt;粘稠或者难闻的尿液&lt;/li&gt;
-  &lt;li&gt;恶心、呕吐&lt;/li&gt;
-  &lt;li&gt;持续性需要排尿&lt;/li&gt;
-  &lt;li&gt;排尿频繁&lt;/li&gt;
-  &lt;li&gt;由感染引起的发烧或者寒颤&lt;/li&gt;
-  &lt;li&gt;尿量减少&lt;/li&gt;
-  &lt;li&gt;由肾结石引起的疼痛可能会发生变化 —— 如疼痛会转移到另一个位置或者强度增加，由于结石在输尿管中移动&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section-3&quot;&gt;肾结石的种类：&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Knowing the type of kidney stone helps determine the cause and may give clues on how to reduce your risk of getting more kidney stones.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;了解肾结石的种类可以帮助判断发病原因，从而降低得肾结石的风险。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Calcium stones. Most kidney stones are calcium stones, usually in the form of calcium oxalate. Oxalate is a naturally occurring substance found in food. Some fruits and vegetables, as well as nuts and chocolate, have high oxalate levels. Your liver also produces oxalate. Dietary factors, high doses of vitamin D, intestinal bypass surgery and several metabolic disorders can increase the concentration of calcium or oxalate in urine. Calcium stones may also occur in the form of calcium phosphate.&lt;/li&gt;
-    &lt;li&gt;Struvite stones. Struvite stones form in response to an infection, such as a urinary tract infection. These stones can grow quickly and become quite large, sometimes with few symptoms or little warning.&lt;/li&gt;
-    &lt;li&gt;Uric acid stones. Uric acid stones can form in people who don’t drink enough fluids or who lose too much fluid, those who eat a high-protein diet, and those who have gout. Certain genetic factors also may increase your risk of uric acid stones.&lt;/li&gt;
-    &lt;li&gt;Cystine stones. These stones form in people with a hereditary disorder that causes the kidneys to  too much of certain amino acids (cystinuria).&lt;/li&gt;
-    &lt;li&gt;Other stones. Other, rarer types of kidney stones also can occur.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;钙结石：大多数的肾结石是钙结石，通常是钙的草酸盐。草酸盐是食物中含有的成分。一些水果、蔬菜、坚果、巧克力都有很高的草酸盐含量。你的肝脏也会产生草酸。饮食的因素、高浓度的维生素D、肠道手术和许多代谢疾病都会升高尿液中钙或者草酸盐的浓度。钙结石也可能是钙的磷酸化。&lt;/li&gt;
-  &lt;li&gt;鸟粪石结晶：鸟粪石结晶常由感染引起的，如尿路感染。这些结石生长迅速、而且会很大，有时伴有轻微症状。&lt;/li&gt;
-  &lt;li&gt;尿酸结石：饮水过少、体液流失过多、吃高蛋白食物、痛风的人可能形成尿酸结石。某些遗传因子也会增加尿酸结石的风险。&lt;/li&gt;
-  &lt;li&gt;胱氨酸结石：某些遗传性急性的人，引起肾脏排除过量的某种氨基酸（例如胱酸尿症）。&lt;/li&gt;
-  &lt;li&gt;其他结石：其他的、少见的结石。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section-4&quot;&gt;危险因素：&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Factors that increase your risk of developing kidney stones include:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Family or personal history. If someone in your family has kidney stones, you’re more likely to develop stones, too. And if you’ve already had one or more kidney stones, you’re at increased risk of developing another.&lt;/li&gt;
-    &lt;li&gt;Dehydration. Not drinking enough water each day can increase your risk of kidney stones. People who live in warm climates and those who sweat a lot may be at higher risk than others.&lt;/li&gt;
-    &lt;li&gt;Certain diets. Eating a diet that’s high in protein, sodium and sugar may increase your risk of some types of kidney stones. This is especially true with a high-sodium diet. Too much sodium in your diet increases the amount of calcium your kidneys must filter and significantly increases your risk of kidney stones.&lt;/li&gt;
-    &lt;li&gt;Being obese. High body mass index (BMI), large waist size and weight gain have been linked to an increased risk of kidney stones.
-Digestive diseases and surgery. Gastric bypass surgery, inflammatory bowel disease or chronic diarrhea can cause changes in the digestive process that affect your absorption of calcium and water, increasing the levels of stone-forming substances in your urine.&lt;/li&gt;
-    &lt;li&gt;Other medical conditions. Diseases and conditions that may increase your risk of kidney stones include renal tubular acidosis, cystinuria, hyperparathyroidism, certain medications and some urinary tract infections.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;提升肾结石风险的因素包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;家族或者个人史：如果家庭中的某个人得了肾结石，你可能更容易得肾结石。如果你个人已经得过一颗或多颗肾结石，你有更高的风险再得。&lt;/li&gt;
-  &lt;li&gt;脱水：每天饮水不足会增加肾结石的风险。生活在湿热气候地区的人、出汗更多的人风险更大。&lt;/li&gt;
-  &lt;li&gt;特定的饮食：饮食高蛋白、高盐、高糖会增加某些种类肾结石的风险，尤其是高钠食物。食物中过量的钠会导致肾脏所需要排除的钙的量增加，并明显提高肾结石的风险。&lt;/li&gt;
-  &lt;li&gt;肥胖：高的BMI，大的腰围、体重增加都与肾结石风险提高有关。消化道疾病或手术、胃道手术、发炎的肠疾病、慢性腹泻均可影响消化过程，从而影响钙和水的吸收，增加结石形成的程度。&lt;/li&gt;
-  &lt;li&gt;其他医疗因素：肾小管性酸中毒、高胱胺酸尿症、甲状旁腺功能亢进、某些药物和一些尿路感染。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section-5&quot;&gt;检测与诊断：&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If your doctor suspects you have a kidney stone, you may have diagnostic tests and procedures, such as:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Blood testing. Blood tests may reveal too much calcium or uric acid in your blood. Blood test results help monitor the health of your kidneys and may lead your doctor to check for other medical conditions.&lt;/li&gt;
-    &lt;li&gt;Urine testing. The 24-hour urine collection test may show that you’re excreting too many stone-forming minerals or too few stone-preventing substances. For this test, your doctor may request that you perform two urine collections over two consecutive days.&lt;/li&gt;
-    &lt;li&gt;Imaging. Imaging tests may show kidney stones in your urinary tract. Options range from simple abdominal X-rays, which can miss small kidney stones, to high-speed or dual energy computerized tomography (CT) that may reveal even tiny stones.&lt;/li&gt;
-    &lt;li&gt;Other imaging options include an ultrasound, a noninvasive test, and intravenous urography, which involves injecting dye into an arm vein and taking X-rays (intravenous pyelogram) or obtaining CT images (CT urogram) as the dye travels through your kidneys and bladder.&lt;/li&gt;
-    &lt;li&gt;Analysis of passed stones. You may be asked to urinate through a strainer to catch stones that you pass. Lab analysis will reveal the makeup of your kidney stones. Your doctor uses this information to determine what’s causing your kidney stones and to form a plan to prevent more kidney stones.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;如果医生怀疑你得了肾结石，你可能会遇到以下诊断检查或步骤：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;血液检查：血液检查可能会提示血液中过量的钙或者尿酸。血液测试可以帮助检测你肾的健康状况，帮你的医生检查其他的身体状况&lt;/li&gt;
-  &lt;li&gt;尿液检测：24小时的尿液收集检测也许会显示你正在排过量的形成结石的矿物质、或者过少的防止结石形成的物质。对于这个检测，你的医生也许会要求你在连续的两天做两次。&lt;/li&gt;
-  &lt;li&gt;成像：成像可以显示你尿路中的肾结石。可以是：简单的腹部X线，它有可能会错过小的肾结石；高速或者双能量CT也许可以显示更小的结石&lt;/li&gt;
-  &lt;li&gt;其他的成像&lt;/li&gt;
-  &lt;li&gt;排除结石分析：你可能被要求通过滤网来排尿，以获得你排除的结石。实验室分析将会显示结石的成分。你的医生可以利用这个信息去判断结石形成原因，形成预防结石的方案。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section-6&quot;&gt;治疗与药物：&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Treatment for kidney stones varies, depending on the type of stone and the cause.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;根据结石的种类和成因，肾结石有不同的治疗方案。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Small stones with minimal symptoms&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most kidney stones won’t require invasive treatment. You may be able to pass a small stone by:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;小的、症状较轻的结石&lt;/p&gt;
-
-&lt;p&gt;大多数的肾结石无需侵入性的治疗，你也许可以通过以下方法排除小结石：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Drinking water. Drinking as much as 2 to 3 quarts (1.9 to 2.8 liters) a day may help flush out your urinary system. Unless your doctor tells you otherwise, drink enough fluid — mostly water — to produce clear or nearly clear urine.&lt;/li&gt;
-    &lt;li&gt;Pain relievers. Passing a small stone can cause some discomfort. To relieve mild pain, your doctor may recommend pain relievers such as ibuprofen (Advil, Motrin IB, others), acetaminophen (Tylenol, others) or naproxen sodium (Aleve).&lt;/li&gt;
-    &lt;li&gt;Medical therapy. Your doctor may give you a medication to help pass your kidney stone. This type of medication, known as an alpha blocker, relaxes the muscles in your ureter, helping you pass the kidney stone more quickly and with less pain.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;喝水：每天喝2~3 quart（1 quart = 0.95L）的水帮助冲刷你的泌尿系统。除非你的一生阻止你，否则喝足够的液体——主要是水——来产生清澈、尽可能清澈的尿。&lt;/li&gt;
-  &lt;li&gt;止疼药：排除小的结石可能会引起不适。为了缓解适中的疼痛，你的医生也许会建议你止疼药，如布洛芬，扑热息痛或者萘普生钠。&lt;/li&gt;
-  &lt;li&gt;药物治疗：你的医生可能会给你一些药物帮助你排石。药物的种类包括：alpha阻断剂，尿路肌肉松弛，以帮助你尽快排除结石、减少疼痛。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Large stones and those that cause symptoms&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Kidney stones that can’t be treated with conservative measures — either because they’re too large to pass on their own or because they cause bleeding, kidney damage or ongoing urinary tract infections — may require more extensive treatment. Procedures may include:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Using sound waves to break up stones. For certain kidney stones — depending on size and location — your doctor may recommend a procedure called extracorporeal shock wave lithotripsy (ESWL).&lt;/li&gt;
-    &lt;li&gt;ESWL uses sound waves to create strong vibrations (shock waves) that break the stones into tiny pieces that can be passed in your urine. The procedure lasts about 45 to 60 minutes and can cause moderate pain, so you may be under sedation or light anesthesia to make you comfortable.&lt;/li&gt;
-    &lt;li&gt;ESWL can cause blood in the urine, bruising on the back or abdomen, bleeding around the kidney and other adjacent organs, and discomfort as the stone fragments pass through the urinary tract.&lt;/li&gt;
-    &lt;li&gt;Surgery to remove very large stones in the kidney. A procedure called percutaneous nephrolithotomy (nef-row-lih-THOT-uh-me) involves surgically removing a kidney stone using small telescopes and instruments inserted through a small incision in your back.&lt;/li&gt;
-    &lt;li&gt;You will receive general anesthesia during the surgery and be in the hospital for one to two days while you recover. Your doctor may recommend this surgery if ESWL was unsuccessful.&lt;/li&gt;
-    &lt;li&gt;Using a scope to remove stones. To remove a smaller stone in your ureter or kidney, your doctor may pass a thin lighted tube (ureteroscope) equipped with a camera through your urethra and bladder to your ureter.&lt;/li&gt;
-    &lt;li&gt;Once the stone is located, special tools can snare the stone or break it into pieces that will pass in your urine. Your doctor may then place a small tube (stent) in the ureter to relieve swelling and promote healing. You may need general or local anesthesia during this procedure.&lt;/li&gt;
-    &lt;li&gt;Parathyroid gland surgery. Some calcium phosphate stones are caused by overactive parathyroid glands, which are located on the four corners of your thyroid gland, just below your Adam’s apple. When these glands produce too much parathyroid hormone (hyperparathyroidism), your calcium levels can become too high and kidney stones may form as a result.&lt;/li&gt;
-    &lt;li&gt;Hyperparathyroidism sometimes occurs when a small, benign tumor forms in one of your parathyroid glands or you develop another condition that leads these glands to produce more parathyroid hormone. Removing the growth from the gland stops the formation of kidney stones. Or your doctor may recommend treatment of the condition that’s causing your parathyroid gland to overproduce the hormone.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;section-7&quot;&gt;预防：&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Prevention of kidney stones may include a combination of lifestyle changes and medications.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;肾结石的预防可以包括生活方式的转变和药物治疗。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lifestyle changes&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You may reduce your risk of kidney stones if you:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;生活方式的转变&lt;/p&gt;
-
-&lt;p&gt;你可以通过以下方式降低肾结石的风险：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Drink water throughout the day. For people with a history of kidney stones, doctors usually recommend passing about 2.6 quarts (2.5 liters) of urine a day. Your doctor may ask that you measure your urine output to make sure that you’re drinking enough water.&lt;/li&gt;
-    &lt;li&gt;If you live in a hot, dry climate or you exercise frequently, you may need to drink even more water to produce enough urine. If your urine is light and clear, you’re likely drinking enough water.&lt;/li&gt;
-    &lt;li&gt;Eat fewer oxalate-rich foods. If you tend to form calcium oxalate stones, your doctor may recommend restricting foods rich in oxalates. These include rhubarb, beets, okra, spinach, Swiss chard, sweet potatoes, nuts, tea, chocolate and soy products.&lt;/li&gt;
-    &lt;li&gt;Choose a diet low in salt and animal protein. Reduce the amount of salt you eat and choose nonanimal protein sources, such as legumes. Consider using a salt substitute.&lt;/li&gt;
-    &lt;li&gt;Continue eating calcium-rich foods, but use caution with calcium supplements. Calcium in food doesn’t have an effect on your risk of kidney stones. Continue eating calcium-rich foods unless your doctor advises otherwise. Ask your doctor before taking calcium supplements, as these have been linked to increased risk of kidney stones. You may reduce the risk by taking supplements with meals. Diets low in calcium can increase kidney stone formation in some people.&lt;/li&gt;
-    &lt;li&gt;Ask your doctor for a referral to a dietitian who can help you develop an eating plan that reduces your risk of kidney stones.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;全天喝水&lt;/li&gt;
-  &lt;li&gt;如果你生活在炎热、干燥的环境，或者经常锻炼，你可能需要饮更多的水&lt;/li&gt;
-  &lt;li&gt;少吃草酸含量高的食物&lt;/li&gt;
-  &lt;li&gt;选择低盐和低蛋白的食物&lt;/li&gt;
-  &lt;li&gt;继续吃高钙的食物，但是小心钙补充剂&lt;/li&gt;
-  &lt;li&gt;问你的医生引荐以为饮食学家，帮你形成一个健康的食谱，来降低肾结石的风险&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Medications&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Medications can control the amount of minerals and acid in your urine and may be helpful in people who form certain kinds of stones. The type of medication your doctor prescribes will depend on the kind of kidney stones you have. Here are some examples:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;药物治疗&lt;/p&gt;
-
-&lt;p&gt;药物可以控制尿路中矿物质和酸的量，对形成特定某些种类结石的人有帮助。医生会根据结石的种类来确定药物的种类。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Calcium stones. To help prevent calcium stones from forming, your doctor may prescribe a thiazide diuretic or a phosphate-containing preparation.
-Uric acid stones. Your doctor may prescribe allopurinol (Zyloprim, Aloprim) to reduce uric acid levels in your blood and urine and a medicine to keep your urine alkaline. In some cases, allopurinol and an alkalizing agent may dissolve the uric acid stones.&lt;/li&gt;
-    &lt;li&gt;Struvite stones. To prevent struvite stones, your doctor may recommend strategies to keep your urine free of bacteria that cause infection. Long-term use of antibiotics in small doses may help achieve this goal. For instance, your doctor may recommend an antibiotic before and for a while after surgery to treat your kidney stones.&lt;/li&gt;
-    &lt;li&gt;Cystine stones. Cystine stones can be difficult to treat. Your doctor may recommend that you drink more fluids so that you produce a lot more urine. If that alone doesn’t help, your doctor may also prescribe a medication that decreases the amount of cystine in your urine.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;section-8&quot;&gt;我的病情：&lt;/h2&gt;
-
-&lt;h3 id=&quot;section-9&quot;&gt;初诊&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;时间：2016年7月6日下午&lt;/li&gt;
-  &lt;li&gt;地点：公司办公司&lt;/li&gt;
-  &lt;li&gt;症状：腹部急性剧烈疼痛&lt;/li&gt;
-  &lt;li&gt;就诊：北京大学第三医院，急诊。内科接诊，后转泌尿外科。&lt;/li&gt;
-  &lt;li&gt;花费：约1400元（忘带医保卡，全自费）&lt;/li&gt;
-  &lt;li&gt;诊断：血常规、心电图、X线、B超&lt;/li&gt;
-  &lt;li&gt;结果：
-    &lt;ul&gt;
-      &lt;li&gt;快速丙氨酸氨基转移酶：高出3倍（111U/L，参考值5-40U/L）&lt;/li&gt;
-      &lt;li&gt;快速天门冬氨酸氨基转移酶：升高（51U/L，参考值8-40）&lt;/li&gt;
-      &lt;li&gt;全血肌钙蛋白I测定：正常&lt;/li&gt;
-      &lt;li&gt;白细胞：升高（13.85*10^9/L，参考值3.5~9.5）&lt;/li&gt;
-      &lt;li&gt;B超：双肾结石，左肾多发，左输尿管末端结石伴左肾积水。结石均小于或者等于0.6cm&lt;/li&gt;
-      &lt;li&gt;最终：我个人感觉，最终是B超确诊的，其他的检查，可能有些异常，但是都是反应性的。鉴于我的两个转氨酶（都是肝功能的指标）都很高，我在复诊的时候要注意一下肝的检查。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;药物：
-    &lt;ul&gt;
-      &lt;li&gt;当天肌肉注射：黄体酮注射液、盐酸消旋山莨菪碱注射液、盐酸曲马多注射液（舒敏注射液）&lt;/li&gt;
-      &lt;li&gt;之后口服：甲磺酸左氧氟沙星片（利复星片）&lt;/li&gt;
-      &lt;li&gt;当天和之后点滴：间苯三酚&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-10&quot;&gt;第一次复诊&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;时间：2016年7月12日上午&lt;/li&gt;
-  &lt;li&gt;就诊：北京大学第三医院，泌尿外科&lt;/li&gt;
-  &lt;li&gt;结果：开药，预约下周B超，建议多喝水、多运动，接着排石&lt;/li&gt;
-  &lt;li&gt;药物：
-    &lt;ul&gt;
-      &lt;li&gt;盐酸坦索罗辛缓释胶囊&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-11&quot;&gt;第二次复诊&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;时间：2016年7月20日&lt;/li&gt;
-  &lt;li&gt;就诊：北京大学第三医院，放射科B超，泌尿外科门诊&lt;/li&gt;
-  &lt;li&gt;结果：输尿管中结石已经排除，肾中还有，但是都不大（最大0.6cm）&lt;/li&gt;
-  &lt;li&gt;另：由于急诊时血常规发现丙氨酸氨基转移酶和快速天门冬氨酸氨基转移酶高出正常值。因此，开了肝功能的单子。由于要求空腹，第二天来查。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-12&quot;&gt;第三次查肝功能&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;时间：2016年7月21日上午&lt;/li&gt;
-  &lt;li&gt;就诊：北京大学第三医院，抽血化验&lt;/li&gt;
-  &lt;li&gt;结果：两个转氨酶依然高。已经预约了下周三的消化内科，接着查肝。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section-13&quot;&gt;师兄给我的诊疗策略图&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/kidney-stone-strategy.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;section-14&quot;&gt;参考资料：&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;原文：&lt;a href=&quot;http://www.mayoclinic.org/diseases-conditions/kidney-stones/basics/definition/con-20024829&quot;&gt;梅奥诊所&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 07 Jul 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/07/07/kidney-stones.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/07/07/kidney-stones.html</guid>
-        
-        <category>medi</category>
-        
-        <category>英文翻译</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>HTTP</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;基本概念：&lt;/h2&gt;
-
-&lt;h2 id=&quot;methods&quot;&gt;Methods：&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;OPTIONS&lt;/li&gt;
-  &lt;li&gt;GET&lt;/li&gt;
-  &lt;li&gt;HEAD&lt;/li&gt;
-  &lt;li&gt;POST&lt;/li&gt;
-  &lt;li&gt;PUT&lt;/li&gt;
-  &lt;li&gt;DELETE&lt;/li&gt;
-  &lt;li&gt;TRACE&lt;/li&gt;
-  &lt;li&gt;CONNECT&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;status-code&quot;&gt;Status Code&lt;/h2&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;扩展阅读&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://tools.ietf.org/rfc/rfc2616.txt&quot;&gt;Hypertext Transfer Protocol – HTTP/1.1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://book.douban.com/subject/10746113/&quot;&gt;HTTP: the definitive guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 05 Jul 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/07/05/http.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/07/05/http.html</guid>
-        
-        <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>mongoDB学习笔记</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;基本概念&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#mongodb-package-componetshttpsdocsmongodbcommanualreferenceprogram&quot; id=&quot;markdown-toc-mongodb-package-componetshttpsdocsmongodbcommanualreferenceprogram&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/reference/program/&quot;&gt;MongoDB Package Componets&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#mongodb-crud-operationshttpsdocsmongodbcommanualcrud&quot; id=&quot;markdown-toc-mongodb-crud-operationshttpsdocsmongodbcommanualcrud&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/crud/&quot;&gt;MongoDB CRUD Operations&lt;/a&gt;&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#create-operations&quot; id=&quot;markdown-toc-create-operations&quot;&gt;Create Operations&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#read-operations&quot; id=&quot;markdown-toc-read-operations&quot;&gt;Read Operations&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#update-operations&quot; id=&quot;markdown-toc-update-operations&quot;&gt;Update Operations&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#delete-operations&quot; id=&quot;markdown-toc-delete-operations&quot;&gt;Delete Operations&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#mongo-and-sql&quot; id=&quot;markdown-toc-mongo-and-sql&quot;&gt;Mongo and SQL&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#mongo-by-python&quot; id=&quot;markdown-toc-mongo-by-python&quot;&gt;Mongo by Python&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#manage-mongod-processeshttpsdocsmongodbcommanualtutorialmanage-mongodb-processes&quot; id=&quot;markdown-toc-manage-mongod-processeshttpsdocsmongodbcommanualtutorialmanage-mongodb-processes&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/&quot;&gt;Manage mongod Processes&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;扩展阅读：&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;基本概念&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;MongoDB: an open-source document database&lt;/li&gt;
-  &lt;li&gt;ORM: Object Relational Mapping&lt;/li&gt;
-  &lt;li&gt;Documents: a record in MongoDB, similar to JSON objects&lt;/li&gt;
-  &lt;li&gt;Collections: MongoDB stores documents in collections, analogous to tables in relational databases&lt;/li&gt;
-  &lt;li&gt;_id field: unique, acts as a primary key&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.json.org/&quot;&gt;JSON&lt;/a&gt;: JavaScript Object Notation&lt;/li&gt;
-  &lt;li&gt;BSON: a binary representation of JSON documents&lt;/li&gt;
-  &lt;li&gt;CRUD: create, read, update, and delete documents&lt;/li&gt;
-  &lt;li&gt;drivers: an application communicates with MongoDB by way of a client library, including shell, python, C, java, Node.js, etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mongodb-package-componetshttpsdocsmongodbcommanualreferenceprogram&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/reference/program/&quot;&gt;MongoDB Package Componets&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongod&lt;/code&gt;: the primary daemon process(守护进程) for the MongoDB system&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongos&lt;/code&gt;: MongoDB Shard. Sharding means a method for distributing data across multiple machines.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongo&lt;/code&gt;: &lt;strong&gt;an interactive JavaScript shell interface to MongoDB&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongodump&lt;/code&gt;: a utility for creating a binary export of the contents of a database&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongorestore&lt;/code&gt;: writes data from a binary database dump created by mongodump to a MongoDB instance.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bsondump&lt;/code&gt;: converts BSON files into human-readable formats, including JSON.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongooplog&lt;/code&gt;: a simple tool that polls operations from the replication oplog of a remote server, and applies them to the local server.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongoimport&lt;/code&gt;: imports content from an Extended JSON, CSV, or TSV export created by mongoexport, or potentially, another third-party export tool.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongoexport&lt;/code&gt;: a utility that produces a JSON or CSV export of data stored in a MongoDB instance.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongostat&lt;/code&gt;: provides a quick overview of the status of a currently running mongod or mongos instance&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongotop&lt;/code&gt;: provides a method to track the amount of time a MongoDB instance spends reading and writing data&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongosniff&lt;/code&gt;: provides a low-level operation tracing/sniffing view into database activity in real time&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongoperf&lt;/code&gt;: a utility to check disk I/O performance independently of MongoDB&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mongofiles&lt;/code&gt;: makes it possible to manipulate files stored in your MongoDB instance in GridFS objects from the command line.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mongodb-crud-operationshttpsdocsmongodbcommanualcrud&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/crud/&quot;&gt;MongoDB CRUD Operations&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;create-operations&quot;&gt;Create Operations&lt;/h3&gt;
-
-&lt;p&gt;add new documents to a collection&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.collection.insert()
-db.collection.insertOne()
-db.collection.insertMany() 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;read-operations&quot;&gt;Read Operations&lt;/h3&gt;
-
-&lt;p&gt;read documents from a collection, i.e. queries a collection for documents&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.collection.find()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;update-operations&quot;&gt;Update Operations&lt;/h3&gt;
-
-&lt;p&gt;modify existing documents in a collection&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.collection.update()
-db.collection.updateOne()
-db.collection.updateMany()
-db.collection.replaceOne()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;delete-operations&quot;&gt;Delete Operations&lt;/h3&gt;
-
-&lt;p&gt;remove documents from a collection&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.collection.remove()
-db.collection.deleteOne()
-db.collection.deleteMany()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;mongo-and-sql&quot;&gt;Mongo and SQL&lt;/h2&gt;
-
-&lt;h2 id=&quot;mongo-by-python&quot;&gt;Mongo by Python&lt;/h2&gt;
-
-&lt;h2 id=&quot;manage-mongod-processeshttpsdocsmongodbcommanualtutorialmanage-mongodb-processes&quot;&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/&quot;&gt;Manage mongod Processes&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;扩展阅读：&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;mongoDB official website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.mongodb.com/&quot;&gt;mongoDB docs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 01 Jul 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/07/01/mongodb.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/07/01/mongodb.html</guid>
         
         <category>cs</category>
         

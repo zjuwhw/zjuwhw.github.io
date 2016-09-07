@@ -5,6 +5,7 @@ title: github的issue功能
 date: 2016-09-01
 tags: ["cs"]
 ---
+
 讨论一下issue的使用。
 
 ## [github官网关于issue功能的介绍](https://guides.github.com/features/issues/)

@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>zjuwhw&#39;s blog</title>
-  <meta name="description" content="This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
-">
+  <title>http请求的工具</title>
+  <meta name="description" content="第三方软件（third-party tools）">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="zjuwhw.github.io/page3/">
+  <link rel="canonical" href="zjuwhw.github.io/2016/09/02/http_tools.html">
   <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="zjuwhw.github.io/feed.xml">
 </head>
 
@@ -69,95 +68,64 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">http请求的工具</h1>
+    <p class="post-meta"><time datetime="2016-09-02T00:00:00+08:00" itemprop="datePublished">Sep 2, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jun 7, 2016</span> &raquo; <a class="post-link" href="/2016/06/07/Network.html">网络</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 9, 2016</span> &raquo; <a class="post-link" href="/2016/05/09/Linux.html">Linux学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 8, 2016</span> &raquo; <a class="post-link" href="/2016/05/08/China-doctor.html">中国伤医事件的文献翻译</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2016</span> &raquo; <a class="post-link" href="/2016/05/07/work-title.html">IT行业缩写整理</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2016</span> &raquo; <a class="post-link" href="/2016/05/07/HTML-CSS-notebook.html">HTML&CSS学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2016</span> &raquo; <a class="post-link" href="/2016/05/07/FrontEnd-notebook.html">Coursera-Frontend学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 6, 2016</span> &raquo; <a class="post-link" href="/2016/05/06/python-notebook.html">Python学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 4, 2016</span> &raquo; <a class="post-link" href="/2016/05/04/git-notebook.html">Git学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 15, 2015</span> &raquo; <a class="post-link" href="/2015/10/15/genome_alteration.html">Genomic Alteration名词解释</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 15, 2015</span> &raquo; <a class="post-link" href="/2015/10/15/RNAseq_strand.html">RNA-seq连特异性</a>
-      </li>
-    
-  </ul>
+  <div class="post-content" itemprop="articleBody">
+    <h2 id="third-party-tools">第三方软件（third-party tools）</h2>
 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">软件</th>
+      <th style="text-align: left">描述</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="http://curl.haxx.se/docs/manpage.html">Curl</a></td>
+      <td style="text-align: left">Command line tool</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://httpie.org/">HTTPie</a></td>
+      <td style="text-align: left">Command line tool</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://www.getpostman.com/">Postman REST Client</a></td>
+      <td style="text-align: left">App for Google Chrome and OS X</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://restlet.com/products/dhc/">DHC REST Client</a></td>
+      <td style="text-align: left">Google Chrome extension</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://www.google.com/chrome/">Google Chrome</a></td>
+      <td style="text-align: left">Google Chrome web browser</td>
+    </tr>
+  </tbody>
+</table>
 
-<div class="pagination">
-  
-    <a href="/page2">&laquo; 上一页</a>
-  
+<h2 id="python">python的包</h2>
 
-  
-    
-      <a href="/index.html">1</a>
-    
-  
-    
-      <a href="/page2">2</a>
-    
-  
-    
-      <em>3</em>
-    
-  
-    
-      <a href="/page4">4</a>
-    
-  
+<ul>
+  <li>urllib2: Extensible library for opening URLs</li>
+  <li>urllib: Open arbitrary resources by URL</li>
+  <li>requests: HTTP for Humans, embedded urllib2 functionality</li>
+  <li>httplib2:This is a comprehensive HTTP client library. It supports features like
+caching, keep-alive, compression, redirects and many kinds of authentication.</li>
+</ul>
 
-  
-    <a href="/page4">下一页 &raquo;</a>
-  
+<h2 id="section">参考：</h2>
 
-</div>
+<p>https://gdc-docs.nci.nih.gov/API/Users_Guide/Getting_Started</p>
 
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>
-
-
-
-<p> Number of visits:&nbsp; &nbsp; 
-<img src="http://hitwebcounter.com/counter/counter.php?page=6444042&style=0001&nbdigits=5&type=page&initCount=0" title="url and counting visits" Alt="url and counting visits"   border="0" >
-</p>     
-
+</article>
 
       </div>
     </div>

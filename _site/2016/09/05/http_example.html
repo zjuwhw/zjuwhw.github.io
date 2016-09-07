@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTTP请求和返回示例</title>
+  <meta name="description" content="以GeneDock官网（https://genedock.com）为例，用各种软件（curl，HTTPie，Postman REST Client，python的request）进行请求和返回。">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="zjuwhw.github.io/2016/09/05/http_example.html">
+  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="zjuwhw.github.io/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">zjuwhw's blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/links/">Links</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/tags/">Tags</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">HTTP请求和返回示例</h1>
+    <p class="post-meta"><time datetime="2016-09-05T00:00:00+08:00" itemprop="datePublished">Sep 5, 2016</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>以GeneDock官网（<a href="https://genedock.com">https://genedock.com</a>）为例，用各种软件（curl，HTTPie，Postman REST Client，python的request）进行请求和返回。</p>
+
+<h2 id="curl">Curl</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$curl -v https://genedock.com
+
+
+* Rebuilt URL to: https://genedock.com/
+*   Trying 182.92.0.168...
+* Connected to genedock.com (182.92.0.168) port 443 (#0)
+* TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate: *.genedock.com
+* Server certificate: RapidSSL SHA256 CA - G3
+* Server certificate: GeoTrust Global CA
+&gt; GET / HTTP/1.1
+&gt; Host: genedock.com
+&gt; User-Agent: curl/7.43.0
+&gt; Accept: */*
+&gt;
+<span class="nt">&lt; HTTP</span><span class="err">/</span><span class="na">1</span><span class="err">.</span><span class="na">1</span> <span class="na">200</span> <span class="na">OK</span>
+<span class="err">&lt;</span> <span class="na">Server:</span> <span class="na">nginx</span><span class="err">/</span><span class="na">1</span><span class="err">.</span><span class="na">6</span><span class="err">.</span><span class="na">0</span>
+<span class="err">&lt;</span> <span class="na">Date:</span> <span class="na">Mon</span><span class="err">,</span> <span class="na">05</span> <span class="na">Sep</span> <span class="na">2016</span> <span class="na">05:58:07</span> <span class="na">GMT</span>
+<span class="err">&lt;</span> <span class="na">Content-Type:</span> <span class="na">text</span><span class="err">/</span><span class="na">html</span><span class="err">;</span> <span class="na">charset=</span><span class="s">utf-8</span>
+<span class="err">&lt;</span> <span class="na">Content-Length:</span> <span class="na">8856</span>
+<span class="err">&lt;</span> <span class="na">Connection:</span> <span class="na">keep-alive</span>
+<span class="err">&lt;</span> <span class="na">Set-Cookie:</span> <span class="na">session=</span><span class="s">eyJfaWQiOnsiIGIiOiJaREZsWm1ObU16UTFabVJtWlRSa016ZGlabU5rWldWaU5qWmpPVFJoTTJJPSJ9fQ.Cq6a7w.LUjBEmjf-e6B_4aGSpSHElVIVzg;</span> <span class="na">HttpOnly</span><span class="err">;</span> <span class="na">Path=</span><span class="s">/</span>
+<span class="err">&lt;</span>
+<span class="err">&lt;!</span><span class="na">DOCTYPE</span> <span class="na">html</span><span class="nt">&gt;&lt;html</span> <span class="na">lang=</span><span class="s">"zh-CN"</span><span class="nt">&gt;&lt;head&gt;&lt;title&gt;</span>GeneDock<span class="nt">&lt;/title&gt;&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;&lt;meta</span> <span class="na">content=</span><span class="s">"IE=edge"</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span><span class="nt">&gt;&lt;meta</span> <span class="na">content=</span><span class="s">"width=1200"</span> <span class="na">name=</span><span class="s">"viewport"</span><span class="nt">&gt;&lt;meta</span> <span class="na">content=</span><span class="s">"GeneDock,www.genedock.com,genedock.com,genedock,北京聚道,聚道科技,基因数据云服务,北京聚道科技有限公司,GeneDock,北京GeneDock"</span> <span class="na">name=</span><span class="s">"Keywords"</span><span class="nt">&gt;&lt;meta</span> <span class="na">content=</span><span class="s">"GeneDock,www.genedock.com,genedock.com,genedock,北京聚道,聚道科技,基因数据云服务,北京聚道科技有限公司,GeneDock,北京GeneDoc
+......
+</span></code></pre>
+</div>
+
+<p><code class="highlighter-rouge">-v</code>参数显示整个http通信过程。更多可以参考<a href="http://www.ruanyifeng.com/blog/2011/09/curl.html">阮一峰博客《curl网站开发指南》</a>。</p>
+
+<ul>
+  <li>请求部分：</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; GET / HTTP/1.1
+&gt; Host: genedock.com
+&gt; User-Agent: curl/7.43.0
+&gt; Accept: */*
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">GET</code>是http动词，<code class="highlighter-rouge">HTTP/1.1</code>是HTTP的版本，<code class="highlighter-rouge">Host</code>是服务端的主机，<code class="highlighter-rouge">User-Agent</code>是发送请求的应用名称，<code class="highlighter-rouge">Accept</code>是可以接受何种类型的返回。</p>
+
+<ul>
+  <li>返回部分：</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt; HTTP/1.1 200 OK
+&lt; Server: nginx/1.6.0
+&lt; Date: Mon, 05 Sep 2016 05:58:07 GMT
+&lt; Content-Type: text/html; charset=utf-8
+&lt; Content-Length: 8856
+&lt; Connection: keep-alive
+&lt; Set-Cookie: session=eyJfaWQiOnsiIGIiOiJaREZsWm1ObU16UTFabVJtWlRSa016ZGlabU5rWldWaU5qWmpPVFJoTTJJPSJ9fQ.Cq6a7w.LUjBEmjf-e6B_4aGSpSHElVIVzg; HttpOnly; Path=/
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">200</code>是status code（状态码），<code class="highlighter-rouge">Server</code>是客户端应用软件的名字和版本号，<code class="highlighter-rouge">Date</code>是消息产生的时间或者时间戳，<code class="highlighter-rouge">Content-Type</code>是返回body的对象类型，<code class="highlighter-rouge">Content-Length</code>是返回body的长度或者大小，<code class="highlighter-rouge">Connection</code>是允许客户端和服务端指定请求-返回链接的选项，<code class="highlighter-rouge">Set-Cookie</code>是用来设置客户端的一个token，让服务端来识别身份。</p>
+
+<p>返回的body部分是一个html文件。</p>
+
+<h2 id="httpie">HTTPie</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$http --print=HhBb https://genedock.com
+
+
+GET / HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: genedock.com
+User-Agent: HTTPie/0.9.3
+
+
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Mon, 05 Sep 2016 06:34:50 GMT
+Server: nginx/1.6.0
+Set-Cookie: session=eyJfaWQiOnsiIGIiOiJZbUk1T0dReVpqbGhaakU0WkdObU1UazJaV05rTW1Fd05qVmtOakUzWW1ZPSJ9fQ.Cq6jig.rBqTiAoOL8QJj68W06WNs8lxlSY; HttpOnly; Path=/
+Transfer-Encoding: chunked
+
+<span class="cp">&lt;!DOCTYPE html&gt;</span><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"zh-CN"</span><span class="nt">&gt;&lt;head&gt;&lt;title&gt;</span>GeneDock<span class="nt">&lt;/title&gt;</span>
+....
+</code></pre>
+</div>
+
+<p>更多httpie的参数可见<a href="https://github.com/jkbrzt/httpie">https://github.com/jkbrzt/httpie</a></p>
+
+<h2 id="postman-rest-client">Postman REST Client</h2>
+
+<p><img src="/images/Postman-1.png" alt="" /></p>
+
+<p><img src="/images/Postman-2.png" alt="" /></p>
+
+<p><img src="/images/Postman-3.png" alt="" /></p>
+
+<h2 id="pythonrequest">Python的Request包</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21)
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+
+&gt;&gt;&gt; import requests
+&gt;&gt;&gt; r = requests.get("https://genedock.com")
+&gt;&gt;&gt; print r.request.headers
+{'Connection': 'keep-alive', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'User-Agent': 'python-requests/2.11.1'}
+
+&gt;&gt;&gt; print r.headers
+{'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked', 'Set-Cookie': 'session=eyJfaWQiOnsiIGIiOiJaakkzTnpZd09UQmtNRFEyWkdNM016a3paR0ZoWVRFNVpUWXhPVFJqWXprPSJ9fQ.Cq6lCQ.KzSeM-tEKnZxK8bvVi77qZSJnPQ; HttpOnly; Path=/', 'Server': 'nginx/1.6.0', 'Connection': 'keep-alive', 'Date': 'Mon, 05 Sep 2016 06:41:13 GMT', 'Content-Type': 'text/html; charset=utf-8'}
+
+&gt;&gt;&gt; print r.status_code
+200
+
+&gt;&gt;&gt; print r.content
+<span class="cp">&lt;!DOCTYPE html&gt;</span><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"zh-CN"</span><span class="nt">&gt;&lt;head&gt;&lt;title&gt;</span>GeneDock<span class="nt">&lt;/title&gt;</span>
+</code></pre>
+</div>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>zjuwhw's blog</li>
+          <li><a href="mailto:zju_whw@163.com">zju_whw@163.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/zjuwhw"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">zjuwhw</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/zjuwhw"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">zjuwhw</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

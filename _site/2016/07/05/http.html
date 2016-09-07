@@ -56,6 +56,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -76,26 +78,52 @@
   <div class="post-content" itemprop="articleBody">
     <h2 id="section">基本概念：</h2>
 
-<h2 id="methods">Methods：</h2>
+<ul>
+  <li><strong>The Hypertext Transfer Protocol (HTTP)</strong>: an application protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web.</li>
+  <li><strong>Client-server model</strong>: a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters, called clients.</li>
+  <li><strong>Request–response (or request–reply)</strong>: one of the basic methods computers use to communicate with each other, in which the first computer sends a request for some data and the second computer responds to the request.</li>
+  <li><strong>REST (representational state transfer)</strong> is an architectural style used for web development.</li>
+</ul>
+
+<h2 id="request-methodsverbs">Request Methods/Verbs（动词）：</h2>
 
 <ul>
+  <li>GET: Send named resource from the server to the client. （获取）</li>
+  <li>POST: Send client data into a server gateway application.（创建）</li>
+  <li>PUT: Store data from client into a named server resource. (更新)</li>
+  <li>DELETE: Delete the named resource from a server. （删除）</li>
+  <li>HEAD: Send just the HTTP headers from the response for the named resource.</li>
   <li>OPTIONS</li>
-  <li>GET</li>
-  <li>HEAD</li>
-  <li>POST</li>
-  <li>PUT</li>
-  <li>DELETE</li>
   <li>TRACE</li>
   <li>CONNECT</li>
 </ul>
 
-<h2 id="status-code">Status Code</h2>
+<h2 id="headers">Headers（头）</h2>
+
+<p><strong>HTTP header fields</strong> are components of the header section of request and response messages in the Hypertext Transfer Protocol (HTTP).</p>
+
+<ul>
+  <li>standard header fields</li>
+  <li>non-standard header fields: prefixing the field name with X-</li>
+</ul>
+
+<h2 id="status-code">Status Code（状态码）</h2>
+
+<ul>
+  <li>1xx Informational</li>
+  <li>2xx Success</li>
+  <li>3xx Redirection</li>
+  <li>4xx Client Error</li>
+  <li>5xx Server Error</li>
+</ul>
 
 <h2 id="section-1">扩展阅读</h2>
 
 <ul>
   <li><a href="https://tools.ietf.org/rfc/rfc2616.txt">Hypertext Transfer Protocol – HTTP/1.1</a></li>
   <li><a href="https://book.douban.com/subject/10746113/">HTTP: the definitive guide</a></li>
+  <li><a href="http://www.ruanyifeng.com/blog/2014/05/restful_api.html">阮一峰博客《RESTful API 设计指南》</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields">List of HTTP header</a></li>
 </ul>
 
   </div>
