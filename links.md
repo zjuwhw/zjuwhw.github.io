@@ -317,5 +317,22 @@ permalink: /links/
 
 ### Books
 
+- [Pro Git](https://book.douban.com/subject/3420144/)
+- [HTTP: The Definitive Guide](https://book.douban.com/subject/1440226/)
+- [HTML and CSS: Design and Build Websites](https://book.douban.com/subject/6585090/)
+- [JavaScript and JQuery: Interactive Front-end Web Development](https://book.douban.com/subject/20022383/)
+- [Beginning Linux Programming](https://book.douban.com/subject/2361237/)
+- [Python Requests Essentials](https://book.douban.com/subject/26428434/)
+- [Thinking in Java](https://book.douban.com/subject/1474824/)
+- [图解HTTP](https://book.douban.com/subject/25863515/)
+- [Learning Python](https://book.douban.com/subject/22139956/)
+- [C Primer Plus](https://book.douban.com/subject/25802313/)
+- [The C Programming Language](https://book.douban.com/subject/1236999/)
+- [Mastering Sublime Text](https://book.douban.com/subject/25804133/)
+- [Practical Vim](https://book.douban.com/subject/10599776/)
+
+### Tools
+
+- [Jupyter](http://jupyter.org/)
 
 
