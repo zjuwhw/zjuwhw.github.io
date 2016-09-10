@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am Huangwei Wang, a bioinformatic master student graduated from Shanghai Jiao Tong University. Now I work in a bioinformatic cloud computing company in Beijing. In the future, I hope I could get a PhD position oversea.
+I am Huanwei Wang, a bioinformatic master student graduated from Shanghai Jiao Tong University. Now I work in a bioinformatic cloud computing company in Beijing. In the future, I hope I could get a PhD position oversea.
 
 Email:
 
