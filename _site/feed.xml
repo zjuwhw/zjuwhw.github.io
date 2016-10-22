@@ -6,9 +6,65 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Sep 2016 14:39:54 +0800</pubDate>
-    <lastBuildDate>Tue, 27 Sep 2016 14:39:54 +0800</lastBuildDate>
+    <pubDate>Sat, 22 Oct 2016 22:03:03 +0800</pubDate>
+    <lastBuildDate>Sat, 22 Oct 2016 22:03:03 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>基因组分析的benchmark数据</title>
+        <description>&lt;h2 id=&quot;section&quot;&gt;两篇文献&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Zook, J. M., Chapman, B., Wang, J., Mittelman, D., Hofmann, O., Hide, W., &amp;amp; Salit, M. (2014). Integrating human sequence data sets provides a resource of benchmark SNP and indel genotype calls. Nature Biotechnology, 32(3), 246–251. &lt;a href=&quot;http://doi.org/10.1038/nbt.2835&quot;&gt;http://doi.org/10.1038/nbt.2835&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Zook, J. M., Catoe, D., McDaniel, J., Vang, L., Spies, N., Sidow, A., … Salit, M. (2016). Extensive sequencing of seven human genomes to characterize benchmark reference materials. Scientific Data, 3, 160025. &lt;a href=&quot;http://doi.org/10.1038/sdata.2016.25&quot;&gt;http://doi.org/10.1038/sdata.2016.25&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;相关组织&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://jimb.stanford.edu/giab/&quot;&gt;GIAB(Genome in a Bottle)&lt;/a&gt;: a public-private-academic consortium hosted by NIST to develop the technical infrastructure (reference standards, reference methods, and reference data) to enable translation of whole human genome sequencing to clinical practice.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.nist.gov/&quot;&gt;NIST(National Institute of Standards and Technology)&lt;/a&gt;: founded in 1901 and now part of the U.S. Department of Commerce, one of the nation’s oldest physical science laboratories.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://catalog.coriell.org/&quot;&gt;Coriell Institute for Medical Research&lt;/a&gt;: Providing essential research specimens and custom services to the scientific community, Coriell Biorepositories and Services is the international resource for exceptional science.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://catalog.coriell.org/1/NIGMS/Collections/CEPH-Resources&quot;&gt;CEPH Resources(The Centre de’Etude du Polymorphism Humain)&lt;/a&gt;:  has contributed its collection of 61 reference families to the Repository.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://catalog.coriell.org/1/NIGMS/Collections/NIST-Reference-Materials&quot;&gt;NIST Reference Material&lt;/a&gt;: The Genome in a Bottle Consortium has selected several genomes to produce and characterize as reference materials. The National Institute of Standards and Technology (NIST) has developed NIST Reference Materials from these genomes, which are DNA extracted from a large homogenized growth of B lymphoblastoid cell lines from the NIGMS Human Genetic Cell Repository at Coriell Institute for Medical Research.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;相关样本&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=NA12878&amp;amp;Product=DNA&quot;&gt;NA12878&lt;/a&gt;: In 2015, NIST released the pilot genome Reference Material 8398, which is genomic DNA (NA12878) derived from a large batch of the Coriell cell line GM12878, characterized for high-confidence SNPs, indel, and homozygous reference regions (Zook, et al., Nature Biotechnology 2014).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.nist.gov/news-events/news/2016/09/nist-releases-new-family-standardized-genomes&quot;&gt;four new GIAB reference materials&lt;/a&gt;: With the addition of four new reference materials (RMs) to a growing collection of “measuring sticks” for gene sequencing, the National Institute of Standards and Technology (NIST) can now provide laboratories with even more capability to accurately “map” DNA for genetic testing, medical diagnoses and future customized drug therapies&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/benchmark-reference-material.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;相关技术&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/benchmark-12-technologies.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 22 Oct 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/10/22/DNA-seq_reference_data.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/10/22/DNA-seq_reference_data.html</guid>
+        
+        <category>bioinfo</category>
+        
+        
+      </item>
     
       <item>
         <title>基础乐理</title>
@@ -1269,52 +1325,6 @@ BBBBCCCC?&amp;lt;A?BC?7@@???????DBBA@@@@A@@
         <pubDate>Sat, 13 Aug 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/08/13/fastq_format.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2016/08/13/fastq_format.html</guid>
-        
-        <category>bioinfo</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Illumina测序仪</title>
-        <description>&lt;h2 id=&quot;illumina&quot;&gt;illumina测序仪：&lt;/h2&gt;
-
-&lt;p&gt;GA, GAII, MiSeq, NextSeq, HiSeq 2000, HiSeq 2500, HiSeq X Ten&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/illumina_sequencer_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/illumina_sequencer_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;flow-cell&quot;&gt;Flow Cell:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1个flow cell包含8个lane&lt;/li&gt;
-  &lt;li&gt;1个lane可以测1个样本或多样本的混合物&lt;/li&gt;
-  &lt;li&gt;1个lane包含2列&lt;/li&gt;
-  &lt;li&gt;1列包含50个tiles&lt;/li&gt;
-  &lt;li&gt;1个tile有不同的cluster&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/illumina_flowcell.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;各个测序仪之间的比较&lt;/h2&gt;
-
-&lt;p&gt;下图来自于著名的文献《Field Guide to Next Generation DNA Sequencers》&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/sequencer_comparision.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;参考资料：&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;illumina线下讲座&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.sciencenet.cn/blog-777771-609814.html&quot;&gt;科学网一篇博客&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.molecularecologist.com/next-gen-fieldguide-2014/&quot;&gt;“Field Guide to Next Generation DNA Sequencers”&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://omicsmaps.com/&quot;&gt;全球测序仪分布&lt;/a&gt;：可能更新不是特别及时，例如X-Ten的数据&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Sat, 13 Aug 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/08/13/Illumina_sequencer.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/08/13/Illumina_sequencer.html</guid>
         
         <category>bioinfo</category>
         
