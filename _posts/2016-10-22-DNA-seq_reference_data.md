@@ -35,3 +35,6 @@ tags: ["bioinfo"]
 ![](/images/benchmark-12-technologies.png)
 
 
+## 下载链接
+
+[https://github.com/genome-in-a-bottle/giab_data_indexes](https://github.com/genome-in-a-bottle/giab_data_indexes)
