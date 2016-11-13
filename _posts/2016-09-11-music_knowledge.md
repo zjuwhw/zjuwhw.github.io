@@ -93,7 +93,7 @@ tags: ["music"]
 
 定义：一种音的组合，至少三个组成，按照3度关系排列起来，叫做和弦。
 
-举例：Em：根音为E（mi），3-5（mi-sol）为小三度，5-7（sol-si）为大三度，称为minor。
+举例：Em：根音为E（mi），3-5（mi-sol）为小三度，5-7（sol-si）为大三度。先是小三度，后是大三度称为minor。
 
 |Em||
 |:--|:--|
@@ -101,7 +101,42 @@ tags: ["music"]
 |5(sol)|三音|
 |3(mi)|根音|
 
+### Em和弦
 
-- Am: 6（la） - 1（do） - 3（mi）
-- C: 1（do） - 3（mi） - 5（sol）
-- Dm: 2（re） - 4（fa） - 6（la）
+E/mi/3 - G/sol/5 - B/si/7
+
+<img src="/images/guitar_chord_Em.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
+
+
+### Am和弦
+
+A/la/6 - C/do/1 - E/mi/3
+
+<img src="/images/guitar_chord_Am.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
+
+### C和弦
+
+C/do/1 - E/mi/3 - G/sol/5
+
+<img src="/images/guitar_chord_C.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
+
+### Dm和弦
+
+D/re/2 - F/fa/4 - A/la/6
+
+<img src="/images/guitar_chord_Dm.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
+
+### G和弦
+
+G/sol/5 - B/si/7 - D/re/2
+
+<img src="/images/guitar_chord_G.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
+
+### Fmaj7
+
+F/fa/4 - A/la/6 - C/do/1 - E/mi/3
+
+（从4到3，7度；大三度 - 小三度 --> 大和弦； 大和弦 + 大三度 --> major）
+
+<img src="/images/guitar_chord_Fmaj7.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
+
