@@ -181,7 +181,7 @@ permalink: /links/
 
 **My lab**
 
-- [王侃侃](http://daoshi.shsmu.edu.cn/teacherInfo.jsp?code=M7000071)
+- [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720)
 - [方海](http://www.cs.bris.ac.uk/~hfang/)
 
 
