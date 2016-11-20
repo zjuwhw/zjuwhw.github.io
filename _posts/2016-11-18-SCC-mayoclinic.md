@@ -138,7 +138,10 @@ A personal history of skin cancer. If you've had squamous cell carcinoma of the 
 - 激光疗法（Laser therapy）：一束强光使扩增部位蒸发。此种方法通常对于周边组织的损害较小，并且降低流血、肿胀、结疤的风险。激光疗法也许是比较浅的皮肤癌的一种选择。
 - 冷冻（Freezing）：这种方法涉及使用液氮去冷冻癌细胞。这也许也是比较浅的皮肤癌的一种选择。
 - 光动力疗法（Photodynamic therapy）：这种方法结合药物和光去处理浅的皮肤癌。在治疗过程中，一个液体药物会涂在皮肤上，使其对光更敏感。之后，可以消灭皮肤癌细胞的光作用在此区域。
-
+- 药用乳膏（Medicated creams or lotions）：对于比较浅的癌症，你可以直接涂含有抗癌药物的乳膏在皮肤上。
+- 简单切除（Simple excision）
+- Mohs手术（Mohs Surgery）
+- 放疗（Radiation therapy）
 
 ## 链接
 
