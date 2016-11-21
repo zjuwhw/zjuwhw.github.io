@@ -45,9 +45,9 @@ tags: ["medi","bio"]
 
 ### 1898年，镭和钋（Radium & Polonium）
 
-Marie and Pierre Curie discover the radioactive elements radium and polonium. Within a few years, the use of radium in cancer treatment begins.
+> Marie and Pierre Curie discover the radioactive elements radium and polonium. Within a few years, the use of radium in cancer treatment begins.
 
-> 居里夫妇发现了放射性的元素镭和钋。之后几年，使用镭来治疗癌症开始了。
+居里夫妇发现了放射性的元素镭和钋。之后几年，使用镭来治疗癌症开始了。
 
 ### 1902年，癌症与染色体损伤的单细胞（Cancer Tumors & Single Cells with Chromosome Damage）
 
