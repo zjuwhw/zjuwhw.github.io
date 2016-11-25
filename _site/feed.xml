@@ -6,8 +6,8 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Nov 2016 22:49:12 +0800</pubDate>
-    <lastBuildDate>Mon, 21 Nov 2016 22:49:12 +0800</lastBuildDate>
+    <pubDate>Fri, 25 Nov 2016 22:26:33 +0800</pubDate>
+    <lastBuildDate>Fri, 25 Nov 2016 22:26:33 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -1657,16 +1657,8 @@ caching, keep-alive, compression, redirects and many kinds of authentication.&lt
       </item>
     
       <item>
-        <title>Github_issues</title>
-        <description>
-&lt;hr /&gt;
-&lt;p&gt;layout: post
-title: github的issue功能
-date: 2016-09-01
-tags: [“cs”]
-—&lt;/p&gt;
-
-&lt;p&gt;讨论一下issue的使用。&lt;/p&gt;
+        <title>github的issue功能</title>
+        <description>&lt;p&gt;讨论一下issue的使用。&lt;/p&gt;
 
 &lt;h2 id=&quot;githubissuehttpsguidesgithubcomfeaturesissues&quot;&gt;&lt;a href=&quot;https://guides.github.com/features/issues/&quot;&gt;github官网关于issue功能的介绍&lt;/a&gt;&lt;/h2&gt;
 
@@ -1804,6 +1796,8 @@ I just activated this plugin (version 2.0) on a fresh WordPress 3.7.1 install. W
         <pubDate>Thu, 01 Sep 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/09/01/github_issues.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2016/09/01/github_issues.html</guid>
+        
+        <category>cs</category>
         
         
       </item>
