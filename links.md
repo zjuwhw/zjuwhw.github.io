@@ -263,11 +263,12 @@ permalink: /links/
 - [Ensembl](http://www.ensembl.org/index.html)
 - [dbSNP](http://www.ncbi.nlm.nih.gov/snp/)
 - [COSMIC](http://www.sanger.ac.uk/genetics/CGP/cosmic/)
-- [ClinVar](http://www.ncbi.nlm.nih.gov/clinvar/)
+- [ClinVar](http://www.ncbi.nlm.nih.gov/clinvar/): genomic variation and its relationship to human health
+- [OMIM](http://omim.org/): Online Mendelian Inheritane in Man
 - [primer design database](http://www.hsls.pitt.edu/obrc/index.php?page=pcr_oligos)
 - [ExAC](http://exac.broadinstitute.org/)
 - [Omictools](http://omictools.com/)
-- [HGMD (Human Gene Mutation Database)](http://www.hgmd.cf.ac.uk/ac/index.php)
+- [HGMD](http://www.hgmd.cf.ac.uk/ac/index.php): Human Gene Mutation Database
 
 ### Bioinformatic cloud
 
