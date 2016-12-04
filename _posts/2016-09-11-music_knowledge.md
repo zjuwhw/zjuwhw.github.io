@@ -105,6 +105,8 @@ tags: ["music"]
 
 E/mi/3 - G/sol/5 - B/si/7
 
+E - B - E - G - B - E
+
 <img src="/images/guitar_chord_Em.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
 
 
@@ -136,7 +138,7 @@ G/sol/5 - B/si/7 - D/re/2
 
 F/fa/4 - A/la/6 - C/do/1 - E/mi/3
 
-（从4到3，7度；大三度 - 小三度 --> 大和弦； 大和弦 + 大三度 --> major）
+（从4到3，7度；大三度 - 小三度 --> 大和弦； 大和弦 - 大三度 --> major）
 
 <img src="/images/guitar_chord_Fmaj7.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
 
@@ -146,8 +148,23 @@ D/re/2 - F#/fa/4 - A/la/6
 
 <img src="/images/guitar_chord_D.jpeg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
 
+### Am7
+
+A/la/6 - C/do/1 - E/mi/3 - G/sol/5
+
+（小三度 - 大三度 --> 小和弦； 小和弦 - 小三度 --> minor）
+
+
+<img src="/images/guitar_chord_Am7.jpeg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
+
 ### Bm
 
 B/si/7 - D/re/2 - F/fa/4
 
 <img src="/images/guitar_chord_Bm.jpeg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
+
+## 有用的链接
+
+- [《Introduction to Guitar》 on Coursera](https://www.coursera.org/learn/guitar/)
+
+- [《Justin's Beginners Guitar Course》](http://www.justinguitar.com/en/BC-000-BeginnersCourse.php)

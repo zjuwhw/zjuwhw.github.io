@@ -6,8 +6,8 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Dec 2016 14:58:27 +0800</pubDate>
-    <lastBuildDate>Sun, 04 Dec 2016 14:58:27 +0800</lastBuildDate>
+    <pubDate>Sun, 04 Dec 2016 15:42:15 +0800</pubDate>
+    <lastBuildDate>Sun, 04 Dec 2016 15:42:15 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -1262,6 +1262,8 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
 
 &lt;p&gt;E/mi/3 - G/sol/5 - B/si/7&lt;/p&gt;
 
+&lt;p&gt;E - B - E - G - B - E&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;/images/guitar_chord_Em.jpg&quot; alt=&quot;&quot; style=&quot;width: 250px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;am&quot;&gt;Am和弦&lt;/h3&gt;
@@ -1292,7 +1294,7 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
 
 &lt;p&gt;F/fa/4 - A/la/6 - C/do/1 - E/mi/3&lt;/p&gt;
 
-&lt;p&gt;（从4到3，7度；大三度 - 小三度 –&amp;gt; 大和弦； 大和弦 + 大三度 –&amp;gt; major）&lt;/p&gt;
+&lt;p&gt;（从4到3，7度；大三度 - 小三度 –&amp;gt; 大和弦； 大和弦 - 大三度 –&amp;gt; major）&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/guitar_chord_Fmaj7.jpg&quot; alt=&quot;&quot; style=&quot;width: 250px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
 
@@ -1302,11 +1304,30 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
 
 &lt;p&gt;&lt;img src=&quot;/images/guitar_chord_D.jpeg&quot; alt=&quot;&quot; style=&quot;width: 250px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
 
+&lt;h3 id=&quot;am7&quot;&gt;Am7&lt;/h3&gt;
+
+&lt;p&gt;A/la/6 - C/do/1 - E/mi/3 - G/sol/5&lt;/p&gt;
+
+&lt;p&gt;（小三度 - 大三度 –&amp;gt; 小和弦； 小和弦 - 小三度 –&amp;gt; minor）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/guitar_chord_Am7.jpeg&quot; alt=&quot;&quot; style=&quot;width: 250px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;bm&quot;&gt;Bm&lt;/h3&gt;
 
 &lt;p&gt;B/si/7 - D/re/2 - F/fa/4&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/guitar_chord_Bm.jpeg&quot; alt=&quot;&quot; style=&quot;width: 250px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;有用的链接&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.coursera.org/learn/guitar/&quot;&gt;《Introduction to Guitar》 on Coursera&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.justinguitar.com/en/BC-000-BeginnersCourse.php&quot;&gt;《Justin’s Beginners Guitar Course》&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Sun, 11 Sep 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/09/11/music_knowledge.html</link>
