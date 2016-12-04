@@ -6,13 +6,15 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Dec 2016 15:42:15 +0800</pubDate>
-    <lastBuildDate>Sun, 04 Dec 2016 15:42:15 +0800</lastBuildDate>
+    <pubDate>Sun, 04 Dec 2016 22:15:31 +0800</pubDate>
+    <lastBuildDate>Sun, 04 Dec 2016 22:15:31 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>Eric Lander的course schedule</title>
-        <description>&lt;table&gt;
+        <title>Eric Lander的MOOC</title>
+        <description>&lt;h2 id=&quot;schedular&quot;&gt;Schedular&lt;/h2&gt;
+
+&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th style=&quot;text-align: left&quot;&gt;序号&lt;/th&gt;
@@ -31,9 +33,118 @@
       &lt;td style=&quot;text-align: left&quot;&gt;Biochemistry&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Biochemistry of life&lt;/strong&gt;&lt;br /&gt; Framework, Buchner, and Fractionating life&lt;br /&gt;Molecular composition of cells&lt;br /&gt;Covalent bonds&lt;br /&gt;Non-covalent bonds&lt;br /&gt;Lipids and phospholipids: creating boundaries&lt;br /&gt;High energy molecules: ATP and carbohydrates&lt;/td&gt;
     &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Proteins and Protein Structure&lt;/strong&gt; &lt;br /&gt; Amazing proteins: primary structure  &lt;br /&gt; Meet the amino acids  &lt;br /&gt; Secondary structure  &lt;br /&gt; Tertiary and quaternary structure&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Enzymes&lt;/strong&gt; &lt;br /&gt; Design a channel protein &lt;br /&gt; Enzymes and biochemical reactions   &lt;br /&gt; What do enzymes do? &lt;br /&gt;How do enzymes work?  &lt;br /&gt;Influenza virus F tricks of a burglar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;5&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Pathways: Glycolysis&lt;/strong&gt; &lt;br /&gt; The energetics of pathways   &lt;br /&gt; Logical tricks of pathways  &lt;br /&gt; Glycolysis: a pathway to break down sugar  &lt;br /&gt; Regulation of pathways  &lt;br /&gt; Cellular respiration and fermentation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Genetics&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Mendel&lt;/strong&gt;  &lt;br /&gt; Background: Who was Mendel? Why Peas?  &lt;br /&gt; Mendel’s Experiments: controls and crosses  &lt;br /&gt; Definitions  &lt;br /&gt; Multiple traits: Mendel’s second law  &lt;br /&gt; Cytology  &lt;br /&gt; The chromosomal theory of inheritance&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;7&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Rediscovery of Mendel and advances by TH Morgan&lt;/strong&gt; &lt;br /&gt; Meiosis &lt;br /&gt; Fruit flies and linkage  &lt;br /&gt; Linkage Maps  &lt;br /&gt;  Linkage Mapping  &lt;br /&gt;  Sex chromosomes and sex linkage&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;8&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Basics of human genetics&lt;/strong&gt;  &lt;br /&gt; X-linked recessive inheritance   &lt;br /&gt; Autosomal dominant inheritance  &lt;br /&gt; Autosomal recessive inheritance  &lt;br /&gt;  Real human genetics  &lt;br /&gt; Garrod and inborn errors of metabolism&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;9&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Biochemical Genetics&lt;/strong&gt; &lt;br /&gt; Garrod, Beadle, Tatum and the link between genetics and biochemistry  &lt;br /&gt; Yeast as a model organism &lt;br /&gt; How to use genetics to study biochemistry:  A mutant hunt   &lt;br /&gt; Tricks of a mutant hunt &lt;br /&gt; Characterizing mutants: test of dominance &lt;br /&gt; Characterizing mutants: complementation test  &lt;br /&gt; Characterizing mutants: epistasis test&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Molecular Biology&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DNA as the hereditary material&lt;/strong&gt;  &lt;br /&gt;  The Transforming principle  &lt;br /&gt;  Structure of DNA: nucleotides and base-pairing  &lt;br /&gt;  Bacterial viruses &lt;br /&gt;  DNA structure, the race&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;11&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DNA Replication&lt;/strong&gt; &lt;br /&gt; Meselson and Stahl &lt;br /&gt; Details of DNA replication &lt;br /&gt; Additional details of DNA replication: topography and other enzymes  &lt;br /&gt; Additional details of DNA replication: fidelity &lt;br /&gt; Kornberg’s enzyme&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;12&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Central Dogma: Transcription and Translation&lt;/strong&gt; &lt;br /&gt; RNA &lt;br /&gt; Transcription: making RNA copy of DNA  &lt;br /&gt; Translation: making a polypeptide from RNA  &lt;br /&gt; Peering back in time.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;13&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Variations on the Central Dogma&lt;/strong&gt; &lt;br /&gt; Replication in different organisms  &lt;br /&gt; Transcription in different organisms  &lt;br /&gt; Translation in different organisms&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;14&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;A tale of two genes: β Kgalactosidase and β Kglobin&lt;/strong&gt;   &lt;br /&gt;  β-galactosidase in E. coli  &lt;br /&gt;  Lac operon, lactose regulation  &lt;br /&gt;  Lac operon, glucose regulation  &lt;br /&gt;  Hormone receptors in mammals  &lt;br /&gt; β-globin gene structure. &lt;br /&gt;  β-globin mutations  &lt;br /&gt; The β-globin region&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;15&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Recombinant DNA&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Cloning: Purifying a gene&lt;/strong&gt; &lt;br /&gt; Overview  &lt;br /&gt; Cutting and pasting molecules of DNA  &lt;br /&gt; Vectors  &lt;br /&gt; Transformation of host cells   &lt;br /&gt; Selection and creating a library&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;16&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Finding a specific gene in the library&lt;/strong&gt; &lt;br /&gt; Review/Overview &lt;br /&gt; Tricks for cloning  &lt;br /&gt;Different cloning vectors and source DNA  &lt;br /&gt; Finding your gene by complementation&lt;br /&gt; Finding your gene by protein expression&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;17&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Analyzing a gene&lt;/strong&gt; &lt;br /&gt;Gel electrophoresis  &lt;br /&gt;DNA sequencing, the concept &lt;br /&gt;DNA sequencing, implementation &lt;br /&gt;Polymerase Chain Reaction (PCR)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Genomics&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Human genome and positional cloning&lt;/strong&gt; &lt;br /&gt; Recombinant DNA review  &lt;br /&gt;Finding your gene: human Mendelian diseases  &lt;br /&gt; Finding markers across the genome for positional cloning   &lt;br /&gt; The Human Genome Project, genome assembly and analysis &lt;br /&gt; Improvements since the Human Genome project  &lt;br /&gt;Improvements in DNA sequencing&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;19&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Secrets of the human genome&lt;/strong&gt; &lt;br /&gt; Tour of the genome: the genomic landscape  &lt;br /&gt; Evolutionary comparison &lt;br /&gt; Evolutionary comparison as a tool for biomedical research  &lt;br /&gt; DNA polymorphisms within humans&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;20&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Observing&lt;/strong&gt;  &lt;br /&gt;DNA polymorphism in medicine: Mendelian disease  &lt;br /&gt; DNA polymorphisms: polygenic disease  3&lt;br /&gt; RNA variation  &lt;br /&gt; Protein localization on the genome&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;21&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Completing the  Triangle&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Perturbing the genome to probe function&lt;/strong&gt; &lt;br /&gt; Adding and subtracting genes  &lt;br /&gt; RNA interference  &lt;br /&gt; Modern genome editing: TALEN proteins and CRSPR&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;22&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Rational Medicine&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Familial hypercholesterolemia&lt;/strong&gt; &lt;br /&gt;Heart disease &lt;br /&gt; Cholesterol &lt;br /&gt; Lipoprotein particles  &lt;br /&gt; Connections to heart disease  &lt;br /&gt;Genetics of cholesterol levels  &lt;br /&gt;Rational therapy for FH heterozygotes  &lt;br /&gt;Modern strategies: PCSK9 and HDL&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;23&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Cancer&lt;/strong&gt;  &lt;br /&gt;  Cancer  &lt;br /&gt;  Regulation of cell growth: growth factors and receptors  &lt;br /&gt;  Regulation of cell growth: Ras &lt;br /&gt;  Regulation of cell growth: Ras signaling  &lt;br /&gt; Mutations that cause cancer &lt;br /&gt;  Anti-cancer therapy&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;24&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Science and Society&lt;/strong&gt;  &lt;br /&gt;  DNA and law &lt;br /&gt;  Other forensic technologies  &lt;br /&gt; Gene patenting&lt;/td&gt;
+    &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-
 </description>
         <pubDate>Fri, 02 Dec 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/12/02/Eric-Lander-course-schedule.html</link>
@@ -925,17 +1036,50 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
       </item>
     
       <item>
-        <title>基础乐理</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;音符时值：&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;定义：
-    &lt;ul&gt;
-      &lt;li&gt;音符：西方音乐的基本元素，用来表示相对长度的固定音高单位。&lt;/li&gt;
-      &lt;li&gt;时值：音符的相对持续时间&lt;/li&gt;
+        <title>吉他学习</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;吉他的种类&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;乐理知识&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-2&quot; id=&quot;markdown-toc-section-2&quot;&gt;音符时值&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-3&quot; id=&quot;markdown-toc-section-3&quot;&gt;音&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-4&quot; id=&quot;markdown-toc-section-4&quot;&gt;音阶&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-5&quot; id=&quot;markdown-toc-section-5&quot;&gt;拍号&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-6&quot; id=&quot;markdown-toc-section-6&quot;&gt;吉他空弦&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mi&quot; id=&quot;markdown-toc-mi&quot;&gt;mi指型&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-7&quot; id=&quot;markdown-toc-section-7&quot;&gt;音程&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-8&quot; id=&quot;markdown-toc-section-8&quot;&gt;和弦&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-9&quot; id=&quot;markdown-toc-section-9&quot;&gt;有用的链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-10&quot; id=&quot;markdown-toc-section-10&quot;&gt;常见和弦&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#em&quot; id=&quot;markdown-toc-em&quot;&gt;Em&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#am&quot; id=&quot;markdown-toc-am&quot;&gt;Am&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#c&quot; id=&quot;markdown-toc-c&quot;&gt;C&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dm&quot; id=&quot;markdown-toc-dm&quot;&gt;Dm&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#g&quot; id=&quot;markdown-toc-g&quot;&gt;G&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#fmaj7&quot; id=&quot;markdown-toc-fmaj7&quot;&gt;Fmaj7&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#d&quot; id=&quot;markdown-toc-d&quot;&gt;D&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#am7&quot; id=&quot;markdown-toc-am7&quot;&gt;Am7&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#bm&quot; id=&quot;markdown-toc-bm&quot;&gt;Bm&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;吉他的种类&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Electric：电子吉他&lt;/li&gt;
+  &lt;li&gt;Acoustic：木吉他&lt;/li&gt;
+  &lt;li&gt;Classical：古典吉他&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;乐理知识&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;音符时值&lt;/h3&gt;
+
+&lt;p&gt;定义：
+	- 音符：西方音乐的基本元素，用来表示相对长度的固定音高单位。
+	- 时值：音符的相对持续时间&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -974,7 +1118,7 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;音：&lt;/h2&gt;
+&lt;h3 id=&quot;section-3&quot;&gt;音&lt;/h3&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -1031,7 +1175,7 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;音阶：&lt;/h2&gt;
+&lt;h3 id=&quot;section-4&quot;&gt;音阶&lt;/h3&gt;
 &lt;ol&gt;
   &lt;li&gt;十二平均律（又称十二等程律）：一种音乐的定律方法，将一个八度平均分成十二等份，每等分称为半音，是最主要的调音法。&lt;/li&gt;
   &lt;li&gt;全音和半音：&lt;/li&gt;
@@ -1122,7 +1266,7 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&quot;section-3&quot;&gt;拍号&lt;/h2&gt;
+&lt;h3 id=&quot;section-5&quot;&gt;拍号&lt;/h3&gt;
 
 &lt;p&gt;分母表示拍子的时值，分子代表每一小节有多少拍子。&lt;code class=&quot;highlighter-rouge&quot;&gt;3/4&lt;/code&gt;叫四三拍，表示四分音符为一拍，每个小节有三拍。&lt;/p&gt;
 
@@ -1145,7 +1289,7 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&quot;section-4&quot;&gt;吉他&lt;/h2&gt;
+&lt;h3 id=&quot;section-6&quot;&gt;吉他空弦&lt;/h3&gt;
 
 &lt;p&gt;从上到下：&lt;/p&gt;
 
@@ -1158,7 +1302,7 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
   &lt;li&gt;1弦：高音mi（E）&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;mi&quot;&gt;mi指型&lt;/h2&gt;
+&lt;h3 id=&quot;mi&quot;&gt;mi指型&lt;/h3&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -1212,7 +1356,7 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&quot;section-5&quot;&gt;音程&lt;/h2&gt;
+&lt;h3 id=&quot;section-7&quot;&gt;音程&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -1229,7 +1373,7 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;section-6&quot;&gt;和弦&lt;/h2&gt;
+&lt;h3 id=&quot;section-8&quot;&gt;和弦&lt;/h3&gt;
 
 &lt;p&gt;定义：一种音的组合，至少三个组成，按照3度关系排列起来，叫做和弦。&lt;/p&gt;
 
@@ -1258,7 +1402,20 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&quot;em&quot;&gt;Em和弦&lt;/h3&gt;
+&lt;h2 id=&quot;section-9&quot;&gt;有用的链接&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.coursera.org/learn/guitar/&quot;&gt;《Introduction to Guitar》 on Coursera&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.justinguitar.com/en/BC-000-BeginnersCourse.php&quot;&gt;《Justin’s Beginners Guitar Course》&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-10&quot;&gt;常见和弦&lt;/h2&gt;
+
+&lt;h3 id=&quot;em&quot;&gt;Em&lt;/h3&gt;
 
 &lt;p&gt;E/mi/3 - G/sol/5 - B/si/7&lt;/p&gt;
 
@@ -1266,25 +1423,25 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
 
 &lt;p&gt;&lt;img src=&quot;/images/guitar_chord_Em.jpg&quot; alt=&quot;&quot; style=&quot;width: 250px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;am&quot;&gt;Am和弦&lt;/h3&gt;
+&lt;h3 id=&quot;am&quot;&gt;Am&lt;/h3&gt;
 
 &lt;p&gt;A/la/6 - C/do/1 - E/mi/3&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/guitar_chord_Am.jpg&quot; alt=&quot;&quot; style=&quot;width: 250px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;c&quot;&gt;C和弦&lt;/h3&gt;
+&lt;h3 id=&quot;c&quot;&gt;C&lt;/h3&gt;
 
 &lt;p&gt;C/do/1 - E/mi/3 - G/sol/5&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/guitar_chord_C.jpg&quot; alt=&quot;&quot; style=&quot;width: 250px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;dm&quot;&gt;Dm和弦&lt;/h3&gt;
+&lt;h3 id=&quot;dm&quot;&gt;Dm&lt;/h3&gt;
 
 &lt;p&gt;D/re/2 - F/fa/4 - A/la/6&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/guitar_chord_Dm.jpg&quot; alt=&quot;&quot; style=&quot;width: 250px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;g&quot;&gt;G和弦&lt;/h3&gt;
+&lt;h3 id=&quot;g&quot;&gt;G&lt;/h3&gt;
 
 &lt;p&gt;G/sol/5 - B/si/7 - D/re/2&lt;/p&gt;
 
@@ -1317,17 +1474,6 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
 &lt;p&gt;B/si/7 - D/re/2 - F/fa/4&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/guitar_chord_Bm.jpeg&quot; alt=&quot;&quot; style=&quot;width: 250px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;section-7&quot;&gt;有用的链接&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.coursera.org/learn/guitar/&quot;&gt;《Introduction to Guitar》 on Coursera&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.justinguitar.com/en/BC-000-BeginnersCourse.php&quot;&gt;《Justin’s Beginners Guitar Course》&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
 </description>
         <pubDate>Sun, 11 Sep 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/09/11/music_knowledge.html</link>

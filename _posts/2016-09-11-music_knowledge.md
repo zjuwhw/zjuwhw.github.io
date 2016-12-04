@@ -1,13 +1,24 @@
 ---
 layout: post
-title: 基础乐理
+title: 吉他学习
 date: 2016-09-11
 tags: ["music"]
 ---
 
-## 音符时值：
+* TOC
+{:toc}
 
-1. 定义：
+## 吉他的种类
+
+1. Electric：电子吉他
+2. Acoustic：木吉他
+3. Classical：古典吉他
+
+## 乐理知识
+
+### 音符时值
+
+定义：
 	- 音符：西方音乐的基本元素，用来表示相对长度的固定音高单位。
 	- 时值：音符的相对持续时间
 
@@ -18,7 +29,7 @@ tags: ["music"]
 |四分音符|1|![](/images/Quarter_note.gif)|`X`|
 |八分音符|0.5（半拍）|![](/images/Eighth_note.gif)|<code class="highlighter-rouge"><U>X</U>|
 
-## 音：
+### 音
 
 |音名|唱名|简谱|近似频率(Hz)|
 |:--|:--|:--|:--|
@@ -31,7 +42,7 @@ tags: ["music"]
 |B|si|7|494|
 
 
-## 音阶：
+### 音阶
 1. 十二平均律（又称十二等程律）：一种音乐的定律方法，将一个八度平均分成十二等份，每等分称为半音，是最主要的调音法。
 2. 全音和半音：
 
@@ -50,7 +61,7 @@ tags: ["music"]
 |11||A#|Bb|
 |12|B||
 
-## 拍号
+### 拍号
 
 分母表示拍子的时值，分子代表每一小节有多少拍子。`3/4`叫四三拍，表示四分音符为一拍，每个小节有三拍。
 
@@ -59,7 +70,7 @@ tags: ["music"]
 |3/4|强-弱-弱|
 |4/4|强-弱-次强-弱|
 
-## 吉他
+### 吉他空弦
 
 从上到下：
 
@@ -70,7 +81,7 @@ tags: ["music"]
 - 2弦：si（B）
 - 1弦：高音mi（E）
 
-## mi指型
+### mi指型
 
 ||6弦|5弦|4弦|3弦|2弦|1弦|
 |:--|:--|:--|:--|:--|:--|:--|
@@ -79,7 +90,7 @@ tags: ["music"]
 |2品||B|E|A|||
 |3品|G|C|F||D|G|
 
-## 音程
+### 音程
 
 - 定义1：两个音在音高上的距离叫做“音程”，计量单位为“度”。
 
@@ -89,7 +100,7 @@ tags: ["music"]
 
 - 举例：1-3为“大三度”，3-5为“小三度”
 
-## 和弦
+### 和弦
 
 定义：一种音的组合，至少三个组成，按照3度关系排列起来，叫做和弦。
 
@@ -101,7 +112,16 @@ tags: ["music"]
 |5(sol)|三音|
 |3(mi)|根音|
 
-### Em和弦
+
+## 有用的链接
+
+- [《Introduction to Guitar》 on Coursera](https://www.coursera.org/learn/guitar/)
+
+- [《Justin's Beginners Guitar Course》](http://www.justinguitar.com/en/BC-000-BeginnersCourse.php)
+
+## 常见和弦
+
+### Em
 
 E/mi/3 - G/sol/5 - B/si/7
 
@@ -110,25 +130,25 @@ E - B - E - G - B - E
 <img src="/images/guitar_chord_Em.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
 
 
-### Am和弦
+### Am
 
 A/la/6 - C/do/1 - E/mi/3
 
 <img src="/images/guitar_chord_Am.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
 
-### C和弦
+### C
 
 C/do/1 - E/mi/3 - G/sol/5
 
 <img src="/images/guitar_chord_C.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
 
-### Dm和弦
+### Dm
 
 D/re/2 - F/fa/4 - A/la/6
 
 <img src="/images/guitar_chord_Dm.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
 
-### G和弦
+### G
 
 G/sol/5 - B/si/7 - D/re/2
 
@@ -162,9 +182,3 @@ A/la/6 - C/do/1 - E/mi/3 - G/sol/5
 B/si/7 - D/re/2 - F/fa/4
 
 <img src="/images/guitar_chord_Bm.jpeg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
-
-## 有用的链接
-
-- [《Introduction to Guitar》 on Coursera](https://www.coursera.org/learn/guitar/)
-
-- [《Justin's Beginners Guitar Course》](http://www.justinguitar.com/en/BC-000-BeginnersCourse.php)
