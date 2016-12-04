@@ -140,3 +140,14 @@ F/fa/4 - A/la/6 - C/do/1 - E/mi/3
 
 <img src="/images/guitar_chord_Fmaj7.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
 
+### D
+
+D/re/2 - F#/fa/4 - A/la/6
+
+<img src="/images/guitar_chord_D.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
+
+### Bm
+
+B/si/7 - D/re/2 - F/fa/4
+
+<img src="/images/guitar_chord_Bm.jpg" alt="" style="width: 250px; display:block; margin: 0 auto;"/>
