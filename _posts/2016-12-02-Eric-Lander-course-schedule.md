@@ -23,7 +23,7 @@ tags: ["mooc","bio"]
 |11||**DNA Replication** <br> Meselson and Stahl <br> Details of DNA replication <br> Additional details of DNA replication: topography and other enzymes  <br> Additional details of DNA replication: fidelity <br> Kornberg’s enzyme 
 |12||**Central Dogma: Transcription and Translation** <br> RNA <br> Transcription: making RNA copy of DNA  <br> Translation: making a polypeptide from RNA  <br> Peering back in time. 
 |13||**Variations on the Central Dogma** <br> Replication in different organisms  <br> Transcription in different organisms  <br> Translation in different organisms 
-|14||**A tale of two genes: β Kgalactosidase and β Kglobin**   <br>  β-galactosidase in E. coli  <br>  Lac operon, lactose regulation  <br>  Lac operon, glucose regulation  <br>  Hormone receptors in mammals  <br> β-globin gene structure. <br>  β-globin mutations  <br> The β-globin region 
+|14||**A tale of two genes: β-galactosidase and β-globin**   <br>  β-galactosidase in E. coli  <br>  Lac operon, lactose regulation  <br>  Lac operon, glucose regulation  <br>  Hormone receptors in mammals  <br> β-globin gene structure. <br>  β-globin mutations  <br> The β-globin region 
 |15|Recombinant DNA|**Cloning: Purifying a gene** <br> Overview  <br> Cutting and pasting molecules of DNA  <br> Vectors  <br> Transformation of host cells   <br> Selection and creating a library 
 |16||**Finding a specific gene in the library** <br> Review/Overview <br> Tricks for cloning  <br>Different cloning vectors and source DNA  <br> Finding your gene by complementation<br> Finding your gene by protein expression 
 |17||**Analyzing a gene** <br>Gel electrophoresis  <br>DNA sequencing, the concept <br>DNA sequencing, implementation <br>Polymerase Chain Reaction (PCR)
