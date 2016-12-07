@@ -59,6 +59,7 @@ tags: cs
 - [sphinx](http://www.sphinx-doc.org/en/stable/): Python Documentation Generator
 - [etetoolkit](http://etetoolkit.org/): A Python framework to work with trees
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
+- [nose](extends unittest to make testing easier.)
 
 ### 扩展阅读
 
