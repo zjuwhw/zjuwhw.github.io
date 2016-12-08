@@ -6,9 +6,82 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Dec 2016 11:47:48 +0800</pubDate>
-    <lastBuildDate>Thu, 08 Dec 2016 11:47:48 +0800</lastBuildDate>
+    <pubDate>Thu, 08 Dec 2016 17:49:14 +0800</pubDate>
+    <lastBuildDate>Thu, 08 Dec 2016 17:49:14 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Effective python的59个方法</title>
+        <description>&lt;ol&gt;
+  &lt;li&gt;Know which version of python you’re using&lt;/li&gt;
+  &lt;li&gt;Follow the PEP 8 style guide&lt;/li&gt;
+  &lt;li&gt;Know the differences Between &lt;code class=&quot;highlighter-rouge&quot;&gt;bytes&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;str&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;unicode&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Write helper functions instead of complex expressions&lt;/li&gt;
+  &lt;li&gt;Know how to slice sequences&lt;/li&gt;
+  &lt;li&gt;Avoid using &lt;code class=&quot;highlighter-rouge&quot;&gt;start&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;end&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;stride&lt;/code&gt; in a single slice&lt;/li&gt;
+  &lt;li&gt;Use list comprehensions instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;map&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;filter&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Avoid more than two expressions in list comprehensions&lt;/li&gt;
+  &lt;li&gt;Consider generator expressions for large comprehensions&lt;/li&gt;
+  &lt;li&gt;Prefer &lt;code class=&quot;highlighter-rouge&quot;&gt;enumerate&lt;/code&gt; over &lt;code class=&quot;highlighter-rouge&quot;&gt;range&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;zip&lt;/code&gt; to process iterators in parallel&lt;/li&gt;
+  &lt;li&gt;Avoid &lt;code class=&quot;highlighter-rouge&quot;&gt;else&lt;/code&gt; blocks after &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt; loops&lt;/li&gt;
+  &lt;li&gt;Take advantage of each block in &lt;code class=&quot;highlighter-rouge&quot;&gt;try/except/else/finally&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Prefer exceptions to returning &lt;code class=&quot;highlighter-rouge&quot;&gt;None&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Know how closures interact with variable scope&lt;/li&gt;
+  &lt;li&gt;Consider generators instead of returning lists&lt;/li&gt;
+  &lt;li&gt;Be Defensive when iterating over arguments&lt;/li&gt;
+  &lt;li&gt;Reduce visual noise with variable positional arguments&lt;/li&gt;
+  &lt;li&gt;Provide optional behavior with keyword arguments&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;None&lt;/code&gt; and Docstrings to specify dynamic default arguments&lt;/li&gt;
+  &lt;li&gt;Enforce clarity with Keyword-only arguments&lt;/li&gt;
+  &lt;li&gt;Prefer helper classes over bookkeeping wih dictionaries and tuples&lt;/li&gt;
+  &lt;li&gt;Accept functions for simple interfaces instead of classes&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;@classmethod&lt;/code&gt; polymorphism to construct objects generically&lt;/li&gt;
+  &lt;li&gt;Initialize parent classes with &lt;code class=&quot;highlighter-rouge&quot;&gt;super&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Use multiple inheritance only for mix-in utility classes&lt;/li&gt;
+  &lt;li&gt;Prefer public attributes over private ones&lt;/li&gt;
+  &lt;li&gt;Inherit from &lt;code class=&quot;highlighter-rouge&quot;&gt;collections.abc&lt;/code&gt; for custom container types&lt;/li&gt;
+  &lt;li&gt;Use plain attributes instead of Get and Set methods&lt;/li&gt;
+  &lt;li&gt;Consider &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;@property&lt;/span&gt;&lt;/code&gt; instead of refactoring attributes&lt;/li&gt;
+  &lt;li&gt;Use descriptors for reusable &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;@property&lt;/span&gt;&lt;/code&gt; methods&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;__getattr__&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;__getattribute__&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;__setattr__&lt;/code&gt; for lazy attributes&lt;/li&gt;
+  &lt;li&gt;Validate subclasses with metaclasses&lt;/li&gt;
+  &lt;li&gt;Register class existence with metaclasses&lt;/li&gt;
+  &lt;li&gt;Annotate class attributes with metaclasses&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;subprocess&lt;/code&gt; to manage child processes&lt;/li&gt;
+  &lt;li&gt;Use threads for blocking I/O, avoid for parallelism&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;Lock&lt;/code&gt; to prevent data races in threads&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;Queue&lt;/code&gt; to coordinate work between threads&lt;/li&gt;
+  &lt;li&gt;Consider coroutines to run many functions concurrently&lt;/li&gt;
+  &lt;li&gt;Consider &lt;code class=&quot;highlighter-rouge&quot;&gt;concurrent.futures&lt;/code&gt; for true parallelism&lt;/li&gt;
+  &lt;li&gt;Define function decorators with &lt;code class=&quot;highlighter-rouge&quot;&gt;functools.wraps&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Consider &lt;code class=&quot;highlighter-rouge&quot;&gt;contextlib&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;with&lt;/code&gt; statements for reusable &lt;code class=&quot;highlighter-rouge&quot;&gt;try/finally&lt;/code&gt; behavior&lt;/li&gt;
+  &lt;li&gt;Make &lt;code class=&quot;highlighter-rouge&quot;&gt;pickle&lt;/code&gt; reliable with &lt;code class=&quot;highlighter-rouge&quot;&gt;copyreg&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;datetime&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;time&lt;/code&gt; for local clocks&lt;/li&gt;
+  &lt;li&gt;Use built-in algorithms and data structures&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;decimal&lt;/code&gt; when precision is paramount&lt;/li&gt;
+  &lt;li&gt;Know where to find coummunity-built modules&lt;/li&gt;
+  &lt;li&gt;Write docstrings for every function, class, and module&lt;/li&gt;
+  &lt;li&gt;Use packages to organize modules and provide stable APIs&lt;/li&gt;
+  &lt;li&gt;Define a root &lt;code class=&quot;highlighter-rouge&quot;&gt;Exception&lt;/code&gt; to insulate callers from APIs&lt;/li&gt;
+  &lt;li&gt;Know how to break circular dependencies&lt;/li&gt;
+  &lt;li&gt;Use virtual environments for isolated and reproducible dependencies&lt;/li&gt;
+  &lt;li&gt;Consider module-scoped code to configure deployment environments&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;repr&lt;/code&gt; strings for debugging output&lt;/li&gt;
+  &lt;li&gt;Test everything with &lt;code class=&quot;highlighter-rouge&quot;&gt;unittest&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Consider interactive debugging with &lt;code class=&quot;highlighter-rouge&quot;&gt;pdb&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Profile before optimizing&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;tracemalloc&lt;/code&gt; to understand memory usage and leaks&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 02 Dec 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/12/02/python-59-ways.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/12/02/python-59-ways.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
     
       <item>
         <title>Eric Lander的MOOC</title>
@@ -1825,64 +1898,6 @@ perl -pe &#39;s/\r\n|\n|\r/\r/g&#39;   inputfile &amp;gt; outputfile  # Convert 
         <pubDate>Fri, 02 Sep 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/09/02/line_break.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2016/09/02/line_break.html</guid>
-        
-        <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>http请求的工具</title>
-        <description>&lt;h2 id=&quot;third-party-tools&quot;&gt;第三方软件（third-party tools）&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;软件&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;描述&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://curl.haxx.se/docs/manpage.html&quot;&gt;Curl&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Command line tool&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://httpie.org/&quot;&gt;HTTPie&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Command line tool&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://www.getpostman.com/&quot;&gt;Postman REST Client&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;App for Google Chrome and OS X&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://restlet.com/products/dhc/&quot;&gt;DHC REST Client&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Google Chrome extension&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://www.google.com/chrome/&quot;&gt;Google Chrome&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Google Chrome web browser&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;python&quot;&gt;python的包&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;urllib2: Extensible library for opening URLs&lt;/li&gt;
-  &lt;li&gt;urllib: Open arbitrary resources by URL&lt;/li&gt;
-  &lt;li&gt;requests: HTTP for Humans, embedded urllib2 functionality&lt;/li&gt;
-  &lt;li&gt;httplib2:This is a comprehensive HTTP client library. It supports features like
-caching, keep-alive, compression, redirects and many kinds of authentication.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;参考：&lt;/h2&gt;
-
-&lt;p&gt;https://gdc-docs.nci.nih.gov/API/Users_Guide/Getting_Started&lt;/p&gt;
-</description>
-        <pubDate>Fri, 02 Sep 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/09/02/http_tools.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/09/02/http_tools.html</guid>
         
         <category>cs</category>
         
