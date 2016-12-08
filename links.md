@@ -331,6 +331,7 @@ permalink: /links/
 - [The C Programming Language](https://book.douban.com/subject/1236999/)
 - [Mastering Sublime Text](https://book.douban.com/subject/25804133/)
 - [Practical Vim](https://book.douban.com/subject/10599776/)
+- [Effective Python](https://book.douban.com/subject/26312313/)
 
 ### Tools
 
