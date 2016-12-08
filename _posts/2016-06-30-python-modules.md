@@ -19,7 +19,6 @@ tags: cs
 - [json](https://docs.python.org/2/library/json.html): JSON encoder and decoder
 - [traceback](https://docs.python.org/2/library/traceback.html): Print or retrieve a stack traceback
 - [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html): Simple HTTP request handler
-- [time](https://docs.python.org/2/library/time.html): Time access and conversions
 - [shlex](https://docs.python.org/2/library/shlex.html): Simple lexical analysis
 - [urllib2](https://docs.python.org/2/library/urllib2.html):  Extensible library for opening URLs
 - [urllib](https://docs.python.org/2/library/urllib.html): Open arbitrary resources by URL
@@ -37,6 +36,8 @@ tags: cs
 - [SocketServer](https://docs.python.org/2/library/socketserver.html): A framework for network servers
 - [csv](https://docs.python.org/2/library/csv.html): CSV File Reading and Writing
 - [commands](https://docs.python.org/2/library/commands.html): Utilities for running commands
+- [time](https://docs.python.org/2/library/time.html): Time access and conversions
+- [datetime](https://docs.python.org/2/library/datetime.html)：Basic date and time types
 
 
 ## 非内置
@@ -59,7 +60,8 @@ tags: cs
 - [sphinx](http://www.sphinx-doc.org/en/stable/): Python Documentation Generator
 - [etetoolkit](http://etetoolkit.org/): A Python framework to work with trees
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
-- [nose](extends unittest to make testing easier.)
+- [nose](http://nose.readthedocs.io/en/latest/)：extends unittest to make testing easier
+- [pytz](http://pythonhosted.org/pytz/)：World Timezone Definitions for Python
 
 ### 扩展阅读
 
