@@ -37,7 +37,9 @@ tags: cs
 - [csv](https://docs.python.org/2/library/csv.html): CSV File Reading and Writing
 - [commands](https://docs.python.org/2/library/commands.html): Utilities for running commands
 - [time](https://docs.python.org/2/library/time.html): Time access and conversions
-- [datetime](https://docs.python.org/2/library/datetime.html)：Basic date and time types
+- [datetime](https://docs.python.org/2/library/datetime.html): Basic date and time types
+- [email](https://docs.python.org/2/library/email.html): An email and MIME handling package
+- [smtplib](https://docs.python.org/2/library/smtplib.html): SMTP protocol client
 
 
 ## 非内置
@@ -60,8 +62,9 @@ tags: cs
 - [sphinx](http://www.sphinx-doc.org/en/stable/): Python Documentation Generator
 - [etetoolkit](http://etetoolkit.org/): A Python framework to work with trees
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
-- [nose](http://nose.readthedocs.io/en/latest/)：extends unittest to make testing easier
-- [pytz](http://pythonhosted.org/pytz/)：World Timezone Definitions for Python
+- [nose](http://nose.readthedocs.io/en/latest/): extends unittest to make testing easier
+- [pytz](http://pythonhosted.org/pytz/): World Timezone Definitions for Python
+- [markdown](http://pythonhosted.org/Markdown/]: Python-Markdown
 
 ### 扩展阅读
 
