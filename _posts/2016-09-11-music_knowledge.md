@@ -14,6 +14,21 @@ tags: ["music"]
 2. Acoustic：木吉他
 3. Classical：古典吉他
 
+## practice tips
+
+source: [http://www.justinguitar.com/en/BC-105-PracticeTips.php](http://www.justinguitar.com/en/BC-105-PracticeTips.php)
+
+1. Practice what you can't do, not what you can.
+2. Never practice making a mistake. Get it right.
+3. Start slowly and get it right before you speed up.
+4. Using a timer saves time.
+5. Focus on one element of practice at a time.
+6. Try and practice a little every day, rather than practising a lot all on one day..
+7. Keep track of your practice: use a practice schedule..
+8. If it sounds good, it is good!
+9. Playing and Practicing are very different, don't confuse them.
+10. The more you think, the more you stink! Practice until it becomes instinctive.
+
 ## 乐理知识
 
 ### 音符时值
