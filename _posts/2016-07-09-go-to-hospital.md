@@ -18,9 +18,14 @@ tags: ["medi","英文翻译"]
 
 ## 北京社保网上服务
 
-- 网址：http://www.bjrbj.gov.cn/csibiz/indinfo/login.jsp
-- 注册：先需要根据自己的社保卡和身份证注册
-- 登陆：可以查看自己的基本信息，如定点医疗机构、五险（养老、失业、医疗、工伤、生育）的缴费情况等。
+- 北京市社保局：
+	- 网址：[http://www.bjrbj.gov.cn/](http://www.bjrbj.gov.cn/)
+	- 功能：可以查询定点医疗机构名单。
+- 网上服务平台
+	- 网址：[http://www.bjrbj.gov.cn/csibiz/indinfo/login.jsp](http://www.bjrbj.gov.cn/csibiz/indinfo/login.jsp)
+	- 注册：先需要根据自己的社保卡和身份证注册
+	- 登陆：可以查看自己的基本信息，如定点医疗机构、五险（养老、失业、医疗、工伤、生育）的缴费情况等。
+
 
 ## 个人认为可靠的医疗信息网站
 
