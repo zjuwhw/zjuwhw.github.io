@@ -6,9 +6,35 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Dec 2016 15:02:48 +0800</pubDate>
-    <lastBuildDate>Fri, 09 Dec 2016 15:02:48 +0800</lastBuildDate>
+    <pubDate>Fri, 09 Dec 2016 15:28:57 +0800</pubDate>
+    <lastBuildDate>Fri, 09 Dec 2016 15:28:57 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>我的牙齿</title>
+        <description>&lt;h2 id=&quot;section&quot;&gt;左侧拔智齿&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;时间：2016年12月09日&lt;/li&gt;
+  &lt;li&gt;就诊：北京安贞医院&lt;/li&gt;
+  &lt;li&gt;结果：
+    &lt;ul&gt;
+      &lt;li&gt;做了全口的X线。&lt;/li&gt;
+      &lt;li&gt;建议拔4颗智齿（左边2颗一定要拔），然后3颗堵的牙最好都做冠，以前有些补的不好的牙，最好重补。&lt;/li&gt;
+      &lt;li&gt;当天拔了左上的智齿&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;花费：110元的X线 + 290元左右的拔牙&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 09 Dec 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/12/09/teeth.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/12/09/teeth.html</guid>
+        
+        <category>medi</category>
+        
+        
+      </item>
     
       <item>
         <title>Effective python的59个方法</title>
@@ -1872,32 +1898,6 @@ Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;licen
         <pubDate>Sat, 03 Sep 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/09/03/REST.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2016/09/03/REST.html</guid>
-        
-        <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>换行符</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;windows: \r\n&lt;/li&gt;
-  &lt;li&gt;unix: \n&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sed -e &#39;s/$/\r/&#39; inputfile &amp;gt; outputfile                # UNIX to DOS  (adding CRs)
-sed -e &#39;s/\r$//&#39; inputfile &amp;gt; outputfile                # DOS  to UNIX (removing CRs)
-perl -pe &#39;s/\r\n|\n|\r/\r\n/g&#39; inputfile &amp;gt; outputfile  # Convert to DOS
-perl -pe &#39;s/\r\n|\n|\r/\n/g&#39;   inputfile &amp;gt; outputfile  # Convert to UNIX
-perl -pe &#39;s/\r\n|\n|\r/\r/g&#39;   inputfile &amp;gt; outputfile  # Convert to old Mac
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;参考： &lt;a href=&quot;http://stackoverflow.com/questions/6373888/converting-newline-formatting-from-mac-to-windows&quot;&gt;stackoverflow.com&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 02 Sep 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/09/02/line_break.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/09/02/line_break.html</guid>
         
         <category>cs</category>
         
