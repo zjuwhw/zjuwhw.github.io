@@ -6,9 +6,143 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Dec 2016 15:34:55 +0800</pubDate>
-    <lastBuildDate>Fri, 09 Dec 2016 15:34:55 +0800</lastBuildDate>
+    <pubDate>Sat, 10 Dec 2016 13:50:11 +0800</pubDate>
+    <lastBuildDate>Sat, 10 Dec 2016 13:50:11 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>软件工程简介</title>
+        <description>&lt;p&gt;这篇博客节选自&lt;a href=&quot;http://cs.gmu.edu/~offutt/&quot;&gt;Jeff Offutt&lt;/a&gt;的演讲ppt，&lt;a href=&quot;http://cs.gmu.edu/~offutt/classes/101CS/F2016/CS101-SWE-F2016.pptx&quot;&gt;《What is Software Engineering》&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;software-engineering&quot;&gt;什么是软件工程（Software Engineering）&lt;/h3&gt;
+
+&lt;p&gt;工程是关于使技术做好技术擅长的，因此人类可以做好人类擅长的。
+&lt;img src=&quot;/images/SE_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;computer-science&quot;&gt;软件工程与其他计算机科学（Computer science）&lt;/h3&gt;
+
+&lt;p&gt;抽象程度：物理(Physics) –&amp;gt; 电气工程（Electrical Engineering） –&amp;gt; 计算机工程（Computer Engineering） –&amp;gt; 计算机科学（Computer Science） –&amp;gt; 软件工程（Software Engineering）
+&lt;img src=&quot;/images/SE_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;科学家和工程师&lt;/h3&gt;
+
+&lt;p&gt;科学关注“&lt;strong&gt;发现&lt;/strong&gt;”，工程关注“&lt;strong&gt;发明&lt;/strong&gt;”
+&lt;img src=&quot;/images/SE_3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;科学和工程&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;科学：行为 –&amp;gt; 观察 –&amp;gt; 发现和描述 –&amp;gt; 结构&lt;/li&gt;
+  &lt;li&gt;工程：结构 –&amp;gt; 设计和开发 –&amp;gt; 实现 –&amp;gt; 行为&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/SE_4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;计算机科学和软件工程&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;计算机科学：基础性的理解&lt;/li&gt;
+  &lt;li&gt;软件工程：高质量的实用的解决方案
+&lt;img src=&quot;/images/SE_5.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;重大的软件事故&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;美国国家航空航天局（NASA）的&lt;a href=&quot;https://en.wikipedia.org/wiki/Mars_Polar_Lander&quot;&gt;火星极地着陆者号&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;丰田（Toyota）的&lt;a href=&quot;https://en.wikipedia.org/wiki/2009%E2%80%9311_Toyota_vehicle_recalls&quot;&gt;刹车片&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ariane_5&quot;&gt;阿丽亚娜-5运载火箭&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;软件的测试人员试图找到错误，避免错误找到用户
+&lt;img src=&quot;/images/SE_6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;空客319&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/SE_7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;2003年的加拿大东北停电&lt;/h3&gt;
+
+&lt;p&gt;电力管理系统的报警系统由于软件错误而失效。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/SE_8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;什么是测试，为什么很难？&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/SE_9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-7&quot;&gt;测试学生作业&lt;/h3&gt;
+
+&lt;p&gt;客户在乎，因此工业界在乎
+&lt;img src=&quot;/images/SE_10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-8&quot;&gt;现实世界的软件测试&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;需求 –&amp;gt; 架构 –&amp;gt; 设计 –&amp;gt; 编程 –&amp;gt;&lt;/li&gt;
+  &lt;li&gt;部署 &amp;lt;– 系统测试 &amp;lt;– 集成测试 &amp;lt;– 单元测试
+&lt;img src=&quot;/images/SE_11.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-9&quot;&gt;谷歌的信条&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;解bug，不好&lt;/li&gt;
+  &lt;li&gt;测试，好
+&lt;img src=&quot;/images/SE_12.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-10&quot;&gt;测试过晚的花费&lt;/h3&gt;
+
+&lt;p&gt;早期发现问题可以省很多很多的钱。
+&lt;img src=&quot;/images/SE_13.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-11&quot;&gt;测试研究者的工作&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;测试工具&lt;/li&gt;
+  &lt;li&gt;做实验&lt;/li&gt;
+  &lt;li&gt;告诉工业界&lt;/li&gt;
+  &lt;li&gt;告诉学生
+&lt;img src=&quot;/images/SE_14.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-12&quot;&gt;可用性&lt;/h3&gt;
+
+&lt;p&gt;一个一般使用者，不需要额外帮助，就可以有效使用。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;可学习性：合理的努力即可学会&lt;/li&gt;
+  &lt;li&gt;容错：合理的容错&lt;/li&gt;
+  &lt;li&gt;有效性：不需要过分的努力&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/SE_15.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-13&quot;&gt;不要“使用手册”&lt;/h3&gt;
+
+&lt;p&gt;如果简单的接口即需要“用户手册”，一定是有问题。
+&lt;img src=&quot;/images/SE_16.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-14&quot;&gt;举例：报错信息&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/SE_17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-15&quot;&gt;举例：更差的报错信息&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/SE_18.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-16&quot;&gt;举例：更差的报错信息&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/SE_19.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-17&quot;&gt;举例：更差的报错信息&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/SE_20.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Dec 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/12/10/Software_engineering.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/12/10/Software_engineering.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
     
       <item>
         <title>我的牙齿</title>
@@ -1738,171 +1872,6 @@ Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;licen
         <pubDate>Mon, 05 Sep 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/09/05/http_example.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2016/09/05/http_example.html</guid>
-        
-        <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>RESTful API</title>
-        <description>&lt;h2 id=&quot;rest&quot;&gt;前言：什么是REST？&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;一种架构设计风格，提供了设计原则和约束条件，而不是架构。而满足这些约束条件和原则的应用程序或设计就是 RESTful架构或服务。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;— &lt;a href=&quot;https://segmentfault.com/q/1010000003064904&quot;&gt;segmentfault&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;我理解“就是有了规范/规则/限制/风格”，就能享受到一些”好处“。&lt;/p&gt;
-
-&lt;h2 id=&quot;overview&quot;&gt;Overview（概况）&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;REST: REpresentational State Transfer&lt;/li&gt;
-  &lt;li&gt;Resource-based（基于资源）&lt;/li&gt;
-  &lt;li&gt;Representations（表述）&lt;/li&gt;
-  &lt;li&gt;Six constraints（6点限制）&lt;/li&gt;
-  &lt;li&gt;Uniform Interface（统一接口）&lt;/li&gt;
-  &lt;li&gt;Stateless（无状态性）&lt;/li&gt;
-  &lt;li&gt;Cacheable（可缓存）&lt;/li&gt;
-  &lt;li&gt;Client-Server（客户端-服务端结构）&lt;/li&gt;
-  &lt;li&gt;Layered System（分层系统）&lt;/li&gt;
-  &lt;li&gt;Code on Demand (optional)（按需编码）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;resource-based&quot;&gt;Resource Based(基于资源)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Things vs. actions&lt;/li&gt;
-  &lt;li&gt;Nouns vs. verbs&lt;/li&gt;
-  &lt;li&gt;Versus SOAP-RPC（注：SOAP和RPC是另外两种主流的Web服务实现方案）&lt;/li&gt;
-  &lt;li&gt;Identified by URIs
-    &lt;ul&gt;
-      &lt;li&gt;Multiple URIs may refer to same resource&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Separate from their representation(s)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;representations&quot;&gt;Representations(表述)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;How resources get manipulated（对资源的描述、如何操作资源的）&lt;/li&gt;
-  &lt;li&gt;Part of the resource state
-    &lt;ul&gt;
-      &lt;li&gt;Transferred between client and server&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Typically JSON or XML&lt;/li&gt;
-  &lt;li&gt;Example:
-    &lt;ul&gt;
-      &lt;li&gt;Resource: person(Todd)&lt;/li&gt;
-      &lt;li&gt;Service: contact information (GET)&lt;/li&gt;
-      &lt;li&gt;Representation:
-        &lt;ul&gt;
-          &lt;li&gt;name, address, phone number …&lt;/li&gt;
-          &lt;li&gt;JSON or XML format&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;uniform-interface&quot;&gt;Uniform Interface（统一接口）&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Defines the interface between client and server&lt;/li&gt;
-  &lt;li&gt;Simplifies and decouples the architecture&lt;/li&gt;
-  &lt;li&gt;Fundamental to RESTful design&lt;/li&gt;
-  &lt;li&gt;For us this means:
-    &lt;ul&gt;
-      &lt;li&gt;HTTP verbs(GET, PUT, POST, DELETE)&lt;/li&gt;
-      &lt;li&gt;URIs(resource name)&lt;/li&gt;
-      &lt;li&gt;HTTP response(status, body)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;stateless&quot;&gt;Stateless（无状态性）&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Server contains no client state（服务端不包含任何客户端的状态）&lt;/li&gt;
-  &lt;li&gt;Each request contains enough context to process the message（每一个请求都含有足够的内容来进行处理）
-    &lt;ul&gt;
-      &lt;li&gt;Self-descriptive messages（自明信息）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Any session state is held on the client（任何的状态都由客户端来保存）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;client-server-&quot;&gt;Client-Server（客户端-服务端结构）&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Assume a disconnected system（假设两端不相连）&lt;/li&gt;
-  &lt;li&gt;Separation of concerns（关注点分离）&lt;/li&gt;
-  &lt;li&gt;Uniform interface is the link between the two（由统一接口将两者链接）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;cacheable&quot;&gt;Cacheable（可缓存）&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Server responses（representations）are cacheable（服务端的响应或者表述是可缓存的）
-    &lt;ul&gt;
-      &lt;li&gt;不准确地&lt;/li&gt;
-      &lt;li&gt;准确地&lt;/li&gt;
-      &lt;li&gt;可谈判地&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;layered-system&quot;&gt;Layered System（分层系统）&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Client can’t assume direct connection to server&lt;/li&gt;
-  &lt;li&gt;Software or hardware intermediaries between client and server&lt;/li&gt;
-  &lt;li&gt;Improves scalability&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;code-on-demand&quot;&gt;Code on Demand（按需编码）&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Server can temporarily extend client（服务端可以临时扩展客户端）&lt;/li&gt;
-  &lt;li&gt;Transfer logic to client（将逻辑传给客户端）&lt;/li&gt;
-  &lt;li&gt;Client executes logic（客户端来执行逻辑）&lt;/li&gt;
-  &lt;li&gt;For example: Java applets; JavaScript&lt;/li&gt;
-  &lt;li&gt;The only optional constraiant（唯一可选的）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Violating any constraint other than Code On Demand means service is not strictly RESTful（违反任何除“按需编码”之外的限制，都意味着服务不是严格地RESTful。注：目前REST-like也很流行）
-    &lt;ul&gt;
-      &lt;li&gt;Example: Three-legged OAUTH2&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Compliance with REST constraints allows（好处）:
-    &lt;ul&gt;
-      &lt;li&gt;Scalability&lt;/li&gt;
-      &lt;li&gt;Simplicity&lt;/li&gt;
-      &lt;li&gt;Modifiability&lt;/li&gt;
-      &lt;li&gt;Visibility&lt;/li&gt;
-      &lt;li&gt;Portability&lt;/li&gt;
-      &lt;li&gt;Reliability&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;参考资料：&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.restapitutorial.com/lessons/whatisrest.html&quot;&gt;《What is REST》视频&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 03 Sep 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/09/03/REST.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/09/03/REST.html</guid>
         
         <category>cs</category>
         
