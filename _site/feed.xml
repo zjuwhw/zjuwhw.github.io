@@ -6,9 +6,122 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Dec 2016 13:50:11 +0800</pubDate>
-    <lastBuildDate>Sat, 10 Dec 2016 13:50:11 +0800</lastBuildDate>
+    <pubDate>Sun, 11 Dec 2016 11:28:58 +0800</pubDate>
+    <lastBuildDate>Sun, 11 Dec 2016 11:28:58 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>软件测试简介</title>
+        <description>&lt;p&gt;注：内容引用和翻译自Paul Ammann和Jeff Offutt的书&lt;a href=&quot;https://book.douban.com/subject/3442101/&quot;&gt;《Introduction to Software Testing》&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;测试工程师的工作&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A test engineer is an information technology (IT) professional who is in charge of one or more technical test activities, including designing test inputs, producing test case values, running test scripts, analyzing results, and reporting results to developers and managers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;测试工程师：负责一个或者多个测试工作的IT专业人员。&lt;/li&gt;
+  &lt;li&gt;测试工程师的工作：设计测试输入（test inputs），给出测试用例结果（test case values），运行测试脚本，分析测试结果，并向开发和经理进行汇报。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A test manager is in charge of one or more test engineers. Test managers set test policies and processes, interact with other managers on the project, and otherwise help the engineers do their work.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;测试经理：负责一个或者多个测试工程师。&lt;/li&gt;
+  &lt;li&gt;测试经理的工作：设定测试规则和流程，与项目的其他经理交流，帮助测试工程师工作的进行。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;测试分类 - 基于软件&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/software_testing_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;acceptance-test---requirements-analysis&quot;&gt;验收测试（Acceptance Test） - 需求分析（requirements analysis）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The requirements analysis phase of software development captures the customer’s needs. Acceptance testing is designed to determine whether the completed software in fact meets these needs. In other words, acceptance testing probes whether the software does what the users want. Acceptance testing must involve users or other individuals who have strong domain knowledge.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;软件开发的&lt;strong&gt;需求分析阶段&lt;/strong&gt;需要掌握用户的需求。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;验收测试&lt;/strong&gt;就是用来检验完成的软件是否真正地满足了用户的这些需求。即验收测试用来探究软件所做的是否是用户想要的。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;验收测试&lt;/strong&gt;必须有&lt;strong&gt;用户或者有很强相关领域背景知识的人&lt;/strong&gt;参与。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;system-test---architectural-design&quot;&gt;系统测试（System Test） - 架构设计（Architectural Design）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The architectural design phase of software development chooses components and connectors that together realize a system whose specification is intended to meet the previously identified requirements. System testing is designed to determine whether the assembled system meets its specifications. It assumes that the pieces work individually, and asks if the system works as a whole. This level of testing usually looks for design and specification problems. It is a very expensive place to find lower-level faults and is usually not done by the programmers, but by a separate testing team.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;软件开发的&lt;strong&gt;架构设计阶段&lt;/strong&gt;需要选择用于实现满足客户需求的系统的组件和连接器（components and connectors）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;系统测试&lt;/strong&gt;用来检验搭建的系统是否满足要求。我们会假设系统的每一块都都可以独立工作，然后去确定整个系统作为一个整体是否正常工作。&lt;/li&gt;
+  &lt;li&gt;这个阶段的测试经常可以发现设计和要求上的问题。在这个阶段发现底层错误（lower-level faults）是非常昂贵的。&lt;strong&gt;系统测试&lt;/strong&gt;经常不由开发人员进行，而是一个&lt;strong&gt;独立的测试团队&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;integration-test---subsystem-design&quot;&gt;集成测试（Integration Test） - 子系统设计（Subsystem Design）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The subsystem design phase of software development specifies the structure and behavior of subsystems, each of which is intended to satisfy some function in the overall architecture. Often, the subsystems are adaptations of previously developed software. Integration testing is designed to assess whether the interfaces between modules (defined below) in a given subsystem have consistent assumptions and communicate correctly. Integration testing must assume that modules work correctly. Some testing literature uses the terms integration testing and system testing interchangeably; in this book, integration testing does not refer to testing the integrated system or subsystem. Integration testing is usually the responsibility of members of the development team.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;软件开发的&lt;strong&gt;子系统设计&lt;/strong&gt;阶段需要确定子系统的结构和行为，每个子系统都是用来满足整体架构的某些功能。子系统经常是基于已开发软件的应用。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;集成测试&lt;/strong&gt;用来检测在子系统中各个模块是否有一致的前提条件并且交互正确。集成测试必须假设各个模块都工作正确。一些测试书籍中集成测试和系统测试表达意思类似，但是本书中，集成测试不是指测试集成系统或者子系统。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;集成测试&lt;/strong&gt;经常是&lt;strong&gt;开发团队&lt;/strong&gt;的责任。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;module-test--detailed-design&quot;&gt;模块测试（Module Test）- 细节设计（Detailed Design）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The detailed design phase of software development determines the structure and behavior of individual modules. A program unit, or procedure, is one or more contiguous program statements, with a name that other parts of the software use to call it. Units are called functions in C and C++, procedures or functions in Ada, methods in Java, and subroutines in Fortran. A module is a collection of related units that are assembled in a file, package, or class. This corresponds to a file in C, a package in Ada, and a class in C++ and Java. Module testing is designed to assess individual modules in isolation, including how the component units interact with each other and their associated data structures. Most software development organizations make module testing the responsibility of the programmer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;软件开发的&lt;strong&gt;细节设计&lt;/strong&gt;阶段需要确定每个模块的结构和行为。&lt;/li&gt;
+  &lt;li&gt;一个项目单元或者程序有一个或者多个相邻的语句（statements），然后还有一个名字（name）以让软件的其他部门可以调用（call）。&lt;strong&gt;单元（Units）&lt;/strong&gt;在C和C++中叫做函数（function），在Ada中叫做procedures or functions，在Java中叫做方法（methods），在Fortran中叫做subroutines。而一个&lt;strong&gt;模块（Module）&lt;/strong&gt;是整个在一个文件（file）、包（package）或者类（class）中的相关单元的集合。其对应C语言中的一个文件，Ada中的一个包，C++和Java中的一个类。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;模块测试&lt;/strong&gt;用来在隔离状态下检测每个模块，包括每个组成模块之间的交互和他们相关的数据结构（data structures）。&lt;/li&gt;
+  &lt;li&gt;在大多数的软件开发组织，&lt;strong&gt;模块测试&lt;/strong&gt;是&lt;strong&gt;开发者&lt;/strong&gt;的责任。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;unit-test---implementation&quot;&gt;单元测试（Unit Test） - 实现（Implementation）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Implementation is the phase of software development that actually produces code. Unit testing is designed to assess the units produced by the implementation phase and is the “lowest” level of testing. In some cases, such as when building general-purpose library modules, unit testing is done without knowledge of the encapsulating software application. As with module testing, most software development organizations make unit testing the responsibility of the programmer. It is straightforward to package unit tests together with the corresponding code through the use of tools such as JUnit for Java classes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;软件开发的&lt;strong&gt;实现阶段&lt;/strong&gt;就是要实实在在的写代码。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;单元测试&lt;/strong&gt;用来检测每个单元，是最底层的测试。在某些情况，创建一般用途的模块，单元测试可以在不了解软件整体应用的前提下执行。&lt;/li&gt;
+  &lt;li&gt;和模块测试一样，在大多数的软件开发组织中，&lt;strong&gt;单元测试&lt;/strong&gt;是&lt;strong&gt;开发者&lt;/strong&gt;的责任。通过工具（例如用于Java类的JUnit）将单元测试与相关代码直接打包。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;regression-testing&quot;&gt;回归测试（regression testing）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Not shown in Figure 1.2 is regression testing, a standard part of the maintenance phase of software development. Regression testing is testing that is done after changes are made to the software, and its purpose is to help ensure that the updated software still possesses the functionality it had before the updates&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;图中没有包含回归测试，他是软件开发的&lt;strong&gt;维护阶段&lt;/strong&gt;的标准部分。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;回归测试&lt;/strong&gt;需要在软件发生任何变动后进行，目的是用来帮助保证更新的软件在依然可以执行它更新前的功能。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;beizer&quot;&gt;测试分类 - 基于测试成熟度（Beizer的）&lt;/h2&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;测试自动化&lt;/h2&gt;
+</description>
+        <pubDate>Sun, 11 Dec 2016 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2016/12/11/Software_testing.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2016/12/11/Software_testing.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
     
       <item>
         <title>软件工程简介</title>
@@ -1736,144 +1849,6 @@ A personal history of skin cancer. If you’ve had squamous cell carcinoma of th
         <guid isPermaLink="true">zjuwhw.github.io/2016/09/11/music_knowledge.html</guid>
         
         <category>music</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>HTTP请求和返回示例</title>
-        <description>&lt;p&gt;以GeneDock官网（&lt;a href=&quot;https://genedock.com&quot;&gt;https://genedock.com&lt;/a&gt;）为例，用各种软件（curl，HTTPie，Postman REST Client，python的request）进行请求和返回。&lt;/p&gt;
-
-&lt;h2 id=&quot;curl&quot;&gt;Curl&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$curl -v https://genedock.com
-
-
-* Rebuilt URL to: https://genedock.com/
-*   Trying 182.92.0.168...
-* Connected to genedock.com (182.92.0.168) port 443 (#0)
-* TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
-* Server certificate: *.genedock.com
-* Server certificate: RapidSSL SHA256 CA - G3
-* Server certificate: GeoTrust Global CA
-&amp;gt; GET / HTTP/1.1
-&amp;gt; Host: genedock.com
-&amp;gt; User-Agent: curl/7.43.0
-&amp;gt; Accept: */*
-&amp;gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt; HTTP&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;OK&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Server:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;nginx&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;0&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Date:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Mon&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;05&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Sep&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;2016&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;05:58:07&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;GMT&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Content-Type:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;utf-8&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Content-Length:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;8856&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Connection:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;keep-alive&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Set-Cookie:&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;session=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;eyJfaWQiOnsiIGIiOiJaREZsWm1ObU16UTFabVJtWlRSa016ZGlabU5rWldWaU5qWmpPVFJoTTJJPSJ9fQ.Cq6a7w.LUjBEmjf-e6B_4aGSpSHElVIVzg;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;HttpOnly&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Path=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;&amp;lt;&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;zh-CN&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;&lt;/span&gt;GeneDock&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;IE=edge&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=1200&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;GeneDock,www.genedock.com,genedock.com,genedock,北京聚道,聚道科技,基因数据云服务,北京聚道科技有限公司,GeneDock,北京GeneDock&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Keywords&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;GeneDock,www.genedock.com,genedock.com,genedock,北京聚道,聚道科技,基因数据云服务,北京聚道科技有限公司,GeneDock,北京GeneDoc
-......
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-v&lt;/code&gt;参数显示整个http通信过程。更多可以参考&lt;a href=&quot;http://www.ruanyifeng.com/blog/2011/09/curl.html&quot;&gt;阮一峰博客《curl网站开发指南》&lt;/a&gt;。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;请求部分：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; GET / HTTP/1.1
-&amp;gt; Host: genedock.com
-&amp;gt; User-Agent: curl/7.43.0
-&amp;gt; Accept: */*
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;GET&lt;/code&gt;是http动词，&lt;code class=&quot;highlighter-rouge&quot;&gt;HTTP/1.1&lt;/code&gt;是HTTP的版本，&lt;code class=&quot;highlighter-rouge&quot;&gt;Host&lt;/code&gt;是服务端的主机，&lt;code class=&quot;highlighter-rouge&quot;&gt;User-Agent&lt;/code&gt;是发送请求的应用名称，&lt;code class=&quot;highlighter-rouge&quot;&gt;Accept&lt;/code&gt;是可以接受何种类型的返回。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;返回部分：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt; HTTP/1.1 200 OK
-&amp;lt; Server: nginx/1.6.0
-&amp;lt; Date: Mon, 05 Sep 2016 05:58:07 GMT
-&amp;lt; Content-Type: text/html; charset=utf-8
-&amp;lt; Content-Length: 8856
-&amp;lt; Connection: keep-alive
-&amp;lt; Set-Cookie: session=eyJfaWQiOnsiIGIiOiJaREZsWm1ObU16UTFabVJtWlRSa016ZGlabU5rWldWaU5qWmpPVFJoTTJJPSJ9fQ.Cq6a7w.LUjBEmjf-e6B_4aGSpSHElVIVzg; HttpOnly; Path=/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;200&lt;/code&gt;是status code（状态码），&lt;code class=&quot;highlighter-rouge&quot;&gt;Server&lt;/code&gt;是客户端应用软件的名字和版本号，&lt;code class=&quot;highlighter-rouge&quot;&gt;Date&lt;/code&gt;是消息产生的时间或者时间戳，&lt;code class=&quot;highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt;是返回body的对象类型，&lt;code class=&quot;highlighter-rouge&quot;&gt;Content-Length&lt;/code&gt;是返回body的长度或者大小，&lt;code class=&quot;highlighter-rouge&quot;&gt;Connection&lt;/code&gt;是允许客户端和服务端指定请求-返回链接的选项，&lt;code class=&quot;highlighter-rouge&quot;&gt;Set-Cookie&lt;/code&gt;是用来设置客户端的一个token，让服务端来识别身份。&lt;/p&gt;
-
-&lt;p&gt;返回的body部分是一个html文件。&lt;/p&gt;
-
-&lt;h2 id=&quot;httpie&quot;&gt;HTTPie&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$http --print=HhBb https://genedock.com
-
-
-GET / HTTP/1.1
-Accept: */*
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Host: genedock.com
-User-Agent: HTTPie/0.9.3
-
-
-
-HTTP/1.1 200 OK
-Connection: keep-alive
-Content-Encoding: gzip
-Content-Type: text/html; charset=utf-8
-Date: Mon, 05 Sep 2016 06:34:50 GMT
-Server: nginx/1.6.0
-Set-Cookie: session=eyJfaWQiOnsiIGIiOiJZbUk1T0dReVpqbGhaakU0WkdObU1UazJaV05rTW1Fd05qVmtOakUzWW1ZPSJ9fQ.Cq6jig.rBqTiAoOL8QJj68W06WNs8lxlSY; HttpOnly; Path=/
-Transfer-Encoding: chunked
-
-&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;zh-CN&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;&lt;/span&gt;GeneDock&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-....
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;更多httpie的参数可见&lt;a href=&quot;https://github.com/jkbrzt/httpie&quot;&gt;https://github.com/jkbrzt/httpie&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;postman-rest-client&quot;&gt;Postman REST Client&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/Postman-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/Postman-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/Postman-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;pythonrequest&quot;&gt;Python的Request包&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ python
-Python 2.7.10 (default, Oct 23 2015, 19:19:21)
-[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
-Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-
-&amp;gt;&amp;gt;&amp;gt; import requests
-&amp;gt;&amp;gt;&amp;gt; r = requests.get(&quot;https://genedock.com&quot;)
-&amp;gt;&amp;gt;&amp;gt; print r.request.headers
-{&#39;Connection&#39;: &#39;keep-alive&#39;, &#39;Accept-Encoding&#39;: &#39;gzip, deflate&#39;, &#39;Accept&#39;: &#39;*/*&#39;, &#39;User-Agent&#39;: &#39;python-requests/2.11.1&#39;}
-
-&amp;gt;&amp;gt;&amp;gt; print r.headers
-{&#39;Content-Encoding&#39;: &#39;gzip&#39;, &#39;Transfer-Encoding&#39;: &#39;chunked&#39;, &#39;Set-Cookie&#39;: &#39;session=eyJfaWQiOnsiIGIiOiJaakkzTnpZd09UQmtNRFEyWkdNM016a3paR0ZoWVRFNVpUWXhPVFJqWXprPSJ9fQ.Cq6lCQ.KzSeM-tEKnZxK8bvVi77qZSJnPQ; HttpOnly; Path=/&#39;, &#39;Server&#39;: &#39;nginx/1.6.0&#39;, &#39;Connection&#39;: &#39;keep-alive&#39;, &#39;Date&#39;: &#39;Mon, 05 Sep 2016 06:41:13 GMT&#39;, &#39;Content-Type&#39;: &#39;text/html; charset=utf-8&#39;}
-
-&amp;gt;&amp;gt;&amp;gt; print r.status_code
-200
-
-&amp;gt;&amp;gt;&amp;gt; print r.content
-&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;zh-CN&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;&lt;/span&gt;GeneDock&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 05 Sep 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/09/05/http_example.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/09/05/http_example.html</guid>
-        
-        <category>cs</category>
         
         
       </item>
