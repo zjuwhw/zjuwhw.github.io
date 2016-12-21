@@ -315,6 +315,7 @@ permalink: /links/
 - [Bachelors Curriculum of CMU CS](https://www.csd.cs.cmu.edu/content/bachelors-curriculum-admitted-2014)
 - ["Parallel Computer Architecture and Programming"](http://15418.courses.cs.cmu.edu/spring2016/home)
 - ["Computer Networks"](http://www.cs.cmu.edu/~prs/15-441-F14/index.html)
+- ["CS155 Computer and Network Security"](https://crypto.stanford.edu/cs155/syllabus.html)
 
 ### Books
 
