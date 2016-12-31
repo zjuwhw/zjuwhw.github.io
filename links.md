@@ -221,7 +221,7 @@ permalink: /links/
 - [Workshop of Bioinformatic.ca](http://bioinformatics.ca/workshops)
 - [edx](https://www.edx.org/)
 - [coursera](https://www.coursera.org/)
-	- [Data Structures and Algorithms Specializations by UCSD]()
+	- [Data Structures and Algorithms Specializations by UCSD](https://www.coursera.org/specializations/data-structures-algorithms)
 		- Algorithmic Toolbox
 		- Data Structures
 		- Algorithms on Graphs
