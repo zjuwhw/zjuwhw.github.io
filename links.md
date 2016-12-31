@@ -221,6 +221,22 @@ permalink: /links/
 - [Workshop of Bioinformatic.ca](http://bioinformatics.ca/workshops)
 - [edx](https://www.edx.org/)
 - [coursera](https://www.coursera.org/)
+	- [Data Structures and Algorithms Specializations by UCSD]()
+		- Algorithmic Toolbox
+		- Data Structures
+		- Algorithms on Graphs
+		- Algorithms on Strings
+		- Advanced Algorithms and Complexity
+		- Genome Assembly Programming Chanllenge
+	- [Bioinformatics Specializations by UCSD](https://www.coursera.org/specializations/bioinformatics)
+		- Finding Hidden Messages in DNA
+		- Genome Sequencing
+		- Comparing Genes, Proteins, and Genomes
+		- Deciphering Molecular Evolution
+		- Genomic Data Science and Clustering
+		- Finding Mutations in DNA and Proteins
+		- Bioinformatics Capstone: Big Data in Biology
+	- Bioinformatics Methods [I](https://www.coursera.org/learn/bioinformatics-methods-1) and [II](https://www.coursera.org/learn/bioinformatics-methods-2)
 - [Genetic Epidemiology](http://www.montefiore.ulg.ac.be/~kvansteen/TeachingGEUA20142015final.html)
 - [An Online Bioinformatics Curriculum by Plos Computational Biology](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002632)
 - [A New Online Computational Biology Curriculum](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003662)
