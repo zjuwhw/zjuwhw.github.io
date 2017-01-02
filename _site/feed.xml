@@ -6,8 +6,8 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 31 Dec 2016 16:58:03 +0800</pubDate>
-    <lastBuildDate>Sat, 31 Dec 2016 16:58:03 +0800</lastBuildDate>
+    <pubDate>Mon, 02 Jan 2017 17:51:45 +0800</pubDate>
+    <lastBuildDate>Mon, 02 Jan 2017 17:51:45 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -311,7 +311,17 @@
 &lt;img src=&quot;/images/SE_5.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-3&quot;&gt;重大的软件事故&lt;/h3&gt;
+&lt;h3 id=&quot;section-3&quot;&gt;软件工程与计算机科学的区别&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;开发高质量的软件：&lt;/li&gt;
+  &lt;li&gt;明确需求、建模、设计、开发、评估、部署、维护 …&lt;/li&gt;
+  &lt;li&gt;可用性、易用性、可维护性、可靠性、可伸缩性、安全性 …&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/SE_5.1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;重大的软件事故&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;美国国家航空航天局（NASA）的&lt;a href=&quot;https://en.wikipedia.org/wiki/Mars_Polar_Lander&quot;&gt;火星极地着陆者号&lt;/a&gt;&lt;/li&gt;
@@ -322,24 +332,24 @@
 &lt;p&gt;软件的测试人员试图找到错误，避免错误找到用户
 &lt;img src=&quot;/images/SE_6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-4&quot;&gt;空客319&lt;/h3&gt;
+&lt;h3 id=&quot;section-5&quot;&gt;空客319&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/images/SE_7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-5&quot;&gt;2003年的加拿大东北停电&lt;/h3&gt;
+&lt;h3 id=&quot;section-6&quot;&gt;2003年的加拿大东北停电&lt;/h3&gt;
 
 &lt;p&gt;电力管理系统的报警系统由于软件错误而失效。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/SE_8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-6&quot;&gt;什么是测试，为什么很难？&lt;/h3&gt;
+&lt;h3 id=&quot;section-7&quot;&gt;什么是测试，为什么很难？&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/images/SE_9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-7&quot;&gt;测试学生作业&lt;/h3&gt;
+&lt;h3 id=&quot;section-8&quot;&gt;测试学生作业&lt;/h3&gt;
 
 &lt;p&gt;客户在乎，因此工业界在乎
 &lt;img src=&quot;/images/SE_10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-8&quot;&gt;现实世界的软件测试&lt;/h3&gt;
+&lt;h3 id=&quot;section-9&quot;&gt;现实世界的软件测试&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;需求 –&amp;gt; 架构 –&amp;gt; 设计 –&amp;gt; 编程 –&amp;gt;&lt;/li&gt;
@@ -347,7 +357,7 @@
 &lt;img src=&quot;/images/SE_11.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-9&quot;&gt;谷歌的信条&lt;/h3&gt;
+&lt;h3 id=&quot;section-10&quot;&gt;谷歌的信条&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;解bug，不好&lt;/li&gt;
@@ -355,12 +365,12 @@
 &lt;img src=&quot;/images/SE_12.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-10&quot;&gt;测试过晚的花费&lt;/h3&gt;
+&lt;h3 id=&quot;section-11&quot;&gt;测试过晚的花费&lt;/h3&gt;
 
 &lt;p&gt;早期发现问题可以省很多很多的钱。
 &lt;img src=&quot;/images/SE_13.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-11&quot;&gt;测试研究者的工作&lt;/h3&gt;
+&lt;h3 id=&quot;section-12&quot;&gt;测试研究者的工作&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;测试工具&lt;/li&gt;
@@ -370,7 +380,7 @@
 &lt;img src=&quot;/images/SE_14.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-12&quot;&gt;可用性&lt;/h3&gt;
+&lt;h3 id=&quot;section-13&quot;&gt;可用性&lt;/h3&gt;
 
 &lt;p&gt;一个一般使用者，不需要额外帮助，就可以有效使用。&lt;/p&gt;
 
@@ -382,22 +392,22 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/SE_15.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-13&quot;&gt;不要“使用手册”&lt;/h3&gt;
+&lt;h3 id=&quot;section-14&quot;&gt;不要“使用手册”&lt;/h3&gt;
 
 &lt;p&gt;如果简单的接口即需要“用户手册”，一定是有问题。
 &lt;img src=&quot;/images/SE_16.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-14&quot;&gt;举例：报错信息&lt;/h3&gt;
+&lt;h3 id=&quot;section-15&quot;&gt;举例：报错信息&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/SE_17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-15&quot;&gt;举例：更差的报错信息&lt;/h3&gt;
+&lt;h3 id=&quot;section-16&quot;&gt;举例：更差的报错信息&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/images/SE_18.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-16&quot;&gt;举例：更差的报错信息&lt;/h3&gt;
+&lt;h3 id=&quot;section-17&quot;&gt;举例：更差的报错信息&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/images/SE_19.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-17&quot;&gt;举例：更差的报错信息&lt;/h3&gt;
+&lt;h3 id=&quot;section-18&quot;&gt;举例：更差的报错信息&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/images/SE_20.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Dec 2016 00:00:00 +0800</pubDate>
