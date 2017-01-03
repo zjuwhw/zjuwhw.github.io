@@ -45,12 +45,34 @@ tags: ["career"]
 - payslips or a contract（工资单或合同）
 - CV（简历）
 
-#### Research Students（科研型学生）
+#### Research Students（研究型学生）
 
 - a copy of your research (thesis/project) topic
 - CV
 
 ### 其他
+
+#### 无犯罪记录证明
+
+#### 户口本公证
+
+#### 语言证明
+
+#### 财力证明
+
+#### Letter of Offer
+
+#### Form 80
+
+- [Personal particulars for assessment including character assessment](https://www.border.gov.au/Forms/Documents/80.pdf)
+
+#### Form 1221
+
+- [Additional personal particulars information](https://www.border.gov.au/FormsAndDocuments/Documents/1221.pdf)
+
+#### 电子照片
+
+#### Cover Letter
 
 ## 网址
 
