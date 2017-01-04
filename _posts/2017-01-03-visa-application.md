@@ -86,6 +86,9 @@ tags: ["career"]
 6. [Arranging a health examination](http://www.border.gov.au/Trav/Visa/Heal/meeting-the-health-requirement/arranging-a-health-examination)
 7. [How to apply for family members to join you](http://www.border.gov.au/Trav/Stud/Brin)
 8. [Genuine temporary entrant](https://www.border.gov.au/Trav/Stud/More/Genuine-Temporary-Entrant)
+9. [Attach documents to an online application](https://www.border.gov.au/Trav/Visa/Atta)
+10. [Information to help prepare your application](https://www.border.gov.au/Trav/Visa/Info)
+11. [Character and police certificate requirements](http://www.border.gov.au/Trav/Visa/Char)
 
 ### UQ
 
