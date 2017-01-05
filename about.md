@@ -28,6 +28,9 @@ Blogs:
 - [google site](https://sites.google.com/site/zjuwhwsblog/home)
 - [163 blog](http://blog.163.com/zju_whw/)
 
-This is my [2015 CV](/documents/CV_whw-2015.pdf)
+CV:
+
+- [2015 CV](/documents/CV_whw-2015.pdf)
+- [201701 CV](/documents/CV_whw-201701.pdf) 
 
 ![Alt text](/images/me.jpg)
