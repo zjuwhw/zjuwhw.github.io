@@ -74,6 +74,32 @@ tags: ["career"]
 
 #### Cover Letter
 
+## Bring your family
+
+### Identity documents
+
+- a certified copy of birth certificate
+- passport
+- national ID card
+
+### proof of their relationship
+
+- mariiage certificate
+
+### a copy of your main passport page
+
+### proof of financial capacity
+
+- evidence of funds to cover travel costs and 12 months' tuition and living costs for both them and you
+
+### health insurance
+
+### the genuine temporaray entrant requirement
+
+### health requirement
+
+### character requirement
+
 ## 网址
 
 ### 移民局网站
