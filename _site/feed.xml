@@ -6,9 +6,204 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Jan 2017 14:49:30 +0800</pubDate>
-    <lastBuildDate>Thu, 05 Jan 2017 14:49:30 +0800</lastBuildDate>
+    <pubDate>Thu, 12 Jan 2017 15:12:06 +0800</pubDate>
+    <lastBuildDate>Thu, 12 Jan 2017 15:12:06 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>软件工程的几个“-ilities”</title>
+        <description>&lt;p&gt;注：本文翻译自&lt;a href=&quot;http://codesqueeze.com/the-7-software-ilities-you-need-to-know/&quot;&gt;《The 7 Software “-ilities” You Need To Know》&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;引子&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In the world of software architecture there are many “-ilities” you must take into consideration with every project. Prioritizing them is necessary because the client will optimistically ask that you do all of them. To help you out, here is a quick list outlining my top 7 default “-ilities” in the order that I prioritize them:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在软件架构的领域，每个项目你都有很多“-ilities”需要考虑。由于你的客户希望你全都做到，所以你需要排好他们的优先级（prioritizing）。这是一个快速的清单，我认为的前7个“-ilities”，帮你排优先级。&lt;/p&gt;
+
+&lt;h3 id=&quot;usability&quot;&gt;Usability（易用性）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Software usability can be described as how effectively end users can use, learn, or control the system. Some questions to ask yourself to determine usability might be:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Is there a UI metaphor that I am using to help users adapt? (for example, the ‘desktop’ is a metaphor)&lt;/li&gt;
+    &lt;li&gt;Are the most common operations streamlined to be performed quickly?&lt;/li&gt;
+    &lt;li&gt;Can new users quickly adapt to the software without help? (is it intuitive?)&lt;/li&gt;
+    &lt;li&gt;Do validation and error messages make sense?&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;软件的易用性&lt;/strong&gt;可以被描述为“终端用户可以如何邮箱的使用、学习、控制该系统”。你需要问自己一些问题来确认可用性：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;是否有一个“UI隐喻”可以使用，去帮助客户适应环境？（例如，“桌面”就是一个“隐喻”）（翻译者注：我理解metaphor就是一个类比的概念吧）&lt;/li&gt;
+  &lt;li&gt;是否所有常用的操作都可以快速、行云流水一般的进行？&lt;/li&gt;
+  &lt;li&gt;是否新用户可以无需帮助快速适应软件？（满足直觉吗？）&lt;/li&gt;
+  &lt;li&gt;验证和报错是否合理呢？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;maintainability-flexibilitytestibility&quot;&gt;Maintainability (可维护性），Flexibility（灵活性），Testibility（可测试性）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The definition of maintainability [for me] implies how brittle the code is to change. As a result, I tie the terms flexibility and testability into the overall maintainability of a project.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Does the entire team understand the code base or does knowledge islands exist?&lt;/li&gt;
+    &lt;li&gt;Is the code throughly regression tested?&lt;/li&gt;
+    &lt;li&gt;Can modifications to the project be done in a timely manner?&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;软件的可维护性&lt;/strong&gt;体现“代码是多脆弱去改变”。因此，我也加入了另外两个此会“灵活性”和“可测试性”。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;整个团队都理解代码基础吗？或者是否存在知识孤岛？&lt;/li&gt;
+  &lt;li&gt;所有代码彻底做回归测试吗？&lt;/li&gt;
+  &lt;li&gt;对于项目的修改可以在合理的时间内完成吗？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;scalability-&quot;&gt;Scalability 可扩展性&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Scalability is the ability for your program to gracefully meet the demand of stress caused by increased usage. In short, ensuring your program doesn’t slow or bust when pounded by more users than you originally anticipated.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;What is your current peak load that you can handle?&lt;/li&gt;
+    &lt;li&gt;How many database records can create until critical operations slow down?&lt;/li&gt;
+    &lt;li&gt;Is the primary scaling strategy to “scale up” or to “scale out” — that is, to upgrade the nodes in a fixed topology, or to add nodes?&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;软件的可扩展性&lt;/strong&gt;指你的程序可以很优雅地应对来自使用量增加带来的压力增加。简短说，当用户量超过你之前预期的时候，你要保证你的程序不会变慢或者崩溃。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;你目前可以掌控的峰值是多少？&lt;/li&gt;
+  &lt;li&gt;创建的数据记录达到多少会使得关键的操作变慢？&lt;/li&gt;
+  &lt;li&gt;主要的扩展策略是增加节点或者升级节点吗？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;availability-or-reliability-&quot;&gt;Availability (or Reliability) 可用性或者可靠性&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How long the system is up and running and the Mean Time Between Failure (MTBF) is known as the availability of a program.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;How long does the system need to run without failure?&lt;/li&gt;
+    &lt;li&gt;What is the acceptable length of time for the system to be down?&lt;/li&gt;
+    &lt;li&gt;Can down times be scheduled?&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;你的系统可以抑制跑多长？失败间隔时间被用来衡量一个程序的可用性。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;你的系统可以跑不失败的跑多长？&lt;/li&gt;
+  &lt;li&gt;你的系统可以接受多长时间的宕机？&lt;/li&gt;
+  &lt;li&gt;宕机时间是否可以预定？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;extensibility-&quot;&gt;Extensibility 可升级性&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Are there points in the system where changes can be made with (or without) program changes?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Can the database schema flex to accommodate change?&lt;/li&gt;
+    &lt;li&gt;Does the system allow Inversion of Control (IoC)?&lt;/li&gt;
+    &lt;li&gt;Can end users extend the system (scripts, user defined fields, etc)?&lt;/li&gt;
+    &lt;li&gt;Can 3rd party developers leverage your system?&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;当程序改变之后，系统中哪些会改变，哪些不会改变？&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;数据库模式是否有弹性容纳改变？&lt;/li&gt;
+  &lt;li&gt;系统是否允许控制反转（Inversion of Control）？&lt;/li&gt;
+  &lt;li&gt;终端用户可以扩展系统吗？（脚本，用户自定义领域，等）&lt;/li&gt;
+  &lt;li&gt;第三方开发人员可以利用你的系统吗？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;security-&quot;&gt;Security 安全性&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I shouldn’t need to go into this one but to be thorough I like this definition of security: the measure of system’s ability to resist unauthorized attempts at usage or behavior modification, while still providing service to legitimate users.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Does the system need user or role based security?&lt;/li&gt;
+    &lt;li&gt;Does code access security need to occur?&lt;/li&gt;
+    &lt;li&gt;What operations need to be secured?&lt;/li&gt;
+    &lt;li&gt;How will users be administered?&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我本不必要再解释它了，但是为了全面，我还是想定义一下安全性：系统对未授权使用和修改行为的应对并同时保持对合法用户提供服务的能力。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;系统是否需要用户/角色安全？&lt;/li&gt;
+  &lt;li&gt;代码获取安全是否需要？&lt;/li&gt;
+  &lt;li&gt;什么操作需要被保护？&lt;/li&gt;
+  &lt;li&gt;用户会怎样被管理？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;portability-&quot;&gt;Portability 轻便性&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Portability is the ability for your application to run on numerous platforms. This is can include actual application hosting, viewing, or data portability.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Can the data be migrated to other systems?&lt;/li&gt;
+    &lt;li&gt;For web applications, which browsers does your web app support?&lt;/li&gt;
+    &lt;li&gt;Which operating systems does your program run on?&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;轻便性指的是你的应用在各种平台上运行的能力。这包括应用托管、查看、数据轻便性。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;数据可以迁移到其他系统中吗？&lt;/li&gt;
+  &lt;li&gt;对于网络应用，哪些浏览器支持？&lt;/li&gt;
+  &lt;li&gt;你的程序可以在哪些操作系统中使用？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;结尾&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Obviously, this is not an exhaustive list. There are many many more (Backwards compatibility, Interoperability, and Reusability to name a few).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What is your “-ilities” list? Which do you prioritize over others?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;和显然，这不是一个穷尽的清单，还有太多太多了（向后兼容性、互用性、复用性等）&lt;/p&gt;
+
+&lt;p&gt;你的“-ilities”清单是什么？哪一个比其他的优先级更高呢？&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Jan 2017 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2017/01/11/software-ability.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2017/01/11/software-ability.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
     
       <item>
         <title>澳洲学生签证申请</title>
@@ -1475,227 +1670,6 @@
         <pubDate>Sun, 20 Nov 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/11/20/oralSCC-merck.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2016/11/20/oralSCC-merck.html</guid>
-        
-        <category>medi</category>
-        
-        <category>bio</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>鳞状细胞癌资料翻译之梅奥诊所</title>
-        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview(概述)&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Squamous cell carcinoma of the skin is a common form of skin cancer that develops in the squamous cells that make up the middle and outer layer of the skin.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Squamous cell carcinoma of the skin is usually not life-threatening, though it can be aggressive in some cases. Untreated, squamous cell carcinoma of the skin can grow large or spread to other parts of your body, causing serious complications.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most squamous cell carcinomas of the skin result from prolonged exposure to ultraviolet (UV) radiation, either from sunlight or from tanning beds or lamps. Avoiding UV light helps reduce your risk of squamous cell carcinoma of the skin and other forms of skin cancer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Squamous cells are found in many places in your body and squamous cell carcinoma can occur anywhere squamous cells are found. Squamous cell carcinoma of the skin refers to cancer that forms in the squamous cells found in the skin.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;鳞状细胞癌（Squamous cell carcinoma, SCC）是皮肤癌的一种常见形式，主要发生在中层和外层皮肤的鳞状细胞中。&lt;/p&gt;
-
-&lt;p&gt;鳞状细胞癌经常不会危及生命，尽管某些情况会比较恶性。不治疗的鳞状皮肤癌会变大或者蔓延至身体的其他部位，引起严重的并发症。&lt;/p&gt;
-
-&lt;p&gt;大多数的鳞状细胞癌是由于过度的紫外线（UV）暴露导致的，或者是来自于阳光，或者是来自于晒黑床和灯。避免紫外线会有助于降低患鳞状细胞癌和其他皮肤癌的风险。&lt;/p&gt;
-
-&lt;p&gt;鳞状细胞存在于身体的很多部分，而鳞状细胞癌也可以在身体的很多地方发现。鳞状细胞指的就是在皮肤的鳞状细胞中发现的癌症。&lt;/p&gt;
-
-&lt;h2 id=&quot;symptoms-and-causes&quot;&gt;Symptoms and causes（症状和病因）&lt;/h2&gt;
-
-&lt;h3 id=&quot;symptoms&quot;&gt;Symptoms（症状）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Squamous cell carcinoma of the skin most often occurs on sun-exposed skin, such as your scalp, the backs of your hands, your ears or your lips. But squamous cell carcinoma of the skin can occur anywhere on your body, including inside your mouth, on your anus and on your genitals.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Signs and symptoms of squamous cell carcinoma of the skin include:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A firm, red nodule
-A flat sore with a scaly crust
-A new sore or raised area on an old scar or ulcer
-A rough, scaly patch on your lip that may evolve to an open sore
-A red sore or rough patch inside your mouth
-A red, raised patch or wart-like sore on or in the anus or on your genitals&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;鳞状细胞癌经常发生在曝露在太阳光下的皮肤上，例如头皮、手背、耳朵或者是嘴唇。但是鳞状细胞癌也可以发生在其他部位，包括嘴、肛门或者是生殖器等。&lt;/p&gt;
-
-&lt;p&gt;鳞状细胞癌的症状包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;一个坚硬、红色的节洁&lt;/li&gt;
-  &lt;li&gt;扁平的疮，鳞片状的皮&lt;/li&gt;
-  &lt;li&gt;一个新的疮、或者是旧疮、溃疡&lt;/li&gt;
-  &lt;li&gt;一个粗的、鳞片状的半点在嘴唇，也许会恶化成一个疮&lt;/li&gt;
-  &lt;li&gt;一个红的疮、或者粗的斑点在嘴里&lt;/li&gt;
-  &lt;li&gt;一个红的、升起的斑点、肉赘样的疮在肛门或者生殖器上&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;when-to-see-a-doctor&quot;&gt;When to see a doctor（什么时候去看医生）&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Make an appointment with your doctor if you have a sore or scab that doesn’t heal in about two months or a flat patch of scaly skin that won’t go away.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;如果疮或者痂两个月内无法痊愈，或者是一个平的、鳞片状的斑点无法去除，可以预约你的医生。&lt;/p&gt;
-
-&lt;h3 id=&quot;causes&quot;&gt;causes（病因）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Squamous cell carcinoma of the skin occurs when the flat, thin squamous cells in the outer layer of your skin develop errors in their DNA. Ordinarily, new cells push older cells toward your skin’s surface, and the older cells die and are sloughed off. DNA errors disrupt this orderly pattern, causing cells to grow out of control, with squamous cell carcinoma of the skin as the result.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;当你外层皮肤中平的、薄的鳞状细胞的DNA发生错误的时候，你可能会得鳞状细胞癌。通常下，你的新细胞会将老细胞推到皮肤表面，老细胞会死掉后脱落。DNA的错误会干扰这种正常的模式，使得细胞增长失去控制，导致鳞状细胞癌。&lt;/p&gt;
-
-&lt;h4 id=&quot;ultraviolet-light-and-other-potential-causes&quot;&gt;Ultraviolet light and other potential causes（紫外线或其他潜在危险）&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Much of the damage to DNA in skin cells results from ultraviolet (UV) radiation found in sunlight and in commercial tanning lamps and tanning beds.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;But sun exposure doesn’t explain skin cancers that develop on skin not ordinarily exposed to sunlight. This indicates that other factors may contribute to your risk of skin cancer, such as being exposed to toxic substances or having a condition that weakens your immune system.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;很多的皮肤细胞的DNA损伤是由阳光和商业的晒黑灯、晒黑床的紫外线辐射导致的。&lt;/p&gt;
-
-&lt;p&gt;但是太阳照射无法解释那些不暴露在阳光下部位得到的鳞状皮肤癌。这说明还有其他因素会导致皮肤癌危险的增高，例如暴露在有毒物质下，或者是某种情况下你的免疫能力下降。&lt;/p&gt;
-
-&lt;h3 id=&quot;risk-factors&quot;&gt;Risk factors（危险因素）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Factors that may increase your risk of squamous cell carcinoma of the skin include:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Fair skin. Anyone, regardless of skin color, can get squamous cell carcinoma of the skin. However, having less pigment (melanin) in your skin provides less protection from damaging UV radiation.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you have blond or red hair and light-colored eyes and you freckle or sunburn easily, you’re much more likely to develop skin cancer than is a person with darker skin.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Excessive sun exposure. Being exposed to UV light from the sun increases your risk of squamous cell carcinoma of the skin. Spending lots of time in the sun — particularly if you don’t cover your skin with clothing or sunblock — increases your risk of squamous cell carcinoma of the skin even more.&lt;/li&gt;
-    &lt;li&gt;Use of tanning beds. People who use indoor tanning beds have an increased risk of squamous cell carcinoma of the skin.&lt;/li&gt;
-    &lt;li&gt;A history of sunburns. Having had one or more blistering sunburns as a child or teenager increases your risk of developing squamous cell carcinoma of the skin as an adult. Sunburns in adulthood also are a risk factor.&lt;/li&gt;
-    &lt;li&gt;A personal history of precancerous skin lesions. Having a precancerous skin lesion, such as actinic keratosis or Bowen’s disease, increases your risk of squamous cell carcinoma of the skin.
-A personal history of skin cancer. If you’ve had squamous cell carcinoma of the skin once, you’re much more likely to develop it again.&lt;/li&gt;
-    &lt;li&gt;Weakened immune system. People with weakened immune systems have an increased risk of skin cancer. This includes people who have leukemia or lymphoma and those who take medications that suppress the immune system, such as those who have undergone organ transplants.&lt;/li&gt;
-    &lt;li&gt;Rare genetic disorder. People with xeroderma pigmentosum, which causes an extreme sensitivity to sunlight, have a greatly increased risk of developing skin cancer.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;也许会增高得鳞状皮肤癌的危险因素包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;白皮肤：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;complications&quot;&gt;Complications（并发症）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Untreated squamous cell carcinoma of the skin can destroy nearby healthy tissue, spread to the lymph nodes or other organs, and may be fatal, although this is uncommon.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The risk of aggressive squamous cell carcinoma of the skin may be increased in cases where the cancer:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Is particularly large or deep&lt;/li&gt;
-    &lt;li&gt;Involves the mucous membranes, such as the lips&lt;/li&gt;
-    &lt;li&gt;Occurs in a person with a weakened immune system, such as someone who takes anti-rejection medications after an organ transplant or someone who has chronic leukemia&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;diagnosis&quot;&gt;Diagnosis（诊断）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Tests and procedures used to diagnose squamous cell carcinoma of the skin include:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Physical exam. Your doctor will ask questions about your health history and examine your skin to look for signs of squamous cell carcinoma of the skin.&lt;/li&gt;
-    &lt;li&gt;Removing a sample of tissue for testing. To confirm a squamous cell carcinoma of the skin diagnosis, your doctor will use a tool to cut away some or all of the suspicious skin lesion (biopsy). What type of skin biopsy you undergo depends on your particular situation. The tissue is sent to a laboratory for examination.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;用于诊断鳞状细胞癌的检测和过程包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;物理检查：你的医生会问你健康史、检查你的皮肤、看你皮肤鳞状细胞癌的症状。&lt;/li&gt;
-  &lt;li&gt;取组织样本检测：为了确认你的鳞状细胞癌，你的医生会使用工具切除部分或者全部的疑似病变皮肤。取哪种皮肤组织样本取决于具体的情况。样本会送到实验室进行检查。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;treatment&quot;&gt;Treatment（治疗）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most squamous cell carcinomas of the skin can be completely removed with relatively minor surgery or occasionally with a topical medication. Which squamous cell carcinoma of the skin treatments are best for you depends on the size, location and aggressiveness of the tumor, as well as your own preferences.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;大部分的鳞状细胞癌可以通过较小的手术或者有时通过局部给药完全去除。至于选择哪种治疗方法，取决于癌症的大小、位置和恶性情况，还有你自己的个人选择。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Treatments may include:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Electrodesiccation and curettage (ED and C). ED and C treatment involves removing the surface of the skin cancer with a scraping instrument (curet) and then searing the base of the cancer with an electric needle. This treatment is often used for very small squamous cell cancers of the skin.&lt;/li&gt;
-    &lt;li&gt;Curettage and cryotherapy. Similar to the ED and C procedure, after the tumor removal and curettage, the base and edges of the biopsy site are treated with liquid nitrogen.&lt;/li&gt;
-    &lt;li&gt;Laser therapy. An intense beam of light vaporizes growths, usually with little damage to surrounding tissue and with a reduced risk of bleeding, swelling and scarring. Laser treatment may be an option for very superficial skin lesions.&lt;/li&gt;
-    &lt;li&gt;Freezing. This treatment involves freezing cancer cells with liquid nitrogen (cryosurgery). It may be an option for treating superficial skin lesions.&lt;/li&gt;
-    &lt;li&gt;Photodynamic therapy. Photodynamic therapy combines photosensitizing drugs and light to treat superficial skin cancers. During photodynamic therapy, a liquid drug that makes the cancer cells sensitive to light is applied to the skin. Later, a light that destroys the skin cancer cells is shined on the area.&lt;/li&gt;
-    &lt;li&gt;Medicated creams or lotions. For very superficial cancers, you may apply creams or lotions containing anti-cancer medications directly to your skin.&lt;/li&gt;
-    &lt;li&gt;Simple excision. In this procedure, your doctor cuts out the cancerous tissue and a surrounding margin of healthy skin. Your doctor may recommend removing additional normal skin around the tumor in some cases (wide excision). To minimize scarring, especially on your face, consult a doctor skilled in skin reconstruction.&lt;/li&gt;
-    &lt;li&gt;Mohs surgery. During Mohs surgery, your doctor removes the cancer layer by layer, examining each layer under the microscope until no abnormal cells remain. This allows the surgeon to be certain the entire growth is removed and avoid taking an excessive amount of surrounding healthy skin.&lt;/li&gt;
-    &lt;li&gt;Radiation therapy. Radiation therapy uses high-energy beams, such as X-rays, to kill cancer cells. This may be an option for treating deeper tumors, those that have a risk of returning after surgery and tumors in people who can’t undergo surgery.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;治疗包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;电干燥法和刮除术（ED&amp;amp;C）：ED&amp;amp;C方法涉及使用刮刀去除癌症表面皮肤，然后用电针去灼烧癌症的组织。这种方法常用于比较小的鳞状细胞癌。&lt;/li&gt;
-  &lt;li&gt;刮除术和低温疗法（Curettage and cryotherapy）：与ED&amp;amp;C疗法步骤类似，在去除癌症组织后，组织部位和边缘使用液氮处理。&lt;/li&gt;
-  &lt;li&gt;激光疗法（Laser therapy）：一束强光使扩增部位蒸发。此种方法通常对于周边组织的损害较小，并且降低流血、肿胀、结疤的风险。激光疗法也许是比较浅的皮肤癌的一种选择。&lt;/li&gt;
-  &lt;li&gt;冷冻（Freezing）：这种方法涉及使用液氮去冷冻癌细胞。这也许也是比较浅的皮肤癌的一种选择。&lt;/li&gt;
-  &lt;li&gt;光动力疗法（Photodynamic therapy）：这种方法结合药物和光去处理浅的皮肤癌。在治疗过程中，一个液体药物会涂在皮肤上，使其对光更敏感。之后，可以消灭皮肤癌细胞的光作用在此区域。&lt;/li&gt;
-  &lt;li&gt;药用乳膏（Medicated creams or lotions）：对于比较浅的癌症，你可以直接涂含有抗癌药物的乳膏在皮肤上。&lt;/li&gt;
-  &lt;li&gt;简单切除（Simple excision）&lt;/li&gt;
-  &lt;li&gt;Mohs手术（Mohs Surgery）&lt;/li&gt;
-  &lt;li&gt;放疗（Radiation therapy）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;链接&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.mayoclinic.org/diseases-conditions/squamous-cell-carcinoma/home/ovc-20204362&quot;&gt;Squamous cell carcinoma of the skin&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 18 Nov 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/11/18/SCC-mayoclinic.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/11/18/SCC-mayoclinic.html</guid>
         
         <category>medi</category>
         

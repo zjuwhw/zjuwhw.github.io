@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>软件工程的几个“-ilities”</title>
+  <meta name="description" content="注：本文翻译自《The 7 Software “-ilities” You Need To Know》。">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="zjuwhw.github.io/2017/01/11/software-ability.html">
+  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="zjuwhw.github.io/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">zjuwhw's blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/links/">Links</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/tags/">Tags</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">软件工程的几个“-ilities”</h1>
+    <p class="post-meta"><time datetime="2017-01-11T00:00:00+08:00" itemprop="datePublished">Jan 11, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>注：本文翻译自<a href="http://codesqueeze.com/the-7-software-ilities-you-need-to-know/">《The 7 Software “-ilities” You Need To Know》</a>。</p>
+
+<h3 id="section">引子</h3>
+
+<blockquote>
+  <p>In the world of software architecture there are many “-ilities” you must take into consideration with every project. Prioritizing them is necessary because the client will optimistically ask that you do all of them. To help you out, here is a quick list outlining my top 7 default “-ilities” in the order that I prioritize them:</p>
+</blockquote>
+
+<p>在软件架构的领域，每个项目你都有很多“-ilities”需要考虑。由于你的客户希望你全都做到，所以你需要排好他们的优先级（prioritizing）。这是一个快速的清单，我认为的前7个“-ilities”，帮你排优先级。</p>
+
+<h3 id="usability">Usability（易用性）</h3>
+
+<blockquote>
+  <p>Software usability can be described as how effectively end users can use, learn, or control the system. Some questions to ask yourself to determine usability might be:</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Is there a UI metaphor that I am using to help users adapt? (for example, the ‘desktop’ is a metaphor)</li>
+    <li>Are the most common operations streamlined to be performed quickly?</li>
+    <li>Can new users quickly adapt to the software without help? (is it intuitive?)</li>
+    <li>Do validation and error messages make sense?</li>
+  </ul>
+</blockquote>
+
+<p><strong>软件的易用性</strong>可以被描述为“终端用户可以如何邮箱的使用、学习、控制该系统”。你需要问自己一些问题来确认可用性：</p>
+
+<ol>
+  <li>是否有一个“UI隐喻”可以使用，去帮助客户适应环境？（例如，“桌面”就是一个“隐喻”）（翻译者注：我理解metaphor就是一个类比的概念吧）</li>
+  <li>是否所有常用的操作都可以快速、行云流水一般的进行？</li>
+  <li>是否新用户可以无需帮助快速适应软件？（满足直觉吗？）</li>
+  <li>验证和报错是否合理呢？</li>
+</ol>
+
+<h3 id="maintainability-flexibilitytestibility">Maintainability (可维护性），Flexibility（灵活性），Testibility（可测试性）</h3>
+
+<blockquote>
+  <p>The definition of maintainability [for me] implies how brittle the code is to change. As a result, I tie the terms flexibility and testability into the overall maintainability of a project.</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Does the entire team understand the code base or does knowledge islands exist?</li>
+    <li>Is the code throughly regression tested?</li>
+    <li>Can modifications to the project be done in a timely manner?</li>
+  </ul>
+</blockquote>
+
+<p><strong>软件的可维护性</strong>体现“代码是多脆弱去改变”。因此，我也加入了另外两个此会“灵活性”和“可测试性”。</p>
+
+<ol>
+  <li>整个团队都理解代码基础吗？或者是否存在知识孤岛？</li>
+  <li>所有代码彻底做回归测试吗？</li>
+  <li>对于项目的修改可以在合理的时间内完成吗？</li>
+</ol>
+
+<h3 id="scalability-">Scalability 可扩展性</h3>
+
+<blockquote>
+  <p>Scalability is the ability for your program to gracefully meet the demand of stress caused by increased usage. In short, ensuring your program doesn’t slow or bust when pounded by more users than you originally anticipated.</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>What is your current peak load that you can handle?</li>
+    <li>How many database records can create until critical operations slow down?</li>
+    <li>Is the primary scaling strategy to “scale up” or to “scale out” — that is, to upgrade the nodes in a fixed topology, or to add nodes?</li>
+  </ul>
+</blockquote>
+
+<p><strong>软件的可扩展性</strong>指你的程序可以很优雅地应对来自使用量增加带来的压力增加。简短说，当用户量超过你之前预期的时候，你要保证你的程序不会变慢或者崩溃。</p>
+
+<ol>
+  <li>你目前可以掌控的峰值是多少？</li>
+  <li>创建的数据记录达到多少会使得关键的操作变慢？</li>
+  <li>主要的扩展策略是增加节点或者升级节点吗？</li>
+</ol>
+
+<h3 id="availability-or-reliability-">Availability (or Reliability) 可用性或者可靠性</h3>
+
+<blockquote>
+  <p>How long the system is up and running and the Mean Time Between Failure (MTBF) is known as the availability of a program.</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>How long does the system need to run without failure?</li>
+    <li>What is the acceptable length of time for the system to be down?</li>
+    <li>Can down times be scheduled?</li>
+  </ul>
+</blockquote>
+
+<p>你的系统可以抑制跑多长？失败间隔时间被用来衡量一个程序的可用性。</p>
+
+<ol>
+  <li>你的系统可以跑不失败的跑多长？</li>
+  <li>你的系统可以接受多长时间的宕机？</li>
+  <li>宕机时间是否可以预定？</li>
+</ol>
+
+<h3 id="extensibility-">Extensibility 可升级性</h3>
+
+<blockquote>
+  <p>Are there points in the system where changes can be made with (or without) program changes?</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Can the database schema flex to accommodate change?</li>
+    <li>Does the system allow Inversion of Control (IoC)?</li>
+    <li>Can end users extend the system (scripts, user defined fields, etc)?</li>
+    <li>Can 3rd party developers leverage your system?</li>
+  </ul>
+</blockquote>
+
+<p>当程序改变之后，系统中哪些会改变，哪些不会改变？</p>
+
+<ol>
+  <li>数据库模式是否有弹性容纳改变？</li>
+  <li>系统是否允许控制反转（Inversion of Control）？</li>
+  <li>终端用户可以扩展系统吗？（脚本，用户自定义领域，等）</li>
+  <li>第三方开发人员可以利用你的系统吗？</li>
+</ol>
+
+<h3 id="security-">Security 安全性</h3>
+
+<blockquote>
+  <p>I shouldn’t need to go into this one but to be thorough I like this definition of security: the measure of system’s ability to resist unauthorized attempts at usage or behavior modification, while still providing service to legitimate users.</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Does the system need user or role based security?</li>
+    <li>Does code access security need to occur?</li>
+    <li>What operations need to be secured?</li>
+    <li>How will users be administered?</li>
+  </ul>
+</blockquote>
+
+<p>我本不必要再解释它了，但是为了全面，我还是想定义一下安全性：系统对未授权使用和修改行为的应对并同时保持对合法用户提供服务的能力。</p>
+
+<ol>
+  <li>系统是否需要用户/角色安全？</li>
+  <li>代码获取安全是否需要？</li>
+  <li>什么操作需要被保护？</li>
+  <li>用户会怎样被管理？</li>
+</ol>
+
+<h3 id="portability-">Portability 轻便性</h3>
+
+<blockquote>
+  <p>Portability is the ability for your application to run on numerous platforms. This is can include actual application hosting, viewing, or data portability.</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Can the data be migrated to other systems?</li>
+    <li>For web applications, which browsers does your web app support?</li>
+    <li>Which operating systems does your program run on?</li>
+  </ul>
+</blockquote>
+
+<p>轻便性指的是你的应用在各种平台上运行的能力。这包括应用托管、查看、数据轻便性。</p>
+
+<ol>
+  <li>数据可以迁移到其他系统中吗？</li>
+  <li>对于网络应用，哪些浏览器支持？</li>
+  <li>你的程序可以在哪些操作系统中使用？</li>
+</ol>
+
+<h3 id="section-1">结尾</h3>
+
+<blockquote>
+  <p>Obviously, this is not an exhaustive list. There are many many more (Backwards compatibility, Interoperability, and Reusability to name a few).</p>
+</blockquote>
+
+<blockquote>
+  <p>What is your “-ilities” list? Which do you prioritize over others?</p>
+</blockquote>
+
+<p>和显然，这不是一个穷尽的清单，还有太多太多了（向后兼容性、互用性、复用性等）</p>
+
+<p>你的“-ilities”清单是什么？哪一个比其他的优先级更高呢？</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>zjuwhw's blog</li>
+          <li><a href="mailto:zju_whw@163.com">zju_whw@163.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/zjuwhw"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">zjuwhw</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/zjuwhw"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">zjuwhw</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
