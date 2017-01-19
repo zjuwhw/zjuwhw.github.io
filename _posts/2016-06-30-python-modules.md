@@ -40,7 +40,7 @@ tags: cs
 - [datetime](https://docs.python.org/2/library/datetime.html): Basic date and time types
 - [email](https://docs.python.org/2/library/email.html): An email and MIME handling package
 - [smtplib](https://docs.python.org/2/library/smtplib.html): SMTP protocol client
-
+- [pycronic](https://pypi.python.org/pypi/pycronic/0.0.2): A crontab script wrapper written by python
 
 ## 非内置
 
@@ -64,7 +64,7 @@ tags: cs
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
 - [nose](http://nose.readthedocs.io/en/latest/): extends unittest to make testing easier
 - [pytz](http://pythonhosted.org/pytz/): World Timezone Definitions for Python
-- [markdown](http://pythonhosted.org/Markdown/]: Python-Markdown
+- [markdown](http://pythonhosted.org/Markdown/): Python-Markdown
 
 ### 扩展阅读
 

@@ -6,9 +6,161 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Jan 2017 08:33:54 +0800</pubDate>
-    <lastBuildDate>Thu, 19 Jan 2017 08:33:54 +0800</lastBuildDate>
+    <pubDate>Thu, 19 Jan 2017 14:18:12 +0800</pubDate>
+    <lastBuildDate>Thu, 19 Jan 2017 14:18:12 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>python的快速参考手册</title>
+        <description>&lt;p&gt;本手册来自图书&lt;a href=&quot;https://www.amazon.com/Introduction-Computation-Programming-Using-Python-ebook/dp/B00H4D1W9E&quot;&gt;《Introduction to Computation adn Programming Using Python》&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;common-operations-on-numerical-types&quot;&gt;Common operations on numerical types&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i+j&lt;/code&gt; is the sum of i and j&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i-j&lt;/code&gt; is i minus j&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i*j&lt;/code&gt; is the product（） of i and j&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i//j&lt;/code&gt;is integer division&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i/j&lt;/code&gt; is i divided by j. In Python 2.7, when i and j are both of type int, the result is also an int, otherwise the result is a float&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i%j&lt;/code&gt; is the remainder（余数） when the int i is divided by the int j&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i**j&lt;/code&gt; is i raised to the power j&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;x += y&lt;/code&gt; is equivalent to &lt;code class=&quot;highlighter-rouge&quot;&gt;x = x + y&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;*=&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;-=&lt;/code&gt; work the same way&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;comparison-and-boolean-operators&quot;&gt;Comparison and Boolean operators&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;x == y&lt;/code&gt; returns True if x and y are equal&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;x != y&lt;/code&gt; returns True if x and y are not equal&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;, &amp;gt;, &amp;lt;=, &amp;gt;=&lt;/code&gt; have their usual meanings&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a and b&lt;/code&gt; is True if both a and b are True, and False otherwise&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a or b&lt;/code&gt; is Ture if at least one of a and b is True, and False otherwise&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;not a&lt;/code&gt; is True if a is Fasle, and False if a if True&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;common-operations-on-sequence-types&quot;&gt;Common operations on sequence types&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;seq[i]&lt;/code&gt; returns the ith element in the sequence&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;len(seq)&lt;/code&gt; returns the length of the sequence&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;seq1 + seq2&lt;/code&gt; concatenates（链接） the two sequences&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;n*seq&lt;/code&gt; returns a sequence that repeats seq n times&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;seq[start:end]&lt;/code&gt; returns a slice（切片） of the sequence&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;e in seq&lt;/code&gt; tests whether e is contained in the sequence&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;e not in seq&lt;/code&gt; tests whether e is not contained in the sequence&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;for e in seq&lt;/code&gt; iterates（迭代） over the elements of the sequence&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;common-string-methods&quot;&gt;Common string methods&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.count(s1)&lt;/code&gt; counts how many times the string s1 occurs in s&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.find(s1)&lt;/code&gt; returns the index of the first occurrence of the substring s1 in s; -1 if s1 is not in s&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.rfind(s1)&lt;/code&gt; same as find, but starts fron the end of s&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.index(s1)&lt;/code&gt; same as find, but raises an exception if s1 is not in s&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.rindx(s1)&lt;/code&gt; same as index, but starts from the end of s&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.lower()&lt;/code&gt; converts all uppercase letters to lowercase&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.replace(old, new)&lt;/code&gt; replaces all occurrences of string old with string new&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.rstrip()&lt;/code&gt; removes trailling white space&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.split(d)&lt;/code&gt; Splits s using d as a delimiter（分隔符）. Return a list of substrings of s&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;common-list-methos&quot;&gt;Common list methos&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.append(e)&lt;/code&gt; add the object（对象） e to the end of L&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.count(e)&lt;/code&gt; returns the number of times that e occurs in L&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.insert(i, e)&lt;/code&gt; inserts the object e into L at index i&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.extend(L1)&lt;/code&gt; appends（追加） the items in list L1 to the end of L&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.remove(e)&lt;/code&gt; deletes the first occurrence of e from L&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.index(e)&lt;/code&gt; returns the index of the first occurrence of e in L&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.pop(i)&lt;/code&gt; removes and returns the item at index i. Defaults to -1&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.sort()&lt;/code&gt; has the side effect of sorting the elements of L&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.reverse()&lt;/code&gt; has the side effect of reversing the order of the elements in L&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;common-operations-on-dictionaries&quot;&gt;Common operations on dictionaries&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;len(d)&lt;/code&gt; returns the number of items in d&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;d.keys()&lt;/code&gt; returns a list containing the keys in d&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;d.values()&lt;/code&gt; returns a list containing the values in d&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;k in d&lt;/code&gt; returns True if key k is in d&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;d[k]&lt;/code&gt; returns the item in d with key k. Raises KeyError if k is not in d&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;d.get(k, v)&lt;/code&gt; returns d[k] if k in d, and v otherwise&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;d[k] = v&lt;/code&gt; associates the value v with the key k. If there is already a value associated with k, that value is replaced.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;del d[k]&lt;/code&gt; removes element with key k from d. Raises KeyError if k is not in d.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;for k in d&lt;/code&gt; iterates over the keys in d&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;comparison-of-common-non-scalar-typesnon-scalar-have-internal-structure-that-can-be-accessed&quot;&gt;Comparison of common non-scalar types（non-scalar: have internal structure that can be accessed)&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Type&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Type of Index&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Type f element&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Examples of literals&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Mutable（可变的）&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;str&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;int&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;characters&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;’’, ‘a’, ‘abc’&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;No&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;tuple&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;int&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;any type&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;(), (3,), (‘abc’, 4)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;No&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;list&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;int&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;any type&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[], [3], [‘abc’, 4]&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Yes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;dict&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hashable objects&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;any type&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;{}, {‘a’: 1}, {‘a’:1, ‘b’:2.0}&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Yes&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;common-inputoutput-mechanisms&quot;&gt;Common input/output mechanisms&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;raw_input(msg)&lt;/code&gt; prints msg and then returns value entered as a string&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;print s1, ..., sn&lt;/code&gt; prints strings s1, …, sn with a space between each&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;open(&#39;fileName&#39;, &#39;w&#39;)&lt;/code&gt; creates a file for writing&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;open(&#39;fileName&#39;, &#39;r&#39;)&lt;/code&gt; opens an existing file for reading&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;open(&#39;fileName&#39;, &#39;a&#39;)&lt;/code&gt; opens an existing file for appending&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.read()&lt;/code&gt; returns a string containing contents of the file&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.readline()&lt;/code&gt; returns the next line in the file&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.readlines()&lt;/code&gt; returns a list containing lines of the file&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.write(s)&lt;/code&gt; write the string s to the end of the file&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.writelines(L)&lt;/code&gt; Writes each element of L to the file&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.close()&lt;/code&gt; closes the file&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 19 Jan 2017 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2017/01/19/python-quick-reference.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2017/01/19/python-quick-reference.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
     
       <item>
         <title>软件工程的几个“-ilities”</title>
@@ -1502,175 +1654,6 @@
         <pubDate>Mon, 21 Nov 2016 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2016/11/21/cancer-milestone.html</link>
         <guid isPermaLink="true">zjuwhw.github.io/2016/11/21/cancer-milestone.html</guid>
-        
-        <category>medi</category>
-        
-        <category>bio</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>口腔鳞状细胞癌资料翻译之默克手册</title>
-        <description>&lt;p&gt;注：文本翻译自Merck Manual的&lt;a href=&quot;http://www.merckmanuals.com/professional/ear,-nose,-and-throat-disorders/tumors-of-the-head-and-neck/oral-squamous-cell-carcinoma&quot;&gt;《Oral squamous cell carcinoma》&lt;/a&gt;。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Oral squamous cell carcinoma affects about 30,000 people in the US each year. Over 95% smoke tobacco, drink alcohol, or both. Early, curable lesions are rarely symptomatic; thus, preventing fatal disease requires early detection by screening. Treatment is with surgery, radiation, or both, although surgery plays a larger role in the treatment of most oral cavity cancer. The overall 5-yr survival rate (all sites and stages combined) is &amp;gt; 50%.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;在美国，每年有约3万人得口腔的鳞状细胞癌。超过95%的患者抽烟、或喝酒、或又抽烟又喝酒的。早期的可治愈阶段的病变很少有症状，因此，要早期检测、早期筛查才能预防致命的病变。治疗方法可以是手术、放疗、或者结合，尽管手术所占的比例更大。总体的5年生存率（所有的位置、所有的阶段都算上）是大于50%的。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Oral cancer refers to cancer occurring between the vermilion border of the lips and the junction of the hard and soft palates or the posterior one third of the tongue.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In the US, 3% of cancers in men and 2% in women are oral squamous cell carcinomas, most of which occur after age 50. As with most head and neck sites, squamous cell carcinoma is the most common oral cancer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The chief risk factors for oral squamous cell carcinoma are&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Smoking (especially &amp;gt; 2 packs/day)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Alcohol use&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;口腔癌症指的是发生在嘴唇红色边缘、硬腭与软腭链接处、或者舌头后三分之一之间的癌症。&lt;/p&gt;
-
-&lt;p&gt;在美国，3%的男性癌症、2%的女性癌症是口腔鳞状细胞癌，大多数发生在50岁之后。和大多头部和颈部一样，鳞状细胞癌是最常见的口腔癌症。&lt;/p&gt;
-
-&lt;p&gt;鳞状细胞癌的主要的危险因素是：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;吸烟（尤其是每天大于2包）&lt;/li&gt;
-  &lt;li&gt;饮酒&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Risk increases dramatically when alcohol use exceeds 6 oz of distilled liquor, 15 oz of wine, or 36 oz of beer/day. The combination of heavy smoking and alcohol abuse is estimated to raise the risk 100-fold in women and 38-fold in men.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Squamous cell carcinoma of the tongue may also result from any chronic irritation, such as dental caries, overuse of mouthwash, chewing tobacco, or the use of betel quid. Oral human papillomavirus (HPV), typically acquired via oral-genital contact, may have a role in the etiology of some oral cancers; however, the role of HPV is not as clearly defined in oral cancer as it is in oropharyngeal cancer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;About 40% of intraoral squamous cell carcinomas begin on the floor of the mouth or on the lateral and ventral surfaces of the tongue. About 38% of all oral squamous cell carcinomas occur on the lower lip; these are usually solar-related cancers on the external surface.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;当饮酒超过每天6盎司的蒸馏酒、15盎司的葡萄酒、或者36盎司的啤酒时，风险会显著提高。同时重度吸烟和酒精滥用被估计会提高女性100倍的患病风险，男性38倍的患病风险。&lt;/p&gt;
-
-&lt;p&gt;舌头的鳞状细胞癌也可能由于一些慢性的刺激，如龋齿，漱口水使用过度、咀嚼烟草、使用槟榔。口腔人乳头瘤病毒（HPV）也被认为是一些口腔癌症的病因，然而，相比于咽喉的癌症，HPV对口腔癌症的作用并不是特别清晰。&lt;/p&gt;
-
-&lt;p&gt;大约40%的口腔内鳞状细胞癌从口腔底部或者舌头表面开始，大约38%的口腔鳞状细胞癌发生在下唇，这些在外表面的经常是与太阳有关的癌症。&lt;/p&gt;
-
-&lt;h2 id=&quot;symptoms-and-signs&quot;&gt;症状（Symptoms and Signs）&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Oral lesions are asymptomatic initially, highlighting the need for oral screening. Most dental professionals carefully examine the oral cavity and oropharynx during routine care and may do a brush biopsy of abnormal areas. The lesions may appear as areas of erythroplakia or leukoplakia and may be exophytic or ulcerated. Cancers are often indurated and firm with a rolled border. As the lesions increase in size, pain, dysarthria, and dysphagia may result.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;口腔病变最开始经常是无症状的，这也能突显口腔检查的重要性。大多数的专业牙医在常规体检时会小心检查口腔和咽喉部位，也许会在异常部位用刷子取一些组织。当区域出现红斑或白斑、当出现外生活着溃疡，病症也许会显现。癌症经常是坚硬的、有点滚边的。随着病症逐渐扩大，疼痛、情绪失控和吞咽困难也许会发生。&lt;/p&gt;
-
-&lt;h2 id=&quot;diagnosis&quot;&gt;Diagnosis&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Biopsy&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Endoscopy to detect second primary cancer&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Chest x-ray and CT of head and neck&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Any suspicious areas should be biopsied. Incisional or brush biopsy can be done depending on the surgeon’s preference. Direct laryngoscopy and esophagoscopy are done in all patients with oral cavity cancer to exclude a simultaneous second primary cancer. Head and neck CT usually is done and a chest x-ray is done; however, as in most sites in the head and neck, PET/CT has begun to play a larger role in the evaluation of patients with oral cavity cancer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;prognosis&quot;&gt;预后（Prognosis）&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;If carcinoma of the tongue is localized (no lymph node involvement), 5-yr survival is &amp;gt; 75%. For localized carcinoma of the floor of the mouth, 5-yr survival is 75%. Lymph node metastasis decreases survival rate by about half. Metastases reach the regional lymph nodes first and later the lungs.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For lower lip lesions, 5-yr survival is 90%, and metastases are rare. Carcinoma of the upper lip tends to be more aggressive and metastatic.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;treatment&quot;&gt;治疗（Treatment）&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Surgery, with postoperative radiation or chemoradiation as needed&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For most oral cavity cancers, surgery is the initial treatment of choice. Radiation or chemoradiation is added postoperatively if disease is more advanced or has high-risk features. (See also the National Cancer Institute’s summary Lip and Oral Cavity Cancer Treatment .)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Selective neck dissection is indicated if the risk of nodal disease exceeds 15 to 20%. Although there is no firm consensus, neck dissections are typically done for T2 (see Table: Staging of Head and Neck Cancer) lesions (greatest dimension 2 to 4 cm) and most T1 lesions with a depth of invasion about ≥ 4 mm.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Routine surgical reconstruction is the key to reducing postoperative oral disabilities; procedures range from local tissue flaps to free tissue transfers. Speech and swallowing therapy may be required after significant resections.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Radiation therapy is an alternative treatment. Chemotherapy is not used routinely as primary therapy but is recommended as adjuvant therapy along with radiation in patients with advanced nodal disease.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Treatment of squamous cell carcinoma of the lip is surgical excision with reconstruction to maximize postoperative function. When large areas of the lip exhibit premalignant change, the lip can be surgically shaved, or a laser can remove all affected mucosa. Mohs surgery can be used. Thereafter, appropriate sunscreen application is recommended.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;key-points&quot;&gt;Key Points&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;The chief risk factors for oral squamous cell carcinoma are heavy smoking and alcohol use.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Oral cancer is sometimes asymptomatic initially, so oral screening (typically by dental professionals) is useful for early diagnosis.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Do direct laryngoscopy and esophagoscopy to exclude a simultaneous second primary cancer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Once cancer is confirmed, do head and neck CT and a chest x-ray or PET/CT.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Initial treatment is usually surgical.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;more-information&quot;&gt;更多信息（More Information）&lt;/h2&gt;
-
-&lt;p&gt;美国国立癌症研究院的总结（National Cancer Institute’s Summary） &lt;a href=&quot;http://www.cancer.gov/cancertopics/pdq/treatment/lip-and-oral-cavity/HealthProfessional&quot;&gt;《Lip and Oral Cavity Cancer Treatment》&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;链接&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.merckmanuals.com/professional/ear,-nose,-and-throat-disorders/tumors-of-the-head-and-neck/oral-squamous-cell-carcinoma&quot;&gt;Oral Squamous Cell Carcinoma&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 20 Nov 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/11/20/oralSCC-merck.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/11/20/oralSCC-merck.html</guid>
         
         <category>medi</category>
         
