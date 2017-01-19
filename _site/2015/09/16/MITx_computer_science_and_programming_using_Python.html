@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Edx-Python学习笔记</title>
-  <meta name="description" content="Lecture 1: Introduction to computation">
+  <meta name="description" content="听课笔记">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="zjuwhw.github.io/2015/09/16/MITx_computer_science_and_programming_using_Python.html">
@@ -78,173 +78,133 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h1 id="lecture-1-introduction-to-computation">Lecture 1: Introduction to computation</h1>
+    <h2 id="section">听课笔记</h2>
 
-<h2 id="introduction">1.1 Introduction</h2>
+<h3 id="lecture-1-introduction-to-computation">Lecture 1: Introduction to computation</h3>
 
-<h2 id="basics-of-computation">1.2 Basics of Computation</h2>
+<h4 id="introduction">1.1 Introduction</h4>
+
+<h4 id="basics-of-computation">1.2 Basics of Computation</h4>
 
 <ul>
   <li>What does a computer do?
-    <ol>
+    <ul>
       <li>Fundamentally a computer: (1) Performs calculations; (2) Remember the results</li>
       <li>Calculation is: (1) Built in primitives; (2) Creating our own methods of calculations</li>
-    </ol>
+    </ul>
   </li>
   <li>So are ther limits?
-    <ol>
+    <ul>
       <li>Some problems still too complex</li>
       <li>Some problems are fundamentally impossible to compute</li>
-    </ol>
+    </ul>
   </li>
 </ul>
 
-<h2 id="types-of-knowledge">1.3 Types of Knowledge</h2>
+<h4 id="types-of-knowledge">1.3 Types of Knowledge</h4>
 
 <ul>
-  <li>
-    <p>Declarative knowledge: statments of facts</p>
-  </li>
-  <li>
-    <p>Imperative knowledge: “how to” methods or recipes</p>
-  </li>
+  <li>Declarative knowledge: statments of facts</li>
+  <li>Imperative knowledge: “how to” methods or recipes</li>
 </ul>
 
-<h2 id="basic-machine-architecture">1.4 Basic Machine Architecture</h2>
+<h4 id="basic-machine-architecture">1.4 Basic Machine Architecture</h4>
 
 <ul>
-  <li>
-    <p>Fixed Program Computers</p>
-  </li>
-  <li>
-    <p>Stored Program Computers</p>
-  </li>
-  <li>
-    <p>What are the basic primitives?</p>
-    <ol>
+  <li>Fixed Program Computers</li>
+  <li>Stored Program Computers</li>
+  <li>What are the basic primitives?
+    <ul>
       <li>Turning shows that using six primitives, can compute anything. (Truning complete)</li>
       <li>Fortunately, modern programming languages have a more convenient set of primitives.</li>
       <li>Also have ways to abstract methods to create new “primitives”.</li>
       <li>But anything computable in one language is computable in any other programming language</li>
-    </ol>
+    </ul>
   </li>
 </ul>
 
-<h2 id="programming-language-characteristics">1.5 Programming language characteristics</h2>
+<h4 id="programming-language-characteristics">1.5 Programming language characteristics</h4>
 
 <ul>
-  <li>
-    <p>Primitive constructs</p>
-  </li>
-  <li>
-    <p>Syntax</p>
-  </li>
-  <li>
-    <p>Static semantics</p>
-  </li>
-  <li>
-    <p>Semantics</p>
-  </li>
+  <li>Primitive constructs</li>
+  <li>Syntax</li>
+  <li>Static semantics</li>
+  <li>Semantics</li>
 </ul>
 
-<h1 id="lecture-2-core-elements-of-programs">Lecture 2: Core Elements of Programs</h1>
+<h3 id="lecture-2-core-elements-of-programs">Lecture 2: Core Elements of Programs</h3>
 
-<h2 id="introduction-1">2.1 Introduction</h2>
+<h4 id="introduction-1">2.1 Introduction</h4>
 
-<h2 id="types-of-programming-languages">2.2 Types of Programming languages</h2>
+<h4 id="types-of-programming-languages">2.2 Types of Programming languages</h4>
 
 <ul>
   <li>Options for programming languages:
-    <ol>
+    <ul>
       <li>Source code -&gt; checker -&gt; interpreter -&gt; output</li>
       <li>Source code -&gt; checker -&gt; compiler -&gt; object code -&gt; interpreter -&gt; output</li>
-    </ol>
+    </ul>
   </li>
-  <li>
-    <p>Low level: Source code (low level) -&gt; checker -&gt; interpreter -&gt; output</p>
-  </li>
-  <li>
-    <p>High level (compiled language): Source code (high level) -&gt; checker -&gt; compiler -&gt; object code (low level) -&gt; interpreter -&gt; output</p>
-  </li>
+  <li>Low level: Source code (low level) -&gt; checker -&gt; interpreter -&gt; output</li>
+  <li>High level (compiled language): Source code (high level) -&gt; checker -&gt; compiler -&gt; object code (low level) -&gt; interpreter -&gt; output</li>
   <li>High level (interpreted language, such as Python): Source code (high level) -&gt; checker -&gt; interpreter -&gt; output</li>
 </ul>
 
-<h2 id="python-objects">2.3 Python objects</h2>
+<h4 id="python-objects">2.3 Python objects</h4>
 
 <ul>
   <li>Python programs
-    <ol>
+    <ul>
       <li>Program (or script) is a sequence of definitions and commands</li>
       <li>Command (or statement) instructs interpreter to do something</li>
-    </ol>
+    </ul>
   </li>
   <li>Objects
-    <ol>
+    <ul>
       <li>Each object has a <strong>type</strong> that dfeines the kind of things programs can do to it</li>
       <li>Objecst are: (1) Scalar (<em>i.e.</em> cannot be subdivided); (2) Non-scalr (<em>i.e.</em> have internal structure that can be accessed)</li>
-    </ol>
+    </ul>
   </li>
   <li>Scalr objects
-    <ol>
+    <ul>
       <li>int</li>
       <li>float</li>
       <li>bool - Boolean values</li>
-    </ol>
+    </ul>
   </li>
-  <li>
-    <p>Expressions: [object] [operator] [object]</p>
-  </li>
-  <li>
-    <p>Operators on ints and floats: +, -, *, /, %, **</p>
-  </li>
-  <li>
-    <p>Comparison operators on ints and floats: &gt;, &gt;=, &lt;, &lt;=, ==, !=</p>
-  </li>
-  <li>
-    <p>Operators on bools: and, or, not</p>
-  </li>
+  <li>Expressions: [object] [operator] [object]</li>
+  <li>Operators on ints and floats: +, -, *, /, %, **</li>
+  <li>Comparison operators on ints and floats: &gt;, &gt;=, &lt;, &lt;=, ==, !=</li>
+  <li>Operators on bools: and, or, not</li>
   <li>Type conversions (type casting): float(3), int(3.9)</li>
 </ul>
 
-<h2 id="variables-and-naming">2.4 Variables and Naming</h2>
+<h4 id="variables-and-naming">2.4 Variables and Naming</h4>
 
 <ul>
   <li>assignment: binding variables and values</li>
 </ul>
 
-<h2 id="strings">2.5 Strings</h2>
+<h4 id="strings">2.5 Strings</h4>
 
 <ul>
-  <li>
-    <p>non-scalar objects</p>
-  </li>
-  <li>
-    <p>Extracting parts of strings: indexing and slicing</p>
-  </li>
+  <li>non-scalar objects</li>
+  <li>Extracting parts of strings: indexing and slicing</li>
 </ul>
 
-<h2 id="simple-scripts">2.6 Simple Scripts</h2>
+<h4 id="simple-scripts">2.6 Simple Scripts</h4>
 
 <ul>
-  <li>
-    <p>statements (not expressions): <em>print()</em>, <em>raw_input()</em></p>
-  </li>
-  <li>
-    <p>Comments appear after #</p>
-  </li>
+  <li>statements (not expressions): <em>print()</em>, <em>raw_input()</em></li>
+  <li>Comments appear after #</li>
 </ul>
 
-<h2 id="branching-programs">2.7 Branching Programs</h2>
+<h4 id="branching-programs">2.7 Branching Programs</h4>
 
 <ul>
-  <li>
-    <p>Branching programs: the simplest one is a <strong>conditional</strong></p>
-  </li>
-  <li>
-    <p>The indentation is important.</p>
-  </li>
-  <li>
-    <p>What have we added?</p>
+  <li>Branching programs: the simplest one is a <strong>conditional</strong></li>
+  <li>The indentation is important.</li>
+  <li>What have we added?
     <ol>
       <li>Branching programs allow us to make choices and do different things</li>
       <li>But still the case that at most, each statement gets executed once.</li>
@@ -254,23 +214,135 @@
   </li>
 </ul>
 
-<h1 id="lecture-3-simple-algorithms">Lecture 3: Simple Algorithms</h1>
+<h2 id="list-of-lecture-topics">List of Lecture Topics</h2>
 
-<h2 id="introduction-2">3.1 Introduction</h2>
-
-<h2 id="iteration">3.2 Iteration</h2>
-
-<h2 id="guess-and-check-algorithm">3.3 Guess and check algorithm</h2>
-
-<h2 id="loop-mechanisms">3.4 Loop mechanisms</h2>
-
-<h2 id="floating-point-accuracy">3.5 Floating point accuracy</h2>
-
-<h2 id="approximate-methods">3.6 Approximate methods</h2>
-
-<h2 id="bisection-search">3.7 Bisection search</h2>
-
-<h2 id="newton-paphson-root-finding">3.8 Newton-Paphson root finding</h2>
+<ul>
+  <li>Introduction to Python
+    <ul>
+      <li>Knowledge</li>
+      <li>Machines</li>
+      <li>Languages</li>
+      <li>Types</li>
+      <li>Variables</li>
+      <li>Operators and Branching</li>
+    </ul>
+  </li>
+  <li>Core elements of programs
+    <ul>
+      <li>Bindings</li>
+      <li>Strings</li>
+      <li>Input/Output</li>
+      <li>IDEs</li>
+      <li>Control Flow</li>
+      <li>Iteration</li>
+      <li>Guess and Check</li>
+    </ul>
+  </li>
+  <li>Simpel Programs
+    <ul>
+      <li>Approximate Soulutions</li>
+      <li>Bisection Search</li>
+      <li>Floats and Fractions</li>
+      <li>Newton-Raphson</li>
+    </ul>
+  </li>
+  <li>Functions
+    <ul>
+      <li>Decomposition and Abstraction</li>
+      <li>Functions and Scope</li>
+      <li>Keyword Arguments</li>
+      <li>Specifications</li>
+      <li>Iteration vs Recursion</li>
+      <li>Inductive Reasoning</li>
+      <li>Towers of Hanoi</li>
+      <li>Fibonacci</li>
+      <li>Reucrsion on non-numerics</li>
+      <li>Files</li>
+    </ul>
+  </li>
+  <li>Tuples and Lists
+    <ul>
+      <li>Tuples</li>
+      <li>Lists</li>
+      <li>List Operations</li>
+      <li>Mutation, Aliasing, Cloning</li>
+    </ul>
+  </li>
+  <li>Dictionaries
+    <ul>
+      <li>Functions as Objects</li>
+      <li>Dictionaries</li>
+      <li>Example with a Dictionary</li>
+      <li>Fibonacci and Dictionaries</li>
+      <li>Global Variables</li>
+    </ul>
+  </li>
+  <li>Debugging
+    <ul>
+      <li>Programming Challenges</li>
+      <li>Classes of Tests</li>
+      <li>Bugs</li>
+      <li>Debugging</li>
+      <li>Debugging Examples</li>
+    </ul>
+  </li>
+  <li>Assertions and Exceptions
+    <ul>
+      <li>Assertions</li>
+      <li>Exceptions</li>
+      <li>Exception Example</li>
+    </ul>
+  </li>
+  <li>Classes and Inheritance
+    <ul>
+      <li>Object Oriented Programming</li>
+      <li>Class Instances</li>
+      <li>Methods</li>
+      <li>Classes Examples</li>
+      <li>Why OOP</li>
+      <li>Hierarchies</li>
+      <li>Your Own Types</li>
+    </ul>
+  </li>
+  <li>An Extened Example
+    <ul>
+      <li>Building a Class</li>
+      <li>Viualizing the Hierarchy</li>
+      <li>Adding another Class</li>
+      <li>Using Inherited Methods</li>
+      <li>Gradebook Example</li>
+      <li>Generators</li>
+    </ul>
+  </li>
+  <li>Computational Complexity
+    <ul>
+      <li>Program Efficiency</li>
+      <li>Big Oh Notation</li>
+      <li>Complexity Classes</li>
+      <li>Analyzing Complexity</li>
+    </ul>
+  </li>
+  <li>Searching and Sorting Algorithms
+    <ul>
+      <li>Indirection</li>
+      <li>Linear Search</li>
+      <li>Bisection Search</li>
+      <li>Bogo and Bubble Sort</li>
+      <li>Selection Sort</li>
+      <li>Merge Sort</li>
+    </ul>
+  </li>
+  <li>Visualization of Data
+    <ul>
+      <li>Visualizing Results</li>
+      <li>Overlapping Displays</li>
+      <li>Adding More Documentation</li>
+      <li>Changing Data Display</li>
+      <li>An Example</li>
+    </ul>
+  </li>
+  <li>Summary</li>
+</ul>
 
 <p>Notes for the <a href="www.edx.org">edx</a> course <a href="https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5">Introduction to Computer Science and Programming Using Python</a></p>
 
