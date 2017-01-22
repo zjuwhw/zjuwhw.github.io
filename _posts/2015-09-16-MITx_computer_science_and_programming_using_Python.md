@@ -184,16 +184,18 @@ tags: [cs, mooc]
 	- Non-scalr: have internal structure that can be accessed)
 
 ##### Scalr objects
+
 - int
 - float
 - bool 
 - NoneType
 
 ##### Expressions（表达式）
+
 - Expressions: combine objects and operators
-- syntax for a simple expression: <object> <operator> <object>
-	- Operators on ints and floats: +, -, *, /, %, **
-	- Comparison operators on ints and floats: >, >=, <, <=, ==, !=
+- syntax for a simple expression: `<object> <operator> <object>`
+	- Operators on ints and floats: `+`,` -`, `*`, `/`, `%`, `**`
+	- Comparison operators on ints and floats: `>`, `>=`, `<`, `<=`, `==`, `!=`
 	- Operators on bools: and, or, not
 - operator precedence（优先级） without parentheses（括号）：`**`, `*`, `/`, `+ and -` executed left to right, as appear in expression 
 
