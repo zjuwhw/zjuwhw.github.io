@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Edx-Python学习笔记</title>
-  <meta name="description" content="听课笔记">
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="zjuwhw.github.io/2015/09/16/MITx_computer_science_and_programming_using_Python.html">
@@ -78,139 +78,34 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h2 id="section">听课笔记</h2>
-
-<h3 id="lecture-1-introduction-to-computation">Lecture 1: Introduction to computation</h3>
-
-<h4 id="introduction">1.1 Introduction</h4>
-
-<h4 id="basics-of-computation">1.2 Basics of Computation</h4>
-
-<ul>
-  <li>What does a computer do?
-    <ul>
-      <li>Fundamentally a computer: (1) Performs calculations; (2) Remember the results</li>
-      <li>Calculation is: (1) Built in primitives; (2) Creating our own methods of calculations</li>
+    <ul id="markdown-toc">
+  <li><a href="#list-of-lecture-topics" id="markdown-toc-list-of-lecture-topics">List of Lecture Topics</a></li>
+  <li><a href="#section" id="markdown-toc-section">听课笔记</a>    <ul>
+      <li><a href="#lecture-1-introduction-to-python" id="markdown-toc-lecture-1-introduction-to-python">Lecture 1: Introduction to python</a>        <ul>
+          <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
+          <li><a href="#basics-of-computation" id="markdown-toc-basics-of-computation">Basics of Computation</a></li>
+          <li><a href="#knowledge" id="markdown-toc-knowledge">Knowledge</a></li>
+          <li><a href="#machine" id="markdown-toc-machine">Machine</a></li>
+          <li><a href="#language" id="markdown-toc-language">language</a>            <ul>
+              <li><a href="#aspects-of-languages" id="markdown-toc-aspects-of-languages">ASPECTS OF LANGUAGES</a></li>
+              <li><a href="#errors" id="markdown-toc-errors">ERRORS</a></li>
+            </ul>
+          </li>
+          <li><a href="#types" id="markdown-toc-types">Types</a></li>
+          <li><a href="#python-objects" id="markdown-toc-python-objects">Python objects</a>            <ul>
+              <li><a href="#python-programs" id="markdown-toc-python-programs">Python programs</a></li>
+              <li><a href="#objects" id="markdown-toc-objects">Objects（对象）</a></li>
+              <li><a href="#scalr-objects" id="markdown-toc-scalr-objects">Scalr objects</a></li>
+              <li><a href="#expressions" id="markdown-toc-expressions">Expressions（表达式）</a></li>
+            </ul>
+          </li>
+          <li><a href="#variables-and-naming" id="markdown-toc-variables-and-naming">2.4 Variables and Naming</a></li>
+          <li><a href="#strings" id="markdown-toc-strings">2.5 Strings</a></li>
+          <li><a href="#simple-scripts" id="markdown-toc-simple-scripts">2.6 Simple Scripts</a></li>
+          <li><a href="#branching-programs" id="markdown-toc-branching-programs">2.7 Branching Programs</a></li>
+        </ul>
+      </li>
     </ul>
-  </li>
-  <li>So are ther limits?
-    <ul>
-      <li>Some problems still too complex</li>
-      <li>Some problems are fundamentally impossible to compute</li>
-    </ul>
-  </li>
-</ul>
-
-<h4 id="types-of-knowledge">1.3 Types of Knowledge</h4>
-
-<ul>
-  <li>Declarative knowledge: statments of facts</li>
-  <li>Imperative knowledge: “how to” methods or recipes</li>
-</ul>
-
-<h4 id="basic-machine-architecture">1.4 Basic Machine Architecture</h4>
-
-<ul>
-  <li>Fixed Program Computers</li>
-  <li>Stored Program Computers</li>
-  <li>What are the basic primitives?
-    <ul>
-      <li>Turning shows that using six primitives, can compute anything. (Truning complete)</li>
-      <li>Fortunately, modern programming languages have a more convenient set of primitives.</li>
-      <li>Also have ways to abstract methods to create new “primitives”.</li>
-      <li>But anything computable in one language is computable in any other programming language</li>
-    </ul>
-  </li>
-</ul>
-
-<h4 id="programming-language-characteristics">1.5 Programming language characteristics</h4>
-
-<ul>
-  <li>Primitive constructs</li>
-  <li>Syntax</li>
-  <li>Static semantics</li>
-  <li>Semantics</li>
-</ul>
-
-<h3 id="lecture-2-core-elements-of-programs">Lecture 2: Core Elements of Programs</h3>
-
-<h4 id="introduction-1">2.1 Introduction</h4>
-
-<h4 id="types-of-programming-languages">2.2 Types of Programming languages</h4>
-
-<ul>
-  <li>Options for programming languages:
-    <ul>
-      <li>Source code -&gt; checker -&gt; interpreter -&gt; output</li>
-      <li>Source code -&gt; checker -&gt; compiler -&gt; object code -&gt; interpreter -&gt; output</li>
-    </ul>
-  </li>
-  <li>Low level: Source code (low level) -&gt; checker -&gt; interpreter -&gt; output</li>
-  <li>High level (compiled language): Source code (high level) -&gt; checker -&gt; compiler -&gt; object code (low level) -&gt; interpreter -&gt; output</li>
-  <li>High level (interpreted language, such as Python): Source code (high level) -&gt; checker -&gt; interpreter -&gt; output</li>
-</ul>
-
-<h4 id="python-objects">2.3 Python objects</h4>
-
-<ul>
-  <li>Python programs
-    <ul>
-      <li>Program (or script) is a sequence of definitions and commands</li>
-      <li>Command (or statement) instructs interpreter to do something</li>
-    </ul>
-  </li>
-  <li>Objects
-    <ul>
-      <li>Each object has a <strong>type</strong> that dfeines the kind of things programs can do to it</li>
-      <li>Objecst are: (1) Scalar (<em>i.e.</em> cannot be subdivided); (2) Non-scalr (<em>i.e.</em> have internal structure that can be accessed)</li>
-    </ul>
-  </li>
-  <li>Scalr objects
-    <ul>
-      <li>int</li>
-      <li>float</li>
-      <li>bool - Boolean values</li>
-    </ul>
-  </li>
-  <li>Expressions: [object] [operator] [object]</li>
-  <li>Operators on ints and floats: +, -, *, /, %, **</li>
-  <li>Comparison operators on ints and floats: &gt;, &gt;=, &lt;, &lt;=, ==, !=</li>
-  <li>Operators on bools: and, or, not</li>
-  <li>Type conversions (type casting): float(3), int(3.9)</li>
-</ul>
-
-<h4 id="variables-and-naming">2.4 Variables and Naming</h4>
-
-<ul>
-  <li>assignment: binding variables and values</li>
-</ul>
-
-<h4 id="strings">2.5 Strings</h4>
-
-<ul>
-  <li>non-scalar objects</li>
-  <li>Extracting parts of strings: indexing and slicing</li>
-</ul>
-
-<h4 id="simple-scripts">2.6 Simple Scripts</h4>
-
-<ul>
-  <li>statements (not expressions): <em>print()</em>, <em>raw_input()</em></li>
-  <li>Comments appear after #</li>
-</ul>
-
-<h4 id="branching-programs">2.7 Branching Programs</h4>
-
-<ul>
-  <li>Branching programs: the simplest one is a <strong>conditional</strong></li>
-  <li>The indentation is important.</li>
-  <li>What have we added?
-    <ol>
-      <li>Branching programs allow us to make choices and do different things</li>
-      <li>But still the case that at most, each statement gets executed once.</li>
-      <li>So maximum time to run the program depends only on the length of the program.</li>
-      <li>These programs run in constant time</li>
-    </ol>
   </li>
 </ul>
 
@@ -219,12 +114,12 @@
 <ul>
   <li>Introduction to Python
     <ul>
-      <li>Knowledge</li>
-      <li>Machines</li>
-      <li>Languages</li>
-      <li>Types</li>
-      <li>Variables</li>
-      <li>Operators and Branching</li>
+      <li>Knowledge（知识）</li>
+      <li>Machines（机器）</li>
+      <li>Languages（语言）</li>
+      <li>Types（类型）</li>
+      <li>Variables（变量）</li>
+      <li>Operators（操作符）and Branching</li>
     </ul>
   </li>
   <li>Core elements of programs
@@ -238,7 +133,7 @@
       <li>Guess and Check</li>
     </ul>
   </li>
-  <li>Simpel Programs
+  <li>Simple Programs
     <ul>
       <li>Approximate Soulutions</li>
       <li>Bisection Search</li>
@@ -342,6 +237,191 @@
     </ul>
   </li>
   <li>Summary</li>
+</ul>
+
+<h2 id="section">听课笔记</h2>
+
+<h3 id="lecture-1-introduction-to-python">Lecture 1: Introduction to python</h3>
+
+<h4 id="introduction">Introduction</h4>
+
+<ul>
+  <li>topics:
+    <ul>
+      <li>represent knowledge with <strong>data structures（数据结构）</strong></li>
+      <li><strong>iteration and recursion（迭代和递归）</strong> as computational metaphors</li>
+      <li><strong>organize and modularize（组织和模块化）</strong> systems using object classes and methods</li>
+      <li>different classes of <strong>algorithms（算法）</strong>, searching and sorting</li>
+      <li><strong>complexity（复杂性）</strong> of algorithms</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="basics-of-computation">Basics of Computation</h4>
+
+<ul>
+  <li>What does a computer do?
+    <ul>
+      <li>Fundamentally a computer: (1) Performs calculations; (2) Remember the results</li>
+      <li>Calculation is: (1) Built-in primitives; (2) Creating our own methods of calculations</li>
+    </ul>
+  </li>
+  <li>So are ther limits?
+    <ul>
+      <li>Some problems still too complex</li>
+      <li>Some problems are fundamentally impossible to compute</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="knowledge">Knowledge</h4>
+
+<ul>
+  <li>Declarative knowledge（叙述性知识）: statments of facts</li>
+  <li>Imperative knowledge（过程式知识）: “how to” methods or recipes（菜谱）
+    <ul>
+      <li>sequence of simple <strong>steps</strong></li>
+      <li><strong>flow of control</strong> process that specifies when each step is executed</li>
+      <li>a means of determining <strong>when to stop</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="machine">Machine</h4>
+
+<ul>
+  <li>Fixed Program Computers（固定程序计算机）: calculator, Alan Turing’s Bombe and etc.</li>
+  <li>Stored Program Computers（储存程序计算机）</li>
+  <li>What are the basic primitives（基元）?
+    <ul>
+      <li>Turning shows that using six primitives, can compute anything. (Truning complete)</li>
+      <li>Fortunately, modern programming languages have a more convenient set of primitives.</li>
+      <li>can <strong>abstract（抽象）</strong> methods to create new “primitives”.</li>
+      <li>But anything computable in one language is computable in any other programming language</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="language">language</h4>
+
+<ul>
+  <li>primitive operations（操作）</li>
+  <li>expressions（表达式）</li>
+  <li>values（值）</li>
+</ul>
+
+<h5 id="aspects-of-languages">ASPECTS OF LANGUAGES</h5>
+
+<ul>
+  <li>Primitive constructs（基元构建）:numbers, strings, simple operators</li>
+  <li>Syntax（语法）</li>
+  <li>Static semantics（静态语义）</li>
+  <li>Semantics（语义）：programming languages have only one meaning but may not be what programmer intended</li>
+</ul>
+
+<h5 id="errors">ERRORS</h5>
+
+<ul>
+  <li><strong>syntatic errors（语法错误）</strong></li>
+  <li><strong>static semantic errors（静态语义错误）</strong></li>
+  <li>no semantic errors but <strong>different meaning than what programmer intended</strong>
+    <ul>
+      <li>program crashes, stops running</li>
+      <li>program runs forever</li>
+      <li>program gives an answer but different than expected</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="types">Types</h4>
+
+<ul>
+  <li>Options for programming languages:
+    <ul>
+      <li>Source code -&gt; checker -&gt; interpreter -&gt; output</li>
+      <li>Source code -&gt; checker -&gt; compiler -&gt; object code -&gt; interpreter -&gt; output</li>
+    </ul>
+  </li>
+  <li>Low level: Source code (low level) -&gt; checker -&gt; interpreter -&gt; output</li>
+  <li>High level (compiled language): Source code (high level) -&gt; checker -&gt; compiler -&gt; object code (low level) -&gt; interpreter -&gt; output</li>
+  <li>High level (interpreted language, such as Python): Source code (high level) -&gt; checker -&gt; interpreter -&gt; output</li>
+</ul>
+
+<h4 id="python-objects">Python objects</h4>
+
+<h5 id="python-programs">Python programs</h5>
+
+<ul>
+  <li><strong>Program</strong> is a sequence of <strong>definitions</strong> and <strong>commands</strong></li>
+  <li><strong>Command</strong> (or statement) instructs interpreter（解释器） to do something</li>
+</ul>
+
+<h5 id="objects">Objects（对象）</h5>
+<ul>
+  <li>programs manipulate <strong>data objects</strong></li>
+  <li>objects have a <strong>type</strong> that dfeines the kind of things programs can do to it</li>
+  <li>Objecst are:
+    <ul>
+      <li>Scalar: cannot be subdivided</li>
+      <li>Non-scalr: have internal structure that can be accessed)</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="scalr-objects">Scalr objects</h5>
+<ul>
+  <li>int</li>
+  <li>float</li>
+  <li>bool</li>
+  <li>NoneType</li>
+</ul>
+
+<h5 id="expressions">Expressions（表达式）</h5>
+<ul>
+  <li>Expressions: combine objects and operators</li>
+  <li>syntax for a simple expression: <object> <operator> <object>
+</object></operator></object>    <ul>
+      <li>Operators on ints and floats: +, -, *, /, %, **</li>
+      <li>Comparison operators on ints and floats: &gt;, &gt;=, &lt;, &lt;=, ==, !=</li>
+      <li>Operators on bools: and, or, not</li>
+    </ul>
+  </li>
+  <li>operator precedence（优先级） without parentheses（括号）：<code class="highlighter-rouge">**</code>, <code class="highlighter-rouge">*</code>, <code class="highlighter-rouge">/</code>, <code class="highlighter-rouge">+ and -</code> executed left to right, as appear in expression</li>
+</ul>
+
+<h4 id="variables-and-naming">2.4 Variables and Naming</h4>
+
+<ul>
+  <li>assignment: binding variables and values</li>
+</ul>
+
+<h4 id="strings">2.5 Strings</h4>
+
+<ul>
+  <li>non-scalar objects</li>
+  <li>Extracting parts of strings: indexing and slicing</li>
+</ul>
+
+<h4 id="simple-scripts">2.6 Simple Scripts</h4>
+
+<ul>
+  <li>statements (not expressions): <em>print()</em>, <em>raw_input()</em></li>
+  <li>Comments appear after #</li>
+</ul>
+
+<h4 id="branching-programs">2.7 Branching Programs</h4>
+
+<ul>
+  <li>Branching programs: the simplest one is a <strong>conditional</strong></li>
+  <li>The indentation is important.</li>
+  <li>What have we added?
+    <ol>
+      <li>Branching programs allow us to make choices and do different things</li>
+      <li>But still the case that at most, each statement gets executed once.</li>
+      <li>So maximum time to run the program depends only on the length of the program.</li>
+      <li>These programs run in constant time</li>
+    </ol>
+  </li>
 </ul>
 
 <p>Notes for the <a href="www.edx.org">edx</a> course <a href="https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5">Introduction to Computer Science and Programming Using Python</a></p>
