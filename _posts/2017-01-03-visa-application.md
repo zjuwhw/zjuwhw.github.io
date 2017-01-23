@@ -77,7 +77,7 @@ tags: ["career"]
 2. 学生签证（500类）：	[Student visa (subclass 500)](http://www.border.gov.au/Trav/Visa-1/500-)，此页面包含了两个很好的工具：
 	- Document Checklist Tool
 	- Estimate the cost of your visa
-3. Immi账号：[ImmiAccount](http://www.border.gov.au/Trav/Visa/Immi)
+3. Immi账号：[ImmiAccount](http://www.border.gov.au/Trav/Visa/Immi)页面和[登陆](https://online.immi.gov.au/lusc/login)页面
 4. 健康要求：[Overview of the health requirement](http://www.border.gov.au/Trav/Visa/Heal/overview-of-the-health-requirement)
 5. 提前体检：[my health declarations](http://www.border.gov.au/Trav/Visa/Heal/meeting-the-health-requirement/health-examinations/my-health-declarations)
 6. 安排体检：[Arranging a health examination](http://www.border.gov.au/Trav/Visa/Heal/meeting-the-health-requirement/arranging-a-health-examination)
