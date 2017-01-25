@@ -99,10 +99,10 @@
               <li><a href="#expressions" id="markdown-toc-expressions">Expressions（表达式）</a></li>
             </ul>
           </li>
-          <li><a href="#variables-and-naming" id="markdown-toc-variables-and-naming">2.4 Variables and Naming</a></li>
+          <li><a href="#variables" id="markdown-toc-variables">Variables（变量）</a></li>
+          <li><a href="#operators-and-branching" id="markdown-toc-operators-and-branching">Operators and Branching</a></li>
           <li><a href="#strings" id="markdown-toc-strings">2.5 Strings</a></li>
           <li><a href="#simple-scripts" id="markdown-toc-simple-scripts">2.6 Simple Scripts</a></li>
-          <li><a href="#branching-programs" id="markdown-toc-branching-programs">2.7 Branching Programs</a></li>
         </ul>
       </li>
     </ul>
@@ -119,7 +119,7 @@
       <li>Languages（语言）</li>
       <li>Types（类型）</li>
       <li>Variables（变量）</li>
-      <li>Operators（操作符）and Branching</li>
+      <li>Operators（操作符）and Branching（FLow of Control）</li>
     </ul>
   </li>
   <li>Core elements of programs
@@ -391,10 +391,33 @@
   <li>operator precedence（优先级） without parentheses（括号）：<code class="highlighter-rouge">**</code>, <code class="highlighter-rouge">*</code>, <code class="highlighter-rouge">/</code>, <code class="highlighter-rouge">+ and -</code> executed left to right, as appear in expression</li>
 </ul>
 
-<h4 id="variables-and-naming">2.4 Variables and Naming</h4>
+<h4 id="variables">Variables（变量）</h4>
 
 <ul>
-  <li>assignment: binding variables and values</li>
+  <li><strong>assignment</strong>: binding <strong>variables</strong> and <strong>values</strong></li>
+  <li>BINDING VARIABLES AND VALUES
+    <ul>
+      <li><strong>reuse names</strong> instead of values</li>
+      <li><strong>easier to change</strong> code later</li>
+    </ul>
+  </li>
+  <li>value on the right and name on the left</li>
+</ul>
+
+<h4 id="operators-and-branching">Operators and Branching</h4>
+
+<ul>
+  <li>Branching programs（程序分块）: the simplest one is a <strong>conditional</strong>
+    <ul>
+      <li>a test expression</li>
+      <li>true bblock</li>
+      <li>false block (optional)</li>
+    </ul>
+  </li>
+  <li>NESTED（嵌套） CONDITIONALS</li>
+  <li>Indentation（缩进） is important</li>
+  <li><code class="highlighter-rouge">=</code> vs <code class="highlighter-rouge">==</code></li>
+  <li>Priority order of Boolean opersations: <code class="highlighter-rouge">parentheses</code>, <code class="highlighter-rouge">not</code> statements, <code class="highlighter-rouge">and</code> statements, <code class="highlighter-rouge">or</code> statements</li>
 </ul>
 
 <h4 id="strings">2.5 Strings</h4>
@@ -409,21 +432,6 @@
 <ul>
   <li>statements (not expressions): <em>print()</em>, <em>raw_input()</em></li>
   <li>Comments appear after #</li>
-</ul>
-
-<h4 id="branching-programs">2.7 Branching Programs</h4>
-
-<ul>
-  <li>Branching programs: the simplest one is a <strong>conditional</strong></li>
-  <li>The indentation is important.</li>
-  <li>What have we added?
-    <ol>
-      <li>Branching programs allow us to make choices and do different things</li>
-      <li>But still the case that at most, each statement gets executed once.</li>
-      <li>So maximum time to run the program depends only on the length of the program.</li>
-      <li>These programs run in constant time</li>
-    </ol>
-  </li>
 </ul>
 
 <p>Notes for the <a href="www.edx.org">edx</a> course <a href="https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5">Introduction to Computer Science and Programming Using Python</a></p>

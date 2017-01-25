@@ -16,7 +16,7 @@ tags: [cs, mooc]
 	- Languages（语言）
 	- Types（类型）
 	- Variables（变量）
-	- Operators（操作符）and Branching
+	- Operators（操作符）and Branching（FLow of Control）
 - Core elements of programs
 	- Bindings
 	- Strings
@@ -199,9 +199,24 @@ tags: [cs, mooc]
 	- Operators on bools: and, or, not
 - operator precedence（优先级） without parentheses（括号）：`**`, `*`, `/`, `+ and -` executed left to right, as appear in expression 
 
-#### 2.4 Variables and Naming
+#### Variables（变量）
 
-- assignment: binding variables and values
+- **assignment**: binding **variables** and **values**
+- BINDING VARIABLES AND VALUES
+	- **reuse names** instead of values
+	- **easier to change** code later
+- value on the right and name on the left
+
+#### Operators and Branching
+
+- Branching programs（程序分块）: the simplest one is a **conditional**
+	- a test expression
+	- true bblock
+	- false block (optional)
+- NESTED（嵌套） CONDITIONALS
+- Indentation（缩进） is important
+- `=` vs `==`
+- Priority order of Boolean opersations: `parentheses`, `not` statements, `and` statements, `or` statements
 
 #### 2.5 Strings
 
@@ -213,15 +228,7 @@ tags: [cs, mooc]
 - statements (not expressions): *print()*, *raw_input()*
 - Comments appear after #
 
-#### 2.7 Branching Programs
 
-- Branching programs: the simplest one is a **conditional**
-- The indentation is important.
-- What have we added?
-	1. Branching programs allow us to make choices and do different things
-	2. But still the case that at most, each statement gets executed once.
-	3. So maximum time to run the program depends only on the length of the program.
-	4. These programs run in constant time
 
 
 
