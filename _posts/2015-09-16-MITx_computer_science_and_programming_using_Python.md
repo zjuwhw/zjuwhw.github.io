@@ -18,13 +18,13 @@ tags: [cs, mooc]
 	- Variables（变量）
 	- Operators（操作符）and Branching（FLow of Control）
 - Core elements of programs
-	- Bindings
-	- Strings
-	- Input/Output
-	- IDEs
-	- Control Flow
-	- Iteration
-	- Guess and Check
+	- Bindings（赋值）
+	- Strings（字符串）
+	- Input/Output（输入/输出）
+	- IDEs（集成开发环境）
+	- Control Flow（控制流）
+	- Iteration（循环）
+	- Guess and Check（猜测和检查）
 - Simple Programs
 	- Approximate Soulutions
 	- Bisection Search
@@ -218,15 +218,103 @@ tags: [cs, mooc]
 - `=` vs `==`
 - Priority order of Boolean opersations: `parentheses`, `not` statements, `and` statements, `or` statements
 
-#### 2.5 Strings
+### Lecture 2: Core elements of programs
 
-- non-scalar objects
-- Extracting parts of strings: indexing and slicing
+#### Bindings
 
-#### 2.6 Simple Scripts
+- right hand side --> value
+- left hand side --> variable
+- left hand side will be replaced with new value
+- `=` is called assignment
 
-- statements (not expressions): *print()*, *raw_input()*
-- Comments appear after #
+#### [Strings](https://docs.python.org/3/tutorial/introduction.html#strings)
+
+- quotation marks or single quotes
+
+##### operations on stings
+
+- concatenation（连接）: ‘ab’ + 'cd'
+- successive concatenation: 3* 'eric'
+- the length: len('eric')
+- indexing（索引）: 'eric'[1]
+- slicing（切片）: 'eric'[1:3]
+	- extracts sequence starting at first index, and ending before second index
+	- if no value before `:`, start at 0
+	- if no value after `:`, end at length
+	- if just `:`, make a copy of entire sequence
+
+#### Input/Output
+
+- `print`
+- `input("")`, return a string
+
+#### IDEs
+
+- IDE: integrated development environment
+	- text editor
+	- shell
+	- integrated debugger
+
+#### Control Flow
+
+- comparison operators on int and float: 
+	- `>`
+	- `<`
+	- `>=`
+	- `<=`
+	- `==`
+	- `!=`
+- logic operators on bools: 
+	- `not a`
+	- `a and b`
+	- `a or b`
+- `if ... elif ... else ...`
+
+##### Control FLow: `while` loops
+
+```
+while <condition>:
+	<expression>
+	<expression>
+```
+
+repeat until <contidtion> is False
+
+##### Control FLow: `for` loops
+
+```
+for <variable> in range(<some_num>):
+	<expression>
+	<expression>
+```
+
+##### range function
+
+`range(start, stop, step)`
+
+##### break statement
+
+- immediately exits whatever loop it is in（直接跳出）
+- skips remaining expressions in code block（跳过该块其他表达式）
+- exits only innermost loop（只跳出最里一层）
+
+##### for vs while loops
+
+|for loops|while loops|
+|:--|:--|
+|know number of iterations|unbounded number of iterations|
+|can end early via break| can end early via break |
+|uses a counter|can use a counter but must initialize before loop and increment it inside loop|
+|can rewrite a for loop using a while loop|may not be able to rewrite a while loop using a for loop|
+
+#### Iteration
+
+- some properties of iteration loops:
+	- need to set an iteration variable outside the loop
+	- need to test variable to determine when done
+	- need to change variable within the loop, in addition to other work
+
+#### Guess and Check
 
 
 

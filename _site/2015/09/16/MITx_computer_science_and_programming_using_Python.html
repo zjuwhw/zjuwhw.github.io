@@ -101,8 +101,26 @@
           </li>
           <li><a href="#variables" id="markdown-toc-variables">Variables（变量）</a></li>
           <li><a href="#operators-and-branching" id="markdown-toc-operators-and-branching">Operators and Branching</a></li>
-          <li><a href="#strings" id="markdown-toc-strings">2.5 Strings</a></li>
-          <li><a href="#simple-scripts" id="markdown-toc-simple-scripts">2.6 Simple Scripts</a></li>
+        </ul>
+      </li>
+      <li><a href="#lecture-2-core-elements-of-programs" id="markdown-toc-lecture-2-core-elements-of-programs">Lecture 2: Core elements of programs</a>        <ul>
+          <li><a href="#bindings" id="markdown-toc-bindings">Bindings</a></li>
+          <li><a href="#stringshttpsdocspythonorg3tutorialintroductionhtmlstrings" id="markdown-toc-stringshttpsdocspythonorg3tutorialintroductionhtmlstrings"><a href="https://docs.python.org/3/tutorial/introduction.html#strings">Strings</a></a>            <ul>
+              <li><a href="#operations-on-stings" id="markdown-toc-operations-on-stings">operations on stings</a></li>
+            </ul>
+          </li>
+          <li><a href="#inputoutput" id="markdown-toc-inputoutput">Input/Output</a></li>
+          <li><a href="#ides" id="markdown-toc-ides">IDEs</a></li>
+          <li><a href="#control-flow" id="markdown-toc-control-flow">Control Flow</a>            <ul>
+              <li><a href="#control-flow-while-loops" id="markdown-toc-control-flow-while-loops">Control FLow: <code class="highlighter-rouge">while</code> loops</a></li>
+              <li><a href="#control-flow-for-loops" id="markdown-toc-control-flow-for-loops">Control FLow: <code class="highlighter-rouge">for</code> loops</a></li>
+              <li><a href="#range-function" id="markdown-toc-range-function">range function</a></li>
+              <li><a href="#break-statement" id="markdown-toc-break-statement">break statement</a></li>
+              <li><a href="#for-vs-while-loops" id="markdown-toc-for-vs-while-loops">for vs while loops</a></li>
+            </ul>
+          </li>
+          <li><a href="#iteration" id="markdown-toc-iteration">Iteration</a></li>
+          <li><a href="#guess-and-check" id="markdown-toc-guess-and-check">Guess and Check</a></li>
         </ul>
       </li>
     </ul>
@@ -124,13 +142,13 @@
   </li>
   <li>Core elements of programs
     <ul>
-      <li>Bindings</li>
-      <li>Strings</li>
-      <li>Input/Output</li>
-      <li>IDEs</li>
-      <li>Control Flow</li>
-      <li>Iteration</li>
-      <li>Guess and Check</li>
+      <li>Bindings（赋值）</li>
+      <li>Strings（字符串）</li>
+      <li>Input/Output（输入/输出）</li>
+      <li>IDEs（集成开发环境）</li>
+      <li>Control Flow（控制流）</li>
+      <li>Iteration（循环）</li>
+      <li>Guess and Check（猜测和检查）</li>
     </ul>
   </li>
   <li>Simple Programs
@@ -420,19 +438,154 @@
   <li>Priority order of Boolean opersations: <code class="highlighter-rouge">parentheses</code>, <code class="highlighter-rouge">not</code> statements, <code class="highlighter-rouge">and</code> statements, <code class="highlighter-rouge">or</code> statements</li>
 </ul>
 
-<h4 id="strings">2.5 Strings</h4>
+<h3 id="lecture-2-core-elements-of-programs">Lecture 2: Core elements of programs</h3>
+
+<h4 id="bindings">Bindings</h4>
 
 <ul>
-  <li>non-scalar objects</li>
-  <li>Extracting parts of strings: indexing and slicing</li>
+  <li>right hand side –&gt; value</li>
+  <li>left hand side –&gt; variable</li>
+  <li>left hand side will be replaced with new value</li>
+  <li><code class="highlighter-rouge">=</code> is called assignment</li>
 </ul>
 
-<h4 id="simple-scripts">2.6 Simple Scripts</h4>
+<h4 id="stringshttpsdocspythonorg3tutorialintroductionhtmlstrings"><a href="https://docs.python.org/3/tutorial/introduction.html#strings">Strings</a></h4>
 
 <ul>
-  <li>statements (not expressions): <em>print()</em>, <em>raw_input()</em></li>
-  <li>Comments appear after #</li>
+  <li>quotation marks or single quotes</li>
 </ul>
+
+<h5 id="operations-on-stings">operations on stings</h5>
+
+<ul>
+  <li>concatenation（连接）: ‘ab’ + ‘cd’</li>
+  <li>successive concatenation: 3* ‘eric’</li>
+  <li>the length: len(‘eric’)</li>
+  <li>indexing（索引）: ‘eric’[1]</li>
+  <li>slicing（切片）: ‘eric’[1:3]
+    <ul>
+      <li>extracts sequence starting at first index, and ending before second index</li>
+      <li>if no value before <code class="highlighter-rouge">:</code>, start at 0</li>
+      <li>if no value after <code class="highlighter-rouge">:</code>, end at length</li>
+      <li>if just <code class="highlighter-rouge">:</code>, make a copy of entire sequence</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="inputoutput">Input/Output</h4>
+
+<ul>
+  <li><code class="highlighter-rouge">print</code></li>
+  <li><code class="highlighter-rouge">input("")</code>, return a string</li>
+</ul>
+
+<h4 id="ides">IDEs</h4>
+
+<ul>
+  <li>IDE: integrated development environment
+    <ul>
+      <li>text editor</li>
+      <li>shell</li>
+      <li>integrated debugger</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="control-flow">Control Flow</h4>
+
+<ul>
+  <li>comparison operators on int and float:
+    <ul>
+      <li><code class="highlighter-rouge">&gt;</code></li>
+      <li><code class="highlighter-rouge">&lt;</code></li>
+      <li><code class="highlighter-rouge">&gt;=</code></li>
+      <li><code class="highlighter-rouge">&lt;=</code></li>
+      <li><code class="highlighter-rouge">==</code></li>
+      <li><code class="highlighter-rouge">!=</code></li>
+    </ul>
+  </li>
+  <li>logic operators on bools:
+    <ul>
+      <li><code class="highlighter-rouge">not a</code></li>
+      <li><code class="highlighter-rouge">a and b</code></li>
+      <li><code class="highlighter-rouge">a or b</code></li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">if ... elif ... else ...</code></li>
+</ul>
+
+<h5 id="control-flow-while-loops">Control FLow: <code class="highlighter-rouge">while</code> loops</h5>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>while &lt;condition&gt;:
+	&lt;expression&gt;
+	&lt;expression&gt;
+</code></pre>
+</div>
+
+<p>repeat until <contidtion> is False</contidtion></p>
+
+<h5 id="control-flow-for-loops">Control FLow: <code class="highlighter-rouge">for</code> loops</h5>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>for &lt;variable&gt; in range(&lt;some_num&gt;):
+	&lt;expression&gt;
+	&lt;expression&gt;
+</code></pre>
+</div>
+
+<h5 id="range-function">range function</h5>
+
+<p><code class="highlighter-rouge">range(start, stop, step)</code></p>
+
+<h5 id="break-statement">break statement</h5>
+
+<ul>
+  <li>immediately exits whatever loop it is in（直接跳出）</li>
+  <li>skips remaining expressions in code block（跳过该块其他表达式）</li>
+  <li>exits only innermost loop（只跳出最里一层）</li>
+</ul>
+
+<h5 id="for-vs-while-loops">for vs while loops</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">for loops</th>
+      <th style="text-align: left">while loops</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">know number of iterations</td>
+      <td style="text-align: left">unbounded number of iterations</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">can end early via break</td>
+      <td style="text-align: left">can end early via break</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">uses a counter</td>
+      <td style="text-align: left">can use a counter but must initialize before loop and increment it inside loop</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">can rewrite a for loop using a while loop</td>
+      <td style="text-align: left">may not be able to rewrite a while loop using a for loop</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="iteration">Iteration</h4>
+
+<ul>
+  <li>some properties of iteration loops:
+    <ul>
+      <li>need to set an iteration variable outside the loop</li>
+      <li>need to test variable to determine when done</li>
+      <li>need to change variable within the loop, in addition to other work</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="guess-and-check">Guess and Check</h4>
 
 <p>Notes for the <a href="www.edx.org">edx</a> course <a href="https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5">Introduction to Computer Science and Programming Using Python</a></p>
 
