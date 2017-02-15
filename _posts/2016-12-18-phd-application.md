@@ -44,12 +44,13 @@ tags: ["career"]
 - 2016年08月12日，通知录取（adminssion）成功。
 - 2016年10月31日，通知奖学金（scholarship）成功。
 - 2016年12月14日，正式收到offer（adminssion and scholarship）。
-- 2017年01月17日，收到eCoE（电子注册确认函）
+- 2017年01月17日，收到eCoE（电子注册确认函）。
 
 ### 准备签证
 
 - 2016年11月14日，[移民局网上](https://online.immi.gov.au/lusc/login)注册。
 - 2016年12月15日，申请提前体检（[My Health Declarations](http://www.border.gov.au/Trav/Visa/Heal/meeting-the-health-requirement/health-examinations/my-health-declarations)）。
-- 2016年12月19日，体检
+- 2016年12月19日，体检。
 - 2017年02月09日，由于陪读，[升级单人保险（single）为两人保险（dual family）](https://www.oshcallianzassistance.com.au/)。
 - 2017年02月12日，提交签证申请。
+- 2017年02月15日，要求补充材料（发表的文章）。
