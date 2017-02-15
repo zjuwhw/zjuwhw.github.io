@@ -26,10 +26,10 @@ tags: [cs, mooc]
 	- Iteration（循环）
 	- Guess and Check（猜测和检查）
 - Simple Programs
-	- Approximate Soulutions
-	- Bisection Search
-	- Floats and Fractions
-	- Newton-Raphson
+	- Approximate Solutions（近似）
+	- Bisection Search（二分查找）
+	- Floats and Fractions（浮点型和分数）
+	- Newton-Raphson（Newton-Raphson迭代法）
 - Functions
 	- Decomposition and Abstraction
 	- Functions and Scope
@@ -316,9 +316,23 @@ for <variable> in range(<some_num>):
 
 #### Guess and Check
 
+- loop characterristics
+	- need a loop variable
+		- initialized outside loop
+		- changes within loop
+		- test for termination depends on variable
+	- a decrementing function
+- GUESS-AND-CHECK
+	- guess a value
+	- check if the solution is correct
+- exhaustive enumeration（枚举）
+	- guess and check methods can work on problems with a finite number of possibilities
+	- exhaustive enumeration is a good way to generate guesses in an organized manner
 
 
+### Lecture 3: Simple Algorithms
 
+#### So Far...
 
 
 Notes for the [edx](www.edx.org) course [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5)
