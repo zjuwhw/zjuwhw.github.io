@@ -51,6 +51,6 @@ tags: ["career"]
 - 2016年11月14日，[移民局网上](https://online.immi.gov.au/lusc/login)注册。
 - 2016年12月15日，申请提前体检（[My Health Declarations](http://www.border.gov.au/Trav/Visa/Heal/meeting-the-health-requirement/health-examinations/my-health-declarations)）。
 - 2016年12月19日，体检。
-- 2017年02月09日，由于陪读，[升级单人保险（single）为两人保险（dual family）](https://www.oshcallianzassistance.com.au/)。
+- 2017年02月09日，由于陪读，[升级单人保险（single）为两人保险（dual family）](https://future-students.uq.edu.au/files/6432/AllianzOSHCEssentials_2017price.pdf)。
 - 2017年02月12日，提交签证申请。
 - 2017年02月15日，要求补充材料（发表的文章）。
