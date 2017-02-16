@@ -31,15 +31,15 @@ tags: [cs, mooc]
 	- Floats and Fractions（浮点型和分数）
 	- Newton-Raphson（Newton-Raphson迭代法）
 - Functions
-	- Decomposition and Abstraction
-	- Functions and Scope
-	- Keyword Arguments
-	- Specifications
-	- Iteration vs Recursion
+	- Decomposition and Abstraction（分解和抽象）
+	- Functions and Scope（函数和作用域）
+	- Keyword Arguments（关键字参数）
+	- Specifications（说明书）
+	- Iteration vs Recursion（迭代 vs 递归）
 	- Inductive Reasoning
 	- Towers of Hanoi
 	- Fibonacci
-	- Reucrsion on non-numerics
+	- Recursion on non-numerics
 	- Files
 - Tuples and Lists
 	- Tuples
