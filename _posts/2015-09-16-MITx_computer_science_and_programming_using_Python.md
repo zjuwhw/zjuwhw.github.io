@@ -36,15 +36,15 @@ tags: [cs, mooc]
 	- Keyword Arguments（关键字参数）
 	- Specifications（说明书）
 	- Iteration vs Recursion（迭代 vs 递归）
-	- Inductive Reasoning
-	- Towers of Hanoi
-	- Fibonacci
-	- Recursion on non-numerics
-	- Files
+	- Inductive Reasoning（归纳推理）
+	- Towers of Hanoi（汉诺塔）
+	- Fibonacci（斐波那契数列）
+	- Recursion on non-numerics（非数字递归）
+	- Files（文件）
 - Tuples and Lists
-	- Tuples
-	- Lists
-	- List Operations
+	- Tuples（元组）
+	- Lists（列表）
+	- List Operations（列表操作）
 	- Mutation, Aliasing, Cloning
 - Dictionaries
 	- Functions as Objects
@@ -334,5 +334,36 @@ for <variable> in range(<some_num>):
 
 #### So Far...
 
+##### strings
+
+- slice: `[start:stop:step]`
+- immutable: cannot be modified
+
+#### Approximate Solutions
+
+- start with exhaustive enumeration
+	- task small steps to generate guesses in order
+	- check to see if close enough
+- **good enough** solution
+- start with a guess and increment by some **small value**
+- |guess ** 3| - cube <= epsilon for some **small epsilon**
+
+##### some observations
+
+- Step could be any small number
+	- If too small, takes a long time to find square root
+	- If too large, might skip over answer without getting close enough
+- In general, will task x/step times through code to find solution
+- Need a more efficient way do do this
+
+#### Bisection Search
+
+#### Floats and Fractions
+
+#### Newton-Raphson
+
+### Lecture 4: Functions
+
+#### 
 
 Notes for the [edx](www.edx.org) course [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5)

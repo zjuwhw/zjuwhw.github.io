@@ -124,9 +124,20 @@
         </ul>
       </li>
       <li><a href="#lecture-3-simple-algorithms" id="markdown-toc-lecture-3-simple-algorithms">Lecture 3: Simple Algorithms</a>        <ul>
-          <li><a href="#so-far" id="markdown-toc-so-far">So Far…</a></li>
+          <li><a href="#so-far" id="markdown-toc-so-far">So Far…</a>            <ul>
+              <li><a href="#strings" id="markdown-toc-strings">strings</a></li>
+            </ul>
+          </li>
+          <li><a href="#approximate-solutions" id="markdown-toc-approximate-solutions">Approximate Solutions</a>            <ul>
+              <li><a href="#some-observations" id="markdown-toc-some-observations">some observations</a></li>
+            </ul>
+          </li>
+          <li><a href="#bisection-search" id="markdown-toc-bisection-search">Bisection Search</a></li>
+          <li><a href="#floats-and-fractions" id="markdown-toc-floats-and-fractions">Floats and Fractions</a></li>
+          <li><a href="#newton-raphson" id="markdown-toc-newton-raphson">Newton-Raphson</a></li>
         </ul>
       </li>
+      <li><a href="#lecture-4-functions" id="markdown-toc-lecture-4-functions">Lecture 4: Functions</a></li>
     </ul>
   </li>
 </ul>
@@ -170,18 +181,18 @@
       <li>Keyword Arguments（关键字参数）</li>
       <li>Specifications（说明书）</li>
       <li>Iteration vs Recursion（迭代 vs 递归）</li>
-      <li>Inductive Reasoning</li>
-      <li>Towers of Hanoi</li>
-      <li>Fibonacci</li>
-      <li>Recursion on non-numerics</li>
-      <li>Files</li>
+      <li>Inductive Reasoning（归纳推理）</li>
+      <li>Towers of Hanoi（汉诺塔）</li>
+      <li>Fibonacci（斐波那契数列）</li>
+      <li>Recursion on non-numerics（非数字递归）</li>
+      <li>Files（文件）</li>
     </ul>
   </li>
   <li>Tuples and Lists
     <ul>
-      <li>Tuples</li>
-      <li>Lists</li>
-      <li>List Operations</li>
+      <li>Tuples（元组）</li>
+      <li>Lists（列表）</li>
+      <li>List Operations（列表操作）</li>
       <li>Mutation, Aliasing, Cloning</li>
     </ul>
   </li>
@@ -621,6 +632,59 @@
 <h3 id="lecture-3-simple-algorithms">Lecture 3: Simple Algorithms</h3>
 
 <h4 id="so-far">So Far…</h4>
+
+<h5 id="strings">strings</h5>
+
+<ul>
+  <li>slice: <code class="highlighter-rouge">[start:stop:step]</code></li>
+  <li>immutable: cannot be modified</li>
+</ul>
+
+<h4 id="approximate-solutions">Approximate Solutions</h4>
+
+<ul>
+  <li>start with exhaustive enumeration
+    <ul>
+      <li>task small steps to generate guesses in order</li>
+      <li>check to see if close enough</li>
+    </ul>
+  </li>
+  <li><strong>good enough</strong> solution</li>
+  <li>start with a guess and increment by some <strong>small value</strong></li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>guess ** 3</td>
+          <td>- cube &lt;= epsilon for some <strong>small epsilon</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<h5 id="some-observations">some observations</h5>
+
+<ul>
+  <li>Step could be any small number
+    <ul>
+      <li>If too small, takes a long time to find square root</li>
+      <li>If too large, might skip over answer without getting close enough</li>
+    </ul>
+  </li>
+  <li>In general, will task x/step times through code to find solution</li>
+  <li>Need a more efficient way do do this</li>
+</ul>
+
+<h4 id="bisection-search">Bisection Search</h4>
+
+<h4 id="floats-and-fractions">Floats and Fractions</h4>
+
+<h4 id="newton-raphson">Newton-Raphson</h4>
+
+<h3 id="lecture-4-functions">Lecture 4: Functions</h3>
+
+<p>####</p>
 
 <p>Notes for the <a href="www.edx.org">edx</a> course <a href="https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5">Introduction to Computer Science and Programming Using Python</a></p>
 
