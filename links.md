@@ -320,18 +320,22 @@ permalink: /links/
 - [Mozillazg's Blog](https://mozillazg.com/)
 - [James Hamilton - VP at Amazon Web Services](http://perspectives.mvdirona.com/)
 - [Denny Britz, a engineer in Google](http://blog.dennybritz.com/)
+- [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
 ### Courses
 
-- ["Introduction to Computer Systems" by CMU](http://www.cs.cmu.edu/afs/cs/academic/class/15213-f14/www/index.html)
-- ["Build Complete Web Solutions" by HST on coursera](https://www.coursera.org/specializations/full-stack)
-- ["Learn to Program and Analyze Data with Python "by Uiversity of Michigan on coursera](https://www.coursera.org/specializations/python)
-- ["Become a Rails Developer by JHU" on couresra](https://www.coursera.org/specializations/ruby-on-rails)
-- [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
-- [Bachelors Curriculum of CMU CS](https://www.csd.cs.cmu.edu/content/bachelors-curriculum-admitted-2014)
-- ["Parallel Computer Architecture and Programming"](http://15418.courses.cs.cmu.edu/spring2016/home)
-- ["Computer Networks"](http://www.cs.cmu.edu/~prs/15-441-F14/index.html)
-- ["CS155 Computer and Network Security"](https://crypto.stanford.edu/cs155/syllabus.html)
+- [《Introduction to Computer Science and Programming Using Python》](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-9) by MIT on edx
+- [《Introduction to Computational Thinking and Data Science》](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-5) by MIT on edx
+- 《Algorithms》[part I](https://www.coursera.org/learn/algorithms-part1#) and [part II](https://www.coursera.org/learn/algorithms-part2#) by Princeton on coursera
+- [《Algorithms Specialization》](https://www.coursera.org/specializations/algorithms) by Stanford on coursera
+- [《Build Complete Web Solutions》](https://www.coursera.org/specializations/full-stack) by HST on coursera
+- [《Learn to Program and Analyze Data with Python》](https://www.coursera.org/specializations/python) by University of Michigan on coursera
+- [《Become a Rails Developer》](https://www.coursera.org/specializations/ruby-on-rails) by JHU on couresra
+- [《Introduction to Computer Systems》](http://www.cs.cmu.edu/afs/cs/academic/class/15213-f14/www/index.html) by CMU
+- [《CMU CS Bachelors Curriculum》](https://www.csd.cs.cmu.edu/content/bachelors-curriculum-admitted-2014)
+- [《Parallel Computer Architecture and Programming》](http://15418.courses.cs.cmu.edu/spring2016/home) by CMU
+- [《Computer Networks》](http://www.cs.cmu.edu/~prs/15-441-F14/index.html) by CMU
+- [《CS155 Computer and Network Security》](https://crypto.stanford.edu/cs155/syllabus.html) by Stanford
 
 ### Books
 
