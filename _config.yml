@@ -22,6 +22,6 @@ kramdown:
 highlighter: rouge
 
 # paginate
-paginate: 10
+paginate: 16
 paginate_path: "page:num"
 gems: [jekyll-paginate]

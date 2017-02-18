@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
-">
+  <title>Coursera-Frontend学习笔记</title>
+  <meta name="description" content="注：本文为Front-End技术HTML，CSS和JavaScript的学习笔记，内容来自Coursera课程《HTML, CSS, and JavaScript for Web Developers》">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="zjuwhw.github.io/about/">
+  <link rel="canonical" href="zjuwhw.github.io/2016/05/07/Coursera-FrontEnd.html">
   <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="zjuwhw.github.io/feed.xml">
 </head>
 
@@ -67,51 +66,93 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">Coursera-Frontend学习笔记</h1>
+    <p class="post-meta"><time datetime="2016-05-07T00:00:00+08:00" itemprop="datePublished">May 7, 2016</time></p>
   </header>
 
-  <div class="post-content">
-    <p>I am Huanwei Wang, a bioinformatic master student graduated from Shanghai Jiao Tong University. Now I work in a bioinformatic cloud computing company in Beijing. In the future, I hope I could get a PhD position oversea.</p>
+  <div class="post-content" itemprop="articleBody">
+    <p>注：本文为Front-End技术HTML，CSS和JavaScript的学习笔记，内容来自Coursera课程<a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/">《HTML, CSS, and JavaScript for Web Developers》</a></p>
 
-<p>Email:</p>
-
+<h2 id="css">CSS</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code>p {
+	color: blue;
+}
+</code></pre>
+</div>
 <ul>
-  <li>zju.whw@gmail.com</li>
-  <li>zju_whw@163.com</li>
-  <li>sjtu_whw@sjtu.edu.cn</li>
+  <li><code class="highlighter-rouge">p</code> is Selector</li>
+  <li>‘color: blue;’ is Declaration</li>
+  <li>‘color’ is Property</li>
+  <li>‘blue’ is Value</li>
 </ul>
 
-<p>Social Media:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>/* element selector */
+p {
+	color: blue;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: green;
+	opacity: .6;
+}
 
-<ul>
-  <li><a href="https://cn.linkedin.com/in/huanwei-wang-53205b61">LinkedIn</a></li>
-  <li><a href="https://www.zhihu.com/people/wang-huan-wei">Zhihu</a></li>
-  <li><a href="https://github.com/zjuwhw">Github</a></li>
-  <li><a href="http://weibo.com/u/1862168475">weibo</a></li>
-  <li><a href="https://www.researchgate.net/profile/Huanwei_Wang">ResearchGate</a></li>
-  <li><a href="https://www.quora.com/profile/Wang-Huanwei">Quora</a></li>
-  <li><a href="https://www.facebook.com/zju.whw">Facebook</a></li>
-  <li><a href="https://twitter.com/zjuwhw">Twitter</a></li>
-</ul>
 
-<p>Blogs:</p>
+/* class selector */
+.blue {
+	color: blue;
+}
 
-<ul>
-  <li><a href="https://sites.google.com/site/zjuwhwsblog/home">google site</a></li>
-  <li><a href="http://blog.163.com/zju_whw/">163 blog</a></li>
-</ul>
+&lt;p class = "blue"&gt; ... &lt;/p&gt;
+&lt;div class = "blue"&gt; ... &lt;/div&gt;
 
-<p>CV:</p>
 
-<ul>
-  <li><a href="/documents/CV_whw-2015.pdf">2015 CV</a></li>
-  <li><a href="/documents/CV_whw-201701.pdf">201701 CV</a></li>
-</ul>
+/* id selector */
+#name {
+	color: blue;
+}
 
-<p><img src="/images/me.jpg" alt="Alt text" /></p>
+&lt;p id = "name"&gt; ... &lt;/p&gt;
+
+/* grouping selectors */
+div, .blue {
+	color: blue;
+}
+</code></pre>
+</div>
+<p>combing selectors</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/* element with class selector */
+p.big {
+	font-size: 20px;
+}
+
+&lt;p class = "big"&gt; ... &lt;/p&gt;
+
+
+/* child selector */
+article &gt; p {
+	color: blue;
+}
+
+&lt;article&gt;
+	&lt;p&gt;  ... &lt;/p&gt;
+&lt;/article&gt;
+
+
+/* Descendant selector */
+article p {
+	color: blue;
+}
+
+&lt;article&gt;
+	&lt;div&gt;&lt;p&gt; ... &lt;/p&gt;&lt;/div&gt;
+&lt;/article&gt;
+</code></pre>
+</div>
 
   </div>
 

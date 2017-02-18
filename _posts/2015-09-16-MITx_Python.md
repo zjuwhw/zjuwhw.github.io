@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Edx-Python学习笔记
-tags: [cs, mooc]
+tags: [cs, mooc笔记]
 ---
 
 * TOC
@@ -45,7 +45,7 @@ tags: [cs, mooc]
 	- Tuples（元组）
 	- Lists（列表）
 	- List Operations（列表操作）
-	- Mutation, Aliasing, Cloning
+	- Mutation, Aliasing, Cloning（对象改变，对象别名，对象拷贝）
 - Dictionaries
 	- Functions as Objects
 	- Dictionaries
