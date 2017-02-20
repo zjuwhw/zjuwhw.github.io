@@ -8,101 +8,11 @@ tags: [cs, mooc笔记]
 {:toc}
 
 
-## List of Lecture Topics
-
-- Introduction to Python
-	- Knowledge（知识）
-	- Machines（机器）
-	- Languages（语言）
-	- Types（类型）
-	- Variables（变量）
-	- Operators（操作符）and Branching（FLow of Control）
-- Core elements of programs
-	- Bindings（赋值）
-	- Strings（字符串）
-	- Input/Output（输入/输出）
-	- IDEs（集成开发环境）
-	- Control Flow（控制流）
-	- Iteration（循环）
-	- Guess and Check（猜测和检查）
-- Simple Programs
-	- Approximate Solutions（近似）
-	- Bisection Search（二分查找）
-	- Floats and Fractions（浮点型和分数）
-	- Newton-Raphson（Newton-Raphson迭代法）
-- Functions
-	- Decomposition and Abstraction（分解和抽象）
-	- Functions and Scope（函数和作用域）
-	- Keyword Arguments（关键字参数）
-	- Specifications（说明书）
-	- Iteration vs Recursion（迭代 vs 递归）
-	- Inductive Reasoning（归纳推理）
-	- Towers of Hanoi（汉诺塔）
-	- Fibonacci（斐波那契数列）
-	- Recursion on non-numerics（非数字递归）
-	- Files（文件）
-- Tuples and Lists
-	- Tuples（元组）
-	- Lists（列表）
-	- List Operations（列表操作）
-	- Mutation, Aliasing, Cloning（对象改变，对象别名，对象拷贝）
-- Dictionaries
-	- Functions as Objects
-	- Dictionaries
-	- Example with a Dictionary
-	- Fibonacci and Dictionaries
-	- Global Variables
-- Debugging
-	- Programming Challenges
-	- Classes of Tests
-	- Bugs
-	- Debugging
-	- Debugging Examples
-- Assertions and Exceptions
-	- Assertions
-	- Exceptions
-	- Exception Example
-- Classes and Inheritance
-	- Object Oriented Programming
-	- Class Instances
-	- Methods
-	- Classes Examples
-	- Why OOP
-	- Hierarchies
-	- Your Own Types
-- An Extened Example
-	- Building a Class
-	- Viualizing the Hierarchy
-	- Adding another Class
-	- Using Inherited Methods
-	- Gradebook Example
-	- Generators
-- Computational Complexity
-	- Program Efficiency
-	- Big Oh Notation
-	- Complexity Classes
-	- Analyzing Complexity
-- Searching and Sorting Algorithms
-	- Indirection
-	- Linear Search
-	- Bisection Search
-	- Bogo and Bubble Sort
-	- Selection Sort
-	- Merge Sort
-- Visualization of Data
-	- Visualizing Results
-	- Overlapping Displays
-	- Adding More Documentation
-	- Changing Data Display
-	- An Example
-- Summary
-
-
 ## 听课笔记
 
 ### Lecture 1: Introduction to python
 
-#### Introduction
+#### Introduction（简介）
 
 - topics:
 	- represent knowledge with **data structures（数据结构）**
@@ -111,7 +21,7 @@ tags: [cs, mooc笔记]
 	- different classes of **algorithms（算法）**, searching and sorting
 	- **complexity（复杂性）** of algorithms
 
-#### Basics of Computation
+#### Basics of Computation（计算的基础）
 
 - What does a computer do?
 	- Fundamentally a computer: (1) Performs calculations; (2) Remember the results
@@ -120,7 +30,7 @@ tags: [cs, mooc笔记]
 	- Some problems still too complex
 	- Some problems are fundamentally impossible to compute
 
-#### Knowledge
+#### Knowledge（知识）
 
 - Declarative knowledge（叙述性知识）: statments of facts
 - Imperative knowledge（过程式知识）: "how to" methods or recipes（菜谱）
@@ -128,7 +38,7 @@ tags: [cs, mooc笔记]
 	- **flow of control** process that specifies when each step is executed
 	- a means of determining **when to stop**
 
-#### Machine
+#### Machine（机器）
 
 - Fixed Program Computers（固定程序计算机）: calculator, Alan Turing’s Bombe and etc.
 - Stored Program Computers（储存程序计算机）
@@ -138,7 +48,7 @@ tags: [cs, mooc笔记]
 	- can **abstract（抽象）** methods to create new "primitives".
 	- But anything computable in one language is computable in any other programming language
 
-#### language
+#### language（语言）
 
 - primitive operations（操作）
 - expressions（表达式）
@@ -160,7 +70,7 @@ tags: [cs, mooc笔记]
 	- program runs forever
 	- program gives an answer but different than expected
 
-#### Types
+#### Types（类型）
 
 - Options for programming languages:
 	- Source code -> checker -> interpreter -> output
@@ -169,7 +79,7 @@ tags: [cs, mooc笔记]
 - High level (compiled language): Source code (high level) -> checker -> compiler -> object code (low level) -> interpreter -> output
 - High level (interpreted language, such as Python): Source code (high level) -> checker -> interpreter -> output
 
-#### Python objects
+#### Python objects（对象）
 
 ##### Python programs
 
@@ -207,7 +117,7 @@ tags: [cs, mooc笔记]
 	- **easier to change** code later
 - value on the right and name on the left
 
-#### Operators and Branching
+#### Operators（操作符） and Branching（Flow of Control）
 
 - Branching programs（程序分块）: the simplest one is a **conditional**
 	- a test expression
@@ -220,14 +130,14 @@ tags: [cs, mooc笔记]
 
 ### Lecture 2: Core elements of programs
 
-#### Bindings
+#### Bindings（复制）
 
 - right hand side --> value
 - left hand side --> variable
 - left hand side will be replaced with new value
 - `=` is called assignment
 
-#### [Strings](https://docs.python.org/3/tutorial/introduction.html#strings)
+#### Strings（字符串）
 
 - quotation marks or single quotes
 
@@ -243,19 +153,19 @@ tags: [cs, mooc笔记]
 	- if no value after `:`, end at length
 	- if just `:`, make a copy of entire sequence
 
-#### Input/Output
+#### Input/Output（输入/输出）
 
 - `print`
 - `input("")`, return a string
 
-#### IDEs
+#### IDEs（集成开发环境）
 
 - IDE: integrated development environment
 	- text editor
 	- shell
 	- integrated debugger
 
-#### Control Flow
+#### Control Flow（控制流）
 
 - comparison operators on int and float: 
 	- `>`
@@ -307,14 +217,14 @@ for <variable> in range(<some_num>):
 |uses a counter|can use a counter but must initialize before loop and increment it inside loop|
 |can rewrite a for loop using a while loop|may not be able to rewrite a while loop using a for loop|
 
-#### Iteration
+#### Iteration（循环）
 
 - some properties of iteration loops:
 	- need to set an iteration variable outside the loop
 	- need to test variable to determine when done
 	- need to change variable within the loop, in addition to other work
 
-#### Guess and Check
+#### Guess and Check（猜测和检查）
 
 - loop characterristics
 	- need a loop variable
@@ -339,14 +249,14 @@ for <variable> in range(<some_num>):
 - slice: `[start:stop:step]`
 - immutable: cannot be modified
 
-#### Approximate Solutions
+#### Approximate Solutions（近似解）
 
 - start with exhaustive enumeration
 	- task small steps to generate guesses in order
 	- check to see if close enough
 - **good enough** solution
 - start with a guess and increment by some **small value**
-- |guess ** 3| - cube <= epsilon for some **small epsilon**
+- `|guess ** 3| - cube <= epsilon` for some **small epsilon**
 
 ##### some observations
 
@@ -356,14 +266,66 @@ for <variable> in range(<some_num>):
 - In general, will task x/step times through code to find solution
 - Need a more efficient way do do this
 
-#### Bisection Search
+#### Bisection Search（二分查找）
 
-#### Floats and Fractions
+#### Floats and Fractions（浮点型和分数）
 
-#### Newton-Raphson
+#### Newton-Raphson（Newton-Raphson迭代法）
 
 ### Lecture 4: Functions
 
-#### 
+#### Decomposition and Abstraction（分解和抽象）
+
+#### Functions and Scope（函数和作用域）
+
+#### Keyword Arguments（关键字参数）
+
+#### Specifications（说明书）
+
+#### Iteration vs Recursion（迭代 vs 递归）
+
+#### Inductive Reasoning（归纳推理）
+
+#### Towers of Hanoi（汉诺塔）
+
+#### Fibonacci（斐波那契数列）
+
+#### Recursion on non-numerics（非数字递归）
+
+#### Files（文件）
+
+### Lecture 5: Tuples and Lists
+
+#### Tuples（元组）
+
+#### Lists（列表）
+
+#### List Operations（列表操作）
+
+#### Mutation, Aliasing, Cloning（对象改变，对象别名，对象拷贝）
+
+### Lecture 6: Dictionaries
+
+#### Functions as Objects（函数作为对象）
+
+#### Dictionaries（字典）
+
+#### Example with a Dictionary（字典的例子）
+
+#### Fibonacci and Dictionaries（菲波那切数列和字典）
+
+#### Global Variables（全局变量）
+
+### Lecture 7: Debugging
+
+#### Programming Challenges
+
+#### Classes of Tests
+
+#### Bugs
+
+#### Debugging
+
+#### Debugging Examples
 
 Notes for the [edx](www.edx.org) course [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5)
