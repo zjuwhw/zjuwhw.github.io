@@ -328,4 +328,22 @@ for <variable> in range(<some_num>):
 
 #### Debugging Examples
 
+### Lecture 8: Exceptions and Assertions
+
+### Lecture 9: Classes and Inheritance
+
+#### Object Oriented Programming
+
+#### Class instances
+
+#### Methods
+
+#### Classes Examples
+
+#### Why OOP
+
+#### Hierarchies
+
+#### Class Variables
+
 Notes for the [edx](www.edx.org) course [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5)
