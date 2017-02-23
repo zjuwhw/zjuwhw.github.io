@@ -332,18 +332,26 @@ for <variable> in range(<some_num>):
 
 ### Lecture 9: Classes and Inheritance
 
-#### Object Oriented Programming
+#### Object Oriented Programming（面向对象编程）
 
-#### Class instances
+#### Class instances（类示例）
 
-#### Methods
+#### Methods（方法）
 
-#### Classes Examples
+#### Classes Examples（举例）
 
-#### Why OOP
+#### Why OOP（为什么OOP）
 
-#### Hierarchies
+#### Hierarchies（层级结构）
 
-#### Class Variables
+#### Class Variables（类变量）
+
+### Lecture 10: An Extended Example
+
+#### Building a Class（创建一个类）
+
+#### Visualizing the Hierarchy（可视化层级结构）
+
+#### Adding another class
 
 Notes for the [edx](www.edx.org) course [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5)

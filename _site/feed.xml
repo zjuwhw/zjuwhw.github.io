@@ -6,13 +6,109 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Feb 2017 20:48:57 +0800</pubDate>
-    <lastBuildDate>Wed, 22 Feb 2017 20:48:57 +0800</lastBuildDate>
+    <pubDate>Thu, 23 Feb 2017 11:33:25 +0800</pubDate>
+    <lastBuildDate>Thu, 23 Feb 2017 11:33:25 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>卫生信息学术语</title>
-        <description>&lt;p&gt;本博客翻译自coursera课程&lt;a href=&quot;https://www.coursera.org/learn/fhir/home/info&quot;&gt;《Health Informatics on FHIR》&lt;/a&gt;的课程资料。&lt;/p&gt;
+        <title>卫生信息学简介</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#glossary-of-health-and-health-it-terms-and-acronyms-&quot; id=&quot;markdown-toc-glossary-of-health-and-health-it-terms-and-acronyms-&quot;&gt;Glossary of Health and Health IT Terms and Acronyms （健康和卫生信息术语和缩写）&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#aco-accountable-care-organization&quot; id=&quot;markdown-toc-aco-accountable-care-organization&quot;&gt;ACO (Accountable Care Organization)（责任医疗组织）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#arden-syntaxarden&quot; id=&quot;markdown-toc-arden-syntaxarden&quot;&gt;Arden Syntax（Arden语言）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#arra-american-recovery-and-reconstruction-act&quot; id=&quot;markdown-toc-arra-american-recovery-and-reconstruction-act&quot;&gt;ARRA (American Recovery and Reconstruction Act)（美国康复和重建法案）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#blue-button&quot; id=&quot;markdown-toc-blue-button&quot;&gt;Blue Button（蓝色按钮）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ccd-continuity-of-care-document&quot; id=&quot;markdown-toc-ccd-continuity-of-care-document&quot;&gt;CCD (Continuity of Care Document)（护理文档连续性标准）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ccow-clinical-context-object-workshopworkshop&quot; id=&quot;markdown-toc-ccow-clinical-context-object-workshopworkshop&quot;&gt;CCOW (Clinical Context Object Workshop)（临床内容对象Workshop）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ccr-continuity-of-care-record&quot; id=&quot;markdown-toc-ccr-continuity-of-care-record&quot;&gt;CCR (Continuity of Care Record)（护理记录连续性标准）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ccda-consolidated-clinical-document-architecture-&quot; id=&quot;markdown-toc-ccda-consolidated-clinical-document-architecture-&quot;&gt;CCDA (Consolidated Clinical Document Architecture) （加强的临床文档架构）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cda-clinical-document-architecture-&quot; id=&quot;markdown-toc-cda-clinical-document-architecture-&quot;&gt;CDA (Clinical Document Architecture) （临床文档架构）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cdc-centers-for-disease-control-and-prevention&quot; id=&quot;markdown-toc-cdc-centers-for-disease-control-and-prevention&quot;&gt;CDC (Centers for Disease Control and Prevention)（疾病控制和预防中心）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ca-certificate-authority&quot; id=&quot;markdown-toc-ca-certificate-authority&quot;&gt;CA (Certificate Authority)（证书认证）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cimi-clinical-information-modeling-initiative&quot; id=&quot;markdown-toc-cimi-clinical-information-modeling-initiative&quot;&gt;CIMI (Clinical Information Modeling Initiative)（临床信息建模计划）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cms-centers-for-medicare--medicaid-services&quot; id=&quot;markdown-toc-cms-centers-for-medicare--medicaid-services&quot;&gt;CMS (Centers for Medicare &amp;amp; Medicaid Services)（医疗保险和医疗救助服务中心）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#commonwell-alliance&quot; id=&quot;markdown-toc-commonwell-alliance&quot;&gt;CommonWell Alliance（共好联盟）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#complete-ehrehr&quot; id=&quot;markdown-toc-complete-ehrehr&quot;&gt;Complete EHR（完整EHR）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#connect&quot; id=&quot;markdown-toc-connect&quot;&gt;CONNECT&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cpt-current-procedural-terminologycpt&quot; id=&quot;markdown-toc-cpt-current-procedural-terminologycpt&quot;&gt;CPT (Current Procedural Terminology)（CPT医疗服务(操作)编码系统）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#de-identified-patient-health-information&quot; id=&quot;markdown-toc-de-identified-patient-health-information&quot;&gt;De-identified Patient Health Information&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#directdirect&quot; id=&quot;markdown-toc-directdirect&quot;&gt;Direct（Direct系统）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dns-domain-name-system&quot; id=&quot;markdown-toc-dns-domain-name-system&quot;&gt;DNS (Domain Name System)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#edix12&quot; id=&quot;markdown-toc-edix12&quot;&gt;EDI/X12&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ehealth-exchange&quot; id=&quot;markdown-toc-ehealth-exchange&quot;&gt;eHealth Exchange&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ehr-electronic-health-record&quot; id=&quot;markdown-toc-ehr-electronic-health-record&quot;&gt;EHR (Electronic Health Record)（电子健康记录）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ehr-certification&quot; id=&quot;markdown-toc-ehr-certification&quot;&gt;EHR Certification（电子病历认证）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#eligible-professionals-medicaid-&quot; id=&quot;markdown-toc-eligible-professionals-medicaid-&quot;&gt;Eligible Professionals (Medicaid)（合理的职业-医疗救助）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#eligible-professionals-medicare-&quot; id=&quot;markdown-toc-eligible-professionals-medicare-&quot;&gt;Eligible Professionals (Medicare)（合理的职业-医疗保险）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#empi&quot; id=&quot;markdown-toc-empi&quot;&gt;EMPI&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#emr-electronic-medical-record&quot; id=&quot;markdown-toc-emr-electronic-medical-record&quot;&gt;EMR (Electronic Medical Record)（电子病历）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#gello&quot; id=&quot;markdown-toc-gello&quot;&gt;GELLO&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hdf-hl7-development-frameworkhl7&quot; id=&quot;markdown-toc-hdf-hl7-development-frameworkhl7&quot;&gt;HDF (HL7 Development Framework)（HL7发展框架）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#health-system&quot; id=&quot;markdown-toc-health-system&quot;&gt;Health System&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#healtheway&quot; id=&quot;markdown-toc-healtheway&quot;&gt;Healtheway&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hie-health-information-exchange&quot; id=&quot;markdown-toc-hie-health-information-exchange&quot;&gt;HIE (Health Information Exchange)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#himms&quot; id=&quot;markdown-toc-himms&quot;&gt;HIMMS（医疗卫生信息和管理系统协会）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hipaa-health-insurance-portability-and-accountability-act-of-1996&quot; id=&quot;markdown-toc-hipaa-health-insurance-portability-and-accountability-act-of-1996&quot;&gt;HIPAA (Health Insurance Portability and Accountability Act of 1996)（美国健康保险携带和责任法）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hisp-health-isp&quot; id=&quot;markdown-toc-hisp-health-isp&quot;&gt;HISP (Health ISP)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hit-health-information-technology&quot; id=&quot;markdown-toc-hit-health-information-technology&quot;&gt;HIT (Health Information Technology)（卫生信息技术）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hitsp-healthcare-information-technology-standards-panel&quot; id=&quot;markdown-toc-hitsp-healthcare-information-technology-standards-panel&quot;&gt;HITSP (Healthcare Information Technology Standards Panel)（医疗信息技术标准小组）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hl7-health-level-7&quot; id=&quot;markdown-toc-hl7-health-level-7&quot;&gt;HL7 (Health Level 7)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hmo-health-maintenance-organization&quot; id=&quot;markdown-toc-hmo-health-maintenance-organization&quot;&gt;HMO (Health Maintenance Organization)（健康维护组织）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hquery&quot; id=&quot;markdown-toc-hquery&quot;&gt;hQuery&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#http-hypertext-transfer-protocol&quot; id=&quot;markdown-toc-http-hypertext-transfer-protocol&quot;&gt;HTTP (Hypertext Transfer Protocol)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#icd-international-classification-of-disease&quot; id=&quot;markdown-toc-icd-international-classification-of-disease&quot;&gt;ICD (International Classification of Disease)（国际疾病分类）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ihtsdo-international-health-terminology-standard-development-organisation&quot; id=&quot;markdown-toc-ihtsdo-international-health-terminology-standard-development-organisation&quot;&gt;IHTSDO (International Health Terminology Standard Development Organisation)（国际卫生术语标准发展组织）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ip-addressip&quot; id=&quot;markdown-toc-ip-addressip&quot;&gt;IP Address（IP地址）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#i2b2-informatics-for-integrating-biology-and-the-bedside&quot; id=&quot;markdown-toc-i2b2-informatics-for-integrating-biology-and-the-bedside&quot;&gt;I2b2 (Informatics for Integrating Biology and the Bedside)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#interoperability&quot; id=&quot;markdown-toc-interoperability&quot;&gt;Interoperability（可协作性）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ldap-lightweight-directory-access-protocol&quot; id=&quot;markdown-toc-ldap-lightweight-directory-access-protocol&quot;&gt;LDAP (Lightweight Directory Access Protocol)（轻量目录访问协议）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#loinc-logical-observation-identifiers-names-and-codes&quot; id=&quot;markdown-toc-loinc-logical-observation-identifiers-names-and-codes&quot;&gt;LOINC (Logical Observation Identifiers Names and Codes)（逻辑观察标识符名称和代码）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#meaningful-use&quot; id=&quot;markdown-toc-meaningful-use&quot;&gt;Meaningful Use（有效使用）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#meddra-medical-dictionary-for-regulatory-activities-&quot; id=&quot;markdown-toc-meddra-medical-dictionary-for-regulatory-activities-&quot;&gt;MedDRA (Medical Dictionary for Regulatory Activities) （监管活动医学词典）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#medicaid&quot; id=&quot;markdown-toc-medicaid&quot;&gt;Medicaid（医疗救助）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#medicare&quot; id=&quot;markdown-toc-medicare&quot;&gt;Medicare（医疗保险）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mime-multipurpose-internet-mail-extensions&quot; id=&quot;markdown-toc-mime-multipurpose-internet-mail-extensions&quot;&gt;MIME (Multipurpose Internet Mail Extensions)（多用途网络邮件扩充协议）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mlm-medical-logic-module&quot; id=&quot;markdown-toc-mlm-medical-logic-module&quot;&gt;MLM (Medical Logic Module)（医学逻辑模块）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#modular-ehr&quot; id=&quot;markdown-toc-modular-ehr&quot;&gt;Modular EHR&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mpi-master-patient-index&quot; id=&quot;markdown-toc-mpi-master-patient-index&quot;&gt;MPI (Master Patient Index)（患者主索引）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mumps-massachusetts-general-utility-multi-programming-system&quot; id=&quot;markdown-toc-mumps-massachusetts-general-utility-multi-programming-system&quot;&gt;MUMPS (Massachusetts General Utility Multi-Programming System)（麻省总医院多用途程序设计系统）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ndc-national-drug-codes&quot; id=&quot;markdown-toc-ndc-national-drug-codes&quot;&gt;NDC (National Drug Codes)（国家药品编码）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#onc-office-of-the-national-coordinator-for-health-information-technologyhit&quot; id=&quot;markdown-toc-onc-office-of-the-national-coordinator-for-health-information-technologyhit&quot;&gt;ONC (Office of the National Coordinator for Health Information Technology)（HIT协调办公室）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#outcomes-based-contract&quot; id=&quot;markdown-toc-outcomes-based-contract&quot;&gt;Outcomes-based Contract（基于结果的合同）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#p4p-pay-for-performance&quot; id=&quot;markdown-toc-p4p-pay-for-performance&quot;&gt;P4P (Pay for Performance)（按表现付费）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pcmh-patient-centered-medical-home&quot; id=&quot;markdown-toc-pcmh-patient-centered-medical-home&quot;&gt;PCMH (Patient-Centered Medical Home)（以病人为中心的医护之家）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pcp-primary-care-physician&quot; id=&quot;markdown-toc-pcp-primary-care-physician&quot;&gt;PCP (Primary Care Physician)（初级护理医师）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#phi-protected-health-information&quot; id=&quot;markdown-toc-phi-protected-health-information&quot;&gt;PHI (Protected Health Information)（受保护的健康信息）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pki-public-key-infrastructure&quot; id=&quot;markdown-toc-pki-public-key-infrastructure&quot;&gt;PKI (Public Key Infrastructure)（公钥基础设施）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#private-key&quot; id=&quot;markdown-toc-private-key&quot;&gt;Private Key（私钥）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#provider&quot; id=&quot;markdown-toc-provider&quot;&gt;Provider（提供者）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#public-key&quot; id=&quot;markdown-toc-public-key&quot;&gt;Public Key（公钥）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ra-registration-authority&quot; id=&quot;markdown-toc-ra-registration-authority&quot;&gt;RA (Registration Authority)（注册认证）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#synthetic-health-data&quot; id=&quot;markdown-toc-synthetic-health-data&quot;&gt;Synthetic Health Data&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#templates-cda&quot; id=&quot;markdown-toc-templates-cda&quot;&gt;Templates (CDA)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#read-codes&quot; id=&quot;markdown-toc-read-codes&quot;&gt;Read Codes（读码）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#resource-description-framework-rdf&quot; id=&quot;markdown-toc-resource-description-framework-rdf&quot;&gt;Resource Description Framework (RDF)（资源描述框架）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#rim-reference-information-model&quot; id=&quot;markdown-toc-rim-reference-information-model&quot;&gt;RIM (Reference Information Model)（参考信息模型）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#semantic-web&quot; id=&quot;markdown-toc-semantic-web&quot;&gt;Semantic web（语义网）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#smtp-simplified-mail-transport-protocol&quot; id=&quot;markdown-toc-smtp-simplified-mail-transport-protocol&quot;&gt;SMTP (Simplified Mail Transport Protocol)（简化邮件传输协议）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#snomed-standard-nomenclature-of-medicine&quot; id=&quot;markdown-toc-snomed-standard-nomenclature-of-medicine&quot;&gt;SNOMED (Standard Nomenclature of Medicine)（医学标准命名系统）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#snomed-ct-standard-nomenclature-of-medicine-&quot; id=&quot;markdown-toc-snomed-ct-standard-nomenclature-of-medicine-&quot;&gt;SNOMED CT (Standard Nomenclature of Medicine)（医学标准命名系统-临床）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#toc-transition-of-care-initiative&quot; id=&quot;markdown-toc-toc-transition-of-care-initiative&quot;&gt;ToC (Transition of Care Initiative)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#tpo&quot; id=&quot;markdown-toc-tpo&quot;&gt;TPO&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#vdt-view-download-transmit&quot; id=&quot;markdown-toc-vdt-view-download-transmit&quot;&gt;VDT (View, Download, Transmit)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#vista-veterans-health-information-systems-and-technology-architecture&quot; id=&quot;markdown-toc-vista-veterans-health-information-systems-and-technology-architecture&quot;&gt;VistA (Veterans Health Information Systems and Technology Architecture)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#x509-digital-certificate&quot; id=&quot;markdown-toc-x509-digital-certificate&quot;&gt;X.509 digital certificate&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xdr-external-data-representation&quot; id=&quot;markdown-toc-xdr-external-data-representation&quot;&gt;XDR (External Data Representation)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xdm-ihe-cross-enterprise-document-media-interchange&quot; id=&quot;markdown-toc-xdm-ihe-cross-enterprise-document-media-interchange&quot;&gt;XDM (IHE Cross Enterprise Document Media Interchange)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xds-cross-enterprise-document-sharing&quot; id=&quot;markdown-toc-xds-cross-enterprise-document-sharing&quot;&gt;XDS (Cross-Enterprise Document Sharing)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xml-xtensible-markup-language&quot; id=&quot;markdown-toc-xml-xtensible-markup-language&quot;&gt;XML (Xtensible Markup Language)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xmpi&quot; id=&quot;markdown-toc-xmpi&quot;&gt;XMPI&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;医学分类&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-1&quot; id=&quot;markdown-toc-section-1&quot;&gt;医学数据标准和协作性标准&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-2&quot; id=&quot;markdown-toc-section-2&quot;&gt;参考资料&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;glossary-of-health-and-health-it-terms-and-acronyms-&quot;&gt;Glossary of Health and Health IT Terms and Acronyms （健康和卫生信息术语和缩写）&lt;/h3&gt;
 
@@ -78,7 +174,7 @@
   &lt;p&gt;the second revision of HL7’s CDA architecture that attempts to introduce more standard templates to facilitate information sharing (a mandate of Meaningful Use 2)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;HL7临床文档架构的第二个版本，尝试引入更多标准模板，以加快信息分享（“有意义应用2”的一个授权）。&lt;/p&gt;
+&lt;p&gt;HL7临床文档架构的第二个版本，尝试引入更多标准模板，以加快信息分享（“有效使用阶段2”的一个授权）。&lt;/p&gt;
 
 &lt;h4 id=&quot;cda-clinical-document-architecture-&quot;&gt;CDA (Clinical Document Architecture) （临床文档架构）&lt;/h4&gt;
 
@@ -102,11 +198,13 @@
   &lt;p&gt;an entity that digitally signs certificate requests and issues X.509 digital certificates that link a public key to attributes of its owner&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;cimi-clinical-information-modeling-initiative&quot;&gt;CIMI (Clinical Information Modeling Initiative)&lt;/h4&gt;
+&lt;h4 id=&quot;cimi-clinical-information-modeling-initiative&quot;&gt;CIMI (Clinical Information Modeling Initiative)（临床信息建模计划）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;an independent collaboration of major health providers improve the interoperability of healthcare information systems through shared and implementable clinical information models&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;主要的医疗提供者的一个独立的合作计划，旨在提高医护信息系统之间的协作性，通过可分享，可实现的临床信息模型。&lt;/p&gt;
 
 &lt;h4 id=&quot;cms-centers-for-medicare--medicaid-services&quot;&gt;CMS (Centers for Medicare &amp;amp; Medicaid Services)（医疗保险和医疗救助服务中心）&lt;/h4&gt;
 
@@ -124,11 +222,13 @@
 
 &lt;p&gt;一组主要的医学IT企业，共同努力，以使他们的软件产品和服务达到互通。&lt;/p&gt;
 
-&lt;h4 id=&quot;complete-ehr&quot;&gt;Complete EHR&lt;/h4&gt;
+&lt;h4 id=&quot;complete-ehrehr&quot;&gt;Complete EHR（完整EHR）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;an EHR software product that, by itself, is capable of meeting the requirements of certification and Meaningful Use&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;一个EHR软件产品，有能力独立满足认证和“有效使用”的要求。&lt;/p&gt;
 
 &lt;h4 id=&quot;connect&quot;&gt;CONNECT&lt;/h4&gt;
 
@@ -136,7 +236,7 @@
   &lt;p&gt;ONC supported open source software for managing the centralized model of health information exchange&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;cpt-current-procedural-terminology&quot;&gt;CPT (Current Procedural Terminology)&lt;/h4&gt;
+&lt;h4 id=&quot;cpt-current-procedural-terminologycpt&quot;&gt;CPT (Current Procedural Terminology)（CPT医疗服务(操作)编码系统）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;the American Medical Association’s standard for coding medical procedures&lt;/p&gt;
@@ -148,11 +248,13 @@
   &lt;p&gt;PHI from which all data elements that could allow the data to be traced back to the patient have been removed&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;direct&quot;&gt;Direct&lt;/h4&gt;
+&lt;h4 id=&quot;directdirect&quot;&gt;Direct（Direct系统）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;a set of ONC supported standards for secure exchange of health information using email&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;一组ONC支持的标准，使用邮件安全的交换医疗信息。&lt;/p&gt;
 
 &lt;h4 id=&quot;dns-domain-name-system&quot;&gt;DNS (Domain Name System)&lt;/h4&gt;
 
@@ -184,7 +286,7 @@
   &lt;p&gt;a set of technical requirements developed by ONC that, if met, quality an EHR to be used by an Eligible Professional to achieve Meaningful Use&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;一组ONC开发的技术要求。满足要求后，保证”合格专家”使用EHR的质量，以达到“有意义应用”。&lt;/p&gt;
+&lt;p&gt;一组ONC开发的技术要求。满足要求后，保证”合格专家”使用EHR的质量，以达到“有效使用”。&lt;/p&gt;
 
 &lt;h4 id=&quot;eligible-professionals-medicaid-&quot;&gt;Eligible Professionals (Medicaid)（合理的职业-医疗救助）&lt;/h4&gt;
 
@@ -323,7 +425,7 @@ browsers and connected servers. HTTPS is the secure version.&lt;/p&gt;
 
 &lt;p&gt;多国组织，用以维护SNOMED。&lt;/p&gt;
 
-&lt;h4 id=&quot;ip-address&quot;&gt;IP Address&lt;/h4&gt;
+&lt;h4 id=&quot;ip-addressip&quot;&gt;IP Address（IP地址）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;a 32 bit (the standard is changing to 128 bit to accommodate Internet growth) number assigned to each device in an Internet Protocol network and that indicates where it is in that network.&lt;/p&gt;
@@ -335,11 +437,13 @@ browsers and connected servers. HTTPS is the secure version.&lt;/p&gt;
   &lt;p&gt;a scalable query framework for exploration of clinical and genomic data for research to design targeted therapies for individual patients with diseases having genetic origins&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;interoperability&quot;&gt;Interoperability&lt;/h4&gt;
+&lt;h4 id=&quot;interoperability&quot;&gt;Interoperability（可协作性）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;the ability of diverse information systems to seamlessly share data and coordinate on tasks involving multiple systems.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;不同信息系统之间，连续数据分享和任务协调的能力。&lt;/p&gt;
 
 &lt;h4 id=&quot;ldap-lightweight-directory-access-protocol&quot;&gt;LDAP (Lightweight Directory Access Protocol)（轻量目录访问协议）&lt;/h4&gt;
 
@@ -357,13 +461,15 @@ browsers and connected servers. HTTPS is the secure version.&lt;/p&gt;
 
 &lt;p&gt;Regenstrief机构的关于实验室和临川观察的标准。&lt;/p&gt;
 
-&lt;h4 id=&quot;meaningful-use&quot;&gt;Meaningful Use&lt;/h4&gt;
+&lt;h4 id=&quot;meaningful-use&quot;&gt;Meaningful Use（有效使用）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;a set of usage requirements defined in three stages by ONC under which eligible professionals are paid for adopting a certified EHR&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;meddra-medical-dictionary-for-regulatory-activities&quot;&gt;MedDRA (Medical Dictionary for Regulatory Activities)&lt;/h4&gt;
+&lt;p&gt;一组ONC定义的应用要求，分三个阶段，会因认证的EHR使用给合格的专业人员付费。&lt;/p&gt;
+
+&lt;h4 id=&quot;meddra-medical-dictionary-for-regulatory-activities-&quot;&gt;MedDRA (Medical Dictionary for Regulatory Activities) （监管活动医学词典）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;the International Conference on Harmonisation’s classification of adverse event information associated with the use of biopharmaceuticals and other medical products&lt;/p&gt;
@@ -383,18 +489,19 @@ browsers and connected servers. HTTPS is the secure version.&lt;/p&gt;
   &lt;p&gt;the federally operated program to provide healthcare services to US citizens over the age of 65&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;mime-multipurpose-internet-mail-extensions&quot;&gt;MIME (Multipurpose Internet Mail Extensions)&lt;/h4&gt;
+&lt;h4 id=&quot;mime-multipurpose-internet-mail-extensions&quot;&gt;MIME (Multipurpose Internet Mail Extensions)（多用途网络邮件扩充协议）&lt;/h4&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;the Internet standard for the format of email attachments
-used in Direct. S/MIME is the secure version.&lt;/p&gt;
+  &lt;p&gt;the Internet standard for the format of email attachments used in Direct. S/MIME is the secure version.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;mlm-medical-logic-module&quot;&gt;MLM (Medical Logic Module)&lt;/h4&gt;
+&lt;h4 id=&quot;mlm-medical-logic-module&quot;&gt;MLM (Medical Logic Module)（医学逻辑模块）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;the basic unit in the Arden Syntax that contains sufficient medical knowledge and rules to make one clinical decision.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;Arden语言的基本单元，包含做出医学决策的足够的医学知识和规则。&lt;/p&gt;
 
 &lt;h4 id=&quot;modular-ehr&quot;&gt;Modular EHR&lt;/h4&gt;
 
@@ -402,17 +509,21 @@ used in Direct. S/MIME is the secure version.&lt;/p&gt;
   &lt;p&gt;a software component that delivers at least one of the key services required of a Certified EHR&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;mpi-master-patient-index&quot;&gt;MPI (Master Patient Index)&lt;/h4&gt;
+&lt;h4 id=&quot;mpi-master-patient-index&quot;&gt;MPI (Master Patient Index)（患者主索引）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;software to provide correct matching of patients across multiple software systems, typically within a health enterprise&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;mumps-massachusetts-general-utility-multi-programming-system&quot;&gt;MUMPS (Massachusetts General Utility Multi-Programming System)&lt;/h4&gt;
+&lt;p&gt;通常是医疗系统内的软件，用于不同软件系统之间提供正确的患者匹配。&lt;/p&gt;
+
+&lt;h4 id=&quot;mumps-massachusetts-general-utility-multi-programming-system&quot;&gt;MUMPS (Massachusetts General Utility Multi-Programming System)（麻省总医院多用途程序设计系统）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;an integrated programming language and file management system designed in the late 1960’s for medical data processing that is the basis for some of the most widely installed enterprise health information systems&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;一种整合的变成语言和文件管理系统，设计于20世纪60年代晚期，用于医学数据处理，是一些广泛使用的企业医学信息系统的基础。&lt;/p&gt;
 
 &lt;h4 id=&quot;ndc-national-drug-codes&quot;&gt;NDC (National Drug Codes)（国家药品编码）&lt;/h4&gt;
 
@@ -446,13 +557,13 @@ used in Direct. S/MIME is the secure version.&lt;/p&gt;
 
 &lt;p&gt;一种医疗服务的付费方式，当达到规定标准时，对医生的表现进行奖励。&lt;/p&gt;
 
-&lt;h4 id=&quot;pcmh-patient-centered-medical-home&quot;&gt;PCMH (Patient-Centered Medical Home)&lt;/h4&gt;
+&lt;h4 id=&quot;pcmh-patient-centered-medical-home&quot;&gt;PCMH (Patient-Centered Medical Home)（以病人为中心的医护之家）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;a team based healthcare delivery model often particularly focused on the management of chronic disease&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;pcp-primary-care-physician&quot;&gt;PCP (Primary Care Physician)&lt;/h4&gt;
+&lt;h4 id=&quot;pcp-primary-care-physician&quot;&gt;PCP (Primary Care Physician)（初级护理医师）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;the generalist in a patient’s care team who assumes overall responsibility for all their health issues and often the gatekeeper who must generate referrals to specialists&lt;/p&gt;
@@ -514,19 +625,27 @@ used in Direct. S/MIME is the secure version.&lt;/p&gt;
   &lt;p&gt;the reusable basic XML-based building blocks of a CDA document that can represent the entire document, its sections or the data entries within a section&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;read-codes&quot;&gt;Read Codes&lt;/h4&gt;
+&lt;h4 id=&quot;read-codes&quot;&gt;Read Codes（读码）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;a hierarchical clinical terminology system used in General Practice in the United Kingdom&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;resource-description-framework-rdf&quot;&gt;Resource Description Framework (RDF)&lt;/h4&gt;
+&lt;p&gt;英国全科使用的一套分层的临床术语系统。&lt;/p&gt;
+
+&lt;h4 id=&quot;resource-description-framework-rdf&quot;&gt;Resource Description Framework (RDF)（资源描述框架）&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;a method for describing or modeling of information on the web using subject-predicate-object expressions (triples) in the form of subject-predicate-object expressions that could be used to represent health ontologies (SNOMED, ICD-1)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;rim-reference-information-model-a-pictorial-representation-of-the-hl7-clinical-data-domains-that-illustrates-the-life-cycle-of-an-hl7-message-or-groups-of-related-messages&quot;&gt;RIM (Reference Information Model) a pictorial representation of the HL7 clinical data (domains) that illustrates the life cycle of an HL7 message or groups of related messages&lt;/h4&gt;
+&lt;h4 id=&quot;rim-reference-information-model&quot;&gt;RIM (Reference Information Model)（参考信息模型）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a pictorial representation of the HL7 clinical data (domains) that illustrates the life cycle of an HL7 message or groups of related messages&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;HL7临床数据的有插图的表示，以解释一个或一组HL7消息的生命周期。&lt;/p&gt;
 
 &lt;h4 id=&quot;semantic-web&quot;&gt;Semantic web（语义网）&lt;/h4&gt;
 
@@ -611,6 +730,25 @@ used in Direct. S/MIME is the secure version.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;a cross organizational master patient index capable of dealing with many unaffiliated hospitals and health systems&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;以上部分翻译自coursera课程&lt;a href=&quot;https://www.coursera.org/learn/fhir/home/info&quot;&gt;《Health Informatics on FHIR》&lt;/a&gt;的课程资料。&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;医学分类&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/MedicalClassification.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/HealthInformatics.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;医学数据标准和协作性标准&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/HIT-standards.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;参考资料&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/learn/fhir/home/info&quot;&gt;《Health Informatics on FHIR》&lt;/a&gt; on Coursera&lt;/li&gt;
+  &lt;li&gt;wiki: &lt;a href=&quot;https://en.wikipedia.org/wiki/Medical_classification&quot;&gt;Medical_classification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Wed, 22 Feb 2017 00:00:00 +0800</pubDate>
         <link>zjuwhw.github.io/2017/02/22/HIT-glossary.html</link>

@@ -1,12 +1,14 @@
 ---
 layout: post
-title: 卫生信息学术语
+title: 卫生信息学简介
 date: 2017-02-22
 tags: ["medi", "HIT"]
 ---
 
-本博客翻译自coursera课程[《Health Informatics on FHIR》](https://www.coursera.org/learn/fhir/home/info)的课程资料。
 
+
+* TOC
+{:toc}
 
 ### Glossary of Health and Health IT Terms and Acronyms （健康和卫生信息术语和缩写）
 
@@ -31,30 +33,30 @@ tags: ["medi", "HIT"]
 
 #### CCDA (Consolidated Clinical Document Architecture) （加强的临床文档架构）
 
-> the second revision of HL7’s CDA architecture that attempts to introduce more standard templates to facilitate information sharing (a mandate of Meaningful Use 2)HL7临床文档架构的第二个版本，尝试引入更多标准模板，以加快信息分享（“有意义应用2”的一个授权）。
+> the second revision of HL7’s CDA architecture that attempts to introduce more standard templates to facilitate information sharing (a mandate of Meaningful Use 2)HL7临床文档架构的第二个版本，尝试引入更多标准模板，以加快信息分享（“有效使用阶段2”的一个授权）。
 #### CDA (Clinical Document Architecture) （临床文档架构）
 
 > an XML-based markup standard intended to specify the encoding, structure and semantics of clinical documents一个基于XML的标记语言标注，用于指定临床文档的编码，结构和语义。#### CDC (Centers for Disease Control and Prevention)（疾病控制和预防中心）
 
 > the federal agency focused on disease in the community.专注于疾病的联邦机构。#### CA (Certificate Authority)（证书认证）
 
-> an entity that digitally signs certificate requests and issues X.509 digital certificates that link a public key to attributes of its owner#### CIMI (Clinical Information Modeling Initiative)
+> an entity that digitally signs certificate requests and issues X.509 digital certificates that link a public key to attributes of its owner#### CIMI (Clinical Information Modeling Initiative)（临床信息建模计划）
 
-> an independent collaboration of major health providers improve the interoperability of healthcare information systems through shared and implementable clinical information models#### CMS (Centers for Medicare & Medicaid Services)（医疗保险和医疗救助服务中心）
+> an independent collaboration of major health providers improve the interoperability of healthcare information systems through shared and implementable clinical information models主要的医疗提供者的一个独立的合作计划，旨在提高医护信息系统之间的协作性，通过可分享，可实现的临床信息模型。#### CMS (Centers for Medicare & Medicaid Services)（医疗保险和医疗救助服务中心）
 
 > the component of the Department of Health and Human Services that administers the Medicare and Medicaid programs美国卫生与公共服务部的一部分，用于管理医疗保险和医疗救助项目。#### CommonWell Alliance（共好联盟）
 
-> a group of major health IT companies that is working to achieve interoperability among their respective software products and services一组主要的医学IT企业，共同努力，以使他们的软件产品和服务达到互通。#### Complete EHR
+> a group of major health IT companies that is working to achieve interoperability among their respective software products and services一组主要的医学IT企业，共同努力，以使他们的软件产品和服务达到互通。#### Complete EHR（完整EHR）
 
-> an EHR software product that, by itself, is capable of meeting the requirements of certification and Meaningful Use#### CONNECT
+> an EHR software product that, by itself, is capable of meeting the requirements of certification and Meaningful Use一个EHR软件产品，有能力独立满足认证和“有效使用”的要求。#### CONNECT
 
-> ONC supported open source software for managing the centralized model of health information exchange#### CPT (Current Procedural Terminology)
+> ONC supported open source software for managing the centralized model of health information exchange#### CPT (Current Procedural Terminology)（CPT医疗服务(操作)编码系统）
 
 > the American Medical Association’s standard for coding medical procedures#### De-identified Patient Health Information
 
-> PHI from which all data elements that could allow the data to be traced back to the patient have been removed#### Direct
+> PHI from which all data elements that could allow the data to be traced back to the patient have been removed#### Direct（Direct系统）
 
-> a set of ONC supported standards for secure exchange of health information using email#### DNS (Domain Name System)
+> a set of ONC supported standards for secure exchange of health information using email一组ONC支持的标准，使用邮件安全的交换医疗信息。#### DNS (Domain Name System)
 
 > the naming system for computers, services, or any resource connected to the Internet (or a private network). Among other things, it translates domain names (e.g. eBay.com) to the numerical IP addresses needed to locate Internet connected resources.#### EDI/X12
 
@@ -66,7 +68,7 @@ tags: ["medi", "HIT"]
 
 > a set of technical requirements developed by ONC that, if met, quality an EHR to be used by an Eligible Professional to achieve Meaningful Use
 
-一组ONC开发的技术要求。满足要求后，保证"合格专家"使用EHR的质量，以达到“有意义应用”。
+一组ONC开发的技术要求。满足要求后，保证"合格专家"使用EHR的质量，以达到“有效使用”。
 
 #### Eligible Professionals (Medicaid)（合理的职业-医疗救助）
 
@@ -112,19 +114,19 @@ tags: ["medi", "HIT"]
 
 > the World Health Organization’s almost universally used standard codes for diagnoses.世界卫生组织通用的诊断标准代码。#### IHTSDO (International Health Terminology Standard Development Organisation)（国际卫生术语标准发展组织）
 
-> the multinational organization that maintains SNOMED多国组织，用以维护SNOMED。#### IP Address
+> the multinational organization that maintains SNOMED多国组织，用以维护SNOMED。#### IP Address（IP地址）
 
 > a 32 bit (the standard is changing to 128 bit to accommodate Internet growth) number assigned to each device in an Internet Protocol network and that indicates where it is in that network.#### I2b2 (Informatics for Integrating Biology and the Bedside)
 
-> a scalable query framework for exploration of clinical and genomic data for research to design targeted therapies for individual patients with diseases having genetic origins#### Interoperability
+> a scalable query framework for exploration of clinical and genomic data for research to design targeted therapies for individual patients with diseases having genetic origins#### Interoperability（可协作性）
 
-> the ability of diverse information systems to seamlessly share data and coordinate on tasks involving multiple systems.#### LDAP (Lightweight Directory Access Protocol)（轻量目录访问协议）
+> the ability of diverse information systems to seamlessly share data and coordinate on tasks involving multiple systems.不同信息系统之间，连续数据分享和任务协调的能力。#### LDAP (Lightweight Directory Access Protocol)（轻量目录访问协议）
 
 > is a protocol for accessing (including searching) and maintaining distributed directory information services (such as an email directory) over an IP network.通过一个IP网络访问（包括搜索）和维护分布式目录信息服务（例如邮件目录）的协议。#### LOINC (Logical Observation Identifiers Names and Codes)（逻辑观察标识符名称和代码）
 
-> the Regenstrief Institute’s standard for laboratory and clinical observationsRegenstrief机构的关于实验室和临川观察的标准。#### Meaningful Use
+> the Regenstrief Institute’s standard for laboratory and clinical observationsRegenstrief机构的关于实验室和临川观察的标准。#### Meaningful Use（有效使用）
 
-> a set of usage requirements defined in three stages by ONC under which eligible professionals are paid for adopting a certified EHR#### MedDRA (Medical Dictionary for Regulatory Activities) 
+> a set of usage requirements defined in three stages by ONC under which eligible professionals are paid for adopting a certified EHR一组ONC定义的应用要求，分三个阶段，会因认证的EHR使用给合格的专业人员付费。#### MedDRA (Medical Dictionary for Regulatory Activities) （监管活动医学词典）
 
 > the International Conference on Harmonisation’s classification of adverse event information associated with the use of biopharmaceuticals and other medical products#### Medicaid（医疗救助）
 
@@ -132,17 +134,17 @@ tags: ["medi", "HIT"]
 
 > the federally operated program to provide healthcare services to US citizens over the age of 65
 
-#### MIME (Multipurpose Internet Mail Extensions)
+#### MIME (Multipurpose Internet Mail Extensions)（多用途网络邮件扩充协议）
 
-> the Internet standard for the format of email attachmentsused in Direct. S/MIME is the secure version.#### MLM (Medical Logic Module)
+> the Internet standard for the format of email attachments used in Direct. S/MIME is the secure version.#### MLM (Medical Logic Module)（医学逻辑模块）
 
-> the basic unit in the Arden Syntax that contains sufficient medical knowledge and rules to make one clinical decision.#### Modular EHR
+> the basic unit in the Arden Syntax that contains sufficient medical knowledge and rules to make one clinical decision.Arden语言的基本单元，包含做出医学决策的足够的医学知识和规则。#### Modular EHR
 
-> a software component that delivers at least one of the key services required of a Certified EHR#### MPI (Master Patient Index)
+> a software component that delivers at least one of the key services required of a Certified EHR#### MPI (Master Patient Index)（患者主索引）
 
-> software to provide correct matching of patients across multiple software systems, typically within a health enterprise#### MUMPS (Massachusetts General Utility Multi-Programming System)
+> software to provide correct matching of patients across multiple software systems, typically within a health enterprise通常是医疗系统内的软件，用于不同软件系统之间提供正确的患者匹配。#### MUMPS (Massachusetts General Utility Multi-Programming System)（麻省总医院多用途程序设计系统）
 
-> an integrated programming language and file management system designed in the late 1960’s for medical data processing that is the basis for some of the most widely installed enterprise health information systems#### NDC (National Drug Codes)（国家药品编码）
+> an integrated programming language and file management system designed in the late 1960’s for medical data processing that is the basis for some of the most widely installed enterprise health information systems一种整合的变成语言和文件管理系统，设计于20世纪60年代晚期，用于医学数据处理，是一些广泛使用的企业医学信息系统的基础。#### NDC (National Drug Codes)（国家药品编码）
 
 > the Food and Drug Administration’s numbering system for all medications commercially available in the US
 
@@ -154,9 +156,9 @@ tags: ["medi", "HIT"]
 
 > an approach to pay for healthcare that rewards physician performance against certain defined quality metrics when combined with a lower than predicted cost of care一种医疗服务付费方式，当医疗花费低于预测且达到规定的标准时，对医生的表现进行奖励。#### P4P (Pay for Performance)（按表现付费）
 
-> an approach to pay for healthcare that rewards physician performance against certain defined quality metrics一种医疗服务的付费方式，当达到规定标准时，对医生的表现进行奖励。#### PCMH (Patient-Centered Medical Home)
+> an approach to pay for healthcare that rewards physician performance against certain defined quality metrics一种医疗服务的付费方式，当达到规定标准时，对医生的表现进行奖励。#### PCMH (Patient-Centered Medical Home)（以病人为中心的医护之家）
 
-> a team based healthcare delivery model often particularly focused on the management of chronic disease#### PCP (Primary Care Physician)
+> a team based healthcare delivery model often particularly focused on the management of chronic disease#### PCP (Primary Care Physician)（初级护理医师）
 
 > the generalist in a patient’s care team who assumes overall responsibility for all their health issues and often the gatekeeper who must generate referrals to specialists#### PHI (Protected Health Information)（受保护的健康信息）
 
@@ -176,11 +178,13 @@ tags: ["medi", "HIT"]
 #### Templates (CDA)
 
 > the reusable basic XML-based building blocks of a CDA document that can represent the entire document, its sections or the data entries within a section
-#### Read Codes
+#### Read Codes（读码）
 
-> a hierarchical clinical terminology system used in General Practice in the United Kingdom#### Resource Description Framework (RDF)
+> a hierarchical clinical terminology system used in General Practice in the United Kingdom英国全科使用的一套分层的临床术语系统。#### Resource Description Framework (RDF)（资源描述框架）
 
-> a method for describing or modeling of information on the web using subject-predicate-object expressions (triples) in the form of subject-predicate-object expressions that could be used to represent health ontologies (SNOMED, ICD-1)#### RIM (Reference Information Model) a pictorial representation of the HL7 clinical data (domains) that illustrates the life cycle of an HL7 message or groups of related messages#### Semantic web（语义网）
+> a method for describing or modeling of information on the web using subject-predicate-object expressions (triples) in the form of subject-predicate-object expressions that could be used to represent health ontologies (SNOMED, ICD-1)#### RIM (Reference Information Model)（参考信息模型）
+
+> a pictorial representation of the HL7 clinical data (domains) that illustrates the life cycle of an HL7 message or groups of related messagesHL7临床数据的有插图的表示，以解释一个或一组HL7消息的生命周期。#### Semantic web（语义网）
 
 > the proposed next generation of web in which technologies like RDF would create a "web of data" in which browsers (and other tools) could “understand” the content of web pages#### SMTP (Simplified Mail Transport Protocol)（简化邮件传输协议）
 
@@ -215,3 +219,20 @@ tags: ["medi", "HIT"]
 > a widely used standard for machine and human readable electronic documents and the language used to define CDA templates#### XMPI
 
 > a cross organizational master patient index capable of dealing with many unaffiliated hospitals and health systems
+
+以上部分翻译自coursera课程[《Health Informatics on FHIR》](https://www.coursera.org/learn/fhir/home/info)的课程资料。
+
+### 医学分类
+
+![](/images/MedicalClassification.png)
+
+![](/images/HealthInformatics.png)
+
+### 医学数据标准和协作性标准
+
+![](/images/HIT-standards.png)
+
+### 参考资料
+
+- [《Health Informatics on FHIR》](https://www.coursera.org/learn/fhir/home/info) on Coursera
+- wiki: [Medical_classification](https://en.wikipedia.org/wiki/Medical_classification)
