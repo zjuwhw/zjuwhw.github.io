@@ -10,6 +10,16 @@ tags: ["medi", "HIT"]
 * TOC
 {:toc}
 
+### 医学分类
+
+![](/images/MedicalClassification.png)
+
+![](/images/HealthInformatics.png)
+
+### 医学数据标准和协作性标准
+
+![](/images/HIT-standards.png)
+
 ### Glossary of Health and Health IT Terms and Acronyms （健康和卫生信息术语和缩写）
 
 #### ACO (Accountable Care Organization)（责任医疗组织）
@@ -48,19 +58,19 @@ tags: ["medi", "HIT"]
 
 > a group of major health IT companies that is working to achieve interoperability among their respective software products and services一组主要的医学IT企业，共同努力，以使他们的软件产品和服务达到互通。#### Complete EHR（完整EHR）
 
-> an EHR software product that, by itself, is capable of meeting the requirements of certification and Meaningful Use一个EHR软件产品，有能力独立满足认证和“有效使用”的要求。#### CONNECT
+> an EHR software product that, by itself, is capable of meeting the requirements of certification and Meaningful Use一个EHR软件产品，有能力独立满足认证和“有效使用”的要求。#### CONNECT（CONNECT软件）
 
 > ONC supported open source software for managing the centralized model of health information exchange#### CPT (Current Procedural Terminology)（CPT医疗服务(操作)编码系统）
 
-> the American Medical Association’s standard for coding medical procedures#### De-identified Patient Health Information
+> the American Medical Association’s standard for coding medical procedures#### De-identified Patient Health Information（去识别的患者医学信息）
 
 > PHI from which all data elements that could allow the data to be traced back to the patient have been removed#### Direct（Direct系统）
 
-> a set of ONC supported standards for secure exchange of health information using email一组ONC支持的标准，使用邮件安全的交换医疗信息。#### DNS (Domain Name System)
+> a set of ONC supported standards for secure exchange of health information using email一组ONC支持的标准，使用邮件安全的交换医疗信息。#### DNS (Domain Name System)（域名服务系统）
 
-> the naming system for computers, services, or any resource connected to the Internet (or a private network). Among other things, it translates domain names (e.g. eBay.com) to the numerical IP addresses needed to locate Internet connected resources.#### EDI/X12
+> the naming system for computers, services, or any resource connected to the Internet (or a private network). Among other things, it translates domain names (e.g. eBay.com) to the numerical IP addresses needed to locate Internet connected resources.#### EDI/X12（EDI/X12格式）
 
-> a format for electronic messaging that utilizes cryptic but compact notation primarily to support computer-to-computer commercial information exchange#### eHealth Exchange
+> a format for electronic messaging that utilizes cryptic but compact notation primarily to support computer-to-computer commercial information exchange#### eHealth Exchange（电子病历交换）
 
 > a set of standards, services and policies that enable secure nationwide, Internet-based health information exchange using CONNECT or one of the commercial HIE products that support eHealth Exchange#### EHR (Electronic Health Record)（电子健康记录）
 
@@ -200,37 +210,30 @@ tags: ["medi", "HIT"]
 
 > the effort to develop a standard electronic clinical summary for transitions of care from one venue to another#### TPO
 
-> HIPAA exception for providers, insurance companies and other health-care entities to exchange information necessary for Treatment, Payment or Operations of healthcare businesses#### VDT (View, Download, Transmit)
+> HIPAA exception for providers, insurance companies and other health-care entities to exchange information necessary for Treatment, Payment or Operations of healthcare businesses#### VDT (View, Download, Transmit)（查看、下载、传输）
 
 > a requirement of Meaningful Use Stage 2 that patients view, download or transmit their health information#### VistA (Veterans Health Information Systems and Technology Architecture)
 
-> the Veteran’s Administration’s system wide, MUMPS based health information infrastructure#### X.509 digital certificate
+> the Veteran’s Administration’s system wide, MUMPS based health information infrastructure#### X.509 digital certificate（X.509数字证书标准）
 
-> the technical name for an electronic document issued by a CA that uses a digital signature to bind a public key with an identity based on information from an RA#### XDR (External Data Representation)
+> the technical name for an electronic document issued by a CA that uses a digital signature to bind a public key with an identity based on information from an RA#### XDR (External Data Representation)（外部数据表示法）
 
 > an operating system and transport method agnostic mechanism for exchanging data that is encoded/decoded into/from the XDR format.#### XDM (IHE Cross Enterprise Document Media Interchange)
 
 > a standard mechanism for including both documents and meta-data in zip format using agreed upon conventions for directory structure and location of files.
 
-#### XDS (Cross-Enterprise Document Sharing)
+#### XDS (Cross-Enterprise Document Sharing)（跨企业文档分享）
 
-> the use of federated document repositories and a document registry to create a longitudinal record of information about a patient#### XML (Xtensible Markup Language)
+> the use of federated document repositories and a document registry to create a longitudinal record of information about a patient#### XML (Xtensible Markup Language)（可扩展置标语言）
 
-> a widely used standard for machine and human readable electronic documents and the language used to define CDA templates#### XMPI
+> a widely used standard for machine and human readable electronic documents and the language used to define CDA templates广泛使用的机读和人读电子文档，该语言可以用于定义临床文档架构模板。#### XMPI（跨组织患者主索引）
 
 > a cross organizational master patient index capable of dealing with many unaffiliated hospitals and health systems
 
+一个跨组织的患者主索引，能够应对许多非附属医院和医疗系统。
+
 以上部分翻译自coursera课程[《Health Informatics on FHIR》](https://www.coursera.org/learn/fhir/home/info)的课程资料。
 
-### 医学分类
-
-![](/images/MedicalClassification.png)
-
-![](/images/HealthInformatics.png)
-
-### 医学数据标准和协作性标准
-
-![](/images/HIT-standards.png)
 
 ### 参考资料
 
