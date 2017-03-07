@@ -268,31 +268,353 @@ for <variable> in range(<some_num>):
 
 #### Bisection Search（二分查找）
 
+EXAMPLE OF SQUARE ROOT
+
+```python
+x = 25epsilon = 0.01numGuesses = 0low = 1.0high = xans = (high + low)/2.0
+while abs(ans**2 - x) >= epsilon:	print('low = ' + str(low) + ' high = ' + str(high) + ' ans = ' + str(ans)) 
+	numGuesses += 1	if ans**2 < x:
+		low = ans
+	else:		high = ans	ans = (high + low)/2.0print('numGuesses = ' + str(numGuesses))print(str(ans) + ' is close to square root of ' + str(x))
+```
+
+Some obersvation
+
+- Bisection search radically reduces computation time – being smart about generating guesses is important
+- Should work well on problems with “ordering” property
+
+
 #### Floats and Fractions（浮点型和分数）
 
+- Decimal number: `302 = 3*10^2 + 0*10^1 + 2*10^0`
+- Binary number: `10011 = 1*2^4 + 0*2^3 + 0*2^2 + 1*2^1 + 1*2^0`
+
+convert decimal number to binary number
+
+```python
+if num < 0:    isNeg = True    num = abs(num)else:	isNeg = False 
+result = ‘‘if num == 0:    result = ‘0’while num > 0:	result = str(num%2) + result
+	num = num//2if isNeg:	result = ‘-’ + result
+```
+
+FRACTIONS
+
+- Decimal number: 0.375 = 3 * 10<sup>-1</sup> + 7 * 10<sup>-2</sup> + 5 * 10<sup>-3</sup>
+- Binary number: 0.375 = 0* 2<sup>-1</sup> + 1 * 2<sup>-2</sup> + 1 * 2<sup>-3</sup>
+
+- So if we multiply by a power of 2 big enough to convert into a whole number, can then convert to binary, and then divide by the same power of 2
+
+SOME IMPLICATIONS
+
+- If there is no integer p such that `x*(2**p)` is a whole number, then internal representation is always an approximation
+- Use `abs(x-y)` < some small number, rather than `x == y`
+
 #### Newton-Raphson（Newton-Raphson迭代法）
+
+General approximation algorithm to find roots of a polynomial in one variable：
+p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + ... + a<sub>1</sub>x + a<sub>0</sub>
+
+Newton showed that if g is an approximation to the root, then `g – p(g)/p’(g)` is a better approximation; where p’ is derivative of p.
+
+```python
+epsilon = 0.01
+y = 24.0
+guess = y/2.0
+numGuesses = 0while abs(guess*guess - y) >= epsilon:
+	numGuesses += 1	guess = guess - (((guess**2) - y)/(2*guess))
+	print(‘numGuesses = ‘ + str(numGuesses))	print('Square root of ' + str(y) + ' is about ' + str(guess))
+```
+
+##### Iterative algorithms
+
+- Guess and check methods build on reusing same code 
+	- Use a looping construct to generate guesses, then check and continue
+- Generating guesses	- Exhaustive enumeration	- Bisection search	- Newton-Raphson (for root finding)
 
 ### Lecture 4: Functions
 
 #### Decomposition and Abstraction（分解和抽象）
 
+GOOD PROGRAMMING
+
+- more code not necessarily a good thing
+- measure good programmers by the amount of functionality
+- introduce **functions**
+- mechanism to achieve **decomposition** and **abstraction**
+
+DECOMPOSITION and ABSTRACTION
+
+- Decomposition: Break problem into different, self-contained, pieces
+- Abstraction: Suppress details of method to compute something from use of that computation
+- Powerful together
+
+DECOMPOSITION
+
+- in programming, divide code into **modules**
+	- are *self-contained*
+	- used to *break up* code
+	- intended to be *reusable*
+	- keep code *organized*
+	- *keep code coherent*
+- achieve decomposition with **functions** and **classes**
+
+ABSTRACTION
+
+- in programming, think of a piece of code as a **block box**
+	- cannot see details
+	- do not need to see details
+	- do not want to see details
+	- hide tedious coding details
+- achieve abstraction with **function specifications** or **docstrings**
+
 #### Functions and Scope（函数和作用域）
+
+FUNCTIONS
+
+- **functions**: write reusable piece/chunks of code
+- "**called**" or "**invoked**": functions are not run in a program until they are "called" or "invoked" in a program
+- function characteristics:
+	- has a **name**
+	- has **parameters** (0 or more)
+	- has a **docstring** (optional but recommended)
+	- haas a **body**
+
+```python
+def is_even(i):             # def是keyword；is_even是函数名，i是参数（parameters or arguments）
+	"""                
+	Input: i, a positive int
+	Returns True if i is even, otherwise False
+	"""                 # specification, docstring
+	print("hi")         # body
+	return i % 2 == 0   # return是keyword
+
+is_even(3)	            # later in the code, you call the function using its name and values for parameters
+```
+
+VARIABLE SCOPE
+
+- **formal parameter** gets bound to the value of **actual parameter** when function is called
+- new **score/frame/environment** created when enter a funcion
+- **scope** is mapping of names to objects
+- Python returns the value **None, if no return given**
+
+|return|print|
+|:--|:--|
+|return only has meaning **inside** a function|print can be used **outside** functions|
+|only **one** return executed inside a function|can execute **many** print statements inside a function|
+|code inside function but after return statement not executed| code inside function can be executed after a print statement|
+|has a value associated with it, **given to function caller**|has a value associated with is, **outputed** to the console|
+
+FUNCTIONS AS ARGUMENTS
+
+- arguments can take on any type, even functions
+
+SCOPE EXAMPLE
+
+- inside a function, **can access** a variable defined outside
+- inside a function, **cannot modify** a variable defined outside
 
 #### Keyword Arguments（关键字参数）
 
+Can specify that some arguments have default values, so if no value supplied, just use that value
+
 #### Specifications（说明书）
+
+- a **contract** between the implementer of a function and the clients who will use it	- **Assumptions**: conditions that must be met by clients of the function; typically constraints on values of parameters	- **Guarantees**: conditions that must be met by function, providing it has been called in manner consistent with assumptions
 
 #### Iteration vs Recursion（迭代 vs 递归）
 
+WHAT IS RECURSION
+
+- a way to design solutions to problems by **divide-and-conquer or decrease-and-conquer**
+- a programming technique where a **function calls itself**
+- in programming, goal is to NOT have infinite recursion
+	- must have **1 or more base cases** that are easy to solve
+	- must solve the same problem on **some other input** with the goal of simplifying the larger problem input
+
+ITERATIVE ALGORITHMS SO FAR
+
+- looping constructs (while and for loops) lead to **iterative** algorithms
+- can capture computation in a set of **state variables** that update on each iteration through loop
+
+MULTIPLICATION - ITERATIVE SOLUTION
+
+- "multiply a*b" is equivalent to "add a to itself b times"
+- capture **state** by:
+	- an **iteration number**
+	- a current **value of compustation** (result)
+
+```python
+def mult_iter(a, b):
+	result = 0
+	while b > 0:
+		result += a    # value of computation
+		b -= 1         # iteration variable
+	return result
+```
+
+MULTIPLICATION – RECURSIVE SOLUTION
+
+- recursive step
+- base case
+
+```python
+def mult(a, b):
+	if b == 1:                          # base case
+		return a
+	else:
+		return a + mult(a, b-1)         # recursive step
+```
+
+SOME OBSERVATIONS
+
+- each recursive call to a function creates its **own scope/environment**
+- **bindings of variables** in a scope is not changed by recursive call
+- flow of control passes back to **previous scope** once function call returns value
+
+ITERATION vs. RECURSION
+
+```python
+def factorial_iter(n):
+	prod = 1
+	for i in range(1, n+1)
+		prod *= i
+	return prod
+```
+
+```python
+def factorial(n):
+	if n == 1:
+		return 1
+	else:
+		return n*factorial(n-1)
+```
+
+- recursion may be simmpler, more intuitive
+- recursion may be efficient from programmer POV (point of view)
+- recursion may not be efficient from computer POV
+
 #### Inductive Reasoning（归纳推理）
+
+To prove a statement indexed on integers is true for all values of n:- Prove it is true when n is smallest value (e.g. n = 0 or n = 1)- Then prove that if it is true for an arbitrary value of n, one can show that it must be true for n+1
 
 #### Towers of Hanoi（汉诺塔）
 
+```python
+def printMove(fr, to):
+	print("Move from " + str(fr) + " to " + str(to))
+def Towers(n, fr, to, spare):
+	if n == 1:
+		printMove(fr, to)
+	else:
+		Towers(n-1, fr, spare, to)
+		Towers(1, fr, to, spare)
+		Towers(n-1, spare, to, fr)	
+```
+
 #### Fibonacci（斐波那契数列）
 
+FIBONACCI
+
+- Base case
+	- Females(0) = 1
+	- Females(1) = 1
+- Recursive case
+	- Females(n) = Females(n-1) + Females(n-2)
+
+```python
+def fib(x):
+	"""
+	Input: x, an int >= 0
+	Return: Fibonacci of x
+	"""
+	if x == 0 or x == 1:
+		return 1
+	else:
+		return fib(x-1) + fib(x-2)
+```
 #### Recursion on non-numerics（非数字递归）
 
+- check if a string of characters is a palindrome(回文)
+- Base case
+	- a string of length 0 or 1 is a palindrome
+- Recursive case
+	- If first character matches last character, then is a palindrome if middle section is a palindrome
+
+```python
+def isPalindrome(s):
+	def toChars(s):
+		s = s.lower()
+		ans = ''
+		for c in s:
+			if c in 'abcdefghijklmnopqrstuvwxyz':
+				ans = ans + c
+		return c
+	def isPal(s):
+		if len(s) <= 1:
+			return True
+		else:
+			return s[0] == s[-1] and isPal(s[1:-1])
+	return isPal(toChars(s))
+```
+
+##### Divid and Conquer（分治算法）
+
+- an example of a "divide and conquer" algorithm
+- solve a hard problem by breaking it into a set of sub-problems such that:
+	- sub-problems are eaiser to solve than the original
+	- solutions of the sub-problems can be combined to solve the original
+
 #### Files（文件）
+
+##### MODULES AND FILES（模块和文件）
+
+a module is a .py file containing a collection Python definitions and statements
+
+circle.py
+
+```python
+pi = 3.14159
+
+def area(radius):
+	return pi * (radius**2)
+	
+def circumference(radius):
+	return 2 * pi * radius	
+```
+
+import and use circle module
+
+```python
+import circle
+
+pi = 3
+print(pi)                       # 3
+print(circle.pi)                # 3.14159
+print(circle.area(3))           # 28.27431
+print(circle.circumference(3))  # 18.849539999999998
+
+```
+
+OTHER IMPORTING
+
+- if we don’t want to refer to functions and variables by their module, and the names don’t collide with other bindings, then we can use:
+
+```
+from circle import *
+print(pi)
+print(area(3))
+```
+-  this has the effect of creating bindings within the current scope for all objects defined within circle-  statements within a module are executed only the first time a module is imported
+
+FILES
+
+file handle:
+
+```
+nameHandle = open(‘kids’, ‘w’)
+```
+creates a file named kids and returns file handle which we can name and thus reference. The w indicates that the file is to opened for writing into.
 
 ### Lecture 5: Tuples and Lists
 
@@ -353,5 +675,11 @@ for <variable> in range(<some_num>):
 #### Visualizing the Hierarchy（可视化层级结构）
 
 #### Adding another class
+
+#### Using inherited methods
+
+#### Gradebook example
+
+#### Generators
 
 Notes for the [edx](www.edx.org) course [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5)

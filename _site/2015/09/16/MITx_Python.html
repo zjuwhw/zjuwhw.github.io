@@ -56,6 +56,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -129,7 +131,10 @@
           </li>
           <li><a href="#bisection-search" id="markdown-toc-bisection-search">Bisection Search（二分查找）</a></li>
           <li><a href="#floats-and-fractions" id="markdown-toc-floats-and-fractions">Floats and Fractions（浮点型和分数）</a></li>
-          <li><a href="#newton-raphsonnewton-raphson" id="markdown-toc-newton-raphsonnewton-raphson">Newton-Raphson（Newton-Raphson迭代法）</a></li>
+          <li><a href="#newton-raphsonnewton-raphson" id="markdown-toc-newton-raphsonnewton-raphson">Newton-Raphson（Newton-Raphson迭代法）</a>            <ul>
+              <li><a href="#iterative-algorithms" id="markdown-toc-iterative-algorithms">Iterative algorithms</a></li>
+            </ul>
+          </li>
         </ul>
       </li>
       <li><a href="#lecture-4-functions" id="markdown-toc-lecture-4-functions">Lecture 4: Functions</a>        <ul>
@@ -140,9 +145,14 @@
           <li><a href="#iteration-vs-recursion-vs-" id="markdown-toc-iteration-vs-recursion-vs-">Iteration vs Recursion（迭代 vs 递归）</a></li>
           <li><a href="#inductive-reasoning" id="markdown-toc-inductive-reasoning">Inductive Reasoning（归纳推理）</a></li>
           <li><a href="#towers-of-hanoi" id="markdown-toc-towers-of-hanoi">Towers of Hanoi（汉诺塔）</a></li>
-          <li><a href="#fibonacci" id="markdown-toc-fibonacci">Fibonacci（斐波那契数列）</a></li>
-          <li><a href="#recursion-on-non-numerics" id="markdown-toc-recursion-on-non-numerics">Recursion on non-numerics（非数字递归）</a></li>
-          <li><a href="#files" id="markdown-toc-files">Files（文件）</a></li>
+          <li><a href="#fibonacci" id="markdown-toc-fibonacci">Fibonacci（斐波那契数列）</a>            <ul>
+              <li><a href="#divid-and-conquer" id="markdown-toc-divid-and-conquer">Divid and Conquer（分治算法）</a></li>
+            </ul>
+          </li>
+          <li><a href="#files" id="markdown-toc-files">Files（文件）</a>            <ul>
+              <li><a href="#modules-and-files" id="markdown-toc-modules-and-files">MODULES AND FILES（模块和文件）</a></li>
+            </ul>
+          </li>
         </ul>
       </li>
       <li><a href="#lecture-5-tuples-and-lists" id="markdown-toc-lecture-5-tuples-and-lists">Lecture 5: Tuples and Lists</a>        <ul>
@@ -183,6 +193,9 @@
           <li><a href="#building-a-class" id="markdown-toc-building-a-class">Building a Class（创建一个类）</a></li>
           <li><a href="#visualizing-the-hierarchy" id="markdown-toc-visualizing-the-hierarchy">Visualizing the Hierarchy（可视化层级结构）</a></li>
           <li><a href="#adding-another-class" id="markdown-toc-adding-another-class">Adding another class</a></li>
+          <li><a href="#using-inherited-methods" id="markdown-toc-using-inherited-methods">Using inherited methods</a></li>
+          <li><a href="#gradebook-example" id="markdown-toc-gradebook-example">Gradebook example</a></li>
+          <li><a href="#generators" id="markdown-toc-generators">Generators</a></li>
         </ul>
       </li>
     </ul>
@@ -586,31 +599,498 @@
 
 <h4 id="bisection-search">Bisection Search（二分查找）</h4>
 
+<p>EXAMPLE OF SQUARE ROOT</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="mi">25</span>
+<span class="n">epsilon</span> <span class="o">=</span> <span class="mf">0.01</span>
+<span class="n">numGuesses</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">low</span> <span class="o">=</span> <span class="mf">1.0</span>
+<span class="n">high</span> <span class="o">=</span> <span class="n">x</span>
+<span class="n">ans</span> <span class="o">=</span> <span class="p">(</span><span class="n">high</span> <span class="o">+</span> <span class="n">low</span><span class="p">)</span><span class="o">/</span><span class="mf">2.0</span>
+<span class="k">while</span> <span class="nb">abs</span><span class="p">(</span><span class="n">ans</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="n">x</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">epsilon</span><span class="p">:</span>
+	<span class="k">print</span><span class="p">(</span><span class="s">'low = '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">low</span><span class="p">)</span> <span class="o">+</span> <span class="s">' high = '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">high</span><span class="p">)</span> <span class="o">+</span> <span class="s">' ans = '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">ans</span><span class="p">))</span> 
+	<span class="n">numGuesses</span> <span class="o">+=</span> <span class="mi">1</span>
+	<span class="k">if</span> <span class="n">ans</span><span class="o">**</span><span class="mi">2</span> <span class="o">&lt;</span> <span class="n">x</span><span class="p">:</span>
+		<span class="n">low</span> <span class="o">=</span> <span class="n">ans</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="n">high</span> <span class="o">=</span> <span class="n">ans</span>
+	<span class="n">ans</span> <span class="o">=</span> <span class="p">(</span><span class="n">high</span> <span class="o">+</span> <span class="n">low</span><span class="p">)</span><span class="o">/</span><span class="mf">2.0</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'numGuesses = '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numGuesses</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span> <span class="o">+</span> <span class="s">' is close to square root of '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+</code></pre>
+</div>
+
+<p>Some obersvation</p>
+
+<ul>
+  <li>Bisection search radically reduces computation time – being smart about generating guesses is important</li>
+  <li>Should work well on problems with “ordering” property</li>
+</ul>
+
 <h4 id="floats-and-fractions">Floats and Fractions（浮点型和分数）</h4>
 
+<ul>
+  <li>Decimal number: <code class="highlighter-rouge">302 = 3*10^2 + 0*10^1 + 2*10^0</code></li>
+  <li>Binary number: <code class="highlighter-rouge">10011 = 1*2^4 + 0*2^3 + 0*2^2 + 1*2^1 + 1*2^0</code></li>
+</ul>
+
+<p>convert decimal number to binary number</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">if</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">isNeg</span> <span class="o">=</span> <span class="bp">True</span>
+    <span class="n">num</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+	<span class="n">isNeg</span> <span class="o">=</span> <span class="bp">False</span> 
+<span class="n">result</span> <span class="o">=</span> <span class="err">‘‘</span>
+<span class="k">if</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="err">‘</span><span class="mi">0</span><span class="err">’</span>
+<span class="k">while</span> <span class="n">num</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+	<span class="n">result</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">num</span><span class="o">%</span><span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="n">result</span>
+	<span class="n">num</span> <span class="o">=</span> <span class="n">num</span><span class="o">//</span><span class="mi">2</span>
+<span class="k">if</span> <span class="n">isNeg</span><span class="p">:</span>
+	<span class="n">result</span> <span class="o">=</span> <span class="err">‘</span><span class="o">-</span><span class="err">’</span> <span class="o">+</span> <span class="n">result</span>
+</code></pre>
+</div>
+
+<p>FRACTIONS</p>
+
+<ul>
+  <li>Decimal number: 0.375 = 3 * 10<sup>-1</sup> + 7 * 10<sup>-2</sup> + 5 * 10<sup>-3</sup></li>
+  <li>
+    <p>Binary number: 0.375 = 0* 2<sup>-1</sup> + 1 * 2<sup>-2</sup> + 1 * 2<sup>-3</sup></p>
+  </li>
+  <li>So if we multiply by a power of 2 big enough to convert into a whole number, can then convert to binary, and then divide by the same power of 2</li>
+</ul>
+
+<p>SOME IMPLICATIONS</p>
+
+<ul>
+  <li>If there is no integer p such that <code class="highlighter-rouge">x*(2**p)</code> is a whole number, then internal representation is always an approximation</li>
+  <li>Use <code class="highlighter-rouge">abs(x-y)</code> &lt; some small number, rather than <code class="highlighter-rouge">x == y</code></li>
+</ul>
+
 <h4 id="newton-raphsonnewton-raphson">Newton-Raphson（Newton-Raphson迭代法）</h4>
+
+<p>General approximation algorithm to find roots of a polynomial in one variable：</p>
+
+<p>p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub>1</sub>x + a<sub>0</sub></p>
+
+<p>Newton showed that if g is an approximation to the root, then <code class="highlighter-rouge">g – p(g)/p’(g)</code> is a better approximation; where p’ is derivative of p.</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">epsilon</span> <span class="o">=</span> <span class="mf">0.01</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mf">24.0</span>
+<span class="n">guess</span> <span class="o">=</span> <span class="n">y</span><span class="o">/</span><span class="mf">2.0</span>
+<span class="n">numGuesses</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="nb">abs</span><span class="p">(</span><span class="n">guess</span><span class="o">*</span><span class="n">guess</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">epsilon</span><span class="p">:</span>
+	<span class="n">numGuesses</span> <span class="o">+=</span> <span class="mi">1</span>
+	<span class="n">guess</span> <span class="o">=</span> <span class="n">guess</span> <span class="o">-</span> <span class="p">(((</span><span class="n">guess</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">guess</span><span class="p">))</span>
+	<span class="k">print</span><span class="p">(</span><span class="err">‘</span><span class="n">numGuesses</span> <span class="o">=</span> <span class="err">‘</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numGuesses</span><span class="p">))</span>
+	<span class="k">print</span><span class="p">(</span><span class="s">'Square root of '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="p">)</span> <span class="o">+</span> <span class="s">' is about '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">guess</span><span class="p">))</span>
+</code></pre>
+</div>
+
+<h5 id="iterative-algorithms">Iterative algorithms</h5>
+
+<ul>
+  <li>Guess and check methods build on reusing same code
+    <ul>
+      <li>Use a looping construct to generate guesses, then check and continue</li>
+    </ul>
+  </li>
+  <li>Generating guesses
+    <ul>
+      <li>Exhaustive enumeration</li>
+      <li>Bisection search</li>
+      <li>Newton-Raphson (for root finding)</li>
+    </ul>
+  </li>
+</ul>
 
 <h3 id="lecture-4-functions">Lecture 4: Functions</h3>
 
 <h4 id="decomposition-and-abstraction">Decomposition and Abstraction（分解和抽象）</h4>
 
+<p>GOOD PROGRAMMING</p>
+
+<ul>
+  <li>more code not necessarily a good thing</li>
+  <li>measure good programmers by the amount of functionality</li>
+  <li>introduce <strong>functions</strong></li>
+  <li>mechanism to achieve <strong>decomposition</strong> and <strong>abstraction</strong></li>
+</ul>
+
+<p>DECOMPOSITION and ABSTRACTION</p>
+
+<ul>
+  <li>Decomposition: Break problem into different, self-contained, pieces</li>
+  <li>Abstraction: Suppress details of method to compute something from use of that computation</li>
+  <li>Powerful together</li>
+</ul>
+
+<p>DECOMPOSITION</p>
+
+<ul>
+  <li>in programming, divide code into <strong>modules</strong>
+    <ul>
+      <li>are <em>self-contained</em></li>
+      <li>used to <em>break up</em> code</li>
+      <li>intended to be <em>reusable</em></li>
+      <li>keep code <em>organized</em></li>
+      <li><em>keep code coherent</em></li>
+    </ul>
+  </li>
+  <li>achieve decomposition with <strong>functions</strong> and <strong>classes</strong></li>
+</ul>
+
+<p>ABSTRACTION</p>
+
+<ul>
+  <li>in programming, think of a piece of code as a <strong>block box</strong>
+    <ul>
+      <li>cannot see details</li>
+      <li>do not need to see details</li>
+      <li>do not want to see details</li>
+      <li>hide tedious coding details</li>
+    </ul>
+  </li>
+  <li>achieve abstraction with <strong>function specifications</strong> or <strong>docstrings</strong></li>
+</ul>
+
 <h4 id="functions-and-scope">Functions and Scope（函数和作用域）</h4>
+
+<p>FUNCTIONS</p>
+
+<ul>
+  <li><strong>functions</strong>: write reusable piece/chunks of code</li>
+  <li>“<strong>called</strong>” or “<strong>invoked</strong>”: functions are not run in a program until they are “called” or “invoked” in a program</li>
+  <li>function characteristics:
+    <ul>
+      <li>has a <strong>name</strong></li>
+      <li>has <strong>parameters</strong> (0 or more)</li>
+      <li>has a <strong>docstring</strong> (optional but recommended)</li>
+      <li>haas a <strong>body</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">is_even</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>             <span class="c"># def是keyword；is_even是函数名，i是参数（parameters or arguments）</span>
+	<span class="s">"""                
+	Input: i, a positive int
+	Returns True if i is even, otherwise False
+	"""</span>                 <span class="c"># specification, docstring</span>
+	<span class="k">print</span><span class="p">(</span><span class="s">"hi"</span><span class="p">)</span>         <span class="c"># body</span>
+	<span class="k">return</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span>   <span class="c"># return是keyword</span>
+
+<span class="n">is_even</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>	            <span class="c"># later in the code, you call the function using its name and values for parameters</span>
+</code></pre>
+</div>
+
+<p>VARIABLE SCOPE</p>
+
+<ul>
+  <li><strong>formal parameter</strong> gets bound to the value of <strong>actual parameter</strong> when function is called</li>
+  <li>new <strong>score/frame/environment</strong> created when enter a funcion</li>
+  <li><strong>scope</strong> is mapping of names to objects</li>
+  <li>Python returns the value <strong>None, if no return given</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">return</th>
+      <th style="text-align: left">print</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">return only has meaning <strong>inside</strong> a function</td>
+      <td style="text-align: left">print can be used <strong>outside</strong> functions</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">only <strong>one</strong> return executed inside a function</td>
+      <td style="text-align: left">can execute <strong>many</strong> print statements inside a function</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">code inside function but after return statement not executed</td>
+      <td style="text-align: left">code inside function can be executed after a print statement</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">has a value associated with it, <strong>given to function caller</strong></td>
+      <td style="text-align: left">has a value associated with is, <strong>outputed</strong> to the console</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>FUNCTIONS AS ARGUMENTS</p>
+
+<ul>
+  <li>arguments can take on any type, even functions</li>
+</ul>
+
+<p>SCOPE EXAMPLE</p>
+
+<ul>
+  <li>inside a function, <strong>can access</strong> a variable defined outside</li>
+  <li>inside a function, <strong>cannot modify</strong> a variable defined outside</li>
+</ul>
 
 <h4 id="keyword-arguments">Keyword Arguments（关键字参数）</h4>
 
+<p>Can specify that some arguments have default values, so if no value supplied, just use that value</p>
+
 <h4 id="specifications">Specifications（说明书）</h4>
+
+<ul>
+  <li>a <strong>contract</strong> between the implementer of a function and the clients who will use it
+    <ul>
+      <li><strong>Assumptions</strong>: conditions that must be met by clients of the function; typically constraints on values of parameters</li>
+      <li><strong>Guarantees</strong>: conditions that must be met by function, providing it has been called in manner consistent with assumptions</li>
+    </ul>
+  </li>
+</ul>
 
 <h4 id="iteration-vs-recursion-vs-">Iteration vs Recursion（迭代 vs 递归）</h4>
 
+<p>WHAT IS RECURSION</p>
+
+<ul>
+  <li>a way to design solutions to problems by <strong>divide-and-conquer or decrease-and-conquer</strong></li>
+  <li>a programming technique where a <strong>function calls itself</strong></li>
+  <li>in programming, goal is to NOT have infinite recursion
+    <ul>
+      <li>must have <strong>1 or more base cases</strong> that are easy to solve</li>
+      <li>must solve the same problem on <strong>some other input</strong> with the goal of simplifying the larger problem input</li>
+    </ul>
+  </li>
+</ul>
+
+<p>ITERATIVE ALGORITHMS SO FAR</p>
+
+<ul>
+  <li>looping constructs (while and for loops) lead to <strong>iterative</strong> algorithms</li>
+  <li>can capture computation in a set of <strong>state variables</strong> that update on each iteration through loop</li>
+</ul>
+
+<p>MULTIPLICATION - ITERATIVE SOLUTION</p>
+
+<ul>
+  <li>“multiply a*b” is equivalent to “add a to itself b times”</li>
+  <li>capture <strong>state</strong> by:
+    <ul>
+      <li>an <strong>iteration number</strong></li>
+      <li>a current <strong>value of compustation</strong> (result)</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">mult_iter</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+	<span class="n">result</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="k">while</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+		<span class="n">result</span> <span class="o">+=</span> <span class="n">a</span>    <span class="c"># value of computation</span>
+		<span class="n">b</span> <span class="o">-=</span> <span class="mi">1</span>         <span class="c"># iteration variable</span>
+	<span class="k">return</span> <span class="n">result</span>
+</code></pre>
+</div>
+
+<p>MULTIPLICATION – RECURSIVE SOLUTION</p>
+
+<ul>
+  <li>recursive step</li>
+  <li>base case</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">mult</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+	<span class="k">if</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>                          <span class="c"># base case</span>
+		<span class="k">return</span> <span class="n">a</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">mult</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>         <span class="c"># recursive step</span>
+</code></pre>
+</div>
+
+<p>SOME OBSERVATIONS</p>
+
+<ul>
+  <li>each recursive call to a function creates its <strong>own scope/environment</strong></li>
+  <li><strong>bindings of variables</strong> in a scope is not changed by recursive call</li>
+  <li>flow of control passes back to <strong>previous scope</strong> once function call returns value</li>
+</ul>
+
+<p>ITERATION vs. RECURSION</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">factorial_iter</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+	<span class="n">prod</span> <span class="o">=</span> <span class="mi">1</span>
+	<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+		<span class="n">prod</span> <span class="o">*=</span> <span class="n">i</span>
+	<span class="k">return</span> <span class="n">prod</span>
+</code></pre>
+</div>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+	<span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+		<span class="k">return</span> <span class="mi">1</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="k">return</span> <span class="n">n</span><span class="o">*</span><span class="n">factorial</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</code></pre>
+</div>
+
+<ul>
+  <li>recursion may be simmpler, more intuitive</li>
+  <li>recursion may be efficient from programmer POV (point of view)</li>
+  <li>recursion may not be efficient from computer POV</li>
+</ul>
+
 <h4 id="inductive-reasoning">Inductive Reasoning（归纳推理）</h4>
+
+<p>To prove a statement indexed on integers is true for all values of n:</p>
+
+<ul>
+  <li>Prove it is true when n is smallest value (e.g. n = 0 or n = 1)</li>
+  <li>Then prove that if it is true for an arbitrary value of n, one can show that it must be true for n+1</li>
+</ul>
 
 <h4 id="towers-of-hanoi">Towers of Hanoi（汉诺塔）</h4>
 
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">printMove</span><span class="p">(</span><span class="n">fr</span><span class="p">,</span> <span class="n">to</span><span class="p">):</span>
+	<span class="k">print</span><span class="p">(</span><span class="s">"Move from "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">fr</span><span class="p">)</span> <span class="o">+</span> <span class="s">" to "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">to</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">Towers</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">fr</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">spare</span><span class="p">):</span>
+	<span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+		<span class="n">printMove</span><span class="p">(</span><span class="n">fr</span><span class="p">,</span> <span class="n">to</span><span class="p">)</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="n">Towers</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">fr</span><span class="p">,</span> <span class="n">spare</span><span class="p">,</span> <span class="n">to</span><span class="p">)</span>
+		<span class="n">Towers</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">fr</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">spare</span><span class="p">)</span>
+		<span class="n">Towers</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">spare</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">fr</span><span class="p">)</span>	
+</code></pre>
+</div>
+
 <h4 id="fibonacci">Fibonacci（斐波那契数列）</h4>
 
-<h4 id="recursion-on-non-numerics">Recursion on non-numerics（非数字递归）</h4>
+<p>FIBONACCI</p>
+
+<ul>
+  <li>Base case
+    <ul>
+      <li>Females(0) = 1</li>
+      <li>Females(1) = 1</li>
+    </ul>
+  </li>
+  <li>Recursive case
+    <ul>
+      <li>Females(n) = Females(n-1) + Females(n-2)</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+	<span class="s">"""
+	Input: x, an int &gt;= 0
+	Return: Fibonacci of x
+	"""</span>
+	<span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+		<span class="k">return</span> <span class="mi">1</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="k">return</span> <span class="n">fib</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+</code></pre>
+</div>
+<p>#### Recursion on non-numerics（非数字递归）</p>
+
+<ul>
+  <li>check if a string of characters is a palindrome(回文)</li>
+  <li>Base case
+    <ul>
+      <li>a string of length 0 or 1 is a palindrome</li>
+    </ul>
+  </li>
+  <li>Recursive case
+    <ul>
+      <li>If first character matches last character, then is a palindrome if middle section is a palindrome</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">isPalindrome</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+	<span class="k">def</span> <span class="nf">toChars</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+		<span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+		<span class="n">ans</span> <span class="o">=</span> <span class="s">''</span>
+		<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">c</span> <span class="ow">in</span> <span class="s">'abcdefghijklmnopqrstuvwxyz'</span><span class="p">:</span>
+				<span class="n">ans</span> <span class="o">=</span> <span class="n">ans</span> <span class="o">+</span> <span class="n">c</span>
+		<span class="k">return</span> <span class="n">c</span>
+	<span class="k">def</span> <span class="nf">isPal</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+		<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
+			<span class="k">return</span> <span class="bp">True</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="k">return</span> <span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">s</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="ow">and</span> <span class="n">isPal</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+	<span class="k">return</span> <span class="n">isPal</span><span class="p">(</span><span class="n">toChars</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
+</code></pre>
+</div>
+
+<h5 id="divid-and-conquer">Divid and Conquer（分治算法）</h5>
+
+<ul>
+  <li>an example of a “divide and conquer” algorithm</li>
+  <li>solve a hard problem by breaking it into a set of sub-problems such that:
+    <ul>
+      <li>sub-problems are eaiser to solve than the original</li>
+      <li>solutions of the sub-problems can be combined to solve the original</li>
+    </ul>
+  </li>
+</ul>
 
 <h4 id="files">Files（文件）</h4>
+
+<h5 id="modules-and-files">MODULES AND FILES（模块和文件）</h5>
+
+<p>a module is a .py file containing a collection Python definitions and statements</p>
+
+<p>circle.py</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">pi</span> <span class="o">=</span> <span class="mf">3.14159</span>
+
+<span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="n">radius</span><span class="p">):</span>
+	<span class="k">return</span> <span class="n">pi</span> <span class="o">*</span> <span class="p">(</span><span class="n">radius</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+	
+<span class="k">def</span> <span class="nf">circumference</span><span class="p">(</span><span class="n">radius</span><span class="p">):</span>
+	<span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">pi</span> <span class="o">*</span> <span class="n">radius</span>	
+</code></pre>
+</div>
+
+<p>import and use circle module</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">circle</span>
+
+<span class="n">pi</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="k">print</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>                       <span class="c"># 3</span>
+<span class="k">print</span><span class="p">(</span><span class="n">circle</span><span class="o">.</span><span class="n">pi</span><span class="p">)</span>                <span class="c"># 3.14159</span>
+<span class="k">print</span><span class="p">(</span><span class="n">circle</span><span class="o">.</span><span class="n">area</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>           <span class="c"># 28.27431</span>
+<span class="k">print</span><span class="p">(</span><span class="n">circle</span><span class="o">.</span><span class="n">circumference</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>  <span class="c"># 18.849539999999998</span>
+
+</code></pre>
+</div>
+
+<p>OTHER IMPORTING</p>
+
+<ul>
+  <li>if we don’t want to refer to functions and variables by their module, and the names don’t collide with other bindings, then we can use:</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>from circle import *
+print(pi)
+print(area(3))
+</code></pre>
+</div>
+<ul>
+  <li>this has the effect of creating bindings within the current scope for all objects defined within circle</li>
+  <li>statements within a module are executed only the first time a module is imported</li>
+</ul>
+
+<p>FILES</p>
+
+<p>file handle:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>nameHandle = open(‘kids’, ‘w’)
+</code></pre>
+</div>
+<p>creates a file named kids and returns file handle which we can name and thus reference. The w indicates that the file is to opened for writing into.</p>
 
 <h3 id="lecture-5-tuples-and-lists">Lecture 5: Tuples and Lists</h3>
 
@@ -671,6 +1151,12 @@
 <h4 id="visualizing-the-hierarchy">Visualizing the Hierarchy（可视化层级结构）</h4>
 
 <h4 id="adding-another-class">Adding another class</h4>
+
+<h4 id="using-inherited-methods">Using inherited methods</h4>
+
+<h4 id="gradebook-example">Gradebook example</h4>
+
+<h4 id="generators">Generators</h4>
 
 <p>Notes for the <a href="www.edx.org">edx</a> course <a href="https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5">Introduction to Computer Science and Programming Using Python</a></p>
 
