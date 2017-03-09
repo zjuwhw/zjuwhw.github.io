@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Edx-Python学习笔记
+title: Edx-python学习笔记(6.002)
 tags: [cs, mooc笔记]
 ---
 
