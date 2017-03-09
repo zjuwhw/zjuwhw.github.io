@@ -6,9 +6,111 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Mar 2017 22:06:34 +0800</pubDate>
-    <lastBuildDate>Tue, 07 Mar 2017 22:06:34 +0800</lastBuildDate>
+    <pubDate>Thu, 09 Mar 2017 18:07:40 +0800</pubDate>
+    <lastBuildDate>Thu, 09 Mar 2017 18:07:40 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Edx-Python学习笔记</title>
+        <description>&lt;p&gt;List of Lecture Topics&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lecture 1- Optimization and Knapsack Problem
+    &lt;ul&gt;
+      &lt;li&gt;Computational models&lt;/li&gt;
+      &lt;li&gt;Intro to optimization&lt;/li&gt;
+      &lt;li&gt;0/1 Knapsack Problem&lt;/li&gt;
+      &lt;li&gt;Greedy solutions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lecture 2 - Decision Trees and Dynamic Programming
+    &lt;ul&gt;
+      &lt;li&gt;Decision tree solution to knapsack&lt;/li&gt;
+      &lt;li&gt;Dynamic programming and knapsack&lt;/li&gt;
+      &lt;li&gt;Divide and conquer&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lecture 3 - Graphs
+    &lt;ul&gt;
+      &lt;li&gt;Graph problems&lt;/li&gt;
+      &lt;li&gt;Shortest path&lt;/li&gt;
+      &lt;li&gt;Depth first search&lt;/li&gt;
+      &lt;li&gt;Breadth first search&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lecture 4 - Plotting
+    &lt;ul&gt;
+      &lt;li&gt;Visualizing Results&lt;/li&gt;
+      &lt;li&gt;Overlapping Displays&lt;/li&gt;
+      &lt;li&gt;Adding More Documentation&lt;/li&gt;
+      &lt;li&gt;Changing Data Display&lt;/li&gt;
+      &lt;li&gt;An Example&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lecture 5 - Stochastic Thinking
+    &lt;ul&gt;
+      &lt;li&gt;Rolling a Die&lt;/li&gt;
+      &lt;li&gt;Random walks&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lecture 6 - Random Walks
+    &lt;ul&gt;
+      &lt;li&gt;Drunk walk&lt;/li&gt;
+      &lt;li&gt;Biased random walks&lt;/li&gt;
+      &lt;li&gt;Treacherous fields&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lecture 7 - Inferential Statistics
+    &lt;ul&gt;
+      &lt;li&gt;Probabilities&lt;/li&gt;
+      &lt;li&gt;Confidence intervals&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lecture 8 - Monte Carlo Simulation&lt;/li&gt;
+  &lt;li&gt;Lecture 9 - Monte Carlo Simulations
+    &lt;ul&gt;
+      &lt;li&gt;Sampling&lt;/li&gt;
+      &lt;li&gt;Standard error&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lecture 10 - Experimental Data
+    &lt;ul&gt;
+      &lt;li&gt;Errors in Experimental Observations&lt;/li&gt;
+      &lt;li&gt;Curve Fitting&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lecture 11 - Experimental Data
+    &lt;ul&gt;
+      &lt;li&gt;Goodness of Fit&lt;/li&gt;
+      &lt;li&gt;Using a Model for Predictions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lecture 12 - Machine Learning
+    &lt;ul&gt;
+      &lt;li&gt;Feature Vectors&lt;/li&gt;
+      &lt;li&gt;Distance Metrics&lt;/li&gt;
+      &lt;li&gt;Clustering&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lecture 13 - Statistical Fallacies
+    &lt;ul&gt;
+      &lt;li&gt;Misusing Statistics&lt;/li&gt;
+      &lt;li&gt;Garbage In Garbage Out&lt;/li&gt;
+      &lt;li&gt;Data Enhancement&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 09 Mar 2017 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2017/03/09/MITx_Python2.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2017/03/09/MITx_Python2.html</guid>
+        
+        <category>cs</category>
+        
+        <category>mooc笔记</category>
+        
+        
+      </item>
     
       <item>
         <title>Statistic ONE学习笔记</title>
@@ -1874,79 +1976,6 @@ browsers and connected servers. HTTPS is the secure version.&lt;/p&gt;
         <guid isPermaLink="true">zjuwhw.github.io/2016/12/09/teeth.html</guid>
         
         <category>medi</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Effective python的59个方法</title>
-        <description>&lt;ol&gt;
-  &lt;li&gt;Know which version of python you’re using&lt;/li&gt;
-  &lt;li&gt;Follow the PEP 8 style guide&lt;/li&gt;
-  &lt;li&gt;Know the differences Between &lt;code class=&quot;highlighter-rouge&quot;&gt;bytes&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;str&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;unicode&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Write helper functions instead of complex expressions&lt;/li&gt;
-  &lt;li&gt;Know how to slice sequences&lt;/li&gt;
-  &lt;li&gt;Avoid using &lt;code class=&quot;highlighter-rouge&quot;&gt;start&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;end&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;stride&lt;/code&gt; in a single slice&lt;/li&gt;
-  &lt;li&gt;Use list comprehensions instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;map&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;filter&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Avoid more than two expressions in list comprehensions&lt;/li&gt;
-  &lt;li&gt;Consider generator expressions for large comprehensions&lt;/li&gt;
-  &lt;li&gt;Prefer &lt;code class=&quot;highlighter-rouge&quot;&gt;enumerate&lt;/code&gt; over &lt;code class=&quot;highlighter-rouge&quot;&gt;range&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;zip&lt;/code&gt; to process iterators in parallel&lt;/li&gt;
-  &lt;li&gt;Avoid &lt;code class=&quot;highlighter-rouge&quot;&gt;else&lt;/code&gt; blocks after &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt; loops&lt;/li&gt;
-  &lt;li&gt;Take advantage of each block in &lt;code class=&quot;highlighter-rouge&quot;&gt;try/except/else/finally&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Prefer exceptions to returning &lt;code class=&quot;highlighter-rouge&quot;&gt;None&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Know how closures interact with variable scope&lt;/li&gt;
-  &lt;li&gt;Consider generators instead of returning lists&lt;/li&gt;
-  &lt;li&gt;Be Defensive when iterating over arguments&lt;/li&gt;
-  &lt;li&gt;Reduce visual noise with variable positional arguments&lt;/li&gt;
-  &lt;li&gt;Provide optional behavior with keyword arguments&lt;/li&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;None&lt;/code&gt; and Docstrings to specify dynamic default arguments&lt;/li&gt;
-  &lt;li&gt;Enforce clarity with Keyword-only arguments&lt;/li&gt;
-  &lt;li&gt;Prefer helper classes over bookkeeping wih dictionaries and tuples&lt;/li&gt;
-  &lt;li&gt;Accept functions for simple interfaces instead of classes&lt;/li&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;@classmethod&lt;/code&gt; polymorphism to construct objects generically&lt;/li&gt;
-  &lt;li&gt;Initialize parent classes with &lt;code class=&quot;highlighter-rouge&quot;&gt;super&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Use multiple inheritance only for mix-in utility classes&lt;/li&gt;
-  &lt;li&gt;Prefer public attributes over private ones&lt;/li&gt;
-  &lt;li&gt;Inherit from &lt;code class=&quot;highlighter-rouge&quot;&gt;collections.abc&lt;/code&gt; for custom container types&lt;/li&gt;
-  &lt;li&gt;Use plain attributes instead of Get and Set methods&lt;/li&gt;
-  &lt;li&gt;Consider &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;@property&lt;/span&gt;&lt;/code&gt; instead of refactoring attributes&lt;/li&gt;
-  &lt;li&gt;Use descriptors for reusable &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;@property&lt;/span&gt;&lt;/code&gt; methods&lt;/li&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;__getattr__&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;__getattribute__&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;__setattr__&lt;/code&gt; for lazy attributes&lt;/li&gt;
-  &lt;li&gt;Validate subclasses with metaclasses&lt;/li&gt;
-  &lt;li&gt;Register class existence with metaclasses&lt;/li&gt;
-  &lt;li&gt;Annotate class attributes with metaclasses&lt;/li&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;subprocess&lt;/code&gt; to manage child processes&lt;/li&gt;
-  &lt;li&gt;Use threads for blocking I/O, avoid for parallelism&lt;/li&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;Lock&lt;/code&gt; to prevent data races in threads&lt;/li&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;Queue&lt;/code&gt; to coordinate work between threads&lt;/li&gt;
-  &lt;li&gt;Consider coroutines to run many functions concurrently&lt;/li&gt;
-  &lt;li&gt;Consider &lt;code class=&quot;highlighter-rouge&quot;&gt;concurrent.futures&lt;/code&gt; for true parallelism&lt;/li&gt;
-  &lt;li&gt;Define function decorators with &lt;code class=&quot;highlighter-rouge&quot;&gt;functools.wraps&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Consider &lt;code class=&quot;highlighter-rouge&quot;&gt;contextlib&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;with&lt;/code&gt; statements for reusable &lt;code class=&quot;highlighter-rouge&quot;&gt;try/finally&lt;/code&gt; behavior&lt;/li&gt;
-  &lt;li&gt;Make &lt;code class=&quot;highlighter-rouge&quot;&gt;pickle&lt;/code&gt; reliable with &lt;code class=&quot;highlighter-rouge&quot;&gt;copyreg&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;datetime&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;time&lt;/code&gt; for local clocks&lt;/li&gt;
-  &lt;li&gt;Use built-in algorithms and data structures&lt;/li&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;decimal&lt;/code&gt; when precision is paramount&lt;/li&gt;
-  &lt;li&gt;Know where to find coummunity-built modules&lt;/li&gt;
-  &lt;li&gt;Write docstrings for every function, class, and module&lt;/li&gt;
-  &lt;li&gt;Use packages to organize modules and provide stable APIs&lt;/li&gt;
-  &lt;li&gt;Define a root &lt;code class=&quot;highlighter-rouge&quot;&gt;Exception&lt;/code&gt; to insulate callers from APIs&lt;/li&gt;
-  &lt;li&gt;Know how to break circular dependencies&lt;/li&gt;
-  &lt;li&gt;Use virtual environments for isolated and reproducible dependencies&lt;/li&gt;
-  &lt;li&gt;Consider module-scoped code to configure deployment environments&lt;/li&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;repr&lt;/code&gt; strings for debugging output&lt;/li&gt;
-  &lt;li&gt;Test everything with &lt;code class=&quot;highlighter-rouge&quot;&gt;unittest&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Consider interactive debugging with &lt;code class=&quot;highlighter-rouge&quot;&gt;pdb&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Profile before optimizing&lt;/li&gt;
-  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;tracemalloc&lt;/code&gt; to understand memory usage and leaks&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Fri, 02 Dec 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/12/02/python-59-ways.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/12/02/python-59-ways.html</guid>
-        
-        <category>cs</category>
         
         
       </item>
