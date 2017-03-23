@@ -1,0 +1,131 @@
+---
+layout: post
+title: python官方教程目录翻译
+tags: [cs, python]
+---
+
+本博客为[python tutorial目录](https://docs.python.org/3/tutorial/)的翻译。
+
+- 1. Whetting Your Appetite（开胃菜）
+- 2. Using the Python Interpreter（使用pyhon解析器）
+	- 2.1. Invoking the Interpreter（触发解析器）
+		- 2.1.1. Argument Passing（传递参数）
+		- 2.1.2. Interactive Mode（交互模式）
+	- 2.2. The Interpreter and Its Environment（解析器及其环境）
+		- 2.2.1. Source Code Encoding（源码编码）
+- 3. An Informal Introduction to Python（非正式python简介）
+	- 3.1. Using Python as a Calculator（把python当做计算器）
+		- 3.1.1. Numbers（数字）
+		- 3.1.2. Strings（字符）
+		- 3.1.3. Lists（列表）
+	- 3.2. First Steps Towards Programming（编程第一步）
+- 4. More Control Flow Tools（更多关于流控制工具）
+	- 4.1. `if` Statements（if语句）
+	- 4.2. `for` Statements（for语句）
+	- 4.3. The `range()` Function（range函数）
+	- 4.4. `break` and `continue` Statements, and `else` Clauses on Loops（循环中的break、continue语句，else从句）
+	- 4.5. `pass` Statements（pass语句）
+	- 4.6. Defining Functions（定义函数）
+	- 4.7. More on Defining Functions（更多关于定义函数）
+		- 4.7.1. Default Argument Values（默认参数值）
+		- 4.7.2. Keyword Arguments（关键词参数）
+		- 4.7.3. Arbitrary Argument Lists（任意参数列表）
+		- 4.7.4. Unpacking Argument Lists（打开参数列表）
+		- 4.7.5. Lambda Expressions（Lambda表达式）
+		- 4.7.6. Documentation Strings（文档字符串）
+		- 4.7.7. Function Annotations（函数注释）
+	- 4.8. Intermezzo: Coding Style（间奏曲：编码风格）
+- 5. Data Structures（数据结构）
+	- 5.1. More on Lists（更多关于列表）
+		- 5.1.1. Using Lists as Stacks（使用列表作为栈）
+		- 5.1.2. Using Lists as Queues（使用文档作为队列）
+		- 5.1.3. List Comprehensions（列表推导式）
+		- 5.1.4. Nested List Comprehensions（嵌套式列表推导式）
+	- 5.2. The `del` statement（del语句）
+	- 5.3. Tuples and Sequences（元组和序列）
+	- 5.4. Sets（集合）
+	- 5.5. Dictionaries（字典）
+	- 5.6. Looping Techniques（循环技术）
+	- 5.7. More on Conditions（更多关于条件）
+	- 5.8. Comparing Sequences and Other Types（序列和其他类型的比较）
+- 6. Modules（模块）
+	- 6.1. More on Modules（更多关于模块）
+		- 6.1.1. Executing modules as scripts（像脚本一样执行模块）
+		- 6.1.2. The Module Search Path（模块搜索路径）
+		- 6.1.3. “Compiled” Python files（编译后的python文件）
+	- 6.2. Standard Modules（标准模块）
+	- 6.3. The `dir()` Function（dir函数）
+	- 6.4. Packages（包）
+		- 6.4.1. Importing * From a Package（从一个包引用*）
+		- 6.4.2. Intra-package References（包内引用）
+		- 6.4.3. Packages in Multiple Directories（多个文件夹中的包）
+- 7. Input and Output（输入和输出）
+	- 7.1. Fancier Output Formatting（更好的输出格式化）
+		- 7.1.1. Old string formatting（旧的字符串格式化）
+	- 7.2. Reading and Writing Files（读和写文件）
+		- 7.2.1. Methods of File Objects（文件对象的方法）
+		- 7.2.2. Saving structured data with json（使用json保存结构化数据）
+- 8. Errors and Exceptions（错误和异常）
+	- 8.1. Syntax Errors（语法错误）
+	- 8.2. Exceptions（异常）
+	- 8.3. Handling Exceptions（处理异常）
+	- 8.4. Raising Exceptions（报异常）
+	- 8.5. User-defined Exceptions（用户定义的异常）
+	- 8.6. Defining Clean-up Actions（定义清理操作）
+	- 8.7. Predefined Clean-up Actions（预定义清理操作）
+- 9. Classes（类）
+	- 9.1. A Word About Names and Objects（关于命名和对象）
+	- 9.2. Python Scopes and Namespaces（Python的作用域和命名空间）
+	- 9.2.1. Scopes and Namespaces Example（作用域和命名空间例子）
+	- 9.3. A First Look at Classes（初步关于类）
+		- 9.3.1. Class Definition Syntax（类定义的语法）
+		- 9.3.2. Class Objects（类对象）
+		- 9.3.3. Instance Objects（实例对象）
+		- 9.3.4. Method Objects（方法对象）
+		- 9.3.5. Class and Instance Variables（类和实例变量）
+	- 9.4. Random Remarks（自由标记）
+	- 9.5. Inheritance（继承）
+		- 9.5.1. Multiple Inheritance（多继承）
+	- 9.6. Private Variables（私有变量）
+	- 9.7. Odds and Ends（零杂技巧）
+	- 9.8. Iterators（迭代器）
+	- 9.9. Generators（生成器）
+	- 9.10. Generator Expressions（生成器表达式）
+- 10. Brief Tour of the Standard Library（标准程序库简要浏览）
+	- 10.1. Operating System Interface（操作系统接口）
+	- 10.2. File Wildcards（文件通配）
+	- 10.3. Command Line Arguments（命令行参数）
+	- 10.4. Error Output Redirection and Program Termination（错误输出重定向和程序结束）
+	- 10.5. String Pattern Matching（字符串模式比对）
+	- 10.6. Mathematics（数学）
+	- 10.7. Internet Access（连接互联网）
+	- 10.8. Dates and Times（日期和时间）
+	- 10.9. Data Compression（数据压缩）
+	- 10.10. Performance Measurement（性能测试）
+	- 10.11. Quality Control（质控、测试）
+	- 10.12. Batteries Included（自带电池）
+- 11. Brief Tour of the Standard Library — Part II（标准程序库简要浏览-II）
+	- 11.1. Output Formatting（输出格式化）
+	- 11.2. Templating（模板）
+	- 11.3. Working with Binary Data Record Layouts（二进制数据布局）
+	- 11.4. Multi-threading（多线程）
+	- 11.5. Logging（日志）
+	- 11.6. Weak References（弱引用）
+	- 11.7. Tools for Working with Lists（列表相关工具）
+	- 11.8. Decimal Floating Point Arithmetic（十进制浮点运算）
+- 12. Virtual Environments and Packages（虚拟环境和包）
+	- 12.1. Introduction（简介）
+	- 12.2. Creating Virtual Environments（创建一个虚拟环境）
+	- 12.3. Managing Packages with `pip`（使用pip管理包）
+- 13. What Now?(下一步)
+- 14. Interactive Input Editing and History Substitution（交互性输入编辑和历史替换）
+	- 14.1. Tab Completion and History Editing（Tab补全和历史修改）
+	- 14.2. Alternatives to the Interactive Interpreter（其他交互式解析器）
+- 15. Floating Point Arithmetic: Issues and Limitations（浮点数运算：问题和局限）
+	- 15.1. Representation Error（表现形式错误）
+- 16. Appendix（附录）
+	- 16.1. Interactive Mode（交互模式）
+		- 16.1.1. Error Handling（错误处理）
+		- 16.1.2. Executable Python Scripts（可执行的python脚本）
+		- 16.1.3. The Interactive Startup File（交互设置文件）
+		- 16.1.4. The Customization Modules（自定义的模块）

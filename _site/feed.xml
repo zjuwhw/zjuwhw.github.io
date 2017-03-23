@@ -6,9 +6,256 @@
 </description>
     <link>zjuwhw.github.io/</link>
     <atom:link href="zjuwhw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Mar 2017 18:08:36 +0800</pubDate>
-    <lastBuildDate>Thu, 09 Mar 2017 18:08:36 +0800</lastBuildDate>
+    <pubDate>Thu, 23 Mar 2017 14:07:05 +0800</pubDate>
+    <lastBuildDate>Thu, 23 Mar 2017 14:07:05 +0800</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>python官方教程目录翻译</title>
+        <description>&lt;p&gt;本博客为&lt;a href=&quot;https://docs.python.org/3/tutorial/&quot;&gt;python tutorial目录&lt;/a&gt;的翻译。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Whetting Your Appetite（开胃菜）&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Using the Python Interpreter（使用pyhon解析器）
+        &lt;ul&gt;
+          &lt;li&gt;2.1. Invoking the Interpreter（触发解析器）&lt;/li&gt;
+          &lt;li&gt;2.1.1. Argument Passing（传递参数）&lt;/li&gt;
+          &lt;li&gt;2.1.2. Interactive Mode（交互模式）&lt;/li&gt;
+          &lt;li&gt;2.2. The Interpreter and Its Environment（解析器及其环境）&lt;/li&gt;
+          &lt;li&gt;2.2.1. Source Code Encoding（源码编码）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;An Informal Introduction to Python（非正式python简介）
+        &lt;ul&gt;
+          &lt;li&gt;3.1. Using Python as a Calculator（把python当做计算器）&lt;/li&gt;
+          &lt;li&gt;3.1.1. Numbers（数字）&lt;/li&gt;
+          &lt;li&gt;3.1.2. Strings（字符）&lt;/li&gt;
+          &lt;li&gt;3.1.3. Lists（列表）&lt;/li&gt;
+          &lt;li&gt;3.2. First Steps Towards Programming（编程第一步）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;More Control Flow Tools（更多关于流控制工具）
+        &lt;ul&gt;
+          &lt;li&gt;4.1. &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; Statements（if语句）&lt;/li&gt;
+          &lt;li&gt;4.2. &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; Statements（for语句）&lt;/li&gt;
+          &lt;li&gt;4.3. The &lt;code class=&quot;highlighter-rouge&quot;&gt;range()&lt;/code&gt; Function（range函数）&lt;/li&gt;
+          &lt;li&gt;4.4. &lt;code class=&quot;highlighter-rouge&quot;&gt;break&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;continue&lt;/code&gt; Statements, and &lt;code class=&quot;highlighter-rouge&quot;&gt;else&lt;/code&gt; Clauses on Loops（循环中的break、continue语句，else从句）&lt;/li&gt;
+          &lt;li&gt;4.5. &lt;code class=&quot;highlighter-rouge&quot;&gt;pass&lt;/code&gt; Statements（pass语句）&lt;/li&gt;
+          &lt;li&gt;4.6. Defining Functions（定义函数）&lt;/li&gt;
+          &lt;li&gt;4.7. More on Defining Functions（更多关于定义函数）&lt;/li&gt;
+          &lt;li&gt;4.7.1. Default Argument Values（默认参数值）&lt;/li&gt;
+          &lt;li&gt;4.7.2. Keyword Arguments（关键词参数）&lt;/li&gt;
+          &lt;li&gt;4.7.3. Arbitrary Argument Lists（任意参数列表）&lt;/li&gt;
+          &lt;li&gt;4.7.4. Unpacking Argument Lists（打开参数列表）&lt;/li&gt;
+          &lt;li&gt;4.7.5. Lambda Expressions（Lambda表达式）&lt;/li&gt;
+          &lt;li&gt;4.7.6. Documentation Strings（文档字符串）&lt;/li&gt;
+          &lt;li&gt;4.7.7. Function Annotations（函数注释）&lt;/li&gt;
+          &lt;li&gt;4.8. Intermezzo: Coding Style（间奏曲：编码风格）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Data Structures（数据结构）
+        &lt;ul&gt;
+          &lt;li&gt;5.1. More on Lists（更多关于列表）&lt;/li&gt;
+          &lt;li&gt;5.1.1. Using Lists as Stacks（使用列表作为栈）&lt;/li&gt;
+          &lt;li&gt;5.1.2. Using Lists as Queues（使用文档作为队列）&lt;/li&gt;
+          &lt;li&gt;5.1.3. List Comprehensions（列表推导式）&lt;/li&gt;
+          &lt;li&gt;5.1.4. Nested List Comprehensions（嵌套式列表推导式）&lt;/li&gt;
+          &lt;li&gt;5.2. The &lt;code class=&quot;highlighter-rouge&quot;&gt;del&lt;/code&gt; statement（del语句）&lt;/li&gt;
+          &lt;li&gt;5.3. Tuples and Sequences（元组和序列）&lt;/li&gt;
+          &lt;li&gt;5.4. Sets（集合）&lt;/li&gt;
+          &lt;li&gt;5.5. Dictionaries（字典）&lt;/li&gt;
+          &lt;li&gt;5.6. Looping Techniques（循环技术）&lt;/li&gt;
+          &lt;li&gt;5.7. More on Conditions（更多关于条件）&lt;/li&gt;
+          &lt;li&gt;5.8. Comparing Sequences and Other Types（序列和其他类型的比较）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Modules（模块）
+        &lt;ul&gt;
+          &lt;li&gt;6.1. More on Modules（更多关于模块）&lt;/li&gt;
+          &lt;li&gt;6.1.1. Executing modules as scripts（像脚本一样执行模块）&lt;/li&gt;
+          &lt;li&gt;6.1.2. The Module Search Path（模块搜索路径）&lt;/li&gt;
+          &lt;li&gt;6.1.3. “Compiled” Python files（编译后的python文件）&lt;/li&gt;
+          &lt;li&gt;6.2. Standard Modules（标准模块）&lt;/li&gt;
+          &lt;li&gt;6.3. The &lt;code class=&quot;highlighter-rouge&quot;&gt;dir()&lt;/code&gt; Function（dir函数）&lt;/li&gt;
+          &lt;li&gt;6.4. Packages（包）&lt;/li&gt;
+          &lt;li&gt;6.4.1. Importing * From a Package（从一个包引用*）&lt;/li&gt;
+          &lt;li&gt;6.4.2. Intra-package References（包内引用）&lt;/li&gt;
+          &lt;li&gt;6.4.3. Packages in Multiple Directories（多个文件夹中的包）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Input and Output（输入和输出）
+        &lt;ul&gt;
+          &lt;li&gt;7.1. Fancier Output Formatting（更好的输出格式化）&lt;/li&gt;
+          &lt;li&gt;7.1.1. Old string formatting（旧的字符串格式化）&lt;/li&gt;
+          &lt;li&gt;7.2. Reading and Writing Files（读和写文件）&lt;/li&gt;
+          &lt;li&gt;7.2.1. Methods of File Objects（文件对象的方法）&lt;/li&gt;
+          &lt;li&gt;7.2.2. Saving structured data with json（使用json保存结构化数据）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Errors and Exceptions（错误和异常）
+        &lt;ul&gt;
+          &lt;li&gt;8.1. Syntax Errors（语法错误）&lt;/li&gt;
+          &lt;li&gt;8.2. Exceptions（异常）&lt;/li&gt;
+          &lt;li&gt;8.3. Handling Exceptions（处理异常）&lt;/li&gt;
+          &lt;li&gt;8.4. Raising Exceptions（报异常）&lt;/li&gt;
+          &lt;li&gt;8.5. User-defined Exceptions（用户定义的异常）&lt;/li&gt;
+          &lt;li&gt;8.6. Defining Clean-up Actions（定义清理操作）&lt;/li&gt;
+          &lt;li&gt;8.7. Predefined Clean-up Actions（预定义清理操作）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Classes（类）
+        &lt;ul&gt;
+          &lt;li&gt;9.1. A Word About Names and Objects（关于命名和对象）&lt;/li&gt;
+          &lt;li&gt;9.2. Python Scopes and Namespaces（Python的作用域和命名空间）&lt;/li&gt;
+          &lt;li&gt;9.2.1. Scopes and Namespaces Example（作用域和命名空间例子）&lt;/li&gt;
+          &lt;li&gt;9.3. A First Look at Classes（初步关于类）&lt;/li&gt;
+          &lt;li&gt;9.3.1. Class Definition Syntax（类定义的语法）&lt;/li&gt;
+          &lt;li&gt;9.3.2. Class Objects（类对象）&lt;/li&gt;
+          &lt;li&gt;9.3.3. Instance Objects（实例对象）&lt;/li&gt;
+          &lt;li&gt;9.3.4. Method Objects（方法对象）&lt;/li&gt;
+          &lt;li&gt;9.3.5. Class and Instance Variables（类和实例变量）&lt;/li&gt;
+          &lt;li&gt;9.4. Random Remarks（自由标记）&lt;/li&gt;
+          &lt;li&gt;9.5. Inheritance（继承）&lt;/li&gt;
+          &lt;li&gt;9.5.1. Multiple Inheritance（多继承）&lt;/li&gt;
+          &lt;li&gt;9.6. Private Variables（私有变量）&lt;/li&gt;
+          &lt;li&gt;9.7. Odds and Ends（零杂技巧）&lt;/li&gt;
+          &lt;li&gt;9.8. Iterators（迭代器）&lt;/li&gt;
+          &lt;li&gt;9.9. Generators（生成器）&lt;/li&gt;
+          &lt;li&gt;9.10. Generator Expressions（生成器表达式）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Brief Tour of the Standard Library（标准程序库简要浏览）
+        &lt;ul&gt;
+          &lt;li&gt;10.1. Operating System Interface（操作系统接口）&lt;/li&gt;
+          &lt;li&gt;10.2. File Wildcards（文件通配）&lt;/li&gt;
+          &lt;li&gt;10.3. Command Line Arguments（命令行参数）&lt;/li&gt;
+          &lt;li&gt;10.4. Error Output Redirection and Program Termination（错误输出重定向和程序结束）&lt;/li&gt;
+          &lt;li&gt;10.5. String Pattern Matching（字符串模式比对）&lt;/li&gt;
+          &lt;li&gt;10.6. Mathematics（数学）&lt;/li&gt;
+          &lt;li&gt;10.7. Internet Access（连接互联网）&lt;/li&gt;
+          &lt;li&gt;10.8. Dates and Times（日期和时间）&lt;/li&gt;
+          &lt;li&gt;10.9. Data Compression（数据压缩）&lt;/li&gt;
+          &lt;li&gt;10.10. Performance Measurement（性能测试）&lt;/li&gt;
+          &lt;li&gt;10.11. Quality Control（质控、测试）&lt;/li&gt;
+          &lt;li&gt;10.12. Batteries Included（自带电池）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Brief Tour of the Standard Library — Part II（标准程序库简要浏览-II）
+        &lt;ul&gt;
+          &lt;li&gt;11.1. Output Formatting（输出格式化）&lt;/li&gt;
+          &lt;li&gt;11.2. Templating（模板）&lt;/li&gt;
+          &lt;li&gt;11.3. Working with Binary Data Record Layouts（二进制数据布局）&lt;/li&gt;
+          &lt;li&gt;11.4. Multi-threading（多线程）&lt;/li&gt;
+          &lt;li&gt;11.5. Logging（日志）&lt;/li&gt;
+          &lt;li&gt;11.6. Weak References（弱引用）&lt;/li&gt;
+          &lt;li&gt;11.7. Tools for Working with Lists（列表相关工具）&lt;/li&gt;
+          &lt;li&gt;11.8. Decimal Floating Point Arithmetic（十进制浮点运算）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Virtual Environments and Packages（虚拟环境和包）
+        &lt;ul&gt;
+          &lt;li&gt;12.1. Introduction（简介）&lt;/li&gt;
+          &lt;li&gt;12.2. Creating Virtual Environments（创建一个虚拟环境）&lt;/li&gt;
+          &lt;li&gt;12.3. Managing Packages with &lt;code class=&quot;highlighter-rouge&quot;&gt;pip&lt;/code&gt;（使用pip管理包）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;What Now?(下一步)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Interactive Input Editing and History Substitution（交互性输入编辑和历史替换）
+        &lt;ul&gt;
+          &lt;li&gt;14.1. Tab Completion and History Editing（Tab补全和历史修改）&lt;/li&gt;
+          &lt;li&gt;14.2. Alternatives to the Interactive Interpreter（其他交互式解析器）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Floating Point Arithmetic: Issues and Limitations（浮点数运算：问题和局限）
+        &lt;ul&gt;
+          &lt;li&gt;15.1. Representation Error（表现形式错误）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Appendix（附录）
+        &lt;ul&gt;
+          &lt;li&gt;16.1. Interactive Mode（交互模式）&lt;/li&gt;
+          &lt;li&gt;16.1.1. Error Handling（错误处理）&lt;/li&gt;
+          &lt;li&gt;16.1.2. Executable Python Scripts（可执行的python脚本）&lt;/li&gt;
+          &lt;li&gt;16.1.3. The Interactive Startup File（交互设置文件）&lt;/li&gt;
+          &lt;li&gt;16.1.4. The Customization Modules（自定义的模块）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 23 Mar 2017 00:00:00 +0800</pubDate>
+        <link>zjuwhw.github.io/2017/03/23/Python_tutorial.html</link>
+        <guid isPermaLink="true">zjuwhw.github.io/2017/03/23/Python_tutorial.html</guid>
+        
+        <category>cs</category>
+        
+        <category>python</category>
+        
+        
+      </item>
     
       <item>
         <title>Edx-python学习笔记(6.002)</title>
@@ -108,6 +355,8 @@
         <category>cs</category>
         
         <category>mooc笔记</category>
+        
+        <category>python</category>
         
         
       </item>
@@ -1945,37 +2194,6 @@ browsers and connected servers. HTTPS is the secure version.&lt;/p&gt;
         <guid isPermaLink="true">zjuwhw.github.io/2016/12/10/Software_engineering.html</guid>
         
         <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>我的牙齿</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;左侧拔智齿&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;时间：2016年12月09日&lt;/li&gt;
-  &lt;li&gt;就诊：北京安贞医院&lt;/li&gt;
-  &lt;li&gt;结果：
-    &lt;ul&gt;
-      &lt;li&gt;做了全口的X线。&lt;/li&gt;
-      &lt;li&gt;建议拔4颗智齿（左边2颗一定要拔），然后3颗堵的牙最好都做冠，以前有些补的不好的牙，最好重补。&lt;/li&gt;
-      &lt;li&gt;当天拔了左上的智齿&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;花费：110元的X线 + 290元左右的拔牙&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/teeth2.jpeg&quot; alt=&quot;&quot; style=&quot;width: 600px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/teeth1.jpeg&quot; alt=&quot;&quot; style=&quot;width: 300px; display:block; margin: 0 auto;&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 09 Dec 2016 00:00:00 +0800</pubDate>
-        <link>zjuwhw.github.io/2016/12/09/teeth.html</link>
-        <guid isPermaLink="true">zjuwhw.github.io/2016/12/09/teeth.html</guid>
-        
-        <category>medi</category>
         
         
       </item>

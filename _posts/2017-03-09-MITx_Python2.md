@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Edx-python学习笔记(6.002)
-tags: [cs, mooc笔记]
+tags: [cs, mooc笔记, python]
 ---
 
 List of Lecture Topics

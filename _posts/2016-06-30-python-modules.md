@@ -2,7 +2,7 @@
 layout: post
 title: Python的模块整理
 date: 2016-06-30
-tags: cs
+tags: [cs, python]
 ---
 
 ## 内置

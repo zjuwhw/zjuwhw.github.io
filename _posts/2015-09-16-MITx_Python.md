@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Edx-Python学习笔记
-tags: [cs, mooc笔记]
+tags: [cs, mooc笔记, python]
 ---
 
 * TOC
@@ -271,11 +271,22 @@ for <variable> in range(<some_num>):
 EXAMPLE OF SQUARE ROOT
 
 ```python
-x = 25epsilon = 0.01numGuesses = 0low = 1.0high = xans = (high + low)/2.0
-while abs(ans**2 - x) >= epsilon:	print('low = ' + str(low) + ' high = ' + str(high) + ' ans = ' + str(ans)) 
-	numGuesses += 1	if ans**2 < x:
+x = 25
+epsilon = 0.01
+numGuesses = 0
+low = 1.0
+high = x
+ans = (high + low)/2.0
+while abs(ans**2 - x) >= epsilon:
+	print('low = ' + str(low) + ' high = ' + str(high) + ' ans = ' + str(ans)) 
+	numGuesses += 1
+	if ans**2 < x:
 		low = ans
-	else:		high = ans	ans = (high + low)/2.0print('numGuesses = ' + str(numGuesses))print(str(ans) + ' is close to square root of ' + str(x))
+	else:
+		high = ans
+	ans = (high + low)/2.0
+print('numGuesses = ' + str(numGuesses))
+print(str(ans) + ' is close to square root of ' + str(x))
 ```
 
 Some obersvation
@@ -292,9 +303,19 @@ Some obersvation
 convert decimal number to binary number
 
 ```python
-if num < 0:    isNeg = True    num = abs(num)else:	isNeg = False 
-result = ‘‘if num == 0:    result = ‘0’while num > 0:	result = str(num%2) + result
-	num = num//2if isNeg:	result = ‘-’ + result
+if num < 0:
+    isNeg = True
+    num = abs(num)
+else:
+	isNeg = False 
+result = ‘‘
+if num == 0:
+    result = ‘0’
+while num > 0:
+	result = str(num%2) + result
+	num = num//2
+if isNeg:
+	result = ‘-’ + result
 ```
 
 FRACTIONS
@@ -312,7 +333,7 @@ SOME IMPLICATIONS
 #### Newton-Raphson（Newton-Raphson迭代法）
 
 General approximation algorithm to find roots of a polynomial in one variable：
-p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + ... + a<sub>1</sub>x + a<sub>0</sub>
+p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + ... + a<sub>1</sub>x + a<sub>0</sub>
 
 Newton showed that if g is an approximation to the root, then `g – p(g)/p’(g)` is a better approximation; where p’ is derivative of p.
 
@@ -320,16 +341,22 @@ Newton showed that if g is an approximation to the root, then `g – p(g)/p’(g
 epsilon = 0.01
 y = 24.0
 guess = y/2.0
-numGuesses = 0while abs(guess*guess - y) >= epsilon:
-	numGuesses += 1	guess = guess - (((guess**2) - y)/(2*guess))
-	print(‘numGuesses = ‘ + str(numGuesses))	print('Square root of ' + str(y) + ' is about ' + str(guess))
+numGuesses = 0
+while abs(guess*guess - y) >= epsilon:
+	numGuesses += 1
+	guess = guess - (((guess**2) - y)/(2*guess))
+	print(‘numGuesses = ‘ + str(numGuesses))
+	print('Square root of ' + str(y) + ' is about ' + str(guess))
 ```
 
 ##### Iterative algorithms
 
 - Guess and check methods build on reusing same code 
 	- Use a looping construct to generate guesses, then check and continue
-- Generating guesses	- Exhaustive enumeration	- Bisection search	- Newton-Raphson (for root finding)
+- Generating guesses
+	- Exhaustive enumeration
+	- Bisection search
+	- Newton-Raphson (for root finding)
 
 ### Lecture 4: Functions
 
@@ -420,7 +447,9 @@ Can specify that some arguments have default values, so if no value supplied, ju
 
 #### Specifications（说明书）
 
-- a **contract** between the implementer of a function and the clients who will use it	- **Assumptions**: conditions that must be met by clients of the function; typically constraints on values of parameters	- **Guarantees**: conditions that must be met by function, providing it has been called in manner consistent with assumptions
+- a **contract** between the implementer of a function and the clients who will use it
+	- **Assumptions**: conditions that must be met by clients of the function; typically constraints on values of parameters
+	- **Guarantees**: conditions that must be met by function, providing it has been called in manner consistent with assumptions
 
 #### Iteration vs Recursion（迭代 vs 递归）
 
@@ -496,7 +525,10 @@ def factorial(n):
 
 #### Inductive Reasoning（归纳推理）
 
-To prove a statement indexed on integers is true for all values of n:- Prove it is true when n is smallest value (e.g. n = 0 or n = 1)- Then prove that if it is true for an arbitrary value of n, one can show that it must be true for n+1
+To prove a statement indexed on integers is true for all values of n:
+
+- Prove it is true when n is smallest value (e.g. n = 0 or n = 1)
+- Then prove that if it is true for an arbitrary value of n, one can show that it must be true for n+1
 
 #### Towers of Hanoi（汉诺塔）
 
@@ -605,7 +637,8 @@ from circle import *
 print(pi)
 print(area(3))
 ```
--  this has the effect of creating bindings within the current scope for all objects defined within circle-  statements within a module are executed only the first time a module is imported
+-  this has the effect of creating bindings within the current scope for all objects defined within circle
+-  statements within a module are executed only the first time a module is imported
 
 FILES
 
