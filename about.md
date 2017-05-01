@@ -4,13 +4,16 @@ title: About
 permalink: /about/
 ---
 
-I am Huanwei Wang, a bioinformatic master student graduated from Shanghai Jiao Tong University. Now I work in a bioinformatic cloud computing company in Beijing. In the future, I hope I could get a PhD position oversea.
+I am Huanwei Wang, a PhD student in Univeristy of Queensland. My research filed is quantitative genetics now.
 
 Email:
 
 - zju.whw@gmail.com
 - zju_whw@163.com
 - sjtu_whw@sjtu.edu.cn
+- huanwei.wang@uqconnect.edu.au
+- huanwei.wang@uq.net.au
+- huanwei.wang@imb.uq.edu.au
 
 Social Media:
 
@@ -34,3 +37,5 @@ CV:
 - [201701 CV](/documents/CV_whw-201701.pdf) 
 
 ![Alt text](/images/me.jpg)
+
+2012

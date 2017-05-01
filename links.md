@@ -94,12 +94,8 @@ permalink: /links/
 - [MutSig](https://www.broadinstitute.org/cancer/cga/mutsig)
 - [InVEx](http://www.broadinstitute.org/cancer/cga/invex/)
 - [Oncotator](http://www.broadinstitute.org/oncotator/)
-- copyCat
-- bradkDancer
-- SquareDancer
-- Tigra-SV
-- SciClone
-
+- [bradkDancer](http://breakdancer.sourceforge.net/)
+- [SciClone](https://github.com/genome/sciclone)
 
 
 **SNP array**
@@ -111,6 +107,18 @@ permalink: /links/
 - RMA:
 - MAS5.0:
 - GCRMA:
+
+**GWAS**
+
+- [PLINK](http://zzz.bwh.harvard.edu/plink/)
+- [GCTA](http://cnsgenomics.com/software/gcta/)
+- [SMR](http://cnsgenomics.com/software/smr/index.html)
+- [GSMR](http://cnsgenomics.com/software/gsmr/gsmr.html)
+- [MACH](http://csg.sph.umich.edu/abecasis/mach/index.html)
+- [IMPUTE2](http://mathgen.stats.ox.ac.uk/impute/impute_v2.html)
+- [METAL](http://genome.sph.umich.edu/wiki/METAL_Program)
+- [DEPICT](https://data.broadinstitute.org/mpg/depict/)
+- [Beagle](https://faculty.washington.edu/browning/beagle/beagle.html)
 
 **Common Tools**
 

@@ -10,8 +10,8 @@
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="zjuwhw.github.io/2015/09/16/MITx_Python.html">
-  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="zjuwhw.github.io/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/2015/09/16/MITx_Python.html">
+  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
 
@@ -72,43 +72,43 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Edx-Python学习笔记</h1>
-    <p class="post-meta"><time datetime="2015-09-16T00:00:00+08:00" itemprop="datePublished">Sep 16, 2015</time></p>
+    <p class="post-meta"><time datetime="2015-09-16T00:00:00+10:00" itemprop="datePublished">Sep 16, 2015</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     <ul id="markdown-toc">
-  <li><a href="#section" id="markdown-toc-section">听课笔记</a>    <ul>
+  <li><a href="#听课笔记" id="markdown-toc-听课笔记">听课笔记</a>    <ul>
       <li><a href="#lecture-1-introduction-to-python" id="markdown-toc-lecture-1-introduction-to-python">Lecture 1: Introduction to python</a>        <ul>
-          <li><a href="#introduction" id="markdown-toc-introduction">Introduction（简介）</a></li>
-          <li><a href="#basics-of-computation" id="markdown-toc-basics-of-computation">Basics of Computation（计算的基础）</a></li>
-          <li><a href="#knowledge" id="markdown-toc-knowledge">Knowledge（知识）</a></li>
-          <li><a href="#machine" id="markdown-toc-machine">Machine（机器）</a></li>
-          <li><a href="#language" id="markdown-toc-language">language（语言）</a>            <ul>
+          <li><a href="#introduction简介" id="markdown-toc-introduction简介">Introduction（简介）</a></li>
+          <li><a href="#basics-of-computation计算的基础" id="markdown-toc-basics-of-computation计算的基础">Basics of Computation（计算的基础）</a></li>
+          <li><a href="#knowledge知识" id="markdown-toc-knowledge知识">Knowledge（知识）</a></li>
+          <li><a href="#machine机器" id="markdown-toc-machine机器">Machine（机器）</a></li>
+          <li><a href="#language语言" id="markdown-toc-language语言">language（语言）</a>            <ul>
               <li><a href="#aspects-of-languages" id="markdown-toc-aspects-of-languages">ASPECTS OF LANGUAGES</a></li>
               <li><a href="#errors" id="markdown-toc-errors">ERRORS</a></li>
             </ul>
           </li>
-          <li><a href="#types" id="markdown-toc-types">Types（类型）</a></li>
-          <li><a href="#python-objects" id="markdown-toc-python-objects">Python objects（对象）</a>            <ul>
+          <li><a href="#types类型" id="markdown-toc-types类型">Types（类型）</a></li>
+          <li><a href="#python-objects对象" id="markdown-toc-python-objects对象">Python objects（对象）</a>            <ul>
               <li><a href="#python-programs" id="markdown-toc-python-programs">Python programs</a></li>
-              <li><a href="#objects" id="markdown-toc-objects">Objects（对象）</a></li>
+              <li><a href="#objects对象" id="markdown-toc-objects对象">Objects（对象）</a></li>
               <li><a href="#scalr-objects" id="markdown-toc-scalr-objects">Scalr objects</a></li>
-              <li><a href="#expressions" id="markdown-toc-expressions">Expressions（表达式）</a></li>
+              <li><a href="#expressions表达式" id="markdown-toc-expressions表达式">Expressions（表达式）</a></li>
             </ul>
           </li>
-          <li><a href="#variables" id="markdown-toc-variables">Variables（变量）</a></li>
-          <li><a href="#operators-and-branchingflow-of-control" id="markdown-toc-operators-and-branchingflow-of-control">Operators（操作符） and Branching（Flow of Control）</a></li>
+          <li><a href="#variables变量" id="markdown-toc-variables变量">Variables（变量）</a></li>
+          <li><a href="#operators操作符-and-branchingflow-of-control" id="markdown-toc-operators操作符-and-branchingflow-of-control">Operators（操作符） and Branching（Flow of Control）</a></li>
         </ul>
       </li>
       <li><a href="#lecture-2-core-elements-of-programs" id="markdown-toc-lecture-2-core-elements-of-programs">Lecture 2: Core elements of programs</a>        <ul>
-          <li><a href="#bindings" id="markdown-toc-bindings">Bindings（复制）</a></li>
-          <li><a href="#strings" id="markdown-toc-strings">Strings（字符串）</a>            <ul>
+          <li><a href="#bindings复制" id="markdown-toc-bindings复制">Bindings（复制）</a></li>
+          <li><a href="#strings字符串" id="markdown-toc-strings字符串">Strings（字符串）</a>            <ul>
               <li><a href="#operations-on-stings" id="markdown-toc-operations-on-stings">operations on stings</a></li>
             </ul>
           </li>
-          <li><a href="#inputoutput" id="markdown-toc-inputoutput">Input/Output（输入/输出）</a></li>
-          <li><a href="#ides" id="markdown-toc-ides">IDEs（集成开发环境）</a></li>
-          <li><a href="#control-flow" id="markdown-toc-control-flow">Control Flow（控制流）</a>            <ul>
+          <li><a href="#inputoutput输入输出" id="markdown-toc-inputoutput输入输出">Input/Output（输入/输出）</a></li>
+          <li><a href="#ides集成开发环境" id="markdown-toc-ides集成开发环境">IDEs（集成开发环境）</a></li>
+          <li><a href="#control-flow控制流" id="markdown-toc-control-flow控制流">Control Flow（控制流）</a>            <ul>
               <li><a href="#control-flow-while-loops" id="markdown-toc-control-flow-while-loops">Control FLow: <code class="highlighter-rouge">while</code> loops</a></li>
               <li><a href="#control-flow-for-loops" id="markdown-toc-control-flow-for-loops">Control FLow: <code class="highlighter-rouge">for</code> loops</a></li>
               <li><a href="#range-function" id="markdown-toc-range-function">range function</a></li>
@@ -116,58 +116,59 @@
               <li><a href="#for-vs-while-loops" id="markdown-toc-for-vs-while-loops">for vs while loops</a></li>
             </ul>
           </li>
-          <li><a href="#iteration" id="markdown-toc-iteration">Iteration（循环）</a></li>
-          <li><a href="#guess-and-check" id="markdown-toc-guess-and-check">Guess and Check（猜测和检查）</a></li>
+          <li><a href="#iteration循环" id="markdown-toc-iteration循环">Iteration（循环）</a></li>
+          <li><a href="#guess-and-check猜测和检查" id="markdown-toc-guess-and-check猜测和检查">Guess and Check（猜测和检查）</a></li>
         </ul>
       </li>
       <li><a href="#lecture-3-simple-algorithms" id="markdown-toc-lecture-3-simple-algorithms">Lecture 3: Simple Algorithms</a>        <ul>
           <li><a href="#so-far" id="markdown-toc-so-far">So Far…</a>            <ul>
-              <li><a href="#strings-1" id="markdown-toc-strings-1">strings</a></li>
+              <li><a href="#strings" id="markdown-toc-strings">strings</a></li>
             </ul>
           </li>
-          <li><a href="#approximate-solutions" id="markdown-toc-approximate-solutions">Approximate Solutions（近似解）</a>            <ul>
+          <li><a href="#approximate-solutions近似解" id="markdown-toc-approximate-solutions近似解">Approximate Solutions（近似解）</a>            <ul>
               <li><a href="#some-observations" id="markdown-toc-some-observations">some observations</a></li>
             </ul>
           </li>
-          <li><a href="#bisection-search" id="markdown-toc-bisection-search">Bisection Search（二分查找）</a></li>
-          <li><a href="#floats-and-fractions" id="markdown-toc-floats-and-fractions">Floats and Fractions（浮点型和分数）</a></li>
-          <li><a href="#newton-raphsonnewton-raphson" id="markdown-toc-newton-raphsonnewton-raphson">Newton-Raphson（Newton-Raphson迭代法）</a>            <ul>
+          <li><a href="#bisection-search二分查找" id="markdown-toc-bisection-search二分查找">Bisection Search（二分查找）</a></li>
+          <li><a href="#floats-and-fractions浮点型和分数" id="markdown-toc-floats-and-fractions浮点型和分数">Floats and Fractions（浮点型和分数）</a></li>
+          <li><a href="#newton-raphsonnewton-raphson迭代法" id="markdown-toc-newton-raphsonnewton-raphson迭代法">Newton-Raphson（Newton-Raphson迭代法）</a>            <ul>
               <li><a href="#iterative-algorithms" id="markdown-toc-iterative-algorithms">Iterative algorithms</a></li>
             </ul>
           </li>
         </ul>
       </li>
       <li><a href="#lecture-4-functions" id="markdown-toc-lecture-4-functions">Lecture 4: Functions</a>        <ul>
-          <li><a href="#decomposition-and-abstraction" id="markdown-toc-decomposition-and-abstraction">Decomposition and Abstraction（分解和抽象）</a></li>
-          <li><a href="#functions-and-scope" id="markdown-toc-functions-and-scope">Functions and Scope（函数和作用域）</a></li>
-          <li><a href="#keyword-arguments" id="markdown-toc-keyword-arguments">Keyword Arguments（关键字参数）</a></li>
-          <li><a href="#specifications" id="markdown-toc-specifications">Specifications（说明书）</a></li>
-          <li><a href="#iteration-vs-recursion-vs-" id="markdown-toc-iteration-vs-recursion-vs-">Iteration vs Recursion（迭代 vs 递归）</a></li>
-          <li><a href="#inductive-reasoning" id="markdown-toc-inductive-reasoning">Inductive Reasoning（归纳推理）</a></li>
-          <li><a href="#towers-of-hanoi" id="markdown-toc-towers-of-hanoi">Towers of Hanoi（汉诺塔）</a></li>
-          <li><a href="#fibonacci" id="markdown-toc-fibonacci">Fibonacci（斐波那契数列）</a>            <ul>
-              <li><a href="#divid-and-conquer" id="markdown-toc-divid-and-conquer">Divid and Conquer（分治算法）</a></li>
+          <li><a href="#decomposition-and-abstraction分解和抽象" id="markdown-toc-decomposition-and-abstraction分解和抽象">Decomposition and Abstraction（分解和抽象）</a></li>
+          <li><a href="#functions-and-scope函数和作用域" id="markdown-toc-functions-and-scope函数和作用域">Functions and Scope（函数和作用域）</a></li>
+          <li><a href="#keyword-arguments关键字参数" id="markdown-toc-keyword-arguments关键字参数">Keyword Arguments（关键字参数）</a></li>
+          <li><a href="#specifications说明书" id="markdown-toc-specifications说明书">Specifications（说明书）</a></li>
+          <li><a href="#iteration-vs-recursion迭代-vs-递归" id="markdown-toc-iteration-vs-recursion迭代-vs-递归">Iteration vs Recursion（迭代 vs 递归）</a></li>
+          <li><a href="#inductive-reasoning归纳推理" id="markdown-toc-inductive-reasoning归纳推理">Inductive Reasoning（归纳推理）</a></li>
+          <li><a href="#towers-of-hanoi汉诺塔" id="markdown-toc-towers-of-hanoi汉诺塔">Towers of Hanoi（汉诺塔）</a></li>
+          <li><a href="#fibonacci斐波那契数列" id="markdown-toc-fibonacci斐波那契数列">Fibonacci（斐波那契数列）</a></li>
+          <li><a href="#recursion-on-non-numerics非数字递归" id="markdown-toc-recursion-on-non-numerics非数字递归">Recursion on non-numerics（非数字递归）</a>            <ul>
+              <li><a href="#divid-and-conquer分治算法" id="markdown-toc-divid-and-conquer分治算法">Divid and Conquer（分治算法）</a></li>
             </ul>
           </li>
-          <li><a href="#files" id="markdown-toc-files">Files（文件）</a>            <ul>
-              <li><a href="#modules-and-files" id="markdown-toc-modules-and-files">MODULES AND FILES（模块和文件）</a></li>
+          <li><a href="#files文件" id="markdown-toc-files文件">Files（文件）</a>            <ul>
+              <li><a href="#modules-and-files模块和文件" id="markdown-toc-modules-and-files模块和文件">MODULES AND FILES（模块和文件）</a></li>
             </ul>
           </li>
         </ul>
       </li>
       <li><a href="#lecture-5-tuples-and-lists" id="markdown-toc-lecture-5-tuples-and-lists">Lecture 5: Tuples and Lists</a>        <ul>
-          <li><a href="#tuples" id="markdown-toc-tuples">Tuples（元组）</a></li>
-          <li><a href="#lists" id="markdown-toc-lists">Lists（列表）</a></li>
-          <li><a href="#list-operations" id="markdown-toc-list-operations">List Operations（列表操作）</a></li>
-          <li><a href="#mutation-aliasing-cloning" id="markdown-toc-mutation-aliasing-cloning">Mutation, Aliasing, Cloning（对象改变，对象别名，对象拷贝）</a></li>
+          <li><a href="#tuples元组" id="markdown-toc-tuples元组">Tuples（元组）</a></li>
+          <li><a href="#lists列表" id="markdown-toc-lists列表">Lists（列表）</a></li>
+          <li><a href="#list-operations列表操作" id="markdown-toc-list-operations列表操作">List Operations（列表操作）</a></li>
+          <li><a href="#mutation-aliasing-cloning对象改变对象别名对象拷贝" id="markdown-toc-mutation-aliasing-cloning对象改变对象别名对象拷贝">Mutation, Aliasing, Cloning（对象改变，对象别名，对象拷贝）</a></li>
         </ul>
       </li>
       <li><a href="#lecture-6-dictionaries" id="markdown-toc-lecture-6-dictionaries">Lecture 6: Dictionaries</a>        <ul>
-          <li><a href="#functions-as-objects" id="markdown-toc-functions-as-objects">Functions as Objects（函数作为对象）</a></li>
-          <li><a href="#dictionaries" id="markdown-toc-dictionaries">Dictionaries（字典）</a></li>
-          <li><a href="#example-with-a-dictionary" id="markdown-toc-example-with-a-dictionary">Example with a Dictionary（字典的例子）</a></li>
-          <li><a href="#fibonacci-and-dictionaries" id="markdown-toc-fibonacci-and-dictionaries">Fibonacci and Dictionaries（菲波那切数列和字典）</a></li>
-          <li><a href="#global-variables" id="markdown-toc-global-variables">Global Variables（全局变量）</a></li>
+          <li><a href="#functions-as-objects函数作为对象" id="markdown-toc-functions-as-objects函数作为对象">Functions as Objects（函数作为对象）</a></li>
+          <li><a href="#dictionaries字典" id="markdown-toc-dictionaries字典">Dictionaries（字典）</a></li>
+          <li><a href="#example-with-a-dictionary字典的例子" id="markdown-toc-example-with-a-dictionary字典的例子">Example with a Dictionary（字典的例子）</a></li>
+          <li><a href="#fibonacci-and-dictionaries菲波那切数列和字典" id="markdown-toc-fibonacci-and-dictionaries菲波那切数列和字典">Fibonacci and Dictionaries（菲波那切数列和字典）</a></li>
+          <li><a href="#global-variables全局变量" id="markdown-toc-global-variables全局变量">Global Variables（全局变量）</a></li>
         </ul>
       </li>
       <li><a href="#lecture-7-debugging" id="markdown-toc-lecture-7-debugging">Lecture 7: Debugging</a>        <ul>
@@ -180,18 +181,18 @@
       </li>
       <li><a href="#lecture-8-exceptions-and-assertions" id="markdown-toc-lecture-8-exceptions-and-assertions">Lecture 8: Exceptions and Assertions</a></li>
       <li><a href="#lecture-9-classes-and-inheritance" id="markdown-toc-lecture-9-classes-and-inheritance">Lecture 9: Classes and Inheritance</a>        <ul>
-          <li><a href="#object-oriented-programming" id="markdown-toc-object-oriented-programming">Object Oriented Programming（面向对象编程）</a></li>
-          <li><a href="#class-instances" id="markdown-toc-class-instances">Class instances（类示例）</a></li>
-          <li><a href="#methods" id="markdown-toc-methods">Methods（方法）</a></li>
-          <li><a href="#classes-examples" id="markdown-toc-classes-examples">Classes Examples（举例）</a></li>
-          <li><a href="#why-oopoop" id="markdown-toc-why-oopoop">Why OOP（为什么OOP）</a></li>
-          <li><a href="#hierarchies" id="markdown-toc-hierarchies">Hierarchies（层级结构）</a></li>
-          <li><a href="#class-variables" id="markdown-toc-class-variables">Class Variables（类变量）</a></li>
+          <li><a href="#object-oriented-programming面向对象编程" id="markdown-toc-object-oriented-programming面向对象编程">Object Oriented Programming（面向对象编程）</a></li>
+          <li><a href="#class-instances类示例" id="markdown-toc-class-instances类示例">Class instances（类示例）</a></li>
+          <li><a href="#methods方法" id="markdown-toc-methods方法">Methods（方法）</a></li>
+          <li><a href="#classes-examples举例" id="markdown-toc-classes-examples举例">Classes Examples（举例）</a></li>
+          <li><a href="#why-oop为什么oop" id="markdown-toc-why-oop为什么oop">Why OOP（为什么OOP）</a></li>
+          <li><a href="#hierarchies层级结构" id="markdown-toc-hierarchies层级结构">Hierarchies（层级结构）</a></li>
+          <li><a href="#class-variables类变量" id="markdown-toc-class-variables类变量">Class Variables（类变量）</a></li>
         </ul>
       </li>
       <li><a href="#lecture-10-an-extended-example" id="markdown-toc-lecture-10-an-extended-example">Lecture 10: An Extended Example</a>        <ul>
-          <li><a href="#building-a-class" id="markdown-toc-building-a-class">Building a Class（创建一个类）</a></li>
-          <li><a href="#visualizing-the-hierarchy" id="markdown-toc-visualizing-the-hierarchy">Visualizing the Hierarchy（可视化层级结构）</a></li>
+          <li><a href="#building-a-class创建一个类" id="markdown-toc-building-a-class创建一个类">Building a Class（创建一个类）</a></li>
+          <li><a href="#visualizing-the-hierarchy可视化层级结构" id="markdown-toc-visualizing-the-hierarchy可视化层级结构">Visualizing the Hierarchy（可视化层级结构）</a></li>
           <li><a href="#adding-another-class" id="markdown-toc-adding-another-class">Adding another class</a></li>
           <li><a href="#using-inherited-methods" id="markdown-toc-using-inherited-methods">Using inherited methods</a></li>
           <li><a href="#gradebook-example" id="markdown-toc-gradebook-example">Gradebook example</a></li>
@@ -202,11 +203,11 @@
   </li>
 </ul>
 
-<h2 id="section">听课笔记</h2>
+<h2 id="听课笔记">听课笔记</h2>
 
 <h3 id="lecture-1-introduction-to-python">Lecture 1: Introduction to python</h3>
 
-<h4 id="introduction">Introduction（简介）</h4>
+<h4 id="introduction简介">Introduction（简介）</h4>
 
 <ul>
   <li>topics:
@@ -220,7 +221,7 @@
   </li>
 </ul>
 
-<h4 id="basics-of-computation">Basics of Computation（计算的基础）</h4>
+<h4 id="basics-of-computation计算的基础">Basics of Computation（计算的基础）</h4>
 
 <ul>
   <li>What does a computer do?
@@ -237,7 +238,7 @@
   </li>
 </ul>
 
-<h4 id="knowledge">Knowledge（知识）</h4>
+<h4 id="knowledge知识">Knowledge（知识）</h4>
 
 <ul>
   <li>Declarative knowledge（叙述性知识）: statments of facts</li>
@@ -250,7 +251,7 @@
   </li>
 </ul>
 
-<h4 id="machine">Machine（机器）</h4>
+<h4 id="machine机器">Machine（机器）</h4>
 
 <ul>
   <li>Fixed Program Computers（固定程序计算机）: calculator, Alan Turing’s Bombe and etc.</li>
@@ -265,7 +266,7 @@
   </li>
 </ul>
 
-<h4 id="language">language（语言）</h4>
+<h4 id="language语言">language（语言）</h4>
 
 <ul>
   <li>primitive operations（操作）</li>
@@ -296,7 +297,7 @@
   </li>
 </ul>
 
-<h4 id="types">Types（类型）</h4>
+<h4 id="types类型">Types（类型）</h4>
 
 <ul>
   <li>Options for programming languages:
@@ -310,7 +311,7 @@
   <li>High level (interpreted language, such as Python): Source code (high level) -&gt; checker -&gt; interpreter -&gt; output</li>
 </ul>
 
-<h4 id="python-objects">Python objects（对象）</h4>
+<h4 id="python-objects对象">Python objects（对象）</h4>
 
 <h5 id="python-programs">Python programs</h5>
 
@@ -319,7 +320,7 @@
   <li><strong>Command</strong> (or statement) instructs interpreter（解释器） to do something</li>
 </ul>
 
-<h5 id="objects">Objects（对象）</h5>
+<h5 id="objects对象">Objects（对象）</h5>
 <ul>
   <li>programs manipulate <strong>data objects</strong></li>
   <li>objects have a <strong>type</strong> that dfeines the kind of things programs can do to it</li>
@@ -340,7 +341,7 @@
   <li>NoneType</li>
 </ul>
 
-<h5 id="expressions">Expressions（表达式）</h5>
+<h5 id="expressions表达式">Expressions（表达式）</h5>
 
 <ul>
   <li>Expressions: combine objects and operators</li>
@@ -354,7 +355,7 @@
   <li>operator precedence（优先级） without parentheses（括号）：<code class="highlighter-rouge">**</code>, <code class="highlighter-rouge">*</code>, <code class="highlighter-rouge">/</code>, <code class="highlighter-rouge">+ and -</code> executed left to right, as appear in expression</li>
 </ul>
 
-<h4 id="variables">Variables（变量）</h4>
+<h4 id="variables变量">Variables（变量）</h4>
 
 <ul>
   <li><strong>assignment</strong>: binding <strong>variables</strong> and <strong>values</strong></li>
@@ -367,7 +368,7 @@
   <li>value on the right and name on the left</li>
 </ul>
 
-<h4 id="operators-and-branchingflow-of-control">Operators（操作符） and Branching（Flow of Control）</h4>
+<h4 id="operators操作符-and-branchingflow-of-control">Operators（操作符） and Branching（Flow of Control）</h4>
 
 <ul>
   <li>Branching programs（程序分块）: the simplest one is a <strong>conditional</strong>
@@ -385,7 +386,7 @@
 
 <h3 id="lecture-2-core-elements-of-programs">Lecture 2: Core elements of programs</h3>
 
-<h4 id="bindings">Bindings（复制）</h4>
+<h4 id="bindings复制">Bindings（复制）</h4>
 
 <ul>
   <li>right hand side –&gt; value</li>
@@ -394,7 +395,7 @@
   <li><code class="highlighter-rouge">=</code> is called assignment</li>
 </ul>
 
-<h4 id="strings">Strings（字符串）</h4>
+<h4 id="strings字符串">Strings（字符串）</h4>
 
 <ul>
   <li>quotation marks or single quotes</li>
@@ -417,14 +418,14 @@
   </li>
 </ul>
 
-<h4 id="inputoutput">Input/Output（输入/输出）</h4>
+<h4 id="inputoutput输入输出">Input/Output（输入/输出）</h4>
 
 <ul>
   <li><code class="highlighter-rouge">print</code></li>
   <li><code class="highlighter-rouge">input("")</code>, return a string</li>
 </ul>
 
-<h4 id="ides">IDEs（集成开发环境）</h4>
+<h4 id="ides集成开发环境">IDEs（集成开发环境）</h4>
 
 <ul>
   <li>IDE: integrated development environment
@@ -436,7 +437,7 @@
   </li>
 </ul>
 
-<h4 id="control-flow">Control Flow（控制流）</h4>
+<h4 id="control-flow控制流">Control Flow（控制流）</h4>
 
 <ul>
   <li>comparison operators on int and float:
@@ -518,7 +519,7 @@
   </tbody>
 </table>
 
-<h4 id="iteration">Iteration（循环）</h4>
+<h4 id="iteration循环">Iteration（循环）</h4>
 
 <ul>
   <li>some properties of iteration loops:
@@ -530,7 +531,7 @@
   </li>
 </ul>
 
-<h4 id="guess-and-check">Guess and Check（猜测和检查）</h4>
+<h4 id="guess-and-check猜测和检查">Guess and Check（猜测和检查）</h4>
 
 <ul>
   <li>loop characterristics
@@ -563,14 +564,14 @@
 
 <h4 id="so-far">So Far…</h4>
 
-<h5 id="strings-1">strings</h5>
+<h5 id="strings">strings</h5>
 
 <ul>
   <li>slice: <code class="highlighter-rouge">[start:stop:step]</code></li>
   <li>immutable: cannot be modified</li>
 </ul>
 
-<h4 id="approximate-solutions">Approximate Solutions（近似解）</h4>
+<h4 id="approximate-solutions近似解">Approximate Solutions（近似解）</h4>
 
 <ul>
   <li>start with exhaustive enumeration
@@ -597,7 +598,7 @@
   <li>Need a more efficient way do do this</li>
 </ul>
 
-<h4 id="bisection-search">Bisection Search（二分查找）</h4>
+<h4 id="bisection-search二分查找">Bisection Search（二分查找）</h4>
 
 <p>EXAMPLE OF SQUARE ROOT</p>
 
@@ -627,7 +628,7 @@
   <li>Should work well on problems with “ordering” property</li>
 </ul>
 
-<h4 id="floats-and-fractions">Floats and Fractions（浮点型和分数）</h4>
+<h4 id="floats-and-fractions浮点型和分数">Floats and Fractions（浮点型和分数）</h4>
 
 <ul>
   <li>Decimal number: <code class="highlighter-rouge">302 = 3*10^2 + 0*10^1 + 2*10^0</code></li>
@@ -669,7 +670,7 @@
   <li>Use <code class="highlighter-rouge">abs(x-y)</code> &lt; some small number, rather than <code class="highlighter-rouge">x == y</code></li>
 </ul>
 
-<h4 id="newton-raphsonnewton-raphson">Newton-Raphson（Newton-Raphson迭代法）</h4>
+<h4 id="newton-raphsonnewton-raphson迭代法">Newton-Raphson（Newton-Raphson迭代法）</h4>
 
 <p>General approximation algorithm to find roots of a polynomial in one variable：
 p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub>1</sub>x + a<sub>0</sub></p>
@@ -707,7 +708,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 
 <h3 id="lecture-4-functions">Lecture 4: Functions</h3>
 
-<h4 id="decomposition-and-abstraction">Decomposition and Abstraction（分解和抽象）</h4>
+<h4 id="decomposition-and-abstraction分解和抽象">Decomposition and Abstraction（分解和抽象）</h4>
 
 <p>GOOD PROGRAMMING</p>
 
@@ -755,7 +756,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   <li>achieve abstraction with <strong>function specifications</strong> or <strong>docstrings</strong></li>
 </ul>
 
-<h4 id="functions-and-scope">Functions and Scope（函数和作用域）</h4>
+<h4 id="functions-and-scope函数和作用域">Functions and Scope（函数和作用域）</h4>
 
 <p>FUNCTIONS</p>
 
@@ -833,11 +834,11 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   <li>inside a function, <strong>cannot modify</strong> a variable defined outside</li>
 </ul>
 
-<h4 id="keyword-arguments">Keyword Arguments（关键字参数）</h4>
+<h4 id="keyword-arguments关键字参数">Keyword Arguments（关键字参数）</h4>
 
 <p>Can specify that some arguments have default values, so if no value supplied, just use that value</p>
 
-<h4 id="specifications">Specifications（说明书）</h4>
+<h4 id="specifications说明书">Specifications（说明书）</h4>
 
 <ul>
   <li>a <strong>contract</strong> between the implementer of a function and the clients who will use it
@@ -848,7 +849,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   </li>
 </ul>
 
-<h4 id="iteration-vs-recursion-vs-">Iteration vs Recursion（迭代 vs 递归）</h4>
+<h4 id="iteration-vs-recursion迭代-vs-递归">Iteration vs Recursion（迭代 vs 递归）</h4>
 
 <p>WHAT IS RECURSION</p>
 
@@ -938,7 +939,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   <li>recursion may not be efficient from computer POV</li>
 </ul>
 
-<h4 id="inductive-reasoning">Inductive Reasoning（归纳推理）</h4>
+<h4 id="inductive-reasoning归纳推理">Inductive Reasoning（归纳推理）</h4>
 
 <p>To prove a statement indexed on integers is true for all values of n:</p>
 
@@ -947,7 +948,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   <li>Then prove that if it is true for an arbitrary value of n, one can show that it must be true for n+1</li>
 </ul>
 
-<h4 id="towers-of-hanoi">Towers of Hanoi（汉诺塔）</h4>
+<h4 id="towers-of-hanoi汉诺塔">Towers of Hanoi（汉诺塔）</h4>
 
 <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">printMove</span><span class="p">(</span><span class="n">fr</span><span class="p">,</span> <span class="n">to</span><span class="p">):</span>
 	<span class="k">print</span><span class="p">(</span><span class="s">"Move from "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">fr</span><span class="p">)</span> <span class="o">+</span> <span class="s">" to "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">to</span><span class="p">))</span>
@@ -961,7 +962,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 </code></pre>
 </div>
 
-<h4 id="fibonacci">Fibonacci（斐波那契数列）</h4>
+<h4 id="fibonacci斐波那契数列">Fibonacci（斐波那契数列）</h4>
 
 <p>FIBONACCI</p>
 
@@ -990,7 +991,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 		<span class="k">return</span> <span class="n">fib</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
 </code></pre>
 </div>
-<p>#### Recursion on non-numerics（非数字递归）</p>
+<h4 id="recursion-on-non-numerics非数字递归">Recursion on non-numerics（非数字递归）</h4>
 
 <ul>
   <li>check if a string of characters is a palindrome(回文)</li>
@@ -1023,7 +1024,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 </code></pre>
 </div>
 
-<h5 id="divid-and-conquer">Divid and Conquer（分治算法）</h5>
+<h5 id="divid-and-conquer分治算法">Divid and Conquer（分治算法）</h5>
 
 <ul>
   <li>an example of a “divide and conquer” algorithm</li>
@@ -1035,9 +1036,9 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   </li>
 </ul>
 
-<h4 id="files">Files（文件）</h4>
+<h4 id="files文件">Files（文件）</h4>
 
-<h5 id="modules-and-files">MODULES AND FILES（模块和文件）</h5>
+<h5 id="modules-and-files模块和文件">MODULES AND FILES（模块和文件）</h5>
 
 <p>a module is a .py file containing a collection Python definitions and statements</p>
 
@@ -1093,25 +1094,25 @@ print(area(3))
 
 <h3 id="lecture-5-tuples-and-lists">Lecture 5: Tuples and Lists</h3>
 
-<h4 id="tuples">Tuples（元组）</h4>
+<h4 id="tuples元组">Tuples（元组）</h4>
 
-<h4 id="lists">Lists（列表）</h4>
+<h4 id="lists列表">Lists（列表）</h4>
 
-<h4 id="list-operations">List Operations（列表操作）</h4>
+<h4 id="list-operations列表操作">List Operations（列表操作）</h4>
 
-<h4 id="mutation-aliasing-cloning">Mutation, Aliasing, Cloning（对象改变，对象别名，对象拷贝）</h4>
+<h4 id="mutation-aliasing-cloning对象改变对象别名对象拷贝">Mutation, Aliasing, Cloning（对象改变，对象别名，对象拷贝）</h4>
 
 <h3 id="lecture-6-dictionaries">Lecture 6: Dictionaries</h3>
 
-<h4 id="functions-as-objects">Functions as Objects（函数作为对象）</h4>
+<h4 id="functions-as-objects函数作为对象">Functions as Objects（函数作为对象）</h4>
 
-<h4 id="dictionaries">Dictionaries（字典）</h4>
+<h4 id="dictionaries字典">Dictionaries（字典）</h4>
 
-<h4 id="example-with-a-dictionary">Example with a Dictionary（字典的例子）</h4>
+<h4 id="example-with-a-dictionary字典的例子">Example with a Dictionary（字典的例子）</h4>
 
-<h4 id="fibonacci-and-dictionaries">Fibonacci and Dictionaries（菲波那切数列和字典）</h4>
+<h4 id="fibonacci-and-dictionaries菲波那切数列和字典">Fibonacci and Dictionaries（菲波那切数列和字典）</h4>
 
-<h4 id="global-variables">Global Variables（全局变量）</h4>
+<h4 id="global-variables全局变量">Global Variables（全局变量）</h4>
 
 <h3 id="lecture-7-debugging">Lecture 7: Debugging</h3>
 
@@ -1129,25 +1130,25 @@ print(area(3))
 
 <h3 id="lecture-9-classes-and-inheritance">Lecture 9: Classes and Inheritance</h3>
 
-<h4 id="object-oriented-programming">Object Oriented Programming（面向对象编程）</h4>
+<h4 id="object-oriented-programming面向对象编程">Object Oriented Programming（面向对象编程）</h4>
 
-<h4 id="class-instances">Class instances（类示例）</h4>
+<h4 id="class-instances类示例">Class instances（类示例）</h4>
 
-<h4 id="methods">Methods（方法）</h4>
+<h4 id="methods方法">Methods（方法）</h4>
 
-<h4 id="classes-examples">Classes Examples（举例）</h4>
+<h4 id="classes-examples举例">Classes Examples（举例）</h4>
 
-<h4 id="why-oopoop">Why OOP（为什么OOP）</h4>
+<h4 id="why-oop为什么oop">Why OOP（为什么OOP）</h4>
 
-<h4 id="hierarchies">Hierarchies（层级结构）</h4>
+<h4 id="hierarchies层级结构">Hierarchies（层级结构）</h4>
 
-<h4 id="class-variables">Class Variables（类变量）</h4>
+<h4 id="class-variables类变量">Class Variables（类变量）</h4>
 
 <h3 id="lecture-10-an-extended-example">Lecture 10: An Extended Example</h3>
 
-<h4 id="building-a-class">Building a Class（创建一个类）</h4>
+<h4 id="building-a-class创建一个类">Building a Class（创建一个类）</h4>
 
-<h4 id="visualizing-the-hierarchy">Visualizing the Hierarchy（可视化层级结构）</h4>
+<h4 id="visualizing-the-hierarchy可视化层级结构">Visualizing the Hierarchy（可视化层级结构）</h4>
 
 <h4 id="adding-another-class">Adding another class</h4>
 

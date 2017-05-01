@@ -10,8 +10,8 @@
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="zjuwhw.github.io/2016/07/01/mongodb.html">
-  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="zjuwhw.github.io/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/2016/07/01/mongodb.html">
+  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
 
@@ -72,17 +72,18 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">mongoDB学习笔记</h1>
-    <p class="post-meta"><time datetime="2016-07-01T00:00:00+08:00" itemprop="datePublished">Jul 1, 2016</time></p>
+    <p class="post-meta"><time datetime="2016-07-01T00:00:00+10:00" itemprop="datePublished">Jul 1, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     <ul id="markdown-toc">
-  <li><a href="#section" id="markdown-toc-section">基本概念</a>    <ul>
+  <li><a href="#基本概念" id="markdown-toc-基本概念">基本概念</a></li>
+  <li><a href="#与关系型数据库rdbms类比" id="markdown-toc-与关系型数据库rdbms类比">与关系型数据库（RDBMS）类比</a>    <ul>
       <li><a href="#terminology" id="markdown-toc-terminology">Terminology</a></li>
       <li><a href="#deatabase-server-and-client" id="markdown-toc-deatabase-server-and-client">Deatabase Server and Client</a></li>
     </ul>
   </li>
-  <li><a href="#mongodb-package-componetshttpsdocsmongodbcommanualreferenceprogram" id="markdown-toc-mongodb-package-componetshttpsdocsmongodbcommanualreferenceprogram"><a href="https://docs.mongodb.com/manual/reference/program/">MongoDB Package Componets</a></a></li>
+  <li><a href="#mongodb-package-componets" id="markdown-toc-mongodb-package-componets"><a href="https://docs.mongodb.com/manual/reference/program/">MongoDB Package Componets</a></a></li>
   <li><a href="#mongodb-crud-operations" id="markdown-toc-mongodb-crud-operations">MongoDB CRUD Operations</a>    <ul>
       <li><a href="#create-operations" id="markdown-toc-create-operations">Create Operations</a></li>
       <li><a href="#read-operations" id="markdown-toc-read-operations">Read Operations</a></li>
@@ -91,11 +92,11 @@
     </ul>
   </li>
   <li><a href="#mongo-by-python" id="markdown-toc-mongo-by-python">Mongo by Python</a></li>
-  <li><a href="#mongo" id="markdown-toc-mongo">mongo的客户端</a></li>
-  <li><a href="#section-1" id="markdown-toc-section-1">扩展阅读：</a></li>
+  <li><a href="#mongo的客户端" id="markdown-toc-mongo的客户端">mongo的客户端</a></li>
+  <li><a href="#扩展阅读" id="markdown-toc-扩展阅读">扩展阅读：</a></li>
 </ul>
 
-<h2 id="section">基本概念</h2>
+<h2 id="基本概念">基本概念</h2>
 
 <ul>
   <li>MongoDB: an open-source document database</li>
@@ -108,7 +109,8 @@
   <li>CRUD: create, read, update, and delete documents</li>
   <li>drivers: an application communicates with MongoDB by way of a client library, including shell, python, C, java, Node.js, etc.
 :–
-## 与关系型数据库（RDBMS）类比</li>
+    <h2 id="与关系型数据库rdbms类比">与关系型数据库（RDBMS）类比</h2>
+  </li>
 </ul>
 
 <h3 id="terminology">Terminology</h3>
@@ -169,7 +171,7 @@
   </tbody>
 </table>
 
-<h2 id="mongodb-package-componetshttpsdocsmongodbcommanualreferenceprogram"><a href="https://docs.mongodb.com/manual/reference/program/">MongoDB Package Componets</a></h2>
+<h2 id="mongodb-package-componets"><a href="https://docs.mongodb.com/manual/reference/program/">MongoDB Package Componets</a></h2>
 
 <ul>
   <li><code class="highlighter-rouge">mongod</code>: the primary daemon process(守护进程) for the MongoDB system</li>
@@ -309,14 +311,14 @@ client = MongoClient("mongodb://mongodb0.example.net:27017")
 </code></pre>
 </div>
 
-<h2 id="mongo">mongo的客户端</h2>
+<h2 id="mongo的客户端">mongo的客户端</h2>
 
 <ul>
   <li>mongochef</li>
   <li>robomongo</li>
 </ul>
 
-<h2 id="section-1">扩展阅读：</h2>
+<h2 id="扩展阅读">扩展阅读：</h2>
 
 <ul>
   <li><a href="https://www.mongodb.com/">mongoDB official website</a></li>

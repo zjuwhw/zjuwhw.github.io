@@ -10,8 +10,8 @@
   <meta name="description" content="The strandness of RNA-seq analysis">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="zjuwhw.github.io/2015/10/15/RNAseq_strand.html">
-  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="zjuwhw.github.io/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/2015/10/15/RNAseq_strand.html">
+  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
 
@@ -72,7 +72,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">RNA-seq连特异性</h1>
-    <p class="post-meta"><time datetime="2015-10-15T00:00:00+08:00" itemprop="datePublished">Oct 15, 2015</time></p>
+    <p class="post-meta"><time datetime="2015-10-15T00:00:00+10:00" itemprop="datePublished">Oct 15, 2015</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -85,7 +85,7 @@
 
 <p>具体解释如下：</p>
 
-<h2 id="strand">1.关于strand：</h2>
+<h2 id="1关于strand">1.关于strand：</h2>
 
 <p>1）DNA是由两条互补配对的链组成的。按照预定俗称，把其中一条链称为正链（plus strand or forward strand），另一条则是负链（minus strand or reverse strand），这个定义完全是人为的。我们下载的hg18、hg19、hg38的fasta格式只给出了正链的序列。另一条链可以根据互补配对得出。</p>
 
@@ -97,7 +97,7 @@
 
 <p><a href="http://www.majordifferences.com/2015/01/difference-between-sense-and-antisense.html">http://www.majordifferences.com/2015/01/difference-between-sense-and-antisense.html</a></p>
 
-<h2 id="illuminasample-preparation">2、illumina测序之sample preparation：</h2>
+<h2 id="2illumina测序之sample-preparation">2、illumina测序之sample preparation：</h2>
 
 <p>1）illumina测序的sample preparation的步骤，一般是讲DNA或者是cDNA打断，然后repair ends，add A at 3’end （为了和Y-shaped adaptor结合），然后加上adaptor。</p>
 
@@ -109,7 +109,7 @@
 
 <p><a href="http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html">http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html</a></p>
 
-<h2 id="dutp-methodsample-preparation">3、dUTP method的sample preparation：</h2>
+<h2 id="3dutp-method的sample-preparation">3、dUTP method的sample preparation：</h2>
 
 <p>dUTP metod主要是在反转完first-strand cDNA之后，在合成second-strand cDNA的时候，用dUTP代替了dTTP，之后加完adaptor，用UDGase处理，将second-strand cDNA消化掉。这样最后合成的sample，中间的DNA fragment一定是first-strand cDNA。这也是为什么对于dUTP数据处理，tophat的参数应该为“–library-type fr-firststrand”。注意，这里的first-strand cDNA与RNA strand（或者基因组上的coding strand）相反。</p>
 
@@ -117,7 +117,7 @@
 
 <p><a href="http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html">http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html</a></p>
 
-<h2 id="illuminacluster-generationsequencing">4、illumina测序之cluster generation和sequencing</h2>
+<h2 id="4illumina测序之cluster-generation和sequencing">4、illumina测序之cluster generation和sequencing</h2>
 
 <p>1）sample preparation之后，样品就上机测序了。在flow cell的表面，固定着很多个DNA序列，他们有两种P5和P7，均是5’在flow cell的表面，3’露在上面。</p>
 
@@ -137,16 +137,16 @@
 
 <p><a href="http://skatebase.org/sites/skatebase.org/files/workshops/W1_IntroIlluminaNGS.pdf">http://skatebase.org/sites/skatebase.org/files/workshops/W1_IntroIlluminaNGS.pdf</a></p>
 
-<h2 id="tophatoutputbamtag-xs">5、tophat中output的bam文件中有一个tag XS是错的</h2>
+<h2 id="5tophat中output的bam文件中有一个tag-xs是错的">5、tophat中output的bam文件中有一个tag XS是错的</h2>
 
 <p>tophat输出的bam文件的attribute tag中有一个XS是指示RNA所在的strand的。但是很多人都发现了错误。而且Encode还写了<a href="https://github.com/ENCODE-DCC/long-rna-seq-pipeline/blob/e0ed26ac18f15422fe320add46b60159647eb838/DAC/tophat_bam_xsA_tag_fix.pl">一个perl脚本</a>来修改XS tag。也有人说XS主要是根据splite site的序列判断的。XS: “+” for GT-AG and “-“ for CT-AC。另外，因为cufflinks是需要XS的这个tag的，所以这个问题还需要再研究一下。</p>
 
-<h2 id="sam2flagreadstrand">6、可以通过sam文件的第2列的flag来判断read的strand</h2>
+<h2 id="6可以通过sam文件的第2列的flag来判断read的strand">6、可以通过sam文件的第2列的flag来判断read的strand</h2>
 
 <p>sam flag可以指示该条read是read1（first in pair）还是read2（second in pair），或者比对到正链上（mate reverse strand）还是负链上（read reverse strand）。
 我其实也不懂得flag这个16进制，<a href="http://broadinstitute.github.io/picard/explain-flags.html">这有个网址</a>给了一个简单的软件，可以帮助计算。然后用samtools view -f或者-F就可以根据flag来筛选了。</p>
 
-<h2 id="section">7、参考资料：</h2>
+<h2 id="7参考资料">7、参考资料：</h2>
 
 <p><a href="http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html">http://onetipperday.blogspot.com/2013/06/illumina-hiseq2000-adaptor.html</a></p>
 

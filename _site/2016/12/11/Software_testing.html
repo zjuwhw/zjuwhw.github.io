@@ -10,8 +10,8 @@
   <meta name="description" content="注：内容引用和翻译自Paul Ammann和Jeff Offutt的书《Introduction to Software Testing》。">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="zjuwhw.github.io/2016/12/11/Software_testing.html">
-  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="zjuwhw.github.io/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/2016/12/11/Software_testing.html">
+  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
 
@@ -72,13 +72,13 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">软件测试简介</h1>
-    <p class="post-meta"><time datetime="2016-12-11T00:00:00+08:00" itemprop="datePublished">Dec 11, 2016</time></p>
+    <p class="post-meta"><time datetime="2016-12-11T00:00:00+10:00" itemprop="datePublished">Dec 11, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     <p>注：内容引用和翻译自Paul Ammann和Jeff Offutt的书<a href="https://book.douban.com/subject/3442101/">《Introduction to Software Testing》</a>。</p>
 
-<h2 id="section">测试工程师的工作</h2>
+<h2 id="测试工程师的工作">测试工程师的工作</h2>
 
 <blockquote>
   <p>A test engineer is an information technology (IT) professional who is in charge of one or more technical test activities, including designing test inputs, producing test case values, running test scripts, analyzing results, and reporting results to developers and managers.</p>
@@ -98,11 +98,11 @@
   <li>测试经理的工作：设定测试规则和流程，与项目的其他经理交流，帮助测试工程师工作的进行。</li>
 </ul>
 
-<h2 id="section-1">测试分类 - 基于软件</h2>
+<h2 id="测试分类---基于软件">测试分类 - 基于软件</h2>
 
 <p><img src="/images/software_testing_1.png" alt="" /></p>
 
-<h3 id="acceptance-test---requirements-analysis">验收测试（Acceptance Test） - 需求分析（requirements analysis）</h3>
+<h3 id="验收测试acceptance-test---需求分析requirements-analysis">验收测试（Acceptance Test） - 需求分析（requirements analysis）</h3>
 
 <blockquote>
   <p>The requirements analysis phase of software development captures the customer’s needs. Acceptance testing is designed to determine whether the completed software in fact meets these needs. In other words, acceptance testing probes whether the software does what the users want. Acceptance testing must involve users or other individuals who have strong domain knowledge.</p>
@@ -114,7 +114,7 @@
   <li><strong>验收测试</strong>必须有<strong>用户或者有很强相关领域背景知识的人</strong>参与。</li>
 </ul>
 
-<h3 id="system-test---architectural-design">系统测试（System Test） - 架构设计（Architectural Design）</h3>
+<h3 id="系统测试system-test---架构设计architectural-design">系统测试（System Test） - 架构设计（Architectural Design）</h3>
 
 <blockquote>
   <p>The architectural design phase of software development chooses components and connectors that together realize a system whose specification is intended to meet the previously identified requirements. System testing is designed to determine whether the assembled system meets its specifications. It assumes that the pieces work individually, and asks if the system works as a whole. This level of testing usually looks for design and specification problems. It is a very expensive place to find lower-level faults and is usually not done by the programmers, but by a separate testing team.</p>
@@ -126,7 +126,7 @@
   <li>这个阶段的测试经常可以发现设计和要求上的问题。在这个阶段发现底层错误（lower-level faults）是非常昂贵的。<strong>系统测试</strong>经常不由开发人员进行，而是一个<strong>独立的测试团队</strong>。</li>
 </ul>
 
-<h3 id="integration-test---subsystem-design">集成测试（Integration Test） - 子系统设计（Subsystem Design）</h3>
+<h3 id="集成测试integration-test---子系统设计subsystem-design">集成测试（Integration Test） - 子系统设计（Subsystem Design）</h3>
 
 <blockquote>
   <p>The subsystem design phase of software development specifies the structure and behavior of subsystems, each of which is intended to satisfy some function in the overall architecture. Often, the subsystems are adaptations of previously developed software. Integration testing is designed to assess whether the interfaces between modules (defined below) in a given subsystem have consistent assumptions and communicate correctly. Integration testing must assume that modules work correctly. Some testing literature uses the terms integration testing and system testing interchangeably; in this book, integration testing does not refer to testing the integrated system or subsystem. Integration testing is usually the responsibility of members of the development team.</p>
@@ -138,7 +138,7 @@
   <li><strong>集成测试</strong>经常是<strong>开发团队</strong>的责任。</li>
 </ul>
 
-<h3 id="module-test--detailed-design">模块测试（Module Test）- 细节设计（Detailed Design）</h3>
+<h3 id="模块测试module-test--细节设计detailed-design">模块测试（Module Test）- 细节设计（Detailed Design）</h3>
 
 <blockquote>
   <p>The detailed design phase of software development determines the structure and behavior of individual modules. A program unit, or procedure, is one or more contiguous program statements, with a name that other parts of the software use to call it. Units are called functions in C and C++, procedures or functions in Ada, methods in Java, and subroutines in Fortran. A module is a collection of related units that are assembled in a file, package, or class. This corresponds to a file in C, a package in Ada, and a class in C++ and Java. Module testing is designed to assess individual modules in isolation, including how the component units interact with each other and their associated data structures. Most software development organizations make module testing the responsibility of the programmer.</p>
@@ -151,7 +151,7 @@
   <li>在大多数的软件开发组织，<strong>模块测试</strong>是<strong>开发者</strong>的责任。</li>
 </ul>
 
-<h3 id="unit-test---implementation">单元测试（Unit Test） - 实现（Implementation）</h3>
+<h3 id="单元测试unit-test---实现implementation">单元测试（Unit Test） - 实现（Implementation）</h3>
 
 <blockquote>
   <p>Implementation is the phase of software development that actually produces code. Unit testing is designed to assess the units produced by the implementation phase and is the “lowest” level of testing. In some cases, such as when building general-purpose library modules, unit testing is done without knowledge of the encapsulating software application. As with module testing, most software development organizations make unit testing the responsibility of the programmer. It is straightforward to package unit tests together with the corresponding code through the use of tools such as JUnit for Java classes.</p>
@@ -163,7 +163,7 @@
   <li>和模块测试一样，在大多数的软件开发组织中，<strong>单元测试</strong>是<strong>开发者</strong>的责任。通过工具（例如用于Java类的JUnit）将单元测试与相关代码直接打包。</li>
 </ul>
 
-<h3 id="regression-testing">回归测试（regression testing）</h3>
+<h3 id="回归测试regression-testing">回归测试（regression testing）</h3>
 
 <blockquote>
   <p>Not shown in Figure 1.2 is regression testing, a standard part of the maintenance phase of software development. Regression testing is testing that is done after changes are made to the software, and its purpose is to help ensure that the updated software still possesses the functionality it had before the updates</p>
@@ -174,9 +174,9 @@
   <li><strong>回归测试</strong>需要在软件发生任何变动后进行，目的是用来帮助保证更新的软件在依然可以执行它更新前的功能。</li>
 </ul>
 
-<h2 id="beizer">测试分类 - 基于测试成熟度（Beizer的）</h2>
+<h2 id="测试分类---基于测试成熟度beizer的">测试分类 - 基于测试成熟度（Beizer的）</h2>
 
-<h2 id="section-2">测试自动化</h2>
+<h2 id="测试自动化">测试自动化</h2>
 
   </div>
 

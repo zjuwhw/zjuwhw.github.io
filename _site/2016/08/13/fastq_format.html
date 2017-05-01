@@ -10,8 +10,8 @@
   <meta name="description" content="Fastq是二代测序中常用的原始序列文件格式。">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="zjuwhw.github.io/2016/08/13/fastq_format.html">
-  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="zjuwhw.github.io/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/2016/08/13/fastq_format.html">
+  <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
 
@@ -72,13 +72,13 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Fastq格式</h1>
-    <p class="post-meta"><time datetime="2016-08-13T00:00:00+08:00" itemprop="datePublished">Aug 13, 2016</time></p>
+    <p class="post-meta"><time datetime="2016-08-13T00:00:00+10:00" itemprop="datePublished">Aug 13, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     <p><a href="https://en.wikipedia.org/wiki/FASTQ_format">Fastq</a>是二代测序中常用的原始序列文件格式。</p>
 
-<h2 id="fastq">Fastq文件如何得到？</h2>
+<h2 id="fastq文件如何得到">Fastq文件如何得到？</h2>
 
 <blockquote>
   <p>After the sequencing platform generates the sequencing images, the data are analyzed in five steps: image analysis, base calling, bcl conversion, sequence alignment, and variant analysis and counting. CASAVA performs the bcl conversion, sequence alignment, and variant analysis and counting steps, demultiplexes multiplexed samples during the bcl conversion step.
@@ -89,7 +89,7 @@ Bcl conversion — Converts *.bcl files into *.fastq.gz files (compressed FASTQ 
 
 <p>Bcl转换 - 用CASAVA软件转换bcl文件为fastq.gz文件（压缩的fastq文件）。多样本数据将会拆分。</p>
 
-<h2 id="section">示例：</h2>
+<h2 id="示例">示例：</h2>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>@EAS139:136:FC706VJ:2:5:1000:12850 1:Y:18:ATCACG
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -321,7 +321,7 @@ BBBBCCCC?&lt;A?BC?7@@???????DBBA@@@@A@@
 
 <p><img src="/images/ASCII-Table.png" alt="" /></p>
 
-<h2 id="section-1">参考资料</h2>
+<h2 id="参考资料">参考资料</h2>
 <ol>
   <li><a href="http://support.illumina.com/help/SequencingAnalysisWorkflow/Content/Vault/Informatics/Sequencing_Analysis/CASAVA/swSEQ_mCA_FASTQFiles.htm">Illumina support</a></li>
   <li><a href="https://en.wikipedia.org/wiki/FASTQ_format">FASTQ format on wiki</a></li>
