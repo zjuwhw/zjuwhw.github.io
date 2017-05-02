@@ -54,3 +54,8 @@ tags: ["career"]
 - 2017年02月09日，由于陪读，[升级单人保险（single）为两人保险（dual family）](https://future-students.uq.edu.au/files/6432/AllianzOSHCEssentials_2017price.pdf)。
 - 2017年02月12日，提交签证申请。
 - 2017年02月15日，要求补充材料（发表的文章）。
+- 2017年04月04日，下签。
+
+### 正式入学
+
+- 2017年04月12日，正式入学。
