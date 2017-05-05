@@ -119,6 +119,7 @@ permalink: /links/
 - [METAL](http://genome.sph.umich.edu/wiki/METAL_Program)
 - [DEPICT](https://data.broadinstitute.org/mpg/depict/)
 - [Beagle](https://faculty.washington.edu/browning/beagle/beagle.html)
+- [haploview](https://www.broadinstitute.org/haploview/haploview)
 
 **Common Tools**
 

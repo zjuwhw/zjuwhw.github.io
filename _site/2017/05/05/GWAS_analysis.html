@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>zjuwhw&#39;s blog</title>
-  <meta name="description" content="This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
-">
+  <title>GWAS analysis</title>
+  <meta name="description" content="GWAS is a popular method to detect the genetic variants associated with a trait in different individuals.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/page3/">
+  <link rel="canonical" href="http://localhost:4000/2017/05/05/GWAS_analysis.html">
   <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -69,119 +68,43 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">GWAS analysis</h1>
+    <p class="post-meta"><time datetime="2017-05-05T00:00:00+10:00" itemprop="datePublished">May 5, 2017</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jul 7, 2016</span> &raquo; <a class="post-link" href="/2016/07/07/kidney-stones.html">肾结石</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 5, 2016</span> &raquo; <a class="post-link" href="/2016/07/05/http.html">HTTP简介</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 1, 2016</span> &raquo; <a class="post-link" href="/2016/07/01/mongodb.html">mongoDB学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 1, 2016</span> &raquo; <a class="post-link" href="/2016/07/01/html-tag.html">HTML tag</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 30, 2016</span> &raquo; <a class="post-link" href="/2016/06/30/python-modules.html">Python的模块整理</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 29, 2016</span> &raquo; <a class="post-link" href="/2016/06/29/Mac.html">Mac使用</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 7, 2016</span> &raquo; <a class="post-link" href="/2016/06/07/Regex.html">正则表达式</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 7, 2016</span> &raquo; <a class="post-link" href="/2016/06/07/Network.html">网络</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 9, 2016</span> &raquo; <a class="post-link" href="/2016/05/09/Linux.html">Linux学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 8, 2016</span> &raquo; <a class="post-link" href="/2016/05/08/China-doctor.html">中国伤医事件的文献翻译</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2016</span> &raquo; <a class="post-link" href="/2016/05/07/work-title.html">IT行业缩写整理</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2016</span> &raquo; <a class="post-link" href="/2016/05/07/HTML-CSS-notebook.html">HTML&CSS学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 7, 2016</span> &raquo; <a class="post-link" href="/2016/05/07/Coursera-FrontEnd.html">Coursera-Frontend学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 6, 2016</span> &raquo; <a class="post-link" href="/2016/05/06/python-notebook.html">Python学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 4, 2016</span> &raquo; <a class="post-link" href="/2016/05/04/git-notebook.html">Git学习笔记</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 15, 2015</span> &raquo; <a class="post-link" href="/2015/10/15/genome_alteration.html">Genomic Alteration名词解释</a>
-      </li>
-    
-  </ul>
+  <div class="post-content" itemprop="articleBody">
+    <p><a href="https://en.wikipedia.org/wiki/Genome-wide_association_study">GWAS</a> is a popular method to detect the genetic variants associated with a trait in different individuals.</p>
 
+<p>I found a series of four papers written by <a href="http://www.well.ox.ac.uk/home">Wellcome Trust Center for Human Genetics</a> published on <a href="http://www.nature.com/nprot/index.html">Nature Protocol</a>, which is a great resource for beginners (list shown below).</p>
 
-<div class="pagination">
-  
-    <a href="/page2">&laquo; 上一页</a>
-  
+<p>This blog is the notebook for these four paper.</p>
 
-  
-    
-      <a href="/index.html">1</a>
-    
-  
-    
-      <a href="/page2">2</a>
-    
-  
-    
-      <em>3</em>
-    
-  
-    
-      <a href="/page4">4</a>
-    
-  
+<h2 id="study-design">Study design</h2>
 
-  
-    <a href="/page4">下一页 &raquo;</a>
-  
+<ol>
+  <li>phenotype</li>
+  <li>heritability</li>
+  <li>consider the population-based method</li>
+  <li>controls</li>
+  <li>sample size</li>
+  <li>de novo or repliction study</li>
+</ol>
 
-</div>
+<h2 id="paper-list">Paper list</h2>
 
+<ul>
+  <li>Zondervan, K. T., &amp; Cardon, L. R. (2007). <strong>Designing candidate gene and genome-wide case–control association studies.</strong> Nature Protocols, 2(10), 2492–2501. <a href="https://doi.org/10.1038/nprot.2007.366">https://doi.org/10.1038/nprot.2007.366</a></li>
+  <li>Pettersson, F. H., Anderson, C. A., Clarke, G. M., Barrett, J. C., Cardon, L. R., Morris, A. P., &amp; Zondervan, K. T. (2009). <strong>Marker selection for genetic case–control association studies.</strong> Nature Protocols, 4(5), 743–752. <a href="https://doi.org/10.1038/nprot.2009.38">https://doi.org/10.1038/nprot.2009.38</a></li>
+  <li>Anderson, C., Pettersson, F., Clarke, G., Cardon, L., Morris, A., &amp; Zondervan, K. (2010). <strong>Data quality control in genetic case-control association studies.</strong> Nat Protoc., 5(9), 1564–1573. <a href="https://doi.org/10.1038/nprot.2010.116">https://doi.org/10.1038/nprot.2010.116</a></li>
+  <li>Clarke, G. M., Anderson, C. a, Pettersson, F. H., Cardon, L. R., &amp; Andrew, P. (2011). <strong>Basic statistical analysis in genetic case-control studies.</strong> Nature Protocols, 6(2), 121–133. <a href="https://doi.org/10.1038/nprot.2010.182.Basic">https://doi.org/10.1038/nprot.2010.182.Basic</a></li>
+</ul>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </div>
 
-</div>
-
-
-
-<p> Number of visits:&nbsp; &nbsp; 
-<img src="http://hitwebcounter.com/counter/counter.php?page=6444042&style=0001&nbdigits=5&type=page&initCount=0" title="url and counting visits" Alt="url and counting visits"   border="0" >
-</p>     
-
+</article>
 
       </div>
     </div>
