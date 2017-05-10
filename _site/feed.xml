@@ -6,9 +6,233 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 May 2017 20:34:46 +1000</pubDate>
-    <lastBuildDate>Fri, 05 May 2017 20:34:46 +1000</lastBuildDate>
+    <pubDate>Wed, 10 May 2017 11:07:33 +1000</pubDate>
+    <lastBuildDate>Wed, 10 May 2017 11:07:33 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Statistics Mooc</title>
+        <description>&lt;p&gt;This is the notebook for Berkley’s Edx course serise - &lt;a href=&quot;https://www.edx.org/course/introduction-statistics-descriptive-uc-berkeleyx-stat2-1x&quot;&gt;stat2.1&lt;/a&gt;, &lt;a href=&quot;https://www.edx.org/course/introduction-statistics-probability-uc-berkeleyx-stat2-2x&quot;&gt;stat2.2&lt;/a&gt;, &lt;a href=&quot;https://www.edx.org/course/introduction-statistics-inference-uc-berkeleyx-stat2-3x&quot;&gt;stat2.3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#stat21&quot; id=&quot;markdown-toc-stat21&quot;&gt;Stat2.1&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#1-introduction&quot; id=&quot;markdown-toc-1-introduction&quot;&gt;1. Introduction&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#11-why-study-descriptive-statistics&quot; id=&quot;markdown-toc-11-why-study-descriptive-statistics&quot;&gt;1.1 Why study descriptive statistics?&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#12-variables-terminology&quot; id=&quot;markdown-toc-12-variables-terminology&quot;&gt;1.2 Variables terminology&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#13-bar-graphs-describing-categorical-data&quot; id=&quot;markdown-toc-13-bar-graphs-describing-categorical-data&quot;&gt;1.3 Bar graphs: describing categorical data&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#2-the-histogram&quot; id=&quot;markdown-toc-2-the-histogram&quot;&gt;2 The histogram&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#21-describing-one-quantitative-variable&quot; id=&quot;markdown-toc-21-describing-one-quantitative-variable&quot;&gt;2.1 Describing one quantitative variable&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#22-how-to-draw-a-histogram&quot; id=&quot;markdown-toc-22-how-to-draw-a-histogram&quot;&gt;2.2 How to draw a histogram&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#23-units-and-density&quot; id=&quot;markdown-toc-23-units-and-density&quot;&gt;2.3 Units and density&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#24-percentiles-estimaing-from-histogram&quot; id=&quot;markdown-toc-24-percentiles-estimaing-from-histogram&quot;&gt;2.4 Percentiles: estimaing from histogram&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#25-percentiles-more-carefully-from-the-data&quot; id=&quot;markdown-toc-25-percentiles-more-carefully-from-the-data&quot;&gt;2.5 Percentiles: more carefully, from the data&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#3-measures-of-location&quot; id=&quot;markdown-toc-3-measures-of-location&quot;&gt;3 Measures of Location&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#31-the-median-and-the-mode&quot; id=&quot;markdown-toc-31-the-median-and-the-mode&quot;&gt;3.1 The median and the mode&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#32-the-average-calculation-and-basic-properties&quot; id=&quot;markdown-toc-32-the-average-calculation-and-basic-properties&quot;&gt;3.2 The average: calculation and basic properties&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#33-comparing-and-combining-averages&quot; id=&quot;markdown-toc-33-comparing-and-combining-averages&quot;&gt;3.3 Comparing and combining averages&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#34-the-average-and-the-histogram-the-average-and-the-median&quot; id=&quot;markdown-toc-34-the-average-and-the-histogram-the-average-and-the-median&quot;&gt;3.4 The average and the histogram; the average and the median&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#35-markovs-inequality&quot; id=&quot;markdown-toc-35-markovs-inequality&quot;&gt;3.5 Markov’s inequality&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#4-measures-of-spread&quot; id=&quot;markdown-toc-4-measures-of-spread&quot;&gt;4 Measures of spread&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#41-range-and-interquartile-range&quot; id=&quot;markdown-toc-41-range-and-interquartile-range&quot;&gt;4.1 Range and interquartile range&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#42-deviations-from-average-the-standard-deviation-sd&quot; id=&quot;markdown-toc-42-deviations-from-average-the-standard-deviation-sd&quot;&gt;4.2 Deviations from average; the standard deviation (SD)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#43-properties-of-the-sd-chebychevs-inequality&quot; id=&quot;markdown-toc-43-properties-of-the-sd-chebychevs-inequality&quot;&gt;4.3 Properties of the SD; Chebychev’s inequality&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;stat21&quot;&gt;Stat2.1&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h3&gt;
+
+&lt;h4 id=&quot;11-why-study-descriptive-statistics&quot;&gt;1.1 Why study descriptive statistics?&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Statistics: The science f drawing conclusions from data&lt;/li&gt;
+  &lt;li&gt;Descriptive statistics: Describing and summarizing data&lt;/li&gt;
+  &lt;li&gt;Probability: Understanding and quantifying randomness&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Inference: Making conclusions based on data from random samples&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Graphical descriptions –&amp;gt; Numerical summaries; single variable –&amp;gt; relation between two variables&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;12-variables-terminology&quot;&gt;1.2 Variables terminology&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;quantitative variables&lt;/li&gt;
+  &lt;li&gt;contiuous and discrete&lt;/li&gt;
+  &lt;li&gt;categorical and qualitative&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;13-bar-graphs-describing-categorical-data&quot;&gt;1.3 Bar graphs: describing categorical data&lt;/h4&gt;
+
+&lt;h3 id=&quot;2-the-histogram&quot;&gt;2 The histogram&lt;/h3&gt;
+
+&lt;h4 id=&quot;21-describing-one-quantitative-variable&quot;&gt;2.1 Describing one quantitative variable&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stem and leaf plot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;22-how-to-draw-a-histogram&quot;&gt;2.2 How to draw a histogram&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;show the distribution&lt;/li&gt;
+  &lt;li&gt;allows for the bariable to be “binned” into unequal intervals&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;23-units-and-density&quot;&gt;2.3 Units and density&lt;/h4&gt;
+
+&lt;h4 id=&quot;24-percentiles-estimaing-from-histogram&quot;&gt;2.4 Percentiles: estimaing from histogram&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;famous percentiles
+    &lt;ul&gt;
+      &lt;li&gt;25th percentile = lower quartile&lt;/li&gt;
+      &lt;li&gt;50th percentile = median&lt;/li&gt;
+      &lt;li&gt;75th percentile = upper quartile&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;25-percentiles-more-carefully-from-the-data&quot;&gt;2.5 Percentiles: more carefully, from the data&lt;/h4&gt;
+
+&lt;h3 id=&quot;3-measures-of-location&quot;&gt;3 Measures of Location&lt;/h3&gt;
+
+&lt;h4 id=&quot;31-the-median-and-the-mode&quot;&gt;3.1 The median and the mode&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mode: the value that has the highest frequency&lt;/li&gt;
+  &lt;li&gt;Unimodal: one peak&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;32-the-average-calculation-and-basic-properties&quot;&gt;3.2 The average: calculation and basic properties&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;average/mean: add up all the entries in the list, then divide by the number of entries
+    &lt;ul&gt;
+      &lt;li&gt;Units of the average: same as the units of the list&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;33-comparing-and-combining-averages&quot;&gt;3.3 Comparing and combining averages&lt;/h4&gt;
+
+&lt;h4 id=&quot;34-the-average-and-the-histogram-the-average-and-the-median&quot;&gt;3.4 The average and the histogram; the average and the median&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The median is unaffected by outliers&lt;/li&gt;
+  &lt;li&gt;In a right-skewed distribution, the average is greater than the median&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;35-markovs-inequality&quot;&gt;3.5 Markov’s inequality&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Markov’s inequality: If a list has only non-negative entries, then the proportion of entries that are &amp;gt;= k times the average is at most 1/k (k can be any positive number)&lt;/li&gt;
+  &lt;li&gt;For example:
+    &lt;ul&gt;
+      &lt;li&gt;Q: the average age of a group of people is 20 years. What proportion are more than 80 years old?&lt;/li&gt;
+      &lt;li&gt;A: The proportion is &lt;strong&gt;at most&lt;/strong&gt; 1/4 (k=4)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-measures-of-spread&quot;&gt;4 Measures of spread&lt;/h3&gt;
+
+&lt;h4 id=&quot;41-range-and-interquartile-range&quot;&gt;4.1 Range and interquartile range&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;range = maximum - minimum&lt;/li&gt;
+  &lt;li&gt;interquartile range (IQR) = upper quartile - lower quartile&lt;/li&gt;
+  &lt;li&gt;“The IQR of data is 8 years” means “the middle 50% of the data are distributed over 8 years”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;42-deviations-from-average-the-standard-deviation-sd&quot;&gt;4.2 Deviations from average; the standard deviation (SD)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;deviation from average = value - average&lt;/li&gt;
+  &lt;li&gt;standard deviation (SD) = root mean square (r.m.s.) of deviations from average&lt;/li&gt;
+  &lt;li&gt;variance = mean sequare of deviations from average&lt;/li&gt;
+  &lt;li&gt;The average and the SD have the same units&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/SD_formula1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The vexed question of n-1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/SD_formula2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In some situations where you are trying to use the SD of a sample to estimate the SD of the population from which the sample was drawn, then according to some criteria, it might be better to use n-1 instead of n in the denominator.&lt;/p&gt;
+
+&lt;h4 id=&quot;43-properties-of-the-sd-chebychevs-inequality&quot;&gt;4.3 Properties of the SD; Chebychev’s inequality&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pafnuty Lvovich Chebychev (1821-1894)&lt;/li&gt;
+  &lt;li&gt;Chebychev’s inequality: In any list, the proportion of the entries that are k or more SDs away from the average is at most 1/k&lt;sup&gt;2&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Rough statement: No matter what the list, the vast majority of entries will be in the range &lt;strong&gt;average ± a few SDs&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Precise statment: No matter what the list, a proportion of at least 1-1/k&lt;sup&gt;2&lt;/sup&gt; of the entries will be in the range &lt;strong&gt;average ± a few SDs&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 09 May 2017 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2017/05/09/Stats_MOOC.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/09/Stats_MOOC.html</guid>
+        
+        <category>统计</category>
+        
+        <category>mooc</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>PBS</title>
+        <description>&lt;h3 id=&quot;what-is-pbs&quot;&gt;What is PBS?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Portable_Batch_System&quot;&gt;Portable Batch System (PBS)&lt;/a&gt; is the name of computer software that performs job scheduling. It has three versions - OpenPBS, TORQUE, PBS Professional.&lt;/p&gt;
+
+&lt;h3 id=&quot;pbs-commands&quot;&gt;PBS Commands&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pbsnodes&lt;/code&gt;: query PBS host or vnode status or mark hosts free or offline&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qstat&lt;/code&gt;: display status of PBS batch jobs, queues, or servers&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qalter&lt;/code&gt;: alter PBS job&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qdel&lt;/code&gt;: deletes PBS jobs&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qrun&lt;/code&gt;: run a PBS batch job now&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qmove&lt;/code&gt;: move PBS batch job&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qhold&lt;/code&gt;: hold PBS batch jobs&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qrls&lt;/code&gt;: release hold on PBS batch jobs&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qsig&lt;/code&gt;: signal PBS batch job&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qsub&lt;/code&gt;: Submit a job&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tracejob&lt;/code&gt;: Report job history&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;useful-links&quot;&gt;Useful links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.pbsworks.com/pdfs/PBSUserGuide14.2.pdf&quot;&gt;PBS Professional User Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Portable_Batch_System&quot;&gt;PBS wiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://linuxinfo.physik.hu-berlin.de/pbs.html&quot;&gt;PBS Summary web page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 09 May 2017 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2017/05/09/PBS.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/09/PBS.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
     
       <item>
         <title>GWAS analysis</title>
@@ -1834,282 +2058,6 @@ browsers and connected servers. HTTPS is the secure version.&lt;/p&gt;
         <guid isPermaLink="true">http://localhost:4000/2017/01/03/visa-application.html</guid>
         
         <category>career</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>昆士兰大学博士申请</title>
-        <description>&lt;p&gt;这个博客主要是记录一下我澳大利亚&lt;a href=&quot;https://www.uq.edu.au/&quot;&gt;昆士兰大学&lt;/a&gt;PhD项目的申请进度。&lt;/p&gt;
-
-&lt;h3 id=&quot;准备雅思&quot;&gt;准备雅思&lt;/h3&gt;
-&lt;p&gt;考了2次托福&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;时间&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;总分&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;听&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;读&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;写&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;说&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2013年12月&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;54&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;11&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;16&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;14&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;13&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2016年06月&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;83&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;20&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;22&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;24&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;17&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;考了6次雅思，2次复议&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;时间&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;总分&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;听&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;读&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;写&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;说&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;备注&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2014年12月&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2015年09月&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;7&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2016年01月&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6.0&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;复议不变&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2016年02月&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;8&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2016年03月&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;7&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2016年05月&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;8&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.5 –&amp;gt; 6.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;复议提高&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;联系导师&quot;&gt;联系导师&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2015年11月16日，邮件咨询导师&lt;a href=&quot;http://cnsgenomics.com/phd.html&quot;&gt;PhD项目&lt;/a&gt;。&lt;/li&gt;
-  &lt;li&gt;2015年11月26日，导师Skype面试。&lt;/li&gt;
-  &lt;li&gt;2015年12月03日，导师发出formal invitation，开始正式申请。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;网上申请&quot;&gt;网上申请&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2015年12月03日，开始&lt;a href=&quot;https://apply.uq.edu.au/&quot;&gt;网上申请&lt;/a&gt;。&lt;/li&gt;
-  &lt;li&gt;2015年12月18日，提交申请。&lt;/li&gt;
-  &lt;li&gt;2016年01月26日，提交补充材料（硕士学位）。&lt;/li&gt;
-  &lt;li&gt;2016年07月26日，提交补充材料（英语成绩），开始正式审核。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;拿到offer&quot;&gt;拿到offer&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2016年08月12日，通知录取（adminssion）成功。&lt;/li&gt;
-  &lt;li&gt;2016年10月31日，通知奖学金（scholarship）成功。&lt;/li&gt;
-  &lt;li&gt;2016年12月14日，正式收到offer（adminssion and scholarship）。&lt;/li&gt;
-  &lt;li&gt;2017年01月17日，收到eCoE（电子注册确认函）。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;准备签证&quot;&gt;准备签证&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2016年11月14日，&lt;a href=&quot;https://online.immi.gov.au/lusc/login&quot;&gt;移民局网上&lt;/a&gt;注册。&lt;/li&gt;
-  &lt;li&gt;2016年12月15日，申请提前体检（&lt;a href=&quot;http://www.border.gov.au/Trav/Visa/Heal/meeting-the-health-requirement/health-examinations/my-health-declarations&quot;&gt;My Health Declarations&lt;/a&gt;）。&lt;/li&gt;
-  &lt;li&gt;2016年12月19日，体检。&lt;/li&gt;
-  &lt;li&gt;2017年02月09日，由于陪读，&lt;a href=&quot;https://future-students.uq.edu.au/files/6432/AllianzOSHCEssentials_2017price.pdf&quot;&gt;升级单人保险（single）为两人保险（dual family）&lt;/a&gt;。&lt;/li&gt;
-  &lt;li&gt;2017年02月12日，提交签证申请。&lt;/li&gt;
-  &lt;li&gt;2017年02月15日，要求补充材料（发表的文章）。&lt;/li&gt;
-  &lt;li&gt;2017年04月04日，下签。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;正式入学&quot;&gt;正式入学&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2017年04月12日，正式入学。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 18 Dec 2016 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2016/12/18/phd-application.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/12/18/phd-application.html</guid>
-        
-        <category>career</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>软件测试简介</title>
-        <description>&lt;p&gt;注：内容引用和翻译自Paul Ammann和Jeff Offutt的书&lt;a href=&quot;https://book.douban.com/subject/3442101/&quot;&gt;《Introduction to Software Testing》&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;测试工程师的工作&quot;&gt;测试工程师的工作&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A test engineer is an information technology (IT) professional who is in charge of one or more technical test activities, including designing test inputs, producing test case values, running test scripts, analyzing results, and reporting results to developers and managers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;测试工程师：负责一个或者多个测试工作的IT专业人员。&lt;/li&gt;
-  &lt;li&gt;测试工程师的工作：设计测试输入（test inputs），给出测试用例结果（test case values），运行测试脚本，分析测试结果，并向开发和经理进行汇报。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A test manager is in charge of one or more test engineers. Test managers set test policies and processes, interact with other managers on the project, and otherwise help the engineers do their work.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;测试经理：负责一个或者多个测试工程师。&lt;/li&gt;
-  &lt;li&gt;测试经理的工作：设定测试规则和流程，与项目的其他经理交流，帮助测试工程师工作的进行。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;测试分类---基于软件&quot;&gt;测试分类 - 基于软件&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/software_testing_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;验收测试acceptance-test---需求分析requirements-analysis&quot;&gt;验收测试（Acceptance Test） - 需求分析（requirements analysis）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The requirements analysis phase of software development captures the customer’s needs. Acceptance testing is designed to determine whether the completed software in fact meets these needs. In other words, acceptance testing probes whether the software does what the users want. Acceptance testing must involve users or other individuals who have strong domain knowledge.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;软件开发的&lt;strong&gt;需求分析阶段&lt;/strong&gt;需要掌握用户的需求。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;验收测试&lt;/strong&gt;就是用来检验完成的软件是否真正地满足了用户的这些需求。即验收测试用来探究软件所做的是否是用户想要的。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;验收测试&lt;/strong&gt;必须有&lt;strong&gt;用户或者有很强相关领域背景知识的人&lt;/strong&gt;参与。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;系统测试system-test---架构设计architectural-design&quot;&gt;系统测试（System Test） - 架构设计（Architectural Design）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The architectural design phase of software development chooses components and connectors that together realize a system whose specification is intended to meet the previously identified requirements. System testing is designed to determine whether the assembled system meets its specifications. It assumes that the pieces work individually, and asks if the system works as a whole. This level of testing usually looks for design and specification problems. It is a very expensive place to find lower-level faults and is usually not done by the programmers, but by a separate testing team.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;软件开发的&lt;strong&gt;架构设计阶段&lt;/strong&gt;需要选择用于实现满足客户需求的系统的组件和连接器（components and connectors）&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;系统测试&lt;/strong&gt;用来检验搭建的系统是否满足要求。我们会假设系统的每一块都都可以独立工作，然后去确定整个系统作为一个整体是否正常工作。&lt;/li&gt;
-  &lt;li&gt;这个阶段的测试经常可以发现设计和要求上的问题。在这个阶段发现底层错误（lower-level faults）是非常昂贵的。&lt;strong&gt;系统测试&lt;/strong&gt;经常不由开发人员进行，而是一个&lt;strong&gt;独立的测试团队&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;集成测试integration-test---子系统设计subsystem-design&quot;&gt;集成测试（Integration Test） - 子系统设计（Subsystem Design）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The subsystem design phase of software development specifies the structure and behavior of subsystems, each of which is intended to satisfy some function in the overall architecture. Often, the subsystems are adaptations of previously developed software. Integration testing is designed to assess whether the interfaces between modules (defined below) in a given subsystem have consistent assumptions and communicate correctly. Integration testing must assume that modules work correctly. Some testing literature uses the terms integration testing and system testing interchangeably; in this book, integration testing does not refer to testing the integrated system or subsystem. Integration testing is usually the responsibility of members of the development team.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;软件开发的&lt;strong&gt;子系统设计&lt;/strong&gt;阶段需要确定子系统的结构和行为，每个子系统都是用来满足整体架构的某些功能。子系统经常是基于已开发软件的应用。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;集成测试&lt;/strong&gt;用来检测在子系统中各个模块是否有一致的前提条件并且交互正确。集成测试必须假设各个模块都工作正确。一些测试书籍中集成测试和系统测试表达意思类似，但是本书中，集成测试不是指测试集成系统或者子系统。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;集成测试&lt;/strong&gt;经常是&lt;strong&gt;开发团队&lt;/strong&gt;的责任。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;模块测试module-test--细节设计detailed-design&quot;&gt;模块测试（Module Test）- 细节设计（Detailed Design）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The detailed design phase of software development determines the structure and behavior of individual modules. A program unit, or procedure, is one or more contiguous program statements, with a name that other parts of the software use to call it. Units are called functions in C and C++, procedures or functions in Ada, methods in Java, and subroutines in Fortran. A module is a collection of related units that are assembled in a file, package, or class. This corresponds to a file in C, a package in Ada, and a class in C++ and Java. Module testing is designed to assess individual modules in isolation, including how the component units interact with each other and their associated data structures. Most software development organizations make module testing the responsibility of the programmer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;软件开发的&lt;strong&gt;细节设计&lt;/strong&gt;阶段需要确定每个模块的结构和行为。&lt;/li&gt;
-  &lt;li&gt;一个项目单元或者程序有一个或者多个相邻的语句（statements），然后还有一个名字（name）以让软件的其他部门可以调用（call）。&lt;strong&gt;单元（Units）&lt;/strong&gt;在C和C++中叫做函数（function），在Ada中叫做procedures or functions，在Java中叫做方法（methods），在Fortran中叫做subroutines。而一个&lt;strong&gt;模块（Module）&lt;/strong&gt;是整个在一个文件（file）、包（package）或者类（class）中的相关单元的集合。其对应C语言中的一个文件，Ada中的一个包，C++和Java中的一个类。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;模块测试&lt;/strong&gt;用来在隔离状态下检测每个模块，包括每个组成模块之间的交互和他们相关的数据结构（data structures）。&lt;/li&gt;
-  &lt;li&gt;在大多数的软件开发组织，&lt;strong&gt;模块测试&lt;/strong&gt;是&lt;strong&gt;开发者&lt;/strong&gt;的责任。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;单元测试unit-test---实现implementation&quot;&gt;单元测试（Unit Test） - 实现（Implementation）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Implementation is the phase of software development that actually produces code. Unit testing is designed to assess the units produced by the implementation phase and is the “lowest” level of testing. In some cases, such as when building general-purpose library modules, unit testing is done without knowledge of the encapsulating software application. As with module testing, most software development organizations make unit testing the responsibility of the programmer. It is straightforward to package unit tests together with the corresponding code through the use of tools such as JUnit for Java classes.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;软件开发的&lt;strong&gt;实现阶段&lt;/strong&gt;就是要实实在在的写代码。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;单元测试&lt;/strong&gt;用来检测每个单元，是最底层的测试。在某些情况，创建一般用途的模块，单元测试可以在不了解软件整体应用的前提下执行。&lt;/li&gt;
-  &lt;li&gt;和模块测试一样，在大多数的软件开发组织中，&lt;strong&gt;单元测试&lt;/strong&gt;是&lt;strong&gt;开发者&lt;/strong&gt;的责任。通过工具（例如用于Java类的JUnit）将单元测试与相关代码直接打包。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;回归测试regression-testing&quot;&gt;回归测试（regression testing）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Not shown in Figure 1.2 is regression testing, a standard part of the maintenance phase of software development. Regression testing is testing that is done after changes are made to the software, and its purpose is to help ensure that the updated software still possesses the functionality it had before the updates&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;图中没有包含回归测试，他是软件开发的&lt;strong&gt;维护阶段&lt;/strong&gt;的标准部分。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;回归测试&lt;/strong&gt;需要在软件发生任何变动后进行，目的是用来帮助保证更新的软件在依然可以执行它更新前的功能。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;测试分类---基于测试成熟度beizer的&quot;&gt;测试分类 - 基于测试成熟度（Beizer的）&lt;/h2&gt;
-
-&lt;h2 id=&quot;测试自动化&quot;&gt;测试自动化&lt;/h2&gt;
-</description>
-        <pubDate>Sun, 11 Dec 2016 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2016/12/11/Software_testing.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/12/11/Software_testing.html</guid>
-        
-        <category>cs</category>
         
         
       </item>
