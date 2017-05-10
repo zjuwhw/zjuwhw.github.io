@@ -187,7 +187,7 @@ Percentiles:
 5th percentile: z=-1.65, roughly
 ```
 
-#### Normal curves: relation to the standard normal
+#### 5.2 Normal curves: relation to the standard normal
 
 - The normal curve withe mean μ and SD σ
 
@@ -209,6 +209,60 @@ what percent are between -1.33 and 0?
 The applet says the area is 40.82%.
 In R, the expression is "pnorm(0) - pnorm(-1.33)"
 ```
+
+#### 5.3 Approximating data histograms; percentiles revisited
+
+#### 5.4 Not all histograms are bell shaped; Chebychev revisited
+
+### 6 Relation between two variables
+
+#### 6.1 Scatter diagrams
+
+- univariate data: histogram
+- bivariate data: scatter diagram
+- association: any relation between variables
+- positive association
+- negative association
+- linear association
+
+#### 6.2 The correlation coefficient: calculation and properties
+
+- correlation coefficient (r): a number between -1 and 1; it measures linear association, that is, how tightly the points are clustered about a straight line
+
+![](/images/correlation_coefficent.png)
+
+- r is a pure number with no units
+- -1 <= r <= 1
+- It doesn't matter if you switch the variables x and y; r stays the same
+- Adding a constant to one of the lists, r stays the same
+- Multiplying one the lists by a positve constant, r stays the same
+- Multiplying just one (not both) of the list by a negative constant, r changes to -r 
+
+#### 6.3 Using r: with cation
+
+- Association is not causation
+- r measures linear association
+- correlated: **linearly** related
+- Even one outlier can have a noticeable effect on r
+
+
+### 7 Regression
+
+#### 7.1 Estimation; bivariate normal ("football shaped") scatter diagrams
+
+#### 7.2 Regression line: intuition; the equation in standard units; regression estimates
+
+#### 7.3 Regression effect, Galton, and the regression fallacy
+
+#### 7.4 Equation of the regression line
+
+### 8 Error in the regression estimate
+
+#### 8.1 Least squares: why the regression line and no other
+
+#### 8.2 The r.m.s error of regression; calculations assuming bivariate normal scatter
+
+#### 8.3 How regression is commonly used; estimating an "unknown true line"
 
 ## Appendix: The Greek Symbols
 

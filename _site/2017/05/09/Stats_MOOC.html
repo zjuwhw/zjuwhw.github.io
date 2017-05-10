@@ -111,7 +111,28 @@
       </li>
       <li><a href="#5-the-normal-curve" id="markdown-toc-5-the-normal-curve">5 The normal curve</a>        <ul>
           <li><a href="#51-bell-shaped-curves-the-standard-normal-curve" id="markdown-toc-51-bell-shaped-curves-the-standard-normal-curve">5.1 Bell shaped curves; the standard normal curve</a></li>
-          <li><a href="#normal-curves-relation-to-the-standard-normal" id="markdown-toc-normal-curves-relation-to-the-standard-normal">Normal curves: relation to the standard normal</a></li>
+          <li><a href="#52-normal-curves-relation-to-the-standard-normal" id="markdown-toc-52-normal-curves-relation-to-the-standard-normal">5.2 Normal curves: relation to the standard normal</a></li>
+          <li><a href="#53-approximating-data-histograms-percentiles-revisited" id="markdown-toc-53-approximating-data-histograms-percentiles-revisited">5.3 Approximating data histograms; percentiles revisited</a></li>
+          <li><a href="#54-not-all-histograms-are-bell-shaped-chebychev-revisited" id="markdown-toc-54-not-all-histograms-are-bell-shaped-chebychev-revisited">5.4 Not all histograms are bell shaped; Chebychev revisited</a></li>
+        </ul>
+      </li>
+      <li><a href="#6-relation-between-two-variables" id="markdown-toc-6-relation-between-two-variables">6 Relation between two variables</a>        <ul>
+          <li><a href="#61-scatter-diagrams" id="markdown-toc-61-scatter-diagrams">6.1 Scatter diagrams</a></li>
+          <li><a href="#62-the-correlation-coefficient-calculation-and-properties" id="markdown-toc-62-the-correlation-coefficient-calculation-and-properties">6.2 The correlation coefficient: calculation and properties</a></li>
+          <li><a href="#63-using-r-with-cation" id="markdown-toc-63-using-r-with-cation">6.3 Using r: with cation</a></li>
+        </ul>
+      </li>
+      <li><a href="#7-regression" id="markdown-toc-7-regression">7 Regression</a>        <ul>
+          <li><a href="#71-estimation-bivariate-normal-football-shaped-scatter-diagrams" id="markdown-toc-71-estimation-bivariate-normal-football-shaped-scatter-diagrams">7.1 Estimation; bivariate normal (“football shaped”) scatter diagrams</a></li>
+          <li><a href="#72-regression-line-intuition-the-equation-in-standard-units-regression-estimates" id="markdown-toc-72-regression-line-intuition-the-equation-in-standard-units-regression-estimates">7.2 Regression line: intuition; the equation in standard units; regression estimates</a></li>
+          <li><a href="#73-regression-effect-galton-and-the-regression-fallacy" id="markdown-toc-73-regression-effect-galton-and-the-regression-fallacy">7.3 Regression effect, Galton, and the regression fallacy</a></li>
+          <li><a href="#74-equation-of-the-regression-line" id="markdown-toc-74-equation-of-the-regression-line">7.4 Equation of the regression line</a></li>
+        </ul>
+      </li>
+      <li><a href="#8-error-in-the-regression-estimate" id="markdown-toc-8-error-in-the-regression-estimate">8 Error in the regression estimate</a>        <ul>
+          <li><a href="#81-least-squares-why-the-regression-line-and-no-other" id="markdown-toc-81-least-squares-why-the-regression-line-and-no-other">8.1 Least squares: why the regression line and no other</a></li>
+          <li><a href="#82-the-rms-error-of-regression-calculations-assuming-bivariate-normal-scatter" id="markdown-toc-82-the-rms-error-of-regression-calculations-assuming-bivariate-normal-scatter">8.2 The r.m.s error of regression; calculations assuming bivariate normal scatter</a></li>
+          <li><a href="#83-how-regression-is-commonly-used-estimating-an-unknown-true-line" id="markdown-toc-83-how-regression-is-commonly-used-estimating-an-unknown-true-line">8.3 How regression is commonly used; estimating an “unknown true line”</a></li>
         </ul>
       </li>
     </ul>
@@ -370,7 +391,7 @@ Percentiles:
 </code></pre>
 </div>
 
-<h4 id="normal-curves-relation-to-the-standard-normal">Normal curves: relation to the standard normal</h4>
+<h4 id="52-normal-curves-relation-to-the-standard-normal">5.2 Normal curves: relation to the standard normal</h4>
 
 <ul>
   <li>The normal curve withe mean μ and SD σ</li>
@@ -396,6 +417,67 @@ The applet says the area is 40.82%.
 In R, the expression is "pnorm(0) - pnorm(-1.33)"
 </code></pre>
 </div>
+
+<h4 id="53-approximating-data-histograms-percentiles-revisited">5.3 Approximating data histograms; percentiles revisited</h4>
+
+<h4 id="54-not-all-histograms-are-bell-shaped-chebychev-revisited">5.4 Not all histograms are bell shaped; Chebychev revisited</h4>
+
+<h3 id="6-relation-between-two-variables">6 Relation between two variables</h3>
+
+<h4 id="61-scatter-diagrams">6.1 Scatter diagrams</h4>
+
+<ul>
+  <li>univariate data: histogram</li>
+  <li>bivariate data: scatter diagram</li>
+  <li>association: any relation between variables</li>
+  <li>positive association</li>
+  <li>negative association</li>
+  <li>linear association</li>
+</ul>
+
+<h4 id="62-the-correlation-coefficient-calculation-and-properties">6.2 The correlation coefficient: calculation and properties</h4>
+
+<ul>
+  <li>correlation coefficient (r): a number between -1 and 1; it measures linear association, that is, how tightly the points are clustered about a straight line</li>
+</ul>
+
+<p><img src="/images/correlation_coefficent.png" alt="" /></p>
+
+<ul>
+  <li>r is a pure number with no units</li>
+  <li>-1 &lt;= r &lt;= 1</li>
+  <li>It doesn’t matter if you switch the variables x and y; r stays the same</li>
+  <li>Adding a constant to one of the lists, r stays the same</li>
+  <li>Multiplying one the lists by a positve constant, r stays the same</li>
+  <li>Multiplying just one (not both) of the list by a negative constant, r changes to -r</li>
+</ul>
+
+<h4 id="63-using-r-with-cation">6.3 Using r: with cation</h4>
+
+<ul>
+  <li>Association is not causation</li>
+  <li>r measures linear association</li>
+  <li>correlated: <strong>linearly</strong> related</li>
+  <li>Even one outlier can have a noticeable effect on r</li>
+</ul>
+
+<h3 id="7-regression">7 Regression</h3>
+
+<h4 id="71-estimation-bivariate-normal-football-shaped-scatter-diagrams">7.1 Estimation; bivariate normal (“football shaped”) scatter diagrams</h4>
+
+<h4 id="72-regression-line-intuition-the-equation-in-standard-units-regression-estimates">7.2 Regression line: intuition; the equation in standard units; regression estimates</h4>
+
+<h4 id="73-regression-effect-galton-and-the-regression-fallacy">7.3 Regression effect, Galton, and the regression fallacy</h4>
+
+<h4 id="74-equation-of-the-regression-line">7.4 Equation of the regression line</h4>
+
+<h3 id="8-error-in-the-regression-estimate">8 Error in the regression estimate</h3>
+
+<h4 id="81-least-squares-why-the-regression-line-and-no-other">8.1 Least squares: why the regression line and no other</h4>
+
+<h4 id="82-the-rms-error-of-regression-calculations-assuming-bivariate-normal-scatter">8.2 The r.m.s error of regression; calculations assuming bivariate normal scatter</h4>
+
+<h4 id="83-how-regression-is-commonly-used-estimating-an-unknown-true-line">8.3 How regression is commonly used; estimating an “unknown true line”</h4>
 
 <h2 id="appendix-the-greek-symbols">Appendix: The Greek Symbols</h2>
 
