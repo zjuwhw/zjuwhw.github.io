@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 May 2017 11:07:33 +1000</pubDate>
-    <lastBuildDate>Wed, 10 May 2017 11:07:33 +1000</lastBuildDate>
+    <pubDate>Wed, 10 May 2017 16:03:09 +1000</pubDate>
+    <lastBuildDate>Wed, 10 May 2017 16:03:09 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -42,10 +42,17 @@
           &lt;li&gt;&lt;a href=&quot;#41-range-and-interquartile-range&quot; id=&quot;markdown-toc-41-range-and-interquartile-range&quot;&gt;4.1 Range and interquartile range&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#42-deviations-from-average-the-standard-deviation-sd&quot; id=&quot;markdown-toc-42-deviations-from-average-the-standard-deviation-sd&quot;&gt;4.2 Deviations from average; the standard deviation (SD)&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#43-properties-of-the-sd-chebychevs-inequality&quot; id=&quot;markdown-toc-43-properties-of-the-sd-chebychevs-inequality&quot;&gt;4.3 Properties of the SD; Chebychev’s inequality&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#44-changing-units-of-measurement-standard-units&quot; id=&quot;markdown-toc-44-changing-units-of-measurement-standard-units&quot;&gt;4.4 Changing units of measurement; standard units&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#5-the-normal-curve&quot; id=&quot;markdown-toc-5-the-normal-curve&quot;&gt;5 The normal curve&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#51-bell-shaped-curves-the-standard-normal-curve&quot; id=&quot;markdown-toc-51-bell-shaped-curves-the-standard-normal-curve&quot;&gt;5.1 Bell shaped curves; the standard normal curve&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#normal-curves-relation-to-the-standard-normal&quot; id=&quot;markdown-toc-normal-curves-relation-to-the-standard-normal&quot;&gt;Normal curves: relation to the standard normal&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#appendix-the-greek-symbols&quot; id=&quot;markdown-toc-appendix-the-greek-symbols&quot;&gt;Appendix: The Greek Symbols&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;stat21&quot;&gt;Stat2.1&lt;/h2&gt;
@@ -179,10 +186,156 @@
 &lt;ul&gt;
   &lt;li&gt;Pafnuty Lvovich Chebychev (1821-1894)&lt;/li&gt;
   &lt;li&gt;Chebychev’s inequality: In any list, the proportion of the entries that are k or more SDs away from the average is at most 1/k&lt;sup&gt;2&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Rough statement: No matter what the list, the vast majority of entries will be in the range &lt;strong&gt;average ± a few SDs&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Precise statment: No matter what the list, a proportion of at least 1-1/k&lt;sup&gt;2&lt;/sup&gt; of the entries will be in the range &lt;strong&gt;average ± a few SDs&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rough statement&lt;/strong&gt;: No matter what the list, the vast majority of entries will be in the range &lt;strong&gt;average ± a few SDs&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Precise statment&lt;/strong&gt;: No matter what the list, a proportion of at least 1-1/k&lt;sup&gt;2&lt;/sup&gt; of the entries will be in the range &lt;strong&gt;average ± a few SDs&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Typical use
+
+Age: average 20 years, SD 5 years.
+What percent are more than 80 years old?
+
+Markov's bound:
+at most 25% (1/k, k = 80/20 = 4)
+
+Chebychev's bound: 
+at most 0.7% (1/k^2, k=(80-20)/5 = 12)
+
+In conclusion, both bounds are correct.
+But Chebychev's bound is much sharper.
+Because it uses the SD, not just the average.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;44-changing-units-of-measurement-standard-units&quot;&gt;4.4 Changing units of measurement; standard units&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mechanics of changing units
+    &lt;ul&gt;
+      &lt;li&gt;Multiplying by a constant, e.g. centimeters = 2.54 * inches&lt;/li&gt;
+      &lt;li&gt;Mutliplying by a constant, then adding a constant, e.g. ◦F = (9/5)◦C + 32&lt;/li&gt;
+      &lt;li&gt;Can also first add a constant, then mulitple by a constant, e.g. new variable = (old variable + b) * a&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Adding a constant
+    &lt;ul&gt;
+      &lt;li&gt;new average = old everage + constant&lt;/li&gt;
+      &lt;li&gt;new SD = old SD&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Multiplying by a constant
+    &lt;ul&gt;
+      &lt;li&gt;new average = old average * constant&lt;/li&gt;
+      &lt;li&gt;
+        &lt;table&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;new SD = old SD *&lt;/td&gt;
+              &lt;td&gt;constant&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Linear transformations: new list = a * (old list) + b
+    &lt;ul&gt;
+      &lt;li&gt;new average = a * (old average) + b&lt;/li&gt;
+      &lt;li&gt;
+        &lt;table&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;new SD =&lt;/td&gt;
+              &lt;td&gt;a&lt;/td&gt;
+              &lt;td&gt;* (old SD)&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Standard units: the z-score
+    &lt;ul&gt;
+      &lt;li&gt;z = (x - average)/SD&lt;/li&gt;
+      &lt;li&gt;x = z * SD + average&lt;/li&gt;
+      &lt;li&gt;z measures “how many SDs above average”&lt;/li&gt;
+      &lt;li&gt;the average of any list in standard units is 0&lt;/li&gt;
+      &lt;li&gt;the SD of any list in standard units is 1&lt;/li&gt;
+      &lt;li&gt;the vast majority (at least 8/9) of any list in standard units will be in the range -3 to 3&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-the-normal-curve&quot;&gt;5 The normal curve&lt;/h3&gt;
+
+&lt;h4 id=&quot;51-bell-shaped-curves-the-standard-normal-curve&quot;&gt;5.1 Bell shaped curves; the standard normal curve&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A bell shaped distribution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Bell_shaped.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The standard normal curve&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/standard_normal_curve.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/standard_normal_curve_density.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Useful to remember
+
+total area = 1
+balance point: z=0
+points of inflection: z=-1, z=1
+
+Central areas:
+between z=-1 and z=1: about 68%
+between z=-2 and z=2: about 95%
+
+Tail areas:
+to the left of -1: about 16%
+to the right of 1: about 16%
+to the left of -2: about 2.5%
+to the right of 2: about 2.5%
+
+Percentiles:
+95th percentils: z=1.65, roughly
+5th percentile: z=-1.65, roughly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;normal-curves-relation-to-the-standard-normal&quot;&gt;Normal curves: relation to the standard normal&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The normal curve withe mean μ and SD σ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/normal_curve_density.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Finding a percent under a normal curve&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;For a list with average 67 and SD 3,
+what percent are between 63 and 67?
+
+(63-67)/3 = -1.33 standard units
+67 = 0 standard units
+
+So, the question becomes:
+Under standard normal curve,
+what percent are between -1.33 and 0?
+
+The applet says the area is 40.82%.
+In R, the expression is &quot;pnorm(0) - pnorm(-1.33)&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;appendix-the-greek-symbols&quot;&gt;Appendix: The Greek Symbols&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Greek_Symbol.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 May 2017 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2017/05/09/Stats_MOOC.html</link>
