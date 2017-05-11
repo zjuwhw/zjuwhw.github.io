@@ -110,7 +110,8 @@ permalink: /links/
 
 **GWAS**
 
-- [PLINK](http://zzz.bwh.harvard.edu/plink/)
+- [PLINK (v1.07)](http://zzz.bwh.harvard.edu/plink/)
+- [PLINK2 (v1.9 beta)](https://www.cog-genomics.org/plink2)
 - [GCTA](http://cnsgenomics.com/software/gcta/)
 - [SMR](http://cnsgenomics.com/software/smr/index.html)
 - [GSMR](http://cnsgenomics.com/software/gsmr/gsmr.html)
@@ -252,11 +253,11 @@ permalink: /links/
 
 ### Project
 
+- [HapMap](http://hapmap.ncbi.nlm.nih.gov/)
 - [ENCODE](http://genome.ucsc.edu/ENCODE/)
 - [TCGA](http://cancergenome.nih.gov/)
-- [1000 Genomes](http://www.1000genomes.org/)
-- [HapMap](http://hapmap.ncbi.nlm.nih.gov/)
 - [RoadMap Epigenomics Project](http://www.roadmapepigenomics.org/)
+- [1000 Genomes](http://www.1000genomes.org/)
 - [TARGET](http://target.nci.nih.gov/dataMatrix/)
 - [GTEx](http://www.gtexportal.org/home/): Genotype-Tissue Expression
 - [Fantom5](http://fantom.gsc.riken.jp/5/)
@@ -264,6 +265,8 @@ permalink: /links/
 - [HMP](http://hmpdacc.org/)
 - [The Wellcome Trust UK10K project](http://www.uk10k.org/)
 - [Exac](http://exac.broadinstitute.org/): Exome Aggregation Consortium
+
+![](/images/timeline_project.jpg)
 
 ### Funding
 
