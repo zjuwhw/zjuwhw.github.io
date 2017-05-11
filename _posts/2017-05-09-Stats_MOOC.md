@@ -264,6 +264,18 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 
 #### 8.3 How regression is commonly used; estimating an "unknown true line"
 
-## Appendix: The Greek Symbols
+## Appendix
+
+### Appendix 1 : The Greek Symbols
 
 ![](/images/Greek_Symbol.png)
+
+source: [https://zh.wikipedia.org/wiki/%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D](https://zh.wikipedia.org/wiki/%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D)
+
+### Appendix 2 : Common Distribution
+
+![](/images/common_distribution_1.png)
+
+![](/images/common_distribution_2.png)
+
+source: [http://www.stat.tamu.edu/~twehrly/611/distab.pdf](http://www.stat.tamu.edu/~twehrly/611/distab.pdf)
