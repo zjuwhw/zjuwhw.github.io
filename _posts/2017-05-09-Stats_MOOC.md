@@ -11,7 +11,7 @@ This is the notebook for Berkley's Edx course serise - [stat2.1](https://www.edx
 {:toc}
 
 
-## Stat2.1
+## Stat2.1 Descriptive Statistics
 
 ### 1. Introduction
 
@@ -245,24 +245,77 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 - correlated: **linearly** related
 - Even one outlier can have a noticeable effect on r
 
-
 ### 7 Regression
 
 #### 7.1 Estimation; bivariate normal ("football shaped") scatter diagrams
 
+- Estimation: one variable, pick one value to estimate.
+	- natural estimate: the average
+	- math fact: The r.m.s. of the errors will be smallest if you choose estimator = average.
+	- average: least squares estimate
+- Estimation: two variables, given the value of one variable, estimate the value of the other
+	- If the scater diagram is roughly football shaped, you can assume:
+		- the distributions of both the variables are roughly normal
+		- the distribution of values in each vertical and horizontal strip is roughly normal
+
 #### 7.2 Regression line: intuition; the equation in standard units; regression estimates
+
+- estimate of y (in standard units) = r * x (in standard units), r is the correlation coefficient
 
 #### 7.3 Regression effect, Galton, and the regression fallacy
 
 #### 7.4 Equation of the regression line
 
+- the equation in three ways
+
+![](/images/regression_equation.png)
+
 ### 8 Error in the regression estimate
 
 #### 8.1 Least squares: why the regression line and no other
 
+- How much error?
+	- error = vertical distance between the point and the line, for every point in the scatter diagram
+	- rough size of error = r.m.s of errors
+- regreesion line: least squares line
+
 #### 8.2 The r.m.s error of regression; calculations assuming bivariate normal scatter
 
+- r.m.s. error of regression = r.m.s. of residuals = sqrt(1-r<sup>2</sup>) * SD of y
+	- r = 1 or -1: r.m.s. error of regression = 0, which says, scatter is a perfect straight line; regression makes no error.
+	- r = 0: r.m.s. error of regression = SD of y, which says, no linear association; regression is the same as using the average.
+	- All other r: Regression is not perfect, but better than using the average.
+	
+|one variable|two variables|
+|:--|:--|
+|normal curve|football shaped scatter diagram|
+|average|regression line|
+|SD|r.m.s. error of regression|
+
+- Some useful analogies
+	- For about 68% of the points, the regression estimate of correct to within 1 r.m.s. error.
+	- For about 95% of the points, the regression estimate is correct to within 2 r.m.s. errors.
+- Residual plot
+	- the average of the residuals is always 0
+	- there is no linear association between the residuals and x
+	- the residual plot cannot show any trend or linear relation
+	- Good regression: residual plot looks like a formless blob around the horizontal axis
+
 #### 8.3 How regression is commonly used; estimating an "unknown true line"
+
+## Stat2.2 Probability
+
+### 1 the two fundamental rules
+
+### 2 Random sampling with and without replacement
+
+### 3 the law of averages and expected values
+
+### 4 the central limit theorem
+
+### 5 the accuracy of simple random samples
+
+
 
 ## Appendix
 

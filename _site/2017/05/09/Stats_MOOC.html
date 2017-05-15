@@ -79,7 +79,7 @@
     <p>This is the notebook for Berkley’s Edx course serise - <a href="https://www.edx.org/course/introduction-statistics-descriptive-uc-berkeleyx-stat2-1x">stat2.1</a>, <a href="https://www.edx.org/course/introduction-statistics-probability-uc-berkeleyx-stat2-2x">stat2.2</a>, <a href="https://www.edx.org/course/introduction-statistics-inference-uc-berkeleyx-stat2-3x">stat2.3</a>.</p>
 
 <ul id="markdown-toc">
-  <li><a href="#stat21" id="markdown-toc-stat21">Stat2.1</a>    <ul>
+  <li><a href="#stat21-descriptive-statistics" id="markdown-toc-stat21-descriptive-statistics">Stat2.1 Descriptive Statistics</a>    <ul>
       <li><a href="#1-introduction" id="markdown-toc-1-introduction">1. Introduction</a>        <ul>
           <li><a href="#11-why-study-descriptive-statistics" id="markdown-toc-11-why-study-descriptive-statistics">1.1 Why study descriptive statistics?</a></li>
           <li><a href="#12-variables-terminology" id="markdown-toc-12-variables-terminology">1.2 Variables terminology</a></li>
@@ -137,6 +137,14 @@
       </li>
     </ul>
   </li>
+  <li><a href="#stat22-probability" id="markdown-toc-stat22-probability">Stat2.2 Probability</a>    <ul>
+      <li><a href="#1-the-two-fundamental-rules" id="markdown-toc-1-the-two-fundamental-rules">1 the two fundamental rules</a></li>
+      <li><a href="#2-random-sampling-with-and-without-replacement" id="markdown-toc-2-random-sampling-with-and-without-replacement">2 Random sampling with and without replacement</a></li>
+      <li><a href="#3-the-law-of-averages-and-expected-values" id="markdown-toc-3-the-law-of-averages-and-expected-values">3 the law of averages and expected values</a></li>
+      <li><a href="#4-the-central-limit-theorem" id="markdown-toc-4-the-central-limit-theorem">4 the central limit theorem</a></li>
+      <li><a href="#5-the-accuracy-of-simple-random-samples" id="markdown-toc-5-the-accuracy-of-simple-random-samples">5 the accuracy of simple random samples</a></li>
+    </ul>
+  </li>
   <li><a href="#appendix" id="markdown-toc-appendix">Appendix</a>    <ul>
       <li><a href="#appendix-1--the-greek-symbols" id="markdown-toc-appendix-1--the-greek-symbols">Appendix 1 : The Greek Symbols</a></li>
       <li><a href="#appendix-2--common-distribution" id="markdown-toc-appendix-2--common-distribution">Appendix 2 : Common Distribution</a></li>
@@ -144,7 +152,7 @@
   </li>
 </ul>
 
-<h2 id="stat21">Stat2.1</h2>
+<h2 id="stat21-descriptive-statistics">Stat2.1 Descriptive Statistics</h2>
 
 <h3 id="1-introduction">1. Introduction</h3>
 
@@ -469,19 +477,121 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 
 <h4 id="71-estimation-bivariate-normal-football-shaped-scatter-diagrams">7.1 Estimation; bivariate normal (“football shaped”) scatter diagrams</h4>
 
+<ul>
+  <li>Estimation: one variable, pick one value to estimate.
+    <ul>
+      <li>natural estimate: the average</li>
+      <li>math fact: The r.m.s. of the errors will be smallest if you choose estimator = average.</li>
+      <li>average: least squares estimate</li>
+    </ul>
+  </li>
+  <li>Estimation: two variables, given the value of one variable, estimate the value of the other
+    <ul>
+      <li>If the scater diagram is roughly football shaped, you can assume:
+        <ul>
+          <li>the distributions of both the variables are roughly normal</li>
+          <li>the distribution of values in each vertical and horizontal strip is roughly normal</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 <h4 id="72-regression-line-intuition-the-equation-in-standard-units-regression-estimates">7.2 Regression line: intuition; the equation in standard units; regression estimates</h4>
+
+<ul>
+  <li>estimate of y (in standard units) = r * x (in standard units), r is the correlation coefficient</li>
+</ul>
 
 <h4 id="73-regression-effect-galton-and-the-regression-fallacy">7.3 Regression effect, Galton, and the regression fallacy</h4>
 
 <h4 id="74-equation-of-the-regression-line">7.4 Equation of the regression line</h4>
 
+<ul>
+  <li>the equation in three ways</li>
+</ul>
+
+<p><img src="/images/regression_equation.png" alt="" /></p>
+
 <h3 id="8-error-in-the-regression-estimate">8 Error in the regression estimate</h3>
 
 <h4 id="81-least-squares-why-the-regression-line-and-no-other">8.1 Least squares: why the regression line and no other</h4>
 
+<ul>
+  <li>How much error?
+    <ul>
+      <li>error = vertical distance between the point and the line, for every point in the scatter diagram</li>
+      <li>rough size of error = r.m.s of errors</li>
+    </ul>
+  </li>
+  <li>regreesion line: least squares line</li>
+</ul>
+
 <h4 id="82-the-rms-error-of-regression-calculations-assuming-bivariate-normal-scatter">8.2 The r.m.s error of regression; calculations assuming bivariate normal scatter</h4>
 
+<ul>
+  <li>r.m.s. error of regression = r.m.s. of residuals = sqrt(1-r<sup>2</sup>) * SD of y
+    <ul>
+      <li>r = 1 or -1: r.m.s. error of regression = 0, which says, scatter is a perfect straight line; regression makes no error.</li>
+      <li>r = 0: r.m.s. error of regression = SD of y, which says, no linear association; regression is the same as using the average.</li>
+      <li>All other r: Regression is not perfect, but better than using the average.</li>
+    </ul>
+  </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">one variable</th>
+      <th style="text-align: left">two variables</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">normal curve</td>
+      <td style="text-align: left">football shaped scatter diagram</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">average</td>
+      <td style="text-align: left">regression line</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SD</td>
+      <td style="text-align: left">r.m.s. error of regression</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Some useful analogies
+    <ul>
+      <li>For about 68% of the points, the regression estimate of correct to within 1 r.m.s. error.</li>
+      <li>For about 95% of the points, the regression estimate is correct to within 2 r.m.s. errors.</li>
+    </ul>
+  </li>
+  <li>Residual plot
+    <ul>
+      <li>the average of the residuals is always 0</li>
+      <li>there is no linear association between the residuals and x</li>
+      <li>the residual plot cannot show any trend or linear relation</li>
+      <li>Good regression: residual plot looks like a formless blob around the horizontal axis</li>
+    </ul>
+  </li>
+</ul>
+
 <h4 id="83-how-regression-is-commonly-used-estimating-an-unknown-true-line">8.3 How regression is commonly used; estimating an “unknown true line”</h4>
+
+<h2 id="stat22-probability">Stat2.2 Probability</h2>
+
+<h3 id="1-the-two-fundamental-rules">1 the two fundamental rules</h3>
+
+<h3 id="2-random-sampling-with-and-without-replacement">2 Random sampling with and without replacement</h3>
+
+<h3 id="3-the-law-of-averages-and-expected-values">3 the law of averages and expected values</h3>
+
+<h3 id="4-the-central-limit-theorem">4 the central limit theorem</h3>
+
+<h3 id="5-the-accuracy-of-simple-random-samples">5 the accuracy of simple random samples</h3>
 
 <h2 id="appendix">Appendix</h2>
 
