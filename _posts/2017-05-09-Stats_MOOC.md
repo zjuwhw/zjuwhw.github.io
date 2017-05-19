@@ -307,15 +307,156 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 
 ### 1 the two fundamental rules
 
+#### 1.1 What is probability?
+
+- probability of an event = number of outcomes in the event / total number of outcomes
+- Frequency theory, long run proportion
+- Many probabilities can't interpreted as long run frequencies, because they are based on experiments that can't be repeated under identical conditions
+
+#### 1.2 Addition rule
+
+- Probabilities are numbers between 0 and 1
+- Notation
+	- P(A) is read as "the probability that the event A occurs"
+	- P(A): "probability of A"
+	- P(coin lands heads), P(heads), P(H)
+- Venn diagrams
+- Addition rule: P(A or B) = P(A) + P(B), if A and B are mutually exclusive.
+- inclusion-exclusion formula: P(A or B) = P(A) + P(B) - P(A and B) for all A and B
+- Complement rule: P(not A) = 1 - P(A)
+
+#### 1.3 Multiplication rule
+
+- P(B|A): **conditional probability** of B, given that A has happened
+- Multiplication Rule: P(A and B) = P(A) * P(B|A) for all A, B
+
+#### 1.4 Problem-solving techniques
+
+- get started on a solution
+	- be precise in your use of terminology and notation
+	- pay attention to detail
+	- avoid rushing to conclusions
+
+#### 1.5 Conditional or unconditional?
+
+#### 1.6 Bayes' Rule
+
+```
+P(A) = 0.8; P(B) = 0.2; P(bad|A) = 0.01; P(bad|B) = 0.02
+
+P(A and bad)
+ = P(A) * P(bad|A)
+ = 0.8 * 0.01 
+ = 0.008
+P(bad)
+ = P(A and bad) + P(B and bad) 
+ = P(A) * P(bad|A) + P(B) * P(bad|B) 
+ = 0.008 + 0.004 
+ = 0.012
+P(A|bad)
+ = P(A and bad) / P(bad) 
+ = 0.008/0.012 
+ = 0.67
+```
+
+- Bayes'Rule: Use it to find the conditional probability of an event at an earlier stage, given the result of a later stage.
+
 ### 2 Random sampling with and without replacement
+
+#### 2.1 Independence
+
+- Definition of conditional probability: P(A and B) = P(A) * P(B|A); P(B|A) = P(A and B)/P(A)
+- independent trials
+	- tosses of a coin
+	- rolls of a die
+	- draws with replacement
+- dependent trials
+	- cards dealt from a deck
+	- draws without replacement
+- Independent events
+	- Two events A and B are independent if P(B|A) = P(B|not A) = P`(B)
+	- P(A and B) = P(A) * P(B), if A and B are independent
+
+#### 2.2 Sampling with replacement: the binomial formula（二项分布）
+
+![](/images/binomial_formal.png)
+
+#### 2.3 Sampling without replacement: the hypergeometric（超几何） formula
+
+![](/images/hypergeometric_formula.png)
+
+#### 2.4 Examples
+
+- geometric distribution: waiting time till the first sucess; (1-p)<sup>k-1</sup>*(p) for k = 1, 2, 3...
+- negative binomial probabilites
 
 ### 3 the law of averages and expected values
 
+#### 3.1 Not the law of averages
+
+- move from exact **calculations** to **approximations**
+- Law of averages:
+	- As you keep tossing, in the long run you get **about half** heads.
+	- It is about the **proportion** of heads being close to 1/2.
+
+#### 3.2 The law of averages
+
+- More formal statment
+	- As you keep tossing, in the long run, the chance that the **proportion of heads** is in the range **0.5 ± a fixed amount** goes to 1
+	- You can choose the **fixed amount** to be as small as you want, as long as you keep it fixed as the number of tosses goes up.
+- Law of large numbers
+	- independent, repeated, success-failur trials
+	- probability of success on a single trial: p
+	- As the number of trials increases, the chance that the proportion of successes is in range **p ± a fixed amount** goes to 1.
+
+#### 3.3 The expected value of a random sum
+
+- Notation:
+	- random variables: X, Y
+	- the sum of the first n X's: S<sub>n</sub> = X<sub>1</sub> + X<sub>2</sub>+ ... X<sub>n</sub>
+
+```
+X: the number of spots on one rool of a die
+Probability distribution table for X:
+ - spot 1: 1/6
+ - spot 2: 1/6
+ - spot 3: 1/6
+ - spot 4: 1/6
+ - spot 5: 1/6
+ - spot 6: 1/6
+
+Long run average value of X:
+1*1/6 + 2*1/6 + 3*1/6 + 4*1/6 + 5*1/6 + 6*1/6 = 3.6
+```
+
+- Expected value of X = expectation of X = E(X)
+- Let X<sub>1</sub>, X<sub>2</sub>,..., X<sub>n</sub>, be independent and identically distributed (i.i.d.) random variables, and let S<sub>n</sub> = X<sub>1</sub> + X<sub>2</sub>+ ... X<sub>n</sub>. Then, E(S<sub>n</sub>) = n*E(X<sub>1</sub>)
+- Epected value of the binomial, E(X) = np
+
+#### 3.4 The expected value of a random average
+
 ### 4 the central limit theorem
+
+#### 4.1 The standard error of a random sum
+
+
+
+#### 4.2 Probabilities for the sum of a large sample
+
+#### 4.3 The Central limit theorem
+
+#### 4.4 The scope of the normal approximation
 
 ### 5 the accuracy of simple random samples
 
+#### 5.1 Errors in random percents and averages
 
+#### 5.2 Sampling without replacement: the correction factor
+
+#### 5.3 Accuracy
+
+## Stat2.3 Inference
+ 
 
 ## Appendix
 
@@ -330,5 +471,7 @@ source: [https://zh.wikipedia.org/wiki/%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D](htt
 ![](/images/common_distribution_1.png)
 
 ![](/images/common_distribution_2.png)
+
+ps: pmf, probability mass function（概率质量函数）; pdf, probability density function（概率密度函数）; mgf, Moment-generating function（动差生成函数）
 
 source: [http://www.stat.tamu.edu/~twehrly/611/distab.pdf](http://www.stat.tamu.edu/~twehrly/611/distab.pdf)

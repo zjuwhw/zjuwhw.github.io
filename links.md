@@ -257,6 +257,8 @@ permalink: /links/
 - [ENCODE](http://genome.ucsc.edu/ENCODE/)
 - [TCGA](http://cancergenome.nih.gov/)
 - [RoadMap Epigenomics Project](http://www.roadmapepigenomics.org/)
+- [BLUEPRINT](http://www.blueprint-epigenome.eu/)
+- [IHEC](http://ihec-epigenomes.org/)
 - [1000 Genomes](http://www.1000genomes.org/)
 - [TARGET](http://target.nci.nih.gov/dataMatrix/)
 - [GTEx](http://www.gtexportal.org/home/): Genotype-Tissue Expression

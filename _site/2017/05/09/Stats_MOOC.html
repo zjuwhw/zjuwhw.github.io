@@ -138,13 +138,45 @@
     </ul>
   </li>
   <li><a href="#stat22-probability" id="markdown-toc-stat22-probability">Stat2.2 Probability</a>    <ul>
-      <li><a href="#1-the-two-fundamental-rules" id="markdown-toc-1-the-two-fundamental-rules">1 the two fundamental rules</a></li>
-      <li><a href="#2-random-sampling-with-and-without-replacement" id="markdown-toc-2-random-sampling-with-and-without-replacement">2 Random sampling with and without replacement</a></li>
-      <li><a href="#3-the-law-of-averages-and-expected-values" id="markdown-toc-3-the-law-of-averages-and-expected-values">3 the law of averages and expected values</a></li>
-      <li><a href="#4-the-central-limit-theorem" id="markdown-toc-4-the-central-limit-theorem">4 the central limit theorem</a></li>
-      <li><a href="#5-the-accuracy-of-simple-random-samples" id="markdown-toc-5-the-accuracy-of-simple-random-samples">5 the accuracy of simple random samples</a></li>
+      <li><a href="#1-the-two-fundamental-rules" id="markdown-toc-1-the-two-fundamental-rules">1 the two fundamental rules</a>        <ul>
+          <li><a href="#11-what-is-probability" id="markdown-toc-11-what-is-probability">1.1 What is probability?</a></li>
+          <li><a href="#12-addition-rule" id="markdown-toc-12-addition-rule">1.2 Addition rule</a></li>
+          <li><a href="#13-multiplication-rule" id="markdown-toc-13-multiplication-rule">1.3 Multiplication rule</a></li>
+          <li><a href="#14-problem-solving-techniques" id="markdown-toc-14-problem-solving-techniques">1.4 Problem-solving techniques</a></li>
+          <li><a href="#15-conditional-or-unconditional" id="markdown-toc-15-conditional-or-unconditional">1.5 Conditional or unconditional?</a></li>
+          <li><a href="#16-bayes-rule" id="markdown-toc-16-bayes-rule">1.6 Bayes’ Rule</a></li>
+        </ul>
+      </li>
+      <li><a href="#2-random-sampling-with-and-without-replacement" id="markdown-toc-2-random-sampling-with-and-without-replacement">2 Random sampling with and without replacement</a>        <ul>
+          <li><a href="#21-independence" id="markdown-toc-21-independence">2.1 Independence</a></li>
+          <li><a href="#22-sampling-with-replacement-the-binomial-formula二项分布" id="markdown-toc-22-sampling-with-replacement-the-binomial-formula二项分布">2.2 Sampling with replacement: the binomial formula（二项分布）</a></li>
+          <li><a href="#23-sampling-without-replacement-the-hypergeometric超几何-formula" id="markdown-toc-23-sampling-without-replacement-the-hypergeometric超几何-formula">2.3 Sampling without replacement: the hypergeometric（超几何） formula</a></li>
+          <li><a href="#24-examples" id="markdown-toc-24-examples">2.4 Examples</a></li>
+        </ul>
+      </li>
+      <li><a href="#3-the-law-of-averages-and-expected-values" id="markdown-toc-3-the-law-of-averages-and-expected-values">3 the law of averages and expected values</a>        <ul>
+          <li><a href="#31-not-the-law-of-averages" id="markdown-toc-31-not-the-law-of-averages">3.1 Not the law of averages</a></li>
+          <li><a href="#32-the-law-of-averages" id="markdown-toc-32-the-law-of-averages">3.2 The law of averages</a></li>
+          <li><a href="#33-the-expected-value-of-a-random-sum" id="markdown-toc-33-the-expected-value-of-a-random-sum">3.3 The expected value of a random sum</a></li>
+          <li><a href="#34-the-expected-value-of-a-random-average" id="markdown-toc-34-the-expected-value-of-a-random-average">3.4 The expected value of a random average</a></li>
+        </ul>
+      </li>
+      <li><a href="#4-the-central-limit-theorem" id="markdown-toc-4-the-central-limit-theorem">4 the central limit theorem</a>        <ul>
+          <li><a href="#41-the-standard-error-of-a-random-sum" id="markdown-toc-41-the-standard-error-of-a-random-sum">4.1 The standard error of a random sum</a></li>
+          <li><a href="#42-probabilities-for-the-sum-of-a-large-sample" id="markdown-toc-42-probabilities-for-the-sum-of-a-large-sample">4.2 Probabilities for the sum of a large sample</a></li>
+          <li><a href="#43-the-central-limit-theorem" id="markdown-toc-43-the-central-limit-theorem">4.3 The Central limit theorem</a></li>
+          <li><a href="#44-the-scope-of-the-normal-approximation" id="markdown-toc-44-the-scope-of-the-normal-approximation">4.4 The scope of the normal approximation</a></li>
+        </ul>
+      </li>
+      <li><a href="#5-the-accuracy-of-simple-random-samples" id="markdown-toc-5-the-accuracy-of-simple-random-samples">5 the accuracy of simple random samples</a>        <ul>
+          <li><a href="#51-errors-in-random-percents-and-averages" id="markdown-toc-51-errors-in-random-percents-and-averages">5.1 Errors in random percents and averages</a></li>
+          <li><a href="#52-sampling-without-replacement-the-correction-factor" id="markdown-toc-52-sampling-without-replacement-the-correction-factor">5.2 Sampling without replacement: the correction factor</a></li>
+          <li><a href="#53-accuracy" id="markdown-toc-53-accuracy">5.3 Accuracy</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
+  <li><a href="#stat23-inference" id="markdown-toc-stat23-inference">Stat2.3 Inference</a></li>
   <li><a href="#appendix" id="markdown-toc-appendix">Appendix</a>    <ul>
       <li><a href="#appendix-1--the-greek-symbols" id="markdown-toc-appendix-1--the-greek-symbols">Appendix 1 : The Greek Symbols</a></li>
       <li><a href="#appendix-2--common-distribution" id="markdown-toc-appendix-2--common-distribution">Appendix 2 : Common Distribution</a></li>
@@ -585,13 +617,240 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 
 <h3 id="1-the-two-fundamental-rules">1 the two fundamental rules</h3>
 
+<h4 id="11-what-is-probability">1.1 What is probability?</h4>
+
+<ul>
+  <li>probability of an event = number of outcomes in the event / total number of outcomes</li>
+  <li>Frequency theory, long run proportion</li>
+  <li>Many probabilities can’t interpreted as long run frequencies, because they are based on experiments that can’t be repeated under identical conditions</li>
+</ul>
+
+<h4 id="12-addition-rule">1.2 Addition rule</h4>
+
+<ul>
+  <li>Probabilities are numbers between 0 and 1</li>
+  <li>Notation
+    <ul>
+      <li>P(A) is read as “the probability that the event A occurs”</li>
+      <li>P(A): “probability of A”</li>
+      <li>P(coin lands heads), P(heads), P(H)</li>
+    </ul>
+  </li>
+  <li>Venn diagrams</li>
+  <li>Addition rule: P(A or B) = P(A) + P(B), if A and B are mutually exclusive.</li>
+  <li>inclusion-exclusion formula: P(A or B) = P(A) + P(B) - P(A and B) for all A and B</li>
+  <li>Complement rule: P(not A) = 1 - P(A)</li>
+</ul>
+
+<h4 id="13-multiplication-rule">1.3 Multiplication rule</h4>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>P(B</td>
+          <td>A): <strong>conditional probability</strong> of B, given that A has happened</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Multiplication Rule: P(A and B) = P(A) * P(B</td>
+          <td>A) for all A, B</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<h4 id="14-problem-solving-techniques">1.4 Problem-solving techniques</h4>
+
+<ul>
+  <li>get started on a solution
+    <ul>
+      <li>be precise in your use of terminology and notation</li>
+      <li>pay attention to detail</li>
+      <li>avoid rushing to conclusions</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="15-conditional-or-unconditional">1.5 Conditional or unconditional?</h4>
+
+<h4 id="16-bayes-rule">1.6 Bayes’ Rule</h4>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>P(A) = 0.8; P(B) = 0.2; P(bad|A) = 0.01; P(bad|B) = 0.02
+
+P(A and bad)
+ = P(A) * P(bad|A)
+ = 0.8 * 0.01 
+ = 0.008
+P(bad)
+ = P(A and bad) + P(B and bad) 
+ = P(A) * P(bad|A) + P(B) * P(bad|B) 
+ = 0.008 + 0.004 
+ = 0.012
+P(A|bad)
+ = P(A and bad) / P(bad) 
+ = 0.008/0.012 
+ = 0.67
+</code></pre>
+</div>
+
+<ul>
+  <li>Bayes’Rule: Use it to find the conditional probability of an event at an earlier stage, given the result of a later stage.</li>
+</ul>
+
 <h3 id="2-random-sampling-with-and-without-replacement">2 Random sampling with and without replacement</h3>
+
+<h4 id="21-independence">2.1 Independence</h4>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Definition of conditional probability: P(A and B) = P(A) * P(B</td>
+          <td>A); P(B</td>
+          <td>A) = P(A and B)/P(A)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>independent trials
+    <ul>
+      <li>tosses of a coin</li>
+      <li>rolls of a die</li>
+      <li>draws with replacement</li>
+    </ul>
+  </li>
+  <li>dependent trials
+    <ul>
+      <li>cards dealt from a deck</li>
+      <li>draws without replacement</li>
+    </ul>
+  </li>
+  <li>Independent events
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Two events A and B are independent if P(B</td>
+              <td>A) = P(B</td>
+              <td>not A) = P`(B)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>P(A and B) = P(A) * P(B), if A and B are independent</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="22-sampling-with-replacement-the-binomial-formula二项分布">2.2 Sampling with replacement: the binomial formula（二项分布）</h4>
+
+<p><img src="/images/binomial_formal.png" alt="" /></p>
+
+<h4 id="23-sampling-without-replacement-the-hypergeometric超几何-formula">2.3 Sampling without replacement: the hypergeometric（超几何） formula</h4>
+
+<p><img src="/images/hypergeometric_formula.png" alt="" /></p>
+
+<h4 id="24-examples">2.4 Examples</h4>
+
+<ul>
+  <li>geometric distribution: waiting time till the first sucess; (1-p)<sup>k-1</sup>*(p) for k = 1, 2, 3…</li>
+  <li>negative binomial probabilites</li>
+</ul>
 
 <h3 id="3-the-law-of-averages-and-expected-values">3 the law of averages and expected values</h3>
 
+<h4 id="31-not-the-law-of-averages">3.1 Not the law of averages</h4>
+
+<ul>
+  <li>move from exact <strong>calculations</strong> to <strong>approximations</strong></li>
+  <li>Law of averages:
+    <ul>
+      <li>As you keep tossing, in the long run you get <strong>about half</strong> heads.</li>
+      <li>It is about the <strong>proportion</strong> of heads being close to 1/2.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="32-the-law-of-averages">3.2 The law of averages</h4>
+
+<ul>
+  <li>More formal statment
+    <ul>
+      <li>As you keep tossing, in the long run, the chance that the <strong>proportion of heads</strong> is in the range <strong>0.5 ± a fixed amount</strong> goes to 1</li>
+      <li>You can choose the <strong>fixed amount</strong> to be as small as you want, as long as you keep it fixed as the number of tosses goes up.</li>
+    </ul>
+  </li>
+  <li>Law of large numbers
+    <ul>
+      <li>independent, repeated, success-failur trials</li>
+      <li>probability of success on a single trial: p</li>
+      <li>As the number of trials increases, the chance that the proportion of successes is in range <strong>p ± a fixed amount</strong> goes to 1.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="33-the-expected-value-of-a-random-sum">3.3 The expected value of a random sum</h4>
+
+<ul>
+  <li>Notation:
+    <ul>
+      <li>random variables: X, Y</li>
+      <li>the sum of the first n X’s: S<sub>n</sub> = X<sub>1</sub> + X<sub>2</sub>+ … X<sub>n</sub></li>
+    </ul>
+  </li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>X: the number of spots on one rool of a die
+Probability distribution table for X:
+ - spot 1: 1/6
+ - spot 2: 1/6
+ - spot 3: 1/6
+ - spot 4: 1/6
+ - spot 5: 1/6
+ - spot 6: 1/6
+
+Long run average value of X:
+1*1/6 + 2*1/6 + 3*1/6 + 4*1/6 + 5*1/6 + 6*1/6 = 3.6
+</code></pre>
+</div>
+
+<ul>
+  <li>Expected value of X = expectation of X = E(X)</li>
+  <li>Let X<sub>1</sub>, X<sub>2</sub>,…, X<sub>n</sub>, be independent and identically distributed (i.i.d.) random variables, and let S<sub>n</sub> = X<sub>1</sub> + X<sub>2</sub>+ … X<sub>n</sub>. Then, E(S<sub>n</sub>) = n*E(X<sub>1</sub>)</li>
+  <li>Epected value of the binomial, E(X) = np</li>
+</ul>
+
+<h4 id="34-the-expected-value-of-a-random-average">3.4 The expected value of a random average</h4>
+
 <h3 id="4-the-central-limit-theorem">4 the central limit theorem</h3>
 
+<h4 id="41-the-standard-error-of-a-random-sum">4.1 The standard error of a random sum</h4>
+
+<h4 id="42-probabilities-for-the-sum-of-a-large-sample">4.2 Probabilities for the sum of a large sample</h4>
+
+<h4 id="43-the-central-limit-theorem">4.3 The Central limit theorem</h4>
+
+<h4 id="44-the-scope-of-the-normal-approximation">4.4 The scope of the normal approximation</h4>
+
 <h3 id="5-the-accuracy-of-simple-random-samples">5 the accuracy of simple random samples</h3>
+
+<h4 id="51-errors-in-random-percents-and-averages">5.1 Errors in random percents and averages</h4>
+
+<h4 id="52-sampling-without-replacement-the-correction-factor">5.2 Sampling without replacement: the correction factor</h4>
+
+<h4 id="53-accuracy">5.3 Accuracy</h4>
+
+<h2 id="stat23-inference">Stat2.3 Inference</h2>
 
 <h2 id="appendix">Appendix</h2>
 
@@ -606,6 +865,8 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 <p><img src="/images/common_distribution_1.png" alt="" /></p>
 
 <p><img src="/images/common_distribution_2.png" alt="" /></p>
+
+<p>ps: pmf, probability mass function（概率质量函数）; pdf, probability density function（概率密度函数）; mgf, Moment-generating function（动差生成函数）</p>
 
 <p>source: <a href="http://www.stat.tamu.edu/~twehrly/611/distab.pdf">http://www.stat.tamu.edu/~twehrly/611/distab.pdf</a></p>
 
