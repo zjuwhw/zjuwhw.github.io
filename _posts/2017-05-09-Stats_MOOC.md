@@ -431,7 +431,7 @@ Long run average value of X:
 
 - Expected value of X = expectation of X = E(X)
 - Let X<sub>1</sub>, X<sub>2</sub>,..., X<sub>n</sub>, be independent and identically distributed (i.i.d.) random variables, and let S<sub>n</sub> = X<sub>1</sub> + X<sub>2</sub>+ ... X<sub>n</sub>. Then, E(S<sub>n</sub>) = n*E(X<sub>1</sub>)
-- Epected value of the binomial, E(X) = np
+- Exected value of the binomial, E(X) = np
 
 #### 3.4 The expected value of a random average
 
@@ -439,7 +439,37 @@ Long run average value of X:
 
 #### 4.1 The standard error of a random sum
 
+- Standard error
+	- The standard error of a random variable X is defined by SE(X) = sqrt(E((X-E(X))<sup>2</sup>)
+	- SE(X) measures the rough sie of the chance error in X: roughly how far off X is from E(X)
+- Standard deviation
+	- The standard deviation of a list of numbers: SD = r.m.s. of the deviations from average
+	- The SD measures the rough size of the deviations: roughly how far off the numbers are from the average
 
+```
+X: one draw at random from 1,2,2,3
+
+X: 
+P(X = 1) = 1/4
+P(X = 2) = 1/2
+P(X = 3) = 1/4
+E(X) = 2 = average of the box
+
+X-E(X)
+P(-1) = 1/4
+P(0) = 1/2
+P(1) = 1/4
+E(X-E(X)) = 0
+
+(X-E(X))^2
+P(0) = 1/2
+P(1) = 1/2
+E((X-E(X))^2) = 0.5
+
+standard error of X = SE(X) = sqrt(E((X-E(X))^2))
+= SD of the box
+
+```
 
 #### 4.2 Probabilities for the sum of a large sample
 

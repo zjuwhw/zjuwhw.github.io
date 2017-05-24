@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 May 2017 10:33:59 +1000</pubDate>
-    <lastBuildDate>Fri, 19 May 2017 10:33:59 +1000</lastBuildDate>
+    <pubDate>Wed, 24 May 2017 14:03:15 +1000</pubDate>
+    <lastBuildDate>Wed, 24 May 2017 14:03:15 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -763,7 +763,7 @@ Long run average value of X:
 &lt;ul&gt;
   &lt;li&gt;Expected value of X = expectation of X = E(X)&lt;/li&gt;
   &lt;li&gt;Let X&lt;sub&gt;1&lt;/sub&gt;, X&lt;sub&gt;2&lt;/sub&gt;,…, X&lt;sub&gt;n&lt;/sub&gt;, be independent and identically distributed (i.i.d.) random variables, and let S&lt;sub&gt;n&lt;/sub&gt; = X&lt;sub&gt;1&lt;/sub&gt; + X&lt;sub&gt;2&lt;/sub&gt;+ … X&lt;sub&gt;n&lt;/sub&gt;. Then, E(S&lt;sub&gt;n&lt;/sub&gt;) = n*E(X&lt;sub&gt;1&lt;/sub&gt;)&lt;/li&gt;
-  &lt;li&gt;Epected value of the binomial, E(X) = np&lt;/li&gt;
+  &lt;li&gt;Exected value of the binomial, E(X) = np&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;34-the-expected-value-of-a-random-average&quot;&gt;3.4 The expected value of a random average&lt;/h4&gt;
@@ -771,6 +771,46 @@ Long run average value of X:
 &lt;h3 id=&quot;4-the-central-limit-theorem&quot;&gt;4 the central limit theorem&lt;/h3&gt;
 
 &lt;h4 id=&quot;41-the-standard-error-of-a-random-sum&quot;&gt;4.1 The standard error of a random sum&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Standard error
+    &lt;ul&gt;
+      &lt;li&gt;The standard error of a random variable X is defined by SE(X) = sqrt(E((X-E(X))&lt;sup&gt;2&lt;/sup&gt;)&lt;/li&gt;
+      &lt;li&gt;SE(X) measures the rough sie of the chance error in X: roughly how far off X is from E(X)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Standard deviation
+    &lt;ul&gt;
+      &lt;li&gt;The standard deviation of a list of numbers: SD = r.m.s. of the deviations from average&lt;/li&gt;
+      &lt;li&gt;The SD measures the rough size of the deviations: roughly how far off the numbers are from the average&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;X: one draw at random from 1,2,2,3
+
+X: 
+P(X = 1) = 1/4
+P(X = 2) = 1/2
+P(X = 3) = 1/4
+E(X) = 2 = average of the box
+
+X-E(X)
+P(-1) = 1/4
+P(0) = 1/2
+P(1) = 1/4
+E(X-E(X)) = 0
+
+(X-E(X))^2
+P(0) = 1/2
+P(1) = 1/2
+E((X-E(X))^2) = 0.5
+
+standard error of X = SE(X) = sqrt(E((X-E(X))^2))
+= SD of the box
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h4 id=&quot;42-probabilities-for-the-sum-of-a-large-sample&quot;&gt;4.2 Probabilities for the sum of a large sample&lt;/h4&gt;
 
