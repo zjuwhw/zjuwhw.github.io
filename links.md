@@ -139,6 +139,7 @@ permalink: /links/
 - [SRAtoolkit](https://github.com/ncbi/sratoolkit)
 - [Entrez Direct](http://www.ncbi.nlm.nih.gov/news/02-06-2014-entrez-direct-released/)
 - [GenePattern](http://www.broadinstitute.org/cancer/software/genepattern/)
+- [pgltools](https://github.com/billgreenwald/pgltools)
 
 ### Bioinformatic forum
 
