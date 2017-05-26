@@ -426,7 +426,7 @@ Probability distribution table for X:
  - spot 6: 1/6
 
 Long run average value of X:
-1*1/6 + 2*1/6 + 3*1/6 + 4*1/6 + 5*1/6 + 6*1/6 = 3.6
+1*1/6 + 2*1/6 + 3*1/6 + 4*1/6 + 5*1/6 + 6*1/6 = 3.5
 ```
 
 - Expected value of X = expectation of X = E(X)
@@ -440,10 +440,10 @@ Long run average value of X:
 #### 4.1 The standard error of a random sum
 
 - Standard error
-	- The standard error of a random variable X is defined by SE(X) = sqrt(E((X-E(X))<sup>2</sup>)
+	- The standard error of **a random variable X** is defined by SE(X) = sqrt(E((X-E(X))<sup>2</sup>)
 	- SE(X) measures the rough sie of the chance error in X: roughly how far off X is from E(X)
 - Standard deviation
-	- The standard deviation of a list of numbers: SD = r.m.s. of the deviations from average
+	- The standard deviation of **a list of numbers**: SD = r.m.s. of the deviations from average
 	- The SD measures the rough size of the deviations: roughly how far off the numbers are from the average
 
 ```
@@ -466,10 +466,12 @@ P(0) = 1/2
 P(1) = 1/2
 E((X-E(X))^2) = 0.5
 
-standard error of X = SE(X) = sqrt(E((X-E(X))^2))
-= SD of the box
-
+standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
+= SD of the box (note: for one draw, n = 1)
 ```
+
+
+![](/images/SE.png)
 
 #### 4.2 Probabilities for the sum of a large sample
 

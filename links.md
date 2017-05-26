@@ -42,6 +42,22 @@ permalink: /links/
 
 ### Softwares
 
+**GWAS**
+
+- [PLINK (v1.07)](http://zzz.bwh.harvard.edu/plink/): whole genome association analysis toolset
+- [PLINK2 (v1.9 beta)](https://www.cog-genomics.org/plink2): a comprehensive update to Shaun Purcell's PLINK
+- [GCTA](http://cnsgenomics.com/software/gcta/): to estimate the proportion of phenotypic variance explained by genome- or chromosome-wide SNPs for complex traits
+- [SMR](http://cnsgenomics.com/software/smr/index.html): association between gene expression and a complex trait
+- [GSMR](http://cnsgenomics.com/software/gsmr/gsmr.html): causal association between a risk factor and disease
+- [MACH](http://csg.sph.umich.edu/abecasis/mach/index.html): resolve long haplotypes or infer missing genotypes
+- [IMPUTE2](http://mathgen.stats.ox.ac.uk/impute/impute_v2.html): genotype imputation and haplotype phasing program
+- [METAL](http://genome.sph.umich.edu/wiki/METAL_Program): meta-analysis of genomewide association scans
+- [DEPICT](https://data.broadinstitute.org/mpg/depict/): an integrative tool that based on predicted gene functions systematically prioritizes the most likely causal genes at associated loci, highlights enriched pathways, and identifies tissues/cell types where genes from associated loci are highly expressed
+- [Beagle](https://faculty.washington.edu/browning/beagle/beagle.html): genotype calling, genotype phasing, imputation of ungenotyped markers, and identity-by-descent segment detection
+- [haploview](https://www.broadinstitute.org/haploview/haploview): analysis and visualization of LD and haplotype maps
+- [HaploReg](http://archive.broadinstitute.org/mammals/haploreg/haploreg.php): annotations of the noncoding genome at variants
+- [BOLT-LMM](https://data.broadinstitute.org/alkesgroup/BOLT-LMM/): BOLT-LMM algorithm for mixed model association testing, and the BOLT-REML algorithm for variance components analysis 
+
 **ChIP-seq**
 
 - [bwa](http://bio-bwa.sourceforge.net/)
@@ -107,20 +123,6 @@ permalink: /links/
 - RMA:
 - MAS5.0:
 - GCRMA:
-
-**GWAS**
-
-- [PLINK (v1.07)](http://zzz.bwh.harvard.edu/plink/)
-- [PLINK2 (v1.9 beta)](https://www.cog-genomics.org/plink2)
-- [GCTA](http://cnsgenomics.com/software/gcta/)
-- [SMR](http://cnsgenomics.com/software/smr/index.html)
-- [GSMR](http://cnsgenomics.com/software/gsmr/gsmr.html)
-- [MACH](http://csg.sph.umich.edu/abecasis/mach/index.html)
-- [IMPUTE2](http://mathgen.stats.ox.ac.uk/impute/impute_v2.html)
-- [METAL](http://genome.sph.umich.edu/wiki/METAL_Program)
-- [DEPICT](https://data.broadinstitute.org/mpg/depict/)
-- [Beagle](https://faculty.washington.edu/browning/beagle/beagle.html)
-- [haploview](https://www.broadinstitute.org/haploview/haploview)
 
 **Common Tools**
 

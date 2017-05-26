@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 May 2017 14:03:15 +1000</pubDate>
-    <lastBuildDate>Wed, 24 May 2017 14:03:15 +1000</lastBuildDate>
+    <pubDate>Fri, 26 May 2017 10:44:44 +1000</pubDate>
+    <lastBuildDate>Fri, 26 May 2017 10:44:44 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -756,7 +756,7 @@ Probability distribution table for X:
  - spot 6: 1/6
 
 Long run average value of X:
-1*1/6 + 2*1/6 + 3*1/6 + 4*1/6 + 5*1/6 + 6*1/6 = 3.6
+1*1/6 + 2*1/6 + 3*1/6 + 4*1/6 + 5*1/6 + 6*1/6 = 3.5
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -775,13 +775,13 @@ Long run average value of X:
 &lt;ul&gt;
   &lt;li&gt;Standard error
     &lt;ul&gt;
-      &lt;li&gt;The standard error of a random variable X is defined by SE(X) = sqrt(E((X-E(X))&lt;sup&gt;2&lt;/sup&gt;)&lt;/li&gt;
+      &lt;li&gt;The standard error of &lt;strong&gt;a random variable X&lt;/strong&gt; is defined by SE(X) = sqrt(E((X-E(X))&lt;sup&gt;2&lt;/sup&gt;)&lt;/li&gt;
       &lt;li&gt;SE(X) measures the rough sie of the chance error in X: roughly how far off X is from E(X)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Standard deviation
     &lt;ul&gt;
-      &lt;li&gt;The standard deviation of a list of numbers: SD = r.m.s. of the deviations from average&lt;/li&gt;
+      &lt;li&gt;The standard deviation of &lt;strong&gt;a list of numbers&lt;/strong&gt;: SD = r.m.s. of the deviations from average&lt;/li&gt;
       &lt;li&gt;The SD measures the rough size of the deviations: roughly how far off the numbers are from the average&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -806,11 +806,12 @@ P(0) = 1/2
 P(1) = 1/2
 E((X-E(X))^2) = 0.5
 
-standard error of X = SE(X) = sqrt(E((X-E(X))^2))
-= SD of the box
-
+standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
+= SD of the box (note: for one draw, n = 1)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/SE.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;42-probabilities-for-the-sum-of-a-large-sample&quot;&gt;4.2 Probabilities for the sum of a large sample&lt;/h4&gt;
 
