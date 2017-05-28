@@ -475,17 +475,79 @@ standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
 
 #### 4.2 Probabilities for the sum of a large sample
 
+![](/images/Binomial_property.png)
+
+- de Moivre - Laplace Theorem
+	- Fix any p strictly between 0 and 1. As the number of trials n increases, the probability histogram for the binomial distribution looks like the nomrla curve with mean np and SD sqrt(np(1-p))
+
 #### 4.3 The Central limit theorem
 
-#### 4.4 The scope of the normal approximation
+- Central limit theorem
+	- Rough statment, in English: The probability histogram for the sum of a large number of draws at random with replacement from a box of numbered tickets is approximately normal, regardless of the contents of the box
+	- Rough statment, in math language: Let X1, X2, ..., Xn be independent and identically distributed, each with expected value μ and standard error σ. Let Sn = X1 + X2 + ... + Xn. Then for large n, the probability distribution of Sn is approximately normal with mean nμ and SD sqrt(n)σ, no matter what the distribution of each Xi.
+
+#### 4.4 Why you shouldn't gamble
+
+- Better to use the exact binomial
+
+#### 4.5 The scope of the normal approximation
+
+- It takes lots of draws for the probability histogram for the sum to start looking normal if the contents of the box
+	- are far from symmetric, for exaple skewed
+	- have a histogram that has gaps
+- Practical advice: Calculate expected value ± 3SE and check whether you are hitting impossible values for the variable
+	- if you are, the don't use the normal approximation
+	- If you are not, then go ahead, but be aware that it still might not be great ...
 
 ### 5 the accuracy of simple random samples
 
 #### 5.1 Errors in random percents and averages
 
+- Accuracy of sample average
+	- population: list of numbers
+	- n draws at random with replacement from a population that has mean μ and SD σ
+	- S = sample sum
+		- E(S) = nμ
+		- SE(S) = sqrt(n)σ
+		- CLT: If n is large, the distribution of S is roughly normal
+	- M = sample mean = S/n
+		- E(M) = E(S/n) = nμ/n = μ
+		- SE(M) = SE(S/n) = sqrt(n)σ/n = σ/sqrt(n)
+		- CLT: If n is large, the distribution of M is roughly normal
+
 #### 5.2 Sampling without replacement: the correction factor
 
+- populations: list of N numbers; mean μ and SD σ
+- simple ramdom sample of n of these numbers **without replacement**
+- S = sample sum
+	- E(S) = nμ
+	- SE(S) = sqrt(n)σ * sqrt(N-n/N-1)
+- M = sample mean
+	- E(M) = μ * sqrt(N-n/N-1)
+- sqrt(N-n/N-1), which is a correction factor (finite population correction), <1
+- When population size N is very large and random sample size n is relatively small, sqrt(N-n/N-1) ≈ 1, so sampling **without** replacement is almost the same as sampling **with** replacement.
+
+
+Central Limit Theorem (sort of )
+
+```
+Consider a population of size N, with mean μ and SD σ.
+Draw a simple random sample of size n.
+Then, if n is large in absolute terms but small relative to N:
+- the distribution of the sample sum is roughly normal with mean nμ and SE approximately sqrt(n)σ
+- the distribution of the sample mean is roughly normal with mean μ and SE approximately σ/sqrt(n)
+regardless of the distribution of the population
+```
+
+- Why didn't we use the correction factor?
+	- We don't have the population size, but we know it's so big that correction factor will be close to 1.
+
+![](/images/hypergenometic_sample.png)
+
 #### 5.3 Accuracy
+
+- Square Root law
+	- If you multiply the sample size by a factor, the accuracy goes up by the square root of the factor
 
 ## Stat2.3 Inference
  

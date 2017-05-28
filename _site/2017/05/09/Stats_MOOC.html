@@ -165,7 +165,8 @@
           <li><a href="#41-the-standard-error-of-a-random-sum" id="markdown-toc-41-the-standard-error-of-a-random-sum">4.1 The standard error of a random sum</a></li>
           <li><a href="#42-probabilities-for-the-sum-of-a-large-sample" id="markdown-toc-42-probabilities-for-the-sum-of-a-large-sample">4.2 Probabilities for the sum of a large sample</a></li>
           <li><a href="#43-the-central-limit-theorem" id="markdown-toc-43-the-central-limit-theorem">4.3 The Central limit theorem</a></li>
-          <li><a href="#44-the-scope-of-the-normal-approximation" id="markdown-toc-44-the-scope-of-the-normal-approximation">4.4 The scope of the normal approximation</a></li>
+          <li><a href="#44-why-you-shouldnt-gamble" id="markdown-toc-44-why-you-shouldnt-gamble">4.4 Why you shouldn’t gamble</a></li>
+          <li><a href="#45-the-scope-of-the-normal-approximation" id="markdown-toc-45-the-scope-of-the-normal-approximation">4.5 The scope of the normal approximation</a></li>
         </ul>
       </li>
       <li><a href="#5-the-accuracy-of-simple-random-samples" id="markdown-toc-5-the-accuracy-of-simple-random-samples">5 the accuracy of simple random samples</a>        <ul>
@@ -879,17 +880,127 @@ standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
 
 <h4 id="42-probabilities-for-the-sum-of-a-large-sample">4.2 Probabilities for the sum of a large sample</h4>
 
+<p><img src="/images/Binomial_property.png" alt="" /></p>
+
+<ul>
+  <li>de Moivre - Laplace Theorem
+    <ul>
+      <li>Fix any p strictly between 0 and 1. As the number of trials n increases, the probability histogram for the binomial distribution looks like the nomrla curve with mean np and SD sqrt(np(1-p))</li>
+    </ul>
+  </li>
+</ul>
+
 <h4 id="43-the-central-limit-theorem">4.3 The Central limit theorem</h4>
 
-<h4 id="44-the-scope-of-the-normal-approximation">4.4 The scope of the normal approximation</h4>
+<ul>
+  <li>Central limit theorem
+    <ul>
+      <li>Rough statment, in English: The probability histogram for the sum of a large number of draws at random with replacement from a box of numbered tickets is approximately normal, regardless of the contents of the box</li>
+      <li>Rough statment, in math language: Let X1, X2, …, Xn be independent and identically distributed, each with expected value μ and standard error σ. Let Sn = X1 + X2 + … + Xn. Then for large n, the probability distribution of Sn is approximately normal with mean nμ and SD sqrt(n)σ, no matter what the distribution of each Xi.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="44-why-you-shouldnt-gamble">4.4 Why you shouldn’t gamble</h4>
+
+<ul>
+  <li>Better to use the exact binomial</li>
+</ul>
+
+<h4 id="45-the-scope-of-the-normal-approximation">4.5 The scope of the normal approximation</h4>
+
+<ul>
+  <li>It takes lots of draws for the probability histogram for the sum to start looking normal if the contents of the box
+    <ul>
+      <li>are far from symmetric, for exaple skewed</li>
+      <li>have a histogram that has gaps</li>
+    </ul>
+  </li>
+  <li>Practical advice: Calculate expected value ± 3SE and check whether you are hitting impossible values for the variable
+    <ul>
+      <li>if you are, the don’t use the normal approximation</li>
+      <li>If you are not, then go ahead, but be aware that it still might not be great …</li>
+    </ul>
+  </li>
+</ul>
 
 <h3 id="5-the-accuracy-of-simple-random-samples">5 the accuracy of simple random samples</h3>
 
 <h4 id="51-errors-in-random-percents-and-averages">5.1 Errors in random percents and averages</h4>
 
+<ul>
+  <li>Accuracy of sample average
+    <ul>
+      <li>population: list of numbers</li>
+      <li>n draws at random with replacement from a population that has mean μ and SD σ</li>
+      <li>S = sample sum
+        <ul>
+          <li>E(S) = nμ</li>
+          <li>SE(S) = sqrt(n)σ</li>
+          <li>CLT: If n is large, the distribution of S is roughly normal</li>
+        </ul>
+      </li>
+      <li>M = sample mean = S/n
+        <ul>
+          <li>E(M) = E(S/n) = nμ/n = μ</li>
+          <li>SE(M) = SE(S/n) = sqrt(n)σ/n = σ/sqrt(n)</li>
+          <li>CLT: If n is large, the distribution of M is roughly normal</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 <h4 id="52-sampling-without-replacement-the-correction-factor">5.2 Sampling without replacement: the correction factor</h4>
 
+<ul>
+  <li>populations: list of N numbers; mean μ and SD σ</li>
+  <li>simple ramdom sample of n of these numbers <strong>without replacement</strong></li>
+  <li>S = sample sum
+    <ul>
+      <li>E(S) = nμ</li>
+      <li>SE(S) = sqrt(n)σ * sqrt(N-n/N-1)</li>
+    </ul>
+  </li>
+  <li>M = sample mean
+    <ul>
+      <li>E(M) = μ * sqrt(N-n/N-1)</li>
+    </ul>
+  </li>
+  <li>sqrt(N-n/N-1), which is a correction factor (finite population correction), &lt;1</li>
+  <li>When population size N is very large and random sample size n is relatively small, sqrt(N-n/N-1) ≈ 1, so sampling <strong>without</strong> replacement is almost the same as sampling <strong>with</strong> replacement.</li>
+</ul>
+
+<p>Central Limit Theorem (sort of )</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Consider a population of size N, with mean μ and SD σ.
+Draw a simple random sample of size n.
+Then, if n is large in absolute terms but small relative to N:
+- the distribution of the sample sum is roughly normal with mean nμ and SE approximately sqrt(n)σ
+- the distribution of the sample mean is roughly normal with mean μ and SE approximately σ/sqrt(n)
+regardless of the distribution of the population
+</code></pre>
+</div>
+
+<ul>
+  <li>Why didn’t we use the correction factor?
+    <ul>
+      <li>We don’t have the population size, but we know it’s so big that correction factor will be close to 1.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/images/hypergenometic_sample.png" alt="" /></p>
+
 <h4 id="53-accuracy">5.3 Accuracy</h4>
+
+<ul>
+  <li>Square Root law
+    <ul>
+      <li>If you multiply the sample size by a factor, the accuracy goes up by the square root of the factor</li>
+    </ul>
+  </li>
+</ul>
 
 <h2 id="stat23-inference">Stat2.3 Inference</h2>
 

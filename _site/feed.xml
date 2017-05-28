@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 May 2017 16:52:14 +1000</pubDate>
-    <lastBuildDate>Fri, 26 May 2017 16:52:14 +1000</lastBuildDate>
+    <pubDate>Sun, 28 May 2017 16:10:16 +1000</pubDate>
+    <lastBuildDate>Sun, 28 May 2017 16:10:16 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -101,7 +101,8 @@
           &lt;li&gt;&lt;a href=&quot;#41-the-standard-error-of-a-random-sum&quot; id=&quot;markdown-toc-41-the-standard-error-of-a-random-sum&quot;&gt;4.1 The standard error of a random sum&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#42-probabilities-for-the-sum-of-a-large-sample&quot; id=&quot;markdown-toc-42-probabilities-for-the-sum-of-a-large-sample&quot;&gt;4.2 Probabilities for the sum of a large sample&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#43-the-central-limit-theorem&quot; id=&quot;markdown-toc-43-the-central-limit-theorem&quot;&gt;4.3 The Central limit theorem&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#44-the-scope-of-the-normal-approximation&quot; id=&quot;markdown-toc-44-the-scope-of-the-normal-approximation&quot;&gt;4.4 The scope of the normal approximation&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#44-why-you-shouldnt-gamble&quot; id=&quot;markdown-toc-44-why-you-shouldnt-gamble&quot;&gt;4.4 Why you shouldn’t gamble&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#45-the-scope-of-the-normal-approximation&quot; id=&quot;markdown-toc-45-the-scope-of-the-normal-approximation&quot;&gt;4.5 The scope of the normal approximation&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#5-the-accuracy-of-simple-random-samples&quot; id=&quot;markdown-toc-5-the-accuracy-of-simple-random-samples&quot;&gt;5 the accuracy of simple random samples&lt;/a&gt;        &lt;ul&gt;
@@ -815,17 +816,127 @@ standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
 
 &lt;h4 id=&quot;42-probabilities-for-the-sum-of-a-large-sample&quot;&gt;4.2 Probabilities for the sum of a large sample&lt;/h4&gt;
 
+&lt;p&gt;&lt;img src=&quot;/images/Binomial_property.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;de Moivre - Laplace Theorem
+    &lt;ul&gt;
+      &lt;li&gt;Fix any p strictly between 0 and 1. As the number of trials n increases, the probability histogram for the binomial distribution looks like the nomrla curve with mean np and SD sqrt(np(1-p))&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;43-the-central-limit-theorem&quot;&gt;4.3 The Central limit theorem&lt;/h4&gt;
 
-&lt;h4 id=&quot;44-the-scope-of-the-normal-approximation&quot;&gt;4.4 The scope of the normal approximation&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Central limit theorem
+    &lt;ul&gt;
+      &lt;li&gt;Rough statment, in English: The probability histogram for the sum of a large number of draws at random with replacement from a box of numbered tickets is approximately normal, regardless of the contents of the box&lt;/li&gt;
+      &lt;li&gt;Rough statment, in math language: Let X1, X2, …, Xn be independent and identically distributed, each with expected value μ and standard error σ. Let Sn = X1 + X2 + … + Xn. Then for large n, the probability distribution of Sn is approximately normal with mean nμ and SD sqrt(n)σ, no matter what the distribution of each Xi.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;44-why-you-shouldnt-gamble&quot;&gt;4.4 Why you shouldn’t gamble&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Better to use the exact binomial&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;45-the-scope-of-the-normal-approximation&quot;&gt;4.5 The scope of the normal approximation&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It takes lots of draws for the probability histogram for the sum to start looking normal if the contents of the box
+    &lt;ul&gt;
+      &lt;li&gt;are far from symmetric, for exaple skewed&lt;/li&gt;
+      &lt;li&gt;have a histogram that has gaps&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Practical advice: Calculate expected value ± 3SE and check whether you are hitting impossible values for the variable
+    &lt;ul&gt;
+      &lt;li&gt;if you are, the don’t use the normal approximation&lt;/li&gt;
+      &lt;li&gt;If you are not, then go ahead, but be aware that it still might not be great …&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;5-the-accuracy-of-simple-random-samples&quot;&gt;5 the accuracy of simple random samples&lt;/h3&gt;
 
 &lt;h4 id=&quot;51-errors-in-random-percents-and-averages&quot;&gt;5.1 Errors in random percents and averages&lt;/h4&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;Accuracy of sample average
+    &lt;ul&gt;
+      &lt;li&gt;population: list of numbers&lt;/li&gt;
+      &lt;li&gt;n draws at random with replacement from a population that has mean μ and SD σ&lt;/li&gt;
+      &lt;li&gt;S = sample sum
+        &lt;ul&gt;
+          &lt;li&gt;E(S) = nμ&lt;/li&gt;
+          &lt;li&gt;SE(S) = sqrt(n)σ&lt;/li&gt;
+          &lt;li&gt;CLT: If n is large, the distribution of S is roughly normal&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;M = sample mean = S/n
+        &lt;ul&gt;
+          &lt;li&gt;E(M) = E(S/n) = nμ/n = μ&lt;/li&gt;
+          &lt;li&gt;SE(M) = SE(S/n) = sqrt(n)σ/n = σ/sqrt(n)&lt;/li&gt;
+          &lt;li&gt;CLT: If n is large, the distribution of M is roughly normal&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;52-sampling-without-replacement-the-correction-factor&quot;&gt;5.2 Sampling without replacement: the correction factor&lt;/h4&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;populations: list of N numbers; mean μ and SD σ&lt;/li&gt;
+  &lt;li&gt;simple ramdom sample of n of these numbers &lt;strong&gt;without replacement&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;S = sample sum
+    &lt;ul&gt;
+      &lt;li&gt;E(S) = nμ&lt;/li&gt;
+      &lt;li&gt;SE(S) = sqrt(n)σ * sqrt(N-n/N-1)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;M = sample mean
+    &lt;ul&gt;
+      &lt;li&gt;E(M) = μ * sqrt(N-n/N-1)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;sqrt(N-n/N-1), which is a correction factor (finite population correction), &amp;lt;1&lt;/li&gt;
+  &lt;li&gt;When population size N is very large and random sample size n is relatively small, sqrt(N-n/N-1) ≈ 1, so sampling &lt;strong&gt;without&lt;/strong&gt; replacement is almost the same as sampling &lt;strong&gt;with&lt;/strong&gt; replacement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Central Limit Theorem (sort of )&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Consider a population of size N, with mean μ and SD σ.
+Draw a simple random sample of size n.
+Then, if n is large in absolute terms but small relative to N:
+- the distribution of the sample sum is roughly normal with mean nμ and SE approximately sqrt(n)σ
+- the distribution of the sample mean is roughly normal with mean μ and SE approximately σ/sqrt(n)
+regardless of the distribution of the population
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Why didn’t we use the correction factor?
+    &lt;ul&gt;
+      &lt;li&gt;We don’t have the population size, but we know it’s so big that correction factor will be close to 1.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/hypergenometic_sample.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
 &lt;h4 id=&quot;53-accuracy&quot;&gt;5.3 Accuracy&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Square Root law
+    &lt;ul&gt;
+      &lt;li&gt;If you multiply the sample size by a factor, the accuracy goes up by the square root of the factor&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;stat23-inference&quot;&gt;Stat2.3 Inference&lt;/h2&gt;
 
