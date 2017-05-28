@@ -139,10 +139,10 @@ Because it uses the SD, not just the average.
 	- new SD = old SD
 - Multiplying by a constant
 	- new average = old average * constant
-	- new SD = old SD * |constant|
+	- new SD = old SD * abs(constant)
 - Linear transformations: new list = a * (old list) + b
 	- new average = a * (old average) + b
-	- new SD = |a| * (old SD)
+	- new SD = abs(a) * (old SD)
 - Standard units: the z-score
 	- z = (x - average)/SD
 	- x = z * SD + average
@@ -327,8 +327,8 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 
 #### 1.3 Multiplication rule
 
-- P(B|A): **conditional probability** of B, given that A has happened
-- Multiplication Rule: P(A and B) = P(A) * P(B|A) for all A, B
+- `P(B|A)`: **conditional probability** of B, given that A has happened
+- Multiplication Rule: `P(A and B) = P(A) * P(B|A)` for all A, B
 
 #### 1.4 Problem-solving techniques
 
@@ -365,7 +365,7 @@ P(A|bad)
 
 #### 2.1 Independence
 
-- Definition of conditional probability: P(A and B) = P(A) * P(B|A); P(B|A) = P(A and B)/P(A)
+- Definition of conditional probability: `P(A and B) = P(A) * P(B|A)`;` P(B|A) = P(A and B)/P(A)`
 - independent trials
 	- tosses of a coin
 	- rolls of a die
@@ -374,8 +374,8 @@ P(A|bad)
 	- cards dealt from a deck
 	- draws without replacement
 - Independent events
-	- Two events A and B are independent if P(B|A) = P(B|not A) = P`(B)
-	- P(A and B) = P(A) * P(B), if A and B are independent
+	- Two events A and B are independent if `P(B|A) = P(B|not A) = P(B)`
+	- `P(A and B) = P(A) * P(B)`, if A and B are independent
 
 #### 2.2 Sampling with replacement: the binomial formula（二项分布）
 
@@ -551,6 +551,53 @@ regardless of the distribution of the population
 
 ## Stat2.3 Inference
  
+### 1 Estimating unknown parameters
+
+#### 1.1 Random samples
+
+#### 1.2 Estimating population averages and percents
+
+#### 1.3 Approximate confidence intervals
+
+#### 1.4 Interpreting confidence intervals
+
+### 2 Testing Statistical Hypotheses
+
+#### 2.1 Testing hypotheses: terminology
+
+#### 2.2 Tests for a population proportion
+
+#### 2.3 Significance level and P-value
+
+#### 2.4 One tail or two?
+
+### 3 One-sample and two-sample tests
+
+#### 3.1 z-test for a population mean
+
+#### 3.2 t-test for a population mean
+
+#### 3.3 Testing for the difference between means
+
+#### 3.4 Testing for the difference between proportions
+
+### 4 Dependent Samples
+
+#### 4.1 Paired samples: parametric analysis
+
+#### 4.2 Paired samples: non-parametric analysis
+
+#### 4.3 Randomized experiments: method
+
+#### 4.4 Randomized experiments: justification
+
+### 5 Window to a wider world
+
+#### 5.1 Not everything's normal: chi-squared test
+
+#### 5.2 How Fisher used the chi-squared test
+
+#### 5.3 Chi-squared test for independence
 
 ## Appendix
 

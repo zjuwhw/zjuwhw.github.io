@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 May 2017 16:10:16 +1000</pubDate>
-    <lastBuildDate>Sun, 28 May 2017 16:10:16 +1000</lastBuildDate>
+    <pubDate>Sun, 28 May 2017 16:27:05 +1000</pubDate>
+    <lastBuildDate>Sun, 28 May 2017 16:27:05 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -113,7 +113,43 @@
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#stat23-inference&quot; id=&quot;markdown-toc-stat23-inference&quot;&gt;Stat2.3 Inference&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#stat23-inference&quot; id=&quot;markdown-toc-stat23-inference&quot;&gt;Stat2.3 Inference&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#1-estimating-unknown-parameters&quot; id=&quot;markdown-toc-1-estimating-unknown-parameters&quot;&gt;1 Estimating unknown parameters&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#11-random-samples&quot; id=&quot;markdown-toc-11-random-samples&quot;&gt;1.1 Random samples&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#12-estimating-population-averages-and-percents&quot; id=&quot;markdown-toc-12-estimating-population-averages-and-percents&quot;&gt;1.2 Estimating population averages and percents&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#13-approximate-confidence-intervals&quot; id=&quot;markdown-toc-13-approximate-confidence-intervals&quot;&gt;1.3 Approximate confidence intervals&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#14-interpreting-confidence-intervals&quot; id=&quot;markdown-toc-14-interpreting-confidence-intervals&quot;&gt;1.4 Interpreting confidence intervals&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#2-testing-statistical-hypotheses&quot; id=&quot;markdown-toc-2-testing-statistical-hypotheses&quot;&gt;2 Testing Statistical Hypotheses&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#21-testing-hypotheses-terminology&quot; id=&quot;markdown-toc-21-testing-hypotheses-terminology&quot;&gt;2.1 Testing hypotheses: terminology&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#22-tests-for-a-population-proportion&quot; id=&quot;markdown-toc-22-tests-for-a-population-proportion&quot;&gt;2.2 Tests for a population proportion&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#23-significance-level-and-p-value&quot; id=&quot;markdown-toc-23-significance-level-and-p-value&quot;&gt;2.3 Significance level and P-value&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#24-one-tail-or-two&quot; id=&quot;markdown-toc-24-one-tail-or-two&quot;&gt;2.4 One tail or two?&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#3-one-sample-and-two-sample-tests&quot; id=&quot;markdown-toc-3-one-sample-and-two-sample-tests&quot;&gt;3 One-sample and two-sample tests&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#31-z-test-for-a-population-mean&quot; id=&quot;markdown-toc-31-z-test-for-a-population-mean&quot;&gt;3.1 z-test for a population mean&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#32-t-test-for-a-population-mean&quot; id=&quot;markdown-toc-32-t-test-for-a-population-mean&quot;&gt;3.2 t-test for a population mean&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#33-testing-for-the-difference-between-means&quot; id=&quot;markdown-toc-33-testing-for-the-difference-between-means&quot;&gt;3.3 Testing for the difference between means&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#34-testing-for-the-difference-between-proportions&quot; id=&quot;markdown-toc-34-testing-for-the-difference-between-proportions&quot;&gt;3.4 Testing for the difference between proportions&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#4-dependent-samples&quot; id=&quot;markdown-toc-4-dependent-samples&quot;&gt;4 Dependent Samples&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#41-paired-samples-parametric-analysis&quot; id=&quot;markdown-toc-41-paired-samples-parametric-analysis&quot;&gt;4.1 Paired samples: parametric analysis&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#42-paired-samples-non-parametric-analysis&quot; id=&quot;markdown-toc-42-paired-samples-non-parametric-analysis&quot;&gt;4.2 Paired samples: non-parametric analysis&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#43-randomized-experiments-method&quot; id=&quot;markdown-toc-43-randomized-experiments-method&quot;&gt;4.3 Randomized experiments: method&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#44-randomized-experiments-justification&quot; id=&quot;markdown-toc-44-randomized-experiments-justification&quot;&gt;4.4 Randomized experiments: justification&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#5-window-to-a-wider-world&quot; id=&quot;markdown-toc-5-window-to-a-wider-world&quot;&gt;5 Window to a wider world&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#51-not-everythings-normal-chi-squared-test&quot; id=&quot;markdown-toc-51-not-everythings-normal-chi-squared-test&quot;&gt;5.1 Not everything’s normal: chi-squared test&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#52-how-fisher-used-the-chi-squared-test&quot; id=&quot;markdown-toc-52-how-fisher-used-the-chi-squared-test&quot;&gt;5.2 How Fisher used the chi-squared test&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#53-chi-squared-test-for-independence&quot; id=&quot;markdown-toc-53-chi-squared-test-for-independence&quot;&gt;5.3 Chi-squared test for independence&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#appendix&quot; id=&quot;markdown-toc-appendix&quot;&gt;Appendix&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#appendix-1--the-greek-symbols&quot; id=&quot;markdown-toc-appendix-1--the-greek-symbols&quot;&gt;Appendix 1 : The Greek Symbols&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#appendix-2--common-distribution&quot; id=&quot;markdown-toc-appendix-2--common-distribution&quot;&gt;Appendix 2 : Common Distribution&lt;/a&gt;&lt;/li&gt;
@@ -292,32 +328,13 @@ Because it uses the SD, not just the average.
   &lt;li&gt;Multiplying by a constant
     &lt;ul&gt;
       &lt;li&gt;new average = old average * constant&lt;/li&gt;
-      &lt;li&gt;
-        &lt;table&gt;
-          &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;new SD = old SD *&lt;/td&gt;
-              &lt;td&gt;constant&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
-      &lt;/li&gt;
+      &lt;li&gt;new SD = old SD * abs(constant)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Linear transformations: new list = a * (old list) + b
     &lt;ul&gt;
       &lt;li&gt;new average = a * (old average) + b&lt;/li&gt;
-      &lt;li&gt;
-        &lt;table&gt;
-          &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;new SD =&lt;/td&gt;
-              &lt;td&gt;a&lt;/td&gt;
-              &lt;td&gt;* (old SD)&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
-      &lt;/li&gt;
+      &lt;li&gt;new SD = abs(a) * (old SD)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Standard units: the z-score
@@ -582,26 +599,8 @@ In R, the expression is &quot;pnorm(0) - pnorm(-1.33)&quot;
 &lt;h4 id=&quot;13-multiplication-rule&quot;&gt;1.3 Multiplication rule&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;P(B&lt;/td&gt;
-          &lt;td&gt;A): &lt;strong&gt;conditional probability&lt;/strong&gt; of B, given that A has happened&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Multiplication Rule: P(A and B) = P(A) * P(B&lt;/td&gt;
-          &lt;td&gt;A) for all A, B&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;P(B|A)&lt;/code&gt;: &lt;strong&gt;conditional probability&lt;/strong&gt; of B, given that A has happened&lt;/li&gt;
+  &lt;li&gt;Multiplication Rule: &lt;code class=&quot;highlighter-rouge&quot;&gt;P(A and B) = P(A) * P(B|A)&lt;/code&gt; for all A, B&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;14-problem-solving-techniques&quot;&gt;1.4 Problem-solving techniques&lt;/h4&gt;
@@ -647,17 +646,7 @@ P(A|bad)
 &lt;h4 id=&quot;21-independence&quot;&gt;2.1 Independence&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Definition of conditional probability: P(A and B) = P(A) * P(B&lt;/td&gt;
-          &lt;td&gt;A); P(B&lt;/td&gt;
-          &lt;td&gt;A) = P(A and B)/P(A)&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Definition of conditional probability: &lt;code class=&quot;highlighter-rouge&quot;&gt;P(A and B) = P(A) * P(B|A)&lt;/code&gt;;&lt;code class=&quot;highlighter-rouge&quot;&gt; P(B|A) = P(A and B)/P(A)&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;independent trials
     &lt;ul&gt;
       &lt;li&gt;tosses of a coin&lt;/li&gt;
@@ -673,18 +662,8 @@ P(A|bad)
   &lt;/li&gt;
   &lt;li&gt;Independent events
     &lt;ul&gt;
-      &lt;li&gt;
-        &lt;table&gt;
-          &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;Two events A and B are independent if P(B&lt;/td&gt;
-              &lt;td&gt;A) = P(B&lt;/td&gt;
-              &lt;td&gt;not A) = P`(B)&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
-      &lt;/li&gt;
-      &lt;li&gt;P(A and B) = P(A) * P(B), if A and B are independent&lt;/li&gt;
+      &lt;li&gt;Two events A and B are independent if &lt;code class=&quot;highlighter-rouge&quot;&gt;P(B|A) = P(B|not A) = P(B)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;P(A and B) = P(A) * P(B)&lt;/code&gt;, if A and B are independent&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -939,6 +918,54 @@ regardless of the distribution of the population
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;stat23-inference&quot;&gt;Stat2.3 Inference&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-estimating-unknown-parameters&quot;&gt;1 Estimating unknown parameters&lt;/h3&gt;
+
+&lt;h4 id=&quot;11-random-samples&quot;&gt;1.1 Random samples&lt;/h4&gt;
+
+&lt;h4 id=&quot;12-estimating-population-averages-and-percents&quot;&gt;1.2 Estimating population averages and percents&lt;/h4&gt;
+
+&lt;h4 id=&quot;13-approximate-confidence-intervals&quot;&gt;1.3 Approximate confidence intervals&lt;/h4&gt;
+
+&lt;h4 id=&quot;14-interpreting-confidence-intervals&quot;&gt;1.4 Interpreting confidence intervals&lt;/h4&gt;
+
+&lt;h3 id=&quot;2-testing-statistical-hypotheses&quot;&gt;2 Testing Statistical Hypotheses&lt;/h3&gt;
+
+&lt;h4 id=&quot;21-testing-hypotheses-terminology&quot;&gt;2.1 Testing hypotheses: terminology&lt;/h4&gt;
+
+&lt;h4 id=&quot;22-tests-for-a-population-proportion&quot;&gt;2.2 Tests for a population proportion&lt;/h4&gt;
+
+&lt;h4 id=&quot;23-significance-level-and-p-value&quot;&gt;2.3 Significance level and P-value&lt;/h4&gt;
+
+&lt;h4 id=&quot;24-one-tail-or-two&quot;&gt;2.4 One tail or two?&lt;/h4&gt;
+
+&lt;h3 id=&quot;3-one-sample-and-two-sample-tests&quot;&gt;3 One-sample and two-sample tests&lt;/h3&gt;
+
+&lt;h4 id=&quot;31-z-test-for-a-population-mean&quot;&gt;3.1 z-test for a population mean&lt;/h4&gt;
+
+&lt;h4 id=&quot;32-t-test-for-a-population-mean&quot;&gt;3.2 t-test for a population mean&lt;/h4&gt;
+
+&lt;h4 id=&quot;33-testing-for-the-difference-between-means&quot;&gt;3.3 Testing for the difference between means&lt;/h4&gt;
+
+&lt;h4 id=&quot;34-testing-for-the-difference-between-proportions&quot;&gt;3.4 Testing for the difference between proportions&lt;/h4&gt;
+
+&lt;h3 id=&quot;4-dependent-samples&quot;&gt;4 Dependent Samples&lt;/h3&gt;
+
+&lt;h4 id=&quot;41-paired-samples-parametric-analysis&quot;&gt;4.1 Paired samples: parametric analysis&lt;/h4&gt;
+
+&lt;h4 id=&quot;42-paired-samples-non-parametric-analysis&quot;&gt;4.2 Paired samples: non-parametric analysis&lt;/h4&gt;
+
+&lt;h4 id=&quot;43-randomized-experiments-method&quot;&gt;4.3 Randomized experiments: method&lt;/h4&gt;
+
+&lt;h4 id=&quot;44-randomized-experiments-justification&quot;&gt;4.4 Randomized experiments: justification&lt;/h4&gt;
+
+&lt;h3 id=&quot;5-window-to-a-wider-world&quot;&gt;5 Window to a wider world&lt;/h3&gt;
+
+&lt;h4 id=&quot;51-not-everythings-normal-chi-squared-test&quot;&gt;5.1 Not everything’s normal: chi-squared test&lt;/h4&gt;
+
+&lt;h4 id=&quot;52-how-fisher-used-the-chi-squared-test&quot;&gt;5.2 How Fisher used the chi-squared test&lt;/h4&gt;
+
+&lt;h4 id=&quot;53-chi-squared-test-for-independence&quot;&gt;5.3 Chi-squared test for independence&lt;/h4&gt;
 
 &lt;h2 id=&quot;appendix&quot;&gt;Appendix&lt;/h2&gt;
 

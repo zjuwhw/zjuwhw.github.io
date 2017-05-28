@@ -177,7 +177,43 @@
       </li>
     </ul>
   </li>
-  <li><a href="#stat23-inference" id="markdown-toc-stat23-inference">Stat2.3 Inference</a></li>
+  <li><a href="#stat23-inference" id="markdown-toc-stat23-inference">Stat2.3 Inference</a>    <ul>
+      <li><a href="#1-estimating-unknown-parameters" id="markdown-toc-1-estimating-unknown-parameters">1 Estimating unknown parameters</a>        <ul>
+          <li><a href="#11-random-samples" id="markdown-toc-11-random-samples">1.1 Random samples</a></li>
+          <li><a href="#12-estimating-population-averages-and-percents" id="markdown-toc-12-estimating-population-averages-and-percents">1.2 Estimating population averages and percents</a></li>
+          <li><a href="#13-approximate-confidence-intervals" id="markdown-toc-13-approximate-confidence-intervals">1.3 Approximate confidence intervals</a></li>
+          <li><a href="#14-interpreting-confidence-intervals" id="markdown-toc-14-interpreting-confidence-intervals">1.4 Interpreting confidence intervals</a></li>
+        </ul>
+      </li>
+      <li><a href="#2-testing-statistical-hypotheses" id="markdown-toc-2-testing-statistical-hypotheses">2 Testing Statistical Hypotheses</a>        <ul>
+          <li><a href="#21-testing-hypotheses-terminology" id="markdown-toc-21-testing-hypotheses-terminology">2.1 Testing hypotheses: terminology</a></li>
+          <li><a href="#22-tests-for-a-population-proportion" id="markdown-toc-22-tests-for-a-population-proportion">2.2 Tests for a population proportion</a></li>
+          <li><a href="#23-significance-level-and-p-value" id="markdown-toc-23-significance-level-and-p-value">2.3 Significance level and P-value</a></li>
+          <li><a href="#24-one-tail-or-two" id="markdown-toc-24-one-tail-or-two">2.4 One tail or two?</a></li>
+        </ul>
+      </li>
+      <li><a href="#3-one-sample-and-two-sample-tests" id="markdown-toc-3-one-sample-and-two-sample-tests">3 One-sample and two-sample tests</a>        <ul>
+          <li><a href="#31-z-test-for-a-population-mean" id="markdown-toc-31-z-test-for-a-population-mean">3.1 z-test for a population mean</a></li>
+          <li><a href="#32-t-test-for-a-population-mean" id="markdown-toc-32-t-test-for-a-population-mean">3.2 t-test for a population mean</a></li>
+          <li><a href="#33-testing-for-the-difference-between-means" id="markdown-toc-33-testing-for-the-difference-between-means">3.3 Testing for the difference between means</a></li>
+          <li><a href="#34-testing-for-the-difference-between-proportions" id="markdown-toc-34-testing-for-the-difference-between-proportions">3.4 Testing for the difference between proportions</a></li>
+        </ul>
+      </li>
+      <li><a href="#4-dependent-samples" id="markdown-toc-4-dependent-samples">4 Dependent Samples</a>        <ul>
+          <li><a href="#41-paired-samples-parametric-analysis" id="markdown-toc-41-paired-samples-parametric-analysis">4.1 Paired samples: parametric analysis</a></li>
+          <li><a href="#42-paired-samples-non-parametric-analysis" id="markdown-toc-42-paired-samples-non-parametric-analysis">4.2 Paired samples: non-parametric analysis</a></li>
+          <li><a href="#43-randomized-experiments-method" id="markdown-toc-43-randomized-experiments-method">4.3 Randomized experiments: method</a></li>
+          <li><a href="#44-randomized-experiments-justification" id="markdown-toc-44-randomized-experiments-justification">4.4 Randomized experiments: justification</a></li>
+        </ul>
+      </li>
+      <li><a href="#5-window-to-a-wider-world" id="markdown-toc-5-window-to-a-wider-world">5 Window to a wider world</a>        <ul>
+          <li><a href="#51-not-everythings-normal-chi-squared-test" id="markdown-toc-51-not-everythings-normal-chi-squared-test">5.1 Not everything’s normal: chi-squared test</a></li>
+          <li><a href="#52-how-fisher-used-the-chi-squared-test" id="markdown-toc-52-how-fisher-used-the-chi-squared-test">5.2 How Fisher used the chi-squared test</a></li>
+          <li><a href="#53-chi-squared-test-for-independence" id="markdown-toc-53-chi-squared-test-for-independence">5.3 Chi-squared test for independence</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
   <li><a href="#appendix" id="markdown-toc-appendix">Appendix</a>    <ul>
       <li><a href="#appendix-1--the-greek-symbols" id="markdown-toc-appendix-1--the-greek-symbols">Appendix 1 : The Greek Symbols</a></li>
       <li><a href="#appendix-2--common-distribution" id="markdown-toc-appendix-2--common-distribution">Appendix 2 : Common Distribution</a></li>
@@ -356,32 +392,13 @@ Because it uses the SD, not just the average.
   <li>Multiplying by a constant
     <ul>
       <li>new average = old average * constant</li>
-      <li>
-        <table>
-          <tbody>
-            <tr>
-              <td>new SD = old SD *</td>
-              <td>constant</td>
-            </tr>
-          </tbody>
-        </table>
-      </li>
+      <li>new SD = old SD * abs(constant)</li>
     </ul>
   </li>
   <li>Linear transformations: new list = a * (old list) + b
     <ul>
       <li>new average = a * (old average) + b</li>
-      <li>
-        <table>
-          <tbody>
-            <tr>
-              <td>new SD =</td>
-              <td>a</td>
-              <td>* (old SD)</td>
-            </tr>
-          </tbody>
-        </table>
-      </li>
+      <li>new SD = abs(a) * (old SD)</li>
     </ul>
   </li>
   <li>Standard units: the z-score
@@ -646,26 +663,8 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 <h4 id="13-multiplication-rule">1.3 Multiplication rule</h4>
 
 <ul>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>P(B</td>
-          <td>A): <strong>conditional probability</strong> of B, given that A has happened</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Multiplication Rule: P(A and B) = P(A) * P(B</td>
-          <td>A) for all A, B</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
+  <li><code class="highlighter-rouge">P(B|A)</code>: <strong>conditional probability</strong> of B, given that A has happened</li>
+  <li>Multiplication Rule: <code class="highlighter-rouge">P(A and B) = P(A) * P(B|A)</code> for all A, B</li>
 </ul>
 
 <h4 id="14-problem-solving-techniques">1.4 Problem-solving techniques</h4>
@@ -711,17 +710,7 @@ P(A|bad)
 <h4 id="21-independence">2.1 Independence</h4>
 
 <ul>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Definition of conditional probability: P(A and B) = P(A) * P(B</td>
-          <td>A); P(B</td>
-          <td>A) = P(A and B)/P(A)</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
+  <li>Definition of conditional probability: <code class="highlighter-rouge">P(A and B) = P(A) * P(B|A)</code>;<code class="highlighter-rouge"> P(B|A) = P(A and B)/P(A)</code></li>
   <li>independent trials
     <ul>
       <li>tosses of a coin</li>
@@ -737,18 +726,8 @@ P(A|bad)
   </li>
   <li>Independent events
     <ul>
-      <li>
-        <table>
-          <tbody>
-            <tr>
-              <td>Two events A and B are independent if P(B</td>
-              <td>A) = P(B</td>
-              <td>not A) = P`(B)</td>
-            </tr>
-          </tbody>
-        </table>
-      </li>
-      <li>P(A and B) = P(A) * P(B), if A and B are independent</li>
+      <li>Two events A and B are independent if <code class="highlighter-rouge">P(B|A) = P(B|not A) = P(B)</code></li>
+      <li><code class="highlighter-rouge">P(A and B) = P(A) * P(B)</code>, if A and B are independent</li>
     </ul>
   </li>
 </ul>
@@ -1003,6 +982,54 @@ regardless of the distribution of the population
 </ul>
 
 <h2 id="stat23-inference">Stat2.3 Inference</h2>
+
+<h3 id="1-estimating-unknown-parameters">1 Estimating unknown parameters</h3>
+
+<h4 id="11-random-samples">1.1 Random samples</h4>
+
+<h4 id="12-estimating-population-averages-and-percents">1.2 Estimating population averages and percents</h4>
+
+<h4 id="13-approximate-confidence-intervals">1.3 Approximate confidence intervals</h4>
+
+<h4 id="14-interpreting-confidence-intervals">1.4 Interpreting confidence intervals</h4>
+
+<h3 id="2-testing-statistical-hypotheses">2 Testing Statistical Hypotheses</h3>
+
+<h4 id="21-testing-hypotheses-terminology">2.1 Testing hypotheses: terminology</h4>
+
+<h4 id="22-tests-for-a-population-proportion">2.2 Tests for a population proportion</h4>
+
+<h4 id="23-significance-level-and-p-value">2.3 Significance level and P-value</h4>
+
+<h4 id="24-one-tail-or-two">2.4 One tail or two?</h4>
+
+<h3 id="3-one-sample-and-two-sample-tests">3 One-sample and two-sample tests</h3>
+
+<h4 id="31-z-test-for-a-population-mean">3.1 z-test for a population mean</h4>
+
+<h4 id="32-t-test-for-a-population-mean">3.2 t-test for a population mean</h4>
+
+<h4 id="33-testing-for-the-difference-between-means">3.3 Testing for the difference between means</h4>
+
+<h4 id="34-testing-for-the-difference-between-proportions">3.4 Testing for the difference between proportions</h4>
+
+<h3 id="4-dependent-samples">4 Dependent Samples</h3>
+
+<h4 id="41-paired-samples-parametric-analysis">4.1 Paired samples: parametric analysis</h4>
+
+<h4 id="42-paired-samples-non-parametric-analysis">4.2 Paired samples: non-parametric analysis</h4>
+
+<h4 id="43-randomized-experiments-method">4.3 Randomized experiments: method</h4>
+
+<h4 id="44-randomized-experiments-justification">4.4 Randomized experiments: justification</h4>
+
+<h3 id="5-window-to-a-wider-world">5 Window to a wider world</h3>
+
+<h4 id="51-not-everythings-normal-chi-squared-test">5.1 Not everything’s normal: chi-squared test</h4>
+
+<h4 id="52-how-fisher-used-the-chi-squared-test">5.2 How Fisher used the chi-squared test</h4>
+
+<h4 id="53-chi-squared-test-for-independence">5.3 Chi-squared test for independence</h4>
 
 <h2 id="appendix">Appendix</h2>
 
