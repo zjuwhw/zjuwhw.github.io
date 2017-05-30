@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 May 2017 18:58:09 +1000</pubDate>
-    <lastBuildDate>Tue, 30 May 2017 18:58:09 +1000</lastBuildDate>
+    <pubDate>Tue, 30 May 2017 21:00:02 +1000</pubDate>
+    <lastBuildDate>Tue, 30 May 2017 21:00:02 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -153,6 +153,7 @@
   &lt;li&gt;&lt;a href=&quot;#appendix&quot; id=&quot;markdown-toc-appendix&quot;&gt;Appendix&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#appendix-1--the-greek-symbols&quot; id=&quot;markdown-toc-appendix-1--the-greek-symbols&quot;&gt;Appendix 1 : The Greek Symbols&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#appendix-2--common-distribution&quot; id=&quot;markdown-toc-appendix-2--common-distribution&quot;&gt;Appendix 2 : Common Distribution&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#appendix-3-how-to-choose-statistical-test&quot; id=&quot;markdown-toc-appendix-3-how-to-choose-statistical-test&quot;&gt;Appendix 3: how to choose statistical test&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -994,7 +995,65 @@ regardless of the distribution of the population
 
 &lt;h4 id=&quot;22-tests-for-a-population-proportion&quot;&gt;2.2 Tests for a population proportion&lt;/h4&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;Testing for a binomial p&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Genetic theory: each plant has a 25% chance of being red-flowering.
+Experiment data: 400 plants of this species; 88 are red-flowering
+Question: Is the theory good, or are ther two few red?
+Answer:
+n=400; H0:p=0.25; H1:p&amp;lt;0.25
+
+exact binomial test:
+P(k&amp;lt;=88)=9.08%
+
+one-sample z test:
+approximately normal with mean 100 (400*0.25) and SD 8.66(sqrt(400*0.25*0.75))
+z = (88.5 - 100)/8.66 = -1.328
+P-value = 9.21%
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;h4 id=&quot;23-significance-level-and-p-value&quot;&gt;2.3 Significance level and P-value&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;H0: p = 0.5&lt;/li&gt;
+  &lt;li&gt;H1: p = 0.8&lt;/li&gt;
+  &lt;li&gt;experiments: coin will be tossed 20 times&lt;/li&gt;
+  &lt;li&gt;test: if the number of heads is 14 or more, choose H1; otherwise choose H0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;test concludes: p=0.5&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;test concludes: p=0.8&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;reality is 0.5&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;correct conclusion&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;type I error&lt;br /&gt;Probability: binomial, n=20, p=0.5, P(k&amp;gt;=14)=5.8% &lt;br /&gt; &lt;strong&gt;significance level&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;reality is 0.8&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;type II erro&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;correct conclusion&lt;br /&gt;Probability: binomial, n=20, p=0.8, P(k&amp;gt;=14)=91.3% &lt;br /&gt; &lt;strong&gt;power&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Two criteria for a good test
+    &lt;ul&gt;
+      &lt;li&gt;significance level = probability, under H0, that the test concludes H1 error probabilty, should be small&lt;/li&gt;
+      &lt;li&gt;power = Probability, under H1, that the test concludes H1 probability of correct conclusion, should be large&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;24-one-tail-or-two&quot;&gt;2.4 One tail or two?&lt;/h4&gt;
 
@@ -1002,7 +1061,65 @@ regardless of the distribution of the population
 
 &lt;h4 id=&quot;31-z-test-for-a-population-mean&quot;&gt;3.1 z-test for a population mean&lt;/h4&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;H0: μ = 69.5&lt;/li&gt;
+  &lt;li&gt;H1: μ &amp;lt; 69.5&lt;/li&gt;
+  &lt;li&gt;SRS: n=100, mean=69, sd=2.5&lt;/li&gt;
+  &lt;li&gt;If the null were true,&lt;/li&gt;
+  &lt;li&gt;expectd value of sample mean = 69.5&lt;/li&gt;
+  &lt;li&gt;SE of sample mean = population SD / sqrt(n) ≈ sample SD / sqrt(n) = 0.25&lt;/li&gt;
+  &lt;li&gt;z = (69-69.5)/0.25 = -2, P ≈ 2.5%&lt;/li&gt;
+  &lt;li&gt;Conclustion: Reject the null; μ &amp;lt; 69.5&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;32-t-test-for-a-population-mean&quot;&gt;3.2 t-test for a population mean&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;H0: μ = 30&lt;/li&gt;
+  &lt;li&gt;H1: μ &amp;gt; 30&lt;/li&gt;
+  &lt;li&gt;SRS: n=5, mean=31.56 (31.8, 30.9, 34.2, 32.1, 28.8)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sample is small; can’t apply Central Limit Theorem to the distribution fo the sample mean; can’t assume the probabilities for sample mean are normal.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If the null were true,&lt;/li&gt;
+  &lt;li&gt;expected value of sample mean = 30&lt;/li&gt;
+  &lt;li&gt;SE of sample mean = ??/sqrt(5)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;How to approximate ?? based on such a small sample?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Better estimate of unknown σ is a bit bigger&lt;/li&gt;
+  &lt;li&gt;SD of sample * sqrt(n/n-1)&lt;/li&gt;
+  &lt;li&gt;SE of sample mean = 1.94604/sqrt(5) = 0.877&lt;/li&gt;
+  &lt;li&gt;t = (31.56-30)/0.877 = 1.79&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;t distribution&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;close relative of z&lt;/li&gt;
+  &lt;li&gt;there are many t curves, one for each sample size&lt;/li&gt;
+  &lt;li&gt;degrees of freedom = n -1&lt;/li&gt;
+  &lt;li&gt;P = 7.2% &amp;gt; 5%&lt;/li&gt;
+  &lt;li&gt;Conclusion: Don’t reject null; belief that population mean = 30 isn’t bad&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One-sample t test: summary of method&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Test for a population mean (unknown SD); sample size n&lt;/li&gt;
+  &lt;li&gt;One-sample t test is just like one-sample z test for population mean&lt;/li&gt;
+  &lt;li&gt;Same null and alternative hypotheses, same calculation, except:
+    &lt;ul&gt;
+      &lt;li&gt;Assume population distribution roughly normal, unknown mean and SD&lt;/li&gt;
+      &lt;li&gt;Approximate unknown SD of population by sample SD, with n-1 in the denominator&lt;/li&gt;
+      &lt;li&gt;Use t curve, degrees of freedom = n-1&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;33-testing-for-the-difference-between-means&quot;&gt;3.3 Testing for the difference between means&lt;/h4&gt;
 
@@ -1043,6 +1160,12 @@ regardless of the distribution of the population
 &lt;p&gt;ps: pmf, probability mass function（概率质量函数）; pdf, probability density function（概率密度函数）; mgf, Moment-generating function（动差生成函数）&lt;/p&gt;
 
 &lt;p&gt;source: &lt;a href=&quot;http://www.stat.tamu.edu/~twehrly/611/distab.pdf&quot;&gt;http://www.stat.tamu.edu/~twehrly/611/distab.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;appendix-3-how-to-choose-statistical-test&quot;&gt;Appendix 3: how to choose statistical test&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/how-to-choose-statistic.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;source: &lt;a href=&quot;http://www.graphpad.com/support/faqid/1790/&quot;&gt;http://www.graphpad.com/support/faqid/1790/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 May 2017 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2017/05/09/Stats_MOOC.html</link>

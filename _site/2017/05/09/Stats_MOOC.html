@@ -217,6 +217,7 @@
   <li><a href="#appendix" id="markdown-toc-appendix">Appendix</a>    <ul>
       <li><a href="#appendix-1--the-greek-symbols" id="markdown-toc-appendix-1--the-greek-symbols">Appendix 1 : The Greek Symbols</a></li>
       <li><a href="#appendix-2--common-distribution" id="markdown-toc-appendix-2--common-distribution">Appendix 2 : Common Distribution</a></li>
+      <li><a href="#appendix-3-how-to-choose-statistical-test" id="markdown-toc-appendix-3-how-to-choose-statistical-test">Appendix 3: how to choose statistical test</a></li>
     </ul>
   </li>
 </ul>
@@ -1058,7 +1059,65 @@ regardless of the distribution of the population
 
 <h4 id="22-tests-for-a-population-proportion">2.2 Tests for a population proportion</h4>
 
+<ul>
+  <li>Testing for a binomial p</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Genetic theory: each plant has a 25% chance of being red-flowering.
+Experiment data: 400 plants of this species; 88 are red-flowering
+Question: Is the theory good, or are ther two few red?
+Answer:
+n=400; H0:p=0.25; H1:p&lt;0.25
+
+exact binomial test:
+P(k&lt;=88)=9.08%
+
+one-sample z test:
+approximately normal with mean 100 (400*0.25) and SD 8.66(sqrt(400*0.25*0.75))
+z = (88.5 - 100)/8.66 = -1.328
+P-value = 9.21%
+</code></pre>
+</div>
+
 <h4 id="23-significance-level-and-p-value">2.3 Significance level and P-value</h4>
+
+<ul>
+  <li>H0: p = 0.5</li>
+  <li>H1: p = 0.8</li>
+  <li>experiments: coin will be tossed 20 times</li>
+  <li>test: if the number of heads is 14 or more, choose H1; otherwise choose H0</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">test concludes: p=0.5</th>
+      <th style="text-align: left">test concludes: p=0.8</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">reality is 0.5</td>
+      <td style="text-align: left">correct conclusion</td>
+      <td style="text-align: left">type I error<br />Probability: binomial, n=20, p=0.5, P(k&gt;=14)=5.8% <br /> <strong>significance level</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">reality is 0.8</td>
+      <td style="text-align: left">type II erro</td>
+      <td style="text-align: left">correct conclusion<br />Probability: binomial, n=20, p=0.8, P(k&gt;=14)=91.3% <br /> <strong>power</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Two criteria for a good test
+    <ul>
+      <li>significance level = probability, under H0, that the test concludes H1 error probabilty, should be small</li>
+      <li>power = Probability, under H1, that the test concludes H1 probability of correct conclusion, should be large</li>
+    </ul>
+  </li>
+</ul>
 
 <h4 id="24-one-tail-or-two">2.4 One tail or two?</h4>
 
@@ -1066,7 +1125,65 @@ regardless of the distribution of the population
 
 <h4 id="31-z-test-for-a-population-mean">3.1 z-test for a population mean</h4>
 
+<ul>
+  <li>H0: μ = 69.5</li>
+  <li>H1: μ &lt; 69.5</li>
+  <li>SRS: n=100, mean=69, sd=2.5</li>
+  <li>If the null were true,</li>
+  <li>expectd value of sample mean = 69.5</li>
+  <li>SE of sample mean = population SD / sqrt(n) ≈ sample SD / sqrt(n) = 0.25</li>
+  <li>z = (69-69.5)/0.25 = -2, P ≈ 2.5%</li>
+  <li>Conclustion: Reject the null; μ &lt; 69.5</li>
+</ul>
+
 <h4 id="32-t-test-for-a-population-mean">3.2 t-test for a population mean</h4>
+
+<ul>
+  <li>H0: μ = 30</li>
+  <li>H1: μ &gt; 30</li>
+  <li>SRS: n=5, mean=31.56 (31.8, 30.9, 34.2, 32.1, 28.8)</li>
+</ul>
+
+<p>Sample is small; can’t apply Central Limit Theorem to the distribution fo the sample mean; can’t assume the probabilities for sample mean are normal.</p>
+
+<ul>
+  <li>If the null were true,</li>
+  <li>expected value of sample mean = 30</li>
+  <li>SE of sample mean = ??/sqrt(5)</li>
+</ul>
+
+<p>How to approximate ?? based on such a small sample?</p>
+
+<ul>
+  <li>Better estimate of unknown σ is a bit bigger</li>
+  <li>SD of sample * sqrt(n/n-1)</li>
+  <li>SE of sample mean = 1.94604/sqrt(5) = 0.877</li>
+  <li>t = (31.56-30)/0.877 = 1.79</li>
+</ul>
+
+<p>t distribution</p>
+
+<ul>
+  <li>close relative of z</li>
+  <li>there are many t curves, one for each sample size</li>
+  <li>degrees of freedom = n -1</li>
+  <li>P = 7.2% &gt; 5%</li>
+  <li>Conclusion: Don’t reject null; belief that population mean = 30 isn’t bad</li>
+</ul>
+
+<p>One-sample t test: summary of method</p>
+
+<ul>
+  <li>Test for a population mean (unknown SD); sample size n</li>
+  <li>One-sample t test is just like one-sample z test for population mean</li>
+  <li>Same null and alternative hypotheses, same calculation, except:
+    <ul>
+      <li>Assume population distribution roughly normal, unknown mean and SD</li>
+      <li>Approximate unknown SD of population by sample SD, with n-1 in the denominator</li>
+      <li>Use t curve, degrees of freedom = n-1</li>
+    </ul>
+  </li>
+</ul>
 
 <h4 id="33-testing-for-the-difference-between-means">3.3 Testing for the difference between means</h4>
 
@@ -1107,6 +1224,12 @@ regardless of the distribution of the population
 <p>ps: pmf, probability mass function（概率质量函数）; pdf, probability density function（概率密度函数）; mgf, Moment-generating function（动差生成函数）</p>
 
 <p>source: <a href="http://www.stat.tamu.edu/~twehrly/611/distab.pdf">http://www.stat.tamu.edu/~twehrly/611/distab.pdf</a></p>
+
+<h3 id="appendix-3-how-to-choose-statistical-test">Appendix 3: how to choose statistical test</h3>
+
+<p><img src="/images/how-to-choose-statistic.png" alt="" /></p>
+
+<p>source: <a href="http://www.graphpad.com/support/faqid/1790/">http://www.graphpad.com/support/faqid/1790/</a></p>
 
   </div>
 

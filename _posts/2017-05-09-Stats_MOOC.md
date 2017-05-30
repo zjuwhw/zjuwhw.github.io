@@ -601,7 +601,40 @@ regardless of the distribution of the population
 
 #### 2.2 Tests for a population proportion
 
+- Testing for a binomial p
+
+```
+Genetic theory: each plant has a 25% chance of being red-flowering.
+Experiment data: 400 plants of this species; 88 are red-flowering
+Question: Is the theory good, or are ther two few red?
+Answer:
+n=400; H0:p=0.25; H1:p<0.25
+
+exact binomial test:
+P(k<=88)=9.08%
+
+one-sample z test:
+approximately normal with mean 100 (400*0.25) and SD 8.66(sqrt(400*0.25*0.75))
+z = (88.5 - 100)/8.66 = -1.328
+P-value = 9.21%
+```
+
 #### 2.3 Significance level and P-value
+
+
+- H0: p = 0.5
+- H1: p = 0.8
+- experiments: coin will be tossed 20 times
+- test: if the number of heads is 14 or more, choose H1; otherwise choose H0
+
+||test concludes: p=0.5|test concludes: p=0.8|
+|:--|:--|:--|
+|reality is 0.5|correct conclusion|type I error<br>Probability: binomial, n=20, p=0.5, P(k>=14)=5.8% <br> **significance level**
+|reality is 0.8|type II erro|correct conclusion<br>Probability: binomial, n=20, p=0.8, P(k>=14)=91.3% <br> **power**
+
+- Two criteria for a good test
+	- significance level = probability, under H0, that the test concludes H1 error probabilty, should be small
+	- power = Probability, under H1, that the test concludes H1 probability of correct conclusion, should be large
 
 #### 2.4 One tail or two?
 
@@ -609,9 +642,54 @@ regardless of the distribution of the population
 
 #### 3.1 z-test for a population mean
 
+- H0: μ = 69.5
+- H1: μ < 69.5
+- SRS: n=100, mean=69, sd=2.5
+- If the null were true,
+- expectd value of sample mean = 69.5
+- SE of sample mean = population SD / sqrt(n) ≈ sample SD / sqrt(n) = 0.25
+- z = (69-69.5)/0.25 = -2, P ≈ 2.5%
+- Conclustion: Reject the null; μ < 69.5
+
 #### 3.2 t-test for a population mean
 
+- H0: μ = 30
+- H1: μ > 30
+- SRS: n=5, mean=31.56 (31.8, 30.9, 34.2, 32.1, 28.8)
+
+Sample is small; can't apply Central Limit Theorem to the distribution fo the sample mean; can't assume the probabilities for sample mean are normal.
+
+- If the null were true,
+- expected value of sample mean = 30
+- SE of sample mean = ??/sqrt(5)
+
+How to approximate ?? based on such a small sample?
+
+- Better estimate of unknown σ is a bit bigger
+- SD of sample * sqrt(n/n-1)
+- SE of sample mean = 1.94604/sqrt(5) = 0.877
+- t = (31.56-30)/0.877 = 1.79
+
+t distribution
+
+- close relative of z
+- there are many t curves, one for each sample size
+- degrees of freedom = n -1
+- P = 7.2% > 5%
+- Conclusion: Don't reject null; belief that population mean = 30 isn't bad
+
+One-sample t test: summary of method
+
+- Test for a population mean (unknown SD); sample size n
+- One-sample t test is just like one-sample z test for population mean
+- Same null and alternative hypotheses, same calculation, except:
+	- Assume population distribution roughly normal, unknown mean and SD
+	- Approximate unknown SD of population by sample SD, with n-1 in the denominator
+	- Use t curve, degrees of freedom = n-1
+
 #### 3.3 Testing for the difference between means
+
+
 
 #### 3.4 Testing for the difference between proportions
 
@@ -650,3 +728,9 @@ source: [https://zh.wikipedia.org/wiki/%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D](htt
 ps: pmf, probability mass function（概率质量函数）; pdf, probability density function（概率密度函数）; mgf, Moment-generating function（动差生成函数）
 
 source: [http://www.stat.tamu.edu/~twehrly/611/distab.pdf](http://www.stat.tamu.edu/~twehrly/611/distab.pdf)
+
+### Appendix 3: how to choose statistical test
+
+![](/images/how-to-choose-statistic.png)
+
+source: [http://www.graphpad.com/support/faqid/1790/](http://www.graphpad.com/support/faqid/1790/)
