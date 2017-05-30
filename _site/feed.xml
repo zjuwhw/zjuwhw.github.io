@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 May 2017 16:27:05 +1000</pubDate>
-    <lastBuildDate>Sun, 28 May 2017 16:27:05 +1000</lastBuildDate>
+    <pubDate>Tue, 30 May 2017 18:58:09 +1000</pubDate>
+    <lastBuildDate>Tue, 30 May 2017 18:58:09 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -923,15 +923,74 @@ regardless of the distribution of the population
 
 &lt;h4 id=&quot;11-random-samples&quot;&gt;1.1 Random samples&lt;/h4&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;Terminology
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Population&lt;/strong&gt;: a collection of units or individuals&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Parameter&lt;/strong&gt;: a number associated with the population&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Sample&lt;/strong&gt;: a subset of the population&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Estimate&lt;/strong&gt;: a number computed from the sample, and used as a guess for the parameter&lt;/li&gt;
+      &lt;li&gt;Try to avoid or reduce &lt;strong&gt;bias&lt;/strong&gt; in the sample
+        &lt;ul&gt;
+          &lt;li&gt;Selection bias&lt;/li&gt;
+          &lt;li&gt;Non-response bias&lt;/li&gt;
+          &lt;li&gt;Bigger isn’t always better. If the method of sampling is bad, taking a large sample doesn’t help. You just get a big bad sample.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Random sample&lt;/strong&gt; or &lt;strong&gt;probability sample&lt;/strong&gt;: Before the sample is drawn, it has to be possible to calculate the probability (doesn’t have to be the same) with each member of the population will be included in the sample.&lt;/li&gt;
+  &lt;li&gt;Types of samples
+    &lt;ul&gt;
+      &lt;li&gt;sample of convenience, not a random sample&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;simple random sample&lt;/strong&gt;: draws uniformly at random without replacement from the population; random sample&lt;/li&gt;
+      &lt;li&gt;Cluster sample: random smaple&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;12-estimating-population-averages-and-percents&quot;&gt;1.2 Estimating population averages and percents&lt;/h4&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;Sampling assumption: Simple random sample; large, but still small relative to the population, so that the correction factor is almost 1.&lt;/li&gt;
+  &lt;li&gt;Bootstrap method - use sample SD as an approximation to population SD&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;13-approximate-confidence-intervals&quot;&gt;1.3 Approximate confidence intervals&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sampling assumptions:
+    &lt;ul&gt;
+      &lt;li&gt;simple random sample&lt;/li&gt;
+      &lt;li&gt;large enough so that the probability histogram for the sample mean or sample percent is roughly normal by &lt;strong&gt;Central Limit Theorem&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;but small enough relative to the population size that the correction factor is close to 1&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;confidence intervals: sample mean ± 2 * SE of sample mean&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;14-interpreting-confidence-intervals&quot;&gt;1.4 Interpreting confidence intervals&lt;/h4&gt;
 
 &lt;h3 id=&quot;2-testing-statistical-hypotheses&quot;&gt;2 Testing Statistical Hypotheses&lt;/h3&gt;
 
 &lt;h4 id=&quot;21-testing-hypotheses-terminology&quot;&gt;2.1 Testing hypotheses: terminology&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Terminology and method
+    &lt;ul&gt;
+      &lt;li&gt;null hypothesis: H&lt;sub&gt;0&lt;/sub&gt;&lt;/li&gt;
+      &lt;li&gt;alternative hypothesis: H&lt;sub&gt;1&lt;/sub&gt;&lt;/li&gt;
+      &lt;li&gt;Assuming the null is true, the chance of getting data like the data in the sample or even more like the alternative: P-value&lt;/li&gt;
+      &lt;li&gt;Methods: If P is small, choose the altrnative. Otherwise, stay with the null&lt;/li&gt;
+      &lt;li&gt;Conventional definition:
+        &lt;ul&gt;
+          &lt;li&gt;“small”: P&amp;lt;5%, the result is &lt;strong&gt;statistically significant&lt;/strong&gt;&lt;/li&gt;
+          &lt;li&gt;“very small”: P&amp;lt;1%, the result is &lt;strong&gt;highly statistically significant&lt;/strong&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;22-tests-for-a-population-proportion&quot;&gt;2.2 Tests for a population proportion&lt;/h4&gt;
 

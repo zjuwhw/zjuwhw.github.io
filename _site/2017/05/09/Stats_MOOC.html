@@ -987,15 +987,74 @@ regardless of the distribution of the population
 
 <h4 id="11-random-samples">1.1 Random samples</h4>
 
+<ul>
+  <li>Terminology
+    <ul>
+      <li><strong>Population</strong>: a collection of units or individuals</li>
+      <li><strong>Parameter</strong>: a number associated with the population</li>
+      <li><strong>Sample</strong>: a subset of the population</li>
+      <li><strong>Estimate</strong>: a number computed from the sample, and used as a guess for the parameter</li>
+      <li>Try to avoid or reduce <strong>bias</strong> in the sample
+        <ul>
+          <li>Selection bias</li>
+          <li>Non-response bias</li>
+          <li>Bigger isn’t always better. If the method of sampling is bad, taking a large sample doesn’t help. You just get a big bad sample.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Random sample</strong> or <strong>probability sample</strong>: Before the sample is drawn, it has to be possible to calculate the probability (doesn’t have to be the same) with each member of the population will be included in the sample.</li>
+  <li>Types of samples
+    <ul>
+      <li>sample of convenience, not a random sample</li>
+      <li><strong>simple random sample</strong>: draws uniformly at random without replacement from the population; random sample</li>
+      <li>Cluster sample: random smaple</li>
+    </ul>
+  </li>
+</ul>
+
 <h4 id="12-estimating-population-averages-and-percents">1.2 Estimating population averages and percents</h4>
 
+<ul>
+  <li>Sampling assumption: Simple random sample; large, but still small relative to the population, so that the correction factor is almost 1.</li>
+  <li>Bootstrap method - use sample SD as an approximation to population SD</li>
+</ul>
+
 <h4 id="13-approximate-confidence-intervals">1.3 Approximate confidence intervals</h4>
+
+<ul>
+  <li>sampling assumptions:
+    <ul>
+      <li>simple random sample</li>
+      <li>large enough so that the probability histogram for the sample mean or sample percent is roughly normal by <strong>Central Limit Theorem</strong></li>
+      <li>but small enough relative to the population size that the correction factor is close to 1</li>
+    </ul>
+  </li>
+  <li>confidence intervals: sample mean ± 2 * SE of sample mean</li>
+</ul>
 
 <h4 id="14-interpreting-confidence-intervals">1.4 Interpreting confidence intervals</h4>
 
 <h3 id="2-testing-statistical-hypotheses">2 Testing Statistical Hypotheses</h3>
 
 <h4 id="21-testing-hypotheses-terminology">2.1 Testing hypotheses: terminology</h4>
+
+<ul>
+  <li>Terminology and method
+    <ul>
+      <li>null hypothesis: H<sub>0</sub></li>
+      <li>alternative hypothesis: H<sub>1</sub></li>
+      <li>Assuming the null is true, the chance of getting data like the data in the sample or even more like the alternative: P-value</li>
+      <li>Methods: If P is small, choose the altrnative. Otherwise, stay with the null</li>
+      <li>Conventional definition:
+        <ul>
+          <li>“small”: P&lt;5%, the result is <strong>statistically significant</strong></li>
+          <li>“very small”: P&lt;1%, the result is <strong>highly statistically significant</strong></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
 <h4 id="22-tests-for-a-population-proportion">2.2 Tests for a population proportion</h4>
 

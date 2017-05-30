@@ -555,15 +555,49 @@ regardless of the distribution of the population
 
 #### 1.1 Random samples
 
+- Terminology
+	- **Population**: a collection of units or individuals
+	- **Parameter**: a number associated with the population
+	- **Sample**: a subset of the population
+	- **Estimate**: a number computed from the sample, and used as a guess for the parameter
+	- Try to avoid or reduce **bias** in the sample
+		- Selection bias
+		- Non-response bias
+		- Bigger isn't always better. If the method of sampling is bad, taking a large sample doesn't help. You just get a big bad sample.
+
+- **Random sample** or **probability sample**: Before the sample is drawn, it has to be possible to calculate the probability (doesn't have to be the same) with each member of the population will be included in the sample.
+- Types of samples
+	- sample of convenience, not a random sample
+	- **simple random sample**: draws uniformly at random without replacement from the population; random sample
+	- Cluster sample: random smaple
+
 #### 1.2 Estimating population averages and percents
 
+- Sampling assumption: Simple random sample; large, but still small relative to the population, so that the correction factor is almost 1.
+- Bootstrap method - use sample SD as an approximation to population SD
+
 #### 1.3 Approximate confidence intervals
+
+- sampling assumptions:
+	- simple random sample
+	- large enough so that the probability histogram for the sample mean or sample percent is roughly normal by **Central Limit Theorem**
+	- but small enough relative to the population size that the correction factor is close to 1
+- confidence intervals: sample mean ± 2 * SE of sample mean
 
 #### 1.4 Interpreting confidence intervals
 
 ### 2 Testing Statistical Hypotheses
 
 #### 2.1 Testing hypotheses: terminology
+
+- Terminology and method
+	- null hypothesis: H<sub>0</sub>
+	- alternative hypothesis: H<sub>1</sub>
+	- Assuming the null is true, the chance of getting data like the data in the sample or even more like the alternative: P-value
+	- Methods: If P is small, choose the altrnative. Otherwise, stay with the null
+	- Conventional definition:
+		- "small": P<5%, the result is **statistically significant**
+		- "very small": P<1%, the result is **highly statistically significant**
 
 #### 2.2 Tests for a population proportion
 
