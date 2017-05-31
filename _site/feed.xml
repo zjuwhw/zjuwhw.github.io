@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 May 2017 21:00:02 +1000</pubDate>
-    <lastBuildDate>Tue, 30 May 2017 21:00:02 +1000</lastBuildDate>
+    <pubDate>Wed, 31 May 2017 21:04:52 +1000</pubDate>
+    <lastBuildDate>Wed, 31 May 2017 21:04:52 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -1123,13 +1123,102 @@ P-value = 9.21%
 
 &lt;h4 id=&quot;33-testing-for-the-difference-between-means&quot;&gt;3.3 Testing for the difference between means&lt;/h4&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;SE of the difference between independent random variables: SE(X-Y) = sqrt(Var(X) + Var(Y))&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SRS1: n=200, mean=518, SD=100
+SRS2: n=250, mean=509, SD=110
+H0: μ1 = μ2
+H1: μ1 &amp;gt; μ2
+
+If the null were true,
+expected difference between the sample means would be 0,
+with an SE of approximately:
+SE = sqrt(SE1^2 + SE2^2) = sqrt((SD1/sqrt(n1))^2 + (SD2/sqrt(n2))^2) = 9.92
+
+But observed difference between the sample means is 9,
+z = (9-0)/9.92 = 0.907
+the P-value is 18.2%
+
+Conclusion: Stay with the null; the difference just looks like chance variation.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;h4 id=&quot;34-testing-for-the-difference-between-proportions&quot;&gt;3.4 Testing for the difference between proportions&lt;/h4&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SRS1: n=500, proportion=34%
+SRS2: n=750, proportion=40%
+H0: p1 = p2
+H1: p1 &amp;lt; p2
+
+Observed difference in sample percents: 6%
+
+If the null is true,
+expected difference in sample percents is 0,
+both sample are from a population with a propotion
+phat = (p1 * n1) + (p2 * n2) = 0.376
+SE1 ≈ sqrt(phat*(1-phat)/n1) = 0.022
+SE2 ≈ sqrt(phat*(1-phat)/n2) = 0.018
+SE of the difference between the sample percents is approximately
+sqrt(SE1^2 + SE2^2) = 2.8%
+z = (6%-0)/2.8% = 2.14
+p-value ≈ 1.6%
+
+Conclusion: Alternative
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;4-dependent-samples&quot;&gt;4 Dependent Samples&lt;/h3&gt;
 
 &lt;h4 id=&quot;41-paired-samples-parametric-analysis&quot;&gt;4.1 Paired samples: parametric analysis&lt;/h4&gt;
 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SRS(e.g. students): n=100
+measure1(e.g. math score): mean=68, SD=12
+measure2(e.g. verbal score): mean=72, SD=14
+H0: md = 0 (md = measure1 - measure2)
+H1: md != 0
+
+Observed md: -4
+
+If the null is ture,
+expected md is 0,
+the SE ???
+
+Caclulate the SD of md in SRS = 11.76
+OR
+SD = sqrt(var(x) + var(y) - 2Cov(x,y)) = 11.76
+(because x, y are not independent)
+
+SE = 11.76/sqrt(100) = 1.176
+z = (-4 - 0)/1.176 = -3.4
+P is tiny
+
+Conclusion: Reject the null
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;h4 id=&quot;42-paired-samples-non-parametric-analysis&quot;&gt;4.2 Paired samples: non-parametric analysis&lt;/h4&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SRS(e.g. students): n=100
+measure1(e.g. math score): mean=68, SD=12
+measure2(e.g. verbal score): mean=72, SD=14
+H0: md = 0 (md = measure1 - measure2)
+H1: md != 0
+
+Calculate the number (e.g. 62) of measure1 - measure2 &amp;lt; 0
+p = binomial(k&amp;gt;=62, n, 0.5) = 1.05%
+
+Conclusion: md &amp;lt; 0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The calculation ignores much of the information in the scores&lt;/li&gt;
+  &lt;li&gt;Difference di = xi-yi is math - varbal for Student i. Test just used the number of differences that were negative.&lt;/li&gt;
+  &lt;li&gt;Throws away the scores (apart from these signs), so can be quite rough&lt;/li&gt;
+  &lt;li&gt;But easier to carry out than our previous method, and requires no additional assumptions when the sample is small.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;43-randomized-experiments-method&quot;&gt;4.3 Randomized experiments: method&lt;/h4&gt;
 
