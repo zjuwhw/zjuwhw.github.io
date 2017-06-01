@@ -264,22 +264,17 @@ permalink: /links/
 - [IHEC](http://ihec-epigenomes.org/)
 - [1000 Genomes](http://www.1000genomes.org/)
 - [TARGET](http://target.nci.nih.gov/dataMatrix/)
-- [GTEx](http://www.gtexportal.org/home/): Genotype-Tissue Expression
+- [GTEx(Genotype-Tissue Expression)](http://www.gtexportal.org/home/)
 - [Fantom5](http://fantom.gsc.riken.jp/5/)
 - [CCLE](http://www.broadinstitute.org/ccle/home)
 - [HMP](http://hmpdacc.org/)
 - [The Wellcome Trust UK10K project](http://www.uk10k.org/)
-- [Exac](http://exac.broadinstitute.org/): Exome Aggregation Consortium
+- [ExAC(Exome Aggregation Consortium)](http://exac.broadinstitute.org/)
+- [HFGP(Human Functional Genomics Project)](http://www.humanfunctionalgenomics.org/site/)
+- [HRC(Haplotype Reference Consortium)](http://www.haplotype-reference-consortium.org/)
 
 ![](/images/timeline_project.jpg)
 
-### Funding
-
-- [NIH](http://www.nih.gov/)
-- [NCI](http://www.cancer.gov/)
-- [NHGRI](https://www.genome.gov/)
-- [国自然](http://www.nsfc.gov.cn/)
-- [科技部](http://www.most.gov.cn/kjjh/xmsb/)
 
 ### Database
 
@@ -302,6 +297,32 @@ permalink: /links/
 - [ExAC](http://exac.broadinstitute.org/)
 - [Omictools](http://omictools.com/)
 - [HGMD](http://www.hgmd.cf.ac.uk/ac/index.php): Human Gene Mutation Database
+
+### Consortium
+
+- [UKB(UK Biobank)](http://www.ukbiobank.ac.uk/)
+- [GIANT(Genetic Investigation of Anthropometric Traits)](http://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium)
+- [PGC(Psychiatric Genomics Consortium)](https://www.med.unc.edu/pgc)
+	- ALZ(Alzheimer’s Workshop)
+	- Autism Spectrum Disorders(AUT)
+	- Bipolar Disorders (BIP)
+	- MDD(Major Depressive Disorders)
+	- SCZ(Schizophrenia)
+	- SUD(Substance Use Disorders)
+- [SSGAC(Social Science Genetic Association Consortium)](https://www.thessgac.org/)
+- [WTCCC(Wellcome Trust Cass Control Consortium)](https://www.wtccc.org.uk/)
+- [IIBDGC(International Inflammatory Bowel Disease Genetics Consortium)](https://www.ibdgenetics.org/)
+
+
+
+### Funding
+
+- [NIH](http://www.nih.gov/)
+- [NCI](http://www.cancer.gov/)
+- [NHGRI](https://www.genome.gov/)
+- [国自然](http://www.nsfc.gov.cn/)
+- [科技部](http://www.most.gov.cn/kjjh/xmsb/)
+
 
 ### Bioinformatic cloud
 
