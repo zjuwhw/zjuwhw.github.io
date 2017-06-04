@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Jun 2017 21:13:31 +1000</pubDate>
-    <lastBuildDate>Sun, 04 Jun 2017 21:13:31 +1000</lastBuildDate>
+    <pubDate>Sun, 04 Jun 2017 21:16:37 +1000</pubDate>
+    <lastBuildDate>Sun, 04 Jun 2017 21:16:37 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -38,9 +38,13 @@ MathJax.Hub.Config({
 
 &lt;p&gt;I found &lt;a href=&quot;https://en.wikibooks.org/wiki/LaTeX/Mathematics&quot;&gt;LaTex/Mathematics&lt;/a&gt; is wildly used to write equations on the website, such as &lt;a href=&quot;http://rmarkdown.rstudio.com/authoring_basics.html&quot;&gt;rmarkdown&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;For example, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$$mean = \frac{\sum x_{i}}{n}$$&lt;/code&gt; to render&lt;/p&gt;
+&lt;p&gt;For example, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$&lt;/code&gt; to write&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;mean = \frac{\sum_{i=1}^{n} x_{i}}{n}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}&lt;/script&gt;
+
+&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;k_{n+1} = n^2 + k_n^2 - k_{n-1}&lt;/code&gt; to write&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;k_{n+1} = n^2 + k_n^2 - k_{n-1}&lt;/script&gt;
 
 &lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
 
