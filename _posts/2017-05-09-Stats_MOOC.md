@@ -75,10 +75,10 @@ This is the notebook for Berkley's Edx course serise - [stat2.1](https://www.edx
 
 #### 3.5 Markov's inequality
 
-- Markov's inequality: If a list has only non-negative entries, then the proportion of entries that are >= k times the average is at most 1/k (k can be any positive number)
+- Markov's inequality: If a list has only non-negative entries, then the proportion of entries that are >= k times the average is at most $\frac{1}{k}$ (k can be any positive number)
 - For example:
 	- Q: the average age of a group of people is 20 years. What proportion are more than 80 years old?
-	- A: The proportion is **at most** 1/4 (k=4)
+	- A: The proportion is **at most** $\frac{1}{4}$ (k=4)
 
 ### 4 Measures of spread
 
@@ -266,15 +266,19 @@ $$r = \frac{1}{n}\sum_{i=1}^{n}(\frac{x_{i}-\mu_{x}}{\sigma_{x}})(\frac{y_{i}-\m
 
 #### 7.2 Regression line: intuition; the equation in standard units; regression estimates
 
-- estimate of y (in standard units) = r * x (in standard units), r is the correlation coefficient
+$$\hat{y} = r \times x, r is the correlation coefficient and x, y in standard units$$
 
 #### 7.3 Regression effect, Galton, and the regression fallacy
 
 #### 7.4 Equation of the regression line
 
-- the equation in three ways
+the equation in three ways
 
-![](/images/regression_equation.png)
+- $\hat{y} = r \times x$
+
+- $ \frac{\hat{y} - \mu_{y}}{\sigma_{y}} = r \times \frac{x - \mu_{x}}{\sigma_{x}}$
+
+- $\hat{y} = slope \times x + intercept$, where $slope = r \times \frac{\sigma_{y}}{\sigma_{x}}$ and $intercept = \mu_{y} - slope \times \mu_{x}$
 
 ### 8 Error in the regression estimate
 
@@ -385,11 +389,23 @@ P(A|bad)
 
 #### 2.2 Sampling with replacement: the binomial formula（二项分布）
 
-![](/images/binomial_formal.png)
+- n independent S/F trials (Bernoulli trials)
+- p: chance of success on each signle trial
+- Bionomial formula
+
+For k = 0,1,2,...,n, the chane of exactly k successes is
+
+$$\binom{n}{k}p^{k}(1-p)^{n-k} = \frac{n!}{k!(n-k)!}p^{k}(1-p)^(n-k)$$
 
 #### 2.3 Sampling without replacement: the hypergeometric（超几何） formula
 
-![](/images/hypergeometric_formula.png)
+- N: population size
+- G: number of good elements in population
+- n: simple random sample size
+
+The chance that the sample contains g good elements is
+
+$$\frac{\binom{G}{g}\binom{N-G}{n-g}}{\binom{N}{n}}$$
 
 #### 2.4 Examples
 
@@ -477,14 +493,38 @@ standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
 ```
 
 
-![](/images/SE.png)
+- n draws at random with replacment from a box of numbered tickets
+- average of the box = $\mu$     SD of the box = $\sigma$
+
+Expected value of the sum of draws,
+
+$$ E = n\mu $$
+
+SE of the sum of draws
+
+$$SE = \sqrt{n}\mu$$
 
 #### 4.2 Probabilities for the sum of a large sample
 
-![](/images/Binomial_property.png)
+X has the binomial distribution with parameters n and p:
+
+- X is the number of successes in n repeated, independent success-failure trials with probability p of success on a single trial
+- X is the sum of n draws with replacement from a 0-1 box that has a proportion p of 1's
+
+Probability distribution of X:
+
+$$P(\text{X = k}) = \binom{n}{k}p^{k}(1-p)^{n-k}, k=0,1,2,...n$$
+
+Expected value of X:
+
+$$E(X) = np$$
+
+Standard error of X:
+
+$$SE(X) = \sqrt{np(1-p)}$$
 
 - de Moivre - Laplace Theorem
-	- Fix any p strictly between 0 and 1. As the number of trials n increases, the probability histogram for the binomial distribution looks like the nomrla curve with mean np and SD sqrt(np(1-p))
+	- Fix any p strictly between 0 and 1. As the number of trials n increases, the probability histogram for the binomial distribution looks like the nomrla curve with mean np and SD $\sqrt{np(1-p)}$
 
 #### 4.3 The Central limit theorem
 
@@ -514,11 +554,11 @@ standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
 	- n draws at random with replacement from a population that has mean μ and SD σ
 	- S = sample sum
 		- E(S) = nμ
-		- SE(S) = sqrt(n)σ
+		- SE(S) = $\sqrt{n}\sigma$
 		- CLT: If n is large, the distribution of S is roughly normal
-	- M = sample mean = S/n
-		- E(M) = E(S/n) = nμ/n = μ
-		- SE(M) = SE(S/n) = sqrt(n)σ/n = σ/sqrt(n)
+	- M = sample mean = $\frac{S}{n}$
+		- E(M) = E($\frac{S}{n}$) = $\frac{n\mu}{n} = \mu$
+		- SE(M) = SE(S/n) = $\frac{\sqrt{n}\sigma}{n} = \frac{\sigma}{\sqrt{n}}$
 		- CLT: If n is large, the distribution of M is roughly normal
 
 #### 5.2 Sampling without replacement: the correction factor
@@ -527,11 +567,11 @@ standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
 - simple ramdom sample of n of these numbers **without replacement**
 - S = sample sum
 	- E(S) = nμ
-	- SE(S) = sqrt(n)σ * sqrt(N-n/N-1)
+	- SE(S) = $\sqrt{n}\sigma \times \sqrt{\frac{N-n}{N-1}}$
 - M = sample mean
-	- E(M) = μ * sqrt(N-n/N-1)
-- sqrt(N-n/N-1), which is a correction factor (finite population correction), <1
-- When population size N is very large and random sample size n is relatively small, sqrt(N-n/N-1) ≈ 1, so sampling **without** replacement is almost the same as sampling **with** replacement.
+	- E(M) = $\mu \times \sqrt{\frac{N-n}{N-1}}$
+- $\sqrt{\frac{N-n}{N-1}}$, which is a correction factor (finite population correction), < 1
+- When population size N is very large and random sample size n is relatively small, $\sqrt{\frac{N-n}{N-1}}$ ≈ 1, so sampling **without** replacement is almost the same as sampling **with** replacement.
 
 
 Central Limit Theorem (sort of )
@@ -548,7 +588,19 @@ regardless of the distribution of the population
 - Why didn't we use the correction factor?
 	- We don't have the population size, but we know it's so big that correction factor will be close to 1.
 
-![](/images/hypergenometic_sample.png)
+Zeros and ones
+
+- population of G good elements (1's) and B bad elements (0's)
+- population size N = G + B
+- simple random sample size n
+- X: number of good elements in sample: hypergeometric N, G, n
+
+$$E(X) = n\frac{G}{N}$$
+
+$$SE(X) = \sqrt{n\times\frac{G}{N}\times\frac{B}{N}}\times\sqrt{\frac{N-n}{N-1}} \approx \sqrt{n\times\frac{G}{N}\times\frac{B}{N}} $$
+
+- Provided n is small relative to N, it's same as binomial
+- If n is large, but small relative to N, the distribution of X is roughly normal.
 
 #### 5.3 Accuracy
 

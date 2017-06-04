@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Jun 2017 21:16:37 +1000</pubDate>
-    <lastBuildDate>Sun, 04 Jun 2017 21:16:37 +1000</lastBuildDate>
+    <pubDate>Sun, 04 Jun 2017 22:20:51 +1000</pubDate>
+    <lastBuildDate>Sun, 04 Jun 2017 22:20:51 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -299,11 +299,11 @@ MathJax.Hub.Config({
 &lt;h4 id=&quot;35-markovs-inequality&quot;&gt;3.5 Markov’s inequality&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Markov’s inequality: If a list has only non-negative entries, then the proportion of entries that are &amp;gt;= k times the average is at most 1/k (k can be any positive number)&lt;/li&gt;
+  &lt;li&gt;Markov’s inequality: If a list has only non-negative entries, then the proportion of entries that are &amp;gt;= k times the average is at most $\frac{1}{k}$ (k can be any positive number)&lt;/li&gt;
   &lt;li&gt;For example:
     &lt;ul&gt;
       &lt;li&gt;Q: the average age of a group of people is 20 years. What proportion are more than 80 years old?&lt;/li&gt;
-      &lt;li&gt;A: The proportion is &lt;strong&gt;at most&lt;/strong&gt; 1/4 (k=4)&lt;/li&gt;
+      &lt;li&gt;A: The proportion is &lt;strong&gt;at most&lt;/strong&gt; $\frac{1}{4}$ (k=4)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -571,19 +571,25 @@ In R, the expression is &quot;pnorm(0) - pnorm(-1.33)&quot;
 
 &lt;h4 id=&quot;72-regression-line-intuition-the-equation-in-standard-units-regression-estimates&quot;&gt;7.2 Regression line: intuition; the equation in standard units; regression estimates&lt;/h4&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;estimate of y (in standard units) = r * x (in standard units), r is the correlation coefficient&lt;/li&gt;
-&lt;/ul&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{y} = r \times x, r is the correlation coefficient and x, y in standard units&lt;/script&gt;
 
 &lt;h4 id=&quot;73-regression-effect-galton-and-the-regression-fallacy&quot;&gt;7.3 Regression effect, Galton, and the regression fallacy&lt;/h4&gt;
 
 &lt;h4 id=&quot;74-equation-of-the-regression-line&quot;&gt;7.4 Equation of the regression line&lt;/h4&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;the equation in three ways&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;the equation in three ways&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/regression_equation.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\hat{y} = r \times x$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$ \frac{\hat{y} - \mu_{y}}{\sigma_{y}} = r \times \frac{x - \mu_{x}}{\sigma_{x}}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$\hat{y} = slope \times x + intercept$, where $slope = r \times \frac{\sigma_{y}}{\sigma_{x}}$ and $intercept = \mu_{y} - slope \times \mu_{x}$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;8-error-in-the-regression-estimate&quot;&gt;8 Error in the regression estimate&lt;/h3&gt;
 
@@ -756,11 +762,27 @@ P(A|bad)
 
 &lt;h4 id=&quot;22-sampling-with-replacement-the-binomial-formula二项分布&quot;&gt;2.2 Sampling with replacement: the binomial formula（二项分布）&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/binomial_formal.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;n independent S/F trials (Bernoulli trials)&lt;/li&gt;
+  &lt;li&gt;p: chance of success on each signle trial&lt;/li&gt;
+  &lt;li&gt;Bionomial formula&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For k = 0,1,2,…,n, the chane of exactly k successes is&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\binom{n}{k}p^{k}(1-p)^{n-k} = \frac{n!}{k!(n-k)!}p^{k}(1-p)^(n-k)&lt;/script&gt;
 
 &lt;h4 id=&quot;23-sampling-without-replacement-the-hypergeometric超几何-formula&quot;&gt;2.3 Sampling without replacement: the hypergeometric（超几何） formula&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/hypergeometric_formula.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;N: population size&lt;/li&gt;
+  &lt;li&gt;G: number of good elements in population&lt;/li&gt;
+  &lt;li&gt;n: simple random sample size&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The chance that the sample contains g good elements is&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\binom{G}{g}\binom{N-G}{n-g}}{\binom{N}{n}}&lt;/script&gt;
 
 &lt;h4 id=&quot;24-examples&quot;&gt;2.4 Examples&lt;/h4&gt;
 
@@ -877,16 +899,44 @@ standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/SE.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;n draws at random with replacment from a box of numbered tickets&lt;/li&gt;
+  &lt;li&gt;average of the box = $\mu$     SD of the box = $\sigma$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Expected value of the sum of draws,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E = n\mu&lt;/script&gt;
+
+&lt;p&gt;SE of the sum of draws&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;SE = \sqrt{n}\mu&lt;/script&gt;
 
 &lt;h4 id=&quot;42-probabilities-for-the-sum-of-a-large-sample&quot;&gt;4.2 Probabilities for the sum of a large sample&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/Binomial_property.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;X has the binomial distribution with parameters n and p:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;X is the number of successes in n repeated, independent success-failure trials with probability p of success on a single trial&lt;/li&gt;
+  &lt;li&gt;X is the sum of n draws with replacement from a 0-1 box that has a proportion p of 1’s&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Probability distribution of X:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(\text{X = k}) = \binom{n}{k}p^{k}(1-p)^{n-k}, k=0,1,2,...n&lt;/script&gt;
+
+&lt;p&gt;Expected value of X:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(X) = np&lt;/script&gt;
+
+&lt;p&gt;Standard error of X:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;SE(X) = \sqrt{np(1-p)}&lt;/script&gt;
 
 &lt;ul&gt;
   &lt;li&gt;de Moivre - Laplace Theorem
     &lt;ul&gt;
-      &lt;li&gt;Fix any p strictly between 0 and 1. As the number of trials n increases, the probability histogram for the binomial distribution looks like the nomrla curve with mean np and SD sqrt(np(1-p))&lt;/li&gt;
+      &lt;li&gt;Fix any p strictly between 0 and 1. As the number of trials n increases, the probability histogram for the binomial distribution looks like the nomrla curve with mean np and SD $\sqrt{np(1-p)}$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -937,14 +987,14 @@ standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
       &lt;li&gt;S = sample sum
         &lt;ul&gt;
           &lt;li&gt;E(S) = nμ&lt;/li&gt;
-          &lt;li&gt;SE(S) = sqrt(n)σ&lt;/li&gt;
+          &lt;li&gt;SE(S) = $\sqrt{n}\sigma$&lt;/li&gt;
           &lt;li&gt;CLT: If n is large, the distribution of S is roughly normal&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;M = sample mean = S/n
+      &lt;li&gt;M = sample mean = $\frac{S}{n}$
         &lt;ul&gt;
-          &lt;li&gt;E(M) = E(S/n) = nμ/n = μ&lt;/li&gt;
-          &lt;li&gt;SE(M) = SE(S/n) = sqrt(n)σ/n = σ/sqrt(n)&lt;/li&gt;
+          &lt;li&gt;E(M) = E($\frac{S}{n}$) = $\frac{n\mu}{n} = \mu$&lt;/li&gt;
+          &lt;li&gt;SE(M) = SE(S/n) = $\frac{\sqrt{n}\sigma}{n} = \frac{\sigma}{\sqrt{n}}$&lt;/li&gt;
           &lt;li&gt;CLT: If n is large, the distribution of M is roughly normal&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
@@ -960,16 +1010,16 @@ standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
   &lt;li&gt;S = sample sum
     &lt;ul&gt;
       &lt;li&gt;E(S) = nμ&lt;/li&gt;
-      &lt;li&gt;SE(S) = sqrt(n)σ * sqrt(N-n/N-1)&lt;/li&gt;
+      &lt;li&gt;SE(S) = $\sqrt{n}\sigma \times \sqrt{\frac{N-n}{N-1}}$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;M = sample mean
     &lt;ul&gt;
-      &lt;li&gt;E(M) = μ * sqrt(N-n/N-1)&lt;/li&gt;
+      &lt;li&gt;E(M) = $\mu \times \sqrt{\frac{N-n}{N-1}}$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;sqrt(N-n/N-1), which is a correction factor (finite population correction), &amp;lt;1&lt;/li&gt;
-  &lt;li&gt;When population size N is very large and random sample size n is relatively small, sqrt(N-n/N-1) ≈ 1, so sampling &lt;strong&gt;without&lt;/strong&gt; replacement is almost the same as sampling &lt;strong&gt;with&lt;/strong&gt; replacement.&lt;/li&gt;
+  &lt;li&gt;$\sqrt{\frac{N-n}{N-1}}$, which is a correction factor (finite population correction), &amp;lt; 1&lt;/li&gt;
+  &lt;li&gt;When population size N is very large and random sample size n is relatively small, $\sqrt{\frac{N-n}{N-1}}$ ≈ 1, so sampling &lt;strong&gt;without&lt;/strong&gt; replacement is almost the same as sampling &lt;strong&gt;with&lt;/strong&gt; replacement.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Central Limit Theorem (sort of )&lt;/p&gt;
@@ -991,7 +1041,23 @@ regardless of the distribution of the population
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/hypergenometic_sample.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Zeros and ones&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;population of G good elements (1’s) and B bad elements (0’s)&lt;/li&gt;
+  &lt;li&gt;population size N = G + B&lt;/li&gt;
+  &lt;li&gt;simple random sample size n&lt;/li&gt;
+  &lt;li&gt;X: number of good elements in sample: hypergeometric N, G, n&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(X) = n\frac{G}{N}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;SE(X) = \sqrt{n\times\frac{G}{N}\times\frac{B}{N}}\times\sqrt{\frac{N-n}{N-1}} \approx \sqrt{n\times\frac{G}{N}\times\frac{B}{N}}&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Provided n is small relative to N, it’s same as binomial&lt;/li&gt;
+  &lt;li&gt;If n is large, but small relative to N, the distribution of X is roughly normal.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;53-accuracy&quot;&gt;5.3 Accuracy&lt;/h4&gt;
 
