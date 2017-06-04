@@ -692,8 +692,8 @@ One-sample t test: summary of method
 - SE of the difference between independent random variables: SE(X-Y) = sqrt(Var(X) + Var(Y))
 
 ```
-SRS1: n=200, mean=518, SD=100
-SRS2: n=250, mean=509, SD=110
+SRS1(e.g. average household income in City A): n=200, mean=518, SD=100
+SRS2(e.g. average household income in City B): n=250, mean=509, SD=110
 H0: μ1 = μ2
 H1: μ1 > μ2
 
@@ -784,13 +784,68 @@ Conclusion: md < 0
 
 #### 4.3 Randomized experiments: method
 
+A sample of randomized controlled experiments
+
+```
+- experiment to test effectiveness of "cheat sheets" on probability exame
+- 300 students agree to participate in a study
+- Treatment group: SRS of 200 is allowed to bring cheat-sheet into the exam.
+- Control group: The remaining 100 take the exam without the cheat-sheet.
+- Data:
+	- Treatment group: mean=75, SD=15
+	- Control group: mean=80, SD=12
+
+- Did the treatment hurt?
+```
+
+- Method: use the two-sample z test.
+
 #### 4.4 Randomized experiments: justification
+
+- Dubious step 1: `1/sqrt(200) = 1.06, 12/sqrt(100)=1.2`
+	- Missing the correction factor. The correction factor cannot be ignored due to the raito of sample size (100 or 200) and population size (300)
+	- Theses results are bigger than they should be
+- Dubious step 2: `sqrt(1.06^2 + 1.2^2)`
+	- Pretends that treatment and control groups are independent.
+	- sqrt(a^2+b^2) produces a result that is smaller than it should be.
+- The two errors offset each other. The result is a slight overestimate of SE, close to correct.
 
 ### 5 Window to a wider world
 
 #### 5.1 Not everything's normal: chi-squared test
 
+A categorical data: more than two categories
+
+```
+Sample of students at a large university:
+	- 54 freshmen
+	- 40 sophomores
+	- 51 juniors
+	- 39 seniors
+	- 16 graduate
+H0: The data are lkie a simple random sample from a large population consisting of 22.5% each of freshmen, sophomores, juniors, and seniors, and 10% graduate students.
+H1: The data are not like a simple random sample from the population in the null.
+```
+- Compare the observed counts to what the null predicts:
+
+||F|So|J|Se|G|Total
+|:--|:--|:--|:--|:--|:--|:--|
+|observed|54|40|51|39|16|200|
+|expected, under null|45|45|45|45|20|200|
+|o-e|9|-5|6|-6|-4|0|
+|(o-e)^2/e|1.8|0.556|0.8|0.8|0.8|4.756|
+
+Test statistic = sum of (o-e)^e over all categories ~ chi-square(X<sup>2</sup>) distribution, with degrees of freedom = number of categories - 1
+
+- Facts about chi-square distributions
+	- Values are non-negative
+	- expected value = balance point = degrees of freedom
+	- SD = sqrt(2 * degrees of freedom)
+	- As the degrees of freedom increase, the chi-square curve looks more and more like a normal curve.
+
 #### 5.2 How Fisher used the chi-squared test
+
+- Test raises questions about the accuracy of Mendel's data: the deviations from his models were smaller than would be expected by chance.
 
 #### 5.3 Chi-squared test for independence
 

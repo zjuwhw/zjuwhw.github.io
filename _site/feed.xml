@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Jun 2017 11:02:00 +1000</pubDate>
-    <lastBuildDate>Thu, 01 Jun 2017 11:02:00 +1000</lastBuildDate>
+    <pubDate>Sun, 04 Jun 2017 19:35:59 +1000</pubDate>
+    <lastBuildDate>Sun, 04 Jun 2017 19:35:59 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -1127,8 +1127,8 @@ P-value = 9.21%
   &lt;li&gt;SE of the difference between independent random variables: SE(X-Y) = sqrt(Var(X) + Var(Y))&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SRS1: n=200, mean=518, SD=100
-SRS2: n=250, mean=509, SD=110
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SRS1(e.g. average household income in City A): n=200, mean=518, SD=100
+SRS2(e.g. average household income in City B): n=250, mean=509, SD=110
 H0: μ1 = μ2
 H1: μ1 &amp;gt; μ2
 
@@ -1222,13 +1222,132 @@ Conclusion: md &amp;lt; 0
 
 &lt;h4 id=&quot;43-randomized-experiments-method&quot;&gt;4.3 Randomized experiments: method&lt;/h4&gt;
 
+&lt;p&gt;A sample of randomized controlled experiments&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- experiment to test effectiveness of &quot;cheat sheets&quot; on probability exame
+- 300 students agree to participate in a study
+- Treatment group: SRS of 200 is allowed to bring cheat-sheet into the exam.
+- Control group: The remaining 100 take the exam without the cheat-sheet.
+- Data:
+	- Treatment group: mean=75, SD=15
+	- Control group: mean=80, SD=12
+
+- Did the treatment hurt?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Method: use the two-sample z test.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;44-randomized-experiments-justification&quot;&gt;4.4 Randomized experiments: justification&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dubious step 1: &lt;code class=&quot;highlighter-rouge&quot;&gt;1/sqrt(200) = 1.06, 12/sqrt(100)=1.2&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Missing the correction factor. The correction factor cannot be ignored due to the raito of sample size (100 or 200) and population size (300)&lt;/li&gt;
+      &lt;li&gt;Theses results are bigger than they should be&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Dubious step 2: &lt;code class=&quot;highlighter-rouge&quot;&gt;sqrt(1.06^2 + 1.2^2)&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Pretends that treatment and control groups are independent.&lt;/li&gt;
+      &lt;li&gt;sqrt(a^2+b^2) produces a result that is smaller than it should be.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The two errors offset each other. The result is a slight overestimate of SE, close to correct.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;5-window-to-a-wider-world&quot;&gt;5 Window to a wider world&lt;/h3&gt;
 
 &lt;h4 id=&quot;51-not-everythings-normal-chi-squared-test&quot;&gt;5.1 Not everything’s normal: chi-squared test&lt;/h4&gt;
 
+&lt;p&gt;A categorical data: more than two categories&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Sample of students at a large university:
+	- 54 freshmen
+	- 40 sophomores
+	- 51 juniors
+	- 39 seniors
+	- 16 graduate
+H0: The data are lkie a simple random sample from a large population consisting of 22.5% each of freshmen, sophomores, juniors, and seniors, and 10% graduate students.
+H1: The data are not like a simple random sample from the population in the null.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Compare the observed counts to what the null predicts:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;F&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;So&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;J&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Se&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;G&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Total&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;observed&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;54&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;40&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;51&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;39&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;16&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;200&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;expected, under null&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;45&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;45&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;45&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;45&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;20&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;200&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;o-e&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;9&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-5&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-6&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-4&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;(o-e)^2/e&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1.8&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;0.556&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;0.8&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;0.8&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;0.8&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4.756&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Test statistic = sum of (o-e)^e over all categories ~ chi-square(X&lt;sup&gt;2&lt;/sup&gt;) distribution, with degrees of freedom = number of categories - 1&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Facts about chi-square distributions
+    &lt;ul&gt;
+      &lt;li&gt;Values are non-negative&lt;/li&gt;
+      &lt;li&gt;expected value = balance point = degrees of freedom&lt;/li&gt;
+      &lt;li&gt;SD = sqrt(2 * degrees of freedom)&lt;/li&gt;
+      &lt;li&gt;As the degrees of freedom increase, the chi-square curve looks more and more like a normal curve.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;52-how-fisher-used-the-chi-squared-test&quot;&gt;5.2 How Fisher used the chi-squared test&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Test raises questions about the accuracy of Mendel’s data: the deviations from his models were smaller than would be expected by chance.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;53-chi-squared-test-for-independence&quot;&gt;5.3 Chi-squared test for independence&lt;/h4&gt;
 

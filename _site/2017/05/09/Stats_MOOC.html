@@ -1191,8 +1191,8 @@ P-value = 9.21%
   <li>SE of the difference between independent random variables: SE(X-Y) = sqrt(Var(X) + Var(Y))</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>SRS1: n=200, mean=518, SD=100
-SRS2: n=250, mean=509, SD=110
+<div class="highlighter-rouge"><pre class="highlight"><code>SRS1(e.g. average household income in City A): n=200, mean=518, SD=100
+SRS2(e.g. average household income in City B): n=250, mean=509, SD=110
 H0: μ1 = μ2
 H1: μ1 &gt; μ2
 
@@ -1286,13 +1286,132 @@ Conclusion: md &lt; 0
 
 <h4 id="43-randomized-experiments-method">4.3 Randomized experiments: method</h4>
 
+<p>A sample of randomized controlled experiments</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>- experiment to test effectiveness of "cheat sheets" on probability exame
+- 300 students agree to participate in a study
+- Treatment group: SRS of 200 is allowed to bring cheat-sheet into the exam.
+- Control group: The remaining 100 take the exam without the cheat-sheet.
+- Data:
+	- Treatment group: mean=75, SD=15
+	- Control group: mean=80, SD=12
+
+- Did the treatment hurt?
+</code></pre>
+</div>
+
+<ul>
+  <li>Method: use the two-sample z test.</li>
+</ul>
+
 <h4 id="44-randomized-experiments-justification">4.4 Randomized experiments: justification</h4>
+
+<ul>
+  <li>Dubious step 1: <code class="highlighter-rouge">1/sqrt(200) = 1.06, 12/sqrt(100)=1.2</code>
+    <ul>
+      <li>Missing the correction factor. The correction factor cannot be ignored due to the raito of sample size (100 or 200) and population size (300)</li>
+      <li>Theses results are bigger than they should be</li>
+    </ul>
+  </li>
+  <li>Dubious step 2: <code class="highlighter-rouge">sqrt(1.06^2 + 1.2^2)</code>
+    <ul>
+      <li>Pretends that treatment and control groups are independent.</li>
+      <li>sqrt(a^2+b^2) produces a result that is smaller than it should be.</li>
+    </ul>
+  </li>
+  <li>The two errors offset each other. The result is a slight overestimate of SE, close to correct.</li>
+</ul>
 
 <h3 id="5-window-to-a-wider-world">5 Window to a wider world</h3>
 
 <h4 id="51-not-everythings-normal-chi-squared-test">5.1 Not everything’s normal: chi-squared test</h4>
 
+<p>A categorical data: more than two categories</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Sample of students at a large university:
+	- 54 freshmen
+	- 40 sophomores
+	- 51 juniors
+	- 39 seniors
+	- 16 graduate
+H0: The data are lkie a simple random sample from a large population consisting of 22.5% each of freshmen, sophomores, juniors, and seniors, and 10% graduate students.
+H1: The data are not like a simple random sample from the population in the null.
+</code></pre>
+</div>
+<ul>
+  <li>Compare the observed counts to what the null predicts:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">F</th>
+      <th style="text-align: left">So</th>
+      <th style="text-align: left">J</th>
+      <th style="text-align: left">Se</th>
+      <th style="text-align: left">G</th>
+      <th style="text-align: left">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">observed</td>
+      <td style="text-align: left">54</td>
+      <td style="text-align: left">40</td>
+      <td style="text-align: left">51</td>
+      <td style="text-align: left">39</td>
+      <td style="text-align: left">16</td>
+      <td style="text-align: left">200</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">expected, under null</td>
+      <td style="text-align: left">45</td>
+      <td style="text-align: left">45</td>
+      <td style="text-align: left">45</td>
+      <td style="text-align: left">45</td>
+      <td style="text-align: left">20</td>
+      <td style="text-align: left">200</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">o-e</td>
+      <td style="text-align: left">9</td>
+      <td style="text-align: left">-5</td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">-6</td>
+      <td style="text-align: left">-4</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">(o-e)^2/e</td>
+      <td style="text-align: left">1.8</td>
+      <td style="text-align: left">0.556</td>
+      <td style="text-align: left">0.8</td>
+      <td style="text-align: left">0.8</td>
+      <td style="text-align: left">0.8</td>
+      <td style="text-align: left">4.756</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Test statistic = sum of (o-e)^e over all categories ~ chi-square(X<sup>2</sup>) distribution, with degrees of freedom = number of categories - 1</p>
+
+<ul>
+  <li>Facts about chi-square distributions
+    <ul>
+      <li>Values are non-negative</li>
+      <li>expected value = balance point = degrees of freedom</li>
+      <li>SD = sqrt(2 * degrees of freedom)</li>
+      <li>As the degrees of freedom increase, the chi-square curve looks more and more like a normal curve.</li>
+    </ul>
+  </li>
+</ul>
+
 <h4 id="52-how-fisher-used-the-chi-squared-test">5.2 How Fisher used the chi-squared test</h4>
+
+<ul>
+  <li>Test raises questions about the accuracy of Mendel’s data: the deviations from his models were smaller than would be expected by chance.</li>
+</ul>
 
 <h4 id="53-chi-squared-test-for-independence">5.3 Chi-squared test for independence</h4>
 
