@@ -95,21 +95,21 @@ This is the notebook for Berkley's Edx course serise - [stat2.1](https://www.edx
 - variance = mean sequare of deviations from average
 - The average and the SD have the same units
 
-
-![](/images/SD_formula1.png)
+$$ SD = \sqrt{\frac{1}{n}\times\displaystyle\sum_{i=1}^{n}(x_{i}-\bar{x})^2} $$
 
 - The vexed question of n-1
 
-![](/images/SD_formula2.png)
+$$ SD = \sqrt{\frac{1}{n-1}\times\displaystyle\sum_{i=1}^{n}(x_{i}-\bar{x})^2} $$
+
 
 In some situations where you are trying to use the SD of a sample to estimate the SD of the population from which the sample was drawn, then according to some criteria, it might be better to use n-1 instead of n in the denominator.
 
 #### 4.3 Properties of the SD; Chebychev's inequality
 
 - Pafnuty Lvovich Chebychev (1821-1894) 
-- Chebychev's inequality: In any list, the proportion of the entries that are k or more SDs away from the average is at most 1/k<sup>2</sup>
+- Chebychev's inequality: In any list, the proportion of the entries that are k or more SDs away from the average is at most $$\frac{1}{k^{2}}$$
 - **Rough statement**: No matter what the list, the vast majority of entries will be in the range **average ± a few SDs**
-- **Precise statment**: No matter what the list, a proportion of at least 1-1/k<sup>2</sup> of the entries will be in the range **average ± a few SDs**
+- **Precise statment**: No matter what the list, a proportion of at least $$1-\frac{1}{k^{2}} $$of the entries will be in the range **average ± a few SDs**
 
 ```
 Typical use
@@ -132,22 +132,22 @@ Because it uses the SD, not just the average.
 
 - Mechanics of changing units
 	- Multiplying by a constant, e.g. centimeters = 2.54 * inches
-	- Mutliplying by a constant, then adding a constant, e.g. ◦F = (9/5)◦C + 32
+	- Mutliplying by a constant, then adding a constant, e.g. <sup>◦</sup>F = (9/5)<sup>◦</sup>C + 32
 	- Can also first add a constant, then mulitple by a constant, e.g. new variable = (old variable + b) * a
 - Adding a constant
-	- new average = old everage + constant
-	- new SD = old SD
+	- $$mean_{new} = mean_{old} + constant$$
+	- $$SD_{new} = SD_{old}$$
 - Multiplying by a constant
-	- new average = old average * constant
-	- new SD = old SD * abs(constant)
+	- $$mean_{mean} = mean_{old} \times constant$$
+	- $$SD_{new} = SD_{old} * |constant|$$
 - Linear transformations: new list = a * (old list) + b
-	- new average = a * (old average) + b
-	- new SD = abs(a) * (old SD)
+	- $$mean_{new} = a \times mean_{old} + b$$
+	- $$SD_{new} = |a| \times SD_{old}$$
 - Standard units: the z-score
-	- z = (x - average)/SD
-	- x = z * SD + average
-	- z measures "how many SDs above average"
-	- the average of any list in standard units is 0
+	- $$z = \frac{x - mean}{SD}$$
+	- $$x = z \times SD + mean$$
+	- z measures "how many SDs above mean"
+	- the mean of any list in standard units is 0
 	- the SD of any list in standard units is 1
 	- the vast majority (at least 8/9) of any list in standard units will be in the range -3 to 3
 
@@ -163,7 +163,9 @@ Because it uses the SD, not just the average.
 
 ![](/images/standard_normal_curve.png)
 
-![](/images/standard_normal_curve_density.png)
+- density at z
+
+$$ = \frac{1}{ \sqrt{2\pi} }e^{-\frac{1}{2}z^{2}}, -\infty < z < \infty$$
 
 ```
 Useful to remember
@@ -191,7 +193,9 @@ Percentiles:
 
 - The normal curve withe mean μ and SD σ
 
-![](/images/normal_curve_density.png)
+- density at x
+
+$$ = \frac{1}{ \sqrt{2\pi}\sigma }e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^{2}}, -\infty < x < \infty$$
 
 - Finding a percent under a normal curve
 
@@ -229,7 +233,9 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 
 - correlation coefficient (r): a number between -1 and 1; it measures linear association, that is, how tightly the points are clustered about a straight line
 
-![](/images/correlation_coefficent.png)
+- If the data are $(x_{i},y_{i}), 1\leq i\leq n\$, then
+
+$$r = \frac{1}{n}\sum_{i=1}^{n}(\frac{x_{i}-\mu_{x}}{\sigma_{x}})(\frac{y_{i}-\mu_{y}}{\sigma_{y}})$$
 
 - r is a pure number with no units
 - -1 <= r <= 1
@@ -281,7 +287,7 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 
 #### 8.2 The r.m.s error of regression; calculations assuming bivariate normal scatter
 
-- r.m.s. error of regression = r.m.s. of residuals = sqrt(1-r<sup>2</sup>) * SD of y
+- r.m.s. error of regression = r.m.s. of residuals = $$\sqrt{1-r^2} \times SD_{y}$$
 	- r = 1 or -1: r.m.s. error of regression = 0, which says, scatter is a perfect straight line; regression makes no error.
 	- r = 0: r.m.s. error of regression = SD of y, which says, no linear association; regression is the same as using the average.
 	- All other r: Regression is not perfect, but better than using the average.

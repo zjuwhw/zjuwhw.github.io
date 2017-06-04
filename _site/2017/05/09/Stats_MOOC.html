@@ -338,13 +338,13 @@
   <li>The average and the SD have the same units</li>
 </ul>
 
-<p><img src="/images/SD_formula1.png" alt="" /></p>
+<script type="math/tex; mode=display">SD = \sqrt{\frac{1}{n}\times\displaystyle\sum_{i=1}^{n}(x_{i}-\bar{x})^2}</script>
 
 <ul>
   <li>The vexed question of n-1</li>
 </ul>
 
-<p><img src="/images/SD_formula2.png" alt="" /></p>
+<script type="math/tex; mode=display">SD = \sqrt{\frac{1}{n-1}\times\displaystyle\sum_{i=1}^{n}(x_{i}-\bar{x})^2}</script>
 
 <p>In some situations where you are trying to use the SD of a sample to estimate the SD of the population from which the sample was drawn, then according to some criteria, it might be better to use n-1 instead of n in the denominator.</p>
 
@@ -352,9 +352,9 @@
 
 <ul>
   <li>Pafnuty Lvovich Chebychev (1821-1894)</li>
-  <li>Chebychev’s inequality: In any list, the proportion of the entries that are k or more SDs away from the average is at most 1/k<sup>2</sup></li>
+  <li>Chebychev’s inequality: In any list, the proportion of the entries that are k or more SDs away from the average is at most <script type="math/tex">\frac{1}{k^{2}}</script></li>
   <li><strong>Rough statement</strong>: No matter what the list, the vast majority of entries will be in the range <strong>average ± a few SDs</strong></li>
-  <li><strong>Precise statment</strong>: No matter what the list, a proportion of at least 1-1/k<sup>2</sup> of the entries will be in the range <strong>average ± a few SDs</strong></li>
+  <li><strong>Precise statment</strong>: No matter what the list, a proportion of at least <script type="math/tex">1-\frac{1}{k^{2}}</script>of the entries will be in the range <strong>average ± a few SDs</strong></li>
 </ul>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>Typical use
@@ -380,34 +380,50 @@ Because it uses the SD, not just the average.
   <li>Mechanics of changing units
     <ul>
       <li>Multiplying by a constant, e.g. centimeters = 2.54 * inches</li>
-      <li>Mutliplying by a constant, then adding a constant, e.g. ◦F = (9/5)◦C + 32</li>
+      <li>Mutliplying by a constant, then adding a constant, e.g. <sup>◦</sup>F = (9/5)<sup>◦</sup>C + 32</li>
       <li>Can also first add a constant, then mulitple by a constant, e.g. new variable = (old variable + b) * a</li>
     </ul>
   </li>
   <li>Adding a constant
     <ul>
-      <li>new average = old everage + constant</li>
-      <li>new SD = old SD</li>
+      <li>
+        <script type="math/tex; mode=display">mean_{new} = mean_{old} + constant</script>
+      </li>
+      <li>
+        <script type="math/tex; mode=display">SD_{new} = SD_{old}</script>
+      </li>
     </ul>
   </li>
   <li>Multiplying by a constant
     <ul>
-      <li>new average = old average * constant</li>
-      <li>new SD = old SD * abs(constant)</li>
+      <li>
+        <script type="math/tex; mode=display">mean_{mean} = mean_{old} \times constant</script>
+      </li>
+      <li>
+        <script type="math/tex; mode=display">SD_{new} = SD_{old} * |constant|</script>
+      </li>
     </ul>
   </li>
   <li>Linear transformations: new list = a * (old list) + b
     <ul>
-      <li>new average = a * (old average) + b</li>
-      <li>new SD = abs(a) * (old SD)</li>
+      <li>
+        <script type="math/tex; mode=display">mean_{new} = a \times mean_{old} + b</script>
+      </li>
+      <li>
+        <script type="math/tex; mode=display">SD_{new} = |a| \times SD_{old}</script>
+      </li>
     </ul>
   </li>
   <li>Standard units: the z-score
     <ul>
-      <li>z = (x - average)/SD</li>
-      <li>x = z * SD + average</li>
-      <li>z measures “how many SDs above average”</li>
-      <li>the average of any list in standard units is 0</li>
+      <li>
+        <script type="math/tex; mode=display">z = \frac{x - mean}{SD}</script>
+      </li>
+      <li>
+        <script type="math/tex; mode=display">x = z \times SD + mean</script>
+      </li>
+      <li>z measures “how many SDs above mean”</li>
+      <li>the mean of any list in standard units is 0</li>
       <li>the SD of any list in standard units is 1</li>
       <li>the vast majority (at least 8/9) of any list in standard units will be in the range -3 to 3</li>
     </ul>
@@ -430,7 +446,12 @@ Because it uses the SD, not just the average.
 
 <p><img src="/images/standard_normal_curve.png" alt="" /></p>
 
-<p><img src="/images/standard_normal_curve_density.png" alt="" /></p>
+<ul>
+  <li>density at z</li>
+</ul>
+
+<script type="math/tex; mode=display">% <![CDATA[
+= \frac{1}{ \sqrt{2\pi} }e^{-\frac{1}{2}z^{2}}, -\infty < z < \infty %]]></script>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>Useful to remember
 
@@ -457,10 +478,16 @@ Percentiles:
 <h4 id="52-normal-curves-relation-to-the-standard-normal">5.2 Normal curves: relation to the standard normal</h4>
 
 <ul>
-  <li>The normal curve withe mean μ and SD σ</li>
+  <li>
+    <p>The normal curve withe mean μ and SD σ</p>
+  </li>
+  <li>
+    <p>density at x</p>
+  </li>
 </ul>
 
-<p><img src="/images/normal_curve_density.png" alt="" /></p>
+<script type="math/tex; mode=display">% <![CDATA[
+= \frac{1}{ \sqrt{2\pi}\sigma }e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^{2}}, -\infty < x < \infty %]]></script>
 
 <ul>
   <li>Finding a percent under a normal curve</li>
@@ -501,10 +528,15 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 <h4 id="62-the-correlation-coefficient-calculation-and-properties">6.2 The correlation coefficient: calculation and properties</h4>
 
 <ul>
-  <li>correlation coefficient (r): a number between -1 and 1; it measures linear association, that is, how tightly the points are clustered about a straight line</li>
+  <li>
+    <p>correlation coefficient (r): a number between -1 and 1; it measures linear association, that is, how tightly the points are clustered about a straight line</p>
+  </li>
+  <li>
+    <p>If the data are $(x_{i},y_{i}), 1\leq i\leq n$, then</p>
+  </li>
 </ul>
 
-<p><img src="/images/correlation_coefficent.png" alt="" /></p>
+<script type="math/tex; mode=display">r = \frac{1}{n}\sum_{i=1}^{n}(\frac{x_{i}-\mu_{x}}{\sigma_{x}})(\frac{y_{i}-\mu_{y}}{\sigma_{y}})</script>
 
 <ul>
   <li>r is a pure number with no units</li>
@@ -581,7 +613,7 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 <h4 id="82-the-rms-error-of-regression-calculations-assuming-bivariate-normal-scatter">8.2 The r.m.s error of regression; calculations assuming bivariate normal scatter</h4>
 
 <ul>
-  <li>r.m.s. error of regression = r.m.s. of residuals = sqrt(1-r<sup>2</sup>) * SD of y
+  <li>r.m.s. error of regression = r.m.s. of residuals = <script type="math/tex">\sqrt{1-r^2} \times SD_{y}</script>
     <ul>
       <li>r = 1 or -1: r.m.s. error of regression = 0, which says, scatter is a perfect straight line; regression makes no error.</li>
       <li>r = 0: r.m.s. error of regression = SD of y, which says, no linear association; regression is the same as using the average.</li>
@@ -1493,3 +1525,12 @@ H1: The data are not like a simple random sample from the population in the null
   </body>
 
 </html>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>

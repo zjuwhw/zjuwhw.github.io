@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Jun 2017 19:35:59 +1000</pubDate>
-    <lastBuildDate>Sun, 04 Jun 2017 19:35:59 +1000</lastBuildDate>
+    <pubDate>Sun, 04 Jun 2017 21:00:03 +1000</pubDate>
+    <lastBuildDate>Sun, 04 Jun 2017 21:00:03 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -274,13 +274,13 @@
   &lt;li&gt;The average and the SD have the same units&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/SD_formula1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;SD = \sqrt{\frac{1}{n}\times\displaystyle\sum_{i=1}^{n}(x_{i}-\bar{x})^2}&lt;/script&gt;
 
 &lt;ul&gt;
   &lt;li&gt;The vexed question of n-1&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/SD_formula2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;SD = \sqrt{\frac{1}{n-1}\times\displaystyle\sum_{i=1}^{n}(x_{i}-\bar{x})^2}&lt;/script&gt;
 
 &lt;p&gt;In some situations where you are trying to use the SD of a sample to estimate the SD of the population from which the sample was drawn, then according to some criteria, it might be better to use n-1 instead of n in the denominator.&lt;/p&gt;
 
@@ -288,9 +288,9 @@
 
 &lt;ul&gt;
   &lt;li&gt;Pafnuty Lvovich Chebychev (1821-1894)&lt;/li&gt;
-  &lt;li&gt;Chebychev’s inequality: In any list, the proportion of the entries that are k or more SDs away from the average is at most 1/k&lt;sup&gt;2&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Chebychev’s inequality: In any list, the proportion of the entries that are k or more SDs away from the average is at most &lt;script type=&quot;math/tex&quot;&gt;\frac{1}{k^{2}}&lt;/script&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Rough statement&lt;/strong&gt;: No matter what the list, the vast majority of entries will be in the range &lt;strong&gt;average ± a few SDs&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Precise statment&lt;/strong&gt;: No matter what the list, a proportion of at least 1-1/k&lt;sup&gt;2&lt;/sup&gt; of the entries will be in the range &lt;strong&gt;average ± a few SDs&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Precise statment&lt;/strong&gt;: No matter what the list, a proportion of at least &lt;script type=&quot;math/tex&quot;&gt;1-\frac{1}{k^{2}}&lt;/script&gt;of the entries will be in the range &lt;strong&gt;average ± a few SDs&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Typical use
@@ -316,34 +316,50 @@ Because it uses the SD, not just the average.
   &lt;li&gt;Mechanics of changing units
     &lt;ul&gt;
       &lt;li&gt;Multiplying by a constant, e.g. centimeters = 2.54 * inches&lt;/li&gt;
-      &lt;li&gt;Mutliplying by a constant, then adding a constant, e.g. ◦F = (9/5)◦C + 32&lt;/li&gt;
+      &lt;li&gt;Mutliplying by a constant, then adding a constant, e.g. &lt;sup&gt;◦&lt;/sup&gt;F = (9/5)&lt;sup&gt;◦&lt;/sup&gt;C + 32&lt;/li&gt;
       &lt;li&gt;Can also first add a constant, then mulitple by a constant, e.g. new variable = (old variable + b) * a&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Adding a constant
     &lt;ul&gt;
-      &lt;li&gt;new average = old everage + constant&lt;/li&gt;
-      &lt;li&gt;new SD = old SD&lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;mean_{new} = mean_{old} + constant&lt;/script&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;SD_{new} = SD_{old}&lt;/script&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Multiplying by a constant
     &lt;ul&gt;
-      &lt;li&gt;new average = old average * constant&lt;/li&gt;
-      &lt;li&gt;new SD = old SD * abs(constant)&lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;mean_{mean} = mean_{old} \times constant&lt;/script&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;SD_{new} = SD_{old} * |constant|&lt;/script&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Linear transformations: new list = a * (old list) + b
     &lt;ul&gt;
-      &lt;li&gt;new average = a * (old average) + b&lt;/li&gt;
-      &lt;li&gt;new SD = abs(a) * (old SD)&lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;mean_{new} = a \times mean_{old} + b&lt;/script&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;SD_{new} = |a| \times SD_{old}&lt;/script&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Standard units: the z-score
     &lt;ul&gt;
-      &lt;li&gt;z = (x - average)/SD&lt;/li&gt;
-      &lt;li&gt;x = z * SD + average&lt;/li&gt;
-      &lt;li&gt;z measures “how many SDs above average”&lt;/li&gt;
-      &lt;li&gt;the average of any list in standard units is 0&lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;z = \frac{x - mean}{SD}&lt;/script&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;script type=&quot;math/tex; mode=display&quot;&gt;x = z \times SD + mean&lt;/script&gt;
+      &lt;/li&gt;
+      &lt;li&gt;z measures “how many SDs above mean”&lt;/li&gt;
+      &lt;li&gt;the mean of any list in standard units is 0&lt;/li&gt;
       &lt;li&gt;the SD of any list in standard units is 1&lt;/li&gt;
       &lt;li&gt;the vast majority (at least 8/9) of any list in standard units will be in the range -3 to 3&lt;/li&gt;
     &lt;/ul&gt;
@@ -366,7 +382,12 @@ Because it uses the SD, not just the average.
 
 &lt;p&gt;&lt;img src=&quot;/images/standard_normal_curve.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/standard_normal_curve_density.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;density at z&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+= \frac{1}{ \sqrt{2\pi} }e^{-\frac{1}{2}z^{2}}, -\infty &lt; z &lt; \infty %]]&gt;&lt;/script&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Useful to remember
 
@@ -393,10 +414,16 @@ Percentiles:
 &lt;h4 id=&quot;52-normal-curves-relation-to-the-standard-normal&quot;&gt;5.2 Normal curves: relation to the standard normal&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;The normal curve withe mean μ and SD σ&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The normal curve withe mean μ and SD σ&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;density at x&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/normal_curve_density.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+= \frac{1}{ \sqrt{2\pi}\sigma }e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^{2}}, -\infty &lt; x &lt; \infty %]]&gt;&lt;/script&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Finding a percent under a normal curve&lt;/li&gt;
@@ -437,10 +464,15 @@ In R, the expression is &quot;pnorm(0) - pnorm(-1.33)&quot;
 &lt;h4 id=&quot;62-the-correlation-coefficient-calculation-and-properties&quot;&gt;6.2 The correlation coefficient: calculation and properties&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;correlation coefficient (r): a number between -1 and 1; it measures linear association, that is, how tightly the points are clustered about a straight line&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;correlation coefficient (r): a number between -1 and 1; it measures linear association, that is, how tightly the points are clustered about a straight line&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If the data are $(x_{i},y_{i}), 1\leq i\leq n$, then&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/correlation_coefficent.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;r = \frac{1}{n}\sum_{i=1}^{n}(\frac{x_{i}-\mu_{x}}{\sigma_{x}})(\frac{y_{i}-\mu_{y}}{\sigma_{y}})&lt;/script&gt;
 
 &lt;ul&gt;
   &lt;li&gt;r is a pure number with no units&lt;/li&gt;
@@ -517,7 +549,7 @@ In R, the expression is &quot;pnorm(0) - pnorm(-1.33)&quot;
 &lt;h4 id=&quot;82-the-rms-error-of-regression-calculations-assuming-bivariate-normal-scatter&quot;&gt;8.2 The r.m.s error of regression; calculations assuming bivariate normal scatter&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;r.m.s. error of regression = r.m.s. of residuals = sqrt(1-r&lt;sup&gt;2&lt;/sup&gt;) * SD of y
+  &lt;li&gt;r.m.s. error of regression = r.m.s. of residuals = &lt;script type=&quot;math/tex&quot;&gt;\sqrt{1-r^2} \times SD_{y}&lt;/script&gt;
     &lt;ul&gt;
       &lt;li&gt;r = 1 or -1: r.m.s. error of regression = 0, which says, scatter is a perfect straight line; regression makes no error.&lt;/li&gt;
       &lt;li&gt;r = 0: r.m.s. error of regression = SD of y, which says, no linear association; regression is the same as using the average.&lt;/li&gt;
