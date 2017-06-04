@@ -6,9 +6,58 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Jun 2017 21:00:03 +1000</pubDate>
-    <lastBuildDate>Sun, 04 Jun 2017 21:00:03 +1000</lastBuildDate>
+    <pubDate>Sun, 04 Jun 2017 21:13:31 +1000</pubDate>
+    <lastBuildDate>Sun, 04 Jun 2017 21:13:31 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Use MathJax to write Equations in Jekyll blogs</title>
+        <description>&lt;p&gt;My PhD field involves a lot of statistic, so I usually need to write math equations both by hands and, more convenient, on the internet. This is my solution.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-mathjax-for-jekyll&quot;&gt;Use &lt;a href=&quot;https://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; for Jekyll&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;insert the code in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/default.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script type=&quot;text/x-mathjax-config&quot;&amp;gt;
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The first part is used to enable inline equation.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-latex-to-write-equations&quot;&gt;Use LaTex to write equations&lt;/h3&gt;
+
+&lt;p&gt;I found &lt;a href=&quot;https://en.wikibooks.org/wiki/LaTeX/Mathematics&quot;&gt;LaTex/Mathematics&lt;/a&gt; is wildly used to write equations on the website, such as &lt;a href=&quot;http://rmarkdown.rstudio.com/authoring_basics.html&quot;&gt;rmarkdown&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$$mean = \frac{\sum x_{i}}{n}$$&lt;/code&gt; to render&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;mean = \frac{\sum_{i=1}^{n} x_{i}}{n}&lt;/script&gt;
+
+&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.lostinmyterminal.com/webpages/2015/01/09/math-support-in-jekyll.html&quot;&gt;http://blog.lostinmyterminal.com/webpages/2015/01/09/math-support-in-jekyll.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 04 Jun 2017 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2017/06/04/MathJax.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/04/MathJax.html</guid>
+        
+        <category>统计</category>
+        
+        <category>cs</category>
+        
+        
+      </item>
     
       <item>
         <title>Statistics Mooc</title>
@@ -3091,196 +3140,6 @@ browsers and connected servers. HTTPS is the secure version.&lt;/p&gt;
         <guid isPermaLink="true">http://localhost:4000/2017/01/11/software-ability.html</guid>
         
         <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>澳洲学生签证申请</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#资料清单申请人&quot; id=&quot;markdown-toc-资料清单申请人&quot;&gt;资料清单（申请人）&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#移民局网站要求&quot; id=&quot;markdown-toc-移民局网站要求&quot;&gt;移民局网站要求&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#其他&quot; id=&quot;markdown-toc-其他&quot;&gt;其他&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#bring-your-family陪读&quot; id=&quot;markdown-toc-bring-your-family陪读&quot;&gt;Bring your family（陪读）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#网址&quot; id=&quot;markdown-toc-网址&quot;&gt;网址&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#移民局网站&quot; id=&quot;markdown-toc-移民局网站&quot;&gt;移民局网站&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#uq&quot; id=&quot;markdown-toc-uq&quot;&gt;UQ&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#其他-1&quot; id=&quot;markdown-toc-其他-1&quot;&gt;其他&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;资料清单申请人&quot;&gt;资料清单（申请人）&lt;/h2&gt;
-
-&lt;h3 id=&quot;移民局网站要求&quot;&gt;移民局网站要求&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Iden​tity​（身份证明）
-    &lt;ul&gt;
-      &lt;li&gt;a copy of your passport（护照复印件）&lt;/li&gt;
-      &lt;li&gt;a certified copy of your birth certificate（出生证明）&lt;/li&gt;
-      &lt;li&gt;national identity card（身份证）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Evidence of intended study（学业证明）
-    &lt;ul&gt;
-      &lt;li&gt;Confirmation of Enrolment, CoE（注册确认信）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Health insurance（医疗保险）
-    &lt;ul&gt;
-      &lt;li&gt;Overseas Student Health Cover, OSHC（海外学生医疗保险）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Genuine Temporary Entrant requirement（真实的临时入境者）
-    &lt;ul&gt;
-      &lt;li&gt;a statement（一份声明）&lt;/li&gt;
-      &lt;li&gt;Proof of employment（雇佣证明）
-        &lt;ul&gt;
-          &lt;li&gt;payslips or a contract（工资单或合同）&lt;/li&gt;
-          &lt;li&gt;CV（简历）&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Qualifications（证书）
-        &lt;ul&gt;
-          &lt;li&gt;a certified copy of your academic transcripts&lt;/li&gt;
-          &lt;li&gt;a certified copy of Educational Certificate (Degree, Diploma etc.)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Relationship - spouse, de facto partner（配偶关系）
-    &lt;ul&gt;
-      &lt;li&gt;a certified copy of your marriage certificate&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Employment history（雇佣经历）
-    &lt;ul&gt;
-      &lt;li&gt;payslips or a contract（工资单或合同）&lt;/li&gt;
-      &lt;li&gt;CV（简历）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Research Students（研究型学生）
-    &lt;ul&gt;
-      &lt;li&gt;a copy of your research (thesis/project) topic&lt;/li&gt;
-      &lt;li&gt;CV&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;其他&quot;&gt;其他&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;无犯罪记录证明&lt;/li&gt;
-  &lt;li&gt;户口本公证&lt;/li&gt;
-  &lt;li&gt;语言证明&lt;/li&gt;
-  &lt;li&gt;财力证明&lt;/li&gt;
-  &lt;li&gt;Letter of Offer&lt;/li&gt;
-  &lt;li&gt;Form 80
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.border.gov.au/Forms/Documents/80.pdf&quot;&gt;Personal particulars for assessment including character assessment&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Form 1221
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.border.gov.au/FormsAndDocuments/Documents/1221.pdf&quot;&gt;Additional personal particulars information&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;电子照片&lt;/li&gt;
-  &lt;li&gt;Cover Letter&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;bring-your-family陪读&quot;&gt;Bring your family（陪读）&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Identity documents
-    &lt;ul&gt;
-      &lt;li&gt;a certified copy of birth certificate（公证的出生证明）&lt;/li&gt;
-      &lt;li&gt;passport（护照）&lt;/li&gt;
-      &lt;li&gt;national ID card（身份证）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;proof of their relationship（关系证明）
-    &lt;ul&gt;
-      &lt;li&gt;mariiage certificate（结婚证）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;a copy of your main passport page（主申请人的护照主页）&lt;/li&gt;
-  &lt;li&gt;proof of financial capacity（财力证明）
-    &lt;ul&gt;
-      &lt;li&gt;evidence of funds to cover travel costs and 12 months’ tuition and living costs for both them and you&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;health insurance（医疗保险）&lt;/li&gt;
-  &lt;li&gt;the genuine temporaray entrant requirement（GTE要求）&lt;/li&gt;
-  &lt;li&gt;health requirement（健康要求）&lt;/li&gt;
-  &lt;li&gt;character requirement
-    &lt;ul&gt;
-      &lt;li&gt;a police clearance certificate（无犯罪证明）&lt;/li&gt;
-      &lt;li&gt;other evidence to satisfy the character requirements&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;网址&quot;&gt;网址&lt;/h2&gt;
-
-&lt;h3 id=&quot;移民局网站&quot;&gt;移民局网站&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;移民局官网：&lt;a href=&quot;http://www.border.gov.au/&quot;&gt;DIBP (Department of Immigration and Border Protection)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;学生签证（500类）：	&lt;a href=&quot;http://www.border.gov.au/Trav/Visa-1/500-&quot;&gt;Student visa (subclass 500)&lt;/a&gt;，此页面包含了两个很好的工具：
-    &lt;ul&gt;
-      &lt;li&gt;Document Checklist Tool&lt;/li&gt;
-      &lt;li&gt;Estimate the cost of your visa&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Immi账号：&lt;a href=&quot;http://www.border.gov.au/Trav/Visa/Immi&quot;&gt;ImmiAccount&lt;/a&gt;页面和&lt;a href=&quot;https://online.immi.gov.au/lusc/login&quot;&gt;登陆&lt;/a&gt;页面&lt;/li&gt;
-  &lt;li&gt;健康要求：&lt;a href=&quot;http://www.border.gov.au/Trav/Visa/Heal/overview-of-the-health-requirement&quot;&gt;Overview of the health requirement&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;提前体检：&lt;a href=&quot;http://www.border.gov.au/Trav/Visa/Heal/meeting-the-health-requirement/health-examinations/my-health-declarations&quot;&gt;my health declarations&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;安排体检：&lt;a href=&quot;http://www.border.gov.au/Trav/Visa/Heal/meeting-the-health-requirement/arranging-a-health-examination&quot;&gt;Arranging a health examination&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;陪读：&lt;a href=&quot;http://www.border.gov.au/Trav/Stud/Brin&quot;&gt;How to apply for family members to join you&lt;/a&gt;，此页面讲了陪读所需要的材料。&lt;/li&gt;
-  &lt;li&gt;GTE要求：&lt;a href=&quot;https://www.border.gov.au/Trav/Stud/More/Genuine-Temporary-Entrant&quot;&gt;Genuine temporary entrant&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;提交材料要求：&lt;a href=&quot;https://www.border.gov.au/Trav/Visa/Atta&quot;&gt;Attach documents to an online application&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;所需信息：&lt;a href=&quot;https://www.border.gov.au/Trav/Visa/Info&quot;&gt;Information to help prepare your application&lt;/a&gt;，此页面又包含以下几方面：
-    &lt;ul&gt;
-      &lt;li&gt;Certified documents（公证材料）&lt;/li&gt;
-      &lt;li&gt;Statutory declarations（法律声明）&lt;/li&gt;
-      &lt;li&gt;Translating documents into English（翻译）&lt;/li&gt;
-      &lt;li&gt;Communicating with the department electronically（电子沟通）&lt;/li&gt;
-      &lt;li&gt;Getting help with your application（需求帮助）&lt;/li&gt;
-      &lt;li&gt;Appointing an authorised recipient&lt;/li&gt;
-      &lt;li&gt;Privacy - disclosure of information to other parties&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;品质和警察要求：&lt;a href=&quot;http://www.border.gov.au/Trav/Visa/Char&quot;&gt;Character and police certificate requirements&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;uq&quot;&gt;UQ&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://graduate-school.uq.edu.au/getting-started&quot;&gt;Getting started&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://future-students.uq.edu.au/international/health-insurance&quot;&gt;Health insurance and medical care&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://future-students.uq.edu.au/international/bringing-your-family&quot;&gt;Bringing your family&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://future-students.uq.edu.au/international/cost-living&quot;&gt;Cost of living&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://graduate-school.uq.edu.au/research-quarters&quot;&gt;Research quarters&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://future-students.uq.edu.au/files/3234/UQ_GTE_Statement_of_Purpose.pdf&quot;&gt;GTE statement&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;其他-1&quot;&gt;其他&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/22212766&quot;&gt;《手把手填澳洲学生签证(500)攻略》知乎专栏&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/23656583&quot;&gt;《澳洲学生签证（Subclass 500）最全申请指南》知乎专栏&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.douban.com/group/topic/71347342/&quot;&gt;《【澳洲打工度假签证四】出生证明公证攻略》豆瓣小组&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Tue, 03 Jan 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/01/03/visa-application.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/03/visa-application.html</guid>
-        
-        <category>career</category>
         
         
       </item>
