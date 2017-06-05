@@ -907,6 +907,35 @@ Test statistic = sum of (o-e)^e over all categories ~ chi-square(X<sup>2</sup>) 
 
 #### 5.3 Chi-squared test for independence
 
+- SRS of students at a large university
+
+Observed result
+
+||female|male|total|
+|:--|:--|:--|:--|
+|delared science|62|21|83|
+|declared other|137|74|211|
+|undeclared|48|58|106|
+|total|247|153|400|
+
+- Question: At the university, are gender and major declaration status independent?
+- H0: independent; H1: not independent
+
+Expected result: $\text{expected count} \approx \frac{\text{row total} \times \text{column total}}{\text{grand total}}$
+
+||female|male|total|
+|:--|:--|:--|:--|
+|delared science|51.25|31.75|83|
+|declared other|130.29|80.71|211|
+|undeclared|65.45|40.55|106|
+|total|247|153|400|
+
+- Add $\frac{(o-e)^{2}}{e}$ over all 3 * 2 cells
+- $\chi^{2} \text{statistic} \approx 19$
+- degrees of freedom = (rows - 1) $\times$ (columns -1) = (3-1)$\times$(2-1) =2
+- p = 7.485183e-05, tiny
+- Conclusion: Not independent
+
 ## Appendix
 
 ### Appendix 1 : The Greek Symbols
