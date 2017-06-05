@@ -20,6 +20,18 @@ This blog is the notebook for these four paper.
 5. sample size
 6. de novo or repliction study
 
+## Data quality control
+
+- Per-individual QC
+	- identification of individuals with discordant sex information
+	- identification of individuals with outlying missing genotype or heterozygosity rates
+	- identification of duplicated or related individuals
+	- identification of individuals of divergent ancestry
+- Per-marker QC
+	- identification of SNPs with an excessive missing genotype
+	- identification of SNPs showing a significant deviation from Hardy-Weinberg equilibrium (HWE)
+	- identification of SNPs with significantly different missing genotype rates between cases and controls
+	- the removal of all markers with a very low minor allele frequency (MAF)
 
 ## Paper list
 
