@@ -6,9 +6,195 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Jun 2017 20:55:12 +1000</pubDate>
-    <lastBuildDate>Tue, 06 Jun 2017 20:55:12 +1000</lastBuildDate>
+    <pubDate>Wed, 07 Jun 2017 21:53:39 +1000</pubDate>
+    <lastBuildDate>Wed, 07 Jun 2017 21:53:39 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>HWE and LD</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle&quot;&gt;Hardy-Weinberg equilibrium&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Linkage_disequilibrium&quot;&gt;Linkage disequilibrium&lt;/a&gt; are two basic concepts in &lt;a href=&quot;https://en.wikipedia.org/wiki/Population_genetics&quot;&gt;population genetics&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;defination&quot;&gt;Defination&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hardy-Weinberg Equilibrium (HWE): &lt;strong&gt;allele and genotype frequencies&lt;/strong&gt; in a population will remain constant &lt;strong&gt;from generation to generation&lt;/strong&gt; in the absence of other evolutionary influences.&lt;/li&gt;
+  &lt;li&gt;Linkage Disequilibrium (LD): the non-random association of &lt;strong&gt;alleles at different loci&lt;/strong&gt; in a given population.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So HWE is about the allele and genotype frequencies in one locus, but LD is about alleles at different loci.&lt;/p&gt;
+
+&lt;h3 id=&quot;hardy-weinberg-equilibrium&quot;&gt;Hardy-Weinberg Equilibrium&lt;/h3&gt;
+
+&lt;h4 id=&quot;from-genotype-to-allele-frequencies&quot;&gt;From Genotype to Allele frequencies&lt;/h4&gt;
+
+&lt;p&gt;For $n_{AA}, n_{Aa}, n_{aa}$ is the count of genotype AA, Aa and aa, respectively. And $n = n_{AA} + n_{Aa} + n_{aa}$.&lt;/p&gt;
+
+&lt;p&gt;So, the count of A and a alleles are:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;n_{A} = 2 \times n_{AA} + n_{Aa}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;n_{a} = 2 \times n_{aa} + n_{Aa}&lt;/script&gt;
+
+&lt;p&gt;The frequencies of A and a alleles are:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{A} = \frac{n_{A}}{2n} = \frac{2 \times n_{AA} + n_{Aa}}{2n} = p_{AA} + \frac{1}{2}p_{Aa}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{a} = \frac{n_{a}}{2n} = \frac{2 \times n_{aa} + n_{Aa}}{2n} = p_{aa} + \frac{1}{2}p_{Aa}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{A} = 1 - p_{a}&lt;/script&gt;
+
+&lt;h4 id=&quot;from-allele-to-genotype-frequencies---hwe&quot;&gt;From Allele to Genotype frequencies - HWE&lt;/h4&gt;
+
+&lt;p&gt;We cannot directly get genotype frequencies from allele frequencies. But under Hardy-Weiberge Equilibrium, we can do it by&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{AA} = p_{A}^{2}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{Aa} = 2p_{A}p_{a}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{aa} = p_{a}^{2}&lt;/script&gt;
+
+&lt;p&gt;The assumptions for HWE includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;random mating&lt;/li&gt;
+  &lt;li&gt;infinite population size (no genetic drift)&lt;/li&gt;
+  &lt;li&gt;no mutation&lt;/li&gt;
+  &lt;li&gt;no selection&lt;/li&gt;
+  &lt;li&gt;no migration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition, we can see genotype frequencies is a binomial distribution. If SNP genotpes are coded X = 0, 1 and 2 (alleles) and the allele frequency is p, then:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;X \sim B(2, p)\text{ with }E(X) = 2p\text{ and }Var(X)=2p(1-p)&lt;/script&gt;
+
+&lt;p&gt;We can plot the distribution of three different genotypes. In real genetics, we usually use the minor allele, so p is less than 0.5.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;p = seq(0,1,0.01)
+plot(p, p^2, ylab = &quot;genotype frequency&quot;, main=&quot;Under HWE&quot;,type=&quot;l&quot;, col=&quot;blue&quot;)
+lines(p, 2*p*(1-p), col=&quot;green&quot;)
+lines(p, (1-p)^2, col=&quot;grey&quot;)
+legend(0.5,0.95,&quot;genotype = 0&quot;,lty = 1, col =&quot;blue&quot;, bty=&quot;n&quot;)
+legend(0.5,0.85,&quot;genotype = 1&quot;,lty = 1, col =&quot;green&quot;, bty = &quot;n&quot;)
+legend(0.5,0.75,&quot;genotype = 2&quot;,lty = 1, col =&quot;grey&quot;, bty = &quot;n&quot;)
+abline(v = 0.5, lty=2)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/HWE_allele_genotype.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;test-for-hwe&quot;&gt;Test for HWE&lt;/h4&gt;
+
+&lt;p&gt;In the GWAS QC step, we usually remove SNPs with extensive deviation from HWE because this can be indicative of a genotyping or genotype-calling error.&lt;/p&gt;
+
+&lt;p&gt;The two common ways to test HWE are Chi-square test and exact test.&lt;/p&gt;
+
+&lt;p&gt;For Chi-square test:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\chi^{2} = \frac{(n_{AA}-e{AA})^2}{e_{AA}} + \frac{(n_{Aa}-e{Aa})^2}{e_{Aa}} + \frac{(n_{aa}-e{aa})^2}{e_{aa}}&lt;/script&gt;
+
+&lt;p&gt;where $e_{AA} = np_{A}^2$, $e_{Aa} = 2np_{A}p_{a}$, $e_{aa} = np_{a}^2$ and df = 1 (#genotype - #allele).&lt;/p&gt;
+
+&lt;p&gt;For exact test:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(N_{Aa}|N_{A}) = \frac{n_{A}!n_{a}!n!2^{n_{Aa}}}{\frac{1}{2}(n_{A}-n_{Aa})!n_{Aa}!\frac{1}{2}(n_{a}-n_{Aa})!(2n)!}&lt;/script&gt;
+
+&lt;p&gt;For example, a sample with 2504 individuals, the observed genotypes are 2467/36/1 for AA, Aa and aa. We can do the chi-square test in R.&lt;/p&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;### Observed genotype counts
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_AA&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2467&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;36&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_AA&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O_geno&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_AA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Aa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_aa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 2467 36 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;### Observed allele count and frequency
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_A&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_AA&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_A&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 0.9924121 0.007587859
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;### Expected genotype count, under HWE
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_AA&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_Aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_A&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_geno&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_AA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_Aa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_aa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 2466.144 37.71166 0.1441693
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;### Chi-square with df=1 (#genotypes - #alleles)
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chisq&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O_geno&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pvalue&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pchisq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chisq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paste&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;chisq:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chisq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;pvalue: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pvalue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## chisq: 5.15844350552391 ; pvalue:  0.02313362043297
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We can also use the R package “HardyWeinberg” to do the chi-square test.&lt;/p&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;### We can also use the R package &quot;HardyWeinberg&quot;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HardyWeinberg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HWChisq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## Chi-square test for Hardy-Weinberg equilibrium (autosomal)
+## Chi2 =  5.158444 DF =  1 p-value =  0.02313362 D =  -0.8558307 f =  0.04538812
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It’s hard to do the exact test directly in R because of the factorial calucation. So we also use the R package “HardyWeinberg”. A more common way is to use &lt;a href=&quot;https://www.cog-genomics.org/plink/1.9/filter#hwe&quot;&gt;PLINK&lt;/a&gt; “–hwe” option.&lt;/p&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;HWExact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## Haldane Exact test for Hardy-Weinberg equilibrium (autosomal)
+## using SELOME p-value
+## sample counts: n =  2467 n =  36 n =  1 
+## H0: HWE (D==0), H1: D &amp;lt;&amp;gt; 0 
+## D =  -0.8558307 p-value =  0.1318891
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;linkage-disequilibrium&quot;&gt;Linkage disequilibrium&lt;/h3&gt;
+
+&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bioinformatics.org.au/ws09/presentations/Day3_PVisscher.pdf&quot;&gt;ppt from Peter Visscher&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.springer.com/cn/book/9781441973375&quot;&gt;Laird et al, The Fundamentals of Modern Statistical Genetics, 2011&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cran.r-project.org/web/packages/HardyWeinberg/vignettes/HardyWeinberg.pdf&quot;&gt;R package HardyWeinberg&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Wed, 07 Jun 2017 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2017/06/07/HWE_LD.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/07/HWE_LD.html</guid>
+        
+        <category>genetics</category>
+        
+        
+      </item>
     
       <item>
         <title>Simple Statistic in R</title>
@@ -3224,158 +3410,6 @@ browsers and connected servers. HTTPS is the secure version.&lt;/p&gt;
         <category>medi</category>
         
         <category>HIT</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>python的快速参考手册</title>
-        <description>&lt;p&gt;本手册来自图书&lt;a href=&quot;https://www.amazon.com/Introduction-Computation-Programming-Using-Python-ebook/dp/B00H4D1W9E&quot;&gt;《Introduction to Computation adn Programming Using Python》&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;common-operations-on-numerical-types&quot;&gt;Common operations on numerical types&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i+j&lt;/code&gt; is the sum of i and j&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i-j&lt;/code&gt; is i minus j&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i*j&lt;/code&gt; is the product（） of i and j&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i//j&lt;/code&gt;is integer division&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i/j&lt;/code&gt; is i divided by j. In Python 2.7, when i and j are both of type int, the result is also an int, otherwise the result is a float&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i%j&lt;/code&gt; is the remainder（余数） when the int i is divided by the int j&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;i**j&lt;/code&gt; is i raised to the power j&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;x += y&lt;/code&gt; is equivalent to &lt;code class=&quot;highlighter-rouge&quot;&gt;x = x + y&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;*=&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;-=&lt;/code&gt; work the same way&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;comparison-and-boolean-operators&quot;&gt;Comparison and Boolean operators&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;x == y&lt;/code&gt; returns True if x and y are equal&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;x != y&lt;/code&gt; returns True if x and y are not equal&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;, &amp;gt;, &amp;lt;=, &amp;gt;=&lt;/code&gt; have their usual meanings&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a and b&lt;/code&gt; is True if both a and b are True, and False otherwise&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a or b&lt;/code&gt; is Ture if at least one of a and b is True, and False otherwise&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;not a&lt;/code&gt; is True if a is Fasle, and False if a if True&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;common-operations-on-sequence-types&quot;&gt;Common operations on sequence types&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;seq[i]&lt;/code&gt; returns the ith element in the sequence&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;len(seq)&lt;/code&gt; returns the length of the sequence&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;seq1 + seq2&lt;/code&gt; concatenates（链接） the two sequences&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;n*seq&lt;/code&gt; returns a sequence that repeats seq n times&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;seq[start:end]&lt;/code&gt; returns a slice（切片） of the sequence&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;e in seq&lt;/code&gt; tests whether e is contained in the sequence&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;e not in seq&lt;/code&gt; tests whether e is not contained in the sequence&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;for e in seq&lt;/code&gt; iterates（迭代） over the elements of the sequence&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;common-string-methods&quot;&gt;Common string methods&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.count(s1)&lt;/code&gt; counts how many times the string s1 occurs in s&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.find(s1)&lt;/code&gt; returns the index of the first occurrence of the substring s1 in s; -1 if s1 is not in s&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.rfind(s1)&lt;/code&gt; same as find, but starts fron the end of s&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.index(s1)&lt;/code&gt; same as find, but raises an exception if s1 is not in s&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.rindx(s1)&lt;/code&gt; same as index, but starts from the end of s&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.lower()&lt;/code&gt; converts all uppercase letters to lowercase&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.replace(old, new)&lt;/code&gt; replaces all occurrences of string old with string new&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.rstrip()&lt;/code&gt; removes trailling white space&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;s.split(d)&lt;/code&gt; Splits s using d as a delimiter（分隔符）. Return a list of substrings of s&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;common-list-methos&quot;&gt;Common list methos&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.append(e)&lt;/code&gt; add the object（对象） e to the end of L&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.count(e)&lt;/code&gt; returns the number of times that e occurs in L&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.insert(i, e)&lt;/code&gt; inserts the object e into L at index i&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.extend(L1)&lt;/code&gt; appends（追加） the items in list L1 to the end of L&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.remove(e)&lt;/code&gt; deletes the first occurrence of e from L&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.index(e)&lt;/code&gt; returns the index of the first occurrence of e in L&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.pop(i)&lt;/code&gt; removes and returns the item at index i. Defaults to -1&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.sort()&lt;/code&gt; has the side effect of sorting the elements of L&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L.reverse()&lt;/code&gt; has the side effect of reversing the order of the elements in L&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;common-operations-on-dictionaries&quot;&gt;Common operations on dictionaries&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;len(d)&lt;/code&gt; returns the number of items in d&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;d.keys()&lt;/code&gt; returns a list containing the keys in d&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;d.values()&lt;/code&gt; returns a list containing the values in d&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;k in d&lt;/code&gt; returns True if key k is in d&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;d[k]&lt;/code&gt; returns the item in d with key k. Raises KeyError if k is not in d&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;d.get(k, v)&lt;/code&gt; returns d[k] if k in d, and v otherwise&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;d[k] = v&lt;/code&gt; associates the value v with the key k. If there is already a value associated with k, that value is replaced.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;del d[k]&lt;/code&gt; removes element with key k from d. Raises KeyError if k is not in d.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;for k in d&lt;/code&gt; iterates over the keys in d&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;comparison-of-common-non-scalar-typesnon-scalar-have-internal-structure-that-can-be-accessed&quot;&gt;Comparison of common non-scalar types（non-scalar: have internal structure that can be accessed)&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Type&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Type of Index&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Type f element&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Examples of literals&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Mutable（可变的）&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;str&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;int&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;characters&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;’’, ‘a’, ‘abc’&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;No&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;tuple&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;int&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;any type&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;(), (3,), (‘abc’, 4)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;No&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;list&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;int&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;any type&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;[], [3], [‘abc’, 4]&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Yes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;dict&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Hashable objects&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;any type&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;{}, {‘a’: 1}, {‘a’:1, ‘b’:2.0}&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Yes&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;common-inputoutput-mechanisms&quot;&gt;Common input/output mechanisms&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;raw_input(msg)&lt;/code&gt; prints msg and then returns value entered as a string&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;print s1, ..., sn&lt;/code&gt; prints strings s1, …, sn with a space between each&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;open('fileName', 'w')&lt;/code&gt; creates a file for writing&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;open('fileName', 'r')&lt;/code&gt; opens an existing file for reading&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;open('fileName', 'a')&lt;/code&gt; opens an existing file for appending&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.read()&lt;/code&gt; returns a string containing contents of the file&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.readline()&lt;/code&gt; returns the next line in the file&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.readlines()&lt;/code&gt; returns a list containing lines of the file&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.write(s)&lt;/code&gt; write the string s to the end of the file&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.writelines(L)&lt;/code&gt; Writes each element of L to the file&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fileHandle.close()&lt;/code&gt; closes the file&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 19 Jan 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/01/19/python-quick-reference.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/19/python-quick-reference.html</guid>
-        
-        <category>cs</category>
         
         
       </item>
