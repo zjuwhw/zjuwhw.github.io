@@ -241,7 +241,180 @@ abline(v = 0.5, lty=2)
 </code></pre>
 </div>
 
+<p>We can see that the p-values from chi-square and exact test are quite different. In 2005, <a href="http://www.sciencedirect.com/science/article/pii/S0002929707607356">Wigginton et al</a> has shown that the chi-square inflated type I error rates. So exact test is a better method.</p>
+
 <h3 id="linkage-disequilibrium">Linkage disequilibrium</h3>
+
+<h4 id="disequilibrium-coefficient-d">Disequilibrium coefficient (D)</h4>
+
+<p>For a pair of biallelic loci, there are four <a href="https://en.wikipedia.org/wiki/Haplotype">haplotypes</a>. If there is no association between these two SNPs (linkage equilibrium), the haplotype frequencies should be:</p>
+
+<ul>
+  <li>$p_{AB} = p_{A} \times p_{B}$</li>
+  <li>$p_{aB} = p_{a} \times p_{B}$</li>
+  <li>$p_{Ab} = p_{A} \times p_{b}$</li>
+  <li>$p_{ab} = p_{a} \times p_{b}$</li>
+</ul>
+
+<p>However, if the two SNPs have nonrandom association, the LD can be defined by disequilibrium coefficient:</p>
+
+<ul>
+  <li>$D_{AB} = p_{AB} - p_{A} \times p_{B}$</li>
+  <li>$P_{AB} = p_{A} \times p_{B} + D_{AB}$</li>
+  <li>$p_{aB} = p_{a} \times p_{B} - D_{AB}$</li>
+  <li>$p_{Ab} = p_{A} \times p_{b} - D_{AB}$</li>
+  <li>$p_{ab} = p_{a} \times p_{b} + D_{AB}$</li>
+</ul>
+
+<h4 id="other-ld-measures">Other LD measures</h4>
+
+<p>More wildely used measures for LD are D’ and $r^{2}$.</p>
+
+<script type="math/tex; mode=display">D'_{AB} = \frac{D_{AB}}{D_{min}}</script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} < 0 %]]></script>
+
+<script type="math/tex; mode=display">D_{min} = min(p_{A}p_{b}, p_{a}p_{B}), if D_{AB} > 0</script>
+
+<p>D′ = 1 indicates that at least one of the four possible haplotypes is absent, regardless of the allele frequencies.</p>
+
+<script type="math/tex; mode=display">r^{2} = \frac{D^{2}}{p_{A}p_{a}p_{B}p_{b}}</script>
+
+<p>$r^{2}$ is a correlation coefficient of 1/0 (all or none) indicator variables indicating the presence of A and B.</p>
+
+<h4 id="influence-factor">Influence Factor</h4>
+
+<p>Linkage disequilibrium is influenced by many factors, including,</p>
+<ul>
+  <li>selection</li>
+  <li>the rate of recombination</li>
+  <li>the rate of mutation</li>
+  <li>genetic drift</li>
+  <li>the system of mating</li>
+  <li>population structure</li>
+  <li>genetic linkage.</li>
+</ul>
+
+<h4 id="an-example-in-r">An example in R</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">haplotype</th>
+      <th style="text-align: left">ab</th>
+      <th style="text-align: left">Ab</th>
+      <th style="text-align: left">aB</th>
+      <th style="text-align: left">AB</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">frequency</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">32/5008</td>
+      <td style="text-align: left">1/5008</td>
+      <td style="text-align: left">4975/5008</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">allele</th>
+      <th style="text-align: left">a</th>
+      <th style="text-align: left">A</th>
+      <th style="text-align: left">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">b</td>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">32/5008</td>
+      <td style="text-align: left">32/5008</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">B</td>
+      <td style="text-align: left">1/5008</td>
+      <td style="text-align: left">4975/5008</td>
+      <td style="text-align: left">4976/5008</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Total</td>
+      <td style="text-align: left">1/5008</td>
+      <td style="text-align: left">5007/5008</td>
+      <td style="text-align: left">1</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#haplotype frequency
+</span><span class="n">pab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="w">
+</span><span class="n">pAb</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">32</span><span class="o">/</span><span class="m">5008</span><span class="w">
+</span><span class="n">paB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="o">/</span><span class="m">5008</span><span class="w">
+</span><span class="n">pAB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">4975</span><span class="o">/</span><span class="m">5008</span><span class="w">
+</span><span class="n">cat</span><span class="p">(</span><span class="n">pab</span><span class="p">,</span><span class="w"> </span><span class="n">pAb</span><span class="p">,</span><span class="w"> </span><span class="n">paB</span><span class="p">,</span><span class="w"> </span><span class="n">pAB</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>## 0 0.006389776 0.0001996805 0.9934105
+</code></pre>
+</div>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#allele frequency
+</span><span class="n">pa</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">paB</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">pab</span><span class="w">
+</span><span class="n">pA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pAB</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">pAb</span><span class="w">
+</span><span class="n">pb</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pab</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">pAb</span><span class="w">
+</span><span class="n">pB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">paB</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">pAB</span><span class="w">
+</span><span class="n">cat</span><span class="p">(</span><span class="n">pa</span><span class="p">,</span><span class="w"> </span><span class="n">pA</span><span class="p">,</span><span class="w"> </span><span class="n">pb</span><span class="p">,</span><span class="w"> </span><span class="n">pB</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>## 0.0001996805 0.9998003 0.006389776 0.9936102
+</code></pre>
+</div>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#D
+</span><span class="n">D</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pAB</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">pA</span><span class="o">*</span><span class="n">pB</span><span class="w">
+</span><span class="n">cat</span><span class="p">(</span><span class="n">D</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>## -1.275914e-06
+</code></pre>
+</div>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#Dmin
+</span><span class="n">Dmin</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">max</span><span class="p">(</span><span class="o">-</span><span class="n">pA</span><span class="o">*</span><span class="n">pB</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="n">pa</span><span class="o">*</span><span class="n">pb</span><span class="p">)</span><span class="w">
+</span><span class="n">cat</span><span class="p">(</span><span class="n">Dmin</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>## -1.275914e-06
+</code></pre>
+</div>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#D'
+</span><span class="n">Ddot</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">D</span><span class="o">/</span><span class="n">Dmin</span><span class="w">
+</span><span class="n">cat</span><span class="p">(</span><span class="n">Ddot</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>## 1
+</code></pre>
+</div>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#r-square
+</span><span class="n">rsq</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">D</span><span class="o">^</span><span class="m">2</span><span class="o">/</span><span class="p">(</span><span class="n">pa</span><span class="o">*</span><span class="n">pA</span><span class="o">*</span><span class="n">pb</span><span class="o">*</span><span class="n">pB</span><span class="p">)</span><span class="w">
+</span><span class="n">cat</span><span class="p">(</span><span class="n">rsq</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>## 1.284376e-06
+</code></pre>
+</div>
 
 <h3 id="reference">Reference</h3>
 

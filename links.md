@@ -192,11 +192,20 @@ permalink: /links/
 - [Wong Yong Wang](http://web.stanford.edu/group/wonglab/)
 - [Peter Visshcer](http://cnsgenomics.com/index.html)
 
+**Human Genetics**
+
+- [Goncalo Abecasis](http://csg.sph.umich.edu/abecasis/)
+- [Shaun Purcell](http://research.mssm.edu/statgen/)
+- [Alkes Price](https://www.hsph.harvard.edu/alkes-price/)
+- [Benjamin Neale](http://www.nealelab.is/)
+- [Bruce Walsh](http://nitro.biosci.arizona.edu/)
+
+
 **My lab**
 
 - [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720)
 - [方海](http://www.cs.bris.ac.uk/~hfang/)
-
+- [CNSG](http://cnsgenomics.com/)
 
 ### Journal
 - [Cell](http://www.cell.com/)
