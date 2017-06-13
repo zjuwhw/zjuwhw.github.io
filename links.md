@@ -226,6 +226,7 @@ permalink: /links/
 - [Nature Review Genetics](http://www.nature.com/nrg/index.html)
 - [American Journal of Human Genetics](http://www.cell.com/ajhg/home)
 - [Trend in Genetics](http://www.cell.com/trends/genetics/home)
+- [Human Molecular Genetics](https://academic.oup.com/hmg)
 
 #### Haematology
 
@@ -235,9 +236,11 @@ permalink: /links/
 #### Others
 
 - [Genome Research](http://genome.cshlp.org/)
+- [Genome Biology](https://genomebiology.biomedcentral.com/)
 - [Nature Review Cancer](http://www.nature.com/nrc/index.html)
 - [Nature biotechnology](http://www.nature.com/nbt/index.html)
 - [PLOS Computational Biology](http://www.ploscompbiol.org/)
+
 
 ### Courses
 
