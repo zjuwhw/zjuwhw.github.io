@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Jun 2017 16:30:08 +1000</pubDate>
-    <lastBuildDate>Tue, 13 Jun 2017 16:30:08 +1000</lastBuildDate>
+    <pubDate>Tue, 13 Jun 2017 17:06:57 +1000</pubDate>
+    <lastBuildDate>Tue, 13 Jun 2017 17:06:57 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -460,6 +460,24 @@ D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} &lt; 0 %]]&gt;&lt;/script&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
+&lt;h4 id=&quot;sample-correlation&quot;&gt;sample correlation:&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;r = \frac{Cov(x, y)}{\sqrt{Var(x)Var(y)}}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;r = \frac{Cov(x, y)}{\sqrt{SD(x)SD(y)}}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;r = \frac{1}{n-1}\displaystyle\sum z_{x}z_{y}, \text{where }z_{x} = \frac{x - \bar{x}}{SD(x)}\text{and }z_{y} = \frac{y - \bar{y}}{SD(y)}&lt;/script&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## [1] 0.9715366
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;h4 id=&quot;mean-rules&quot;&gt;mean rules&lt;/h4&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;mean(x+c) = mean(x) + c&lt;/script&gt;
@@ -486,23 +504,10 @@ D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} &lt; 0 %]]&gt;&lt;/script&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;Cov(x, y + z) = Cov(x, y) + Cov(x, z)&lt;/script&gt;
 
-&lt;h4 id=&quot;sample-correlation&quot;&gt;sample correlation:&lt;/h4&gt;
+&lt;h4 id=&quot;correlation-rules&quot;&gt;Correlation rules&lt;/h4&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;r = \frac{Cov(x, y)}{\sqrt{Var(x)Var(y)}}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;r = \frac{Cov(x, y)}{\sqrt{SD(x)SD(y)}}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;r = \frac{1}{n-1}\displaystyle\sum z_{x}z_{y}, \text{where }z_{x} = \frac{x - \bar{x}}{SD(x)}\text{and }z_{y} = \frac{y - \bar{y}}{SD(y)}&lt;/script&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## [1] 0.9715366
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Cor(cx, y) = Cor(x, y)&lt;/script&gt;$
+&lt;script type=&quot;math/tex&quot;&gt;Cor(x + c, y) = Cor(x, y)&lt;/script&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;regression&quot;&gt;Regression&lt;/h3&gt;
 

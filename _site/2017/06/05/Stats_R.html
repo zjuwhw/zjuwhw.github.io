@@ -161,6 +161,24 @@
 </code></pre>
 </div>
 
+<h4 id="sample-correlation">sample correlation:</h4>
+
+<script type="math/tex; mode=display">r = \frac{Cov(x, y)}{\sqrt{Var(x)Var(y)}}</script>
+
+<script type="math/tex; mode=display">r = \frac{Cov(x, y)}{\sqrt{SD(x)SD(y)}}</script>
+
+<script type="math/tex; mode=display">r = \frac{1}{n-1}\displaystyle\sum z_{x}z_{y}, \text{where }z_{x} = \frac{x - \bar{x}}{SD(x)}\text{and }z_{y} = \frac{y - \bar{y}}{SD(y)}</script>
+
+<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="o">:</span><span class="m">10</span><span class="w">
+</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="m">5</span><span class="p">,</span><span class="m">11</span><span class="o">:</span><span class="m">15</span><span class="p">)</span><span class="w">
+</span><span class="n">cor</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span><span class="w">
+</span></code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>## [1] 0.9715366
+</code></pre>
+</div>
+
 <h4 id="mean-rules">mean rules</h4>
 
 <script type="math/tex; mode=display">mean(x+c) = mean(x) + c</script>
@@ -187,23 +205,10 @@
 
 <script type="math/tex; mode=display">Cov(x, y + z) = Cov(x, y) + Cov(x, z)</script>
 
-<h4 id="sample-correlation">sample correlation:</h4>
+<h4 id="correlation-rules">Correlation rules</h4>
 
-<script type="math/tex; mode=display">r = \frac{Cov(x, y)}{\sqrt{Var(x)Var(y)}}</script>
-
-<script type="math/tex; mode=display">r = \frac{Cov(x, y)}{\sqrt{SD(x)SD(y)}}</script>
-
-<script type="math/tex; mode=display">r = \frac{1}{n-1}\displaystyle\sum z_{x}z_{y}, \text{where }z_{x} = \frac{x - \bar{x}}{SD(x)}\text{and }z_{y} = \frac{y - \bar{y}}{SD(y)}</script>
-
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="o">:</span><span class="m">10</span><span class="w">
-</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="m">5</span><span class="p">,</span><span class="m">11</span><span class="o">:</span><span class="m">15</span><span class="p">)</span><span class="w">
-</span><span class="n">cor</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>## [1] 0.9715366
-</code></pre>
-</div>
+<p><script type="math/tex">Cor(cx, y) = Cor(x, y)</script>$
+<script type="math/tex">Cor(x + c, y) = Cor(x, y)</script></p>
 
 <h3 id="regression">Regression</h3>
 
