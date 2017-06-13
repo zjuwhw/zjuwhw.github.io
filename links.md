@@ -56,7 +56,8 @@ permalink: /links/
 - [Beagle](https://faculty.washington.edu/browning/beagle/beagle.html): genotype calling, genotype phasing, imputation of ungenotyped markers, and identity-by-descent segment detection
 - [haploview](https://www.broadinstitute.org/haploview/haploview): analysis and visualization of LD and haplotype maps
 - [HaploReg](http://archive.broadinstitute.org/mammals/haploreg/haploreg.php): annotations of the noncoding genome at variants
-- [BOLT-LMM](https://data.broadinstitute.org/alkesgroup/BOLT-LMM/): BOLT-LMM algorithm for mixed model association testing, and the BOLT-REML algorithm for variance components analysis 
+- [BOLT-LMM](https://data.broadinstitute.org/alkesgroup/BOLT-LMM/): BOLT-LMM algorithm for mixed model association testing, and the BOLT-REML algorithm for variance components analysis
+- [MERLIN](https://csg.sph.umich.edu/abecasis/Merlin/tour/assoc.html): Association Analysis
 
 **ChIP-seq**
 
@@ -199,30 +200,44 @@ permalink: /links/
 - [Alkes Price](https://www.hsph.harvard.edu/alkes-price/)
 - [Benjamin Neale](http://www.nealelab.is/)
 - [Bruce Walsh](http://nitro.biosci.arizona.edu/)
+- [Matt Robinson](http://wp.unil.ch/ctgg)
+- [方海](http://www.cs.bris.ac.uk/~hfang/)
 
 
 **My lab**
 
 - [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720)
-- [方海](http://www.cs.bris.ac.uk/~hfang/)
 - [CNSG](http://cnsgenomics.com/)
 
 ### Journal
+
+#### Comprehensive journals
+
 - [Cell](http://www.cell.com/)
 - [Science](http://www.sciencemag.org/)
 - [Nature](http://www.nature.com/)
-- [Blood](http://bloodjournal.hematologylibrary.org/)
-- [Leukemia](http://www.nature.com/leu/index.html)
 - [PNAS](http://www.pnas.org/)
 - [NEJM](http://www.nejm.org/)
-- [Genome Research](http://genome.cshlp.org/)
-- [Nature biotechnology](http://www.nature.com/nbt/index.html)
-- [Nature Review Genetics](http://www.nature.com/nrg/index.html)
-- [Nature Review Cancer](http://www.nature.com/nrc/index.html)
-- [PLOS Computational Biology](http://www.ploscompbiol.org/)
+- [Lancet](http://www.thelancet.com/)
 - [Annual Review](http://www.annualreviews.org/)
 
+#### Genetics
+- [Nature Genetics](http://www.nature.com/ng/index.html)
+- [Nature Review Genetics](http://www.nature.com/nrg/index.html)
+- [American Journal of Human Genetics](http://www.cell.com/ajhg/home)
+- [Trend in Genetics](http://www.cell.com/trends/genetics/home)
 
+#### Haematology
+
+- [Blood](http://bloodjournal.hematologylibrary.org/)
+- [Leukemia](http://www.nature.com/leu/index.html)
+
+#### Others
+
+- [Genome Research](http://genome.cshlp.org/)
+- [Nature Review Cancer](http://www.nature.com/nrc/index.html)
+- [Nature biotechnology](http://www.nature.com/nbt/index.html)
+- [PLOS Computational Biology](http://www.ploscompbiol.org/)
 
 ### Courses
 
