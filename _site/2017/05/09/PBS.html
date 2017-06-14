@@ -96,6 +96,27 @@
   <li><code class="highlighter-rouge">tracejob</code>: Report job history</li>
 </ul>
 
+<h3 id="common-commands">Common commands</h3>
+
+<p><code class="highlighter-rouge">qstat -t</code>: Displays status information for jobs, job arrays, and subjobs.
+<code class="highlighter-rouge">qstat -Q</code>: Display queue status in default format</p>
+
+<h3 id="common-pbs-lines">Common <code class="highlighter-rouge">#PBS</code> lines</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">-A</code>: account string</li>
+  <li><code class="highlighter-rouge">-J</code>: job array</li>
+  <li><code class="highlighter-rouge">-N</code>: job name</li>
+  <li><code class="highlighter-rouge">-l</code>: resource list
+    <ul>
+      <li><code class="highlighter-rouge">select</code>: The number of nodes is requested via the select command</li>
+      <li><code class="highlighter-rouge">mem</code>: memory</li>
+      <li><code class="highlighter-rouge">ncpus</code>: cpu, thread</li>
+      <li><code class="highlighter-rouge">walltime</code>: walltime</li>
+    </ul>
+  </li>
+</ul>
+
 <h3 id="useful-links">Useful links</h3>
 
 <ul>

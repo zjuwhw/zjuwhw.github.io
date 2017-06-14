@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Jun 2017 09:51:36 +1000</pubDate>
-    <lastBuildDate>Wed, 14 Jun 2017 09:51:36 +1000</lastBuildDate>
+    <pubDate>Wed, 14 Jun 2017 16:21:35 +1000</pubDate>
+    <lastBuildDate>Wed, 14 Jun 2017 16:21:35 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -2266,6 +2266,27 @@ H1: The data are not like a simple random sample from the population in the null
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qsig&lt;/code&gt;: signal PBS batch job&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qsub&lt;/code&gt;: Submit a job&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tracejob&lt;/code&gt;: Report job history&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;common-commands&quot;&gt;Common commands&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qstat -t&lt;/code&gt;: Displays status information for jobs, job arrays, and subjobs.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;qstat -Q&lt;/code&gt;: Display queue status in default format&lt;/p&gt;
+
+&lt;h3 id=&quot;common-pbs-lines&quot;&gt;Common &lt;code class=&quot;highlighter-rouge&quot;&gt;#PBS&lt;/code&gt; lines&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-A&lt;/code&gt;: account string&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-J&lt;/code&gt;: job array&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-N&lt;/code&gt;: job name&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-l&lt;/code&gt;: resource list
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;select&lt;/code&gt;: The number of nodes is requested via the select command&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mem&lt;/code&gt;: memory&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ncpus&lt;/code&gt;: cpu, thread&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;walltime&lt;/code&gt;: walltime&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;useful-links&quot;&gt;Useful links&lt;/h3&gt;
