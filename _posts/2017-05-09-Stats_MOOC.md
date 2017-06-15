@@ -462,7 +462,7 @@ Long run average value of X:
 #### 4.1 The standard error of a random sum
 
 - Standard error
-	- The standard error of **a random variable X** is defined by SE(X) = sqrt(E((X-E(X))<sup>2</sup>)
+	- The standard error of **a random variable X** is defined by $SE(X) = \sqrt{E((X-E(X))^{2})}$
 	- SE(X) measures the rough sie of the chance error in X: roughly how far off X is from E(X)
 - Standard deviation
 	- The standard deviation of **a list of numbers**: SD = r.m.s. of the deviations from average

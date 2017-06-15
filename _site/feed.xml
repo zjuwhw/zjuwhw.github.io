@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Jun 2017 16:21:35 +1000</pubDate>
-    <lastBuildDate>Wed, 14 Jun 2017 16:21:35 +1000</lastBuildDate>
+    <pubDate>Thu, 15 Jun 2017 16:04:35 +1000</pubDate>
+    <lastBuildDate>Thu, 15 Jun 2017 16:04:35 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -1477,7 +1477,7 @@ Long run average value of X:
 &lt;ul&gt;
   &lt;li&gt;Standard error
     &lt;ul&gt;
-      &lt;li&gt;The standard error of &lt;strong&gt;a random variable X&lt;/strong&gt; is defined by SE(X) = sqrt(E((X-E(X))&lt;sup&gt;2&lt;/sup&gt;)&lt;/li&gt;
+      &lt;li&gt;The standard error of &lt;strong&gt;a random variable X&lt;/strong&gt; is defined by $SE(X) = \sqrt{E((X-E(X))^{2})}$&lt;/li&gt;
       &lt;li&gt;SE(X) measures the rough sie of the chance error in X: roughly how far off X is from E(X)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
