@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Jun 2017 16:04:35 +1000</pubDate>
-    <lastBuildDate>Thu, 15 Jun 2017 16:04:35 +1000</lastBuildDate>
+    <pubDate>Fri, 16 Jun 2017 13:05:42 +1000</pubDate>
+    <lastBuildDate>Fri, 16 Jun 2017 13:05:42 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -2095,7 +2095,7 @@ H1: The data are not like a simple random sample from the population in the null
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Test statistic = sum of (o-e)^e over all categories ~ chi-square(X&lt;sup&gt;2&lt;/sup&gt;) distribution, with degrees of freedom = number of categories - 1&lt;/p&gt;
+&lt;p&gt;Test statistic = $\frac{\displaystyle\sum{(o - e)^2}}{e}$ over all categories ~ chi-square(X&lt;sup&gt;2&lt;/sup&gt;) distribution, with degrees of freedom = number of categories - 1&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Facts about chi-square distributions
