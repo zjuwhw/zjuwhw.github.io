@@ -893,7 +893,7 @@ H1: The data are not like a simple random sample from the population in the null
 |o-e|9|-5|6|-6|-4|0|
 |(o-e)^2/e|1.8|0.556|0.8|0.8|0.8|4.756|
 
-Test statistic = $\frac{\displaystyle\sum{(o - e)^2}}{e}$ over all categories ~ chi-square(X<sup>2</sup>) distribution, with degrees of freedom = number of categories - 1
+Test statistic = $\displaystyle\sum{\frac{(o - e)^2}{e}}$ over all categories ~ chi-square(X<sup>2</sup>) distribution, with degrees of freedom = number of categories - 1
 
 - Facts about chi-square distributions
 	- Values are non-negative
@@ -958,4 +958,4 @@ source: [http://www.stat.tamu.edu/~twehrly/611/distab.pdf](http://www.stat.tamu.
 
 ![](/images/how-to-choose-statistic.png)
 
-source: [http://www.graphpad.com/support/faqid/1790/](http://www.graphpad.com/support/faqid/1790/)
+source: [http://www.graphpad.com/support/faqid/1790/](http://www.graphpad.com/support/faqid/1790/)ƒ
