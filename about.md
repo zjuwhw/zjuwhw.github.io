@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am Huanwei Wang, a PhD student in Univeristy of Queensland. My research filed is quantitative genetics now.
+I am Huanwei Wang, a PhD student in Univeristy of Queensland. My research field is quantitative genetics now.
 
 Email:
 

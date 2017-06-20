@@ -2,7 +2,7 @@
 layout: post
 title: Statistic ONE学习笔记
 date: 2017-03-02
-tags: ["统计", "mooc"]
+tags: ["statistics", "mooc"]
 ---
 
 Bimodal distribution: a non-normal distribution consisting of two modes; two scores (or two ranges of scores) that share the greatest frequency; characterized by two peaks in a histogram.

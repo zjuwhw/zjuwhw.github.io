@@ -2,7 +2,7 @@
 layout: post
 title: Statistics Mooc
 date: 2017-05-09
-tags: ["统计", "mooc"]
+tags: ["statistics", "mooc"]
 ---
 
 This is the notebook for Berkley's Edx course serise - [stat2.1](https://www.edx.org/course/introduction-statistics-descriptive-uc-berkeleyx-stat2-1x), [stat2.2](https://www.edx.org/course/introduction-statistics-probability-uc-berkeleyx-stat2-2x), [stat2.3](https://www.edx.org/course/introduction-statistics-inference-uc-berkeleyx-stat2-3x).
