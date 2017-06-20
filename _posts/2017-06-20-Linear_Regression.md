@@ -145,7 +145,7 @@ $$e_{i} = Y_{i} - \hat{Y}_{i}$$
 	- $\sum e_{i}^{2}$ is a minimum
 	- $\sum Y_{i} = \sum \hat{Y}_{i}$
 	- $\sum X_{i} e_{i} = 0 $
-	- $\sum \hat{Y}_{i}e_{i} = 0$
+	- $\sum \hat{Y}_{i}e = 0 $
 	- the regression line always goes through the point $(\bar{X}, \bar{Y})$
 
 #### 1.7 Estimation of Erro Terms Variance $\sigma^{2}$
