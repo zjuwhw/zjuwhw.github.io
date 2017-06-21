@@ -685,10 +685,10 @@ P-value = 9.21%
 - experiments: coin will be tossed 20 times
 - test: if the number of heads is 14 or more, choose H1; otherwise choose H0
 
-||test concludes: p=0.5|test concludes: p=0.8|
+||test concludes: p=0.5(Not Reject H0)|test concludes: p=0.8(Reject H0)|
 |:--|:--|:--|
-|reality is 0.5|correct conclusion|type I error<br>Probability: binomial, n=20, p=0.5, P(k>=14)=5.8% <br> **significance level**
-|reality is 0.8|type II erro|correct conclusion<br>Probability: binomial, n=20, p=0.8, P(k>=14)=91.3% <br> **power**
+|reality is 0.5<br>(H0 is true)|correct conclusion|type I error<br>Probability: binomial, n=20, p=0.5, P(k>=14)=5.8% <br> **significance level**
+|reality is 0.8<br>(H0 is false)|type II error|correct conclusion<br>Probability: binomial, n=20, p=0.8, P(k>=14)=91.3% <br> **power**
 
 - Two criteria for a good test
 	- significance level = probability, under H0, that the test concludes H1 error probabilty, should be small
