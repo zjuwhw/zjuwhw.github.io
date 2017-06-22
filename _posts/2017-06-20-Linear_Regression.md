@@ -68,7 +68,7 @@ where:
 - $\varepsilon_{i}$ is a random error term
 	- mean $E(\varepsilon_{i}) = 0$
 	- variance $\sigma^{2}(\varepsilon_{i}) = \sigma^{2}$
-	- covariance$\sigma(\varepsilon_{i}, \varepsilon_{j}) = 0$, for all i, j; $i \neq j$
+	- covariance $\sigma(\varepsilon_{i}, \varepsilon_{j}) = 0$, for all i, j; $i \neq j$
 
 - Important features of model
 
@@ -145,9 +145,58 @@ $$e_{i} = Y_{i} - \hat{Y}_{i}$$
 	- $\sum e_{i}^{2}$ is a minimum
 	- $\sum Y_{i} = \sum \hat{Y}_{i}$
 	- $\sum X_{i} e_{i} = 0 $
-	- $\sum \hat{Y}_{i}e = 0 $
+	- $\sum \hat{Y}_{i}$e<sub>i</sub> = 0
 	- the regression line always goes through the point $(\bar{X}, \bar{Y})$
 
 #### 1.7 Estimation of Erro Terms Variance $\sigma^{2}$
 
+- Point Estimator of $\sigma^{2}$
+	- Single population
+		- sum of squares: $\displaystyle\sum_{i=1}^{n}(Y_{i}-\bar{Y})^2$ 
+		- degrees of freedom (df): n - 1, because one degree of freedom is lost by using $\bar{Y}$ as an estimate of the unknown population mean $\mu$
+		- sample variance/mean square: $s^2 = \frac{\displaystyle\sum(Y_{i}-\bar{Y})^2}{n-1}$
+	- Regression model
+		- deviation/residual: $Y_{i} - \hat{Y}_{i}$ = e<sub>i</sub>
+		- error/residual sum of squares:
+			- $SSE = \displaystyle\sum_{i=1}^{n}(Y_{i} - \hat{Y}_{i})^{2}$
+			- $SSE = \displaystyle\sum_{i=1}^{n}e_{i}^{2}$
+		- degrees of freedom: n - 2, because two degrees of freedom are lost due to estimating $\beta_{0}$ and $\beta_{1}$ to get $\hat{Y}_{i}$
+		- MSE (error/residual mean square): $s^{2} = MSE = \frac{SSE}{n-2}$
+
+
 #### 1.8 Normal Error Regression Model
+
+- Model
+	- same with simple linear regression model
+	- except it assumes that the error $\varepsilon_{i}$ are normally distributed
+- Estimation of Parameters by Method of Maximum Likelihood
+
+Method of maximum likelihood chooses as estimates those values of the parameters that are most consistent with the sample data.
+
+```
+A normal distribution with SD = 10, mean is unknown
+A random of sample n = 3 yields the results 250, 265 and 259
+The likelihood value (L) is the product of the densities of the normal distribution
+
+If we assue μ = 230, L(μ = 230) = 0.279*10E-9 
+R code: prod(dnorm(c(250,265,259), 230, 10))
+If we assue μ = 259, L(μ = 259) = 0.0000354
+R code: prod(dnorm(c(250,265,259), 259, 10))
+
+So, L(μ = 259) > L(μ = 230)
+
+The method of maximum likelihood is to estimate prarametes to get maximum L.
+It can be shown that for a normal population,
+the maximum likelihood estimator of μ is the smaple mean
+```
+
+Fro regression model, the likelihood function for n observations is 
+
+$$L(\beta_{0}, \beta_{1}, \sigma^{2}) = \displaystyle\Pi_{i=1}^{n}\frac{1}{(2\pi\sigma^{2})^{1/2}}exp[-\frac{1}{2\sigma^{2}}(Y_{i} - \beta_{0} - \beta_{1}X_{i})^{2}]$$
+
+$$L(\beta_{0}, \beta_{1}, \sigma^{2}) = \frac{1}{(2\pi\sigma^{2})^{1/2}}exp[-\frac{1}{2\sigma^{2}}\displaystyle\sum_{i=1}^{n}(Y_{i} - \beta_{0} - \beta_{1}X_{i})^{2}]$$
+
+### Chapter 2 Inferences in Regression and Correlation Analysis
+
+#### 2.1 Inferences Concerning $\beta_{1}$
+

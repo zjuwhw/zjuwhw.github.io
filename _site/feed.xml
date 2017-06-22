@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Jun 2017 11:01:44 +1000</pubDate>
-    <lastBuildDate>Wed, 21 Jun 2017 11:01:44 +1000</lastBuildDate>
+    <pubDate>Thu, 22 Jun 2017 21:23:58 +1000</pubDate>
+    <lastBuildDate>Thu, 22 Jun 2017 21:23:58 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -25,6 +25,10 @@
           &lt;li&gt;&lt;a href=&quot;#16-estimation-of-regression-function&quot; id=&quot;markdown-toc-16-estimation-of-regression-function&quot;&gt;1.6 Estimation of regression function&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#17-estimation-of-erro-terms-variance-sigma2&quot; id=&quot;markdown-toc-17-estimation-of-erro-terms-variance-sigma2&quot;&gt;1.7 Estimation of Erro Terms Variance $\sigma^{2}$&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#18-normal-error-regression-model&quot; id=&quot;markdown-toc-18-normal-error-regression-model&quot;&gt;1.8 Normal Error Regression Model&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#chapter-2-inferences-in-regression-and-correlation-analysis&quot; id=&quot;markdown-toc-chapter-2-inferences-in-regression-and-correlation-analysis&quot;&gt;Chapter 2 Inferences in Regression and Correlation Analysis&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#21-inferences-concerning-beta_1&quot; id=&quot;markdown-toc-21-inferences-concerning-beta_1&quot;&gt;2.1 Inferences Concerning $\beta_{1}$&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -124,7 +128,7 @@
     &lt;ul&gt;
       &lt;li&gt;mean $E(\varepsilon_{i}) = 0$&lt;/li&gt;
       &lt;li&gt;variance $\sigma^{2}(\varepsilon_{i}) = \sigma^{2}$&lt;/li&gt;
-      &lt;li&gt;covariance$\sigma(\varepsilon_{i}, \varepsilon_{j}) = 0$, for all i, j; $i \neq j$&lt;/li&gt;
+      &lt;li&gt;covariance $\sigma(\varepsilon_{i}, \varepsilon_{j}) = 0$, for all i, j; $i \neq j$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Important features of model&lt;/li&gt;
@@ -237,7 +241,7 @@
       &lt;li&gt;$\sum e_{i}^{2}$ is a minimum&lt;/li&gt;
       &lt;li&gt;$\sum Y_{i} = \sum \hat{Y}_{i}$&lt;/li&gt;
       &lt;li&gt;$\sum X_{i} e_{i} = 0 $&lt;/li&gt;
-      &lt;li&gt;$\sum \hat{Y}_{i}e = 0 $&lt;/li&gt;
+      &lt;li&gt;$\sum \hat{Y}_{i}$e&lt;sub&gt;i&lt;/sub&gt; = 0&lt;/li&gt;
       &lt;li&gt;the regression line always goes through the point $(\bar{X}, \bar{Y})$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -245,7 +249,74 @@
 
 &lt;h4 id=&quot;17-estimation-of-erro-terms-variance-sigma2&quot;&gt;1.7 Estimation of Erro Terms Variance $\sigma^{2}$&lt;/h4&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;Point Estimator of $\sigma^{2}$
+    &lt;ul&gt;
+      &lt;li&gt;Single population
+        &lt;ul&gt;
+          &lt;li&gt;sum of squares: $\displaystyle\sum_{i=1}^{n}(Y_{i}-\bar{Y})^2$&lt;/li&gt;
+          &lt;li&gt;degrees of freedom (df): n - 1, because one degree of freedom is lost by using $\bar{Y}$ as an estimate of the unknown population mean $\mu$&lt;/li&gt;
+          &lt;li&gt;sample variance/mean square: $s^2 = \frac{\displaystyle\sum(Y_{i}-\bar{Y})^2}{n-1}$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Regression model
+        &lt;ul&gt;
+          &lt;li&gt;deviation/residual: $Y_{i} - \hat{Y}_{i}$ = e&lt;sub&gt;i&lt;/sub&gt;&lt;/li&gt;
+          &lt;li&gt;error/residual sum of squares:
+            &lt;ul&gt;
+              &lt;li&gt;$SSE = \displaystyle\sum_{i=1}^{n}(Y_{i} - \hat{Y}_{i})^{2}$&lt;/li&gt;
+              &lt;li&gt;$SSE = \displaystyle\sum_{i=1}^{n}e_{i}^{2}$&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;degrees of freedom: n - 2, because two degrees of freedom are lost due to estimating $\beta_{0}$ and $\beta_{1}$ to get $\hat{Y}_{i}$&lt;/li&gt;
+          &lt;li&gt;MSE (error/residual mean square): $s^{2} = MSE = \frac{SSE}{n-2}$&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;18-normal-error-regression-model&quot;&gt;1.8 Normal Error Regression Model&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Model
+    &lt;ul&gt;
+      &lt;li&gt;same with simple linear regression model&lt;/li&gt;
+      &lt;li&gt;except it assumes that the error $\varepsilon_{i}$ are normally distributed&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Estimation of Parameters by Method of Maximum Likelihood&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Method of maximum likelihood chooses as estimates those values of the parameters that are most consistent with the sample data.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A normal distribution with SD = 10, mean is unknown
+A random of sample n = 3 yields the results 250, 265 and 259
+The likelihood value (L) is the product of the densities of the normal distribution
+
+If we assue μ = 230, L(μ = 230) = 0.279*10E-9 
+R code: prod(dnorm(c(250,265,259), 230, 10))
+If we assue μ = 259, L(μ = 259) = 0.0000354
+R code: prod(dnorm(c(250,265,259), 259, 10))
+
+So, L(μ = 259) &amp;gt; L(μ = 230)
+
+The method of maximum likelihood is to estimate prarametes to get maximum L.
+It can be shown that for a normal population,
+the maximum likelihood estimator of μ is the smaple mean
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Fro regression model, the likelihood function for n observations is&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L(\beta_{0}, \beta_{1}, \sigma^{2}) = \displaystyle\Pi_{i=1}^{n}\frac{1}{(2\pi\sigma^{2})^{1/2}}exp[-\frac{1}{2\sigma^{2}}(Y_{i} - \beta_{0} - \beta_{1}X_{i})^{2}]&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;L(\beta_{0}, \beta_{1}, \sigma^{2}) = \frac{1}{(2\pi\sigma^{2})^{1/2}}exp[-\frac{1}{2\sigma^{2}}\displaystyle\sum_{i=1}^{n}(Y_{i} - \beta_{0} - \beta_{1}X_{i})^{2}]&lt;/script&gt;
+
+&lt;h3 id=&quot;chapter-2-inferences-in-regression-and-correlation-analysis&quot;&gt;Chapter 2 Inferences in Regression and Correlation Analysis&lt;/h3&gt;
+
+&lt;h4 id=&quot;21-inferences-concerning-beta_1&quot;&gt;2.1 Inferences Concerning $\beta_{1}$&lt;/h4&gt;
+
 </description>
         <pubDate>Tue, 20 Jun 2017 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2017/06/20/Linear_Regression.html</link>

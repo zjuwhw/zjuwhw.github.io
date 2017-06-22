@@ -91,6 +91,10 @@
           <li><a href="#18-normal-error-regression-model" id="markdown-toc-18-normal-error-regression-model">1.8 Normal Error Regression Model</a></li>
         </ul>
       </li>
+      <li><a href="#chapter-2-inferences-in-regression-and-correlation-analysis" id="markdown-toc-chapter-2-inferences-in-regression-and-correlation-analysis">Chapter 2 Inferences in Regression and Correlation Analysis</a>        <ul>
+          <li><a href="#21-inferences-concerning-beta_1" id="markdown-toc-21-inferences-concerning-beta_1">2.1 Inferences Concerning $\beta_{1}$</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
@@ -188,7 +192,7 @@
     <ul>
       <li>mean $E(\varepsilon_{i}) = 0$</li>
       <li>variance $\sigma^{2}(\varepsilon_{i}) = \sigma^{2}$</li>
-      <li>covariance$\sigma(\varepsilon_{i}, \varepsilon_{j}) = 0$, for all i, j; $i \neq j$</li>
+      <li>covariance $\sigma(\varepsilon_{i}, \varepsilon_{j}) = 0$, for all i, j; $i \neq j$</li>
     </ul>
   </li>
   <li>Important features of model</li>
@@ -301,7 +305,7 @@
       <li>$\sum e_{i}^{2}$ is a minimum</li>
       <li>$\sum Y_{i} = \sum \hat{Y}_{i}$</li>
       <li>$\sum X_{i} e_{i} = 0 $</li>
-      <li>$\sum \hat{Y}_{i}e = 0 $</li>
+      <li>$\sum \hat{Y}_{i}$e<sub>i</sub> = 0</li>
       <li>the regression line always goes through the point $(\bar{X}, \bar{Y})$</li>
     </ul>
   </li>
@@ -309,7 +313,74 @@
 
 <h4 id="17-estimation-of-erro-terms-variance-sigma2">1.7 Estimation of Erro Terms Variance $\sigma^{2}$</h4>
 
+<ul>
+  <li>Point Estimator of $\sigma^{2}$
+    <ul>
+      <li>Single population
+        <ul>
+          <li>sum of squares: $\displaystyle\sum_{i=1}^{n}(Y_{i}-\bar{Y})^2$</li>
+          <li>degrees of freedom (df): n - 1, because one degree of freedom is lost by using $\bar{Y}$ as an estimate of the unknown population mean $\mu$</li>
+          <li>sample variance/mean square: $s^2 = \frac{\displaystyle\sum(Y_{i}-\bar{Y})^2}{n-1}$</li>
+        </ul>
+      </li>
+      <li>Regression model
+        <ul>
+          <li>deviation/residual: $Y_{i} - \hat{Y}_{i}$ = e<sub>i</sub></li>
+          <li>error/residual sum of squares:
+            <ul>
+              <li>$SSE = \displaystyle\sum_{i=1}^{n}(Y_{i} - \hat{Y}_{i})^{2}$</li>
+              <li>$SSE = \displaystyle\sum_{i=1}^{n}e_{i}^{2}$</li>
+            </ul>
+          </li>
+          <li>degrees of freedom: n - 2, because two degrees of freedom are lost due to estimating $\beta_{0}$ and $\beta_{1}$ to get $\hat{Y}_{i}$</li>
+          <li>MSE (error/residual mean square): $s^{2} = MSE = \frac{SSE}{n-2}$</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 <h4 id="18-normal-error-regression-model">1.8 Normal Error Regression Model</h4>
+
+<ul>
+  <li>Model
+    <ul>
+      <li>same with simple linear regression model</li>
+      <li>except it assumes that the error $\varepsilon_{i}$ are normally distributed</li>
+    </ul>
+  </li>
+  <li>Estimation of Parameters by Method of Maximum Likelihood</li>
+</ul>
+
+<p>Method of maximum likelihood chooses as estimates those values of the parameters that are most consistent with the sample data.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>A normal distribution with SD = 10, mean is unknown
+A random of sample n = 3 yields the results 250, 265 and 259
+The likelihood value (L) is the product of the densities of the normal distribution
+
+If we assue μ = 230, L(μ = 230) = 0.279*10E-9 
+R code: prod(dnorm(c(250,265,259), 230, 10))
+If we assue μ = 259, L(μ = 259) = 0.0000354
+R code: prod(dnorm(c(250,265,259), 259, 10))
+
+So, L(μ = 259) &gt; L(μ = 230)
+
+The method of maximum likelihood is to estimate prarametes to get maximum L.
+It can be shown that for a normal population,
+the maximum likelihood estimator of μ is the smaple mean
+</code></pre>
+</div>
+
+<p>Fro regression model, the likelihood function for n observations is</p>
+
+<script type="math/tex; mode=display">L(\beta_{0}, \beta_{1}, \sigma^{2}) = \displaystyle\Pi_{i=1}^{n}\frac{1}{(2\pi\sigma^{2})^{1/2}}exp[-\frac{1}{2\sigma^{2}}(Y_{i} - \beta_{0} - \beta_{1}X_{i})^{2}]</script>
+
+<script type="math/tex; mode=display">L(\beta_{0}, \beta_{1}, \sigma^{2}) = \frac{1}{(2\pi\sigma^{2})^{1/2}}exp[-\frac{1}{2\sigma^{2}}\displaystyle\sum_{i=1}^{n}(Y_{i} - \beta_{0} - \beta_{1}X_{i})^{2}]</script>
+
+<h3 id="chapter-2-inferences-in-regression-and-correlation-analysis">Chapter 2 Inferences in Regression and Correlation Analysis</h3>
+
+<h4 id="21-inferences-concerning-beta_1">2.1 Inferences Concerning $\beta_{1}$</h4>
+
 
   </div>
 

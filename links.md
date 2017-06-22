@@ -202,6 +202,8 @@ permalink: /links/
 - [Bruce Walsh](http://nitro.biosci.arizona.edu/)
 - [Matt Robinson](http://wp.unil.ch/ctgg)
 - [方海](http://www.cs.bris.ac.uk/~hfang/)
+- [Jonathan Pritchard](http://web.stanford.edu/group/pritchardlab/home.html)
+- [Mark McCarthy](https://www.ndm.ox.ac.uk/principal-investigators/researcher/mark-mccarthy)
 
 
 **My lab**
