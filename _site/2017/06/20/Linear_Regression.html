@@ -93,6 +93,7 @@
       </li>
       <li><a href="#chapter-2-inferences-in-regression-and-correlation-analysis" id="markdown-toc-chapter-2-inferences-in-regression-and-correlation-analysis">Chapter 2 Inferences in Regression and Correlation Analysis</a>        <ul>
           <li><a href="#21-inferences-concerning-beta_1" id="markdown-toc-21-inferences-concerning-beta_1">2.1 Inferences Concerning $\beta_{1}$</a></li>
+          <li><a href="#22-inferences-concerning-beta_0" id="markdown-toc-22-inferences-concerning-beta_0">2.2 Inferences Concerning $\beta_{0}$</a></li>
         </ul>
       </li>
     </ul>
@@ -381,6 +382,96 @@ the maximum likelihood estimator of μ is the smaple mean
 
 <h4 id="21-inferences-concerning-beta_1">2.1 Inferences Concerning $\beta_{1}$</h4>
 
+<ul>
+  <li>Sampling Distribution of b1</li>
+</ul>
+
+<p>The sampling distribution of b1 refers to the different values of b1 that would be obtained with repeated sampling when the levels of the predictor variable X are held constant from sample to sample.</p>
+
+<p>For normal error regression model, the sample distributon of b1 is <strong>normal</strong>, with mean and variance:</p>
+
+<script type="math/tex; mode=display">E(b1) = \beta_{1}</script>
+
+<script type="math/tex; mode=display">\sigma^{2}(b1) = \frac{\sigma^{2}}{\sum(X_{i} - \bar{X})^{2}}</script>
+
+<ul>
+  <li>Proof</li>
+</ul>
+
+<p>b1 as linear combination of the Yi</p>
+
+<p><script type="math/tex">b1 = \sum k_{i}Y_{i}\text{where }k_{i} = \frac{X_{i} - \bar{X}}{\sum(X_{i} - \bar{X})^{2}}</script>
+ - Nomaily</p>
+
+<p>The Yi are independently, normally distributed, so b1 are normally distributed.</p>
+
+<ul>
+  <li>Mean</li>
+</ul>
+
+<script type="math/tex; mode=display">E(b_{1}) = E(\sum k_{i}Y_{i}) = \sum k_{i}E(Y_{i}) = \sum k_{i}(\beta_{0} + \beta_{1}X_{i}) = \beta_{1}</script>
+
+<p>hint:</p>
+
+<script type="math/tex; mode=display">\sum k_{i} = 0</script>
+
+<script type="math/tex; mode=display">\sum k_{i}X_{i} = 1</script>
+
+<ul>
+  <li>Variance</li>
+</ul>
+
+<script type="math/tex; mode=display">\sigma^{2}(b_{1}) = \sigma^{2}(\sum k_{i}Y_{i}) = \sum k_{i}^{2}\sigma^{2}(Y_{i}) = \sum k_{i}^{2}\sigma^{2} = \sigma^{2}\frac{1}{\sum (X_{i} - \bar{X})^{2}}</script>
+
+<ul>
+  <li>Estimated Variance</li>
+</ul>
+
+<p>Replace the paramter $\sigma^{2}$ with MSE:</p>
+
+<script type="math/tex; mode=display">s^{2}(b_{1}) = \frac{MSE}{\sum(X_{i} - \bar{X})^{2}}</script>
+
+<ul>
+  <li>Sampling Distribution of $(b_{1} - \beta_{1})/s(b_{1})$</li>
+</ul>
+
+<script type="math/tex; mode=display">(b_{1} - \beta_{1})/\sigma(b_{1}) \sim N(0,1)</script>
+
+<script type="math/tex; mode=display">(b_{1} - \beta_{1})/s(b_{1}) \sim t(n-2)</script>
+
+<p>When a statistic is standardized but the denominator is an estimated standard deviation rather than the true standard deviation, it is called a studentized statistic.</p>
+
+<ul>
+  <li>Comment</li>
+</ul>
+
+<script type="math/tex; mode=display">SSE/\sigma^{2} \sim \chi^{2}(n - 2)</script>
+
+<script type="math/tex; mode=display">(b_{1} - \beta_{1})/s(b_{1}) \sim \frac{z}{\sqrt{\frac{\chi^2(n-2)}{n-2}}} = t(n-2)</script>
+
+<ul>
+  <li>Confidence Interval for $\beta_{1}$</li>
+</ul>
+
+<script type="math/tex; mode=display">b_{1} \pm t(1-\alpha/2; n-2)s(b_{1})\text{ where }\alpha\text{ is significance level}</script>
+
+<ul>
+  <li>Tests concerning $\beta_{1}$</li>
+</ul>
+
+<p>Since $(b_{1} - \beta_{1})/s(b_{1})$ is ditributed as t with n - 2degrees of freedom, tests concerning $\beta_{1}$ can be set up in ordinary fashion using the t distribution.</p>
+
+<h4 id="22-inferences-concerning-beta_0">2.2 Inferences Concerning $\beta_{0}$</h4>
+
+<p>The sampling distribution of $\beta_{0}$ is normal, with mean and variance:</p>
+
+<script type="math/tex; mode=display">E(b_{0}) = \beta_{0}</script>
+
+<script type="math/tex; mode=display">\sigma^{2}(b_{0}) = \sigma^{2}[\frac{1}{n} + \frac{\bar{X}^{2}}{\sum (X_{i} - \bar{X})^{2}}]</script>
+
+<script type="math/tex; mode=display">s^{2}(b_{0}) = MSE[\frac{1}{n} + \frac{\bar{X}^{2}}{\sum (X_{i} - \bar{X})^{2}}]</script>
+
+<script type="math/tex; mode=display">\frac{b_{0} - \beta_{0}}{s(b_{0})} \sim t(n-2)</script>
 
   </div>
 

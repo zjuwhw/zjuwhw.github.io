@@ -200,3 +200,77 @@ $$L(\beta_{0}, \beta_{1}, \sigma^{2}) = \frac{1}{(2\pi\sigma^{2})^{1/2}}exp[-\fr
 
 #### 2.1 Inferences Concerning $\beta_{1}$
 
+- Sampling Distribution of b1
+
+The sampling distribution of b1 refers to the different values of b1 that would be obtained with repeated sampling when the levels of the predictor variable X are held constant from sample to sample.
+
+For normal error regression model, the sample distributon of b1 is **normal**, with mean and variance:
+
+$$E(b1) = \beta_{1}$$
+
+$$\sigma^{2}(b1) = \frac{\sigma^{2}}{\sum(X_{i} - \bar{X})^{2}}$$
+
+- Proof
+
+b1 as linear combination of the Yi
+
+$$b1 = \sum k_{i}Y_{i}\text{where }k_{i} = \frac{X_{i} - \bar{X}}{\sum(X_{i} - \bar{X})^{2}}$$
+ - Nomaily
+
+The Yi are independently, normally distributed, so b1 are normally distributed.
+
+- Mean
+
+$$E(b_{1}) = E(\sum k_{i}Y_{i}) = \sum k_{i}E(Y_{i}) = \sum k_{i}(\beta_{0} + \beta_{1}X_{i}) = \beta_{1}$$
+
+hint:
+
+$$\sum k_{i} = 0$$
+
+$$\sum k_{i}X_{i} = 1$$
+
+- Variance
+
+$$\sigma^{2}(b_{1}) = \sigma^{2}(\sum k_{i}Y_{i}) = \sum k_{i}^{2}\sigma^{2}(Y_{i}) = \sum k_{i}^{2}\sigma^{2} = \sigma^{2}\frac{1}{\sum (X_{i} - \bar{X})^{2}}$$
+
+- Estimated Variance
+
+Replace the paramter $\sigma^{2}$ with MSE:
+
+$$s^{2}(b_{1}) = \frac{MSE}{\sum(X_{i} - \bar{X})^{2}}$$
+
+
+- Sampling Distribution of $(b_{1} - \beta_{1})/s(b_{1})$
+
+$$(b_{1} - \beta_{1})/\sigma(b_{1}) \sim N(0,1)$$
+
+$$(b_{1} - \beta_{1})/s(b_{1}) \sim t(n-2)$$
+
+When a statistic is standardized but the denominator is an estimated standard deviation rather than the true standard deviation, it is called a studentized statistic.
+
+- Comment
+
+$$SSE/\sigma^{2} \sim \chi^{2}(n - 2)$$
+
+$$(b_{1} - \beta_{1})/s(b_{1}) \sim \frac{z}{\sqrt{\frac{\chi^2(n-2)}{n-2}}} = t(n-2)$$
+
+- Confidence Interval for $\beta_{1}$
+
+$$b_{1} \pm t(1-\alpha/2; n-2)s(b_{1})\text{ where }\alpha\text{ is significance level}$$
+
+- Tests concerning $\beta_{1}$
+
+Since $(b_{1} - \beta_{1})/s(b_{1})$ is ditributed as t with n - 2degrees of freedom, tests concerning $\beta_{1}$ can be set up in ordinary fashion using the t distribution.
+
+
+#### 2.2 Inferences Concerning $\beta_{0}$
+
+The sampling distribution of $\beta_{0}$ is normal, with mean and variance:
+
+$$E(b_{0}) = \beta_{0}$$
+
+$$\sigma^{2}(b_{0}) = \sigma^{2}[\frac{1}{n} + \frac{\bar{X}^{2}}{\sum (X_{i} - \bar{X})^{2}}]$$
+
+$$s^{2}(b_{0}) = MSE[\frac{1}{n} + \frac{\bar{X}^{2}}{\sum (X_{i} - \bar{X})^{2}}]$$
+
+$$\frac{b_{0} - \beta_{0}}{s(b_{0})} \sim t(n-2)$$
