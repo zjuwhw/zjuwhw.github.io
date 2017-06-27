@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Jun 2017 20:48:05 +1000</pubDate>
-    <lastBuildDate>Mon, 26 Jun 2017 20:48:05 +1000</lastBuildDate>
+    <pubDate>Wed, 28 Jun 2017 09:24:49 +1000</pubDate>
+    <lastBuildDate>Wed, 28 Jun 2017 09:24:49 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -30,6 +30,7 @@
       &lt;li&gt;&lt;a href=&quot;#chapter-2-inferences-in-regression-and-correlation-analysis&quot; id=&quot;markdown-toc-chapter-2-inferences-in-regression-and-correlation-analysis&quot;&gt;Chapter 2 Inferences in Regression and Correlation Analysis&lt;/a&gt;        &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;#21-inferences-concerning-beta_1&quot; id=&quot;markdown-toc-21-inferences-concerning-beta_1&quot;&gt;2.1 Inferences Concerning $\beta_{1}$&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#22-inferences-concerning-beta_0&quot; id=&quot;markdown-toc-22-inferences-concerning-beta_0&quot;&gt;2.2 Inferences Concerning $\beta_{0}$&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1&quot; id=&quot;markdown-toc-23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1&quot;&gt;2.3 Some Considerations on Making Inferences Concerning $\beta_{0}$ and $\beta_{1}$&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -408,6 +409,27 @@ the maximum likelihood estimator of μ is the smaple mean
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;s^{2}(b_{0}) = MSE[\frac{1}{n} + \frac{\bar{X}^{2}}{\sum (X_{i} - \bar{X})^{2}}]&lt;/script&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{b_{0} - \beta_{0}}{s(b_{0})} \sim t(n-2)&lt;/script&gt;
+
+&lt;h4 id=&quot;23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1&quot;&gt;2.3 Some Considerations on Making Inferences Concerning $\beta_{0}$ and $\beta_{1}$&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Effects of Departures from Normality&lt;/li&gt;
+  &lt;li&gt;Interpretation of Confidence Coefficient and Risks of Errors&lt;/li&gt;
+  &lt;li&gt;Spacing of the X levels&lt;/li&gt;
+  &lt;li&gt;Power of Tests&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The power of this test is the probability that the decision rule will lead to conclusion $H_{a}$ when $H_{a}$ in fact holds. Specifically, the power is given by&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Power = P(|t^{*}| &gt; t(1-\alpha/2;n-2)|\delta)&lt;/script&gt;
+
+&lt;p&gt;where,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$H_{0}: \beta_{1} = \beta_{10}$; $H_{a}: \beta_{1} \neq \beta_{10}$&lt;/li&gt;
+  &lt;li&gt;$t^{*} = \frac{b_{1} - \beta_{10}}{s(b_{1})}$&lt;/li&gt;
+  &lt;li&gt;$\delta$ is the &lt;strong&gt;noncentrality measure&lt;/strong&gt;, a measure of how far the true value of $\beta_{1}$ is from $\beta_{10}$. $\delta = \frac{\mid\beta_{1} - \beta_{10}\mid}{\sigma(b_{1})}$&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Tue, 20 Jun 2017 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2017/06/20/Linear_Regression.html</link>

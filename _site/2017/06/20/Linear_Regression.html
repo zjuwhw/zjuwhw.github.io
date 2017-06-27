@@ -94,6 +94,7 @@
       <li><a href="#chapter-2-inferences-in-regression-and-correlation-analysis" id="markdown-toc-chapter-2-inferences-in-regression-and-correlation-analysis">Chapter 2 Inferences in Regression and Correlation Analysis</a>        <ul>
           <li><a href="#21-inferences-concerning-beta_1" id="markdown-toc-21-inferences-concerning-beta_1">2.1 Inferences Concerning $\beta_{1}$</a></li>
           <li><a href="#22-inferences-concerning-beta_0" id="markdown-toc-22-inferences-concerning-beta_0">2.2 Inferences Concerning $\beta_{0}$</a></li>
+          <li><a href="#23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1" id="markdown-toc-23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1">2.3 Some Considerations on Making Inferences Concerning $\beta_{0}$ and $\beta_{1}$</a></li>
         </ul>
       </li>
     </ul>
@@ -472,6 +473,27 @@ the maximum likelihood estimator of μ is the smaple mean
 <script type="math/tex; mode=display">s^{2}(b_{0}) = MSE[\frac{1}{n} + \frac{\bar{X}^{2}}{\sum (X_{i} - \bar{X})^{2}}]</script>
 
 <script type="math/tex; mode=display">\frac{b_{0} - \beta_{0}}{s(b_{0})} \sim t(n-2)</script>
+
+<h4 id="23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1">2.3 Some Considerations on Making Inferences Concerning $\beta_{0}$ and $\beta_{1}$</h4>
+
+<ul>
+  <li>Effects of Departures from Normality</li>
+  <li>Interpretation of Confidence Coefficient and Risks of Errors</li>
+  <li>Spacing of the X levels</li>
+  <li>Power of Tests</li>
+</ul>
+
+<p>The power of this test is the probability that the decision rule will lead to conclusion $H_{a}$ when $H_{a}$ in fact holds. Specifically, the power is given by</p>
+
+<script type="math/tex; mode=display">Power = P(|t^{*}| > t(1-\alpha/2;n-2)|\delta)</script>
+
+<p>where,</p>
+
+<ul>
+  <li>$H_{0}: \beta_{1} = \beta_{10}$; $H_{a}: \beta_{1} \neq \beta_{10}$</li>
+  <li>$t^{*} = \frac{b_{1} - \beta_{10}}{s(b_{1})}$</li>
+  <li>$\delta$ is the <strong>noncentrality measure</strong>, a measure of how far the true value of $\beta_{1}$ is from $\beta_{10}$. $\delta = \frac{\mid\beta_{1} - \beta_{10}\mid}{\sigma(b_{1})}$</li>
+</ul>
 
   </div>
 

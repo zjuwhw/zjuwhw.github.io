@@ -274,3 +274,20 @@ $$\sigma^{2}(b_{0}) = \sigma^{2}[\frac{1}{n} + \frac{\bar{X}^{2}}{\sum (X_{i} - 
 $$s^{2}(b_{0}) = MSE[\frac{1}{n} + \frac{\bar{X}^{2}}{\sum (X_{i} - \bar{X})^{2}}]$$
 
 $$\frac{b_{0} - \beta_{0}}{s(b_{0})} \sim t(n-2)$$
+
+#### 2.3 Some Considerations on Making Inferences Concerning $\beta_{0}$ and $\beta_{1}$
+
+- Effects of Departures from Normality
+- Interpretation of Confidence Coefficient and Risks of Errors
+- Spacing of the X levels
+- Power of Tests
+
+The power of this test is the probability that the decision rule will lead to conclusion $H_{a}$ when $H_{a}$ in fact holds. Specifically, the power is given by
+
+$$Power = P(|t^{*}| > t(1-\alpha/2;n-2)|\delta)$$
+
+where,
+
+- $H_{0}: \beta_{1} = \beta_{10}$; $H_{a}: \beta_{1} \neq \beta_{10}$
+- $t^{*} = \frac{b_{1} - \beta_{10}}{s(b_{1})}$
+- $\delta$ is the **noncentrality measure**, a measure of how far the true value of $\beta_{1}$ is from $\beta_{10}$. $\delta = \frac{\mid\beta_{1} - \beta_{10}\mid}{\sigma(b_{1})}$
