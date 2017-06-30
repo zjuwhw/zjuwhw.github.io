@@ -7,42 +7,62 @@ permalink: /links/
 * TOC
 {:toc}
 
-## Bioinformatics
 
-### Blogs
+This is a web link list I'm following about bioinformatics/genetics/science/IT areas. (updated 2017/06/30)
+
+## Blogs
+
+### General Science Community
 
 - [陈国强](http://blog.shsmu-path.com.cn/)
 - [薛宇](http://blog.sciencenet.cn/home.php?mod=space&uid=404304)
 - [饶毅](http://blog.sciencenet.cn/?2237)
+- [鲁白](http://blog.sciencenet.cn/home.php?mod=space&uid=393255)
+
+
+### Bioinformatics
+
+- [Xiaole Shirley Liu's Blog Site](http://www.longwoodgenomics.org/)
 - [雁起平沙](http://yanping.me/cn/)
 - [萧之逸](http://lwzhanghz.blog.163.com/blog/#m=0)
 - [云之南](http://fhqdddddd.blog.163.com/)
 - [陈连福](http://www.chenlianfu.com/)
-- [鲁白](http://blog.sciencenet.cn/home.php?mod=space&uid=393255)
 - [YGC](http://guangchuangyu.github.io/)
 - [yixf](http://yixf.name/)
 - [azalea](http://azaleasays.com/)
 - [David Langenberger](http://hoffmann.bioinf.uni-leipzig.de/LIFE/David.html)
 - [Jiang Li](https://sites.google.com/site/riverlee2008/)
-- Heng Li: 1) [sourceforge](http://lh3lh3.users.sourceforge.net/) 2) [github](http://lh3.github.io/)
+- Heng Li: 1)[sourceforge](http://lh3lh3.users.sourceforge.net/) 2)[github](http://lh3.github.io/)
 - [onetipperday](http://onetipperday.blogspot.com/)
 - [Bergman Lab](http://bergmanlab.ls.manchester.ac.uk/?page_id=45)
-- [Ewan's blog](http://genomeinformatician.blogspot.com/)
-- [Xiaole Shirley Liu's Blog Site](http://www.longwoodgenomics.org/)
+- Ewan's blog: 1)[blogspot](http://genomeinformatician.blogspot.com/) 2)[wordpress](https://ewanbirney.wordpress.com/)
 - [Yokofakun](http://plindenbaum.blogspot.com/)
 - [Puriney](http://joseph.yy.blog.163.com/)
 - [RNA-seq Bolg](http://www.rna-seqblog.com/)
-- [Simply Statistics](http://simplystatistics.org/)
 - [What You're Doing Is Rahter Desperate](https://nsaunders.wordpress.com/)
 - [Win-Vector Blog](http://www.win-vector.com/blog/)
 - [Genomes Unzipped](http://genomesunzipped.org/)
 - [MassGenomics](http://massgenomics.org/)
 - [CoreGenomics](http://core-genomics.blogspot.com/)
+- [Simply Statistics](http://simplystatistics.org/)
+- [CureFFI](http://www.cureffi.org/archives/)
+- [enseqlopedia.com](http://enseqlopedia.com/)
+- [The Genome Factory](http://thegenomefactory.blogspot.com.au/)
+- [genetics for fun](http://apol1.blogspot.com.au/)
+- [Diving into Genetics and Genomics](http://crazyhottommy.blogspot.com.au)
 
+### IT
 
-### Softwares
+- [阮一峰]( http://www.ruanyifeng.com/blog/)
+- [Chengwei's Words](http://www.chengweiyang.cn/archives/)
+- [Mozillazg's Blog](https://mozillazg.com/)
+- [James Hamilton - VP at Amazon Web Services](http://perspectives.mvdirona.com/)
+- [Denny Britz, a engineer in Google](http://blog.dennybritz.com/)
+- [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
 
-**GWAS**
+## Softwares
+
+### GWAS
 
 - [PLINK (v1.07)](http://zzz.bwh.harvard.edu/plink/): whole genome association analysis toolset
 - [PLINK2 (v1.9 beta)](https://www.cog-genomics.org/plink2): a comprehensive update to Shaun Purcell's PLINK
@@ -59,7 +79,7 @@ permalink: /links/
 - [BOLT-LMM](https://data.broadinstitute.org/alkesgroup/BOLT-LMM/): BOLT-LMM algorithm for mixed model association testing, and the BOLT-REML algorithm for variance components analysis
 - [MERLIN](https://csg.sph.umich.edu/abecasis/Merlin/tour/assoc.html): Association Analysis
 
-**ChIP-seq**
+### ChIP-seq
 
 - [bwa](http://bio-bwa.sourceforge.net/)
 - [bowtie](http://bowtie-bio.sourceforge.net/index.shtml)
@@ -73,7 +93,7 @@ permalink: /links/
 - [CEAS](http://liulab.dfci.harvard.edu/CEAS/)
 - [STAMP](http://www.benoslab.pitt.edu/stamp/)
 
-**RNA-seq**
+### RNA-seq
 
 - [tophat](http://tophat.cbcb.umd.edu/)
 - [STAR](https://github.com/alexdobin/STAR)
@@ -98,7 +118,7 @@ permalink: /links/
 - [CIRCexplorer](https://github.com/YangLab/CIRCexplorer)
 - [CIRCfinder](https://github.com/YangLab/CIRCfinder)
 
-**WGS/WXS**
+### WGS/WES
 
 - [GATK](https://www.broadinstitute.org/gatk/)
 - [MuTect](http://www.broadinstitute.org/cancer/cga/MuTect)
@@ -115,17 +135,17 @@ permalink: /links/
 - [SciClone](https://github.com/genome/sciclone)
 
 
-**SNP array**
+### SNP array
 
 - OncoSNP:
 
-**microarray**
+### microarray
 
 - RMA:
 - MAS5.0:
 - GCRMA:
 
-**Common Tools**
+### Common Utilities
 
 - [samtools](http://samtools.sourceforge.net/)
 - [samstat](http://samstat.sourceforge.net/)
@@ -142,15 +162,21 @@ permalink: /links/
 - [GenePattern](http://www.broadinstitute.org/cancer/software/genepattern/)
 - [pgltools](https://github.com/billgreenwald/pgltools)
 
-### Bioinformatic forum
+### IT
+
+- [Jupyter](http://jupyter.org/)
+
+## Forum
 
 - [Biostars](http://www.biostars.org/)
 - [Seqanswers](http://seqanswers.com/)
 - [links directory](http://bioinformatics.ca/links_directory/)
+- [stackexchange](https://stackexchange.com/)
+- [stackoverflow](https://stackoverflow.com/)
 
-### Personal website
+## Personal website
 
-**Hematology**
+### Hematology
 
 - [Daniel G Tenen](http://hsci.harvard.edu/people/daniel-g-tenen)
 - [Ellen Rothenberg](http://www.bbe.caltech.edu/content/ellen-rothenberg)
@@ -163,7 +189,7 @@ permalink: /links/
 - [Robert G Roeder](http://www.rockefeller.edu/research/faculty/labheads/RobertRoeder/)
 - [Stephen D. Nimer](http://uhealthsystem.com/doctors/profile/134105)
 
-**Genome Research**
+### Genome Research
 
 - [Eric S. Lander](http://www.broadinstitute.org/history-leadership/scientific-leadership/core-members/eric-s-lander)
 - [Alexander Stark](http://www.starklab.org/)
@@ -177,7 +203,7 @@ permalink: /links/
 - [Young Lab](http://younglab.wi.mit.edu/)
 - [Wang Ting](http://wang.wustl.edu/)
 
-**Computational Biologist**
+### Computational Biologist
 
 - [Yang Li](http://www.picb.ac.cn/rnomics/yanglab/)
 - [Istvan Albert ](http://www.personal.psu.edu/iua1/)
@@ -193,7 +219,7 @@ permalink: /links/
 - [Wong Yong Wang](http://web.stanford.edu/group/wonglab/)
 - [Peter Visshcer](http://cnsgenomics.com/index.html)
 
-**Human Genetics**
+### Human Genetics
 
 - [Goncalo Abecasis](http://csg.sph.umich.edu/abecasis/)
 - [Shaun Purcell](http://research.mssm.edu/statgen/)
@@ -206,14 +232,14 @@ permalink: /links/
 - [Mark McCarthy](https://www.ndm.ox.ac.uk/principal-investigators/researcher/mark-mccarthy)
 
 
-**My lab**
+### My lab
 
 - [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720)
 - [CNSG](http://cnsgenomics.com/)
 
-### Journal
+## Journal
 
-#### Comprehensive journals
+### Comprehensive journals
 
 - [Cell](http://www.cell.com/)
 - [Science](http://www.sciencemag.org/)
@@ -223,19 +249,19 @@ permalink: /links/
 - [Lancet](http://www.thelancet.com/)
 - [Annual Review](http://www.annualreviews.org/)
 
-#### Genetics
+### Genetics
 - [Nature Genetics](http://www.nature.com/ng/index.html)
 - [Nature Review Genetics](http://www.nature.com/nrg/index.html)
 - [American Journal of Human Genetics](http://www.cell.com/ajhg/home)
 - [Trend in Genetics](http://www.cell.com/trends/genetics/home)
 - [Human Molecular Genetics](https://academic.oup.com/hmg)
 
-#### Haematology
+### Haematology
 
 - [Blood](http://bloodjournal.hematologylibrary.org/)
 - [Leukemia](http://www.nature.com/leu/index.html)
 
-#### Others
+### Others
 
 - [Genome Research](http://genome.cshlp.org/)
 - [Genome Biology](https://genomebiology.biomedcentral.com/)
@@ -244,7 +270,9 @@ permalink: /links/
 - [PLOS Computational Biology](http://www.ploscompbiol.org/)
 
 
-### Courses
+## Courses
+
+### Bioinformatics
 
 - [龙星计划2013-翁志萍](http://www.youku.com/playlist_show/id_19532648.html)
 - [Statistical methods and data mining in microarray analysis-George C. Tseng](http://www.biostat.pitt.edu/biost2055/11/)
@@ -283,7 +311,22 @@ permalink: /links/
 - [An Online Bioinformatics Curriculum by Plos Computational Biology](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002632)
 - [A New Online Computational Biology Curriculum](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003662)
 
-### Project
+### IT
+
+- [《Introduction to Computer Science and Programming Using Python》](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-9) by MIT on edx
+- [《Introduction to Computational Thinking and Data Science》](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-5) by MIT on edx
+- 《Algorithms》[part I](https://www.coursera.org/learn/algorithms-part1#) and [part II](https://www.coursera.org/learn/algorithms-part2#) by Princeton on coursera
+- [《Algorithms Specialization》](https://www.coursera.org/specializations/algorithms) by Stanford on coursera
+- [《Build Complete Web Solutions》](https://www.coursera.org/specializations/full-stack) by HST on coursera
+- [《Learn to Program and Analyze Data with Python》](https://www.coursera.org/specializations/python) by University of Michigan on coursera
+- [《Become a Rails Developer》](https://www.coursera.org/specializations/ruby-on-rails) by JHU on couresra
+- [《Introduction to Computer Systems》](http://www.cs.cmu.edu/afs/cs/academic/class/15213-f14/www/index.html) by CMU
+- [《CMU CS Bachelors Curriculum》](https://www.csd.cs.cmu.edu/content/bachelors-curriculum-admitted-2014)
+- [《Parallel Computer Architecture and Programming》](http://15418.courses.cs.cmu.edu/spring2016/home) by CMU
+- [《Computer Networks》](http://www.cs.cmu.edu/~prs/15-441-F14/index.html) by CMU
+- [《CS155 Computer and Network Security》](https://crypto.stanford.edu/cs155/syllabus.html) by Stanford
+
+## Project
 
 - [HapMap](http://hapmap.ncbi.nlm.nih.gov/)
 - [ENCODE](http://genome.ucsc.edu/ENCODE/)
@@ -305,7 +348,7 @@ permalink: /links/
 ![](/images/timeline_project.jpg)
 
 
-### Database
+## Database
 
 - [NCBI](http://www.ncbi.nlm.nih.gov/)
 - [GEO](http://www.ncbi.nlm.nih.gov/geo/)
@@ -327,7 +370,7 @@ permalink: /links/
 - [Omictools](http://omictools.com/)
 - [HGMD](http://www.hgmd.cf.ac.uk/ac/index.php): Human Gene Mutation Database
 
-### Consortium
+## Consortium
 
 - [UKB(UK Biobank)](http://www.ukbiobank.ac.uk/)
 - [GIANT(Genetic Investigation of Anthropometric Traits)](http://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium)
@@ -344,7 +387,7 @@ permalink: /links/
 
 
 
-### Funding
+## Funding
 
 - [NIH](http://www.nih.gov/)
 - [NCI](http://www.cancer.gov/)
@@ -353,7 +396,7 @@ permalink: /links/
 - [科技部](http://www.most.gov.cn/kjjh/xmsb/)
 
 
-### Bioinformatic cloud
+## Bioinformatic cloud
 
 - [Seven Bridge](https://www.sbgenomics.com/)
 - [DNAnexus](https://www.dnanexus.com/)
@@ -361,14 +404,14 @@ permalink: /links/
 - [NCI's Genomic Data Commons](https://gdc.nci.nih.gov/)
 - [Global Alliance for Genomics and Health](http://ga4gh.org)
 
-### Your favorite blog on Biostar
+## Your favorite blog on Biostar
 
 - Your Favorite Bioinformatics Blogs (March 2010)
 - Your Favorite Bioinformatics Blogs (October 2011)
 - What Are Your Favorite Bioit News Resources / Blogs (2012 Edition)
 - Your Favorite Bioinformatics Blog(S) (2013 Edition)
 
-### 微信公众账号
+## 微信公众账号
 - 赛先生
 - 知识分子
 - 测序中国
@@ -378,33 +421,7 @@ permalink: /links/
 - 博士圈Illumina
 
 
-## Computer science
-
-### Blogs
-
-- [阮一峰]( http://www.ruanyifeng.com/blog/)
-- [Chengwei's Words](http://www.chengweiyang.cn/archives/)
-- [Mozillazg's Blog](https://mozillazg.com/)
-- [James Hamilton - VP at Amazon Web Services](http://perspectives.mvdirona.com/)
-- [Denny Britz, a engineer in Google](http://blog.dennybritz.com/)
-- [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
-
-### Courses
-
-- [《Introduction to Computer Science and Programming Using Python》](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-9) by MIT on edx
-- [《Introduction to Computational Thinking and Data Science》](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-5) by MIT on edx
-- 《Algorithms》[part I](https://www.coursera.org/learn/algorithms-part1#) and [part II](https://www.coursera.org/learn/algorithms-part2#) by Princeton on coursera
-- [《Algorithms Specialization》](https://www.coursera.org/specializations/algorithms) by Stanford on coursera
-- [《Build Complete Web Solutions》](https://www.coursera.org/specializations/full-stack) by HST on coursera
-- [《Learn to Program and Analyze Data with Python》](https://www.coursera.org/specializations/python) by University of Michigan on coursera
-- [《Become a Rails Developer》](https://www.coursera.org/specializations/ruby-on-rails) by JHU on couresra
-- [《Introduction to Computer Systems》](http://www.cs.cmu.edu/afs/cs/academic/class/15213-f14/www/index.html) by CMU
-- [《CMU CS Bachelors Curriculum》](https://www.csd.cs.cmu.edu/content/bachelors-curriculum-admitted-2014)
-- [《Parallel Computer Architecture and Programming》](http://15418.courses.cs.cmu.edu/spring2016/home) by CMU
-- [《Computer Networks》](http://www.cs.cmu.edu/~prs/15-441-F14/index.html) by CMU
-- [《CS155 Computer and Network Security》](https://crypto.stanford.edu/cs155/syllabus.html) by Stanford
-
-### Books
+## Books
 
 - [Pro Git](https://book.douban.com/subject/3420144/)
 - [HTTP: The Definitive Guide](https://book.douban.com/subject/1440226/)
@@ -420,9 +437,3 @@ permalink: /links/
 - [Mastering Sublime Text](https://book.douban.com/subject/25804133/)
 - [Practical Vim](https://book.douban.com/subject/10599776/)
 - [Effective Python](https://book.douban.com/subject/26312313/)
-
-### Tools
-
-- [Jupyter](http://jupyter.org/)
-
-
