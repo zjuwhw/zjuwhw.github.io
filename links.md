@@ -8,7 +8,7 @@ permalink: /links/
 {:toc}
 
 
-This is a web link list I'm following about bioinformatics/genetics/science/IT areas. (updated 2017/06/30)
+This is a website list I'm following about bioinformatics/genetics/statistic/computer science areas. (updated 2017/06/30)
 
 ## Blogs
 
