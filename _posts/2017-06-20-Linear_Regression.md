@@ -291,3 +291,57 @@ where,
 - $H_{0}: \beta_{1} = \beta_{10}$; $H_{a}: \beta_{1} \neq \beta_{10}$
 - $t^{*} = \frac{b_{1} - \beta_{10}}{s(b_{1})}$
 - $\delta$ is the **noncentrality measure**, a measure of how far the true value of $\beta_{1}$ is from $\beta_{10}$. $\delta = \frac{\mid\beta_{1} - \beta_{10}\mid}{\sigma(b_{1})}$
+
+
+### Chapter 5 Matrix Approach to Simple Linear Regression Analysis
+
+#### 5.1 Matrices
+
+- Definition
+	- matrix
+	- dlements
+	- dimension
+- Notation: a boldface symbol, such as **A**, **X** or **Z**.
+- Square Matrix: the number of rows equals the number of columns
+- Vector
+	- column vector/vector
+	- row vector
+- Transpose: **A'** (A prime) is the transpose of a matrix **A**
+- Equality of Matrices: same dimension and all same corresponding elements
+- design matrix
+
+#### 5.2 Matrix Addition and Subtraction
+
+- same dimension
+- the sum or difference of the corresponding elements of the two matrixs
+- **A** + **B** = **B** + **A**
+
+#### 5.3 Matrix Multiplication
+
+- Multiplication of a Matrix by a **scalar**
+	- a scalar is an ordinary number or a symbol representing a number
+- Multiplication of a Matrix by a Matrix
+	- the product **AB**, we say that **A** is postmultiplied by **B** or **B** is premultiplied by **A**
+	- $AB \neq BA$
+
+In general, if **A** has dimension r * c and **B** has dimension c * s, the product **AB** is a matrix of dimension r * s, which is
+
+$$AB_{r \times s} = \begin{bmatrix}\sum_{k=1}^{c} a_{ik}b_{kj}\end{bmatrix}\text{, where }i=1,...,r;j=1,...,s$$
+
+- Regression Examples
+
+$$Y'Y_{1 \times 1} = \begin{bmatrix} Y_{1} & Y_{2} & ... & Y_{n} \end{bmatrix}\begin{bmatrix}Y_{1} \\ Y_{2} \\ ... \\ Y_{n} \end{bmatrix} =  Y_{1}^{2} + Y_{2}^{2} + ... + Y_{n}^{2} = \sum Y_{i}^{2}$$ 
+
+$$X'X_{2 \times 2} = \begin{bmatrix} 1 & 1 & ... & 1 \\ X_{1} & X_{2} & ... & X_{n} \end{bmatrix}\begin{bmatrix} 1 & X_{1} \\ 1 & X_{2} \\ ... \\ 1 & X_{n} \end{bmatrix} =  \begin{bmatrix} n & \sum X_{i} \\ \sum X_{i} & \sum X_{i}^{2} \end{bmatrix}$$ 
+
+$$X'Y_{2 \times 1} = \begin{bmatrix} 1 & 1 & ... & 1 \\ X_{1} & X_{2} & ... & X_{n} \end{bmatrix}\begin{bmatrix} Y_{1} \\ Y_{2} \\ ... \\ Y_{n} \end{bmatrix} =  \begin{bmatrix} \sum Y_{i} \\ \sum X_{i}Y_{i} \end{bmatrix}$$ 
+
+#### 5.4 Special Types of Matrices
+
+- Symmetric Matrix: **A** = **A'**
+	- Symmetric matrix is necessarily square
+	- premultiply a matrix by its transpose, say **X'X** is symmetric
+- Diagonal Matrix: off-diagonal elements are all zeros
+- Identity Matrix, denoted by **I**: a diagonal matrix whose elements on the main diagonal are all 1s.
+	- **AI** = **IA** = **A**
+- Scalar Marix: k**I**

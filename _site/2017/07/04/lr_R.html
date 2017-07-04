@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>zjuwhw&#39;s blog</title>
-  <meta name="description" content="This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
-">
+  <title>Linear Regression in R</title>
+  <meta name="description" content="lm() function">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/page2/">
+  <link rel="canonical" href="http://localhost:4000/2017/07/04/lr_R.html">
   <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -69,119 +68,124 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Linear Regression in R</h1>
+    <p class="post-meta"><time datetime="2017-07-04T00:00:00+10:00" itemprop="datePublished">Jul 4, 2017</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Dec 11, 2016</span> &raquo; <a class="post-link" href="/2016/12/11/Software_testing.html">软件测试简介</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 10, 2016</span> &raquo; <a class="post-link" href="/2016/12/10/Software_engineering.html">软件工程简介</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 9, 2016</span> &raquo; <a class="post-link" href="/2016/12/09/teeth.html">我的牙齿</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 2, 2016</span> &raquo; <a class="post-link" href="/2016/12/02/python-59-ways.html">Effective python的59个方法</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 2, 2016</span> &raquo; <a class="post-link" href="/2016/12/02/MITx_Life_Eric-Lander.html">Eric Lander的MOOC</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 21, 2016</span> &raquo; <a class="post-link" href="/2016/11/21/cancer-milestone.html">癌症里程碑翻译之NCI</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 20, 2016</span> &raquo; <a class="post-link" href="/2016/11/20/oralSCC-merck.html">口腔鳞状细胞癌资料翻译之默克手册</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 18, 2016</span> &raquo; <a class="post-link" href="/2016/11/18/SCC-mayoclinic.html">鳞状细胞癌资料翻译之梅奥诊所</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 22, 2016</span> &raquo; <a class="post-link" href="/2016/10/22/DNA-seq_reference_data.html">基因组分析的benchmark数据</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 11, 2016</span> &raquo; <a class="post-link" href="/2016/09/11/music_knowledge.html">吉他学习</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 5, 2016</span> &raquo; <a class="post-link" href="/2016/09/05/http_example.html">HTTP请求和返回示例</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 3, 2016</span> &raquo; <a class="post-link" href="/2016/09/03/REST.html">RESTful API</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 2, 2016</span> &raquo; <a class="post-link" href="/2016/09/02/line_break.html">换行符</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 2, 2016</span> &raquo; <a class="post-link" href="/2016/09/02/http_tools.html">http请求的工具</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 1, 2016</span> &raquo; <a class="post-link" href="/2016/09/01/github_issues.html">github的issue功能</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 17, 2016</span> &raquo; <a class="post-link" href="/2016/08/17/Software_license.html">软件license</a>
-      </li>
-    
-  </ul>
+  <div class="post-content" itemprop="articleBody">
+    <h3 id="lm-function">lm() function</h3>
 
+<div class="highlighter-rouge"><pre class="highlight"><code>summary(lm(Girth ~ Height, data=trees))
 
-<div class="pagination">
-  
-    <a href="/">&laquo; 上一页</a>
-  
-
-  
-    
-      <a href="/index.html">1</a>
-    
-  
-    
-      <em>2</em>
-    
-  
-    
-      <a href="/page3">3</a>
-    
-  
-    
-      <a href="/page4">4</a>
-    
-  
-
-  
-    <a href="/page3">下一页 &raquo;</a>
-  
-
+## 
+## Call:
+## lm(formula = Girth ~ Height, data = trees)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -4.2386 -1.9205 -0.0714  2.7450  4.5384 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)   
+## (Intercept) -6.18839    5.96020  -1.038  0.30772   
+## Height       0.25575    0.07816   3.272  0.00276 **
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 2.728 on 29 degrees of freedom
+## Multiple R-squared:  0.2697, Adjusted R-squared:  0.2445 
+## F-statistic: 10.71 on 1 and 29 DF,  p-value: 0.002758
+</code></pre>
 </div>
 
+<h3 id="example-data">Example data</h3>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
+<div class="highlighter-rouge"><pre class="highlight"><code>X = trees[,"Height"]
+Y = trees[,"Girth"]
+n = nrow(trees)
+Xbar = mean(X)
+Ybar = mean(Y)
+</code></pre>
 </div>
 
+<h3 id="point-estimator-b_0-and-b_1">point estimator $b_{0}$ and $b_{1}$</h3>
 
+<script type="math/tex; mode=display">b_{1} = \frac{\sum(X_{i} - \bar{X})(Y_{i} - \bar{Y})}{\sum(X_{i} - \bar{X})^2}</script>
 
-<p> Number of visits:&nbsp; &nbsp; 
-<img src="http://hitwebcounter.com/counter/counter.php?page=6444042&style=0001&nbdigits=5&type=page&initCount=0" title="url and counting visits" Alt="url and counting visits"   border="0" >
-</p>     
+<script type="math/tex; mode=display">b_{0} = \frac{1}{n}(\sum Y_{i} - b_{1} \sum X_{i}) = \bar{Y} - b_{1}\bar{X}</script>
 
+<div class="highlighter-rouge"><pre class="highlight"><code>b1 = sum((X - Xbar)*(Y - Ybar))/sum((X-Xbar)^2)
+b1
+
+## [1] 0.2557471
+
+b0 = Ybar - b1*Xbar
+b0
+
+## [1] -6.188395
+</code></pre>
+</div>
+
+<h3 id="residuals-sse-and-mse">Residuals, SSE and MSE</h3>
+
+<script type="math/tex; mode=display">SSE = \displaystyle\sum_{i=1}^{n}(Y_{i} - \hat{Y}_{i})^{2}</script>
+
+<script type="math/tex; mode=display">s^{2} = MSE = \frac{SSE}{n-2}</script>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>residual = Y - b1*X - b0
+summary(residual)
+
+##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+## -4.23862 -1.92051 -0.07138  0.00000  2.74500  4.53840
+
+SSE = sum(residual^2)
+SSE
+
+## [1] 215.7722
+
+MSE = SSE/(n-2)
+MSE
+
+## [1] 7.44042
+
+sqrt(MSE)
+
+## [1] 2.727713
+</code></pre>
+</div>
+
+<h3 id="sampling-distribution-of-b_1-and-b_1---beta_1sb_1">sampling distribution of $b_{1}$ and $(b_{1} - \beta_{1})/s(b_{1})$</h3>
+
+<script type="math/tex; mode=display">s^{2}(b_{1}) = \frac{MSE}{\sum(X_{i} - \bar{X})^{2}}</script>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>s = sqrt( MSE/sum((X - Xbar)^2))
+s
+
+## [1] 0.0781583
+</code></pre>
+</div>
+
+<script type="math/tex; mode=display">(b_{1} - \beta_{1})/s(b_{1}) \sim t(n-2)</script>
+
+<script type="math/tex; mode=display">H_{0}: \beta_{1} = 0</script>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>t = b1 / s
+t
+
+## [1] 3.272169
+
+(1 - pt(t, n -2))*2
+
+## [1] 0.002757815
+</code></pre>
+</div>
+
+  </div>
+
+</article>
 
       </div>
     </div>

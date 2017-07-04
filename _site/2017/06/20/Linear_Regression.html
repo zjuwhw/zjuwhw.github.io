@@ -97,6 +97,13 @@
           <li><a href="#23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1" id="markdown-toc-23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1">2.3 Some Considerations on Making Inferences Concerning $\beta_{0}$ and $\beta_{1}$</a></li>
         </ul>
       </li>
+      <li><a href="#chapter-5-matrix-approach-to-simple-linear-regression-analysis" id="markdown-toc-chapter-5-matrix-approach-to-simple-linear-regression-analysis">Chapter 5 Matrix Approach to Simple Linear Regression Analysis</a>        <ul>
+          <li><a href="#51-matrices" id="markdown-toc-51-matrices">5.1 Matrices</a></li>
+          <li><a href="#52-matrix-addition-and-subtraction" id="markdown-toc-52-matrix-addition-and-subtraction">5.2 Matrix Addition and Subtraction</a></li>
+          <li><a href="#53-matrix-multiplication" id="markdown-toc-53-matrix-multiplication">5.3 Matrix Multiplication</a></li>
+          <li><a href="#54-special-types-of-matrices" id="markdown-toc-54-special-types-of-matrices">5.4 Special Types of Matrices</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
@@ -493,6 +500,90 @@ the maximum likelihood estimator of μ is the smaple mean
   <li>$H_{0}: \beta_{1} = \beta_{10}$; $H_{a}: \beta_{1} \neq \beta_{10}$</li>
   <li>$t^{*} = \frac{b_{1} - \beta_{10}}{s(b_{1})}$</li>
   <li>$\delta$ is the <strong>noncentrality measure</strong>, a measure of how far the true value of $\beta_{1}$ is from $\beta_{10}$. $\delta = \frac{\mid\beta_{1} - \beta_{10}\mid}{\sigma(b_{1})}$</li>
+</ul>
+
+<h3 id="chapter-5-matrix-approach-to-simple-linear-regression-analysis">Chapter 5 Matrix Approach to Simple Linear Regression Analysis</h3>
+
+<h4 id="51-matrices">5.1 Matrices</h4>
+
+<ul>
+  <li>Definition
+    <ul>
+      <li>matrix</li>
+      <li>dlements</li>
+      <li>dimension</li>
+    </ul>
+  </li>
+  <li>Notation: a boldface symbol, such as <strong>A</strong>, <strong>X</strong> or <strong>Z</strong>.</li>
+  <li>Square Matrix: the number of rows equals the number of columns</li>
+  <li>Vector
+    <ul>
+      <li>column vector/vector</li>
+      <li>row vector</li>
+    </ul>
+  </li>
+  <li>Transpose: <strong>A’</strong> (A prime) is the transpose of a matrix <strong>A</strong></li>
+  <li>Equality of Matrices: same dimension and all same corresponding elements</li>
+  <li>design matrix</li>
+</ul>
+
+<h4 id="52-matrix-addition-and-subtraction">5.2 Matrix Addition and Subtraction</h4>
+
+<ul>
+  <li>same dimension</li>
+  <li>the sum or difference of the corresponding elements of the two matrixs</li>
+  <li><strong>A</strong> + <strong>B</strong> = <strong>B</strong> + <strong>A</strong></li>
+</ul>
+
+<h4 id="53-matrix-multiplication">5.3 Matrix Multiplication</h4>
+
+<ul>
+  <li>Multiplication of a Matrix by a <strong>scalar</strong>
+    <ul>
+      <li>a scalar is an ordinary number or a symbol representing a number</li>
+    </ul>
+  </li>
+  <li>Multiplication of a Matrix by a Matrix
+    <ul>
+      <li>the product <strong>AB</strong>, we say that <strong>A</strong> is postmultiplied by <strong>B</strong> or <strong>B</strong> is premultiplied by <strong>A</strong></li>
+      <li>$AB \neq BA$</li>
+    </ul>
+  </li>
+</ul>
+
+<p>In general, if <strong>A</strong> has dimension r * c and <strong>B</strong> has dimension c * s, the product <strong>AB</strong> is a matrix of dimension r * s, which is</p>
+
+<script type="math/tex; mode=display">AB_{r \times s} = \begin{bmatrix}\sum_{k=1}^{c} a_{ik}b_{kj}\end{bmatrix}\text{, where }i=1,...,r;j=1,...,s</script>
+
+<ul>
+  <li>Regression Examples</li>
+</ul>
+
+<script type="math/tex; mode=display">% <![CDATA[
+Y'Y_{1 \times 1} = \begin{bmatrix} Y_{1} & Y_{2} & ... & Y_{n} \end{bmatrix}\begin{bmatrix}Y_{1} \\ Y_{2} \\ ... \\ Y_{n} \end{bmatrix} =  Y_{1}^{2} + Y_{2}^{2} + ... + Y_{n}^{2} = \sum Y_{i}^{2} %]]></script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+X'X_{2 \times 2} = \begin{bmatrix} 1 & 1 & ... & 1 \\ X_{1} & X_{2} & ... & X_{n} \end{bmatrix}\begin{bmatrix} 1 & X_{1} \\ 1 & X_{2} \\ ... \\ 1 & X_{n} \end{bmatrix} =  \begin{bmatrix} n & \sum X_{i} \\ \sum X_{i} & \sum X_{i}^{2} \end{bmatrix} %]]></script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+X'Y_{2 \times 1} = \begin{bmatrix} 1 & 1 & ... & 1 \\ X_{1} & X_{2} & ... & X_{n} \end{bmatrix}\begin{bmatrix} Y_{1} \\ Y_{2} \\ ... \\ Y_{n} \end{bmatrix} =  \begin{bmatrix} \sum Y_{i} \\ \sum X_{i}Y_{i} \end{bmatrix} %]]></script>
+
+<h4 id="54-special-types-of-matrices">5.4 Special Types of Matrices</h4>
+
+<ul>
+  <li>Symmetric Matrix: <strong>A</strong> = <strong>A’</strong>
+    <ul>
+      <li>Symmetric matrix is necessarily square</li>
+      <li>premultiply a matrix by its transpose, say <strong>X’X</strong> is symmetric</li>
+    </ul>
+  </li>
+  <li>Diagonal Matrix: off-diagonal elements are all zeros</li>
+  <li>Identity Matrix, denoted by <strong>I</strong>: a diagonal matrix whose elements on the main diagonal are all 1s.
+    <ul>
+      <li><strong>AI</strong> = <strong>IA</strong> = <strong>A</strong></li>
+    </ul>
+  </li>
+  <li>Scalar Marix: k<strong>I</strong></li>
 </ul>
 
   </div>
