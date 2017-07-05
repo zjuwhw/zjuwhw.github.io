@@ -304,7 +304,7 @@ where,
 - Notation: a boldface symbol, such as **A**, **X** or **Z**.
 - Square Matrix: the number of rows equals the number of columns
 - Vector
-	- column vector/vector
+	- column vector/vector: only one column matrix
 	- row vector
 - Transpose: **A'** (A prime) is the transpose of a matrix **A**
 - Equality of Matrices: same dimension and all same corresponding elements
