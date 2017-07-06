@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Jul 2017 16:44:50 +1000</pubDate>
-    <lastBuildDate>Wed, 05 Jul 2017 16:44:50 +1000</lastBuildDate>
+    <pubDate>Thu, 06 Jul 2017 20:20:17 +1000</pubDate>
+    <lastBuildDate>Thu, 06 Jul 2017 20:20:17 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -156,6 +156,15 @@ t
           &lt;li&gt;&lt;a href=&quot;#52-matrix-addition-and-subtraction&quot; id=&quot;markdown-toc-52-matrix-addition-and-subtraction&quot;&gt;5.2 Matrix Addition and Subtraction&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#53-matrix-multiplication&quot; id=&quot;markdown-toc-53-matrix-multiplication&quot;&gt;5.3 Matrix Multiplication&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#54-special-types-of-matrices&quot; id=&quot;markdown-toc-54-special-types-of-matrices&quot;&gt;5.4 Special Types of Matrices&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#55-linear-dependence-and-rank-of-matrix&quot; id=&quot;markdown-toc-55-linear-dependence-and-rank-of-matrix&quot;&gt;5.5 Linear Dependence and Rank of Matrix&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#56-inverse-of-a-matrix&quot; id=&quot;markdown-toc-56-inverse-of-a-matrix&quot;&gt;5.6 Inverse of a Matrix&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#57-some-basic-results-for-matrics&quot; id=&quot;markdown-toc-57-some-basic-results-for-matrics&quot;&gt;5.7 Some Basic Results for Matrics&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#58-random-vectors-and-matrices&quot; id=&quot;markdown-toc-58-random-vectors-and-matrices&quot;&gt;5.8 Random Vectors and Matrices&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#59-simple-linear-regression-model-in-matrix-terms&quot; id=&quot;markdown-toc-59-simple-linear-regression-model-in-matrix-terms&quot;&gt;5.9 Simple Linear Regression Model in Matrix Terms&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#510-least-squares-estimation-of-regression-parameters&quot; id=&quot;markdown-toc-510-least-squares-estimation-of-regression-parameters&quot;&gt;5.10 Least Squares Estimation of Regression Parameters&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#511-fitted-values-and-residuals&quot; id=&quot;markdown-toc-511-fitted-values-and-residuals&quot;&gt;5.11 Fitted Values and Residuals&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#512-analysis-of-variance-results&quot; id=&quot;markdown-toc-512-analysis-of-variance-results&quot;&gt;5.12 Analysis of Variance Results&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#513-inferences-in-regression-analysis&quot; id=&quot;markdown-toc-513-inferences-in-regression-analysis&quot;&gt;5.13 Inferences in Regression Analysis&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -634,11 +643,124 @@ X'Y_{2 \times 1} = \begin{bmatrix} 1 &amp; 1 &amp; ... &amp; 1 \\ X_{1} &amp; X_
   &lt;li&gt;Diagonal Matrix: off-diagonal elements are all zeros&lt;/li&gt;
   &lt;li&gt;Identity Matrix, denoted by &lt;strong&gt;I&lt;/strong&gt;: a diagonal matrix whose elements on the main diagonal are all 1s.
     &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;AI&lt;/strong&gt; = &lt;strong&gt;IA&lt;/strong&gt; = &lt;strong&gt;A&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;AI&lt;/strong&gt; = &lt;strong&gt;IA&lt;/strong&gt; = &lt;strong&gt;A&lt;/strong&gt;, $A, I \in \mathbb{R}^{r \times r}$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Scalar Marix: k&lt;strong&gt;I&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Scalar Marix: a diagonal matrix whose main-diagonal elements are the same, can be expressed as k&lt;strong&gt;I&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Vector and matrix with all elements unity
+    &lt;ul&gt;
+      &lt;li&gt;a column vector with all elements 1 will be denoted by &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;a square matrix with all elements 1 will be denoted by &lt;strong&gt;J&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;1’1&lt;/strong&gt; = n&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;11’&lt;/strong&gt; = &lt;strong&gt;J&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Zero Vector: a vector containing only zeros, denoted by &lt;strong&gt;0&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h4 id=&quot;55-linear-dependence-and-rank-of-matrix&quot;&gt;5.5 Linear Dependence and Rank of Matrix&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Linear dependence&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We define the set of c column vectors $C_{1}, …, C_{c}$ in an r $\times$ c matrix to be &lt;strong&gt;linearly dependent&lt;/strong&gt; if one vector can be expressed as a linear combination of others. If no vector in the set can be so expressed, we define the set of vectors to be &lt;strong&gt;linearly independent&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;In a more general, when c scalars $k_{1},…,k_{c}$, not all zero, can be found such that:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;k_{1}\mathbf{C_{1}} + k_{2}\mathbf{C_{2}} + ... + k_{c}\mathbf{C_{c}} = \mathbf{0}&lt;/script&gt;
+
+&lt;p&gt;where &lt;strong&gt;0&lt;/strong&gt; denotes the zero column vector, &lt;strong&gt;the c column vectors&lt;/strong&gt; are &lt;strong&gt;linearly dependent&lt;/strong&gt;. If the only set of scalars for which the equality holds is $k_{1} = k_{2} = … = k_{c} = 0$, &lt;strong&gt;the set of c column vectors&lt;/strong&gt; is &lt;strong&gt;linearly independent&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rank of Matrix: the maximum number of linearly independent columns in the matrix
+    &lt;ul&gt;
+      &lt;li&gt;the rank of r $\times$ c matrix cannot exceed min(r, c)&lt;/li&gt;
+      &lt;li&gt;When a matrix is the product of two matrixs, its rank cannot exceed the smaller of the two ranks for the matrices being multiplied.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;56-inverse-of-a-matrix&quot;&gt;5.6 Inverse of a Matrix&lt;/h4&gt;
+
+&lt;p&gt;The inverse of a matrix $\mathbf{A}$ is another matrix, denoted by $\mathbf{A^{-1}}$, such that:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf{A}^{-1}\mathbf{A} = \mathbf{AA}^{-1} = \mathbf{I}&lt;/script&gt;
+
+&lt;p&gt;where &lt;strong&gt;I&lt;/strong&gt; is the identity matrix.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the inverse of a matrix is defined only for square matrix&lt;/li&gt;
+  &lt;li&gt;many square matrix do not have inverse&lt;/li&gt;
+  &lt;li&gt;the inverse of a square matrix, if exits, is unique&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Finding the inverse&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An inverse of a square $r \times r$ matrix exists if the rank of the matrix is r. Such a matrix is said to be &lt;strong&gt;nonsingular&lt;/strong&gt; or of &lt;strong&gt;full rank&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;An $r \times r$ matrix with rank less than r is said to be singular or not of full rank, and does not have an inverse.&lt;/li&gt;
+  &lt;li&gt;The inverse of an $r \times r$ matrix of full rank also has rank r.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\mathbf{A}_{2 \times 2} = \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;then:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\mathbf{A}_{2 \times 2}^{-1} = \begin{bmatrix} \frac{d}{D} &amp; \frac{-b}{D} \\ \frac{-c}{D} &amp; \frac{a}{D} \end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;where:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;D = ad - bc&lt;/script&gt;
+
+&lt;p&gt;D is called the determinant of the matrix &lt;strong&gt;A&lt;/strong&gt;. If &lt;strong&gt;A&lt;/strong&gt; were singular, its determinant would equal zero and no inverse of A would exist.&lt;/p&gt;
+
+&lt;p&gt;Regression Example&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\mathbf{X}'\mathbf{X}_{2 \times 2} = \begin{bmatrix} n &amp; \sum X_{i} \\ \sum X_{i} &amp; \sum X_{i}^{2} \end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a = n, b = c = \sum{X_{i}}, d = \sum{X_{i}^{2}}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;D = n\sum{X_{i}^{2}} - (\sum{X_{i}})^{2} = n\sum{(X_{i} - \bar{X})}^{2}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+(\mathbf{X}'\mathbf{X})_{2 \times 2}^{-1} = \begin{bmatrix} \frac{1}{n} + \frac{\bar{X}^2}{\sum(X_{i} - \bar{X})^{2}} &amp; \frac{-\bar{X}}{\sum{(X_{i} - \bar{X})^2}} \\ \frac{-\bar{X}}{\sum{(X_{i} - \bar{X})^2}} &amp; \frac{1}{\sum{(X_{i} - \bar{X})^2}} \end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;57-some-basic-results-for-matrics&quot;&gt;5.7 Some Basic Results for Matrics&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A + B = B + A&lt;/li&gt;
+  &lt;li&gt;(A + B) + C = A + (B + C)&lt;/li&gt;
+  &lt;li&gt;(AB)C = A(BC)&lt;/li&gt;
+  &lt;li&gt;C(A + B) = CA + CB&lt;/li&gt;
+  &lt;li&gt;k(A + B) = kA + kB&lt;/li&gt;
+  &lt;li&gt;(A’)’ = A&lt;/li&gt;
+  &lt;li&gt;(A + B)’ = A’ + B’&lt;/li&gt;
+  &lt;li&gt;(AB)’ = B’A’&lt;/li&gt;
+  &lt;li&gt;(ABC)’ = C’B’A’&lt;/li&gt;
+  &lt;li&gt;$(AB)^{-1} = B^{-1}A^{-1}$&lt;/li&gt;
+  &lt;li&gt;$(ABC)^{-1} = C^{-1}B^{-1}A^{-1}$&lt;/li&gt;
+  &lt;li&gt;$(A^{-1})^{-1} = A$&lt;/li&gt;
+  &lt;li&gt;$(A’)^{-1} = (A^{-1})’$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;58-random-vectors-and-matrices&quot;&gt;5.8 Random Vectors and Matrices&lt;/h4&gt;
+
+&lt;h4 id=&quot;59-simple-linear-regression-model-in-matrix-terms&quot;&gt;5.9 Simple Linear Regression Model in Matrix Terms&lt;/h4&gt;
+
+&lt;h4 id=&quot;510-least-squares-estimation-of-regression-parameters&quot;&gt;5.10 Least Squares Estimation of Regression Parameters&lt;/h4&gt;
+
+&lt;h4 id=&quot;511-fitted-values-and-residuals&quot;&gt;5.11 Fitted Values and Residuals&lt;/h4&gt;
+
+&lt;h4 id=&quot;512-analysis-of-variance-results&quot;&gt;5.12 Analysis of Variance Results&lt;/h4&gt;
+
+&lt;h4 id=&quot;513-inferences-in-regression-analysis&quot;&gt;5.13 Inferences in Regression Analysis&lt;/h4&gt;
+
 </description>
         <pubDate>Tue, 20 Jun 2017 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2017/06/20/Linear_Regression.html</link>

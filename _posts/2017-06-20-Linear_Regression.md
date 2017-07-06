@@ -343,5 +343,99 @@ $$X'Y_{2 \times 1} = \begin{bmatrix} 1 & 1 & ... & 1 \\ X_{1} & X_{2} & ... & X_
 	- premultiply a matrix by its transpose, say **X'X** is symmetric
 - Diagonal Matrix: off-diagonal elements are all zeros
 - Identity Matrix, denoted by **I**: a diagonal matrix whose elements on the main diagonal are all 1s.
-	- **AI** = **IA** = **A**
-- Scalar Marix: k**I**
+	- **AI** = **IA** = **A**, $A, I \in \mathbb{R}^{r \times r}$
+- Scalar Marix: a diagonal matrix whose main-diagonal elements are the same, can be expressed as k**I**
+- Vector and matrix with all elements unity
+	- a column vector with all elements 1 will be denoted by **1**
+	- a square matrix with all elements 1 will be denoted by **J**
+	- **1'1** = n
+	- **11'** = **J**
+- Zero Vector: a vector containing only zeros, denoted by **0**
+
+#### 5.5 Linear Dependence and Rank of Matrix
+
+- Linear dependence
+
+We define the set of c column vectors $C_{1}, ..., C_{c}$ in an r $\times$ c matrix to be **linearly dependent** if one vector can be expressed as a linear combination of others. If no vector in the set can be so expressed, we define the set of vectors to be **linearly independent**.
+
+In a more general, when c scalars $k_{1},...,k_{c}$, not all zero, can be found such that:
+
+$$k_{1}\mathbf{C_{1}} + k_{2}\mathbf{C_{2}} + ... + k_{c}\mathbf{C_{c}} = \mathbf{0}$$
+
+where **0** denotes the zero column vector, **the c column vectors** are **linearly dependent**. If the only set of scalars for which the equality holds is $k_{1} = k_{2} = ... = k_{c} = 0$, **the set of c column vectors** is **linearly independent**.
+
+- Rank of Matrix: the maximum number of linearly independent columns in the matrix
+	- the rank of r $\times$ c matrix cannot exceed min(r, c)
+	- When a matrix is the product of two matrixs, its rank cannot exceed the smaller of the two ranks for the matrices being multiplied.
+
+	
+#### 5.6 Inverse of a Matrix
+
+The inverse of a matrix $\mathbf{A}$ is another matrix, denoted by $\mathbf{A^{-1}}$, such that:
+
+$$\mathbf{A}^{-1}\mathbf{A} = \mathbf{AA}^{-1} = \mathbf{I}$$
+
+where **I** is the identity matrix.
+
+- the inverse of a matrix is defined only for square matrix
+- many square matrix do not have inverse
+- the inverse of a square matrix, if exits, is unique
+
+Finding the inverse
+
+- An inverse of a square $r \times r$ matrix exists if the rank of the matrix is r. Such a matrix is said to be **nonsingular** or of **full rank**.
+- An $r \times r$ matrix with rank less than r is said to be singular or not of full rank, and does not have an inverse.
+- The inverse of an $r \times r$ matrix of full rank also has rank r.
+
+If:
+
+$$\mathbf{A}_{2 \times 2} = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$$
+
+then:
+
+$$\mathbf{A}_{2 \times 2}^{-1} = \begin{bmatrix} \frac{d}{D} & \frac{-b}{D} \\ \frac{-c}{D} & \frac{a}{D} \end{bmatrix}$$
+
+where:
+
+$$D = ad - bc$$
+
+D is called the determinant of the matrix **A**. If **A** were singular, its determinant would equal zero and no inverse of A would exist.
+
+Regression Example
+
+$$\mathbf{X}'\mathbf{X}_{2 \times 2} = \begin{bmatrix} n & \sum X_{i} \\ \sum X_{i} & \sum X_{i}^{2} \end{bmatrix}$$ 
+
+$$ a = n, b = c = \sum{X_{i}}, d = \sum{X_{i}^{2}} $$
+
+$$ D = n\sum{X_{i}^{2}} - (\sum{X_{i}})^{2} = n\sum{(X_{i} - \bar{X})}^{2}$$
+
+$$(\mathbf{X}'\mathbf{X})_{2 \times 2}^{-1} = \begin{bmatrix} \frac{1}{n} + \frac{\bar{X}^2}{\sum(X_{i} - \bar{X})^{2}} & \frac{-\bar{X}}{\sum{(X_{i} - \bar{X})^2}} \\ \frac{-\bar{X}}{\sum{(X_{i} - \bar{X})^2}} & \frac{1}{\sum{(X_{i} - \bar{X})^2}} \end{bmatrix}$$
+
+#### 5.7 Some Basic Results for Matrics
+
+- A + B = B + A
+- (A + B) + C = A + (B + C)
+- (AB)C = A(BC)
+- C(A + B) = CA + CB
+- k(A + B) = kA + kB
+- (A')' = A
+- (A + B)' = A' + B'
+- (AB)' = B'A'
+- (ABC)' = C'B'A'
+- $(AB)^{-1} = B^{-1}A^{-1}$
+- $(ABC)^{-1} = C^{-1}B^{-1}A^{-1}$
+- $(A^{-1})^{-1} = A$
+- $(A')^{-1} = (A^{-1})'$
+
+#### 5.8 Random Vectors and Matrices
+
+#### 5.9 Simple Linear Regression Model in Matrix Terms
+
+#### 5.10 Least Squares Estimation of Regression Parameters
+
+#### 5.11 Fitted Values and Residuals
+
+#### 5.12 Analysis of Variance Results
+
+#### 5.13 Inferences in Regression Analysis
+

@@ -102,6 +102,15 @@
           <li><a href="#52-matrix-addition-and-subtraction" id="markdown-toc-52-matrix-addition-and-subtraction">5.2 Matrix Addition and Subtraction</a></li>
           <li><a href="#53-matrix-multiplication" id="markdown-toc-53-matrix-multiplication">5.3 Matrix Multiplication</a></li>
           <li><a href="#54-special-types-of-matrices" id="markdown-toc-54-special-types-of-matrices">5.4 Special Types of Matrices</a></li>
+          <li><a href="#55-linear-dependence-and-rank-of-matrix" id="markdown-toc-55-linear-dependence-and-rank-of-matrix">5.5 Linear Dependence and Rank of Matrix</a></li>
+          <li><a href="#56-inverse-of-a-matrix" id="markdown-toc-56-inverse-of-a-matrix">5.6 Inverse of a Matrix</a></li>
+          <li><a href="#57-some-basic-results-for-matrics" id="markdown-toc-57-some-basic-results-for-matrics">5.7 Some Basic Results for Matrics</a></li>
+          <li><a href="#58-random-vectors-and-matrices" id="markdown-toc-58-random-vectors-and-matrices">5.8 Random Vectors and Matrices</a></li>
+          <li><a href="#59-simple-linear-regression-model-in-matrix-terms" id="markdown-toc-59-simple-linear-regression-model-in-matrix-terms">5.9 Simple Linear Regression Model in Matrix Terms</a></li>
+          <li><a href="#510-least-squares-estimation-of-regression-parameters" id="markdown-toc-510-least-squares-estimation-of-regression-parameters">5.10 Least Squares Estimation of Regression Parameters</a></li>
+          <li><a href="#511-fitted-values-and-residuals" id="markdown-toc-511-fitted-values-and-residuals">5.11 Fitted Values and Residuals</a></li>
+          <li><a href="#512-analysis-of-variance-results" id="markdown-toc-512-analysis-of-variance-results">5.12 Analysis of Variance Results</a></li>
+          <li><a href="#513-inferences-in-regression-analysis" id="markdown-toc-513-inferences-in-regression-analysis">5.13 Inferences in Regression Analysis</a></li>
         </ul>
       </li>
     </ul>
@@ -580,11 +589,124 @@ X'Y_{2 \times 1} = \begin{bmatrix} 1 & 1 & ... & 1 \\ X_{1} & X_{2} & ... & X_{n
   <li>Diagonal Matrix: off-diagonal elements are all zeros</li>
   <li>Identity Matrix, denoted by <strong>I</strong>: a diagonal matrix whose elements on the main diagonal are all 1s.
     <ul>
-      <li><strong>AI</strong> = <strong>IA</strong> = <strong>A</strong></li>
+      <li><strong>AI</strong> = <strong>IA</strong> = <strong>A</strong>, $A, I \in \mathbb{R}^{r \times r}$</li>
     </ul>
   </li>
-  <li>Scalar Marix: k<strong>I</strong></li>
+  <li>Scalar Marix: a diagonal matrix whose main-diagonal elements are the same, can be expressed as k<strong>I</strong></li>
+  <li>Vector and matrix with all elements unity
+    <ul>
+      <li>a column vector with all elements 1 will be denoted by <strong>1</strong></li>
+      <li>a square matrix with all elements 1 will be denoted by <strong>J</strong></li>
+      <li><strong>1’1</strong> = n</li>
+      <li><strong>11’</strong> = <strong>J</strong></li>
+    </ul>
+  </li>
+  <li>Zero Vector: a vector containing only zeros, denoted by <strong>0</strong></li>
 </ul>
+
+<h4 id="55-linear-dependence-and-rank-of-matrix">5.5 Linear Dependence and Rank of Matrix</h4>
+
+<ul>
+  <li>Linear dependence</li>
+</ul>
+
+<p>We define the set of c column vectors $C_{1}, …, C_{c}$ in an r $\times$ c matrix to be <strong>linearly dependent</strong> if one vector can be expressed as a linear combination of others. If no vector in the set can be so expressed, we define the set of vectors to be <strong>linearly independent</strong>.</p>
+
+<p>In a more general, when c scalars $k_{1},…,k_{c}$, not all zero, can be found such that:</p>
+
+<script type="math/tex; mode=display">k_{1}\mathbf{C_{1}} + k_{2}\mathbf{C_{2}} + ... + k_{c}\mathbf{C_{c}} = \mathbf{0}</script>
+
+<p>where <strong>0</strong> denotes the zero column vector, <strong>the c column vectors</strong> are <strong>linearly dependent</strong>. If the only set of scalars for which the equality holds is $k_{1} = k_{2} = … = k_{c} = 0$, <strong>the set of c column vectors</strong> is <strong>linearly independent</strong>.</p>
+
+<ul>
+  <li>Rank of Matrix: the maximum number of linearly independent columns in the matrix
+    <ul>
+      <li>the rank of r $\times$ c matrix cannot exceed min(r, c)</li>
+      <li>When a matrix is the product of two matrixs, its rank cannot exceed the smaller of the two ranks for the matrices being multiplied.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="56-inverse-of-a-matrix">5.6 Inverse of a Matrix</h4>
+
+<p>The inverse of a matrix $\mathbf{A}$ is another matrix, denoted by $\mathbf{A^{-1}}$, such that:</p>
+
+<script type="math/tex; mode=display">\mathbf{A}^{-1}\mathbf{A} = \mathbf{AA}^{-1} = \mathbf{I}</script>
+
+<p>where <strong>I</strong> is the identity matrix.</p>
+
+<ul>
+  <li>the inverse of a matrix is defined only for square matrix</li>
+  <li>many square matrix do not have inverse</li>
+  <li>the inverse of a square matrix, if exits, is unique</li>
+</ul>
+
+<p>Finding the inverse</p>
+
+<ul>
+  <li>An inverse of a square $r \times r$ matrix exists if the rank of the matrix is r. Such a matrix is said to be <strong>nonsingular</strong> or of <strong>full rank</strong>.</li>
+  <li>An $r \times r$ matrix with rank less than r is said to be singular or not of full rank, and does not have an inverse.</li>
+  <li>The inverse of an $r \times r$ matrix of full rank also has rank r.</li>
+</ul>
+
+<p>If:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\mathbf{A}_{2 \times 2} = \begin{bmatrix} a & b \\ c & d \end{bmatrix} %]]></script>
+
+<p>then:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\mathbf{A}_{2 \times 2}^{-1} = \begin{bmatrix} \frac{d}{D} & \frac{-b}{D} \\ \frac{-c}{D} & \frac{a}{D} \end{bmatrix} %]]></script>
+
+<p>where:</p>
+
+<script type="math/tex; mode=display">D = ad - bc</script>
+
+<p>D is called the determinant of the matrix <strong>A</strong>. If <strong>A</strong> were singular, its determinant would equal zero and no inverse of A would exist.</p>
+
+<p>Regression Example</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\mathbf{X}'\mathbf{X}_{2 \times 2} = \begin{bmatrix} n & \sum X_{i} \\ \sum X_{i} & \sum X_{i}^{2} \end{bmatrix} %]]></script>
+
+<script type="math/tex; mode=display">a = n, b = c = \sum{X_{i}}, d = \sum{X_{i}^{2}}</script>
+
+<script type="math/tex; mode=display">D = n\sum{X_{i}^{2}} - (\sum{X_{i}})^{2} = n\sum{(X_{i} - \bar{X})}^{2}</script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+(\mathbf{X}'\mathbf{X})_{2 \times 2}^{-1} = \begin{bmatrix} \frac{1}{n} + \frac{\bar{X}^2}{\sum(X_{i} - \bar{X})^{2}} & \frac{-\bar{X}}{\sum{(X_{i} - \bar{X})^2}} \\ \frac{-\bar{X}}{\sum{(X_{i} - \bar{X})^2}} & \frac{1}{\sum{(X_{i} - \bar{X})^2}} \end{bmatrix} %]]></script>
+
+<h4 id="57-some-basic-results-for-matrics">5.7 Some Basic Results for Matrics</h4>
+
+<ul>
+  <li>A + B = B + A</li>
+  <li>(A + B) + C = A + (B + C)</li>
+  <li>(AB)C = A(BC)</li>
+  <li>C(A + B) = CA + CB</li>
+  <li>k(A + B) = kA + kB</li>
+  <li>(A’)’ = A</li>
+  <li>(A + B)’ = A’ + B’</li>
+  <li>(AB)’ = B’A’</li>
+  <li>(ABC)’ = C’B’A’</li>
+  <li>$(AB)^{-1} = B^{-1}A^{-1}$</li>
+  <li>$(ABC)^{-1} = C^{-1}B^{-1}A^{-1}$</li>
+  <li>$(A^{-1})^{-1} = A$</li>
+  <li>$(A’)^{-1} = (A^{-1})’$</li>
+</ul>
+
+<h4 id="58-random-vectors-and-matrices">5.8 Random Vectors and Matrices</h4>
+
+<h4 id="59-simple-linear-regression-model-in-matrix-terms">5.9 Simple Linear Regression Model in Matrix Terms</h4>
+
+<h4 id="510-least-squares-estimation-of-regression-parameters">5.10 Least Squares Estimation of Regression Parameters</h4>
+
+<h4 id="511-fitted-values-and-residuals">5.11 Fitted Values and Residuals</h4>
+
+<h4 id="512-analysis-of-variance-results">5.12 Analysis of Variance Results</h4>
+
+<h4 id="513-inferences-in-regression-analysis">5.13 Inferences in Regression Analysis</h4>
+
 
   </div>
 
