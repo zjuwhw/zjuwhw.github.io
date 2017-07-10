@@ -95,8 +95,18 @@
           <li><a href="#21-inferences-concerning-beta_1" id="markdown-toc-21-inferences-concerning-beta_1">2.1 Inferences Concerning $\beta_{1}$</a></li>
           <li><a href="#22-inferences-concerning-beta_0" id="markdown-toc-22-inferences-concerning-beta_0">2.2 Inferences Concerning $\beta_{0}$</a></li>
           <li><a href="#23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1" id="markdown-toc-23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1">2.3 Some Considerations on Making Inferences Concerning $\beta_{0}$ and $\beta_{1}$</a></li>
+          <li><a href="#24-interval-estimation-of-ey_h" id="markdown-toc-24-interval-estimation-of-ey_h">2.4 Interval Estimation of $E(Y_{h})$</a></li>
+          <li><a href="#25-prediction-of-new-observation" id="markdown-toc-25-prediction-of-new-observation">2.5 Prediction of New Observation</a></li>
+          <li><a href="#26-confidence-band-for-regression-line" id="markdown-toc-26-confidence-band-for-regression-line">2.6 Confidence Band for Regression Line</a></li>
+          <li><a href="#27-analysis-of-variance-approach" id="markdown-toc-27-analysis-of-variance-approach">2.7 Analysis of Variance Approach</a></li>
+          <li><a href="#28-general-linear-test-approach" id="markdown-toc-28-general-linear-test-approach">2.8 General Linear Test Approach</a></li>
+          <li><a href="#29-descriptive-measures-of-linear-association-between-x-and-y" id="markdown-toc-29-descriptive-measures-of-linear-association-between-x-and-y">2.9 Descriptive Measures of Linear Association between X and Y</a></li>
+          <li><a href="#210-considerations-in-applying-regression-analysis" id="markdown-toc-210-considerations-in-applying-regression-analysis">2.10 Considerations in Applying Regression Analysis</a></li>
+          <li><a href="#211-normal-correlation-models" id="markdown-toc-211-normal-correlation-models">2.11 Normal Correlation Models</a></li>
         </ul>
       </li>
+      <li><a href="#chapter-3-diagnostics-and-remedial-measures" id="markdown-toc-chapter-3-diagnostics-and-remedial-measures">Chapter 3 Diagnostics and Remedial Measures</a></li>
+      <li><a href="#chapter-4-simultaneous-inferences-and-other-topics-in-regression-analysis" id="markdown-toc-chapter-4-simultaneous-inferences-and-other-topics-in-regression-analysis">Chapter 4 Simultaneous Inferences and Other Topics in Regression Analysis</a></li>
       <li><a href="#chapter-5-matrix-approach-to-simple-linear-regression-analysis" id="markdown-toc-chapter-5-matrix-approach-to-simple-linear-regression-analysis">Chapter 5 Matrix Approach to Simple Linear Regression Analysis</a>        <ul>
           <li><a href="#51-matrices" id="markdown-toc-51-matrices">5.1 Matrices</a></li>
           <li><a href="#52-matrix-addition-and-subtraction" id="markdown-toc-52-matrix-addition-and-subtraction">5.2 Matrix Addition and Subtraction</a></li>
@@ -113,6 +123,21 @@
           <li><a href="#513-inferences-in-regression-analysis" id="markdown-toc-513-inferences-in-regression-analysis">5.13 Inferences in Regression Analysis</a></li>
         </ul>
       </li>
+    </ul>
+  </li>
+  <li><a href="#part-2-multiple-linear-regression" id="markdown-toc-part-2-multiple-linear-regression">Part 2 Multiple linear regression</a>    <ul>
+      <li><a href="#chapter-6-multiple-regression-i" id="markdown-toc-chapter-6-multiple-regression-i">Chapter 6 Multiple Regression I</a></li>
+      <li><a href="#chapter-7-multiple-regression-ii" id="markdown-toc-chapter-7-multiple-regression-ii">Chapter 7 Multiple Regression II</a></li>
+      <li><a href="#chapter-8-regression-models-for-quantitative-and-qualitative-predictors" id="markdown-toc-chapter-8-regression-models-for-quantitative-and-qualitative-predictors">Chapter 8 Regression Models for quantitative and qualitative predictors</a></li>
+      <li><a href="#chapter-9-building-the-regression-model-i-model-selection-and-validation" id="markdown-toc-chapter-9-building-the-regression-model-i-model-selection-and-validation">Chapter 9 Building the regression model I: model selection and validation</a></li>
+      <li><a href="#chapter-10-building-the-regression-model-ii-diagnostics" id="markdown-toc-chapter-10-building-the-regression-model-ii-diagnostics">Chapter 10 Building the regression model II: Diagnostics</a></li>
+      <li><a href="#chapter-11-building-the-regression-model-iii-remedial-measures" id="markdown-toc-chapter-11-building-the-regression-model-iii-remedial-measures">Chapter 11 Building the regression model III: Remedial Measures</a></li>
+      <li><a href="#chapter-12-autocorrelation-in-time-series-data" id="markdown-toc-chapter-12-autocorrelation-in-time-series-data">Chapter 12 Autocorrelation in Time Series Data</a></li>
+    </ul>
+  </li>
+  <li><a href="#part-3-nonlinear-regression" id="markdown-toc-part-3-nonlinear-regression">Part 3 Nonlinear regression</a>    <ul>
+      <li><a href="#chapter-13-introduction-to-nonlinear-regression-and-neural-networks" id="markdown-toc-chapter-13-introduction-to-nonlinear-regression-and-neural-networks">Chapter 13 Introduction to Nonlinear Regression and Neural Networks</a></li>
+      <li><a href="#chapter-14-logistic-regression-possion-regression-and-generalized-linear-regression" id="markdown-toc-chapter-14-logistic-regression-possion-regression-and-generalized-linear-regression">Chapter 14 Logistic Regression, Possion Regression, and Generalized Linear Regression</a></li>
     </ul>
   </li>
 </ul>
@@ -511,6 +536,44 @@ the maximum likelihood estimator of μ is the smaple mean
   <li>$\delta$ is the <strong>noncentrality measure</strong>, a measure of how far the true value of $\beta_{1}$ is from $\beta_{10}$. $\delta = \frac{\mid\beta_{1} - \beta_{10}\mid}{\sigma(b_{1})}$</li>
 </ul>
 
+<h4 id="24-interval-estimation-of-ey_h">2.4 Interval Estimation of $E(Y_{h})$</h4>
+
+<p>The mean response when $X = X_{h}$ is denoted by $E(Y_{h})$. The point estimator $\hat{Y}<em>{h}$ of $E(Y</em>{h})$:</p>
+
+<script type="math/tex; mode=display">\hat{Y}_{h} = b_{0} + b_{1}X_{h}</script>
+
+<ul>
+  <li>Sampling Distribution of $\hat{Y}_{h}$</li>
+</ul>
+
+<p>For normal error regression model, the sampling distribution of $\hat{Y}_{h}$ is normal, with mean and variance:</p>
+
+<script type="math/tex; mode=display">E(\hat{Y}_{h}) = E(Y_{h})</script>
+
+<script type="math/tex; mode=display">\sigma^{2}(\hat{Y}_{h}) = \sigma^{2}[\frac{1}{n} + \frac{(X_{h} - \bar{X})^2}{\sum(X_{i} - \bar{X})^{2}}]</script>
+
+<script type="math/tex; mode=display">s^{2}(\hat{Y}_{h}) = MSE[\frac{1}{n} + \frac{(X_{h} - \bar{X})^{2}}{\sum (X_{i} - \bar{X})^{2}}]</script>
+
+<script type="math/tex; mode=display">\frac{\hat{Y}_{h} - E(Y_{h})}{s(\hat{Y}_{h})} \sim t(n-2)</script>
+
+<h4 id="25-prediction-of-new-observation">2.5 Prediction of New Observation</h4>
+
+<h4 id="26-confidence-band-for-regression-line">2.6 Confidence Band for Regression Line</h4>
+
+<h4 id="27-analysis-of-variance-approach">2.7 Analysis of Variance Approach</h4>
+
+<h4 id="28-general-linear-test-approach">2.8 General Linear Test Approach</h4>
+
+<h4 id="29-descriptive-measures-of-linear-association-between-x-and-y">2.9 Descriptive Measures of Linear Association between X and Y</h4>
+
+<h4 id="210-considerations-in-applying-regression-analysis">2.10 Considerations in Applying Regression Analysis</h4>
+
+<h4 id="211-normal-correlation-models">2.11 Normal Correlation Models</h4>
+
+<h3 id="chapter-3-diagnostics-and-remedial-measures">Chapter 3 Diagnostics and Remedial Measures</h3>
+
+<h3 id="chapter-4-simultaneous-inferences-and-other-topics-in-regression-analysis">Chapter 4 Simultaneous Inferences and Other Topics in Regression Analysis</h3>
+
 <h3 id="chapter-5-matrix-approach-to-simple-linear-regression-analysis">Chapter 5 Matrix Approach to Simple Linear Regression Analysis</h3>
 
 <h4 id="51-matrices">5.1 Matrices</h4>
@@ -645,7 +708,7 @@ X'Y_{2 \times 1} = \begin{bmatrix} 1 & 1 & ... & 1 \\ X_{1} & X_{2} & ... & X_{n
 
 <ul>
   <li>An inverse of a square $r \times r$ matrix exists if the rank of the matrix is r. Such a matrix is said to be <strong>nonsingular</strong> or of <strong>full rank</strong>.</li>
-  <li>An $r \times r$ matrix with rank less than r is said to be singular or not of full rank, and does not have an inverse.</li>
+  <li>An $r \times r$ matrix with rank less than r is said to be <strong>singular</strong> or <strong>not of full rank</strong>, and does not have an inverse.</li>
   <li>The inverse of an $r \times r$ matrix of full rank also has rank r.</li>
 </ul>
 
@@ -707,6 +770,27 @@ X'Y_{2 \times 1} = \begin{bmatrix} 1 & 1 & ... & 1 \\ X_{1} & X_{2} & ... & X_{n
 
 <h4 id="513-inferences-in-regression-analysis">5.13 Inferences in Regression Analysis</h4>
 
+<h2 id="part-2-multiple-linear-regression">Part 2 Multiple linear regression</h2>
+
+<h3 id="chapter-6-multiple-regression-i">Chapter 6 Multiple Regression I</h3>
+
+<h3 id="chapter-7-multiple-regression-ii">Chapter 7 Multiple Regression II</h3>
+
+<h3 id="chapter-8-regression-models-for-quantitative-and-qualitative-predictors">Chapter 8 Regression Models for quantitative and qualitative predictors</h3>
+
+<h3 id="chapter-9-building-the-regression-model-i-model-selection-and-validation">Chapter 9 Building the regression model I: model selection and validation</h3>
+
+<h3 id="chapter-10-building-the-regression-model-ii-diagnostics">Chapter 10 Building the regression model II: Diagnostics</h3>
+
+<h3 id="chapter-11-building-the-regression-model-iii-remedial-measures">Chapter 11 Building the regression model III: Remedial Measures</h3>
+
+<h3 id="chapter-12-autocorrelation-in-time-series-data">Chapter 12 Autocorrelation in Time Series Data</h3>
+
+<h2 id="part-3-nonlinear-regression">Part 3 Nonlinear regression</h2>
+
+<h3 id="chapter-13-introduction-to-nonlinear-regression-and-neural-networks">Chapter 13 Introduction to Nonlinear Regression and Neural Networks</h3>
+
+<h3 id="chapter-14-logistic-regression-possion-regression-and-generalized-linear-regression">Chapter 14 Logistic Regression, Possion Regression, and Generalized Linear Regression</h3>
 
   </div>
 

@@ -292,6 +292,41 @@ where,
 - $t^{*} = \frac{b_{1} - \beta_{10}}{s(b_{1})}$
 - $\delta$ is the **noncentrality measure**, a measure of how far the true value of $\beta_{1}$ is from $\beta_{10}$. $\delta = \frac{\mid\beta_{1} - \beta_{10}\mid}{\sigma(b_{1})}$
 
+#### 2.4 Interval Estimation of $E(Y_{h})$
+
+The mean response when $X = X_{h}$ is denoted by $E(Y_{h})$. The point estimator $\hat{Y}_{h}$ of $E(Y_{h})$:
+
+$$\hat{Y}_{h} = b_{0} + b_{1}X_{h}$$
+
+- Sampling Distribution of $\hat{Y}_{h}$
+
+For normal error regression model, the sampling distribution of $\hat{Y}_{h}$ is normal, with mean and variance:
+
+$$E(\hat{Y}_{h}) = E(Y_{h})$$
+
+$$\sigma^{2}(\hat{Y}_{h}) = \sigma^{2}[\frac{1}{n} + \frac{(X_{h} - \bar{X})^2}{\sum(X_{i} - \bar{X})^{2}}]$$
+
+$$s^{2}(\hat{Y}_{h}) = MSE[\frac{1}{n} + \frac{(X_{h} - \bar{X})^{2}}{\sum (X_{i} - \bar{X})^{2}}]$$
+
+$$\frac{\hat{Y}_{h} - E(Y_{h})}{s(\hat{Y}_{h})} \sim t(n-2)$$
+
+#### 2.5 Prediction of New Observation
+
+#### 2.6 Confidence Band for Regression Line
+
+#### 2.7 Analysis of Variance Approach
+
+#### 2.8 General Linear Test Approach
+
+#### 2.9 Descriptive Measures of Linear Association between X and Y
+
+#### 2.10 Considerations in Applying Regression Analysis
+
+#### 2.11 Normal Correlation Models
+
+### Chapter 3 Diagnostics and Remedial Measures
+
+### Chapter 4 Simultaneous Inferences and Other Topics in Regression Analysis
 
 ### Chapter 5 Matrix Approach to Simple Linear Regression Analysis
 
@@ -384,7 +419,7 @@ where **I** is the identity matrix.
 Finding the inverse
 
 - An inverse of a square $r \times r$ matrix exists if the rank of the matrix is r. Such a matrix is said to be **nonsingular** or of **full rank**.
-- An $r \times r$ matrix with rank less than r is said to be singular or not of full rank, and does not have an inverse.
+- An $r \times r$ matrix with rank less than r is said to be **singular** or **not of full rank**, and does not have an inverse.
 - The inverse of an $r \times r$ matrix of full rank also has rank r.
 
 If:
@@ -439,3 +474,24 @@ $$(\mathbf{X}'\mathbf{X})_{2 \times 2}^{-1} = \begin{bmatrix} \frac{1}{n} + \fra
 
 #### 5.13 Inferences in Regression Analysis
 
+## Part 2 Multiple linear regression
+
+### Chapter 6 Multiple Regression I
+
+### Chapter 7 Multiple Regression II
+
+### Chapter 8 Regression Models for quantitative and qualitative predictors
+
+### Chapter 9 Building the regression model I: model selection and validation
+
+### Chapter 10 Building the regression model II: Diagnostics
+
+### Chapter 11 Building the regression model III: Remedial Measures
+
+### Chapter 12 Autocorrelation in Time Series Data
+
+## Part 3 Nonlinear regression
+
+### Chapter 13 Introduction to Nonlinear Regression and Neural Networks
+
+### Chapter 14 Logistic Regression, Possion Regression, and Generalized Linear Regression
