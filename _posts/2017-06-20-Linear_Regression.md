@@ -294,7 +294,7 @@ where,
 
 #### 2.4 Interval Estimation of $E(Y_{h})$
 
-The mean response when $X = X_{h}$ is denoted by $E(Y_{h})$. The point estimator $\hat{Y}_{h}$ of $E(Y_{h})$:
+The mean response when $X = X_{h}$ is denoted by $E(Y_{h})$. The $E(Y_{h})$ point estimator $\hat{Y}_{h}$ :
 
 $$\hat{Y}_{h} = b_{0} + b_{1}X_{h}$$
 
@@ -312,9 +312,50 @@ $$\frac{\hat{Y}_{h} - E(Y_{h})}{s(\hat{Y}_{h})} \sim t(n-2)$$
 
 #### 2.5 Prediction of New Observation
 
+We denotethe level of X for the new trial as $X_{h}$ and the new observation on Y as $Y_{h(new)}$.
+
+In the former case, the estimation of $E(Y_{h})$ is the **mean** of the distribution of Y; in the present case, we predict an **individual outcome** draw from the distribution of Y.
+
+Hence, two components of $\sigma(pred)$:
+
+1. The variance of the distribution of Y at $X = X_{h}$, namely $\sigma^{2}$
+2. The variance of the sampling distribution of $\hat{Y}_{h}$, namely $\sigma^{2}(\hat{Y}_{h})$
+
+$$\sigma^{2}(pred) = \sigma^{2}(Y_{h(new)} - \hat{Y}_{h}) = \sigma^{2} + \sigma^{2}(\hat{Y}_{h})$$
+
+$$s^{2}(pred) = MSE[1 + \frac{1}{n} + \frac{(X_{h} - \bar{X})^{2}}{\sum (X_{i} - \bar{X})^{2}}]$$
+
 #### 2.6 Confidence Band for Regression Line
 
+To obtain a confidence band for the entire for the entire regression line $E(Y) = \beta_{0} + \beta_{1}X$.
+
+The **Working-Hotellling** 1 - $\alpha$ confidence band:
+
+$$\hat{Y}_{h} \pm Ws(\hat{Y}_{h})$$
+
+where,
+
+$$W^{2} = 2F(1-\alpha; 2, n-2)$$
+
+Since, we are doing all values of $X_{h}$ at once, it will be wider at each $X_{h}$ than CIs for individual $X_{h}$.
+
 #### 2.7 Analysis of Variance Approach
+
+- Partitioning of Total Sum of Squares
+
+$$Y_{i} - \bar{Y} = \hat{Y}_{i} - \bar{Y} + Y_{i} - \hat{Y}_{i}$$
+
+$$\sum (Y_{i} - \bar{Y})^{2} = \sum (\hat{Y}_{i} - \bar{Y})^{2} + \sum (Y_{i} - \hat{Y}_{i})^{2}$$
+
+$$SSTO = SSR + SSE$$
+
+SSTO stands for **total sum of squares**, SSE stands for **error sum of squares** and SSR stands for **regression sum of squares**.
+
+- Breakdown of Degrees of Freedom
+
+$$n - 1 = 1 + (n - 2)$$
+
+We have n-1 degrees of freedom associated with SSTO. SSE has n-2 degrees of freedom and SSR has 1 degree of freedom.
 
 #### 2.8 General Linear Test Approach
 
