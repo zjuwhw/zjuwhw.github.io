@@ -134,9 +134,9 @@
 <p>We can plot the distribution of three different genotypes. In real genetics, we usually use the minor allele, so p is less than 0.5.</p>
 
 <pre><code class="language-{r}">p = seq(0,1,0.01)
-plot(p, p^2, ylab = "genotype frequency", main="Under HWE",type="l", col="blue")
+plot(p, (1-p)^2, ylab = "genotype frequency", main="Under HWE",type="l", col="blue")
 lines(p, 2*p*(1-p), col="green")
-lines(p, (1-p)^2, col="grey")
+lines(p, p^2, col="grey")
 legend(0.5,0.95,"genotype = 0",lty = 1, col ="blue", bty="n")
 legend(0.5,0.85,"genotype = 1",lty = 1, col ="green", bty = "n")
 legend(0.5,0.75,"genotype = 2",lty = 1, col ="grey", bty = "n")
