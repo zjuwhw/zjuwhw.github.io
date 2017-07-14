@@ -215,9 +215,10 @@ $$\sigma^{2}(b1) = \frac{\sigma^{2}}{\sum(X_{i} - \bar{X})^{2}}$$
 b1 as linear combination of the Yi
 
 $$b1 = \sum k_{i}Y_{i}\text{where }k_{i} = \frac{X_{i} - \bar{X}}{\sum(X_{i} - \bar{X})^{2}}$$
- - Nomaily
+ 
+- Nomaily
 
-The Yi are independently, normally distributed, so b1 are normally distributed.
+The $Y_{i}$ are independently, normally distributed, so b1 are normally distributed.
 
 - Mean
 
