@@ -313,14 +313,14 @@ $$\frac{\hat{Y}_{h} - E(Y_{h})}{s(\hat{Y}_{h})} \sim t(n-2)$$
 
 #### 2.5 Prediction of New Observation
 
-We denotethe level of X for the new trial as $X_{h}$ and the new observation on Y as $Y_{h(new)}$.
+We denote the level of X for the new trial as $X_{h}$ and the new observation on Y as $Y_{h(new)}$.
 
 In the former case, the estimation of $E(Y_{h})$ is the **mean** of the distribution of Y; in the present case, we predict an **individual outcome** draw from the distribution of Y.
 
 Hence, two components of $\sigma(pred)$:
 
 1. The variance of the distribution of Y at $X = X_{h}$, namely $\sigma^{2}$
-2. The variance of the sampling distribution of $\hat{Y}_{h}$, namely $\sigma^{2}(\hat{Y}_{h})$
+2. The variance of the sampling distribution of $\hat{Y}_h$, namely $\sigma^{2}(\hat{Y}_h)$
 
 $$\sigma^{2}(pred) = \sigma^{2}(Y_{h(new)} - \hat{Y}_{h}) = \sigma^{2} + \sigma^{2}(\hat{Y}_{h})$$
 
@@ -358,17 +358,131 @@ $$n - 1 = 1 + (n - 2)$$
 
 We have n-1 degrees of freedom associated with SSTO. SSE has n-2 degrees of freedom and SSR has 1 degree of freedom.
 
+- Mean Squares
+
+A sum of squares divided by its associated degrees of freedom is called a **mean square** (MS)
+
+The mean squares are not additive:
+
+
+$\frac{SSTO}{n-1} \neq \frac{SSR}{1} + \frac{SSE}{n-2} = MSR + MSE$
+
+- ANalysis Of VAriance Table (ANOVA table)
+
+**ANOVA table**: The breakdowns of the total sum of squares and associated degrees of freedom are displayed in the form of ANVOA.
+
+**SSTOU**: the total uncorrected sum of squares, $\sum Y_i^2$
+
+**SS**: correction for the mean sum of squares, $n\bar{Y}^2$
+
+**SSTO** = $\sum (Y_i - \bar{Y})^2 = \sum Y_i^2 - n\bar{Y}^2 = SSTOU + SS$
+
+|Source of Variation|SS|df|MS|
+|:--|:--|:--|:--|
+|Regression|$SSR = \sum(\hat{Y}_i - \bar{Y})^2$|1|$MSR = \frac{SSR}{1}$|
+|Error|$SSE = \sum(Y_i - \hat{Y}_i)^2$|n-2|$MSE = \frac{SSE}{n-2}$|
+|Total|$SSTO = \sum(Y_i - \bar{Y})^2$|n-1|
+|Correction for mean|$SS \text{(correction for mean)} = n\bar{Y}^2$|1|
+|Total, uncorrected|$SSTOU = \sum Y_i^2$|n|
+
+- Expected Mean Squares
+
+$$E(MSE) = \sigma^2$$
+
+$$E(MSR) = \sigma^2 + \beta_1^2 \sum (X_i - \bar{X})^2$$
+
+- F test for $\beta_1 = 0$ versus $\beta_1 \neq 0$
+
+Test Statistic: $F^* = \frac{MSR}{MSE} \sim F(1,n-2)$
+
 #### 2.8 General Linear Test Approach
 
+- Two models:
+	- $Y_i = \beta_0 + \beta_2X_i + \varepsilon_i$ (full model)
+	- $Y_i = \beta_0 + \varepsilon_i$ (reduced model under H0)
+- F-statistic:
+
+$$F = \frac{(SSE(R) - SSE(F))/(df_R - df_F)}{SSE(F)/df_F}$$
+
+The general linear teest approach can be used for highly complex tests of linear statistical models, as well as for simple tests. The basic steps in summary form are:
+
+1. Fit the full model and obtain the error sum of squares SSE(F)
+2. Fit the reduced model under H0 and obtain the error sum of squares SSE(R)
+3. Use the test statistic and desicison rule
+
 #### 2.9 Descriptive Measures of Linear Association between X and Y
+
+- Coefficient of Determination
+
+$$R^2 = \frac{SSR}{SSTO} = 1 - \frac{SSE}{SSTO}, 0 \leq R^2 \leq 1$$
+
+- Limitations of $R^2$
+
+Tree common misunderstandings about $R^2$
+
+1. A high coefficient of determination indicates that useful predictions can be made.
+2. A high coefficient of determination indicates that the estimated regression line is a good fit.
+3. A coefficient of determination near zero indicates that X and Y are not related.
+
+- Coefficient of Correlation
+
+$$r = \pm \sqrt{R^2}, -1 \leq r \leq 1$$
 
 #### 2.10 Considerations in Applying Regression Analysis
 
 #### 2.11 Normal Correlation Models
 
+- Distinction between Regression and Correlation Model
+- Bivariate Normal Distribution
+- Conditional Inferences
+- Inferences on Correlation Coefficients
+- Spearman Rank Correlation Coefficient
+
 ### Chapter 3 Diagnostics and Remedial Measures
 
+#### 3.1 Diagnostics for Predictor Variable
+
+- dot plot
+- sequence plot
+- stem-and-leaf plot
+- boxplot
+
+#### 3.2 Residuals
+
+
+#### 3.3 Diagnostics for Residuals
+
+#### 3.4 Overview of Tests Involving Residuals
+
+#### 3.5 Correlation Test for Normality
+
+#### 3.6 Tests for Constancy of Error Variance
+
+#### 3.7 F Test for Lack of Fit
+
+#### 3.8 Overview of Remedial Measures
+
+#### 3.9 Transformations
+
+#### 3.10 Exploration of Shape of Regression Function
+
+#### 3.11 Case Example - Plutonium Measurement
+
 ### Chapter 4 Simultaneous Inferences and Other Topics in Regression Analysis
+
+#### 4.1 Joint Estimation of $\beta_0$ amd $\beta_1$
+
+#### 4.2 Simultaneous Estimation of Mean Responses
+
+#### 4.3 Simultaneous Prediction Intervals for New Observations
+
+#### 4.4 Regression through Origin
+
+#### 4.5 Effects of Measurement Errors
+
+#### 4.6 Inverse Predictions
+
+#### 4.7 Choice of X Levels
 
 ### Chapter 5 Matrix Approach to Simple Linear Regression Analysis
 
@@ -376,16 +490,16 @@ We have n-1 degrees of freedom associated with SSTO. SSE has n-2 degrees of free
 
 - Definition
 	- matrix
-	- dlements
+	- elements
 	- dimension
 - Notation: a boldface symbol, such as **A**, **X** or **Z**.
-- Square Matrix: the number of rows equals the number of columns
-- Vector
+- **Square Matrix**: the number of rows equals the number of columns
+- **Vector**
 	- column vector/vector: only one column matrix
 	- row vector
-- Transpose: **A'** (A prime) is the transpose of a matrix **A**
-- Equality of Matrices: same dimension and all same corresponding elements
-- design matrix
+- **Transpose**: **A'** (A prime) is the transpose of a matrix **A**
+- **Equality of Matrices**: same dimension and all same corresponding elements
+- **design matrix**
 
 #### 5.2 Matrix Addition and Subtraction
 
@@ -415,13 +529,13 @@ $$X'Y_{2 \times 1} = \begin{bmatrix} 1 & 1 & ... & 1 \\ X_{1} & X_{2} & ... & X_
 
 #### 5.4 Special Types of Matrices
 
-- Symmetric Matrix: **A** = **A'**
+- **Symmetric Matrix**: **A** = **A'**
 	- Symmetric matrix is necessarily square
 	- premultiply a matrix by its transpose, say **X'X** is symmetric
-- Diagonal Matrix: off-diagonal elements are all zeros
-- Identity Matrix, denoted by **I**: a diagonal matrix whose elements on the main diagonal are all 1s.
+- **Diagonal Matrix**: off-diagonal elements are all zeros
+- **Identity Matrix**, denoted by **I**: a diagonal matrix whose elements on the main diagonal are all 1s.
 	- **AI** = **IA** = **A**, $A, I \in \mathbb{R}^{r \times r}$
-- Scalar Marix: a diagonal matrix whose main-diagonal elements are the same, can be expressed as k**I**
+- **Scalar Matrix**: a diagonal matrix whose main-diagonal elements are the same, can be expressed as k**I**
 - Vector and matrix with all elements unity
 	- a column vector with all elements 1 will be denoted by **1**
 	- a square matrix with all elements 1 will be denoted by **J**
@@ -506,7 +620,41 @@ $$(\mathbf{X}'\mathbf{X})_{2 \times 2}^{-1} = \begin{bmatrix} \frac{1}{n} + \fra
 
 #### 5.8 Random Vectors and Matrices
 
+- **A random vector or matrix** contains elements that are random variables.
+- **Expectation** of random vector or matrix: 
+
+$$\mathbf{Y}_{3 \times 1} = \begin{bmatrix} Y_1 \\ Y_2 \\ Y_3 \end{bmatrix}\text{, and } \mathbf{E(Y)}_{3 \times 1 } = \begin{bmatrix} E(Y_1) \\ E(Y_2) \\ E(Y_3) \end{bmatrix}$$
+
+- **Variance-Covariance Matrix of Random Vector**
+
+$$\sigma^2(\mathbf{Y})_{n \times n} = \begin{bmatrix} \sigma^2(Y_1) & \sigma^2(Y_1,Y_2) & ... & \sigma^2(Y_1, Y_n) \\  \sigma^2(Y_2,Y_1) & \sigma^2(Y_2) & ... & \sigma^2(Y_2, Y_n) \\ ... & ... & ... & ...\\  \sigma^2(Y_n, Y_1) &  \sigma^2(Y_n, Y_2) & ... & \sigma^2(Y_n) \end{bmatrix}$$
+
+which is a symmetric matrix.
+
+- Some Basic Rules
+
+$$\mathbf{W} = \mathbf{AY}$$, 
+
+which **W** and **Y** are two random vectors and **A** is a constant matrix
+
+$$E(\mathbf{A}) = \mathbf{A}$$
+
+$$E(\mathbf{W}) = E(\mathbf{AY}) = \mathbf{A}E(\mathbf{Y})$$
+
+$$\sigma^2(\mathbf{W}) = \sigma^2(\mathbf{AY}) = \mathbf{A}\sigma^2(\mathbf{Y})\mathbf{A'}$$
+
+- Multivariate Normal Distribution
+
+
 #### 5.9 Simple Linear Regression Model in Matrix Terms
+
+The normal error regression model in matrix terms is:
+
+$$\mathbf{Y} = \mathbf{X\beta} + \mathbf{\varepsilon}$$
+
+where, $\mathbf{\varepsilon}$ is a vector of independent normal random variables with E($\mathbf{\varepsilon}$)=**0** amd $\sigma^2(\mathbf{\varepsilon}) = \sigma^2\mathbf{I}$
+
+**Y** is the response vector, **X** is called the design matrix, $\mathbf{\beta}$ is the vector of parameters and $\varepsilon$ is the error vector
 
 #### 5.10 Least Squares Estimation of Regression Parameters
 

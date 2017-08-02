@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Jul 2017 14:27:49 +1000</pubDate>
-    <lastBuildDate>Fri, 14 Jul 2017 14:27:49 +1000</lastBuildDate>
+    <pubDate>Wed, 02 Aug 2017 15:09:26 +1000</pubDate>
+    <lastBuildDate>Wed, 02 Aug 2017 15:09:26 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -159,8 +159,30 @@ t
           &lt;li&gt;&lt;a href=&quot;#211-normal-correlation-models&quot; id=&quot;markdown-toc-211-normal-correlation-models&quot;&gt;2.11 Normal Correlation Models&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-3-diagnostics-and-remedial-measures&quot; id=&quot;markdown-toc-chapter-3-diagnostics-and-remedial-measures&quot;&gt;Chapter 3 Diagnostics and Remedial Measures&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-4-simultaneous-inferences-and-other-topics-in-regression-analysis&quot; id=&quot;markdown-toc-chapter-4-simultaneous-inferences-and-other-topics-in-regression-analysis&quot;&gt;Chapter 4 Simultaneous Inferences and Other Topics in Regression Analysis&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#chapter-3-diagnostics-and-remedial-measures&quot; id=&quot;markdown-toc-chapter-3-diagnostics-and-remedial-measures&quot;&gt;Chapter 3 Diagnostics and Remedial Measures&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#31-diagnostics-for-predictor-variable&quot; id=&quot;markdown-toc-31-diagnostics-for-predictor-variable&quot;&gt;3.1 Diagnostics for Predictor Variable&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#32-residuals&quot; id=&quot;markdown-toc-32-residuals&quot;&gt;3.2 Residuals&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#33-diagnostics-for-residuals&quot; id=&quot;markdown-toc-33-diagnostics-for-residuals&quot;&gt;3.3 Diagnostics for Residuals&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#34-overview-of-tests-involving-residuals&quot; id=&quot;markdown-toc-34-overview-of-tests-involving-residuals&quot;&gt;3.4 Overview of Tests Involving Residuals&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#35-correlation-test-for-normality&quot; id=&quot;markdown-toc-35-correlation-test-for-normality&quot;&gt;3.5 Correlation Test for Normality&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#36-tests-for-constancy-of-error-variance&quot; id=&quot;markdown-toc-36-tests-for-constancy-of-error-variance&quot;&gt;3.6 Tests for Constancy of Error Variance&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#37-f-test-for-lack-of-fit&quot; id=&quot;markdown-toc-37-f-test-for-lack-of-fit&quot;&gt;3.7 F Test for Lack of Fit&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#38-overview-of-remedial-measures&quot; id=&quot;markdown-toc-38-overview-of-remedial-measures&quot;&gt;3.8 Overview of Remedial Measures&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#39-transformations&quot; id=&quot;markdown-toc-39-transformations&quot;&gt;3.9 Transformations&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#310-exploration-of-shape-of-regression-function&quot; id=&quot;markdown-toc-310-exploration-of-shape-of-regression-function&quot;&gt;3.10 Exploration of Shape of Regression Function&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#311-case-example---plutonium-measurement&quot; id=&quot;markdown-toc-311-case-example---plutonium-measurement&quot;&gt;3.11 Case Example - Plutonium Measurement&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#chapter-4-simultaneous-inferences-and-other-topics-in-regression-analysis&quot; id=&quot;markdown-toc-chapter-4-simultaneous-inferences-and-other-topics-in-regression-analysis&quot;&gt;Chapter 4 Simultaneous Inferences and Other Topics in Regression Analysis&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#41-joint-estimation-of-beta_0-amd-beta_1&quot; id=&quot;markdown-toc-41-joint-estimation-of-beta_0-amd-beta_1&quot;&gt;4.1 Joint Estimation of $\beta_0$ amd $\beta_1$&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#42-simultaneous-estimation-of-mean-responses&quot; id=&quot;markdown-toc-42-simultaneous-estimation-of-mean-responses&quot;&gt;4.2 Simultaneous Estimation of Mean Responses&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#43-simultaneous-prediction-intervals-for-new-observations&quot; id=&quot;markdown-toc-43-simultaneous-prediction-intervals-for-new-observations&quot;&gt;4.3 Simultaneous Prediction Intervals for New Observations&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#44-regression-through-origin&quot; id=&quot;markdown-toc-44-regression-through-origin&quot;&gt;4.4 Regression through Origin&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#45-effects-of-measurement-errors&quot; id=&quot;markdown-toc-45-effects-of-measurement-errors&quot;&gt;4.5 Effects of Measurement Errors&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#46-inverse-predictions&quot; id=&quot;markdown-toc-46-inverse-predictions&quot;&gt;4.6 Inverse Predictions&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#47-choice-of-x-levels&quot; id=&quot;markdown-toc-47-choice-of-x-levels&quot;&gt;4.7 Choice of X Levels&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#chapter-5-matrix-approach-to-simple-linear-regression-analysis&quot; id=&quot;markdown-toc-chapter-5-matrix-approach-to-simple-linear-regression-analysis&quot;&gt;Chapter 5 Matrix Approach to Simple Linear Regression Analysis&lt;/a&gt;        &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;#51-matrices&quot; id=&quot;markdown-toc-51-matrices&quot;&gt;5.1 Matrices&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#52-matrix-addition-and-subtraction&quot; id=&quot;markdown-toc-52-matrix-addition-and-subtraction&quot;&gt;5.2 Matrix Addition and Subtraction&lt;/a&gt;&lt;/li&gt;
@@ -615,7 +637,7 @@ the maximum likelihood estimator of μ is the smaple mean
 
 &lt;h4 id=&quot;25-prediction-of-new-observation&quot;&gt;2.5 Prediction of New Observation&lt;/h4&gt;
 
-&lt;p&gt;We denotethe level of X for the new trial as $X_{h}$ and the new observation on Y as $Y_{h(new)}$.&lt;/p&gt;
+&lt;p&gt;We denote the level of X for the new trial as $X_{h}$ and the new observation on Y as $Y_{h(new)}$.&lt;/p&gt;
 
 &lt;p&gt;In the former case, the estimation of $E(Y_{h})$ is the &lt;strong&gt;mean&lt;/strong&gt; of the distribution of Y; in the present case, we predict an &lt;strong&gt;individual outcome&lt;/strong&gt; draw from the distribution of Y.&lt;/p&gt;
 
@@ -623,7 +645,7 @@ the maximum likelihood estimator of μ is the smaple mean
 
 &lt;ol&gt;
   &lt;li&gt;The variance of the distribution of Y at $X = X_{h}$, namely $\sigma^{2}$&lt;/li&gt;
-  &lt;li&gt;The variance of the sampling distribution of $\hat{Y}&lt;em&gt;{h}$, namely $\sigma^{2}(\hat{Y}&lt;/em&gt;{h})$&lt;/li&gt;
+  &lt;li&gt;The variance of the sampling distribution of $\hat{Y}_h$, namely $\sigma^{2}(\hat{Y}_h)$&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\sigma^{2}(pred) = \sigma^{2}(Y_{h(new)} - \hat{Y}_{h}) = \sigma^{2} + \sigma^{2}(\hat{Y}_{h})&lt;/script&gt;
@@ -666,17 +688,191 @@ the maximum likelihood estimator of μ is the smaple mean
 
 &lt;p&gt;We have n-1 degrees of freedom associated with SSTO. SSE has n-2 degrees of freedom and SSR has 1 degree of freedom.&lt;/p&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;Mean Squares&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A sum of squares divided by its associated degrees of freedom is called a &lt;strong&gt;mean square&lt;/strong&gt; (MS)&lt;/p&gt;
+
+&lt;p&gt;The mean squares are not additive:&lt;/p&gt;
+
+&lt;p&gt;$\frac{SSTO}{n-1} \neq \frac{SSR}{1} + \frac{SSE}{n-2} = MSR + MSE$&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ANalysis Of VAriance Table (ANOVA table)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;ANOVA table&lt;/strong&gt;: The breakdowns of the total sum of squares and associated degrees of freedom are displayed in the form of ANVOA.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SSTOU&lt;/strong&gt;: the total uncorrected sum of squares, $\sum Y_i^2$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SS&lt;/strong&gt;: correction for the mean sum of squares, $n\bar{Y}^2$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SSTO&lt;/strong&gt; = $\sum (Y_i - \bar{Y})^2 = \sum Y_i^2 - n\bar{Y}^2 = SSTOU + SS$&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Source of Variation&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;SS&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;df&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;MS&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Regression&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$SSR = \sum(\hat{Y}_i - \bar{Y})^2$&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$MSR = \frac{SSR}{1}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Error&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$SSE = \sum(Y_i - \hat{Y}_i)^2$&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;n-2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$MSE = \frac{SSE}{n-2}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Total&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$SSTO = \sum(Y_i - \bar{Y})^2$&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;n-1&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Correction for mean&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$SS \text{(correction for mean)} = n\bar{Y}^2$&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Total, uncorrected&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$SSTOU = \sum Y_i^2$&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;n&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Expected Mean Squares&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(MSE) = \sigma^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(MSR) = \sigma^2 + \beta_1^2 \sum (X_i - \bar{X})^2&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;F test for $\beta_1 = 0$ versus $\beta_1 \neq 0$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Test Statistic: $F^* = \frac{MSR}{MSE} \sim F(1,n-2)$&lt;/p&gt;
+
 &lt;h4 id=&quot;28-general-linear-test-approach&quot;&gt;2.8 General Linear Test Approach&lt;/h4&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;Two models:
+    &lt;ul&gt;
+      &lt;li&gt;$Y_i = \beta_0 + \beta_2X_i + \varepsilon_i$ (full model)&lt;/li&gt;
+      &lt;li&gt;$Y_i = \beta_0 + \varepsilon_i$ (reduced model under H0)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;F-statistic:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;F = \frac{(SSE(R) - SSE(F))/(df_R - df_F)}{SSE(F)/df_F}&lt;/script&gt;
+
+&lt;p&gt;The general linear teest approach can be used for highly complex tests of linear statistical models, as well as for simple tests. The basic steps in summary form are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Fit the full model and obtain the error sum of squares SSE(F)&lt;/li&gt;
+  &lt;li&gt;Fit the reduced model under H0 and obtain the error sum of squares SSE(R)&lt;/li&gt;
+  &lt;li&gt;Use the test statistic and desicison rule&lt;/li&gt;
+&lt;/ol&gt;
+
 &lt;h4 id=&quot;29-descriptive-measures-of-linear-association-between-x-and-y&quot;&gt;2.9 Descriptive Measures of Linear Association between X and Y&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coefficient of Determination&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R^2 = \frac{SSR}{SSTO} = 1 - \frac{SSE}{SSTO}, 0 \leq R^2 \leq 1&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Limitations of $R^2$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tree common misunderstandings about $R^2$&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A high coefficient of determination indicates that useful predictions can be made.&lt;/li&gt;
+  &lt;li&gt;A high coefficient of determination indicates that the estimated regression line is a good fit.&lt;/li&gt;
+  &lt;li&gt;A coefficient of determination near zero indicates that X and Y are not related.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coefficient of Correlation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;r = \pm \sqrt{R^2}, -1 \leq r \leq 1&lt;/script&gt;
 
 &lt;h4 id=&quot;210-considerations-in-applying-regression-analysis&quot;&gt;2.10 Considerations in Applying Regression Analysis&lt;/h4&gt;
 
 &lt;h4 id=&quot;211-normal-correlation-models&quot;&gt;2.11 Normal Correlation Models&lt;/h4&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;Distinction between Regression and Correlation Model&lt;/li&gt;
+  &lt;li&gt;Bivariate Normal Distribution&lt;/li&gt;
+  &lt;li&gt;Conditional Inferences&lt;/li&gt;
+  &lt;li&gt;Inferences on Correlation Coefficients&lt;/li&gt;
+  &lt;li&gt;Spearman Rank Correlation Coefficient&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id=&quot;chapter-3-diagnostics-and-remedial-measures&quot;&gt;Chapter 3 Diagnostics and Remedial Measures&lt;/h3&gt;
 
+&lt;h4 id=&quot;31-diagnostics-for-predictor-variable&quot;&gt;3.1 Diagnostics for Predictor Variable&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dot plot&lt;/li&gt;
+  &lt;li&gt;sequence plot&lt;/li&gt;
+  &lt;li&gt;stem-and-leaf plot&lt;/li&gt;
+  &lt;li&gt;boxplot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;32-residuals&quot;&gt;3.2 Residuals&lt;/h4&gt;
+
+&lt;h4 id=&quot;33-diagnostics-for-residuals&quot;&gt;3.3 Diagnostics for Residuals&lt;/h4&gt;
+
+&lt;h4 id=&quot;34-overview-of-tests-involving-residuals&quot;&gt;3.4 Overview of Tests Involving Residuals&lt;/h4&gt;
+
+&lt;h4 id=&quot;35-correlation-test-for-normality&quot;&gt;3.5 Correlation Test for Normality&lt;/h4&gt;
+
+&lt;h4 id=&quot;36-tests-for-constancy-of-error-variance&quot;&gt;3.6 Tests for Constancy of Error Variance&lt;/h4&gt;
+
+&lt;h4 id=&quot;37-f-test-for-lack-of-fit&quot;&gt;3.7 F Test for Lack of Fit&lt;/h4&gt;
+
+&lt;h4 id=&quot;38-overview-of-remedial-measures&quot;&gt;3.8 Overview of Remedial Measures&lt;/h4&gt;
+
+&lt;h4 id=&quot;39-transformations&quot;&gt;3.9 Transformations&lt;/h4&gt;
+
+&lt;h4 id=&quot;310-exploration-of-shape-of-regression-function&quot;&gt;3.10 Exploration of Shape of Regression Function&lt;/h4&gt;
+
+&lt;h4 id=&quot;311-case-example---plutonium-measurement&quot;&gt;3.11 Case Example - Plutonium Measurement&lt;/h4&gt;
+
 &lt;h3 id=&quot;chapter-4-simultaneous-inferences-and-other-topics-in-regression-analysis&quot;&gt;Chapter 4 Simultaneous Inferences and Other Topics in Regression Analysis&lt;/h3&gt;
+
+&lt;h4 id=&quot;41-joint-estimation-of-beta_0-amd-beta_1&quot;&gt;4.1 Joint Estimation of $\beta_0$ amd $\beta_1$&lt;/h4&gt;
+
+&lt;h4 id=&quot;42-simultaneous-estimation-of-mean-responses&quot;&gt;4.2 Simultaneous Estimation of Mean Responses&lt;/h4&gt;
+
+&lt;h4 id=&quot;43-simultaneous-prediction-intervals-for-new-observations&quot;&gt;4.3 Simultaneous Prediction Intervals for New Observations&lt;/h4&gt;
+
+&lt;h4 id=&quot;44-regression-through-origin&quot;&gt;4.4 Regression through Origin&lt;/h4&gt;
+
+&lt;h4 id=&quot;45-effects-of-measurement-errors&quot;&gt;4.5 Effects of Measurement Errors&lt;/h4&gt;
+
+&lt;h4 id=&quot;46-inverse-predictions&quot;&gt;4.6 Inverse Predictions&lt;/h4&gt;
+
+&lt;h4 id=&quot;47-choice-of-x-levels&quot;&gt;4.7 Choice of X Levels&lt;/h4&gt;
 
 &lt;h3 id=&quot;chapter-5-matrix-approach-to-simple-linear-regression-analysis&quot;&gt;Chapter 5 Matrix Approach to Simple Linear Regression Analysis&lt;/h3&gt;
 
@@ -686,21 +882,21 @@ the maximum likelihood estimator of μ is the smaple mean
   &lt;li&gt;Definition
     &lt;ul&gt;
       &lt;li&gt;matrix&lt;/li&gt;
-      &lt;li&gt;dlements&lt;/li&gt;
+      &lt;li&gt;elements&lt;/li&gt;
       &lt;li&gt;dimension&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Notation: a boldface symbol, such as &lt;strong&gt;A&lt;/strong&gt;, &lt;strong&gt;X&lt;/strong&gt; or &lt;strong&gt;Z&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Square Matrix: the number of rows equals the number of columns&lt;/li&gt;
-  &lt;li&gt;Vector
+  &lt;li&gt;&lt;strong&gt;Square Matrix&lt;/strong&gt;: the number of rows equals the number of columns&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Vector&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;column vector/vector: only one column matrix&lt;/li&gt;
       &lt;li&gt;row vector&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Transpose: &lt;strong&gt;A’&lt;/strong&gt; (A prime) is the transpose of a matrix &lt;strong&gt;A&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Equality of Matrices: same dimension and all same corresponding elements&lt;/li&gt;
-  &lt;li&gt;design matrix&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Transpose&lt;/strong&gt;: &lt;strong&gt;A’&lt;/strong&gt; (A prime) is the transpose of a matrix &lt;strong&gt;A&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Equality of Matrices&lt;/strong&gt;: same dimension and all same corresponding elements&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;design matrix&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;52-matrix-addition-and-subtraction&quot;&gt;5.2 Matrix Addition and Subtraction&lt;/h4&gt;
@@ -747,19 +943,19 @@ X'Y_{2 \times 1} = \begin{bmatrix} 1 &amp; 1 &amp; ... &amp; 1 \\ X_{1} &amp; X_
 &lt;h4 id=&quot;54-special-types-of-matrices&quot;&gt;5.4 Special Types of Matrices&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Symmetric Matrix: &lt;strong&gt;A&lt;/strong&gt; = &lt;strong&gt;A’&lt;/strong&gt;
+  &lt;li&gt;&lt;strong&gt;Symmetric Matrix&lt;/strong&gt;: &lt;strong&gt;A&lt;/strong&gt; = &lt;strong&gt;A’&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;Symmetric matrix is necessarily square&lt;/li&gt;
       &lt;li&gt;premultiply a matrix by its transpose, say &lt;strong&gt;X’X&lt;/strong&gt; is symmetric&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Diagonal Matrix: off-diagonal elements are all zeros&lt;/li&gt;
-  &lt;li&gt;Identity Matrix, denoted by &lt;strong&gt;I&lt;/strong&gt;: a diagonal matrix whose elements on the main diagonal are all 1s.
+  &lt;li&gt;&lt;strong&gt;Diagonal Matrix&lt;/strong&gt;: off-diagonal elements are all zeros&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Identity Matrix&lt;/strong&gt;, denoted by &lt;strong&gt;I&lt;/strong&gt;: a diagonal matrix whose elements on the main diagonal are all 1s.
     &lt;ul&gt;
       &lt;li&gt;&lt;strong&gt;AI&lt;/strong&gt; = &lt;strong&gt;IA&lt;/strong&gt; = &lt;strong&gt;A&lt;/strong&gt;, $A, I \in \mathbb{R}^{r \times r}$&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Scalar Marix: a diagonal matrix whose main-diagonal elements are the same, can be expressed as k&lt;strong&gt;I&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scalar Matrix&lt;/strong&gt;: a diagonal matrix whose main-diagonal elements are the same, can be expressed as k&lt;strong&gt;I&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Vector and matrix with all elements unity
     &lt;ul&gt;
       &lt;li&gt;a column vector with all elements 1 will be denoted by &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
@@ -864,7 +1060,49 @@ X'Y_{2 \times 1} = \begin{bmatrix} 1 &amp; 1 &amp; ... &amp; 1 \\ X_{1} &amp; X_
 
 &lt;h4 id=&quot;58-random-vectors-and-matrices&quot;&gt;5.8 Random Vectors and Matrices&lt;/h4&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;A random vector or matrix&lt;/strong&gt; contains elements that are random variables.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Expectation&lt;/strong&gt; of random vector or matrix:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf{Y}_{3 \times 1} = \begin{bmatrix} Y_1 \\ Y_2 \\ Y_3 \end{bmatrix}\text{, and } \mathbf{E(Y)}_{3 \times 1 } = \begin{bmatrix} E(Y_1) \\ E(Y_2) \\ E(Y_3) \end{bmatrix}&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Variance-Covariance Matrix of Random Vector&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\sigma^2(\mathbf{Y})_{n \times n} = \begin{bmatrix} \sigma^2(Y_1) &amp; \sigma^2(Y_1,Y_2) &amp; ... &amp; \sigma^2(Y_1, Y_n) \\  \sigma^2(Y_2,Y_1) &amp; \sigma^2(Y_2) &amp; ... &amp; \sigma^2(Y_2, Y_n) \\ ... &amp; ... &amp; ... &amp; ...\\  \sigma^2(Y_n, Y_1) &amp;  \sigma^2(Y_n, Y_2) &amp; ... &amp; \sigma^2(Y_n) \end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;which is a symmetric matrix.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Some Basic Rules&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathbf{W} = \mathbf{AY}&lt;/script&gt;,&lt;/p&gt;
+
+&lt;p&gt;which &lt;strong&gt;W&lt;/strong&gt; and &lt;strong&gt;Y&lt;/strong&gt; are two random vectors and &lt;strong&gt;A&lt;/strong&gt; is a constant matrix&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(\mathbf{A}) = \mathbf{A}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(\mathbf{W}) = E(\mathbf{AY}) = \mathbf{A}E(\mathbf{Y})&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sigma^2(\mathbf{W}) = \sigma^2(\mathbf{AY}) = \mathbf{A}\sigma^2(\mathbf{Y})\mathbf{A'}&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Multivariate Normal Distribution&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;59-simple-linear-regression-model-in-matrix-terms&quot;&gt;5.9 Simple Linear Regression Model in Matrix Terms&lt;/h4&gt;
+
+&lt;p&gt;The normal error regression model in matrix terms is:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf{Y} = \mathbf{X\beta} + \mathbf{\varepsilon}&lt;/script&gt;
+
+&lt;p&gt;where, $\mathbf{\varepsilon}$ is a vector of independent normal random variables with E($\mathbf{\varepsilon}$)=&lt;strong&gt;0&lt;/strong&gt; amd $\sigma^2(\mathbf{\varepsilon}) = \sigma^2\mathbf{I}$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Y&lt;/strong&gt; is the response vector, &lt;strong&gt;X&lt;/strong&gt; is called the design matrix, $\mathbf{\beta}$ is the vector of parameters and $\varepsilon$ is the error vector&lt;/p&gt;
 
 &lt;h4 id=&quot;510-least-squares-estimation-of-regression-parameters&quot;&gt;5.10 Least Squares Estimation of Regression Parameters&lt;/h4&gt;
 
