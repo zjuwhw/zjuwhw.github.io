@@ -7,10 +7,13 @@ tags: ["medi","bioinfo"]
 
 - genetics
 - population genetics
+- quantitative genetics
+- biometrical genetics
+- human behaviour genetics
 - statistical genetics
 - medical genetics
-- molecular genetics
 - evolution
+- molecular genetics
 - epidemiology
 - genetic epidemiology
 - genomics
@@ -18,4 +21,4 @@ tags: ["medi","bioinfo"]
 - biostatistics
 - computational biology
 - system biology
-- quantitative genomics 
+
