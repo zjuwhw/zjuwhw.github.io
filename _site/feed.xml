@@ -6,1142 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Aug 2017 20:38:21 +1000</pubDate>
-    <lastBuildDate>Tue, 08 Aug 2017 20:38:21 +1000</lastBuildDate>
+    <pubDate>Thu, 10 Aug 2017 10:38:09 +1000</pubDate>
+    <lastBuildDate>Thu, 10 Aug 2017 10:38:09 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
-    
-      <item>
-        <title>Linear Regression in R</title>
-        <description>&lt;h3 id=&quot;lm-function&quot;&gt;lm() function&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;summary(lm(Girth ~ Height, data=trees))
-
-## 
-## Call:
-## lm(formula = Girth ~ Height, data = trees)
-## 
-## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -4.2386 -1.9205 -0.0714  2.7450  4.5384 
-## 
-## Coefficients:
-##             Estimate Std. Error t value Pr(&amp;gt;|t|)   
-## (Intercept) -6.18839    5.96020  -1.038  0.30772   
-## Height       0.25575    0.07816   3.272  0.00276 **
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
-## Residual standard error: 2.728 on 29 degrees of freedom
-## Multiple R-squared:  0.2697, Adjusted R-squared:  0.2445 
-## F-statistic: 10.71 on 1 and 29 DF,  p-value: 0.002758
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;example-data&quot;&gt;Example data&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;X = trees[,&quot;Height&quot;]
-Y = trees[,&quot;Girth&quot;]
-n = nrow(trees)
-Xbar = mean(X)
-Ybar = mean(Y)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;point-estimator-b_0-and-b_1&quot;&gt;point estimator $b_{0}$ and $b_{1}$&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;b_{1} = \frac{\sum(X_{i} - \bar{X})(Y_{i} - \bar{Y})}{\sum(X_{i} - \bar{X})^2}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;b_{0} = \frac{1}{n}(\sum Y_{i} - b_{1} \sum X_{i}) = \bar{Y} - b_{1}\bar{X}&lt;/script&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;b1 = sum((X - Xbar)*(Y - Ybar))/sum((X-Xbar)^2)
-b1
-
-## [1] 0.2557471
-
-b0 = Ybar - b1*Xbar
-b0
-
-## [1] -6.188395
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;residuals-sse-and-mse&quot;&gt;Residuals, SSE and MSE&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;SSE = \displaystyle\sum_{i=1}^{n}(Y_{i} - \hat{Y}_{i})^{2}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;s^{2} = MSE = \frac{SSE}{n-2}&lt;/script&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;residual = Y - b1*X - b0
-summary(residual)
-
-##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-## -4.23862 -1.92051 -0.07138  0.00000  2.74500  4.53840
-
-SSE = sum(residual^2)
-SSE
-
-## [1] 215.7722
-
-MSE = SSE/(n-2)
-MSE
-
-## [1] 7.44042
-
-sqrt(MSE)
-
-## [1] 2.727713
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;sampling-distribution-of-b_1-and-b_1---beta_1sb_1&quot;&gt;sampling distribution of $b_{1}$ and $(b_{1} - \beta_{1})/s(b_{1})$&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;s^{2}(b_{1}) = \frac{MSE}{\sum(X_{i} - \bar{X})^{2}}&lt;/script&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;s = sqrt( MSE/sum((X - Xbar)^2))
-s
-
-## [1] 0.0781583
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(b_{1} - \beta_{1})/s(b_{1}) \sim t(n-2)&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;H_{0}: \beta_{1} = 0&lt;/script&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;t = b1 / s
-t
-
-## [1] 3.272169
-
-(1 - pt(t, n -2))*2
-
-## [1] 0.002757815
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 04 Jul 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/07/04/lr_R.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/07/04/lr_R.html</guid>
-        
-        <category>statistics</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Linear Regression</title>
-        <description>&lt;p&gt;This is the notebook for the book “&lt;a href=&quot;https://www.amazon.com/Applied-Linear-Regression-Models-Student/dp/0073014664&quot;&gt;Applied Linear Regression Models&lt;/a&gt;”.&lt;/p&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#part-1-simple-linear-regression&quot; id=&quot;markdown-toc-part-1-simple-linear-regression&quot;&gt;Part 1 Simple linear regression&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-1-linear-regression-with-one-predictor-variable&quot; id=&quot;markdown-toc-chapter-1-linear-regression-with-one-predictor-variable&quot;&gt;Chapter 1 Linear regression with one predictor variable&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#11-relations-between-variables&quot; id=&quot;markdown-toc-11-relations-between-variables&quot;&gt;1.1 Relations between variables&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#12-regression-models-and-their-uses&quot; id=&quot;markdown-toc-12-regression-models-and-their-uses&quot;&gt;1.2 Regression Models and Their Uses&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#13-simple-linear-regression-model-with-distribution-of-error-terms-unspecified&quot; id=&quot;markdown-toc-13-simple-linear-regression-model-with-distribution-of-error-terms-unspecified&quot;&gt;1.3 Simple linear regression model with distribution of error terms unspecified&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#14-data-for-regression-analysis&quot; id=&quot;markdown-toc-14-data-for-regression-analysis&quot;&gt;1.4 Data for regression analysis&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#15-overview-of-steps-in-regression-analysis&quot; id=&quot;markdown-toc-15-overview-of-steps-in-regression-analysis&quot;&gt;1.5 Overview of steps in regression analysis&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#16-estimation-of-regression-function&quot; id=&quot;markdown-toc-16-estimation-of-regression-function&quot;&gt;1.6 Estimation of regression function&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#17-estimation-of-erro-terms-variance-sigma2&quot; id=&quot;markdown-toc-17-estimation-of-erro-terms-variance-sigma2&quot;&gt;1.7 Estimation of Erro Terms Variance $\sigma^{2}$&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#18-normal-error-regression-model&quot; id=&quot;markdown-toc-18-normal-error-regression-model&quot;&gt;1.8 Normal Error Regression Model&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-2-inferences-in-regression-and-correlation-analysis&quot; id=&quot;markdown-toc-chapter-2-inferences-in-regression-and-correlation-analysis&quot;&gt;Chapter 2 Inferences in Regression and Correlation Analysis&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#21-inferences-concerning-beta_1&quot; id=&quot;markdown-toc-21-inferences-concerning-beta_1&quot;&gt;2.1 Inferences Concerning $\beta_{1}$&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#22-inferences-concerning-beta_0&quot; id=&quot;markdown-toc-22-inferences-concerning-beta_0&quot;&gt;2.2 Inferences Concerning $\beta_{0}$&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1&quot; id=&quot;markdown-toc-23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1&quot;&gt;2.3 Some Considerations on Making Inferences Concerning $\beta_{0}$ and $\beta_{1}$&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#24-interval-estimation-of-ey_h&quot; id=&quot;markdown-toc-24-interval-estimation-of-ey_h&quot;&gt;2.4 Interval Estimation of $E(Y_{h})$&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#25-prediction-of-new-observation&quot; id=&quot;markdown-toc-25-prediction-of-new-observation&quot;&gt;2.5 Prediction of New Observation&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#26-confidence-band-for-regression-line&quot; id=&quot;markdown-toc-26-confidence-band-for-regression-line&quot;&gt;2.6 Confidence Band for Regression Line&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#27-analysis-of-variance-approach&quot; id=&quot;markdown-toc-27-analysis-of-variance-approach&quot;&gt;2.7 Analysis of Variance Approach&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#28-general-linear-test-approach&quot; id=&quot;markdown-toc-28-general-linear-test-approach&quot;&gt;2.8 General Linear Test Approach&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#29-descriptive-measures-of-linear-association-between-x-and-y&quot; id=&quot;markdown-toc-29-descriptive-measures-of-linear-association-between-x-and-y&quot;&gt;2.9 Descriptive Measures of Linear Association between X and Y&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#210-considerations-in-applying-regression-analysis&quot; id=&quot;markdown-toc-210-considerations-in-applying-regression-analysis&quot;&gt;2.10 Considerations in Applying Regression Analysis&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#211-normal-correlation-models&quot; id=&quot;markdown-toc-211-normal-correlation-models&quot;&gt;2.11 Normal Correlation Models&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-3-diagnostics-and-remedial-measures&quot; id=&quot;markdown-toc-chapter-3-diagnostics-and-remedial-measures&quot;&gt;Chapter 3 Diagnostics and Remedial Measures&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#31-diagnostics-for-predictor-variable&quot; id=&quot;markdown-toc-31-diagnostics-for-predictor-variable&quot;&gt;3.1 Diagnostics for Predictor Variable&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#32-residuals&quot; id=&quot;markdown-toc-32-residuals&quot;&gt;3.2 Residuals&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#33-diagnostics-for-residuals&quot; id=&quot;markdown-toc-33-diagnostics-for-residuals&quot;&gt;3.3 Diagnostics for Residuals&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#34-overview-of-tests-involving-residuals&quot; id=&quot;markdown-toc-34-overview-of-tests-involving-residuals&quot;&gt;3.4 Overview of Tests Involving Residuals&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#35-correlation-test-for-normality&quot; id=&quot;markdown-toc-35-correlation-test-for-normality&quot;&gt;3.5 Correlation Test for Normality&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#36-tests-for-constancy-of-error-variance&quot; id=&quot;markdown-toc-36-tests-for-constancy-of-error-variance&quot;&gt;3.6 Tests for Constancy of Error Variance&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#37-f-test-for-lack-of-fit&quot; id=&quot;markdown-toc-37-f-test-for-lack-of-fit&quot;&gt;3.7 F Test for Lack of Fit&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#38-overview-of-remedial-measures&quot; id=&quot;markdown-toc-38-overview-of-remedial-measures&quot;&gt;3.8 Overview of Remedial Measures&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#39-transformations&quot; id=&quot;markdown-toc-39-transformations&quot;&gt;3.9 Transformations&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#310-exploration-of-shape-of-regression-function&quot; id=&quot;markdown-toc-310-exploration-of-shape-of-regression-function&quot;&gt;3.10 Exploration of Shape of Regression Function&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#311-case-example---plutonium-measurement&quot; id=&quot;markdown-toc-311-case-example---plutonium-measurement&quot;&gt;3.11 Case Example - Plutonium Measurement&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-4-simultaneous-inferences-and-other-topics-in-regression-analysis&quot; id=&quot;markdown-toc-chapter-4-simultaneous-inferences-and-other-topics-in-regression-analysis&quot;&gt;Chapter 4 Simultaneous Inferences and Other Topics in Regression Analysis&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#41-joint-estimation-of-beta_0-amd-beta_1&quot; id=&quot;markdown-toc-41-joint-estimation-of-beta_0-amd-beta_1&quot;&gt;4.1 Joint Estimation of $\beta_0$ amd $\beta_1$&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#42-simultaneous-estimation-of-mean-responses&quot; id=&quot;markdown-toc-42-simultaneous-estimation-of-mean-responses&quot;&gt;4.2 Simultaneous Estimation of Mean Responses&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#43-simultaneous-prediction-intervals-for-new-observations&quot; id=&quot;markdown-toc-43-simultaneous-prediction-intervals-for-new-observations&quot;&gt;4.3 Simultaneous Prediction Intervals for New Observations&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#44-regression-through-origin&quot; id=&quot;markdown-toc-44-regression-through-origin&quot;&gt;4.4 Regression through Origin&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#45-effects-of-measurement-errors&quot; id=&quot;markdown-toc-45-effects-of-measurement-errors&quot;&gt;4.5 Effects of Measurement Errors&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#46-inverse-predictions&quot; id=&quot;markdown-toc-46-inverse-predictions&quot;&gt;4.6 Inverse Predictions&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#47-choice-of-x-levels&quot; id=&quot;markdown-toc-47-choice-of-x-levels&quot;&gt;4.7 Choice of X Levels&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-5-matrix-approach-to-simple-linear-regression-analysis&quot; id=&quot;markdown-toc-chapter-5-matrix-approach-to-simple-linear-regression-analysis&quot;&gt;Chapter 5 Matrix Approach to Simple Linear Regression Analysis&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#51-matrices&quot; id=&quot;markdown-toc-51-matrices&quot;&gt;5.1 Matrices&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#52-matrix-addition-and-subtraction&quot; id=&quot;markdown-toc-52-matrix-addition-and-subtraction&quot;&gt;5.2 Matrix Addition and Subtraction&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#53-matrix-multiplication&quot; id=&quot;markdown-toc-53-matrix-multiplication&quot;&gt;5.3 Matrix Multiplication&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#54-special-types-of-matrices&quot; id=&quot;markdown-toc-54-special-types-of-matrices&quot;&gt;5.4 Special Types of Matrices&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#55-linear-dependence-and-rank-of-matrix&quot; id=&quot;markdown-toc-55-linear-dependence-and-rank-of-matrix&quot;&gt;5.5 Linear Dependence and Rank of Matrix&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#56-inverse-of-a-matrix&quot; id=&quot;markdown-toc-56-inverse-of-a-matrix&quot;&gt;5.6 Inverse of a Matrix&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#57-some-basic-results-for-matrics&quot; id=&quot;markdown-toc-57-some-basic-results-for-matrics&quot;&gt;5.7 Some Basic Results for Matrics&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#58-random-vectors-and-matrices&quot; id=&quot;markdown-toc-58-random-vectors-and-matrices&quot;&gt;5.8 Random Vectors and Matrices&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#59-simple-linear-regression-model-in-matrix-terms&quot; id=&quot;markdown-toc-59-simple-linear-regression-model-in-matrix-terms&quot;&gt;5.9 Simple Linear Regression Model in Matrix Terms&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#510-least-squares-estimation-of-regression-parameters&quot; id=&quot;markdown-toc-510-least-squares-estimation-of-regression-parameters&quot;&gt;5.10 Least Squares Estimation of Regression Parameters&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#511-fitted-values-and-residuals&quot; id=&quot;markdown-toc-511-fitted-values-and-residuals&quot;&gt;5.11 Fitted Values and Residuals&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#512-analysis-of-variance-results&quot; id=&quot;markdown-toc-512-analysis-of-variance-results&quot;&gt;5.12 Analysis of Variance Results&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#513-inferences-in-regression-analysis&quot; id=&quot;markdown-toc-513-inferences-in-regression-analysis&quot;&gt;5.13 Inferences in Regression Analysis&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#part-2-multiple-linear-regression&quot; id=&quot;markdown-toc-part-2-multiple-linear-regression&quot;&gt;Part 2 Multiple linear regression&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-6-multiple-regression-i&quot; id=&quot;markdown-toc-chapter-6-multiple-regression-i&quot;&gt;Chapter 6 Multiple Regression I&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-7-multiple-regression-ii&quot; id=&quot;markdown-toc-chapter-7-multiple-regression-ii&quot;&gt;Chapter 7 Multiple Regression II&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-8-regression-models-for-quantitative-and-qualitative-predictors&quot; id=&quot;markdown-toc-chapter-8-regression-models-for-quantitative-and-qualitative-predictors&quot;&gt;Chapter 8 Regression Models for quantitative and qualitative predictors&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-9-building-the-regression-model-i-model-selection-and-validation&quot; id=&quot;markdown-toc-chapter-9-building-the-regression-model-i-model-selection-and-validation&quot;&gt;Chapter 9 Building the regression model I: model selection and validation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-10-building-the-regression-model-ii-diagnostics&quot; id=&quot;markdown-toc-chapter-10-building-the-regression-model-ii-diagnostics&quot;&gt;Chapter 10 Building the regression model II: Diagnostics&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-11-building-the-regression-model-iii-remedial-measures&quot; id=&quot;markdown-toc-chapter-11-building-the-regression-model-iii-remedial-measures&quot;&gt;Chapter 11 Building the regression model III: Remedial Measures&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-12-autocorrelation-in-time-series-data&quot; id=&quot;markdown-toc-chapter-12-autocorrelation-in-time-series-data&quot;&gt;Chapter 12 Autocorrelation in Time Series Data&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#part-3-nonlinear-regression&quot; id=&quot;markdown-toc-part-3-nonlinear-regression&quot;&gt;Part 3 Nonlinear regression&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-13-introduction-to-nonlinear-regression-and-neural-networks&quot; id=&quot;markdown-toc-chapter-13-introduction-to-nonlinear-regression-and-neural-networks&quot;&gt;Chapter 13 Introduction to Nonlinear Regression and Neural Networks&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#chapter-14-logistic-regression-possion-regression-and-generalized-linear-regression&quot; id=&quot;markdown-toc-chapter-14-logistic-regression-possion-regression-and-generalized-linear-regression&quot;&gt;Chapter 14 Logistic Regression, Possion Regression, and Generalized Linear Regression&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;part-1-simple-linear-regression&quot;&gt;Part 1 Simple linear regression&lt;/h2&gt;
-
-&lt;h3 id=&quot;chapter-1-linear-regression-with-one-predictor-variable&quot;&gt;Chapter 1 Linear regression with one predictor variable&lt;/h3&gt;
-
-&lt;h4 id=&quot;11-relations-between-variables&quot;&gt;1.1 Relations between variables&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;relation
-    &lt;ul&gt;
-      &lt;li&gt;&lt;em&gt;Function relation&lt;/em&gt;: Y = f(X), e.g. total cost = the number of products * cost per product&lt;/li&gt;
-      &lt;li&gt;&lt;em&gt;Statistical relation&lt;/em&gt;: not a perfect one, e.g. performance for 10 employees at midyear and year-end&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;variable
-    &lt;ul&gt;
-      &lt;li&gt;X: &lt;em&gt;independent/explanatory/predictor variable&lt;/em&gt;&lt;/li&gt;
-      &lt;li&gt;Y: &lt;em&gt;dependent/response variable&lt;/em&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;plot
-    &lt;ul&gt;
-      &lt;li&gt;&lt;em&gt;scatter diagram/plot&lt;/em&gt;&lt;/li&gt;
-      &lt;li&gt;each point represents a &lt;em&gt;trial&lt;/em&gt; or a &lt;em&gt;case&lt;/em&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;12-regression-models-and-their-uses&quot;&gt;1.2 Regression Models and Their Uses&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;History
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Francis_Galton&quot;&gt;Sir Francis Galton&lt;/a&gt; in the latter part of 19th century&lt;/li&gt;
-      &lt;li&gt;relation between heights of parents and children&lt;/li&gt;
-      &lt;li&gt;regression to the mean&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Basic Concepts
-    &lt;ul&gt;
-      &lt;li&gt;A regression model&lt;/li&gt;
-      &lt;li&gt;two characters:
-        &lt;ul&gt;
-          &lt;li&gt;there is a probability distribution of Y for each level of X&lt;/li&gt;
-          &lt;li&gt;The means of these probability distribution vary in some systematic fashion with X&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;em&gt;regression function&lt;/em&gt;: the systematic relationship
-        &lt;ul&gt;
-          &lt;li&gt;&lt;em&gt;linear&lt;/em&gt;, &lt;em&gt;curvilinear&lt;/em&gt;, etc.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;em&gt;regression curve&lt;/em&gt;: the graph of the regression function&lt;/li&gt;
-      &lt;li&gt;probability distributions: &lt;em&gt;symmetrical&lt;/em&gt;, &lt;em&gt;skewed&lt;/em&gt; etc.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Regression models with more than one predictor variable&lt;/li&gt;
-  &lt;li&gt;Construction of Regression Models
-    &lt;ul&gt;
-      &lt;li&gt;Selection of predictor variables&lt;/li&gt;
-      &lt;li&gt;Functional form of regression relation&lt;/li&gt;
-      &lt;li&gt;Scope of model&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Uses of regression analysis
-    &lt;ul&gt;
-      &lt;li&gt;description&lt;/li&gt;
-      &lt;li&gt;control&lt;/li&gt;
-      &lt;li&gt;prediction&lt;/li&gt;
-      &lt;li&gt;overlap in practice&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Regeression and causality&lt;/li&gt;
-  &lt;li&gt;Use of Computers&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;13-simple-linear-regression-model-with-distribution-of-error-terms-unspecified&quot;&gt;1.3 Simple linear regression model with distribution of error terms unspecified&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Formal statement of model&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Y_{i} = \beta_{0} + \beta_{1}X_{i} + \varepsilon_{i}&lt;/script&gt;
-
-&lt;p&gt;where:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$Y_{i}$ is the value of th response variable in the ith trail&lt;/li&gt;
-  &lt;li&gt;$\beta_{0}\text{ and }\beta_{1}$ are paramters&lt;/li&gt;
-  &lt;li&gt;$X_{i}$ is a known constant, namely, the value of the predictor variable in the ith trial&lt;/li&gt;
-  &lt;li&gt;$\varepsilon_{i}$ is a random error term
-    &lt;ul&gt;
-      &lt;li&gt;mean $E(\varepsilon_{i}) = 0$&lt;/li&gt;
-      &lt;li&gt;variance $\sigma^{2}(\varepsilon_{i}) = \sigma^{2}$&lt;/li&gt;
-      &lt;li&gt;covariance $\sigma(\varepsilon_{i}, \varepsilon_{j}) = 0$, for all i, j; $i \neq j$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Important features of model&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;$Y_{i}$ contains two components: the constant term $\beta_{0} + \beta_{1}X_{i}$ and the random term $\varepsilon_{i}$. Hence, $Y_{i}$ is a random variable&lt;/li&gt;
-  &lt;li&gt;Since $E(\varepsilon_{i}) = 0$, $E(Y_{i}) = E(\beta_{0} + \beta_{1}X_{i} + \varepsilon_{i}) = \beta_{0} + \beta_{1}X_{i} + E(\varepsilon_{i}) = \beta_{0} + \beta_{1}X_{i}$&lt;/li&gt;
-  &lt;li&gt;The response $Y_{i}$ in the ith trail exceeds or falls short of the value of the regssion fucntion by the error term amount $\varepsilon_{i}$&lt;/li&gt;
-  &lt;li&gt;The erorr term $\varepsilon_{i}$ are assumed to have constant variance $\sigma^{2}$ and $\sigma^{2}(Y_{i}) = \sigma^{2}$&lt;/li&gt;
-  &lt;li&gt;The error terms are assumed to be uncorrelated, so are the responses $Y_{i}$ and $Y_{j}$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Meaning of regression paramters
-    &lt;ul&gt;
-      &lt;li&gt;&lt;em&gt;regrssion coefficients&lt;/em&gt;: the paramters $\beta_{0}\text{ and }\beta_{1}$&lt;/li&gt;
-      &lt;li&gt;&lt;em&gt;the slope of the regression line&lt;/em&gt;: $\beta_{1}$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Alternative versions of regression model&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Y_{i} = \beta_{0}X_{0} + \beta_{1}X_{i} + \varepsilon_{i}\text{, where }X_{0} \equiv 1&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Y_{i} = \beta_{0}^{*} + \beta_{1}(X_{i} - \bar{X}) + \varepsilon_{i}\text{, where }\beta_{0}^{*} = \beta_{0} + \beta_{1}\bar{X}&lt;/script&gt;
-
-&lt;h4 id=&quot;14-data-for-regression-analysis&quot;&gt;1.4 Data for regression analysis&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Observational Data&lt;/li&gt;
-  &lt;li&gt;Eperimental Data
-    &lt;ul&gt;
-      &lt;li&gt;treatment&lt;/li&gt;
-      &lt;li&gt;experimental units&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Completely randomized design&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;15-overview-of-steps-in-regression-analysis&quot;&gt;1.5 Overview of steps in regression analysis&lt;/h4&gt;
-
-&lt;h4 id=&quot;16-estimation-of-regression-function&quot;&gt;1.6 Estimation of regression function&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Methods of Least Squares
-    &lt;ul&gt;
-      &lt;li&gt;To find estimates $b_{0}$ and $b_{1}$ for $\beta_{0}$ and $\beta_{1}$, respectively, for which Q is a minimum, where $Q = \displaystyle\sum_{i=1}^{n}(Y_{i} - \beta_{0} - \beta_{1}X_{i})^2$.&lt;/li&gt;
-      &lt;li&gt;Least Squares Estimators $b_{0}$ and $b_{1}$ can be found in two ways:
-        &lt;ul&gt;
-          &lt;li&gt;numerical search procedures&lt;/li&gt;
-          &lt;li&gt;analytical procedures&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;b_{1} = \frac{\sum(X_{i} - \bar{X})(Y_{i} - \bar{Y})}{\sum(X_{i} - \bar{X})^2}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;b_{0} = \frac{1}{n}(\sum Y_{i} - b_{1} \sum X_{i}) = \bar{Y} - b_{1}\bar{X}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Proof&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The paritial derivatives are&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\partial Q}{\partial\beta_{0}} = -2\sum(Y_{i} - \beta_{0} - \beta_{1}X_{i})&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\partial Q}{\partial\beta_{1}} = -2\sum X_{i}(Y_{i} - \beta_{0} - \beta_{1}X_{i})&lt;/script&gt;
-
-&lt;p&gt;We set them equal to zero, using $b_{0}$ and $b_{1}$ to denote the particular values of $b_{0}$ and $b_{1}$ that minimize Q:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;-2\sum(Y_{i} - \beta_{0} - \beta_{1}X_{i}) = 0&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;-2\sum X_{i}(Y_{i} - \beta_{0} - \beta_{1}X_{i}) = 0&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Proerties of Least Squares Estimators&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Guass-Markov theorem:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Under the conditions of regression model, the least squares estimators b0 and b1 are unbiased and have minimum variance among all unbiased linear estimators&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Point Esitmation of Mean Response
-    &lt;ul&gt;
-      &lt;li&gt;estimate the regression function as follows:&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{Y} = b_{0} + b_{1}X&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Residuals
-    &lt;ul&gt;
-      &lt;li&gt;residual: the differenc between the observed value $Y_{i}$ and the corresponding fitted value $\hat{Y_{i}}$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;e_{i} = Y_{i} - \hat{Y}_{i}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Properties of Fitted Regression Line
-    &lt;ul&gt;
-      &lt;li&gt;$\sum e_{i} = 0$&lt;/li&gt;
-      &lt;li&gt;$\sum e_{i}^{2}$ is a minimum&lt;/li&gt;
-      &lt;li&gt;$\sum Y_{i} = \sum \hat{Y}_{i}$&lt;/li&gt;
-      &lt;li&gt;$\sum X_{i} e_{i} = 0 $&lt;/li&gt;
-      &lt;li&gt;$\sum \hat{Y}_{i}$e&lt;sub&gt;i&lt;/sub&gt; = 0&lt;/li&gt;
-      &lt;li&gt;the regression line always goes through the point $(\bar{X}, \bar{Y})$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;17-estimation-of-erro-terms-variance-sigma2&quot;&gt;1.7 Estimation of Erro Terms Variance $\sigma^{2}$&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Point Estimator of $\sigma^{2}$
-    &lt;ul&gt;
-      &lt;li&gt;Single population
-        &lt;ul&gt;
-          &lt;li&gt;sum of squares: $\displaystyle\sum_{i=1}^{n}(Y_{i}-\bar{Y})^2$&lt;/li&gt;
-          &lt;li&gt;degrees of freedom (df): n - 1, because one degree of freedom is lost by using $\bar{Y}$ as an estimate of the unknown population mean $\mu$&lt;/li&gt;
-          &lt;li&gt;sample variance/mean square: $s^2 = \frac{\displaystyle\sum(Y_{i}-\bar{Y})^2}{n-1}$&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Regression model
-        &lt;ul&gt;
-          &lt;li&gt;deviation/residual: $Y_{i} - \hat{Y}_{i}$ = e&lt;sub&gt;i&lt;/sub&gt;&lt;/li&gt;
-          &lt;li&gt;error/residual sum of squares:
-            &lt;ul&gt;
-              &lt;li&gt;$SSE = \displaystyle\sum_{i=1}^{n}(Y_{i} - \hat{Y}_{i})^{2}$&lt;/li&gt;
-              &lt;li&gt;$SSE = \displaystyle\sum_{i=1}^{n}e_{i}^{2}$&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;degrees of freedom: n - 2, because two degrees of freedom are lost due to estimating $\beta_{0}$ and $\beta_{1}$ to get $\hat{Y}_{i}$&lt;/li&gt;
-          &lt;li&gt;MSE (error/residual mean square): $s^{2} = MSE = \frac{SSE}{n-2}$&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;18-normal-error-regression-model&quot;&gt;1.8 Normal Error Regression Model&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Model
-    &lt;ul&gt;
-      &lt;li&gt;same with simple linear regression model&lt;/li&gt;
-      &lt;li&gt;except it assumes that the error $\varepsilon_{i}$ are normally distributed&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Estimation of Parameters by Method of Maximum Likelihood&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Method of maximum likelihood chooses as estimates those values of the parameters that are most consistent with the sample data.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A normal distribution with SD = 10, mean is unknown
-A random of sample n = 3 yields the results 250, 265 and 259
-The likelihood value (L) is the product of the densities of the normal distribution
-
-If we assue μ = 230, L(μ = 230) = 0.279*10E-9 
-R code: prod(dnorm(c(250,265,259), 230, 10))
-If we assue μ = 259, L(μ = 259) = 0.0000354
-R code: prod(dnorm(c(250,265,259), 259, 10))
-
-So, L(μ = 259) &amp;gt; L(μ = 230)
-
-The method of maximum likelihood is to estimate prarametes to get maximum L.
-It can be shown that for a normal population,
-the maximum likelihood estimator of μ is the smaple mean
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Fro regression model, the likelihood function for n observations is&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;L(\beta_{0}, \beta_{1}, \sigma^{2}) = \displaystyle\Pi_{i=1}^{n}\frac{1}{(2\pi\sigma^{2})^{1/2}}exp[-\frac{1}{2\sigma^{2}}(Y_{i} - \beta_{0} - \beta_{1}X_{i})^{2}]&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;L(\beta_{0}, \beta_{1}, \sigma^{2}) = \frac{1}{(2\pi\sigma^{2})^{1/2}}exp[-\frac{1}{2\sigma^{2}}\displaystyle\sum_{i=1}^{n}(Y_{i} - \beta_{0} - \beta_{1}X_{i})^{2}]&lt;/script&gt;
-
-&lt;h3 id=&quot;chapter-2-inferences-in-regression-and-correlation-analysis&quot;&gt;Chapter 2 Inferences in Regression and Correlation Analysis&lt;/h3&gt;
-
-&lt;h4 id=&quot;21-inferences-concerning-beta_1&quot;&gt;2.1 Inferences Concerning $\beta_{1}$&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sampling Distribution of b1&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The sampling distribution of b1 refers to the different values of b1 that would be obtained with repeated sampling when the levels of the predictor variable X are held constant from sample to sample.&lt;/p&gt;
-
-&lt;p&gt;For normal error regression model, the sample distributon of b1 is &lt;strong&gt;normal&lt;/strong&gt;, with mean and variance:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(b1) = \beta_{1}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sigma^{2}(b1) = \frac{\sigma^{2}}{\sum(X_{i} - \bar{X})^{2}}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Proof&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;b1 as linear combination of the Yi&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;b1 = \sum k_{i}Y_{i}\text{where }k_{i} = \frac{X_{i} - \bar{X}}{\sum(X_{i} - \bar{X})^{2}}&lt;/script&gt;
- &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Nomaily&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The $Y_{i}$ are independently, normally distributed, so b1 are normally distributed.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mean&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(b_{1}) = E(\sum k_{i}Y_{i}) = \sum k_{i}E(Y_{i}) = \sum k_{i}(\beta_{0} + \beta_{1}X_{i}) = \beta_{1}&lt;/script&gt;
-
-&lt;p&gt;hint:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum k_{i} = 0&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum k_{i}X_{i} = 1&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Variance&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sigma^{2}(b_{1}) = \sigma^{2}(\sum k_{i}Y_{i}) = \sum k_{i}^{2}\sigma^{2}(Y_{i}) = \sum k_{i}^{2}\sigma^{2} = \sigma^{2}\frac{1}{\sum (X_{i} - \bar{X})^{2}}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Estimated Variance&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Replace the paramter $\sigma^{2}$ with MSE:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;s^{2}(b_{1}) = \frac{MSE}{\sum(X_{i} - \bar{X})^{2}}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sampling Distribution of $(b_{1} - \beta_{1})/s(b_{1})$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(b_{1} - \beta_{1})/\sigma(b_{1}) \sim N(0,1)&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(b_{1} - \beta_{1})/s(b_{1}) \sim t(n-2)&lt;/script&gt;
-
-&lt;p&gt;When a statistic is standardized but the denominator is an estimated standard deviation rather than the true standard deviation, it is called a studentized statistic.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Comment&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;SSE/\sigma^{2} \sim \chi^{2}(n - 2)&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(b_{1} - \beta_{1})/s(b_{1}) \sim \frac{z}{\sqrt{\frac{\chi^2(n-2)}{n-2}}} = t(n-2)&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Confidence Interval for $\beta_{1}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;b_{1} \pm t(1-\alpha/2; n-2)s(b_{1})\text{ where }\alpha\text{ is significance level}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tests concerning $\beta_{1}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Since $(b_{1} - \beta_{1})/s(b_{1})$ is ditributed as t with n - 2degrees of freedom, tests concerning $\beta_{1}$ can be set up in ordinary fashion using the t distribution.&lt;/p&gt;
-
-&lt;h4 id=&quot;22-inferences-concerning-beta_0&quot;&gt;2.2 Inferences Concerning $\beta_{0}$&lt;/h4&gt;
-
-&lt;p&gt;The sampling distribution of $\beta_{0}$ is normal, with mean and variance:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(b_{0}) = \beta_{0}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sigma^{2}(b_{0}) = \sigma^{2}[\frac{1}{n} + \frac{\bar{X}^{2}}{\sum (X_{i} - \bar{X})^{2}}]&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;s^{2}(b_{0}) = MSE[\frac{1}{n} + \frac{\bar{X}^{2}}{\sum (X_{i} - \bar{X})^{2}}]&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{b_{0} - \beta_{0}}{s(b_{0})} \sim t(n-2)&lt;/script&gt;
-
-&lt;h4 id=&quot;23-some-considerations-on-making-inferences-concerning-beta_0-and-beta_1&quot;&gt;2.3 Some Considerations on Making Inferences Concerning $\beta_{0}$ and $\beta_{1}$&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Effects of Departures from Normality&lt;/li&gt;
-  &lt;li&gt;Interpretation of Confidence Coefficient and Risks of Errors&lt;/li&gt;
-  &lt;li&gt;Spacing of the X levels&lt;/li&gt;
-  &lt;li&gt;Power of Tests&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The power of this test is the probability that the decision rule will lead to conclusion $H_{a}$ when $H_{a}$ in fact holds. Specifically, the power is given by&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Power = P(|t^{*}| &gt; t(1-\alpha/2;n-2)|\delta)&lt;/script&gt;
-
-&lt;p&gt;where,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$H_{0}: \beta_{1} = \beta_{10}$; $H_{a}: \beta_{1} \neq \beta_{10}$&lt;/li&gt;
-  &lt;li&gt;$t^{*} = \frac{b_{1} - \beta_{10}}{s(b_{1})}$&lt;/li&gt;
-  &lt;li&gt;$\delta$ is the &lt;strong&gt;noncentrality measure&lt;/strong&gt;, a measure of how far the true value of $\beta_{1}$ is from $\beta_{10}$. $\delta = \frac{\mid\beta_{1} - \beta_{10}\mid}{\sigma(b_{1})}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;24-interval-estimation-of-ey_h&quot;&gt;2.4 Interval Estimation of $E(Y_{h})$&lt;/h4&gt;
-
-&lt;p&gt;The mean response when $X = X_{h}$ is denoted by $E(Y_{h})$. The $E(Y_{h})$ point estimator $\hat{Y}_{h}$ :&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{Y}_{h} = b_{0} + b_{1}X_{h}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sampling Distribution of $\hat{Y}_{h}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For normal error regression model, the sampling distribution of $\hat{Y}_{h}$ is normal, with mean and variance:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(\hat{Y}_{h}) = E(Y_{h})&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sigma^{2}(\hat{Y}_{h}) = \sigma^{2}[\frac{1}{n} + \frac{(X_{h} - \bar{X})^2}{\sum(X_{i} - \bar{X})^{2}}]&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;s^{2}(\hat{Y}_{h}) = MSE[\frac{1}{n} + \frac{(X_{h} - \bar{X})^{2}}{\sum (X_{i} - \bar{X})^{2}}]&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\hat{Y}_{h} - E(Y_{h})}{s(\hat{Y}_{h})} \sim t(n-2)&lt;/script&gt;
-
-&lt;h4 id=&quot;25-prediction-of-new-observation&quot;&gt;2.5 Prediction of New Observation&lt;/h4&gt;
-
-&lt;p&gt;We denote the level of X for the new trial as $X_{h}$ and the new observation on Y as $Y_{h(new)}$.&lt;/p&gt;
-
-&lt;p&gt;In the former case, the estimation of $E(Y_{h})$ is the &lt;strong&gt;mean&lt;/strong&gt; of the distribution of Y; in the present case, we predict an &lt;strong&gt;individual outcome&lt;/strong&gt; draw from the distribution of Y.&lt;/p&gt;
-
-&lt;p&gt;Hence, two components of $\sigma(pred)$:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The variance of the distribution of Y at $X = X_{h}$, namely $\sigma^{2}$&lt;/li&gt;
-  &lt;li&gt;The variance of the sampling distribution of $\hat{Y}_h$, namely $\sigma^{2}(\hat{Y}_h)$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sigma^{2}(pred) = \sigma^{2}(Y_{h(new)} - \hat{Y}_{h}) = \sigma^{2} + \sigma^{2}(\hat{Y}_{h})&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;s^{2}(pred) = MSE[1 + \frac{1}{n} + \frac{(X_{h} - \bar{X})^{2}}{\sum (X_{i} - \bar{X})^{2}}]&lt;/script&gt;
-
-&lt;h4 id=&quot;26-confidence-band-for-regression-line&quot;&gt;2.6 Confidence Band for Regression Line&lt;/h4&gt;
-
-&lt;p&gt;To obtain a confidence band for the entire for the entire regression line $E(Y) = \beta_{0} + \beta_{1}X$.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Working-Hotellling&lt;/strong&gt; 1 - $\alpha$ confidence band:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{Y}_{h} \pm Ws(\hat{Y}_{h})&lt;/script&gt;
-
-&lt;p&gt;where,&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;W^{2} = 2F(1-\alpha; 2, n-2)&lt;/script&gt;
-
-&lt;p&gt;Since, we are doing all values of $X_{h}$ at once, it will be wider at each $X_{h}$ than CIs for individual $X_{h}$.&lt;/p&gt;
-
-&lt;h4 id=&quot;27-analysis-of-variance-approach&quot;&gt;2.7 Analysis of Variance Approach&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Partitioning of Total Sum of Squares&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Y_{i} - \bar{Y} = \hat{Y}_{i} - \bar{Y} + Y_{i} - \hat{Y}_{i}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sum (Y_{i} - \bar{Y})^{2} = \sum (\hat{Y}_{i} - \bar{Y})^{2} + \sum (Y_{i} - \hat{Y}_{i})^{2}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;SSTO = SSR + SSE&lt;/script&gt;
-
-&lt;p&gt;SSTO stands for &lt;strong&gt;total sum of squares&lt;/strong&gt;, SSE stands for &lt;strong&gt;error sum of squares&lt;/strong&gt; and SSR stands for &lt;strong&gt;regression sum of squares&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Breakdown of Degrees of Freedom&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;n - 1 = 1 + (n - 2)&lt;/script&gt;
-
-&lt;p&gt;We have n-1 degrees of freedom associated with SSTO. SSE has n-2 degrees of freedom and SSR has 1 degree of freedom.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mean Squares&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A sum of squares divided by its associated degrees of freedom is called a &lt;strong&gt;mean square&lt;/strong&gt; (MS)&lt;/p&gt;
-
-&lt;p&gt;The mean squares are not additive:&lt;/p&gt;
-
-&lt;p&gt;$\frac{SSTO}{n-1} \neq \frac{SSR}{1} + \frac{SSE}{n-2} = MSR + MSE$&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ANalysis Of VAriance Table (ANOVA table)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;ANOVA table&lt;/strong&gt;: The breakdowns of the total sum of squares and associated degrees of freedom are displayed in the form of ANVOA.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SSTOU&lt;/strong&gt;: the total uncorrected sum of squares, $\sum Y_i^2$&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SS&lt;/strong&gt;: correction for the mean sum of squares, $n\bar{Y}^2$&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SSTO&lt;/strong&gt; = $\sum (Y_i - \bar{Y})^2 = \sum Y_i^2 - n\bar{Y}^2 = SSTOU + SS$&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Source of Variation&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;SS&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;df&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;MS&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Regression&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$SSR = \sum(\hat{Y}_i - \bar{Y})^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$MSR = \frac{SSR}{1}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Error&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$SSE = \sum(Y_i - \hat{Y}_i)^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;n-2&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$MSE = \frac{SSE}{n-2}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Total&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$SSTO = \sum(Y_i - \bar{Y})^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;n-1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Correction for mean&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$SS \text{(correction for mean)} = n\bar{Y}^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Total, uncorrected&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$SSTOU = \sum Y_i^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;n&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Expected Mean Squares&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(MSE) = \sigma^2&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(MSR) = \sigma^2 + \beta_1^2 \sum (X_i - \bar{X})^2&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;F test for $\beta_1 = 0$ versus $\beta_1 \neq 0$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Test Statistic: $F^* = \frac{MSR}{MSE} \sim F(1,n-2)$&lt;/p&gt;
-
-&lt;h4 id=&quot;28-general-linear-test-approach&quot;&gt;2.8 General Linear Test Approach&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Two models:
-    &lt;ul&gt;
-      &lt;li&gt;$Y_i = \beta_0 + \beta_2X_i + \varepsilon_i$ (full model)&lt;/li&gt;
-      &lt;li&gt;$Y_i = \beta_0 + \varepsilon_i$ (reduced model under H0)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;F-statistic:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;F = \frac{(SSE(R) - SSE(F))/(df_R - df_F)}{SSE(F)/df_F}&lt;/script&gt;
-
-&lt;p&gt;The general linear teest approach can be used for highly complex tests of linear statistical models, as well as for simple tests. The basic steps in summary form are:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Fit the full model and obtain the error sum of squares SSE(F)&lt;/li&gt;
-  &lt;li&gt;Fit the reduced model under H0 and obtain the error sum of squares SSE(R)&lt;/li&gt;
-  &lt;li&gt;Use the test statistic and desicison rule&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;29-descriptive-measures-of-linear-association-between-x-and-y&quot;&gt;2.9 Descriptive Measures of Linear Association between X and Y&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Coefficient of Determination&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;R^2 = \frac{SSR}{SSTO} = 1 - \frac{SSE}{SSTO}, 0 \leq R^2 \leq 1&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Limitations of $R^2$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tree common misunderstandings about $R^2$&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;A high coefficient of determination indicates that useful predictions can be made.&lt;/li&gt;
-  &lt;li&gt;A high coefficient of determination indicates that the estimated regression line is a good fit.&lt;/li&gt;
-  &lt;li&gt;A coefficient of determination near zero indicates that X and Y are not related.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Coefficient of Correlation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;r = \pm \sqrt{R^2}, -1 \leq r \leq 1&lt;/script&gt;
-
-&lt;h4 id=&quot;210-considerations-in-applying-regression-analysis&quot;&gt;2.10 Considerations in Applying Regression Analysis&lt;/h4&gt;
-
-&lt;h4 id=&quot;211-normal-correlation-models&quot;&gt;2.11 Normal Correlation Models&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Distinction between Regression and Correlation Model&lt;/li&gt;
-  &lt;li&gt;Bivariate Normal Distribution&lt;/li&gt;
-  &lt;li&gt;Conditional Inferences&lt;/li&gt;
-  &lt;li&gt;Inferences on Correlation Coefficients&lt;/li&gt;
-  &lt;li&gt;Spearman Rank Correlation Coefficient&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;chapter-3-diagnostics-and-remedial-measures&quot;&gt;Chapter 3 Diagnostics and Remedial Measures&lt;/h3&gt;
-
-&lt;h4 id=&quot;31-diagnostics-for-predictor-variable&quot;&gt;3.1 Diagnostics for Predictor Variable&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;dot plot&lt;/li&gt;
-  &lt;li&gt;sequence plot&lt;/li&gt;
-  &lt;li&gt;stem-and-leaf plot&lt;/li&gt;
-  &lt;li&gt;boxplot&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;32-residuals&quot;&gt;3.2 Residuals&lt;/h4&gt;
-
-&lt;h4 id=&quot;33-diagnostics-for-residuals&quot;&gt;3.3 Diagnostics for Residuals&lt;/h4&gt;
-
-&lt;h4 id=&quot;34-overview-of-tests-involving-residuals&quot;&gt;3.4 Overview of Tests Involving Residuals&lt;/h4&gt;
-
-&lt;h4 id=&quot;35-correlation-test-for-normality&quot;&gt;3.5 Correlation Test for Normality&lt;/h4&gt;
-
-&lt;h4 id=&quot;36-tests-for-constancy-of-error-variance&quot;&gt;3.6 Tests for Constancy of Error Variance&lt;/h4&gt;
-
-&lt;h4 id=&quot;37-f-test-for-lack-of-fit&quot;&gt;3.7 F Test for Lack of Fit&lt;/h4&gt;
-
-&lt;h4 id=&quot;38-overview-of-remedial-measures&quot;&gt;3.8 Overview of Remedial Measures&lt;/h4&gt;
-
-&lt;h4 id=&quot;39-transformations&quot;&gt;3.9 Transformations&lt;/h4&gt;
-
-&lt;h4 id=&quot;310-exploration-of-shape-of-regression-function&quot;&gt;3.10 Exploration of Shape of Regression Function&lt;/h4&gt;
-
-&lt;h4 id=&quot;311-case-example---plutonium-measurement&quot;&gt;3.11 Case Example - Plutonium Measurement&lt;/h4&gt;
-
-&lt;h3 id=&quot;chapter-4-simultaneous-inferences-and-other-topics-in-regression-analysis&quot;&gt;Chapter 4 Simultaneous Inferences and Other Topics in Regression Analysis&lt;/h3&gt;
-
-&lt;h4 id=&quot;41-joint-estimation-of-beta_0-amd-beta_1&quot;&gt;4.1 Joint Estimation of $\beta_0$ amd $\beta_1$&lt;/h4&gt;
-
-&lt;h4 id=&quot;42-simultaneous-estimation-of-mean-responses&quot;&gt;4.2 Simultaneous Estimation of Mean Responses&lt;/h4&gt;
-
-&lt;h4 id=&quot;43-simultaneous-prediction-intervals-for-new-observations&quot;&gt;4.3 Simultaneous Prediction Intervals for New Observations&lt;/h4&gt;
-
-&lt;h4 id=&quot;44-regression-through-origin&quot;&gt;4.4 Regression through Origin&lt;/h4&gt;
-
-&lt;h4 id=&quot;45-effects-of-measurement-errors&quot;&gt;4.5 Effects of Measurement Errors&lt;/h4&gt;
-
-&lt;h4 id=&quot;46-inverse-predictions&quot;&gt;4.6 Inverse Predictions&lt;/h4&gt;
-
-&lt;h4 id=&quot;47-choice-of-x-levels&quot;&gt;4.7 Choice of X Levels&lt;/h4&gt;
-
-&lt;h3 id=&quot;chapter-5-matrix-approach-to-simple-linear-regression-analysis&quot;&gt;Chapter 5 Matrix Approach to Simple Linear Regression Analysis&lt;/h3&gt;
-
-&lt;h4 id=&quot;51-matrices&quot;&gt;5.1 Matrices&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Definition
-    &lt;ul&gt;
-      &lt;li&gt;matrix&lt;/li&gt;
-      &lt;li&gt;elements&lt;/li&gt;
-      &lt;li&gt;dimension&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Notation: a boldface symbol, such as &lt;strong&gt;A&lt;/strong&gt;, &lt;strong&gt;X&lt;/strong&gt; or &lt;strong&gt;Z&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Square Matrix&lt;/strong&gt;: the number of rows equals the number of columns&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Vector&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;column vector/vector: only one column matrix&lt;/li&gt;
-      &lt;li&gt;row vector&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Transpose&lt;/strong&gt;: &lt;strong&gt;A’&lt;/strong&gt; (A prime) is the transpose of a matrix &lt;strong&gt;A&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Equality of Matrices&lt;/strong&gt;: same dimension and all same corresponding elements&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;design matrix&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;52-matrix-addition-and-subtraction&quot;&gt;5.2 Matrix Addition and Subtraction&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;same dimension&lt;/li&gt;
-  &lt;li&gt;the sum or difference of the corresponding elements of the two matrixs&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;A&lt;/strong&gt; + &lt;strong&gt;B&lt;/strong&gt; = &lt;strong&gt;B&lt;/strong&gt; + &lt;strong&gt;A&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;53-matrix-multiplication&quot;&gt;5.3 Matrix Multiplication&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Multiplication of a Matrix by a &lt;strong&gt;scalar&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;a scalar is an ordinary number or a symbol representing a number&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Multiplication of a Matrix by a Matrix
-    &lt;ul&gt;
-      &lt;li&gt;the product &lt;strong&gt;AB&lt;/strong&gt;, we say that &lt;strong&gt;A&lt;/strong&gt; is postmultiplied by &lt;strong&gt;B&lt;/strong&gt; or &lt;strong&gt;B&lt;/strong&gt; is premultiplied by &lt;strong&gt;A&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;$AB \neq BA$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In general, if &lt;strong&gt;A&lt;/strong&gt; has dimension r * c and &lt;strong&gt;B&lt;/strong&gt; has dimension c * s, the product &lt;strong&gt;AB&lt;/strong&gt; is a matrix of dimension r * s, which is&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;AB_{r \times s} = \begin{bmatrix}\sum_{k=1}^{c} a_{ik}b_{kj}\end{bmatrix}\text{, where }i=1,...,r;j=1,...,s&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Regression Examples&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-Y'Y_{1 \times 1} = \begin{bmatrix} Y_{1} &amp; Y_{2} &amp; ... &amp; Y_{n} \end{bmatrix}\begin{bmatrix}Y_{1} \\ Y_{2} \\ ... \\ Y_{n} \end{bmatrix} =  Y_{1}^{2} + Y_{2}^{2} + ... + Y_{n}^{2} = \sum Y_{i}^{2} %]]&gt;&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-X'X_{2 \times 2} = \begin{bmatrix} 1 &amp; 1 &amp; ... &amp; 1 \\ X_{1} &amp; X_{2} &amp; ... &amp; X_{n} \end{bmatrix}\begin{bmatrix} 1 &amp; X_{1} \\ 1 &amp; X_{2} \\ ... \\ 1 &amp; X_{n} \end{bmatrix} =  \begin{bmatrix} n &amp; \sum X_{i} \\ \sum X_{i} &amp; \sum X_{i}^{2} \end{bmatrix} %]]&gt;&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-X'Y_{2 \times 1} = \begin{bmatrix} 1 &amp; 1 &amp; ... &amp; 1 \\ X_{1} &amp; X_{2} &amp; ... &amp; X_{n} \end{bmatrix}\begin{bmatrix} Y_{1} \\ Y_{2} \\ ... \\ Y_{n} \end{bmatrix} =  \begin{bmatrix} \sum Y_{i} \\ \sum X_{i}Y_{i} \end{bmatrix} %]]&gt;&lt;/script&gt;
-
-&lt;h4 id=&quot;54-special-types-of-matrices&quot;&gt;5.4 Special Types of Matrices&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Symmetric Matrix&lt;/strong&gt;: &lt;strong&gt;A&lt;/strong&gt; = &lt;strong&gt;A’&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Symmetric matrix is necessarily square&lt;/li&gt;
-      &lt;li&gt;premultiply a matrix by its transpose, say &lt;strong&gt;X’X&lt;/strong&gt; is symmetric&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Diagonal Matrix&lt;/strong&gt;: off-diagonal elements are all zeros&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Identity Matrix&lt;/strong&gt;, denoted by &lt;strong&gt;I&lt;/strong&gt;: a diagonal matrix whose elements on the main diagonal are all 1s.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;AI&lt;/strong&gt; = &lt;strong&gt;IA&lt;/strong&gt; = &lt;strong&gt;A&lt;/strong&gt;, $A, I \in \mathbb{R}^{r \times r}$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Scalar Matrix&lt;/strong&gt;: a diagonal matrix whose main-diagonal elements are the same, can be expressed as k&lt;strong&gt;I&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Vector and matrix with all elements unity
-    &lt;ul&gt;
-      &lt;li&gt;a column vector with all elements 1 will be denoted by &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;a square matrix with all elements 1 will be denoted by &lt;strong&gt;J&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;1’1&lt;/strong&gt; = n&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;11’&lt;/strong&gt; = &lt;strong&gt;J&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Zero Vector: a vector containing only zeros, denoted by &lt;strong&gt;0&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;55-linear-dependence-and-rank-of-matrix&quot;&gt;5.5 Linear Dependence and Rank of Matrix&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Linear dependence&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We define the set of c column vectors $C_{1}, …, C_{c}$ in an r $\times$ c matrix to be &lt;strong&gt;linearly dependent&lt;/strong&gt; if one vector can be expressed as a linear combination of others. If no vector in the set can be so expressed, we define the set of vectors to be &lt;strong&gt;linearly independent&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;In a more general, when c scalars $k_{1},…,k_{c}$, not all zero, can be found such that:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;k_{1}\mathbf{C_{1}} + k_{2}\mathbf{C_{2}} + ... + k_{c}\mathbf{C_{c}} = \mathbf{0}&lt;/script&gt;
-
-&lt;p&gt;where &lt;strong&gt;0&lt;/strong&gt; denotes the zero column vector, &lt;strong&gt;the c column vectors&lt;/strong&gt; are &lt;strong&gt;linearly dependent&lt;/strong&gt;. If the only set of scalars for which the equality holds is $k_{1} = k_{2} = … = k_{c} = 0$, &lt;strong&gt;the set of c column vectors&lt;/strong&gt; is &lt;strong&gt;linearly independent&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Rank of Matrix: the maximum number of linearly independent columns in the matrix
-    &lt;ul&gt;
-      &lt;li&gt;the rank of r $\times$ c matrix cannot exceed min(r, c)&lt;/li&gt;
-      &lt;li&gt;When a matrix is the product of two matrixs, its rank cannot exceed the smaller of the two ranks for the matrices being multiplied.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;56-inverse-of-a-matrix&quot;&gt;5.6 Inverse of a Matrix&lt;/h4&gt;
-
-&lt;p&gt;The inverse of a matrix $\mathbf{A}$ is another matrix, denoted by $\mathbf{A^{-1}}$, such that:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf{A}^{-1}\mathbf{A} = \mathbf{AA}^{-1} = \mathbf{I}&lt;/script&gt;
-
-&lt;p&gt;where &lt;strong&gt;I&lt;/strong&gt; is the identity matrix.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;the inverse of a matrix is defined only for square matrix&lt;/li&gt;
-  &lt;li&gt;many square matrix do not have inverse&lt;/li&gt;
-  &lt;li&gt;the inverse of a square matrix, if exits, is unique&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Finding the inverse&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;An inverse of a square $r \times r$ matrix exists if the rank of the matrix is r. Such a matrix is said to be &lt;strong&gt;nonsingular&lt;/strong&gt; or of &lt;strong&gt;full rank&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;An $r \times r$ matrix with rank less than r is said to be &lt;strong&gt;singular&lt;/strong&gt; or &lt;strong&gt;not of full rank&lt;/strong&gt;, and does not have an inverse.&lt;/li&gt;
-  &lt;li&gt;The inverse of an $r \times r$ matrix of full rank also has rank r.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\mathbf{A}_{2 \times 2} = \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix} %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;then:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\mathbf{A}_{2 \times 2}^{-1} = \begin{bmatrix} \frac{d}{D} &amp; \frac{-b}{D} \\ \frac{-c}{D} &amp; \frac{a}{D} \end{bmatrix} %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;where:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;D = ad - bc&lt;/script&gt;
-
-&lt;p&gt;D is called the determinant of the matrix &lt;strong&gt;A&lt;/strong&gt;. If &lt;strong&gt;A&lt;/strong&gt; were singular, its determinant would equal zero and no inverse of A would exist.&lt;/p&gt;
-
-&lt;p&gt;Regression Example&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\mathbf{X}'\mathbf{X}_{2 \times 2} = \begin{bmatrix} n &amp; \sum X_{i} \\ \sum X_{i} &amp; \sum X_{i}^{2} \end{bmatrix} %]]&gt;&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a = n, b = c = \sum{X_{i}}, d = \sum{X_{i}^{2}}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;D = n\sum{X_{i}^{2}} - (\sum{X_{i}})^{2} = n\sum{(X_{i} - \bar{X})}^{2}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-(\mathbf{X}'\mathbf{X})_{2 \times 2}^{-1} = \begin{bmatrix} \frac{1}{n} + \frac{\bar{X}^2}{\sum(X_{i} - \bar{X})^{2}} &amp; \frac{-\bar{X}}{\sum{(X_{i} - \bar{X})^2}} \\ \frac{-\bar{X}}{\sum{(X_{i} - \bar{X})^2}} &amp; \frac{1}{\sum{(X_{i} - \bar{X})^2}} \end{bmatrix} %]]&gt;&lt;/script&gt;
-
-&lt;h4 id=&quot;57-some-basic-results-for-matrics&quot;&gt;5.7 Some Basic Results for Matrics&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A + B = B + A&lt;/li&gt;
-  &lt;li&gt;(A + B) + C = A + (B + C)&lt;/li&gt;
-  &lt;li&gt;(AB)C = A(BC)&lt;/li&gt;
-  &lt;li&gt;C(A + B) = CA + CB&lt;/li&gt;
-  &lt;li&gt;k(A + B) = kA + kB&lt;/li&gt;
-  &lt;li&gt;(A’)’ = A&lt;/li&gt;
-  &lt;li&gt;(A + B)’ = A’ + B’&lt;/li&gt;
-  &lt;li&gt;(AB)’ = B’A’&lt;/li&gt;
-  &lt;li&gt;(ABC)’ = C’B’A’&lt;/li&gt;
-  &lt;li&gt;$(AB)^{-1} = B^{-1}A^{-1}$&lt;/li&gt;
-  &lt;li&gt;$(ABC)^{-1} = C^{-1}B^{-1}A^{-1}$&lt;/li&gt;
-  &lt;li&gt;$(A^{-1})^{-1} = A$&lt;/li&gt;
-  &lt;li&gt;$(A’)^{-1} = (A^{-1})’$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;58-random-vectors-and-matrices&quot;&gt;5.8 Random Vectors and Matrices&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;A random vector or matrix&lt;/strong&gt; contains elements that are random variables.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Expectation&lt;/strong&gt; of random vector or matrix:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf{Y}_{3 \times 1} = \begin{bmatrix} Y_1 \\ Y_2 \\ Y_3 \end{bmatrix}\text{, and } \mathbf{E(Y)}_{3 \times 1 } = \begin{bmatrix} E(Y_1) \\ E(Y_2) \\ E(Y_3) \end{bmatrix}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Variance-Covariance Matrix of Random Vector&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\sigma^2(\mathbf{Y})_{n \times n} = \begin{bmatrix} \sigma^2(Y_1) &amp; \sigma^2(Y_1,Y_2) &amp; ... &amp; \sigma^2(Y_1, Y_n) \\  \sigma^2(Y_2,Y_1) &amp; \sigma^2(Y_2) &amp; ... &amp; \sigma^2(Y_2, Y_n) \\ ... &amp; ... &amp; ... &amp; ...\\  \sigma^2(Y_n, Y_1) &amp;  \sigma^2(Y_n, Y_2) &amp; ... &amp; \sigma^2(Y_n) \end{bmatrix} %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;which is a symmetric matrix.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Some Basic Rules&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\mathbf{W} = \mathbf{AY}&lt;/script&gt;,&lt;/p&gt;
-
-&lt;p&gt;which &lt;strong&gt;W&lt;/strong&gt; and &lt;strong&gt;Y&lt;/strong&gt; are two random vectors and &lt;strong&gt;A&lt;/strong&gt; is a constant matrix&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(\mathbf{A}) = \mathbf{A}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(\mathbf{W}) = E(\mathbf{AY}) = \mathbf{A}E(\mathbf{Y})&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sigma^2(\mathbf{W}) = \sigma^2(\mathbf{AY}) = \mathbf{A}\sigma^2(\mathbf{Y})\mathbf{A'}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Multivariate Normal Distribution&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;59-simple-linear-regression-model-in-matrix-terms&quot;&gt;5.9 Simple Linear Regression Model in Matrix Terms&lt;/h4&gt;
-
-&lt;p&gt;The normal error regression model in matrix terms is:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbf{Y} = \mathbf{X\beta} + \mathbf{\varepsilon}&lt;/script&gt;
-
-&lt;p&gt;where, $\mathbf{\varepsilon}$ is a vector of independent normal random variables with E($\mathbf{\varepsilon}$)=&lt;strong&gt;0&lt;/strong&gt; amd $\sigma^2(\mathbf{\varepsilon}) = \sigma^2\mathbf{I}$&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Y&lt;/strong&gt; is the response vector, &lt;strong&gt;X&lt;/strong&gt; is called the design matrix, $\mathbf{\beta}$ is the vector of parameters and $\varepsilon$ is the error vector&lt;/p&gt;
-
-&lt;h4 id=&quot;510-least-squares-estimation-of-regression-parameters&quot;&gt;5.10 Least Squares Estimation of Regression Parameters&lt;/h4&gt;
-
-&lt;h4 id=&quot;511-fitted-values-and-residuals&quot;&gt;5.11 Fitted Values and Residuals&lt;/h4&gt;
-
-&lt;h4 id=&quot;512-analysis-of-variance-results&quot;&gt;5.12 Analysis of Variance Results&lt;/h4&gt;
-
-&lt;h4 id=&quot;513-inferences-in-regression-analysis&quot;&gt;5.13 Inferences in Regression Analysis&lt;/h4&gt;
-
-&lt;h2 id=&quot;part-2-multiple-linear-regression&quot;&gt;Part 2 Multiple linear regression&lt;/h2&gt;
-
-&lt;h3 id=&quot;chapter-6-multiple-regression-i&quot;&gt;Chapter 6 Multiple Regression I&lt;/h3&gt;
-
-&lt;h3 id=&quot;chapter-7-multiple-regression-ii&quot;&gt;Chapter 7 Multiple Regression II&lt;/h3&gt;
-
-&lt;h3 id=&quot;chapter-8-regression-models-for-quantitative-and-qualitative-predictors&quot;&gt;Chapter 8 Regression Models for quantitative and qualitative predictors&lt;/h3&gt;
-
-&lt;h3 id=&quot;chapter-9-building-the-regression-model-i-model-selection-and-validation&quot;&gt;Chapter 9 Building the regression model I: model selection and validation&lt;/h3&gt;
-
-&lt;h3 id=&quot;chapter-10-building-the-regression-model-ii-diagnostics&quot;&gt;Chapter 10 Building the regression model II: Diagnostics&lt;/h3&gt;
-
-&lt;h3 id=&quot;chapter-11-building-the-regression-model-iii-remedial-measures&quot;&gt;Chapter 11 Building the regression model III: Remedial Measures&lt;/h3&gt;
-
-&lt;h3 id=&quot;chapter-12-autocorrelation-in-time-series-data&quot;&gt;Chapter 12 Autocorrelation in Time Series Data&lt;/h3&gt;
-
-&lt;h2 id=&quot;part-3-nonlinear-regression&quot;&gt;Part 3 Nonlinear regression&lt;/h2&gt;
-
-&lt;h3 id=&quot;chapter-13-introduction-to-nonlinear-regression-and-neural-networks&quot;&gt;Chapter 13 Introduction to Nonlinear Regression and Neural Networks&lt;/h3&gt;
-
-&lt;h3 id=&quot;chapter-14-logistic-regression-possion-regression-and-generalized-linear-regression&quot;&gt;Chapter 14 Logistic Regression, Possion Regression, and Generalized Linear Regression&lt;/h3&gt;
-</description>
-        <pubDate>Tue, 20 Jun 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/06/20/Linear_Regression.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/06/20/Linear_Regression.html</guid>
-        
-        <category>statistics</category>
-        
-        
-      </item>
     
       <item>
         <title>HWE and LD</title>
@@ -3860,6 +2727,893 @@ H1: The data are not like a simple random sample from the population in the null
         <category>mooc笔记</category>
         
         <category>python</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Statistic ONE学习笔记</title>
+        <description>&lt;p&gt;Bimodal distribution: a non-normal distribution consisting of two modes; two scores (or two ranges of scores) that share the greatest frequency; characterized by two peaks in a histogram.&lt;/p&gt;
+
+&lt;p&gt;Classical test theory (also known as true score theory): A theory of measurement that assumes that, for each subject, an observed score (raw score) consists of a true score and error, which may be due to bias and/or chance.&lt;/p&gt;
+
+&lt;p&gt;Confound variable: an unknown, unmeasured, or extraneous variable that is correlated with both the dependent variable and the independent variable in experimental research, thus compromising causal arguments.&lt;/p&gt;
+
+&lt;p&gt;Correlation (general): refers to any of a broad class of statistical relationships involving dependence between two variables.&lt;/p&gt;
+
+&lt;p&gt;Correlation (Pearson-product moment, r): a measure of the relationship between two continuous variables.&lt;/p&gt;
+
+&lt;p&gt;Correlation (Phi coefficient): a measure of the relationship between two categorical variables.&lt;/p&gt;
+
+&lt;p&gt;Correlation (Point-bi-serial): a measure of the relationship between one continuous variable and one categorical variable.&lt;/p&gt;
+
+&lt;p&gt;Correlation (Spearman rank order): a measure of the relationship between two ranked (ordinal) variables.&lt;/p&gt;
+
+&lt;p&gt;Construct: an idealized object of investigation that is not directly observable.&lt;/p&gt;
+
+&lt;p&gt;Covariance: a measure quantifying the degree to which two variables vary together. Also, unstandardized correlation.&lt;/p&gt;
+
+&lt;p&gt;Dependent variable: a variable that represents an aspect of the world that the experimenter predicts will be affected by the independent variable.&lt;/p&gt;
+
+&lt;p&gt;Descriptive statistics: procedures used to summarize, organize, and simplify data.&lt;/p&gt;
+
+&lt;p&gt;Double blind experiment: an experiment in which neither the experimenter nor the subject knows whether the treatment is experimental or control.&lt;/p&gt;
+
+&lt;p&gt;Homoscedasticity: an assumption underlying linear correlation and regression analysis, according to which residuals are orthogonal to the predictor variable (X).&lt;/p&gt;
+
+&lt;p&gt;Independent variable: a variable manipulated by the experimenter.&lt;/p&gt;
+
+&lt;p&gt;Inferential statistics: procedures that allow for generalizations about population parameters based on sample statistics.&lt;/p&gt;
+
+&lt;p&gt;Intercept: In a regression analysis, the predicted score on the outcome variable (Y) when all predictors (X) equal zero. Also known as the regression constant.&lt;/p&gt;
+
+&lt;p&gt;Interval variable: a type of variable that is used to not only categorize cases but also to distinguish cases as greater than or less than.  Furthermore, all distinctions are equivalent across all possible values.&lt;/p&gt;
+
+&lt;p&gt;Leptokurtic distribution: a non-normal distribution with a high kurtosis value; characterized by one high peak in a histogram.&lt;/p&gt;
+
+&lt;p&gt;Linear Regression: A statistical procedure used to estimate the relationship between an outcome variable (Y) and one or more predictor variables (X). Simple regression refers to analyses with just one predictor variable whereas multiple regression refers to analyses with more than one predictor variable.&lt;/p&gt;
+
+&lt;p&gt;Mean (M = ΣX/N): A measure of central tendency used to describe the center point of a distribution and/or sample (also known as the average).&lt;/p&gt;
+
+&lt;p&gt;Mean Squares (MS = SS/N): A measure of variability, more commonly referred to as variance.&lt;/p&gt;
+
+&lt;p&gt;Median: A measure of central tendency equivalent to the 50th percentile rank of a distribution/sample. Often preferred when distributions are skewed because it is more resistant to extreme scores than the mean.&lt;/p&gt;
+
+&lt;p&gt;Mode: A measure of central tendency; the most frequent score in a distribution/sample.&lt;/p&gt;
+
+&lt;p&gt;Negatively skewed distribution: a non-normal distribution consisting of a few or many extreme scores on the negative end of a scale (typically the left side of an x-axis).&lt;/p&gt;
+
+&lt;p&gt;Nominal variable: the most basic variable type, used to assign cases to categories.&lt;/p&gt;
+
+&lt;p&gt;Normal distribution: also known as a Gaussian distribution, or bell curve, due to greater frequency around the mean and symmetry.&lt;/p&gt;
+
+&lt;p&gt;Null Hypothesis Significance Testing (NHST): A form of hypothesis testing that controls the probability of incorrectly deciding that a default position (null hypothesis) is incorrect based on how likely it would be for a set of observations (data) to occur if the null hypothesis were true.&lt;/p&gt;
+
+&lt;p&gt;Ordinary Least Squares (OLS): In linear regression analysis, a method for estimating unknown regression coefficients (or parameters), in which the sum of the squared residuals is minimized.&lt;/p&gt;
+
+&lt;p&gt;Ordinal variable: a type of variable that is used to not only categorize cases but also to distinguish cases as greater than or less than.&lt;/p&gt;
+
+&lt;p&gt;Parameter: a numerical measure that describes a characteristic of a population.&lt;/p&gt;
+
+&lt;p&gt;Population: the entire collection of cases to which one attempts to generalize.&lt;/p&gt;
+
+&lt;p&gt;Percentile rank: the percentage of scores that fall at or below a given score in a distribution.&lt;/p&gt;
+
+&lt;p&gt;Platykurtic distribution: see uniform distribution.&lt;/p&gt;
+
+&lt;p&gt;Positively skewed distribution: a non-normal distribution consisting of many or few extreme scores on the positive end of the x-axis&lt;/p&gt;
+
+&lt;p&gt;Quasi-independent variable: a variable that resembles an independent variable but is not manipulated by the experimenter.&lt;/p&gt;
+
+&lt;p&gt;Ratio variable: a type of of variable with all the qualities of an interval variable but also has a true zero point.&lt;/p&gt;
+
+&lt;p&gt;Reliability estimate: a statistic that estimates the consistency of a measurement (methods include test/retest, parallel tests, and inter-item).&lt;/p&gt;
+
+&lt;p&gt;Residual: In a regression analysis, it is the prediction error, or the difference between an individual’s score on the outcome variable (Y) and their score predicted by the regression model.&lt;/p&gt;
+
+&lt;p&gt;Sample: a subset of the population.&lt;/p&gt;
+
+&lt;p&gt;Slope: In a regression analysis, it is the predicted change in Y associated with a one-unit increase in X.  Also known as the regression coefficient.&lt;/p&gt;
+
+&lt;p&gt;Standard deviation (SD = SQRT(MS)): The square root of variance; or an estimate of the average deviation in a sample.&lt;/p&gt;
+
+&lt;p&gt;Statistic: a numerical measure that describes a characteristic of a sample.&lt;/p&gt;
+
+&lt;p&gt;Sum of cross products (SP = Σ[(X – MX)*(Y – MY)]): used to calculate the correlation and covariance between two variables, X and Y.&lt;/p&gt;
+
+&lt;p&gt;Sum of squares (SS = Σ(X – M)2): The sum of squared deviation scores.&lt;/p&gt;
+
+&lt;p&gt;Type I error: In NHST, incorrectly rejecting the null hypothesis when it should have been retained.&lt;/p&gt;
+
+&lt;p&gt;Type II error: In NHST, incorrectly retaining the null hypothesis when it should have been rejected.&lt;/p&gt;
+
+&lt;p&gt;Uniform distribution: A non-normal distribution in which frequency is nearly equivalent across all possible values. Also known at platykurtic.&lt;/p&gt;
+
+&lt;p&gt;Validity (construct): the notion that observations or measurement tools actually represent or measure the construct being investigated.&lt;/p&gt;
+
+&lt;p&gt;Validity (content): the notion that the items or devices used to obtain a score on a measure are representative of the underlying construct.&lt;/p&gt;
+
+&lt;p&gt;Validity (convergent): the notion that scores on a measure should correlate with scores on other measures used to define the same, or similar, constructs.&lt;/p&gt;
+
+&lt;p&gt;Validity (divergent): the notion that scores on a measure should not correlate, or weakly correlate, with scores on measures used to define unrelated constructs.&lt;/p&gt;
+
+&lt;p&gt;Validity (nomological): the notion that scores on a measure are consistent with more general theories, including theories from other disciplines of science.&lt;/p&gt;
+
+&lt;p&gt;Variance (MS or SD2): A measure of variability, also known as Mean-Squares (MS) and equal to standard deviation (SD) squared.&lt;/p&gt;
+
+&lt;p&gt;Z-scale: A universal metric in statistics used to standardize different scales, such that for any metric, M=0 and SD=1.&lt;/p&gt;
+
+&lt;p&gt;Z-score (Z = (X-M) / SD): A score on a Z-scale.&lt;/p&gt;
+
+&lt;p&gt;注明：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;本博客原来地址为：&lt;a href=&quot;https://sites.google.com/site/zjuwhwsblog/glossary/statisticoneoncoursera&quot;&gt;https://sites.google.com/site/zjuwhwsblog/glossary/statisticoneoncoursera&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;内容来自于Coursera上Princeton大学的《Statistic One》（不过目前已经下线）&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 02 Mar 2017 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2017/03/02/coursera_statistic-one.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/03/02/coursera_statistic-one.html</guid>
+        
+        <category>statistics</category>
+        
+        <category>mooc</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>卫生信息学简介</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#医学分类&quot; id=&quot;markdown-toc-医学分类&quot;&gt;医学分类&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#医学数据标准和协作性标准&quot; id=&quot;markdown-toc-医学数据标准和协作性标准&quot;&gt;医学数据标准和协作性标准&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#glossary-of-health-and-health-it-terms-and-acronyms-健康和卫生信息术语和缩写&quot; id=&quot;markdown-toc-glossary-of-health-and-health-it-terms-and-acronyms-健康和卫生信息术语和缩写&quot;&gt;Glossary of Health and Health IT Terms and Acronyms （健康和卫生信息术语和缩写）&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#aco-accountable-care-organization责任医疗组织&quot; id=&quot;markdown-toc-aco-accountable-care-organization责任医疗组织&quot;&gt;ACO (Accountable Care Organization)（责任医疗组织）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#arden-syntaxarden语言&quot; id=&quot;markdown-toc-arden-syntaxarden语言&quot;&gt;Arden Syntax（Arden语言）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#arra-american-recovery-and-reconstruction-act美国康复和重建法案&quot; id=&quot;markdown-toc-arra-american-recovery-and-reconstruction-act美国康复和重建法案&quot;&gt;ARRA (American Recovery and Reconstruction Act)（美国康复和重建法案）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#blue-button蓝色按钮&quot; id=&quot;markdown-toc-blue-button蓝色按钮&quot;&gt;Blue Button（蓝色按钮）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ccd-continuity-of-care-document护理文档连续性标准&quot; id=&quot;markdown-toc-ccd-continuity-of-care-document护理文档连续性标准&quot;&gt;CCD (Continuity of Care Document)（护理文档连续性标准）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ccow-clinical-context-object-workshop临床内容对象workshop&quot; id=&quot;markdown-toc-ccow-clinical-context-object-workshop临床内容对象workshop&quot;&gt;CCOW (Clinical Context Object Workshop)（临床内容对象Workshop）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ccr-continuity-of-care-record护理记录连续性标准&quot; id=&quot;markdown-toc-ccr-continuity-of-care-record护理记录连续性标准&quot;&gt;CCR (Continuity of Care Record)（护理记录连续性标准）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ccda-consolidated-clinical-document-architecture-加强的临床文档架构&quot; id=&quot;markdown-toc-ccda-consolidated-clinical-document-architecture-加强的临床文档架构&quot;&gt;CCDA (Consolidated Clinical Document Architecture) （加强的临床文档架构）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cda-clinical-document-architecture-临床文档架构&quot; id=&quot;markdown-toc-cda-clinical-document-architecture-临床文档架构&quot;&gt;CDA (Clinical Document Architecture) （临床文档架构）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cdc-centers-for-disease-control-and-prevention疾病控制和预防中心&quot; id=&quot;markdown-toc-cdc-centers-for-disease-control-and-prevention疾病控制和预防中心&quot;&gt;CDC (Centers for Disease Control and Prevention)（疾病控制和预防中心）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ca-certificate-authority证书认证&quot; id=&quot;markdown-toc-ca-certificate-authority证书认证&quot;&gt;CA (Certificate Authority)（证书认证）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cimi-clinical-information-modeling-initiative临床信息建模计划&quot; id=&quot;markdown-toc-cimi-clinical-information-modeling-initiative临床信息建模计划&quot;&gt;CIMI (Clinical Information Modeling Initiative)（临床信息建模计划）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cms-centers-for-medicare--medicaid-services医疗保险和医疗救助服务中心&quot; id=&quot;markdown-toc-cms-centers-for-medicare--medicaid-services医疗保险和医疗救助服务中心&quot;&gt;CMS (Centers for Medicare &amp;amp; Medicaid Services)（医疗保险和医疗救助服务中心）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#commonwell-alliance共好联盟&quot; id=&quot;markdown-toc-commonwell-alliance共好联盟&quot;&gt;CommonWell Alliance（共好联盟）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#complete-ehr完整ehr&quot; id=&quot;markdown-toc-complete-ehr完整ehr&quot;&gt;Complete EHR（完整EHR）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#connectconnect软件&quot; id=&quot;markdown-toc-connectconnect软件&quot;&gt;CONNECT（CONNECT软件）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cpt-current-procedural-terminologycpt医疗服务操作编码系统&quot; id=&quot;markdown-toc-cpt-current-procedural-terminologycpt医疗服务操作编码系统&quot;&gt;CPT (Current Procedural Terminology)（CPT医疗服务(操作)编码系统）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#de-identified-patient-health-information去识别的患者医学信息&quot; id=&quot;markdown-toc-de-identified-patient-health-information去识别的患者医学信息&quot;&gt;De-identified Patient Health Information（去识别的患者医学信息）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#directdirect系统&quot; id=&quot;markdown-toc-directdirect系统&quot;&gt;Direct（Direct系统）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dns-domain-name-system域名服务系统&quot; id=&quot;markdown-toc-dns-domain-name-system域名服务系统&quot;&gt;DNS (Domain Name System)（域名服务系统）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#edix12edix12格式&quot; id=&quot;markdown-toc-edix12edix12格式&quot;&gt;EDI/X12（EDI/X12格式）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ehealth-exchange电子病历交换&quot; id=&quot;markdown-toc-ehealth-exchange电子病历交换&quot;&gt;eHealth Exchange（电子病历交换）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ehr-electronic-health-record电子健康记录&quot; id=&quot;markdown-toc-ehr-electronic-health-record电子健康记录&quot;&gt;EHR (Electronic Health Record)（电子健康记录）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ehr-certification电子病历认证&quot; id=&quot;markdown-toc-ehr-certification电子病历认证&quot;&gt;EHR Certification（电子病历认证）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#eligible-professionals-medicaid合理的职业-医疗救助&quot; id=&quot;markdown-toc-eligible-professionals-medicaid合理的职业-医疗救助&quot;&gt;Eligible Professionals (Medicaid)（合理的职业-医疗救助）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#eligible-professionals-medicare合理的职业-医疗保险&quot; id=&quot;markdown-toc-eligible-professionals-medicare合理的职业-医疗保险&quot;&gt;Eligible Professionals (Medicare)（合理的职业-医疗保险）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#empi&quot; id=&quot;markdown-toc-empi&quot;&gt;EMPI&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#emr-electronic-medical-record电子病历&quot; id=&quot;markdown-toc-emr-electronic-medical-record电子病历&quot;&gt;EMR (Electronic Medical Record)（电子病历）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#gello&quot; id=&quot;markdown-toc-gello&quot;&gt;GELLO&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hdf-hl7-development-frameworkhl7发展框架&quot; id=&quot;markdown-toc-hdf-hl7-development-frameworkhl7发展框架&quot;&gt;HDF (HL7 Development Framework)（HL7发展框架）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#health-system&quot; id=&quot;markdown-toc-health-system&quot;&gt;Health System&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#healtheway&quot; id=&quot;markdown-toc-healtheway&quot;&gt;Healtheway&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hie-health-information-exchange&quot; id=&quot;markdown-toc-hie-health-information-exchange&quot;&gt;HIE (Health Information Exchange)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#himms医疗卫生信息和管理系统协会&quot; id=&quot;markdown-toc-himms医疗卫生信息和管理系统协会&quot;&gt;HIMMS（医疗卫生信息和管理系统协会）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hipaa-health-insurance-portability-and-accountability-act-of-1996美国健康保险携带和责任法&quot; id=&quot;markdown-toc-hipaa-health-insurance-portability-and-accountability-act-of-1996美国健康保险携带和责任法&quot;&gt;HIPAA (Health Insurance Portability and Accountability Act of 1996)（美国健康保险携带和责任法）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hisp-health-isp&quot; id=&quot;markdown-toc-hisp-health-isp&quot;&gt;HISP (Health ISP)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hit-health-information-technology卫生信息技术&quot; id=&quot;markdown-toc-hit-health-information-technology卫生信息技术&quot;&gt;HIT (Health Information Technology)（卫生信息技术）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hitsp-healthcare-information-technology-standards-panel医疗信息技术标准小组&quot; id=&quot;markdown-toc-hitsp-healthcare-information-technology-standards-panel医疗信息技术标准小组&quot;&gt;HITSP (Healthcare Information Technology Standards Panel)（医疗信息技术标准小组）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hl7-health-level-7&quot; id=&quot;markdown-toc-hl7-health-level-7&quot;&gt;HL7 (Health Level 7)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hmo-health-maintenance-organization健康维护组织&quot; id=&quot;markdown-toc-hmo-health-maintenance-organization健康维护组织&quot;&gt;HMO (Health Maintenance Organization)（健康维护组织）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hquery&quot; id=&quot;markdown-toc-hquery&quot;&gt;hQuery&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#http-hypertext-transfer-protocol&quot; id=&quot;markdown-toc-http-hypertext-transfer-protocol&quot;&gt;HTTP (Hypertext Transfer Protocol)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#icd-international-classification-of-disease国际疾病分类&quot; id=&quot;markdown-toc-icd-international-classification-of-disease国际疾病分类&quot;&gt;ICD (International Classification of Disease)（国际疾病分类）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ihtsdo-international-health-terminology-standard-development-organisation国际卫生术语标准发展组织&quot; id=&quot;markdown-toc-ihtsdo-international-health-terminology-standard-development-organisation国际卫生术语标准发展组织&quot;&gt;IHTSDO (International Health Terminology Standard Development Organisation)（国际卫生术语标准发展组织）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ip-addressip地址&quot; id=&quot;markdown-toc-ip-addressip地址&quot;&gt;IP Address（IP地址）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#i2b2-informatics-for-integrating-biology-and-the-bedside&quot; id=&quot;markdown-toc-i2b2-informatics-for-integrating-biology-and-the-bedside&quot;&gt;I2b2 (Informatics for Integrating Biology and the Bedside)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#interoperability可协作性&quot; id=&quot;markdown-toc-interoperability可协作性&quot;&gt;Interoperability（可协作性）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ldap-lightweight-directory-access-protocol轻量目录访问协议&quot; id=&quot;markdown-toc-ldap-lightweight-directory-access-protocol轻量目录访问协议&quot;&gt;LDAP (Lightweight Directory Access Protocol)（轻量目录访问协议）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#loinc-logical-observation-identifiers-names-and-codes逻辑观察标识符名称和代码&quot; id=&quot;markdown-toc-loinc-logical-observation-identifiers-names-and-codes逻辑观察标识符名称和代码&quot;&gt;LOINC (Logical Observation Identifiers Names and Codes)（逻辑观察标识符名称和代码）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#meaningful-use有效使用&quot; id=&quot;markdown-toc-meaningful-use有效使用&quot;&gt;Meaningful Use（有效使用）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#meddra-medical-dictionary-for-regulatory-activities-监管活动医学词典&quot; id=&quot;markdown-toc-meddra-medical-dictionary-for-regulatory-activities-监管活动医学词典&quot;&gt;MedDRA (Medical Dictionary for Regulatory Activities) （监管活动医学词典）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#medicaid医疗救助&quot; id=&quot;markdown-toc-medicaid医疗救助&quot;&gt;Medicaid（医疗救助）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#medicare医疗保险&quot; id=&quot;markdown-toc-medicare医疗保险&quot;&gt;Medicare（医疗保险）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mime-multipurpose-internet-mail-extensions多用途网络邮件扩充协议&quot; id=&quot;markdown-toc-mime-multipurpose-internet-mail-extensions多用途网络邮件扩充协议&quot;&gt;MIME (Multipurpose Internet Mail Extensions)（多用途网络邮件扩充协议）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mlm-medical-logic-module医学逻辑模块&quot; id=&quot;markdown-toc-mlm-medical-logic-module医学逻辑模块&quot;&gt;MLM (Medical Logic Module)（医学逻辑模块）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#modular-ehr&quot; id=&quot;markdown-toc-modular-ehr&quot;&gt;Modular EHR&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mpi-master-patient-index患者主索引&quot; id=&quot;markdown-toc-mpi-master-patient-index患者主索引&quot;&gt;MPI (Master Patient Index)（患者主索引）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mumps-massachusetts-general-utility-multi-programming-system麻省总医院多用途程序设计系统&quot; id=&quot;markdown-toc-mumps-massachusetts-general-utility-multi-programming-system麻省总医院多用途程序设计系统&quot;&gt;MUMPS (Massachusetts General Utility Multi-Programming System)（麻省总医院多用途程序设计系统）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ndc-national-drug-codes国家药品编码&quot; id=&quot;markdown-toc-ndc-national-drug-codes国家药品编码&quot;&gt;NDC (National Drug Codes)（国家药品编码）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#onc-office-of-the-national-coordinator-for-health-information-technologyhit协调办公室&quot; id=&quot;markdown-toc-onc-office-of-the-national-coordinator-for-health-information-technologyhit协调办公室&quot;&gt;ONC (Office of the National Coordinator for Health Information Technology)（HIT协调办公室）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#outcomes-based-contract基于结果的合同&quot; id=&quot;markdown-toc-outcomes-based-contract基于结果的合同&quot;&gt;Outcomes-based Contract（基于结果的合同）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#p4p-pay-for-performance按表现付费&quot; id=&quot;markdown-toc-p4p-pay-for-performance按表现付费&quot;&gt;P4P (Pay for Performance)（按表现付费）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pcmh-patient-centered-medical-home以病人为中心的医护之家&quot; id=&quot;markdown-toc-pcmh-patient-centered-medical-home以病人为中心的医护之家&quot;&gt;PCMH (Patient-Centered Medical Home)（以病人为中心的医护之家）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pcp-primary-care-physician初级护理医师&quot; id=&quot;markdown-toc-pcp-primary-care-physician初级护理医师&quot;&gt;PCP (Primary Care Physician)（初级护理医师）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#phi-protected-health-information受保护的健康信息&quot; id=&quot;markdown-toc-phi-protected-health-information受保护的健康信息&quot;&gt;PHI (Protected Health Information)（受保护的健康信息）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pki-public-key-infrastructure公钥基础设施&quot; id=&quot;markdown-toc-pki-public-key-infrastructure公钥基础设施&quot;&gt;PKI (Public Key Infrastructure)（公钥基础设施）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#private-key私钥&quot; id=&quot;markdown-toc-private-key私钥&quot;&gt;Private Key（私钥）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#provider提供者&quot; id=&quot;markdown-toc-provider提供者&quot;&gt;Provider（提供者）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#public-key公钥&quot; id=&quot;markdown-toc-public-key公钥&quot;&gt;Public Key（公钥）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ra-registration-authority注册认证&quot; id=&quot;markdown-toc-ra-registration-authority注册认证&quot;&gt;RA (Registration Authority)（注册认证）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#synthetic-health-data&quot; id=&quot;markdown-toc-synthetic-health-data&quot;&gt;Synthetic Health Data&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#templates-cda&quot; id=&quot;markdown-toc-templates-cda&quot;&gt;Templates (CDA)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#read-codes读码&quot; id=&quot;markdown-toc-read-codes读码&quot;&gt;Read Codes（读码）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#resource-description-framework-rdf资源描述框架&quot; id=&quot;markdown-toc-resource-description-framework-rdf资源描述框架&quot;&gt;Resource Description Framework (RDF)（资源描述框架）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#rim-reference-information-model参考信息模型&quot; id=&quot;markdown-toc-rim-reference-information-model参考信息模型&quot;&gt;RIM (Reference Information Model)（参考信息模型）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#semantic-web语义网&quot; id=&quot;markdown-toc-semantic-web语义网&quot;&gt;Semantic web（语义网）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#smtp-simplified-mail-transport-protocol简化邮件传输协议&quot; id=&quot;markdown-toc-smtp-simplified-mail-transport-protocol简化邮件传输协议&quot;&gt;SMTP (Simplified Mail Transport Protocol)（简化邮件传输协议）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#snomed-standard-nomenclature-of-medicine医学标准命名系统&quot; id=&quot;markdown-toc-snomed-standard-nomenclature-of-medicine医学标准命名系统&quot;&gt;SNOMED (Standard Nomenclature of Medicine)（医学标准命名系统）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#snomed-ct-standard-nomenclature-of-medicine医学标准命名系统-临床&quot; id=&quot;markdown-toc-snomed-ct-standard-nomenclature-of-medicine医学标准命名系统-临床&quot;&gt;SNOMED CT (Standard Nomenclature of Medicine)（医学标准命名系统-临床）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#toc-transition-of-care-initiative&quot; id=&quot;markdown-toc-toc-transition-of-care-initiative&quot;&gt;ToC (Transition of Care Initiative)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#tpo&quot; id=&quot;markdown-toc-tpo&quot;&gt;TPO&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#vdt-view-download-transmit查看下载传输&quot; id=&quot;markdown-toc-vdt-view-download-transmit查看下载传输&quot;&gt;VDT (View, Download, Transmit)（查看、下载、传输）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#vista-veterans-health-information-systems-and-technology-architecture&quot; id=&quot;markdown-toc-vista-veterans-health-information-systems-and-technology-architecture&quot;&gt;VistA (Veterans Health Information Systems and Technology Architecture)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#x509-digital-certificatex509数字证书标准&quot; id=&quot;markdown-toc-x509-digital-certificatex509数字证书标准&quot;&gt;X.509 digital certificate（X.509数字证书标准）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xdr-external-data-representation外部数据表示法&quot; id=&quot;markdown-toc-xdr-external-data-representation外部数据表示法&quot;&gt;XDR (External Data Representation)（外部数据表示法）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xdm-ihe-cross-enterprise-document-media-interchange&quot; id=&quot;markdown-toc-xdm-ihe-cross-enterprise-document-media-interchange&quot;&gt;XDM (IHE Cross Enterprise Document Media Interchange)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xds-cross-enterprise-document-sharing跨企业文档分享&quot; id=&quot;markdown-toc-xds-cross-enterprise-document-sharing跨企业文档分享&quot;&gt;XDS (Cross-Enterprise Document Sharing)（跨企业文档分享）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xml-xtensible-markup-language可扩展置标语言&quot; id=&quot;markdown-toc-xml-xtensible-markup-language可扩展置标语言&quot;&gt;XML (Xtensible Markup Language)（可扩展置标语言）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#xmpi跨组织患者主索引&quot; id=&quot;markdown-toc-xmpi跨组织患者主索引&quot;&gt;XMPI（跨组织患者主索引）&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#参考资料&quot; id=&quot;markdown-toc-参考资料&quot;&gt;参考资料&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;医学分类&quot;&gt;医学分类&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/MedicalClassification.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/HealthInformatics.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;医学数据标准和协作性标准&quot;&gt;医学数据标准和协作性标准&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/HIT-standards.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;glossary-of-health-and-health-it-terms-and-acronyms-健康和卫生信息术语和缩写&quot;&gt;Glossary of Health and Health IT Terms and Acronyms （健康和卫生信息术语和缩写）&lt;/h3&gt;
+
+&lt;h4 id=&quot;aco-accountable-care-organization责任医疗组织&quot;&gt;ACO (Accountable Care Organization)（责任医疗组织）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;MEDICARE’s outcomes-based contracting approach&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;MEDICARD医保的基于结果的合同方法。&lt;/p&gt;
+
+&lt;h4 id=&quot;arden-syntaxarden语言&quot;&gt;Arden Syntax（Arden语言）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an approach to specifying medical knowledge and clinical decision support rules in a form that is independent of any EHR and thus sharable across hospitals&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一种指定医学知识和临床决策支持规则的方法，它独立于电子病历，因此可以跨医院共享。&lt;/p&gt;
+
+&lt;h4 id=&quot;arra-american-recovery-and-reconstruction-act美国康复和重建法案&quot;&gt;ARRA (American Recovery and Reconstruction Act)（美国康复和重建法案）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the Obama administration’s 2009 economic stimulus bill&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;奥巴马政府2009年的经济刺激政策。&lt;/p&gt;
+
+&lt;h4 id=&quot;blue-button蓝色按钮&quot;&gt;Blue Button（蓝色按钮）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an ASCII text based standard for heath information sharing first introduced by the Veteran’s Administration to facilitate access to records stored in VistA by their patients. The newer Blue Button + format provides both human and machine readable formats.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一个基于医学信息共享标准的ASCII码文本，由退伍军人管理局率先引入，以加快病人获取他们存在VistA上的病例。新版的Blue Button +同时提供人读和机读的格式。&lt;/p&gt;
+
+&lt;h4 id=&quot;ccd-continuity-of-care-document护理文档连续性标准&quot;&gt;CCD (Continuity of Care Document)（护理文档连续性标准）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an XML-based patient summary based on the CDA architecture&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;临床文档架构的一种基于XML的病人汇总。&lt;/p&gt;
+
+&lt;h4 id=&quot;ccow-clinical-context-object-workshop临床内容对象workshop&quot;&gt;CCOW (Clinical Context Object Workshop)（临床内容对象Workshop）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an HL7 standard for synchronizing and coordinating applications to automatically follow the patient, user (and other) contexts to allow the clinical user’s experience to resemble interacting with a single system, when they are using multiple, independent applications from many different systems&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一个HL7标准，用于同步、协调各应用，自动跟踪病人、用户内容，以保证当临床用户使用不同系统多个独立应用时，可以与单一系统交互。&lt;/p&gt;
+
+&lt;h4 id=&quot;ccr-continuity-of-care-record护理记录连续性标准&quot;&gt;CCR (Continuity of Care Record)（护理记录连续性标准）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an XML-based patient summary format that preceded CDA&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;早于临床文档架构的一种基于XML的病人汇总格式。&lt;/p&gt;
+
+&lt;h4 id=&quot;ccda-consolidated-clinical-document-architecture-加强的临床文档架构&quot;&gt;CCDA (Consolidated Clinical Document Architecture) （加强的临床文档架构）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the second revision of HL7’s CDA architecture that attempts to introduce more standard templates to facilitate information sharing (a mandate of Meaningful Use 2)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;HL7临床文档架构的第二个版本，尝试引入更多标准模板，以加快信息分享（“有效使用阶段2”的一个授权）。&lt;/p&gt;
+
+&lt;h4 id=&quot;cda-clinical-document-architecture-临床文档架构&quot;&gt;CDA (Clinical Document Architecture) （临床文档架构）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an XML-based markup standard intended to specify the encoding, structure and semantics of clinical documents&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一个基于XML的标记语言标注，用于指定临床文档的编码，结构和语义。&lt;/p&gt;
+
+&lt;h4 id=&quot;cdc-centers-for-disease-control-and-prevention疾病控制和预防中心&quot;&gt;CDC (Centers for Disease Control and Prevention)（疾病控制和预防中心）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the federal agency focused on disease in the community.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;专注于疾病的联邦机构。&lt;/p&gt;
+
+&lt;h4 id=&quot;ca-certificate-authority证书认证&quot;&gt;CA (Certificate Authority)（证书认证）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an entity that digitally signs certificate requests and issues X.509 digital certificates that link a public key to attributes of its owner&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;cimi-clinical-information-modeling-initiative临床信息建模计划&quot;&gt;CIMI (Clinical Information Modeling Initiative)（临床信息建模计划）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an independent collaboration of major health providers improve the interoperability of healthcare information systems through shared and implementable clinical information models&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;主要的医疗提供者的一个独立的合作计划，旨在提高医护信息系统之间的协作性，通过可分享，可实现的临床信息模型。&lt;/p&gt;
+
+&lt;h4 id=&quot;cms-centers-for-medicare--medicaid-services医疗保险和医疗救助服务中心&quot;&gt;CMS (Centers for Medicare &amp;amp; Medicaid Services)（医疗保险和医疗救助服务中心）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the component of the Department of Health and Human Services that administers the Medicare and Medicaid programs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;美国卫生与公共服务部的一部分，用于管理医疗保险和医疗救助项目。&lt;/p&gt;
+
+&lt;h4 id=&quot;commonwell-alliance共好联盟&quot;&gt;CommonWell Alliance（共好联盟）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a group of major health IT companies that is working to achieve interoperability among their respective software products and services&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一组主要的医学IT企业，共同努力，以使他们的软件产品和服务达到互通。&lt;/p&gt;
+
+&lt;h4 id=&quot;complete-ehr完整ehr&quot;&gt;Complete EHR（完整EHR）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an EHR software product that, by itself, is capable of meeting the requirements of certification and Meaningful Use&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一个EHR软件产品，有能力独立满足认证和“有效使用”的要求。&lt;/p&gt;
+
+&lt;h4 id=&quot;connectconnect软件&quot;&gt;CONNECT（CONNECT软件）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ONC supported open source software for managing the centralized model of health information exchange&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;cpt-current-procedural-terminologycpt医疗服务操作编码系统&quot;&gt;CPT (Current Procedural Terminology)（CPT医疗服务(操作)编码系统）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the American Medical Association’s standard for coding medical procedures&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;de-identified-patient-health-information去识别的患者医学信息&quot;&gt;De-identified Patient Health Information（去识别的患者医学信息）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;PHI from which all data elements that could allow the data to be traced back to the patient have been removed&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;directdirect系统&quot;&gt;Direct（Direct系统）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a set of ONC supported standards for secure exchange of health information using email&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一组ONC支持的标准，使用邮件安全的交换医疗信息。&lt;/p&gt;
+
+&lt;h4 id=&quot;dns-domain-name-system域名服务系统&quot;&gt;DNS (Domain Name System)（域名服务系统）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the naming system for computers, services, or any resource connected to the Internet (or a private network). Among other things, it translates domain names (e.g. eBay.com) to the numerical IP addresses needed to locate Internet connected resources.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;edix12edix12格式&quot;&gt;EDI/X12（EDI/X12格式）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a format for electronic messaging that utilizes cryptic but compact notation primarily to support computer-to-computer commercial information exchange&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;ehealth-exchange电子病历交换&quot;&gt;eHealth Exchange（电子病历交换）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a set of standards, services and policies that enable secure nationwide, Internet-based health information exchange using CONNECT or one of the commercial HIE products that support eHealth Exchange&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;ehr-electronic-health-record电子健康记录&quot;&gt;EHR (Electronic Health Record)（电子健康记录）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a stakeholder wide electronic record of a patient’s complete health situation&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;ehr-certification电子病历认证&quot;&gt;EHR Certification（电子病历认证）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a set of technical requirements developed by ONC that, if met, quality an EHR to be used by an Eligible Professional to achieve Meaningful Use&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一组ONC开发的技术要求。满足要求后，保证”合格专家”使用EHR的质量，以达到“有效使用”。&lt;/p&gt;
+
+&lt;h4 id=&quot;eligible-professionals-medicaid合理的职业-医疗救助&quot;&gt;Eligible Professionals (Medicaid)（合理的职业-医疗救助）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;health providers who are eligible for Medicaid Meaningful Use payments: doctors of medicine, osteopathy, dental surgery, dental medicine, nurse practitioners, nurse certified nurse-midwifes, and physician assistants who working in a Federally Qualified Health Center or Rural Health Clinic that is led by a physician assistant&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;eligible-professionals-medicare合理的职业-医疗保险&quot;&gt;Eligible Professionals (Medicare)（合理的职业-医疗保险）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;health providers who are eligible for Medicare Meaningful Use payments: doctors of medicine, osteopathy, dental surgery, dental medicine, podiatry, optometry and chiropractic&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;empi&quot;&gt;EMPI&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an enterprise master patient index&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;emr-electronic-medical-record电子病历&quot;&gt;EMR (Electronic Medical Record)（电子病历）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an electronic record used by a licensed professional care provider&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;gello&quot;&gt;GELLO&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a programming language intended for use as a standard query and expression language for clinical decision support. Now compatible with the HL7 version 3.0 Reference Information Model (RIM).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;hdf-hl7-development-frameworkhl7发展框架&quot;&gt;HDF (HL7 Development Framework)（HL7发展框架）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the framework used by HL7 to produce specifications for data, messaging process and other standards&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;health-system&quot;&gt;Health System&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a network of providers that are affiliated for the more integrated delivery of care&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;healtheway&quot;&gt;Healtheway&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an ONC supported public-private partnership to promote nationwide health information exchange via the eHealth Exchange&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;hie-health-information-exchange&quot;&gt;HIE (Health Information Exchange)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the sharing of digital health information by the various stakeholders involved, including the patient&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;himms医疗卫生信息和管理系统协会&quot;&gt;HIMMS（医疗卫生信息和管理系统协会）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;describes itself as a “a global, cause-based, not-for-profit organization focused on better health through information technology (IT)”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;自称为“一个全球的，基于起因的，非盈利的，专注于实用信息技术提高健康的组织”&lt;/p&gt;
+
+&lt;h4 id=&quot;hipaa-health-insurance-portability-and-accountability-act-of-1996美国健康保险携带和责任法&quot;&gt;HIPAA (Health Insurance Portability and Accountability Act of 1996)（美国健康保险携带和责任法）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;legislation intended to secure health insurance for employees changing jobs and simplify administration with electronic transactions. It also defines the rules concerning patient privacy and security for PHI&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;美国法律，意在保证换工作者医疗保险的安全，并利用电子传输简化监管。它也制定了很多关于病人隐私和受保护健康信息的规定。&lt;/p&gt;
+
+&lt;h4 id=&quot;hisp-health-isp&quot;&gt;HISP (Health ISP)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a component of Direct that provides a provider directory, secure email addresses and public-key infrastructure (PKI)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;hit-health-information-technology卫生信息技术&quot;&gt;HIT (Health Information Technology)（卫生信息技术）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the set of tools needed to facilitate electronic documentation and management of healthcare delivery&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;促进电子文档、和健康普及管理的一系列工具&lt;/p&gt;
+
+&lt;h4 id=&quot;hitsp-healthcare-information-technology-standards-panel医疗信息技术标准小组&quot;&gt;HITSP (Healthcare Information Technology Standards Panel)（医疗信息技术标准小组）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a public/private partnership to promote interoperability through standards&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一个公私合作的组织，通过制定标准促进协同性。&lt;/p&gt;
+
+&lt;h4 id=&quot;hl7-health-level-7&quot;&gt;HL7 (Health Level 7)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a not-for-profit global organization to establish standards for interoperability&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一个非盈利的国际组织，为协同性建立标准。&lt;/p&gt;
+
+&lt;h4 id=&quot;hmo-health-maintenance-organization健康维护组织&quot;&gt;HMO (Health Maintenance Organization)（健康维护组织）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an organization that provides managed healthcare on a prepaid basis. Employers with 25 or more employees must offer federally certified HMO options if they offer traditional healthcare options&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一个基于预付费提供健康服务管理的组织。雇佣25人及以上的雇主如果提供传统的医疗服务选项，必须提供联邦政府认证的“健康维护组织”选项。&lt;/p&gt;
+
+&lt;h4 id=&quot;hquery&quot;&gt;hQuery&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an ONC funded, open source effort to develop a generalized set of distributed queries across diverse EHRs for purposes such as clinical research&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;http-hypertext-transfer-protocol&quot;&gt;HTTP (Hypertext Transfer Protocol)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a query-response protocol used to transfer information between web
+browsers and connected servers. HTTPS is the secure version.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;icd-international-classification-of-disease国际疾病分类&quot;&gt;ICD (International Classification of Disease)（国际疾病分类）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the World Health Organization’s almost universally used standard codes for diagnoses.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;世界卫生组织通用的诊断标准代码。&lt;/p&gt;
+
+&lt;h4 id=&quot;ihtsdo-international-health-terminology-standard-development-organisation国际卫生术语标准发展组织&quot;&gt;IHTSDO (International Health Terminology Standard Development Organisation)（国际卫生术语标准发展组织）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the multinational organization that maintains SNOMED&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;多国组织，用以维护SNOMED。&lt;/p&gt;
+
+&lt;h4 id=&quot;ip-addressip地址&quot;&gt;IP Address（IP地址）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a 32 bit (the standard is changing to 128 bit to accommodate Internet growth) number assigned to each device in an Internet Protocol network and that indicates where it is in that network.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;i2b2-informatics-for-integrating-biology-and-the-bedside&quot;&gt;I2b2 (Informatics for Integrating Biology and the Bedside)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a scalable query framework for exploration of clinical and genomic data for research to design targeted therapies for individual patients with diseases having genetic origins&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;interoperability可协作性&quot;&gt;Interoperability（可协作性）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the ability of diverse information systems to seamlessly share data and coordinate on tasks involving multiple systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不同信息系统之间，连续数据分享和任务协调的能力。&lt;/p&gt;
+
+&lt;h4 id=&quot;ldap-lightweight-directory-access-protocol轻量目录访问协议&quot;&gt;LDAP (Lightweight Directory Access Protocol)（轻量目录访问协议）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;is a protocol for accessing (including searching) and maintaining distributed directory information services (such as an email directory) over an IP network.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;通过一个IP网络访问（包括搜索）和维护分布式目录信息服务（例如邮件目录）的协议。&lt;/p&gt;
+
+&lt;h4 id=&quot;loinc-logical-observation-identifiers-names-and-codes逻辑观察标识符名称和代码&quot;&gt;LOINC (Logical Observation Identifiers Names and Codes)（逻辑观察标识符名称和代码）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the Regenstrief Institute’s standard for laboratory and clinical observations&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Regenstrief机构的关于实验室和临川观察的标准。&lt;/p&gt;
+
+&lt;h4 id=&quot;meaningful-use有效使用&quot;&gt;Meaningful Use（有效使用）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a set of usage requirements defined in three stages by ONC under which eligible professionals are paid for adopting a certified EHR&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一组ONC定义的应用要求，分三个阶段，会因认证的EHR使用给合格的专业人员付费。&lt;/p&gt;
+
+&lt;h4 id=&quot;meddra-medical-dictionary-for-regulatory-activities-监管活动医学词典&quot;&gt;MedDRA (Medical Dictionary for Regulatory Activities) （监管活动医学词典）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the International Conference on Harmonisation’s classification of adverse event information associated with the use of biopharmaceuticals and other medical products&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;medicaid医疗救助&quot;&gt;Medicaid（医疗救助）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the joint federal/state program to provide healthcare services to poor and some disabled US citizens&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;联邦和州合作项目，为穷人和一些残疾人提供医疗服务&lt;/p&gt;
+
+&lt;h4 id=&quot;medicare医疗保险&quot;&gt;Medicare（医疗保险）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the federally operated program to provide healthcare services to US citizens over the age of 65&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;mime-multipurpose-internet-mail-extensions多用途网络邮件扩充协议&quot;&gt;MIME (Multipurpose Internet Mail Extensions)（多用途网络邮件扩充协议）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the Internet standard for the format of email attachments used in Direct. S/MIME is the secure version.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;mlm-medical-logic-module医学逻辑模块&quot;&gt;MLM (Medical Logic Module)（医学逻辑模块）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the basic unit in the Arden Syntax that contains sufficient medical knowledge and rules to make one clinical decision.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Arden语言的基本单元，包含做出医学决策的足够的医学知识和规则。&lt;/p&gt;
+
+&lt;h4 id=&quot;modular-ehr&quot;&gt;Modular EHR&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a software component that delivers at least one of the key services required of a Certified EHR&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;mpi-master-patient-index患者主索引&quot;&gt;MPI (Master Patient Index)（患者主索引）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;software to provide correct matching of patients across multiple software systems, typically within a health enterprise&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;通常是医疗系统内的软件，用于不同软件系统之间提供正确的患者匹配。&lt;/p&gt;
+
+&lt;h4 id=&quot;mumps-massachusetts-general-utility-multi-programming-system麻省总医院多用途程序设计系统&quot;&gt;MUMPS (Massachusetts General Utility Multi-Programming System)（麻省总医院多用途程序设计系统）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an integrated programming language and file management system designed in the late 1960’s for medical data processing that is the basis for some of the most widely installed enterprise health information systems&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一种整合的变成语言和文件管理系统，设计于20世纪60年代晚期，用于医学数据处理，是一些广泛使用的企业医学信息系统的基础。&lt;/p&gt;
+
+&lt;h4 id=&quot;ndc-national-drug-codes国家药品编码&quot;&gt;NDC (National Drug Codes)（国家药品编码）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the Food and Drug Administration’s numbering system for all medications commercially available in the US&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;美国食品药品监督局的美国商业流通药品数字编码系统&lt;/p&gt;
+
+&lt;h4 id=&quot;onc-office-of-the-national-coordinator-for-health-information-technologyhit协调办公室&quot;&gt;ONC (Office of the National Coordinator for Health Information Technology)（HIT协调办公室）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the agency created in 2004 within the Department of Health and Human Services to promote the deployment of HIT in the US&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2004年美国卫生和公共服务部（HHS）创建的办公室，用于促进美国卫生信息技术。&lt;/p&gt;
+
+&lt;h4 id=&quot;outcomes-based-contract基于结果的合同&quot;&gt;Outcomes-based Contract（基于结果的合同）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an approach to pay for healthcare that rewards physician performance against certain defined quality metrics when combined with a lower than predicted cost of care&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一种医疗服务付费方式，当医疗花费低于预测且达到规定的标准时，对医生的表现进行奖励。&lt;/p&gt;
+
+&lt;h4 id=&quot;p4p-pay-for-performance按表现付费&quot;&gt;P4P (Pay for Performance)（按表现付费）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an approach to pay for healthcare that rewards physician performance against certain defined quality metrics&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一种医疗服务的付费方式，当达到规定标准时，对医生的表现进行奖励。&lt;/p&gt;
+
+&lt;h4 id=&quot;pcmh-patient-centered-medical-home以病人为中心的医护之家&quot;&gt;PCMH (Patient-Centered Medical Home)（以病人为中心的医护之家）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a team based healthcare delivery model often particularly focused on the management of chronic disease&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;pcp-primary-care-physician初级护理医师&quot;&gt;PCP (Primary Care Physician)（初级护理医师）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the generalist in a patient’s care team who assumes overall responsibility for all their health issues and often the gatekeeper who must generate referrals to specialists&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;phi-protected-health-information受保护的健康信息&quot;&gt;PHI (Protected Health Information)（受保护的健康信息）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;any health or health related information that can be related back to a specific patient. PHI is subject to HIPAA regulations.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;任何可以追溯到一个特定病人的健康或者相关的信息。PHI从属于HIPAA法规。&lt;/p&gt;
+
+&lt;h4 id=&quot;pki-public-key-infrastructure公钥基础设施&quot;&gt;PKI (Public Key Infrastructure)（公钥基础设施）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a widely used system for protection of documents, messages and other data that rests on a pair of public and private keys to allow for a variety of use cases&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;广泛使用的保护文件、信息和其他数据的系统，依赖于一堆公钥和私钥。&lt;/p&gt;
+
+&lt;h4 id=&quot;private-key私钥&quot;&gt;Private Key（私钥）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the protected (known only to its owner) part of the special pair of numbers used to encrypt documents using PKI&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;使用公钥基础设施加密文档的一对数字的被保护部分（仅被拥有者知晓）&lt;/p&gt;
+
+&lt;h4 id=&quot;provider提供者&quot;&gt;Provider（提供者）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;health professionals including physicians, nurse practitioners, physicians’ assistants that are engaged in direct patient care&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;医疗卫生相关职业，包括医生，护理人员，直接参与病人护理的医生助手。&lt;/p&gt;
+
+&lt;h4 id=&quot;public-key公钥&quot;&gt;Public Key（公钥）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the public part of the special pair of numbers used to encrypt documents using PKI&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;ra-registration-authority注册认证&quot;&gt;RA (Registration Authority)（注册认证）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an entity that collects information for the purpose of verifying the identity of an individual or organization and produces a certificate request&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;synthetic-health-data&quot;&gt;Synthetic Health Data&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;facsimile clinical data created by a software system to realistically resemble actual patient data&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;templates-cda&quot;&gt;Templates (CDA)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the reusable basic XML-based building blocks of a CDA document that can represent the entire document, its sections or the data entries within a section&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;read-codes读码&quot;&gt;Read Codes（读码）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a hierarchical clinical terminology system used in General Practice in the United Kingdom&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;英国全科使用的一套分层的临床术语系统。&lt;/p&gt;
+
+&lt;h4 id=&quot;resource-description-framework-rdf资源描述框架&quot;&gt;Resource Description Framework (RDF)（资源描述框架）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a method for describing or modeling of information on the web using subject-predicate-object expressions (triples) in the form of subject-predicate-object expressions that could be used to represent health ontologies (SNOMED, ICD-1)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;rim-reference-information-model参考信息模型&quot;&gt;RIM (Reference Information Model)（参考信息模型）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a pictorial representation of the HL7 clinical data (domains) that illustrates the life cycle of an HL7 message or groups of related messages&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;HL7临床数据的有插图的表示，以解释一个或一组HL7消息的生命周期。&lt;/p&gt;
+
+&lt;h4 id=&quot;semantic-web语义网&quot;&gt;Semantic web（语义网）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the proposed next generation of web in which technologies like RDF would create a “web of data” in which browsers (and other tools) could “understand” the content of web pages&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;smtp-simplified-mail-transport-protocol简化邮件传输协议&quot;&gt;SMTP (Simplified Mail Transport Protocol)（简化邮件传输协议）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the Internet standard for email used by Direct. The secure version is S/SMTP&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;snomed-standard-nomenclature-of-medicine医学标准命名系统&quot;&gt;SNOMED (Standard Nomenclature of Medicine)（医学标准命名系统）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a comprehensive, hierarchical healthcare terminology system.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;snomed-ct-standard-nomenclature-of-medicine医学标准命名系统-临床&quot;&gt;SNOMED CT (Standard Nomenclature of Medicine)（医学标准命名系统-临床）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SNOMED subset for the electronic health record&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;toc-transition-of-care-initiative&quot;&gt;ToC (Transition of Care Initiative)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the effort to develop a standard electronic clinical summary for transitions of care from one venue to another&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;tpo&quot;&gt;TPO&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;HIPAA exception for providers, insurance companies and other health-care entities to exchange information necessary for Treatment, Payment or Operations of healthcare businesses&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;vdt-view-download-transmit查看下载传输&quot;&gt;VDT (View, Download, Transmit)（查看、下载、传输）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a requirement of Meaningful Use Stage 2 that patients view, download or transmit their health information&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;vista-veterans-health-information-systems-and-technology-architecture&quot;&gt;VistA (Veterans Health Information Systems and Technology Architecture)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the Veteran’s Administration’s system wide, MUMPS based health information infrastructure&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;x509-digital-certificatex509数字证书标准&quot;&gt;X.509 digital certificate（X.509数字证书标准）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the technical name for an electronic document issued by a CA that uses a digital signature to bind a public key with an identity based on information from an RA&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;xdr-external-data-representation外部数据表示法&quot;&gt;XDR (External Data Representation)（外部数据表示法）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;an operating system and transport method agnostic mechanism for exchanging data that is encoded/decoded into/from the XDR format.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;xdm-ihe-cross-enterprise-document-media-interchange&quot;&gt;XDM (IHE Cross Enterprise Document Media Interchange)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a standard mechanism for including both documents and meta-data in zip format using agreed upon conventions for directory structure and location of files.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;xds-cross-enterprise-document-sharing跨企业文档分享&quot;&gt;XDS (Cross-Enterprise Document Sharing)（跨企业文档分享）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the use of federated document repositories and a document registry to create a longitudinal record of information about a patient&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;xml-xtensible-markup-language可扩展置标语言&quot;&gt;XML (Xtensible Markup Language)（可扩展置标语言）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a widely used standard for machine and human readable electronic documents and the language used to define CDA templates&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;广泛使用的机读和人读电子文档，该语言可以用于定义临床文档架构模板。&lt;/p&gt;
+
+&lt;h4 id=&quot;xmpi跨组织患者主索引&quot;&gt;XMPI（跨组织患者主索引）&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a cross organizational master patient index capable of dealing with many unaffiliated hospitals and health systems&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一个跨组织的患者主索引，能够应对许多非附属医院和医疗系统。&lt;/p&gt;
+
+&lt;p&gt;以上部分翻译自coursera课程&lt;a href=&quot;https://www.coursera.org/learn/fhir/home/info&quot;&gt;《Health Informatics on FHIR》&lt;/a&gt;的课程资料。&lt;/p&gt;
+
+&lt;h3 id=&quot;参考资料&quot;&gt;参考资料&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/learn/fhir/home/info&quot;&gt;《Health Informatics on FHIR》&lt;/a&gt; on Coursera&lt;/li&gt;
+  &lt;li&gt;wiki: &lt;a href=&quot;https://en.wikipedia.org/wiki/Medical_classification&quot;&gt;Medical_classification&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 22 Feb 2017 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2017/02/22/HIT-glossary.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/22/HIT-glossary.html</guid>
+        
+        <category>medi</category>
+        
+        <category>HIT</category>
         
         
       </item>
