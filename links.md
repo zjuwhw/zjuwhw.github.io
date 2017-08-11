@@ -230,6 +230,7 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [方海](http://www.cs.bris.ac.uk/~hfang/)
 - [Jonathan Pritchard](http://web.stanford.edu/group/pritchardlab/home.html)
 - [Mark McCarthy](https://www.ndm.ox.ac.uk/principal-investigators/researcher/mark-mccarthy)
+- [David Balding](https://scholar.google.com/citations?hl=zh-CN&user=9bqHVEsAAAAJ&view_op=list_works&sortby=pubdate)
 
 
 ### My lab
@@ -437,3 +438,10 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [Mastering Sublime Text](https://book.douban.com/subject/25804133/)
 - [Practical Vim](https://book.douban.com/subject/10599776/)
 - [Effective Python](https://book.douban.com/subject/26312313/)
+- [Introduction to Quantitative Genetics](https://book.douban.com/subject/2856781/)
+- [Genetics and Analysis of Quantitative Traits](https://book.douban.com/subject/2857216/)
+- [Applied Linear Statistical Models](https://book.douban.com/subject/1480918/)
+- [Introduction to Linear Algebra](https://book.douban.com/subject/3582335/)
+- [Population genetics: a concise guide](https://book.douban.com/subject/1358257/)
+- [Statistical Inference](https://book.douban.com/subject/1464795/)
+- [The Elements of Statistical Learning](https://book.douban.com/subject/3294335/)
