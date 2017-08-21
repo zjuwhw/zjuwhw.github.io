@@ -6,12 +6,12 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Aug 2017 14:43:54 +1000</pubDate>
-    <lastBuildDate>Mon, 21 Aug 2017 14:43:54 +1000</lastBuildDate>
+    <pubDate>Mon, 21 Aug 2017 14:46:53 +1000</pubDate>
+    <lastBuildDate>Mon, 21 Aug 2017 14:46:53 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
-        <title>Reminder and quotient</title>
+        <title>Remainder and quotient</title>
         <description>&lt;h2 id=&quot;from-binary-to-decimal&quot;&gt;From binary to decimal&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -151,8 +151,8 @@ for(index in 1:24){
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 21 Aug 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/08/21/reminder_quotient.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/08/21/reminder_quotient.html</guid>
+        <link>http://localhost:4000/2017/08/21/remainder_quotient.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/21/remainder_quotient.html</guid>
         
         <category>cs</category>
         

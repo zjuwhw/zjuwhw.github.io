@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reminder and quotient
+title: Remainder and quotient
 date: 2017-08-21
 tags: ["cs"]
 ---
