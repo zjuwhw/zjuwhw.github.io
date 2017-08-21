@@ -6,9 +6,158 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Aug 2017 14:30:49 +1000</pubDate>
-    <lastBuildDate>Fri, 18 Aug 2017 14:30:49 +1000</lastBuildDate>
+    <pubDate>Mon, 21 Aug 2017 14:43:54 +1000</pubDate>
+    <lastBuildDate>Mon, 21 Aug 2017 14:43:54 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Reminder and quotient</title>
+        <description>&lt;h2 id=&quot;from-binary-to-decimal&quot;&gt;From binary to decimal&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;binary: “1101”&lt;/li&gt;
+  &lt;li&gt;decimal: “13”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;1 × 2&lt;sup&gt;4 − 1&lt;/sup&gt; + 1 × 2&lt;sup&gt;3 − 1&lt;/sup&gt; + 0 × 2&lt;sup&gt;2 − 1&lt;/sup&gt; + 1 × 2&lt;sup&gt;1 − 1&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;=1 × 2&lt;sup&gt;3&lt;/sup&gt; + 1 × 2&lt;sup&gt;2&lt;/sup&gt; + 1 × 2&lt;sup&gt;1&lt;/sup&gt; + 1 × 2&lt;sup&gt;0&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;=8 + 4 + 1 = 13&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;BinToDec = function(x){
+  sum(2^(which(rev(unlist(strsplit(as.character(x), &quot;&quot;)) == 1))-1))
+}
+DecToBin = function(x){
+  bin=&quot;&quot;
+  while(x != 0){
+    bin = paste(x%%2,bin,sep=&quot;&quot;)
+    x = x %/% 2
+  }
+  return(bin)
+}
+
+BinToDec(&quot;1101&quot;)
+
+## [1] 13
+
+DecToBin(13)
+
+## [1] &quot;1101&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;from-n-ary-to-decimal&quot;&gt;From n-ary to decimal&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NaryToDec = function(x, n){
+  sum(n^(which(rev(unlist(strsplit(as.character(x), &quot;&quot;)) == 1))-1))
+}
+DecToNary = function(x,n){
+  bin=&quot;&quot;
+  while(x != 0){
+    bin = paste(x%%n,bin,sep=&quot;&quot;)
+    x = x %/% n
+  }
+  return(bin)
+}
+
+NaryToDec(&quot;1101&quot;,2)
+
+## [1] 13
+
+DecToNary(13,2)
+
+## [1] &quot;1101&quot;
+
+DecToNary(13,3)
+
+## [1] &quot;111&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;multiple-loop-indexs-to-one-loop-index&quot;&gt;multiple loop indexs to one loop index&lt;/h2&gt;
+
+&lt;p&gt;It’s common for me to run a script using multiple loops to iterate.
+I usually just put one for-loop into the nest of antoher for-loop.&lt;/p&gt;
+
+&lt;p&gt;But if I would like to parallel them using different nodes in a computing cluster and
+submit a job array using one index, how to do it?&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for(a in 1:2){
+  for(b in 1:3){
+    for(c in 1:4){
+      print(paste(a,b,c,sep=&quot; &quot;))
+    }
+  }
+}
+
+## [1] &quot;1 1 1&quot;
+## [1] &quot;1 1 2&quot;
+## [1] &quot;1 1 3&quot;
+## [1] &quot;1 1 4&quot;
+## [1] &quot;1 2 1&quot;
+## [1] &quot;1 2 2&quot;
+## [1] &quot;1 2 3&quot;
+## [1] &quot;1 2 4&quot;
+## [1] &quot;1 3 1&quot;
+## [1] &quot;1 3 2&quot;
+## [1] &quot;1 3 3&quot;
+## [1] &quot;1 3 4&quot;
+## [1] &quot;2 1 1&quot;
+## [1] &quot;2 1 2&quot;
+## [1] &quot;2 1 3&quot;
+## [1] &quot;2 1 4&quot;
+## [1] &quot;2 2 1&quot;
+## [1] &quot;2 2 2&quot;
+## [1] &quot;2 2 3&quot;
+## [1] &quot;2 2 4&quot;
+## [1] &quot;2 3 1&quot;
+## [1] &quot;2 3 2&quot;
+## [1] &quot;2 3 3&quot;
+## [1] &quot;2 3 4&quot;
+
+for(index in 1:24){
+  ar = (index-1) %% 2 + 1; aq = (index-1) %/% 2
+  br = (aq - 1) %% 3 + 1; bq = (aq - 1) %/% 3
+  cr = (bq - 1) %% 4 + 1
+  print(paste(ar,br,cr,sep=&quot; &quot;))
+}
+
+## [1] &quot;1 3 3&quot;
+## [1] &quot;2 3 3&quot;
+## [1] &quot;1 1 4&quot;
+## [1] &quot;2 1 4&quot;
+## [1] &quot;1 2 4&quot;
+## [1] &quot;2 2 4&quot;
+## [1] &quot;1 3 4&quot;
+## [1] &quot;2 3 4&quot;
+## [1] &quot;1 1 1&quot;
+## [1] &quot;2 1 1&quot;
+## [1] &quot;1 2 1&quot;
+## [1] &quot;2 2 1&quot;
+## [1] &quot;1 3 1&quot;
+## [1] &quot;2 3 1&quot;
+## [1] &quot;1 1 2&quot;
+## [1] &quot;2 1 2&quot;
+## [1] &quot;1 2 2&quot;
+## [1] &quot;2 2 2&quot;
+## [1] &quot;1 3 2&quot;
+## [1] &quot;2 3 2&quot;
+## [1] &quot;1 1 3&quot;
+## [1] &quot;2 1 3&quot;
+## [1] &quot;1 2 3&quot;
+## [1] &quot;2 2 3&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 21 Aug 2017 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2017/08/21/reminder_quotient.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/21/reminder_quotient.html</guid>
+        
+        <category>cs</category>
+        
+        
+      </item>
     
       <item>
         <title>Ways to manipulate plink bfile</title>
@@ -2843,138 +2992,6 @@ H1: The data are not like a simple random sample from the population in the null
         <category>mooc笔记</category>
         
         <category>python</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Statistic ONE学习笔记</title>
-        <description>&lt;p&gt;Bimodal distribution: a non-normal distribution consisting of two modes; two scores (or two ranges of scores) that share the greatest frequency; characterized by two peaks in a histogram.&lt;/p&gt;
-
-&lt;p&gt;Classical test theory (also known as true score theory): A theory of measurement that assumes that, for each subject, an observed score (raw score) consists of a true score and error, which may be due to bias and/or chance.&lt;/p&gt;
-
-&lt;p&gt;Confound variable: an unknown, unmeasured, or extraneous variable that is correlated with both the dependent variable and the independent variable in experimental research, thus compromising causal arguments.&lt;/p&gt;
-
-&lt;p&gt;Correlation (general): refers to any of a broad class of statistical relationships involving dependence between two variables.&lt;/p&gt;
-
-&lt;p&gt;Correlation (Pearson-product moment, r): a measure of the relationship between two continuous variables.&lt;/p&gt;
-
-&lt;p&gt;Correlation (Phi coefficient): a measure of the relationship between two categorical variables.&lt;/p&gt;
-
-&lt;p&gt;Correlation (Point-bi-serial): a measure of the relationship between one continuous variable and one categorical variable.&lt;/p&gt;
-
-&lt;p&gt;Correlation (Spearman rank order): a measure of the relationship between two ranked (ordinal) variables.&lt;/p&gt;
-
-&lt;p&gt;Construct: an idealized object of investigation that is not directly observable.&lt;/p&gt;
-
-&lt;p&gt;Covariance: a measure quantifying the degree to which two variables vary together. Also, unstandardized correlation.&lt;/p&gt;
-
-&lt;p&gt;Dependent variable: a variable that represents an aspect of the world that the experimenter predicts will be affected by the independent variable.&lt;/p&gt;
-
-&lt;p&gt;Descriptive statistics: procedures used to summarize, organize, and simplify data.&lt;/p&gt;
-
-&lt;p&gt;Double blind experiment: an experiment in which neither the experimenter nor the subject knows whether the treatment is experimental or control.&lt;/p&gt;
-
-&lt;p&gt;Homoscedasticity: an assumption underlying linear correlation and regression analysis, according to which residuals are orthogonal to the predictor variable (X).&lt;/p&gt;
-
-&lt;p&gt;Independent variable: a variable manipulated by the experimenter.&lt;/p&gt;
-
-&lt;p&gt;Inferential statistics: procedures that allow for generalizations about population parameters based on sample statistics.&lt;/p&gt;
-
-&lt;p&gt;Intercept: In a regression analysis, the predicted score on the outcome variable (Y) when all predictors (X) equal zero. Also known as the regression constant.&lt;/p&gt;
-
-&lt;p&gt;Interval variable: a type of variable that is used to not only categorize cases but also to distinguish cases as greater than or less than.  Furthermore, all distinctions are equivalent across all possible values.&lt;/p&gt;
-
-&lt;p&gt;Leptokurtic distribution: a non-normal distribution with a high kurtosis value; characterized by one high peak in a histogram.&lt;/p&gt;
-
-&lt;p&gt;Linear Regression: A statistical procedure used to estimate the relationship between an outcome variable (Y) and one or more predictor variables (X). Simple regression refers to analyses with just one predictor variable whereas multiple regression refers to analyses with more than one predictor variable.&lt;/p&gt;
-
-&lt;p&gt;Mean (M = ΣX/N): A measure of central tendency used to describe the center point of a distribution and/or sample (also known as the average).&lt;/p&gt;
-
-&lt;p&gt;Mean Squares (MS = SS/N): A measure of variability, more commonly referred to as variance.&lt;/p&gt;
-
-&lt;p&gt;Median: A measure of central tendency equivalent to the 50th percentile rank of a distribution/sample. Often preferred when distributions are skewed because it is more resistant to extreme scores than the mean.&lt;/p&gt;
-
-&lt;p&gt;Mode: A measure of central tendency; the most frequent score in a distribution/sample.&lt;/p&gt;
-
-&lt;p&gt;Negatively skewed distribution: a non-normal distribution consisting of a few or many extreme scores on the negative end of a scale (typically the left side of an x-axis).&lt;/p&gt;
-
-&lt;p&gt;Nominal variable: the most basic variable type, used to assign cases to categories.&lt;/p&gt;
-
-&lt;p&gt;Normal distribution: also known as a Gaussian distribution, or bell curve, due to greater frequency around the mean and symmetry.&lt;/p&gt;
-
-&lt;p&gt;Null Hypothesis Significance Testing (NHST): A form of hypothesis testing that controls the probability of incorrectly deciding that a default position (null hypothesis) is incorrect based on how likely it would be for a set of observations (data) to occur if the null hypothesis were true.&lt;/p&gt;
-
-&lt;p&gt;Ordinary Least Squares (OLS): In linear regression analysis, a method for estimating unknown regression coefficients (or parameters), in which the sum of the squared residuals is minimized.&lt;/p&gt;
-
-&lt;p&gt;Ordinal variable: a type of variable that is used to not only categorize cases but also to distinguish cases as greater than or less than.&lt;/p&gt;
-
-&lt;p&gt;Parameter: a numerical measure that describes a characteristic of a population.&lt;/p&gt;
-
-&lt;p&gt;Population: the entire collection of cases to which one attempts to generalize.&lt;/p&gt;
-
-&lt;p&gt;Percentile rank: the percentage of scores that fall at or below a given score in a distribution.&lt;/p&gt;
-
-&lt;p&gt;Platykurtic distribution: see uniform distribution.&lt;/p&gt;
-
-&lt;p&gt;Positively skewed distribution: a non-normal distribution consisting of many or few extreme scores on the positive end of the x-axis&lt;/p&gt;
-
-&lt;p&gt;Quasi-independent variable: a variable that resembles an independent variable but is not manipulated by the experimenter.&lt;/p&gt;
-
-&lt;p&gt;Ratio variable: a type of of variable with all the qualities of an interval variable but also has a true zero point.&lt;/p&gt;
-
-&lt;p&gt;Reliability estimate: a statistic that estimates the consistency of a measurement (methods include test/retest, parallel tests, and inter-item).&lt;/p&gt;
-
-&lt;p&gt;Residual: In a regression analysis, it is the prediction error, or the difference between an individual’s score on the outcome variable (Y) and their score predicted by the regression model.&lt;/p&gt;
-
-&lt;p&gt;Sample: a subset of the population.&lt;/p&gt;
-
-&lt;p&gt;Slope: In a regression analysis, it is the predicted change in Y associated with a one-unit increase in X.  Also known as the regression coefficient.&lt;/p&gt;
-
-&lt;p&gt;Standard deviation (SD = SQRT(MS)): The square root of variance; or an estimate of the average deviation in a sample.&lt;/p&gt;
-
-&lt;p&gt;Statistic: a numerical measure that describes a characteristic of a sample.&lt;/p&gt;
-
-&lt;p&gt;Sum of cross products (SP = Σ[(X – MX)*(Y – MY)]): used to calculate the correlation and covariance between two variables, X and Y.&lt;/p&gt;
-
-&lt;p&gt;Sum of squares (SS = Σ(X – M)2): The sum of squared deviation scores.&lt;/p&gt;
-
-&lt;p&gt;Type I error: In NHST, incorrectly rejecting the null hypothesis when it should have been retained.&lt;/p&gt;
-
-&lt;p&gt;Type II error: In NHST, incorrectly retaining the null hypothesis when it should have been rejected.&lt;/p&gt;
-
-&lt;p&gt;Uniform distribution: A non-normal distribution in which frequency is nearly equivalent across all possible values. Also known at platykurtic.&lt;/p&gt;
-
-&lt;p&gt;Validity (construct): the notion that observations or measurement tools actually represent or measure the construct being investigated.&lt;/p&gt;
-
-&lt;p&gt;Validity (content): the notion that the items or devices used to obtain a score on a measure are representative of the underlying construct.&lt;/p&gt;
-
-&lt;p&gt;Validity (convergent): the notion that scores on a measure should correlate with scores on other measures used to define the same, or similar, constructs.&lt;/p&gt;
-
-&lt;p&gt;Validity (divergent): the notion that scores on a measure should not correlate, or weakly correlate, with scores on measures used to define unrelated constructs.&lt;/p&gt;
-
-&lt;p&gt;Validity (nomological): the notion that scores on a measure are consistent with more general theories, including theories from other disciplines of science.&lt;/p&gt;
-
-&lt;p&gt;Variance (MS or SD2): A measure of variability, also known as Mean-Squares (MS) and equal to standard deviation (SD) squared.&lt;/p&gt;
-
-&lt;p&gt;Z-scale: A universal metric in statistics used to standardize different scales, such that for any metric, M=0 and SD=1.&lt;/p&gt;
-
-&lt;p&gt;Z-score (Z = (X-M) / SD): A score on a Z-scale.&lt;/p&gt;
-
-&lt;p&gt;注明：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;本博客原来地址为：&lt;a href=&quot;https://sites.google.com/site/zjuwhwsblog/glossary/statisticoneoncoursera&quot;&gt;https://sites.google.com/site/zjuwhwsblog/glossary/statisticoneoncoursera&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;内容来自于Coursera上Princeton大学的《Statistic One》（不过目前已经下线）&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Thu, 02 Mar 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/03/02/coursera_statistic-one.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/03/02/coursera_statistic-one.html</guid>
-        
-        <category>statistics</category>
-        
-        <category>mooc</category>
         
         
       </item>
