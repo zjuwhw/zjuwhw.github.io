@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>换行符</title>
-  <meta name="description" content="  windows: \r\n  unix: \n">
+  <title>P-values under null hypothesis</title>
+  <meta name="description" content="P values are also random variables. The distribution of p values undernull hypothesis should be a uniform one.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/2016/09/02/line_break.html">
+  <link rel="canonical" href="http://localhost:4000/2017/08/10/pvalue_null.html">
   <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -75,25 +75,41 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">换行符</h1>
-    <p class="post-meta"><time datetime="2016-09-02T00:00:00+10:00" itemprop="datePublished">Sep 2, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">P-values under null hypothesis</h1>
+    <p class="post-meta"><time datetime="2017-08-10T00:00:00+10:00" itemprop="datePublished">Aug 10, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <ul>
-  <li>windows: \r\n</li>
-  <li>unix: \n</li>
-</ul>
+    <p>P values are also random variables. The distribution of p values under
+null hypothesis should be a uniform one.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>sed -e 's/$/\r/' inputfile &gt; outputfile                # UNIX to DOS  (adding CRs)
-sed -e 's/\r$//' inputfile &gt; outputfile                # DOS  to UNIX (removing CRs)
-perl -pe 's/\r\n|\n|\r/\r\n/g' inputfile &gt; outputfile  # Convert to DOS
-perl -pe 's/\r\n|\n|\r/\n/g'   inputfile &gt; outputfile  # Convert to UNIX
-perl -pe 's/\r\n|\n|\r/\r/g'   inputfile &gt; outputfile  # Convert to old Mac
+<div class="highlighter-rouge"><pre class="highlight"><code>set.seed(1)
+y = rnorm(50)
+ps = c()
+for(i in 1:2000){
+  x = rnorm(50)
+  p = summary(lm(y~x))$coefficients[2,4]
+  ps = c(ps, p)
+}
+hist(ps,breaks=seq(0,1,0.05),col=c("red",rep("white",19)), main = "Distribution of P values under null (2000 replications)", freq=FALSE, xlab="P")
 </code></pre>
 </div>
 
-<p>参考： <a href="http://stackoverflow.com/questions/6373888/converting-newline-formatting-from-mac-to-windows">stackoverflow.com</a></p>
+<p><img src="/images/pvalue-chunk-1-1.png" alt="" /></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot">QQ-plot</a> can show the p
+values follow an uniform distribution.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>library(car)
+qqPlot(ps, distribution="unif")
+</code></pre>
+</div>
+
+<p><img src="/images/pvalue-chunk-2-1.png" alt="" /></p>
+
+<h1 id="proof">Proof</h1>
+
+<p><a href="http://vasishth-statistics.blogspot.com.au/2016/04/a-simple-proof-that-p-value.html">http://vasishth-statistics.blogspot.com.au/2016/04/a-simple-proof-that-p-value.html</a></p>
 
   </div>
 
