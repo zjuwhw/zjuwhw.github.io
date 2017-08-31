@@ -6,9 +6,120 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Aug 2017 16:57:01 +1000</pubDate>
-    <lastBuildDate>Thu, 31 Aug 2017 16:57:01 +1000</lastBuildDate>
+    <pubDate>Thu, 31 Aug 2017 20:29:05 +1000</pubDate>
+    <lastBuildDate>Thu, 31 Aug 2017 20:29:05 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>sampling distribution of correlation r</title>
+        <description>&lt;h2 id=&quot;two-independent-variables&quot;&gt;two independent variables&lt;/h2&gt;
+
+&lt;p&gt;If r is the correlation coefficient of two independent variables x1 and
+x2, then r should be 0. However the sample estimation of r is not
+exactly 0. There is a sampling distribution around 0.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rep = 1000; n = 25
+set.seed(1)
+cors = c()
+for(i in 1:rep){
+  x1 = rnorm(n)
+  x2 = rnorm(n)
+  r = cor(x1,x2)
+  cors = c(cors, r)
+}
+layout(matrix(1:2,1,2))
+par(cex.main=0.75)
+plot(x1, x2, main = paste(&quot;Scatterplot of last simulation\nn=&quot;,n,&quot;, estimated r = &quot;, round(r,4), sep=&quot;&quot;))
+hist(cors, main = paste(&quot;Distribution of estimated r\nmean=&quot;,round(mean(cors),4),&quot; SD=&quot;,round(sd(cors),4),&quot;\n(&quot;,rep,&quot; simulations of sample size = &quot;,n,&quot;)&quot;, sep=&quot;&quot;), xlab=expression(hat(r)), freq=F)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/samdis_cor-chunk-1-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;two-correlated-variables&quot;&gt;two correlated variables&lt;/h2&gt;
+
+&lt;p&gt;However, if the population correlation is not equal to 0, the
+distribution of estimated r is skewed.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rep = 1000; n = 25
+set.seed(1)
+cors = c()
+for(i in 1:rep){
+  x1 = rnorm(n)
+  x2 = rnorm(n)
+  r = cor(x1,x1+2*x2)
+  cors = c(cors, r)
+}
+layout(matrix(1:2,1,2))
+par(cex.main=0.75)
+plot(x1, x2, main = paste(&quot;Scatterplot of last simulation\nn=&quot;,n,&quot;, estimated r = &quot;, round(r,4), sep=&quot;&quot;))
+hist(cors, main = paste(&quot;Distribution of estimated r\nmean=&quot;,round(mean(cors),4),&quot; SD=&quot;,round(sd(cors),4),&quot;\n(&quot;,rep,&quot; simulations of sample size = &quot;,n,&quot;)&quot;, sep=&quot;&quot;), xlab=expression(hat(r)), freq=F)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/samdis_cor-chunk-2-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that if x1 and x2 are two independent standard normal variables,
+the correlation between x1 and x1+2*x2 should be:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;cor(x_1,x_1+2x_2) = \frac{cov(x_1, x_1+2x_2)}{\sqrt{var(x_1) \times var(x_1+2x_2)}}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;= \frac{cov(x_1,x_1)+2cov(x_1,x_2)}{\sqrt{var(x1)\times (var(x_1)+4var(x_2)+2\times 2 \times cov(x_1,x_2))}}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;= \frac{1+0}{\sqrt{1 \times 5}} = 0.4472136&lt;/script&gt;
+
+&lt;h2 id=&quot;fishers-z-transformtion&quot;&gt;Fisher’s z transformtion&lt;/h2&gt;
+
+&lt;p&gt;Fisher developed a way to r to z’:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;z' = \frac{1}{2} \times ln\frac{1+r}{1-r} \sim N( \mu, \frac{1}{\sqrt{N-3}} )&lt;/script&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rep = 1000; n = 25
+set.seed(1)
+zs = c()
+for(i in 1:rep){
+  x1 = rnorm(n)
+  x2 = rnorm(n)
+  r = cor(x1,x1+2*x2)
+  z = log((1+r)/(1-r))/2
+  zs = c(zs, z)
+}
+layout(matrix(1:2,1,2))
+par(cex.main=0.75)
+plot(x1, x2, main = paste(&quot;Scatterplot of last simulation\nn=&quot;,n,&quot;, estimated r = &quot;, round(r,4),&quot;, z' = &quot;, round(z,4), sep=&quot;&quot;))
+hist(zs, main = paste(&quot;Distribution of z'\nmean=&quot;,round(mean(zs),4),&quot; SD=&quot;,round(sd(zs),4),&quot;\n(&quot;,rep,&quot; simulations of sample size = &quot;,n,&quot;)&quot;, sep=&quot;&quot;), xlab=&quot;z'&quot;, freq=F)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/samdis_cor-chunk-3-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;### The mean of z'
+0.5 * log((1+0.4472136)/(1-0.4472136))
+
+## [1] 0.4812118
+
+### The standard error of z'
+1/sqrt(n-3)
+
+## [1] 0.2132007
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://onlinestatbook.com/2/sampling_distributions/samp_dist_r.html&quot;&gt;Sampling Distribution of Pearson’s
+r&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 31 Aug 2017 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2017/08/31/sampling_cor.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/31/sampling_cor.html</guid>
+        
+        <category>statistics</category>
+        
+        
+      </item>
     
       <item>
         <title>mean, variance and correlation</title>
@@ -2888,64 +2999,6 @@ H1: The data are not like a simple random sample from the population in the null
         <guid isPermaLink="true">http://localhost:4000/2017/05/09/PBS.html</guid>
         
         <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>GWAS analysis</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Genome-wide_association_study&quot;&gt;GWAS&lt;/a&gt; is a popular method to detect the genetic variants associated with a trait in different individuals.&lt;/p&gt;
-
-&lt;p&gt;I found a series of four papers written by &lt;a href=&quot;http://www.well.ox.ac.uk/home&quot;&gt;Wellcome Trust Center for Human Genetics&lt;/a&gt; published on &lt;a href=&quot;http://www.nature.com/nprot/index.html&quot;&gt;Nature Protocol&lt;/a&gt;, which is a great resource for beginners (list shown below).&lt;/p&gt;
-
-&lt;p&gt;This blog is the notebook for these four paper.&lt;/p&gt;
-
-&lt;h2 id=&quot;study-design&quot;&gt;Study design&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;phenotype&lt;/li&gt;
-  &lt;li&gt;heritability&lt;/li&gt;
-  &lt;li&gt;consider the population-based method&lt;/li&gt;
-  &lt;li&gt;controls&lt;/li&gt;
-  &lt;li&gt;sample size&lt;/li&gt;
-  &lt;li&gt;de novo or repliction study&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;data-quality-control&quot;&gt;Data quality control&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Per-individual QC
-    &lt;ul&gt;
-      &lt;li&gt;identification of individuals with discordant sex information&lt;/li&gt;
-      &lt;li&gt;identification of individuals with outlying missing genotype or heterozygosity rates&lt;/li&gt;
-      &lt;li&gt;identification of duplicated or related individuals&lt;/li&gt;
-      &lt;li&gt;identification of individuals of divergent ancestry&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Per-marker QC
-    &lt;ul&gt;
-      &lt;li&gt;identification of SNPs with an excessive missing genotype&lt;/li&gt;
-      &lt;li&gt;identification of SNPs showing a significant deviation from Hardy-Weinberg equilibrium (HWE)&lt;/li&gt;
-      &lt;li&gt;identification of SNPs with significantly different missing genotype rates between cases and controls&lt;/li&gt;
-      &lt;li&gt;the removal of all markers with a very low minor allele frequency (MAF)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;paper-list&quot;&gt;Paper list&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Zondervan, K. T., &amp;amp; Cardon, L. R. (2007). &lt;strong&gt;Designing candidate gene and genome-wide case–control association studies.&lt;/strong&gt; Nature Protocols, 2(10), 2492–2501. &lt;a href=&quot;https://doi.org/10.1038/nprot.2007.366&quot;&gt;https://doi.org/10.1038/nprot.2007.366&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Pettersson, F. H., Anderson, C. A., Clarke, G. M., Barrett, J. C., Cardon, L. R., Morris, A. P., &amp;amp; Zondervan, K. T. (2009). &lt;strong&gt;Marker selection for genetic case–control association studies.&lt;/strong&gt; Nature Protocols, 4(5), 743–752. &lt;a href=&quot;https://doi.org/10.1038/nprot.2009.38&quot;&gt;https://doi.org/10.1038/nprot.2009.38&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Anderson, C., Pettersson, F., Clarke, G., Cardon, L., Morris, A., &amp;amp; Zondervan, K. (2010). &lt;strong&gt;Data quality control in genetic case-control association studies.&lt;/strong&gt; Nat Protoc., 5(9), 1564–1573. &lt;a href=&quot;https://doi.org/10.1038/nprot.2010.116&quot;&gt;https://doi.org/10.1038/nprot.2010.116&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Clarke, G. M., Anderson, C. a, Pettersson, F. H., Cardon, L. R., &amp;amp; Andrew, P. (2011). &lt;strong&gt;Basic statistical analysis in genetic case-control studies.&lt;/strong&gt; Nature Protocols, 6(2), 121–133. &lt;a href=&quot;https://doi.org/10.1038/nprot.2010.182.Basic&quot;&gt;https://doi.org/10.1038/nprot.2010.182.Basic&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 05 May 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/05/05/GWAS_analysis.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/05/GWAS_analysis.html</guid>
-        
-        <category>GWAS</category>
         
         
       </item>

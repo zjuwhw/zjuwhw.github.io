@@ -1,0 +1,75 @@
+# remainder and quotient
+
+## From binary to decimal
+
+- binary: "1101"
+- decimal: "13"
+
+$1\times2^{4-1} + 1\times 2^{3-1} + 0 \times 2^{2-1} + 1 \times 2^{1-1}$
+
+$= 1\times2^3+ 1\times 2^2+1\times 2^1 + 1\times 2^0$
+
+$= 8+4+1 = 13$
+
+```{r}
+BinToDec = function(x){
+  sum(2^(which(rev(unlist(strsplit(as.character(x), "")) == 1))-1))
+}
+DecToBin = function(x){
+  bin=""
+  while(x != 0){
+    bin = paste(x%%2,bin,sep="")
+    x = x %/% 2
+  }
+  return(bin)
+}
+
+BinToDec("1101")
+DecToBin(13)
+```
+
+## From n-ary to decimal
+
+```{r}
+NaryToDec = function(x, n){
+  sum(n^(which(rev(unlist(strsplit(as.character(x), "")) == 1))-1))
+}
+DecToNary = function(x,n){
+  bin=""
+  while(x != 0){
+    bin = paste(x%%n,bin,sep="")
+    x = x %/% n
+  }
+  return(bin)
+}
+
+NaryToDec("1101",2)
+DecToNary(13,2)
+DecToNary(13,3)
+```
+
+## multiple loop indexs to one loop index
+
+It's common for me to run a scripte using multiple variables to iterate. I usually just put one for-loop into the nest of antoher for-loop.
+
+But if I would like to parallel them using a computing cluster and submit a job array using one index, how to do it?
+
+```{r}
+for(a in 1:2){
+  for(b in 1:3){
+    for(c in 1:4){
+      print(paste(a,b,c,sep=" "))
+    }
+  }
+}
+```
+
+
+```{r}
+for(index in 1:24){
+  ar = (index-1) %% 2 + 1; aq = (index-1) %/% 2
+  br = (aq - 1) %% 3 + 1; bq = (aq - 1) %/% 3
+  cr = (bq - 1) %% 4 + 1
+  print(paste(ar,br,cr,sep=" "))
+}
+```

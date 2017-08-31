@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Illumina测序仪</title>
-  <meta name="description" content="illumina测序仪：">
+  <title>sampling distribution of correlation r</title>
+  <meta name="description" content="two independent variables">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/2016/08/13/Illumina_sequencer.html">
+  <link rel="canonical" href="http://localhost:4000/2017/08/31/sampling_cor.html">
   <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -79,44 +79,109 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Illumina测序仪</h1>
-    <p class="post-meta"><time datetime="2016-08-13T00:00:00+10:00" itemprop="datePublished">Aug 13, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">sampling distribution of correlation r</h1>
+    <p class="post-meta"><time datetime="2017-08-31T00:00:00+10:00" itemprop="datePublished">Aug 31, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h2 id="illumina测序仪">illumina测序仪：</h2>
+    <h2 id="two-independent-variables">two independent variables</h2>
 
-<p>GA, GAII, MiSeq, NextSeq, HiSeq 2000, HiSeq 2500, HiSeq X Ten</p>
+<p>If r is the correlation coefficient of two independent variables x1 and
+x2, then r should be 0. However the sample estimation of r is not
+exactly 0. There is a sampling distribution around 0.</p>
 
-<p><img src="/images/illumina_sequencer_1.png" alt="" /></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>rep = 1000; n = 25
+set.seed(1)
+cors = c()
+for(i in 1:rep){
+  x1 = rnorm(n)
+  x2 = rnorm(n)
+  r = cor(x1,x2)
+  cors = c(cors, r)
+}
+layout(matrix(1:2,1,2))
+par(cex.main=0.75)
+plot(x1, x2, main = paste("Scatterplot of last simulation\nn=",n,", estimated r = ", round(r,4), sep=""))
+hist(cors, main = paste("Distribution of estimated r\nmean=",round(mean(cors),4)," SD=",round(sd(cors),4),"\n(",rep," simulations of sample size = ",n,")", sep=""), xlab=expression(hat(r)), freq=F)
+</code></pre>
+</div>
 
-<p><img src="/images/illumina_sequencer_2.png" alt="" /></p>
+<p><img src="/images/samdis_cor-chunk-1-1.png" alt="" /></p>
 
-<h2 id="flow-cell">Flow Cell:</h2>
+<h2 id="two-correlated-variables">two correlated variables</h2>
 
-<ul>
-  <li>1个flow cell包含8个lane</li>
-  <li>1个lane可以测1个样本或多样本的混合物</li>
-  <li>1个lane包含2列</li>
-  <li>1列包含50个tiles</li>
-  <li>1个tile有不同的cluster</li>
-</ul>
+<p>However, if the population correlation is not equal to 0, the
+distribution of estimated r is skewed.</p>
 
-<p><img src="/images/illumina_flowcell.png" alt="" /></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>rep = 1000; n = 25
+set.seed(1)
+cors = c()
+for(i in 1:rep){
+  x1 = rnorm(n)
+  x2 = rnorm(n)
+  r = cor(x1,x1+2*x2)
+  cors = c(cors, r)
+}
+layout(matrix(1:2,1,2))
+par(cex.main=0.75)
+plot(x1, x2, main = paste("Scatterplot of last simulation\nn=",n,", estimated r = ", round(r,4), sep=""))
+hist(cors, main = paste("Distribution of estimated r\nmean=",round(mean(cors),4)," SD=",round(sd(cors),4),"\n(",rep," simulations of sample size = ",n,")", sep=""), xlab=expression(hat(r)), freq=F)
+</code></pre>
+</div>
 
-<h2 id="各个测序仪之间的比较">各个测序仪之间的比较</h2>
+<p><img src="/images/samdis_cor-chunk-2-1.png" alt="" /></p>
 
-<p>下图来自于著名的文献《Field Guide to Next Generation DNA Sequencers》</p>
+<p>Note that if x1 and x2 are two independent standard normal variables,
+the correlation between x1 and x1+2*x2 should be:</p>
 
-<p><img src="/images/sequencer_comparision.png" alt="" /></p>
+<script type="math/tex; mode=display">cor(x_1,x_1+2x_2) = \frac{cov(x_1, x_1+2x_2)}{\sqrt{var(x_1) \times var(x_1+2x_2)}}</script>
 
-<h2 id="参考资料">参考资料：</h2>
+<script type="math/tex; mode=display">= \frac{cov(x_1,x_1)+2cov(x_1,x_2)}{\sqrt{var(x1)\times (var(x_1)+4var(x_2)+2\times 2 \times cov(x_1,x_2))}}</script>
+
+<script type="math/tex; mode=display">= \frac{1+0}{\sqrt{1 \times 5}} = 0.4472136</script>
+
+<h2 id="fishers-z-transformtion">Fisher’s z transformtion</h2>
+
+<p>Fisher developed a way to r to z’:</p>
+
+<script type="math/tex; mode=display">z' = \frac{1}{2} \times ln\frac{1+r}{1-r} \sim N( \mu, \frac{1}{\sqrt{N-3}} )</script>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>rep = 1000; n = 25
+set.seed(1)
+zs = c()
+for(i in 1:rep){
+  x1 = rnorm(n)
+  x2 = rnorm(n)
+  r = cor(x1,x1+2*x2)
+  z = log((1+r)/(1-r))/2
+  zs = c(zs, z)
+}
+layout(matrix(1:2,1,2))
+par(cex.main=0.75)
+plot(x1, x2, main = paste("Scatterplot of last simulation\nn=",n,", estimated r = ", round(r,4),", z' = ", round(z,4), sep=""))
+hist(zs, main = paste("Distribution of z'\nmean=",round(mean(zs),4)," SD=",round(sd(zs),4),"\n(",rep," simulations of sample size = ",n,")", sep=""), xlab="z'", freq=F)
+</code></pre>
+</div>
+
+<p><img src="/images/samdis_cor-chunk-3-1.png" alt="" /></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>### The mean of z'
+0.5 * log((1+0.4472136)/(1-0.4472136))
+
+## [1] 0.4812118
+
+### The standard error of z'
+1/sqrt(n-3)
+
+## [1] 0.2132007
+</code></pre>
+</div>
+
+<h2 id="reference">Reference</h2>
 
 <ol>
-  <li>illumina线下讲座</li>
-  <li><a href="http://blog.sciencenet.cn/blog-777771-609814.html">科学网一篇博客</a></li>
-  <li><a href="http://www.molecularecologist.com/next-gen-fieldguide-2014/">“Field Guide to Next Generation DNA Sequencers”</a></li>
-  <li><a href="http://omicsmaps.com/">全球测序仪分布</a>：可能更新不是特别及时，例如X-Ten的数据</li>
+  <li><a href="http://onlinestatbook.com/2/sampling_distributions/samp_dist_r.html">Sampling Distribution of Pearson’s
+r</a></li>
 </ol>
 
   </div>
