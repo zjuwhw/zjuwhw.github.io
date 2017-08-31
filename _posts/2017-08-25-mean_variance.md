@@ -104,16 +104,17 @@ tags: ["statistics"]
 
 the normal error regression model:
 
-*Y* = *β*<sub>0</sub> + *β*<sub>1</sub>*X* + *ϵ*
+$$Y = \beta_0 + \beta_1X + \epsilon$$
 
 the estimation of regression function:
 
-$$\\hat{Y\_i} = b\_0 + b\_1X\_i\\text{, with }b\_1 = \\frac{SS\_{XY}}{SS\_X}, b\_0 = \\bar{Y} - b\_1\\bar{X}$$
+$$\hat{Y_i} = b_0 + b_1X_i\text{, with }b_1 = \frac{SS_{XY}}{SS_X}, b_0 = \bar{Y} - b_1\bar{X}$$
 
 the sampling distributon
 
-$$b\_1  \\sim N(\\beta\_1,\\sigma^2(b\_1))\\text{, so } \\frac{b\_1 - \\beta\_1}{\\sigma(b\_1)} \\sim N(0,1)\\text{, with }\\sigma^2(b\_1) = \\frac{\\sigma^2}{SS\_X}$$
-$$\\frac{b\_1 - \\beta\_1}{s(b\_1)} \\sim t(n-2)\\text{, with }s^2(b\_1) = \\frac{MSE}{SS\_X}$$
+$$b_1  \sim N(\beta_1,\sigma^2(b_1))\text{, so } \frac{b_1 - \beta_1}{\sigma(b_1)} \sim N(0,1)\text{, with }\sigma^2(b_1) = \frac{\sigma^2}{SS_X}$$
+
+$$\frac{b_1 - \beta_1}{s(b_1)} \sim t(n-2)\text{, with }s^2(b_1) = \frac{MSE}{SS_X}$$
 
 <table style="width:100%;">
 <colgroup>
@@ -199,16 +200,16 @@ $$\\frac{b\_1 - \\beta\_1}{s(b\_1)} \\sim t(n-2)\\text{, with }s^2(b\_1) = \\fra
 </tbody>
 </table>
 
-Notes:
+### Notes
 
-1.  *t*<sup>2</sup> and *R*<sup>2</sup>
+####  *t*<sup>2</sup> and *R*<sup>2</sup>
 
 $t^2 = \\frac{b\_1^2}{s(b\_1)^2} = \\frac{\\frac{SS\_{XY}^2}{SS\_X^2}}{\\frac{MSE}{SS\_X}} = \\frac{SS\_{XY}^2}{MSE \\times SS\_X} = (n-2)\\frac{SS\_Y}{SSE}R^2 = (n-2)\\frac{R^2}{\\frac{SSE}{SS\_Y}} = (n-2)\\frac{R^2}{1-R^2}$
 
 When n is large, t(n-1) --&gt; N(0,1), so *t*<sup>2</sup> --&gt;
 *χ*<sub>1</sub><sup>2</sup>.
 
-1.  terms
+####  terminology
 
 -   SS: sum of squares
 -   Var: variance

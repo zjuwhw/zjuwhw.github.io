@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Aug 2017 16:27:36 +1000</pubDate>
-    <lastBuildDate>Thu, 31 Aug 2017 16:27:36 +1000</lastBuildDate>
+    <pubDate>Thu, 31 Aug 2017 16:31:37 +1000</pubDate>
+    <lastBuildDate>Thu, 31 Aug 2017 16:31:37 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -111,16 +111,17 @@
 
 &lt;p&gt;the normal error regression model:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Y&lt;/em&gt; = &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;X&lt;/em&gt; + &lt;em&gt;ϵ&lt;/em&gt;&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Y = \beta_0 + \beta_1X + \epsilon&lt;/script&gt;
 
 &lt;p&gt;the estimation of regression function:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\\hat{Y\_i} = b\_0 + b\_1X\_i\\text{, with }b\_1 = \\frac{SS\_{XY}}{SS\_X}, b\_0 = \\bar{Y} - b\_1\\bar{X}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{Y_i} = b_0 + b_1X_i\text{, with }b_1 = \frac{SS_{XY}}{SS_X}, b_0 = \bar{Y} - b_1\bar{X}&lt;/script&gt;
 
 &lt;p&gt;the sampling distributon&lt;/p&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;b\_1  \\sim N(\\beta\_1,\\sigma^2(b\_1))\\text{, so } \\frac{b\_1 - \\beta\_1}{\\sigma(b\_1)} \\sim N(0,1)\\text{, with }\\sigma^2(b\_1) = \\frac{\\sigma^2}{SS\_X}&lt;/script&gt;
-&lt;script type=&quot;math/tex&quot;&gt;\\frac{b\_1 - \\beta\_1}{s(b\_1)} \\sim t(n-2)\\text{, with }s^2(b\_1) = \\frac{MSE}{SS\_X}&lt;/script&gt;&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;b_1  \sim N(\beta_1,\sigma^2(b_1))\text{, so } \frac{b_1 - \beta_1}{\sigma(b_1)} \sim N(0,1)\text{, with }\sigma^2(b_1) = \frac{\sigma^2}{SS_X}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{b_1 - \beta_1}{s(b_1)} \sim t(n-2)\text{, with }s^2(b_1) = \frac{MSE}{SS_X}&lt;/script&gt;
 
 &lt;table style=&quot;width:100%;&quot;&gt;
 &lt;colgroup&gt;
@@ -206,20 +207,16 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Notes:&lt;/p&gt;
+&lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;em&gt;t&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; and &lt;em&gt;R&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h4 id=&quot;t2-and-r2&quot;&gt;&lt;em&gt;t&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; and &lt;em&gt;R&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/h4&gt;
 
 &lt;p&gt;$t^2 = \frac{b_1^2}{s(b_1)^2} = \frac{\frac{SS_{XY}^2}{SS_X^2}}{\frac{MSE}{SS_X}} = \frac{SS_{XY}^2}{MSE \times SS_X} = (n-2)\frac{SS_Y}{SSE}R^2 = (n-2)\frac{R^2}{\frac{SSE}{SS_Y}} = (n-2)\frac{R^2}{1-R^2}$&lt;/p&gt;
 
 &lt;p&gt;When n is large, t(n-1) –&amp;gt; N(0,1), so &lt;em&gt;t&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; –&amp;gt;
 &lt;em&gt;χ&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;terms&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h4 id=&quot;terminology&quot;&gt;terminology&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;SS: sum of squares&lt;/li&gt;

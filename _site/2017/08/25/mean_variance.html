@@ -177,16 +177,17 @@
 
 <p>the normal error regression model:</p>
 
-<p><em>Y</em> = <em>β</em><sub>0</sub> + <em>β</em><sub>1</sub><em>X</em> + <em>ϵ</em></p>
+<script type="math/tex; mode=display">Y = \beta_0 + \beta_1X + \epsilon</script>
 
 <p>the estimation of regression function:</p>
 
-<script type="math/tex; mode=display">\\hat{Y\_i} = b\_0 + b\_1X\_i\\text{, with }b\_1 = \\frac{SS\_{XY}}{SS\_X}, b\_0 = \\bar{Y} - b\_1\\bar{X}</script>
+<script type="math/tex; mode=display">\hat{Y_i} = b_0 + b_1X_i\text{, with }b_1 = \frac{SS_{XY}}{SS_X}, b_0 = \bar{Y} - b_1\bar{X}</script>
 
 <p>the sampling distributon</p>
 
-<p><script type="math/tex">b\_1  \\sim N(\\beta\_1,\\sigma^2(b\_1))\\text{, so } \\frac{b\_1 - \\beta\_1}{\\sigma(b\_1)} \\sim N(0,1)\\text{, with }\\sigma^2(b\_1) = \\frac{\\sigma^2}{SS\_X}</script>
-<script type="math/tex">\\frac{b\_1 - \\beta\_1}{s(b\_1)} \\sim t(n-2)\\text{, with }s^2(b\_1) = \\frac{MSE}{SS\_X}</script></p>
+<script type="math/tex; mode=display">b_1  \sim N(\beta_1,\sigma^2(b_1))\text{, so } \frac{b_1 - \beta_1}{\sigma(b_1)} \sim N(0,1)\text{, with }\sigma^2(b_1) = \frac{\sigma^2}{SS_X}</script>
+
+<script type="math/tex; mode=display">\frac{b_1 - \beta_1}{s(b_1)} \sim t(n-2)\text{, with }s^2(b_1) = \frac{MSE}{SS_X}</script>
 
 <table style="width:100%;">
 <colgroup>
@@ -272,20 +273,16 @@
 </tbody>
 </table>
 
-<p>Notes:</p>
+<h3 id="notes">Notes</h3>
 
-<ol>
-  <li><em>t</em><sup>2</sup> and <em>R</em><sup>2</sup></li>
-</ol>
+<h4 id="t2-and-r2"><em>t</em><sup>2</sup> and <em>R</em><sup>2</sup></h4>
 
 <p>$t^2 = \frac{b_1^2}{s(b_1)^2} = \frac{\frac{SS_{XY}^2}{SS_X^2}}{\frac{MSE}{SS_X}} = \frac{SS_{XY}^2}{MSE \times SS_X} = (n-2)\frac{SS_Y}{SSE}R^2 = (n-2)\frac{R^2}{\frac{SSE}{SS_Y}} = (n-2)\frac{R^2}{1-R^2}$</p>
 
 <p>When n is large, t(n-1) –&gt; N(0,1), so <em>t</em><sup>2</sup> –&gt;
 <em>χ</em><sub>1</sub><sup>2</sup>.</p>
 
-<ol>
-  <li>terms</li>
-</ol>
+<h4 id="terminology">terminology</h4>
 
 <ul>
   <li>SS: sum of squares</li>
