@@ -2,7 +2,7 @@
 layout: post
 title:  "HTML&CSS学习笔记"
 date:   2016-05-07
-tags: [cs, book, mooc笔记]
+tags: [cs, book, mooc]
 ---
 
 注：本文为Front-End技术HTML和CSS的学习笔记，内容来自图书[《HTML&CSS: design and build websites》](https://book.douban.com/subject/6585090/)

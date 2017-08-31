@@ -1,0 +1,98 @@
+### the measures of one variable
+
+|statistic|$X$|$X+c$|$c \times X$| $scale(X) = \frac{X-mean(X)}{SD(X)}$|
+|:--------|:------------------------|:---------------|:--------------------|:-----|
+|mean(X)|$\frac{\sum{x_i}}{n}$|mean(X) + c|$c \times mean(X)$|0|
+|$SS_X$|$\sum{(x_i - \bar{x})^2} = \sum{x_i^2} - n\bar{x}^2$|$SS_X$|$c^2 \times SS_X$|n-1|
+|Var(X)|$\frac{\sum{(x_i - \bar{x})^2}}{n-1}$|Var(X)|$c^2 \times Var(X)$|1|
+|SD(X)|$\sqrt{\frac{\sum{(x_i - \bar{x})^2}}{n-1}}$|SD(X)|$c \times SD(X)$|1|
+
+### the measures of two variables
+
+|statistic|$X,Y$|$X+c,Y$|$c \times X,Y$| $scale(X), scale(Y)$|
+|:--------|:------------------------|:---------------|:--------------------|:-----|
+|$SS_{XY}$  |$\sum(x_i-\bar{x})(y_i-\bar{y}) = \sum{x_iy_i - n\bar{x}\bar{y}}$|$SS_{XY}$ |$c \times SS_{XY}$|$(n-1) \times  Cor(X,Y)$
+|Cov(X,Y)   |$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{n-1}$ |Cov(X,Y)|$c \times Cov(X,Y)$|Cor(X,Y)
+|Cor(X,Y)   |$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum(x_i-\bar{x})^2 \times \sum(y_i-\bar{y})^2}}$|Cor(X,Y)|Cor(X,Y)|Cor(X,Y)
+
+### SLR (simple linear regression)
+
+the normal error regression model:
+
+$$Y = \beta_0 + \beta_1X + \epsilon$$
+
+the estimation of regression function:
+
+$$\hat{Y_i} = b_0 + b_1X_i\text{, with }b_1 = \frac{SS_{XY}}{SS_X}, b_0 = \bar{Y} - b_1\bar{X}$$
+
+
+the sampling distributon
+
+$$b_1  \sim N(\beta_1,\sigma^2(b_1))\text{, so } \frac{b_1 - \beta_1}{\sigma(b_1)} \sim N(0,1)\text{, with }\sigma^2(b_1) = \frac{\sigma^2}{SS_X}$$
+$$\frac{b_1 - \beta_1}{s(b_1)} \sim t(n-2)\text{, with }s^2(b_1) = \frac{MSE}{SS_X}$$
+
+|statistic|$X,Y$|$X, scale(Y)$|$scale(X), Y$|$scale(X),scale(Y)$|
+|:--------|:------------------------|:---------------|:---------------|:---------------|
+|$b_1$|$\frac{\sum(x_i-\bar{x})(y_i - \bar{y})}{\sum{(x_i-\bar{x})^2}}$|$\frac{b_1}{SD(Y)}$|$b_1SD(X)$|$b_1\frac{SD(X)}{SD(Y)} = Cor(X,Y)$
+|$\hat{Y_i}$|$b_0+b_1X_i = \bar{y}+\frac{\sum(x_i-\bar{x})(y_i - \bar{y})}{\sum{(x_i-\bar{x})^2}}(x_i - \bar{x})$|$\frac{\hat{y_i}-\bar{y}}{SD(y)}$|$\hat{Y_i}$|$\frac{\hat{y_i}-\bar{y}}{SD(y)}$|
+|SSTO($SS_Y$)|$\sum(Y_i - \bar{Y})^2$|$\frac{SSTO}{Var(Y)}$|SSTO|$\frac{SSTO}{Var(Y)}$|
+|SSE|$\sum(Y_i - \hat{Y_{i}})^2$|$\frac{SSE}{Var(Y)}$|SSE|$\frac{SSE}{Var(Y)}$|
+|MSE|$\frac{\sum(Y_i - \hat{Y_i})^2}{n-2}$|$\frac{MSE}{Var(Y)}$|MSE|$\frac{MSE}{Var(Y)}$|
+|SSR|$\sum(\hat{Y_i}-\bar{Y})^2$|$\frac{SSR}{Var(Y)}$|SSR|$\frac{SSR}{Var(Y)}$|
+|$R^2$|$1-\frac{SSE}{SSTO} = \frac{SSR}{SSTO} = Cor(X,Y)^2$|$R^2$|$R^2$|$R^2$|
+|$s(b_1)$|$\sqrt{\frac{MSE}{SS_X}}$|$\frac{s(b_1)}{SD(Y)}$|$s(b_1)SD(X)$|$s(b_1)\frac{SD(X)}{SD(Y)}$
+|t|$\frac{b_1}{s(b_1)} = \frac{SS_{XY}}{\sqrt{MSE}\sqrt{SS_X}} = \pm\sqrt{(n-2)\frac{R^2}{1-R^2}}$|t|t|t|
+
+Notes:
+
+1. $t^2$ and $R^2$
+
+$t^2 = \frac{b_1^2}{s(b_1)^2} = \frac{\frac{SS_{XY}^2}{SS_X^2}}{\frac{MSE}{SS_X}} = \frac{SS_{XY}^2}{MSE \times SS_X} = (n-2)\frac{SS_Y}{SSE}R^2 = (n-2)\frac{R^2}{\frac{SSE}{SS_Y}} = (n-2)\frac{R^2}{1-R^2}$
+
+When n is large, t(n-1) --> N(0,1), so $t^2$ --> $\chi^2_1$.
+
+2. terms
+
+- SS: sum of squares
+- Var: variance
+- SD: standard error
+- Cov: covariance
+- Cor: (Pearson's) correlation coefficient
+- SSTO: total sum of squares
+- SSE: error/residual sum of squares
+- SSR: regression sum of squares
+- MSE: error/residual mean squares
+- $b_1$: the point estimator of $\beta_1$, effect size
+- $s(b_1)$: the standard error of $b_1$, the estimated variance of $b_1$
+
+
+### R code example
+
+```{r}
+lm_example = function(x,y){
+  xmin = min(x); xmax = max(x)
+  fit_lm = lm(y~x)
+  b0 = fit_lm$"coefficient"[1]
+  b1 = fit_lm$"coefficient"[2]
+  yhat = x*b1 + b0
+  yhat1 = yhat[1]
+  SSTO = sum((y - mean(y))^2)
+  SSE = sum(fit_lm$residuals^2)
+  MSE = SSE/(length(y)-2)
+  SSR = sum((yhat - mean(y))^2)
+  R = cor(x,y)
+  Rsq = 1 - SSE/SSTO
+  s_b1 = summary(fit_lm)$coefficients[2,2]
+  t = summary(fit_lm)$coefficients[2,3]
+  p = summary(fit_lm)$coefficients[2,4]
+  #plot(x,y)
+  #lines(c(xmin, xmax),c(b0+xmin*b1, b0+xmax*b1),col="red")
+  data = data.frame(b1,yhat1,SSTO,SSE,MSE,SSR,R,Rsq,s_b1,t)
+  return(data)
+}
+x = trees$Height
+y = trees$Girth
+data = cbind(t(lm_example(x,y)),t(lm_example(x,scale(y))),t(lm_example(scale(x),y)),t(lm_example(scale(x),scale(y))))
+colnames = c("x_y","x_scy","scx_y","scx_scy")
+data
+```

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Edx-Python学习笔记
-tags: [cs, mooc笔记, python]
+tags: [cs, mooc, python]
 ---
 
 * TOC

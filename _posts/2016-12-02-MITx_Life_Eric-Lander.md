@@ -2,7 +2,7 @@
 layout: post
 title: Eric Lander的MOOC
 date: 2016-12-02
-tags: ["mooc笔记","bio"]
+tags: ["mooc","bio"]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Edx-biomanufacturing学习笔记
-tags: [bio, mooc笔记]
+tags: [bio, mooc]
 ---
 
 Table of Content

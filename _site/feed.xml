@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Aug 2017 14:46:53 +1000</pubDate>
-    <lastBuildDate>Mon, 21 Aug 2017 14:46:53 +1000</lastBuildDate>
+    <pubDate>Thu, 31 Aug 2017 16:16:52 +1000</pubDate>
+    <lastBuildDate>Thu, 31 Aug 2017 16:16:52 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -160,7 +160,7 @@ for(index in 1:24){
       </item>
     
       <item>
-        <title>Ways to manipulate plink bfile</title>
+        <title>Plink bfile manipulation</title>
         <description>&lt;p&gt;&lt;a href=&quot;https://www.cog-genomics.org/plink2&quot;&gt;Plink&lt;/a&gt; is one of the most widely used software in GWAS field and its relative file format &lt;a href=&quot;https://www.cog-genomics.org/plink/1.9/formats#bed&quot;&gt;bfile&lt;/a&gt;, a binary file used to store genotype information, may be more popular as supported by other softwares (e.g. &lt;a href=&quot;http://cnsgenomics.com/software/gcta/#Overview&quot;&gt;GCTA&lt;/a&gt;) as input files.&lt;/p&gt;
 
 &lt;h2 id=&quot;pedmap-files&quot;&gt;“ped/map” files&lt;/h2&gt;
@@ -275,6 +275,10 @@ plink_file = plinkfile.open( &quot;test&quot; )
         <guid isPermaLink="true">http://localhost:4000/2017/08/18/plink_bfile.html</guid>
         
         <category>genetics</category>
+        
+        <category>GWAS</category>
+        
+        <category>plink</category>
         
         
       </item>
@@ -2989,7 +2993,7 @@ H1: The data are not like a simple random sample from the population in the null
         
         <category>cs</category>
         
-        <category>mooc笔记</category>
+        <category>mooc</category>
         
         <category>python</category>
         
