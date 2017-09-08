@@ -6,9 +6,77 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Aug 2017 20:29:05 +1000</pubDate>
-    <lastBuildDate>Thu, 31 Aug 2017 20:29:05 +1000</lastBuildDate>
+    <pubDate>Fri, 08 Sep 2017 17:08:33 +1000</pubDate>
+    <lastBuildDate>Fri, 08 Sep 2017 17:08:33 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Literature Collection in Quantitative Genetics</title>
+        <description>&lt;h3 id=&quot;charles-darwin-1809-1882&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Charles_Darwin&quot;&gt;Charles Darwin&lt;/a&gt; (1809-1882)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Darwin, C. (1861). On the origin of species. [&lt;a href=&quot;http://darwin-online.org.uk/converted/pdf/1861_OriginNY_F382.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;gregor-mendel-1822-1884&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Gregor_Mendel&quot;&gt;Gregor Mendel&lt;/a&gt; (1822-1884)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mendel, G. (1865). Experiments in plant hybridization. [&lt;a href=&quot;http://old.esp.org/foundations/genetics/classical/gm-65-a.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;francis-galton-1822-1911&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Francis_Galton&quot;&gt;Francis Galton&lt;/a&gt; (1822-1911)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Galton, F. (1877). Typical laws of heredity. Nature. [&lt;a href=&quot;http://galton.org/essays/1870-1879/galton-1877-typical-laws-heredity.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;Galton, F. (1886). Regression towards mediocrity in hereditary stature. Journal of the Anthropological Institute. [&lt;a href=&quot;http://galton.org/essays/1880-1889/galton-1886-jaigi-regression-stature.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;Galton, F. (1889). Natural Inheritance. Macmillan, London [&lt;a href=&quot;http://galton.org/books/natural-inheritance/pdf/galton-nat-inh-1up-clean.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;karl-pearson1857-1936&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Karl_Pearson&quot;&gt;Karl Pearson&lt;/a&gt;(1857-1936)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pearson, K. (1920). Notes on the History of Correlation. Biometrika. [&lt;a href=&quot;http://webspace.ship.edu/pgmarr/Geo441/Readings/Pearson%201920%20-%20Notes%20on%20the%20History%20of%20Correlation.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ronald-fisher-1890-1962&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ronald_Fisher&quot;&gt;Ronald Fisher&lt;/a&gt; (1890-1962)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fisher, RA. (1918). The Correlation between Relatives on the Supposition of Mendelian Inheritance. Proc. Roy. Soc. Edinburgh. [&lt;a href=&quot;http://www.indiana.edu/~curtweb/L567/readings/Fisher1918.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;Fisher, RA. (1919). The Causes of Human Variability. Eugen Rev. [&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2942138/pdf/eugenrev00354-0021.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sewall-green-wright-1889-1988&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Sewall_Wright&quot;&gt;Sewall Green Wright&lt;/a&gt; (1889-1988)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wright, S. (1921) Systems of Mating I. The Biometric Relations betweens Parent and Offspring. Genetics. [&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1200501/pdf/111.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;Wright, S. (1921) Systems of Mating II. The Effects of Inbreeding on the Genetic Composition of a Population. Genetics. [&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1200502/pdf/124.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;charles-roy-henderson-1911-1989&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Charles_Roy_Henderson&quot;&gt;Charles Roy Henderson&lt;/a&gt; (1911-1989)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Henderson CR. (1949). Estimation of changes in herd environment. J Dairy Sci. [&lt;a href=&quot;http://morotalab.org/literature/pdf/henderson1949.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;Henderson CR. (1950). Estimation of genetic parameters. Ann Math Stat. [&lt;a href=&quot;http://morotalab.org/literature/pdf/henderson1950.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jay-laurence-lush-1896-1982&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Jay_Laurence_Lush&quot;&gt;Jay Laurence Lush&lt;/a&gt; (1896-1982)&lt;/h3&gt;
+
+&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Blog: &lt;a href=&quot;http://morotalab.org/literature/2015/03/07/The-Origin-of-BLUP-and-MME/&quot;&gt;The origin of BLUP and MME&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;BioRxir paper: &lt;a href=&quot;http://www.biorxiv.org/content/biorxiv/early/2016/02/15/039768.full.pdf&quot;&gt;the infinitesimal model&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://eblogution.wordpress.com/2014/07/21/benchmark-papers-in-quantitative-genetics-the-bill-hills-list-part-i/&quot;&gt;Bill Hill’s Benchmark paper list&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 08 Sep 2017 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2017/09/08/literature.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/08/literature.html</guid>
+        
+        <category>statistics</category>
+        
+        
+      </item>
     
       <item>
         <title>sampling distribution of correlation r</title>
@@ -2939,66 +3007,6 @@ H1: The data are not like a simple random sample from the population in the null
         <category>statistics</category>
         
         <category>mooc</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>PBS</title>
-        <description>&lt;h3 id=&quot;what-is-pbs&quot;&gt;What is PBS?&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Portable_Batch_System&quot;&gt;Portable Batch System (PBS)&lt;/a&gt; is the name of computer software that performs job scheduling. It has three versions - OpenPBS, TORQUE, PBS Professional.&lt;/p&gt;
-
-&lt;h3 id=&quot;pbs-commands&quot;&gt;PBS Commands&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pbsnodes&lt;/code&gt;: query PBS host or vnode status or mark hosts free or offline&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qstat&lt;/code&gt;: display status of PBS batch jobs, queues, or servers&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qalter&lt;/code&gt;: alter PBS job&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qdel&lt;/code&gt;: deletes PBS jobs&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qrun&lt;/code&gt;: run a PBS batch job now&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qmove&lt;/code&gt;: move PBS batch job&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qhold&lt;/code&gt;: hold PBS batch jobs&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qrls&lt;/code&gt;: release hold on PBS batch jobs&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qsig&lt;/code&gt;: signal PBS batch job&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qsub&lt;/code&gt;: Submit a job&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tracejob&lt;/code&gt;: Report job history&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;common-commands&quot;&gt;Common commands&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;qstat -t&lt;/code&gt;: Displays status information for jobs, job arrays, and subjobs.
-&lt;code class=&quot;highlighter-rouge&quot;&gt;qstat -Q&lt;/code&gt;: Display queue status in default format&lt;/p&gt;
-
-&lt;h3 id=&quot;common-pbs-lines&quot;&gt;Common &lt;code class=&quot;highlighter-rouge&quot;&gt;#PBS&lt;/code&gt; lines&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-A&lt;/code&gt;: account string&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-J&lt;/code&gt;: job array&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-N&lt;/code&gt;: job name&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-l&lt;/code&gt;: resource list
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;select&lt;/code&gt;: The number of nodes is requested via the select command&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mem&lt;/code&gt;: memory&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ncpus&lt;/code&gt;: cpu, thread&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;walltime&lt;/code&gt;: walltime&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;useful-links&quot;&gt;Useful links&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.pbsworks.com/pdfs/PBSUserGuide14.2.pdf&quot;&gt;PBS Professional User Guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Portable_Batch_System&quot;&gt;PBS wiki&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://linuxinfo.physik.hu-berlin.de/pbs.html&quot;&gt;PBS Summary web page&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 09 May 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/05/09/PBS.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/09/PBS.html</guid>
-        
-        <category>cs</category>
         
         
       </item>
