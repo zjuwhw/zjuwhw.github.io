@@ -1,11 +1,11 @@
 ---
 layout: post
-title: mean, variance and correlation
+title: mean, variance, covariance and correlation
 date: 2017-08-25
 tags: ["statistics"]
 ---
 
-### the measures of one variable
+### one variable
 
 
 
@@ -18,12 +18,12 @@ tags: ["statistics"]
 
 
 
-### the measures of two variables
+### two variables
 
 |statistic|$X,Y$|$X+c,Y$|$c \times X,Y$|$scale(X), scale(Y)$|
 |:--|:--:|:--:|:--:|:--:|
 |SS (Sum of Squares)|$\sum(x_i-\bar{x})(y_i-\bar{y})$<br> $= \sum{x_iy_i - n\bar{x}\bar{y}}$|$SS_{XY}$ |$c \times SS_{XY}$|$(n-1) \times  Cor(X,Y)$|
-|Cov (Covariant)   |$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{n-1}$ |Cov(X,Y)|$c \times Cov(X,Y)$|Cor(X,Y)|
+|Cov (Covariance)   |$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{n-1}$ |Cov(X,Y)|$c \times Cov(X,Y)$|Cor(X,Y)|
 |Cor (Correlation)   |$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum(x_i-\bar{x})^2 \times \sum(y_i-\bar{y})^2}}$|Cor(X,Y)|Cor(X,Y)|Cor(X,Y)|
 
 
@@ -66,11 +66,6 @@ When n is large, t(n-1) --&gt; N(0,1), so *t*<sup>2</sup> --&gt;
 
 ####  terminology
 
--   SS: sum of squares
--   Var: variance
--   SD: standard error
--   Cov: covariance
--   Cor: (Pearson's) correlation coefficient
 -   SSTO: total sum of squares
 -   SSE: error/residual sum of squares
 -   SSR: regression sum of squares
