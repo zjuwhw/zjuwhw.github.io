@@ -7,98 +7,25 @@ tags: ["statistics"]
 
 ### the measures of one variable
 
-<table style="width:100%;">
-<colgroup>
-<col width="12%" />
-<col width="31%" />
-<col width="20%" />
-<col width="26%" />
-<col width="8%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">statistic</th>
-<th align="left"><span class="math inline"><em>X</em></span></th>
-<th align="left"><span class="math inline"><em>X</em> + <em>c</em></span></th>
-<th align="left"><span class="math inline"><em>c</em> × <em>X</em></span></th>
-<th align="left"><span class="math inline">$scale(X) = \frac{X-mean(X)}{SD(X)}$</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">mean(X)</td>
-<td align="left"><span class="math inline">$\frac{\sum{x_i}}{n}$</span></td>
-<td align="left">mean(X) + c</td>
-<td align="left"><span class="math inline"><em>c</em> × <em>m</em><em>e</em><em>a</em><em>n</em>(<em>X</em>)</span></td>
-<td align="left">0</td>
-</tr>
-<tr class="even">
-<td align="left"><span class="math inline"><em>S</em><em>S</em><sub><em>X</em></sub></span></td>
-<td align="left"><span class="math inline">$\sum{(x_i - \bar{x})^2} = \sum{x_i^2} - n\bar{x}^2$</span></td>
-<td align="left"><span class="math inline"><em>S</em><em>S</em><sub><em>X</em></sub></span></td>
-<td align="left"><span class="math inline"><em>c</em><sup>2</sup> × <em>S</em><em>S</em><sub><em>X</em></sub></span></td>
-<td align="left">n-1</td>
-</tr>
-<tr class="odd">
-<td align="left">Var(X)</td>
-<td align="left"><span class="math inline">$\frac{\sum{(x_i - \bar{x})^2}}{n-1}$</span></td>
-<td align="left">Var(X)</td>
-<td align="left"><span class="math inline"><em>c</em><sup>2</sup> × <em>V</em><em>a</em><em>r</em>(<em>X</em>)</span></td>
-<td align="left">1</td>
-</tr>
-<tr class="even">
-<td align="left">SD(X)</td>
-<td align="left"><span class="math inline">$\sqrt{\frac{\sum{(x_i - \bar{x})^2}}{n-1}}$</span></td>
-<td align="left">SD(X)</td>
-<td align="left"><span class="math inline"><em>c</em> × <em>S</em><em>D</em>(<em>X</em>)</span></td>
-<td align="left">1</td>
-</tr>
-</tbody>
-</table>
+
+
+|statistic|$X$|$X+c$|$c \times X$| $scale(X) = \frac{X-mean(X)}{SD(X)}$|
+|:--|:--:|:--:|:--:|:--:|
+|mean|$\frac{\sum{x_i}}{n}$|mean(X) + c|$c \times mean(X)$|0|
+|SS (Sum of Squares)|$\sum{(x_i - \bar{x})^2} $<br> $=\sum{x_i^2} - n\bar{x}^2$|$SS_X$|$c^2 \times SS_X$|n-1|
+|Var (Variance)|$\frac{\sum{(x_i - \bar{x})^2}}{n-1}$|Var(X)|$c^2 \times Var(X)$|1|
+|SD (Standard Deviation)|$\sqrt{\frac{\sum{(x_i - \bar{x})^2}}{n-1}}$|SD(X)|$c \times SD(X)$|1|
+
+
 
 ### the measures of two variables
 
-<table style="width:100%;">
-<colgroup>
-<col width="12%" />
-<col width="31%" />
-<col width="20%" />
-<col width="26%" />
-<col width="8%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">statistic</th>
-<th align="left"><span class="math inline"><em>X</em>, <em>Y</em></span></th>
-<th align="left"><span class="math inline"><em>X</em> + <em>c</em>, <em>Y</em></span></th>
-<th align="left"><span class="math inline"><em>c</em> × <em>X</em>, <em>Y</em></span></th>
-<th align="left"><span class="math inline"><em>s</em><em>c</em><em>a</em><em>l</em><em>e</em>(<em>X</em>),<em>s</em><em>c</em><em>a</em><em>l</em><em>e</em>(<em>Y</em>)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span class="math inline"><em>S</em><em>S</em><sub><em>X</em><em>Y</em></sub></span></td>
-<td align="left"><span class="math inline">$\sum(x_i-\bar{x})(y_i-\bar{y}) = \sum{x_iy_i - n\bar{x}\bar{y}}$</span></td>
-<td align="left"><span class="math inline"><em>S</em><em>S</em><sub><em>X</em><em>Y</em></sub></span></td>
-<td align="left"><span class="math inline"><em>c</em> × <em>S</em><em>S</em><sub><em>X</em><em>Y</em></sub></span></td>
-<td align="left"><span class="math inline">(<em>n</em> − 1)×<em>C</em><em>o</em><em>r</em>(<em>X</em>, <em>Y</em>)</span></td>
-</tr>
-<tr class="even">
-<td align="left">Cov(X,Y)</td>
-<td align="left"><span class="math inline">$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{n-1}$</span></td>
-<td align="left">Cov(X,Y)</td>
-<td align="left"><span class="math inline"><em>c</em> × <em>C</em><em>o</em><em>v</em>(<em>X</em>, <em>Y</em>)</span></td>
-<td align="left">Cor(X,Y)</td>
-</tr>
-<tr class="odd">
-<td align="left">Cor(X,Y)</td>
-<td align="left"><span class="math inline">$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum(x_i-\bar{x})^2 \times \sum(y_i-\bar{y})^2}}$</span></td>
-<td align="left">Cor(X,Y)</td>
-<td align="left">Cor(X,Y)</td>
-<td align="left">Cor(X,Y)</td>
-</tr>
-</tbody>
-</table>
+|statistic|$X,Y$|$X+c,Y$|$c \times X,Y$|$scale(X), scale(Y)$|
+|:--|:--:|:--:|:--:|:--:|
+|SS (Sum of Squares)|$\sum(x_i-\bar{x})(y_i-\bar{y})$<br> $= \sum{x_iy_i - n\bar{x}\bar{y}}$|$SS_{XY}$ |$c \times SS_{XY}$|$(n-1) \times  Cor(X,Y)$|
+|Cov (Covariant)   |$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{n-1}$ |Cov(X,Y)|$c \times Cov(X,Y)$|Cor(X,Y)|
+|Cor (Correlation)   |$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum(x_i-\bar{x})^2 \times \sum(y_i-\bar{y})^2}}$|Cor(X,Y)|Cor(X,Y)|Cor(X,Y)|
+
 
 ### SLR (simple linear regression)
 
@@ -116,89 +43,17 @@ $$b_1  \sim N(\beta_1,\sigma^2(b_1))\text{, so } \frac{b_1 - \beta_1}{\sigma(b_1
 
 $$\frac{b_1 - \beta_1}{s(b_1)} \sim t(n-2)\text{, with }s^2(b_1) = \frac{MSE}{SS_X}$$
 
-<table style="width:100%;">
-<colgroup>
-<col width="11%" />
-<col width="29%" />
-<col width="19%" />
-<col width="19%" />
-<col width="19%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">statistic</th>
-<th align="left"><span class="math inline"><em>X</em>, <em>Y</em></span></th>
-<th align="left"><span class="math inline"><em>X</em>, <em>s</em><em>c</em><em>a</em><em>l</em><em>e</em>(<em>Y</em>)</span></th>
-<th align="left"><span class="math inline"><em>s</em><em>c</em><em>a</em><em>l</em><em>e</em>(<em>X</em>),<em>Y</em></span></th>
-<th align="left"><span class="math inline"><em>s</em><em>c</em><em>a</em><em>l</em><em>e</em>(<em>X</em>),<em>s</em><em>c</em><em>a</em><em>l</em><em>e</em>(<em>Y</em>)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><span class="math inline"><em>b</em><sub>1</sub></span></td>
-<td align="left"><span class="math inline">$\frac{\sum(x_i-\bar{x})(y_i - \bar{y})}{\sum{(x_i-\bar{x})^2}}$</span></td>
-<td align="left"><span class="math inline">$\frac{b_1}{SD(Y)}$</span></td>
-<td align="left"><span class="math inline"><em>b</em><sub>1</sub><em>S</em><em>D</em>(<em>X</em>)</span></td>
-<td align="left"><span class="math inline">$b_1\frac{SD(X)}{SD(Y)} = Cor(X,Y)$</span></td>
-</tr>
-<tr class="even">
-<td align="left"><span class="math inline">$\hat{Y_i}$</span></td>
-<td align="left"><span class="math inline">$b_0+b_1X_i = \bar{y}+\frac{\sum(x_i-\bar{x})(y_i - \bar{y})}{\sum{(x_i-\bar{x})^2}}(x_i - \bar{x})$</span></td>
-<td align="left"><span class="math inline">$\frac{\hat{y_i}-\bar{y}}{SD(y)}$</span></td>
-<td align="left"><span class="math inline">$\hat{Y_i}$</span></td>
-<td align="left"><span class="math inline">$\frac{\hat{y_i}-\bar{y}}{SD(y)}$</span></td>
-</tr>
-<tr class="odd">
-<td align="left">SSTO(<span class="math inline"><em>S</em><em>S</em><sub><em>Y</em></sub></span>)</td>
-<td align="left"><span class="math inline">$\sum(Y_i - \bar{Y})^2$</span></td>
-<td align="left"><span class="math inline">$\frac{SSTO}{Var(Y)}$</span></td>
-<td align="left">SSTO</td>
-<td align="left"><span class="math inline">$\frac{SSTO}{Var(Y)}$</span></td>
-</tr>
-<tr class="even">
-<td align="left">SSE</td>
-<td align="left"><span class="math inline">$\sum(Y_i - \hat{Y_{i}})^2$</span></td>
-<td align="left"><span class="math inline">$\frac{SSE}{Var(Y)}$</span></td>
-<td align="left">SSE</td>
-<td align="left"><span class="math inline">$\frac{SSE}{Var(Y)}$</span></td>
-</tr>
-<tr class="odd">
-<td align="left">MSE</td>
-<td align="left"><span class="math inline">$\frac{\sum(Y_i - \hat{Y_i})^2}{n-2}$</span></td>
-<td align="left"><span class="math inline">$\frac{MSE}{Var(Y)}$</span></td>
-<td align="left">MSE</td>
-<td align="left"><span class="math inline">$\frac{MSE}{Var(Y)}$</span></td>
-</tr>
-<tr class="even">
-<td align="left">SSR</td>
-<td align="left"><span class="math inline">$\sum(\hat{Y_i}-\bar{Y})^2$</span></td>
-<td align="left"><span class="math inline">$\frac{SSR}{Var(Y)}$</span></td>
-<td align="left">SSR</td>
-<td align="left"><span class="math inline">$\frac{SSR}{Var(Y)}$</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span class="math inline"><em>R</em><sup>2</sup></span></td>
-<td align="left"><span class="math inline">$1-\frac{SSE}{SSTO} = \frac{SSR}{SSTO} = Cor(X,Y)^2$</span></td>
-<td align="left"><span class="math inline"><em>R</em><sup>2</sup></span></td>
-<td align="left"><span class="math inline"><em>R</em><sup>2</sup></span></td>
-<td align="left"><span class="math inline"><em>R</em><sup>2</sup></span></td>
-</tr>
-<tr class="even">
-<td align="left"><span class="math inline"><em>s</em>(<em>b</em><sub>1</sub>)</span></td>
-<td align="left"><span class="math inline">$\sqrt{\frac{MSE}{SS_X}}$</span></td>
-<td align="left"><span class="math inline">$\frac{s(b_1)}{SD(Y)}$</span></td>
-<td align="left"><span class="math inline"><em>s</em>(<em>b</em><sub>1</sub>)<em>S</em><em>D</em>(<em>X</em>)</span></td>
-<td align="left"><span class="math inline">$s(b_1)\frac{SD(X)}{SD(Y)}$</span></td>
-</tr>
-<tr class="odd">
-<td align="left">t</td>
-<td align="left"><span class="math inline">$\frac{b_1}{s(b_1)} = \frac{SS_{XY}}{\sqrt{MSE}\sqrt{SS_X}} = \pm\sqrt{(n-2)\frac{R^2}{1-R^2}}$</span></td>
-<td align="left">t</td>
-<td align="left">t</td>
-<td align="left">t</td>
-</tr>
-</tbody>
-</table>
+|statistic|$X,Y$|$X, scale(Y)$|$scale(X), Y$|$scale(X),scale(Y)$|
+|:--|:--:|:--:|:--:|:--:|
+|$b_1$|$\frac{\sum(x_i-\bar{x})(y_i - \bar{y})}{\sum{(x_i-\bar{x})^2}}$|$\frac{b_1}{SD(Y)}$|$b_1SD(X)$|$b_1\frac{SD(X)}{SD(Y)} = Cor(X,Y)$
+|$\hat{Y_i}$|$b_0+b_1X_i = \bar{y}+\frac{\sum(x_i-\bar{x})(y_i - \bar{y})}{\sum{(x_i-\bar{x})^2}}(x_i - \bar{x})$|$\frac{\hat{y_i}-\bar{y}}{SD(y)}$|$\hat{Y_i}$|$\frac{\hat{y_i}-\bar{y}}{SD(y)}$|
+|SSTO($SS_Y$)|$\sum(Y_i - \bar{Y})^2$|$\frac{SSTO}{Var(Y)}$|SSTO|$\frac{SSTO}{Var(Y)}$|
+|SSE|$\sum(Y_i - \hat{Y_{i}})^2$|$\frac{SSE}{Var(Y)}$|SSE|$\frac{SSE}{Var(Y)}$|
+|MSE|$\frac{\sum(Y_i - \hat{Y_i})^2}{n-2}$|$\frac{MSE}{Var(Y)}$|MSE|$\frac{MSE}{Var(Y)}$|
+|SSR|$\sum(\hat{Y_i}-\bar{Y})^2$|$\frac{SSR}{Var(Y)}$|SSR|$\frac{SSR}{Var(Y)}$|
+|$R^2$|$1-\frac{SSE}{SSTO} = \frac{SSR}{SSTO} = Cor(X,Y)^2$|$R^2$|$R^2$|$R^2$|
+|$s(b_1)$|$\sqrt{\frac{MSE}{SS_X}}$|$\frac{s(b_1)}{SD(Y)}$|$s(b_1)SD(X)$|$s(b_1)\frac{SD(X)}{SD(Y)}$
+|t|$\frac{b_1}{s(b_1)} = \frac{SS_{XY}}{\sqrt{MSE}\sqrt{SS_X}} = \pm\sqrt{(n-2)\frac{R^2}{1-R^2}}$|t|t|t|
 
 ### Notes
 
