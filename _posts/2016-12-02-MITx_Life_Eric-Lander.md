@@ -34,3 +34,12 @@ tags: ["mooc","bio"]
 |22|Rational Medicine |**Familial hypercholesterolemia** <br>Heart disease <br> Cholesterol <br> Lipoprotein particles  <br> Connections to heart disease  <br>Genetics of cholesterol levels  <br>Rational therapy for FH heterozygotes  <br>Modern strategies: PCSK9 and HDL 
 |23||**Cancer**  <br>  Cancer  <br>  Regulation of cell growth: growth factors and receptors  <br>  Regulation of cell growth: Ras <br>  Regulation of cell growth: Ras signaling  <br> Mutations that cause cancer <br>  Anti-cancer therapy 
 |24||**Science and Society**  <br>  DNA and law <br>  Other forensic technologies  <br> Gene patenting 
+
+## Notes
+
+### Lecture 7: Rediscovery of Mendel and advances by TH Morgan 
+
+- Mendel's 2nd Law(Completely Independent) vs Chrom Theory(Completely Dependent)
+- Recombination
+- Mitosis(有丝分裂): G1 --> S/G2 --> Mitosis --> G1
+- Meiosis(减数分裂): G1 --> S/G2 (recombination could occur) --> Meiosis I --> Meiosis II --> End
