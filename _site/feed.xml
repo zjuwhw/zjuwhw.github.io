@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Sep 2017 12:20:38 +1000</pubDate>
-    <lastBuildDate>Thu, 21 Sep 2017 12:20:38 +1000</lastBuildDate>
+    <pubDate>Thu, 21 Sep 2017 13:49:08 +1000</pubDate>
+    <lastBuildDate>Thu, 21 Sep 2017 13:49:08 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -18,11 +18,11 @@
 
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Genetic_recombination&quot;&gt;Homologous recombination&lt;/a&gt; is the process by which a pair of homologous DNA sequences exchange some portion of their DNA. In eukaryotes, genetic recombination during meiosis can lead to a novel set of genetic information that can be passed on from the parents to the offspring&lt;/p&gt;
 
-&lt;p&gt;A model for the process by which recombination occurs in eukaryotes was proposed in 1964 by Robin Holliday (HOLLIDAY 1964). It shows two possible resolutions, known as Gene Conversion and Crossover.&lt;/p&gt;
-
-&lt;p&gt;When talking about recombination, people always means crossover as it leaves a much larger singal easy to trace.&lt;/p&gt;
-
 &lt;p&gt;The recombination was found by &lt;a href=&quot;https://en.wikipedia.org/wiki/Thomas_Hunt_Morgan&quot;&gt;Thomas Hunt Morgan&lt;/a&gt; in 1911, when studying the chromosome theory of heredity. And his student &lt;a href=&quot;https://en.wikipedia.org/wiki/Alfred_Sturtevant&quot;&gt;Sturtevant&lt;/a&gt; uses crossover data to construct the first genetic map in drosophila. Read more &lt;a href=&quot;https://www.nature.com/scitable/topicpage/thomas-hunt-morgan-genetic-recombination-and-gene-496&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A model for the process by which recombination occurs in eukaryotes was proposed in 1964 by Robin Holliday (HOLLIDAY 1964). It shows two possible resolutions, known as Gene Conversion and Crossover. When talking about recombination, people always mean crossover as it leaves a much larger singal easy to trace.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/recombination_holliday.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;recombination-rate-centimorgan-cm&quot;&gt;Recombination Rate (centimorgan, cM)&lt;/h2&gt;
 

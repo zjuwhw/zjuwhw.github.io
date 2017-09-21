@@ -11,11 +11,11 @@ Recently, I read the [Adam Auton](http://adamauton.com/)'s PhD Thesis ["The Esti
 
 [Homologous recombination](https://en.wikipedia.org/wiki/Genetic_recombination) is the process by which a pair of homologous DNA sequences exchange some portion of their DNA. In eukaryotes, genetic recombination during meiosis can lead to a novel set of genetic information that can be passed on from the parents to the offspring
 
-A model for the process by which recombination occurs in eukaryotes was proposed in 1964 by Robin Holliday (HOLLIDAY 1964). It shows two possible resolutions, known as Gene Conversion and Crossover.
-
-When talking about recombination, people always means crossover as it leaves a much larger singal easy to trace.
-
 The recombination was found by [Thomas Hunt Morgan](https://en.wikipedia.org/wiki/Thomas_Hunt_Morgan) in 1911, when studying the chromosome theory of heredity. And his student [Sturtevant](https://en.wikipedia.org/wiki/Alfred_Sturtevant) uses crossover data to construct the first genetic map in drosophila. Read more [here](https://www.nature.com/scitable/topicpage/thomas-hunt-morgan-genetic-recombination-and-gene-496).
+
+A model for the process by which recombination occurs in eukaryotes was proposed in 1964 by Robin Holliday (HOLLIDAY 1964). It shows two possible resolutions, known as Gene Conversion and Crossover. When talking about recombination, people always mean crossover as it leaves a much larger singal easy to trace.
+
+![](/images/recombination_holliday.png)
 
 ## Recombination Rate (centimorgan, cM)
 
