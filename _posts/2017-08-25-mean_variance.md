@@ -5,6 +5,8 @@ date: 2017-08-25
 tags: ["statistics"]
 ---
 
+## Descriptive statistics
+
 ### one variable
 
 
@@ -27,7 +29,25 @@ tags: ["statistics"]
 |Cor (Correlation)   |$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum(x_i-\bar{x})^2 \times \sum(y_i-\bar{y})^2}}$|Cor(X,Y)|Cor(X,Y)|Cor(X,Y)|
 
 
-### SLR (simple linear regression)
+## Random Variables
+
+### expected value or mean:
+
+$$E(X) = \sum x_if(x_i)$$
+
+### variance
+
+$$Var(X) = \sum (x_i - \mu)^2 f(x_i) $$
+
+$$ Var(X)= E((X-E(X))^2) = E(X^2) - (E(X))^2$$
+
+### covariance
+
+$$Cov(X,Y) = \sum(x_i - \mu_x)(y_i - \mu_y)f(x_i, y_i)$$
+
+$$Cov(X,Y) = E((X-E(X))(Y-E(Y))) = E(XY) - E(X)E(Y)$$
+
+## SLR (simple linear regression)
 
 the normal error regression model:
 
@@ -55,16 +75,16 @@ $$\frac{b_1 - \beta_1}{s(b_1)} \sim t(n-2)\text{, with }s^2(b_1) = \frac{MSE}{SS
 |$s(b_1)$|$\sqrt{\frac{MSE}{SS_X}}$|$\frac{s(b_1)}{SD(Y)}$|$s(b_1)SD(X)$|$s(b_1)\frac{SD(X)}{SD(Y)}$
 |t|$\frac{b_1}{s(b_1)} = \frac{SS_{XY}}{\sqrt{MSE}\sqrt{SS_X}} = \pm\sqrt{(n-2)\frac{R^2}{1-R^2}}$|t|t|t|
 
-### Notes
+## Notes
 
-####  *t*<sup>2</sup> and *R*<sup>2</sup>
+###  *t*<sup>2</sup> and *R*<sup>2</sup>
 
 $t^2 = \\frac{b\_1^2}{s(b\_1)^2} = \\frac{\\frac{SS\_{XY}^2}{SS\_X^2}}{\\frac{MSE}{SS\_X}} = \\frac{SS\_{XY}^2}{MSE \\times SS\_X} = (n-2)\\frac{SS\_Y}{SSE}R^2 = (n-2)\\frac{R^2}{\\frac{SSE}{SS\_Y}} = (n-2)\\frac{R^2}{1-R^2}$
 
 When n is large, t(n-1) --&gt; N(0,1), so *t*<sup>2</sup> --&gt;
 *χ*<sub>1</sub><sup>2</sup>.
 
-####  terminology
+###  terminology
 
 -   SSTO: total sum of squares
 -   SSE: error/residual sum of squares
@@ -74,7 +94,7 @@ When n is large, t(n-1) --&gt; N(0,1), so *t*<sup>2</sup> --&gt;
 -   *s*(*b*<sub>1</sub>): the standard error of *b*<sub>1</sub>, the
     estimated variance of *b*<sub>1</sub>
 
-### R code example
+## R code example
 
     lm_example = function(x,y){
       xmin = min(x); xmax = max(x)

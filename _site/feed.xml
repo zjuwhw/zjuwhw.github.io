@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Sep 2017 13:49:08 +1000</pubDate>
-    <lastBuildDate>Thu, 21 Sep 2017 13:49:08 +1000</lastBuildDate>
+    <pubDate>Thu, 21 Sep 2017 17:30:44 +1000</pubDate>
+    <lastBuildDate>Thu, 21 Sep 2017 17:30:44 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -270,7 +270,9 @@ r&lt;/a&gt;&lt;/li&gt;
     
       <item>
         <title>mean, variance, covariance and correlation</title>
-        <description>&lt;h3 id=&quot;one-variable&quot;&gt;one variable&lt;/h3&gt;
+        <description>&lt;h2 id=&quot;descriptive-statistics&quot;&gt;Descriptive statistics&lt;/h2&gt;
+
+&lt;h3 id=&quot;one-variable&quot;&gt;one variable&lt;/h3&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -351,7 +353,25 @@ r&lt;/a&gt;&lt;/li&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&quot;slr-simple-linear-regression&quot;&gt;SLR (simple linear regression)&lt;/h3&gt;
+&lt;h2 id=&quot;random-variables&quot;&gt;Random Variables&lt;/h2&gt;
+
+&lt;h3 id=&quot;expected-value-or-mean&quot;&gt;expected value or mean:&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(X) = \sum x_if(x_i)&lt;/script&gt;
+
+&lt;h3 id=&quot;variance&quot;&gt;variance&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Var(X) = \sum (x_i - \mu)^2 f(x_i)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Var(X)= E((X-E(X))^2) = E(X^2) - (E(X))^2&lt;/script&gt;
+
+&lt;h3 id=&quot;covariance&quot;&gt;covariance&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Cov(X,Y) = \sum(x_i - \mu_x)(y_i - \mu_y)f(x_i, y_i)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Cov(X,Y) = E((X-E(X))(Y-E(Y))) = E(XY) - E(X)E(Y)&lt;/script&gt;
+
+&lt;h2 id=&quot;slr-simple-linear-regression&quot;&gt;SLR (simple linear regression)&lt;/h2&gt;
 
 &lt;p&gt;the normal error regression model:&lt;/p&gt;
 
@@ -444,16 +464,16 @@ r&lt;/a&gt;&lt;/li&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
 
-&lt;h4 id=&quot;t2-and-r2&quot;&gt;&lt;em&gt;t&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; and &lt;em&gt;R&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/h4&gt;
+&lt;h3 id=&quot;t2-and-r2&quot;&gt;&lt;em&gt;t&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; and &lt;em&gt;R&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/h3&gt;
 
 &lt;p&gt;$t^2 = \frac{b_1^2}{s(b_1)^2} = \frac{\frac{SS_{XY}^2}{SS_X^2}}{\frac{MSE}{SS_X}} = \frac{SS_{XY}^2}{MSE \times SS_X} = (n-2)\frac{SS_Y}{SSE}R^2 = (n-2)\frac{R^2}{\frac{SSE}{SS_Y}} = (n-2)\frac{R^2}{1-R^2}$&lt;/p&gt;
 
 &lt;p&gt;When n is large, t(n-1) –&amp;gt; N(0,1), so &lt;em&gt;t&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; –&amp;gt;
 &lt;em&gt;χ&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;h4 id=&quot;terminology&quot;&gt;terminology&lt;/h4&gt;
+&lt;h3 id=&quot;terminology&quot;&gt;terminology&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;SSTO: total sum of squares&lt;/li&gt;
@@ -465,7 +485,7 @@ r&lt;/a&gt;&lt;/li&gt;
 estimated variance of &lt;em&gt;b&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;r-code-example&quot;&gt;R code example&lt;/h3&gt;
+&lt;h2 id=&quot;r-code-example&quot;&gt;R code example&lt;/h2&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lm_example = function(x,y){
   xmin = min(x); xmax = max(x)

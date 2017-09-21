@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>mean, variance, covariance and correlation</title>
-  <meta name="description" content="one variable">
+  <meta name="description" content="Descriptive statistics">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/2017/08/25/mean_variance.html">
@@ -84,7 +84,9 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h3 id="one-variable">one variable</h3>
+    <h2 id="descriptive-statistics">Descriptive statistics</h2>
+
+<h3 id="one-variable">one variable</h3>
 
 <table>
   <thead>
@@ -165,7 +167,25 @@
   </tbody>
 </table>
 
-<h3 id="slr-simple-linear-regression">SLR (simple linear regression)</h3>
+<h2 id="random-variables">Random Variables</h2>
+
+<h3 id="expected-value-or-mean">expected value or mean:</h3>
+
+<script type="math/tex; mode=display">E(X) = \sum x_if(x_i)</script>
+
+<h3 id="variance">variance</h3>
+
+<script type="math/tex; mode=display">Var(X) = \sum (x_i - \mu)^2 f(x_i)</script>
+
+<script type="math/tex; mode=display">Var(X)= E((X-E(X))^2) = E(X^2) - (E(X))^2</script>
+
+<h3 id="covariance">covariance</h3>
+
+<script type="math/tex; mode=display">Cov(X,Y) = \sum(x_i - \mu_x)(y_i - \mu_y)f(x_i, y_i)</script>
+
+<script type="math/tex; mode=display">Cov(X,Y) = E((X-E(X))(Y-E(Y))) = E(XY) - E(X)E(Y)</script>
+
+<h2 id="slr-simple-linear-regression">SLR (simple linear regression)</h2>
 
 <p>the normal error regression model:</p>
 
@@ -258,16 +278,16 @@
   </tbody>
 </table>
 
-<h3 id="notes">Notes</h3>
+<h2 id="notes">Notes</h2>
 
-<h4 id="t2-and-r2"><em>t</em><sup>2</sup> and <em>R</em><sup>2</sup></h4>
+<h3 id="t2-and-r2"><em>t</em><sup>2</sup> and <em>R</em><sup>2</sup></h3>
 
 <p>$t^2 = \frac{b_1^2}{s(b_1)^2} = \frac{\frac{SS_{XY}^2}{SS_X^2}}{\frac{MSE}{SS_X}} = \frac{SS_{XY}^2}{MSE \times SS_X} = (n-2)\frac{SS_Y}{SSE}R^2 = (n-2)\frac{R^2}{\frac{SSE}{SS_Y}} = (n-2)\frac{R^2}{1-R^2}$</p>
 
 <p>When n is large, t(n-1) –&gt; N(0,1), so <em>t</em><sup>2</sup> –&gt;
 <em>χ</em><sub>1</sub><sup>2</sup>.</p>
 
-<h4 id="terminology">terminology</h4>
+<h3 id="terminology">terminology</h3>
 
 <ul>
   <li>SSTO: total sum of squares</li>
@@ -279,7 +299,7 @@
 estimated variance of <em>b</em><sub>1</sub></li>
 </ul>
 
-<h3 id="r-code-example">R code example</h3>
+<h2 id="r-code-example">R code example</h2>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>lm_example = function(x,y){
   xmin = min(x); xmax = max(x)
