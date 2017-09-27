@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Sep 2017 17:30:44 +1000</pubDate>
-    <lastBuildDate>Thu, 21 Sep 2017 17:30:44 +1000</lastBuildDate>
+    <pubDate>Wed, 27 Sep 2017 19:31:43 +1000</pubDate>
+    <lastBuildDate>Wed, 27 Sep 2017 19:31:43 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -120,8 +120,9 @@ plot(data$&quot;position&quot;,data$&quot;COMBINED_rate(cM/Mb)&quot;,type=&quot;
 &lt;h3 id=&quot;ronald-fisher-1890-1962&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ronald_Fisher&quot;&gt;Ronald Fisher&lt;/a&gt; (1890-1962)&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Fisher, RA. (1918). The Correlation between Relatives on the Supposition of Mendelian Inheritance. Proc. Roy. Soc. Edinburgh. [&lt;a href=&quot;http://www.indiana.edu/~curtweb/L567/readings/Fisher1918.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;Fisher, RA. (1918). The Correlation between Relatives on the Supposition of Mendelian Inheritance. Proc. Roy. Soc. Edinburgh. [&lt;a href=&quot;http://www.indiana.edu/~curtweb/L567/readings/Fisher1918.pdf&quot;&gt;pdf&lt;/a&gt;] [&lt;a href=&quot;https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A60675052E0FB78C561F66C670BC75DE/S0080456800012163a.pdf/xvthe_correlation_between_relatives_on_the_supposition_of_mendelian_inheritance.pdf&quot;&gt;pdf2&lt;/a&gt;]&lt;/li&gt;
   &lt;li&gt;Fisher, RA. (1919). The Causes of Human Variability. Eugen Rev. [&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2942138/pdf/eugenrev00354-0021.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;Fisher, RA. (1941). Average Excess and Average Effect of a Gene Substitution. [&lt;a href=&quot;http://onlinelibrary.wiley.com/store/10.1111/j.1469-1809.1941.tb02272.x/asset/j.1469-1809.1941.tb02272.x.pdf?v=1&amp;amp;t=j82tz62g&amp;amp;s=ecce6e492d23baf368c83d8582ec702b20c6615f&amp;amp;systemMessage=Wiley+Online+Library+will+be+unavailable+on+Saturday+7th+Oct+from+03.00+EDT+%2F+08%3A00+BST+%2F+12%3A30+IST+%2F+15.00+SGT+to+08.00+EDT+%2F+13.00+BST+%2F+17%3A30+IST+%2F+20.00+SGT+and+Sunday+8th+Oct+from+03.00+EDT+%2F+08%3A00+BST+%2F+12%3A30+IST+%2F+15.00+SGT+to+06.00+EDT+%2F+11.00+BST+%2F+15%3A30+IST+%2F+18.00+SGT+for+essential+maintenance.+Apologies+for+the+inconvenience+caused+.&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;sewall-green-wright-1889-1988&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Sewall_Wright&quot;&gt;Sewall Green Wright&lt;/a&gt; (1889-1988)&lt;/h3&gt;

@@ -25,8 +25,9 @@ tags: ["statistics"]
 
 ### [Ronald Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher) (1890-1962)
 
-- Fisher, RA. (1918). The Correlation between Relatives on the Supposition of Mendelian Inheritance. Proc. Roy. Soc. Edinburgh. [[pdf](http://www.indiana.edu/~curtweb/L567/readings/Fisher1918.pdf)]
+- Fisher, RA. (1918). The Correlation between Relatives on the Supposition of Mendelian Inheritance. Proc. Roy. Soc. Edinburgh. [[pdf](http://www.indiana.edu/~curtweb/L567/readings/Fisher1918.pdf)] [[pdf2](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A60675052E0FB78C561F66C670BC75DE/S0080456800012163a.pdf/xvthe_correlation_between_relatives_on_the_supposition_of_mendelian_inheritance.pdf)]
 - Fisher, RA. (1919). The Causes of Human Variability. Eugen Rev. [[pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2942138/pdf/eugenrev00354-0021.pdf)]
+- Fisher, RA. (1941). Average Excess and Average Effect of a Gene Substitution. [[pdf](http://onlinelibrary.wiley.com/store/10.1111/j.1469-1809.1941.tb02272.x/asset/j.1469-1809.1941.tb02272.x.pdf?v=1&t=j82tz62g&s=ecce6e492d23baf368c83d8582ec702b20c6615f&systemMessage=Wiley+Online+Library+will+be+unavailable+on+Saturday+7th+Oct+from+03.00+EDT+%2F+08%3A00+BST+%2F+12%3A30+IST+%2F+15.00+SGT+to+08.00+EDT+%2F+13.00+BST+%2F+17%3A30+IST+%2F+20.00+SGT+and+Sunday+8th+Oct+from+03.00+EDT+%2F+08%3A00+BST+%2F+12%3A30+IST+%2F+15.00+SGT+to+06.00+EDT+%2F+11.00+BST+%2F+15%3A30+IST+%2F+18.00+SGT+for+essential+maintenance.+Apologies+for+the+inconvenience+caused+.)]
 
 ### [Sewall Green Wright](https://en.wikipedia.org/wiki/Sewall_Wright) (1889-1988)
 
