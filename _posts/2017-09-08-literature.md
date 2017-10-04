@@ -21,6 +21,7 @@ tags: ["statistics"]
 
 ### [Karl Pearson](https://en.wikipedia.org/wiki/Karl_Pearson)(1857-1936)
 
+- Pearson, K, Alice Lee. (1903). On the Laws of Inheritance in Man: I. Inheritance of Physical Characters. Biometrika. [[pdf](https://www.jstor.org/stable/pdf/2331507.pdf?refreqid=excelsior:142bec9d78e99bfa76244794c7487ea0)]
 - Pearson, K. (1920). Notes on the History of Correlation. Biometrika. [[pdf](http://webspace.ship.edu/pgmarr/Geo441/Readings/Pearson%201920%20-%20Notes%20on%20the%20History%20of%20Correlation.pdf)]
 
 ### [Ronald Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher) (1890-1962)
