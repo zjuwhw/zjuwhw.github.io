@@ -6,9 +6,83 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Nov 2017 15:50:47 +1000</pubDate>
-    <lastBuildDate>Tue, 07 Nov 2017 15:50:47 +1000</lastBuildDate>
+    <pubDate>Mon, 04 Dec 2017 20:29:09 +1000</pubDate>
+    <lastBuildDate>Mon, 04 Dec 2017 20:29:09 +1000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Generalized Least Square</title>
+        <description>&lt;p&gt;This is the note for &lt;a href=&quot;https://www.youtube.com/watch?v=XEne6yD7zmo&amp;amp;list=PLlMMtlgw6qNjROoMNTBQjAcdx53kV50cS&quot;&gt;the video tutorial of generalized least square&lt;/a&gt; by Broad Institute’s MIA talks.&lt;/p&gt;
+
+&lt;h3 id=&quot;ordinary-least-square-ols&quot;&gt;Ordinary Least Square (OLS)&lt;/h3&gt;
+
+&lt;h4 id=&quot;linear-model&quot;&gt;Linear model&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\textbf{y} = \textbf{X} \boldsymbol{\beta} + \boldsymbol{\epsilon}&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$\textbf{y}$: response variables&lt;/li&gt;
+  &lt;li&gt;$\textbf{X}$: predictor(s)&lt;/li&gt;
+  &lt;li&gt;$\mathbf{\beta}$: effect size&lt;/li&gt;
+  &lt;li&gt;$\mathbf{\epsilon}$: noise, error, residual; $E(\boldsymbol{\epsilon})=0, Var(\boldsymbol{\epsilon})=\sigma^2\textbf{I}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Suppose n observations, p predictors, it can be also written,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{bmatrix}y_1 \\ y_2 \\ ... \\ y_n \end{bmatrix} = \begin{bmatrix}x_{11} &amp; ... &amp; x_{1p} \\ x_{21} &amp; ... &amp; x_{2p} \\ ... &amp; ... &amp; ...\\ x_{n1} &amp; ...  &amp; x_{np} \end{bmatrix} \begin{bmatrix} \beta_1 \\ \beta_2 \\... \\ \beta_3 \end{bmatrix} + \begin{bmatrix} \epsilon_1 \\ \epsilon_2 \\ ... \\ \epsilon_n \end{bmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;minimize-ssrsse&quot;&gt;Minimize SSR/SSE&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S(\boldsymbol{b}) := (\boldsymbol{y} - \boldsymbol{Xb})^T(\boldsymbol{y}-\boldsymbol{Xb})&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{\boldsymbol{\beta}}_{OLS} := argmin_{b} S(\boldsymbol{b})&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{\boldsymbol{\beta}}_{OLS} = (\boldsymbol{X}^T\boldsymbol{X})^{-1}\boldsymbol{X}^T\boldsymbol{y}&lt;/script&gt;
+
+&lt;h4 id=&quot;strength&quot;&gt;Strength&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;closed formula&lt;/li&gt;
+  &lt;li&gt;Gauss-Markov: $\hat{\boldsymbol{\beta}}_{OLS}$ is the best linear unbiased estimator of $\boldsymbol{\beta}$, given $\epsilon_i’s$ are i.i.d.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Q: what if $\epsilon_i’s$ are not i.i.d.? what is the best?&lt;/p&gt;
+
+&lt;h3 id=&quot;weighted-least-square-wls---drop-identical-distribution&quot;&gt;Weighted Least Square (WLS) - drop identical distribution&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\Sigma := Var(\boldsymbol{\epsilon}) =  \begin{pmatrix} \sigma_1^2 &amp; 0 &amp; ... &amp; 0 \\ 0 &amp; \sigma_2^2 &amp; ... &amp; 0 \\ ... &amp; ... &amp; ... &amp; ... \\ 0 &amp; 0 &amp;  ... &amp; \sigma_n^2 \end{pmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Let $D^2 = \Sigma^{-1}$ and $\delta = D\epsilon$&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Dy = DX\beta + D\epsilon&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Var(\delta) = Var(D\epsilon) = DVar(\epsilon)D^{-1} = D\Sigma D^T = \textbf{I}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{\beta_{WLS}} = ((DX)^T(DX))^{-1}(DX)^TDy = (X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}y&lt;/script&gt;
+
+&lt;h3 id=&quot;generalized-least-square-gls---drop-iid&quot;&gt;Generalized Least Square (GLS) - drop i.i.d.&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Sigma:= Var(\epsilon)&lt;/script&gt;
+
+&lt;p&gt;Let L be the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cholesky_decomposition&quot;&gt;Cholesky decomp.&lt;/a&gt; of $\Sigma^{-1}$ and $L^TL = \Sigma^{-1}$&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Ly = LX\beta + L\epsilon&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Var(L\sigma) = LVar(\epsilon)L^T = \textbf{I}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{\beta_{GLS}} = (X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}y&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 04 Dec 2017 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2017/12/04/GLS.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/12/04/GLS.html</guid>
+        
+        <category>statistics</category>
+        
+        
+      </item>
     
       <item>
         <title>More than GWAS</title>
@@ -946,372 +1020,6 @@ qqPlot(ps, distribution=&quot;unif&quot;)
         <guid isPermaLink="true">http://localhost:4000/2017/08/10/pvalue_null.html</guid>
         
         <category>statistics</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>HWE and LD</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle&quot;&gt;Hardy-Weinberg equilibrium&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Linkage_disequilibrium&quot;&gt;Linkage disequilibrium&lt;/a&gt; are two basic concepts in &lt;a href=&quot;https://en.wikipedia.org/wiki/Population_genetics&quot;&gt;population genetics&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;defination&quot;&gt;Defination&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Hardy-Weinberg Equilibrium (HWE): &lt;strong&gt;allele and genotype frequencies&lt;/strong&gt; in a population will remain constant &lt;strong&gt;from generation to generation&lt;/strong&gt; in the absence of other evolutionary influences.&lt;/li&gt;
-  &lt;li&gt;Linkage Disequilibrium (LD): the non-random association of &lt;strong&gt;alleles at different loci&lt;/strong&gt; in a given population.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So HWE is about the allele and genotype frequencies in one locus, but LD is about alleles at different loci.&lt;/p&gt;
-
-&lt;h3 id=&quot;hardy-weinberg-equilibrium&quot;&gt;Hardy-Weinberg Equilibrium&lt;/h3&gt;
-
-&lt;h4 id=&quot;from-genotype-to-allele-frequencies&quot;&gt;From Genotype to Allele frequencies&lt;/h4&gt;
-
-&lt;p&gt;For $n_{AA}, n_{Aa}, n_{aa}$ is the count of genotype AA, Aa and aa, respectively. And $n = n_{AA} + n_{Aa} + n_{aa}$.&lt;/p&gt;
-
-&lt;p&gt;So, the count of A and a alleles are:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;n_{A} = 2 \times n_{AA} + n_{Aa}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;n_{a} = 2 \times n_{aa} + n_{Aa}&lt;/script&gt;
-
-&lt;p&gt;The frequencies of A and a alleles are:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{A} = \frac{n_{A}}{2n} = \frac{2 \times n_{AA} + n_{Aa}}{2n} = p_{AA} + \frac{1}{2}p_{Aa}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{a} = \frac{n_{a}}{2n} = \frac{2 \times n_{aa} + n_{Aa}}{2n} = p_{aa} + \frac{1}{2}p_{Aa}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{A} = 1 - p_{a}&lt;/script&gt;
-
-&lt;h4 id=&quot;from-allele-to-genotype-frequencies---hwe&quot;&gt;From Allele to Genotype frequencies - HWE&lt;/h4&gt;
-
-&lt;p&gt;We cannot directly get genotype frequencies from allele frequencies. But under Hardy-Weiberge Equilibrium, we can do it by&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{AA} = p_{A}^{2}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{Aa} = 2p_{A}p_{a}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{aa} = p_{a}^{2}&lt;/script&gt;
-
-&lt;p&gt;The assumptions for HWE includes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;random mating&lt;/li&gt;
-  &lt;li&gt;infinite population size (no genetic drift)&lt;/li&gt;
-  &lt;li&gt;no mutation&lt;/li&gt;
-  &lt;li&gt;no selection&lt;/li&gt;
-  &lt;li&gt;no migration&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In addition, we can see genotype frequencies is a binomial distribution. If SNP genotpes are coded X = 0, 1 and 2 (alleles) and the allele frequency is p, then:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;X \sim B(2, p)\text{ with }E(X) = 2p\text{ and }Var(X)=2p(1-p)&lt;/script&gt;
-
-&lt;p&gt;We can plot the distribution of three different genotypes. In real genetics, we usually use the minor allele, so p is less than 0.5.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;p = seq(0,1,0.01)
-plot(p, (1-p)^2, ylab = &quot;genotype frequency&quot;, main=&quot;Under HWE&quot;,type=&quot;l&quot;, col=&quot;blue&quot;)
-lines(p, 2*p*(1-p), col=&quot;green&quot;)
-lines(p, p^2, col=&quot;grey&quot;)
-legend(0.5,0.95,&quot;genotype = 0&quot;,lty = 1, col =&quot;blue&quot;, bty=&quot;n&quot;)
-legend(0.5,0.85,&quot;genotype = 1&quot;,lty = 1, col =&quot;green&quot;, bty = &quot;n&quot;)
-legend(0.5,0.75,&quot;genotype = 2&quot;,lty = 1, col =&quot;grey&quot;, bty = &quot;n&quot;)
-abline(v = 0.5, lty=2)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/HWE_allele_genotype.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;test-for-hwe&quot;&gt;Test for HWE&lt;/h4&gt;
-
-&lt;p&gt;In the GWAS QC step, we usually remove SNPs with extensive deviation from HWE because this can be indicative of a genotyping or genotype-calling error.&lt;/p&gt;
-
-&lt;p&gt;The two common ways to test HWE are Chi-square test and exact test.&lt;/p&gt;
-
-&lt;p&gt;For Chi-square test:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\chi^{2} = \frac{(n_{AA}-e{AA})^2}{e_{AA}} + \frac{(n_{Aa}-e{Aa})^2}{e_{Aa}} + \frac{(n_{aa}-e{aa})^2}{e_{aa}}&lt;/script&gt;
-
-&lt;p&gt;where $e_{AA} = np_{A}^2$, $e_{Aa} = 2np_{A}p_{a}$, $e_{aa} = np_{a}^2$ and df = 1 (#genotype - #allele).&lt;/p&gt;
-
-&lt;p&gt;For exact test:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(N_{Aa}|N_{A}) = \frac{n_{A}!n_{a}!n!2^{n_{Aa}}}{\frac{1}{2}(n_{A}-n_{Aa})!n_{Aa}!\frac{1}{2}(n_{a}-n_{Aa})!(2n)!}&lt;/script&gt;
-
-&lt;p&gt;For example, a sample with 2504 individuals, the observed genotypes are 2467/36/1 for AA, Aa and aa. We can do the chi-square test in R.&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;### Observed genotype counts
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_AA&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2467&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;36&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_AA&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O_geno&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_AA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Aa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_aa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 2467 36 1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;### Observed allele count and frequency
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_A&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_AA&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_Aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_A&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 0.9924121 0.007587859
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;### Expected genotype count, under HWE
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_AA&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_Aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_A&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_aa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p_a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_geno&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_AA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_Aa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_aa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 2466.144 37.71166 0.1441693
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;### Chi-square with df=1 (#genotypes - #alleles)
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chisq&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O_geno&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;E_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pvalue&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pchisq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chisq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paste&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;chisq:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chisq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;pvalue: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pvalue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## chisq: 5.15844350552391 ; pvalue:  0.02313362043297
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We can also use the R package “HardyWeinberg” to do the chi-square test.&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;### We can also use the R package &quot;HardyWeinberg&quot;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HardyWeinberg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HWChisq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## Chi-square test for Hardy-Weinberg equilibrium (autosomal)
-## Chi2 =  5.158444 DF =  1 p-value =  0.02313362 D =  -0.8558307 f =  0.04538812
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;It’s hard to do the exact test directly in R because of the factorial calucation. So we also use the R package “HardyWeinberg”. A more common way is to use &lt;a href=&quot;https://www.cog-genomics.org/plink/1.9/filter#hwe&quot;&gt;PLINK&lt;/a&gt; “–hwe” option.&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;HWExact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;O_geno&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## Haldane Exact test for Hardy-Weinberg equilibrium (autosomal)
-## using SELOME p-value
-## sample counts: n =  2467 n =  36 n =  1 
-## H0: HWE (D==0), H1: D &amp;lt;&amp;gt; 0 
-## D =  -0.8558307 p-value =  0.1318891
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We can see that the p-values from chi-square and exact test are quite different. In 2005, &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0002929707607356&quot;&gt;Wigginton et al&lt;/a&gt; has shown that the chi-square inflated type I error rates. So exact test is a better method.&lt;/p&gt;
-
-&lt;h3 id=&quot;linkage-disequilibrium&quot;&gt;Linkage disequilibrium&lt;/h3&gt;
-
-&lt;h4 id=&quot;disequilibrium-coefficient-d&quot;&gt;Disequilibrium coefficient (D)&lt;/h4&gt;
-
-&lt;p&gt;For a pair of biallelic loci, there are four &lt;a href=&quot;https://en.wikipedia.org/wiki/Haplotype&quot;&gt;haplotypes&lt;/a&gt;. If there is no association between these two SNPs (linkage equilibrium), the haplotype frequencies should be:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$p_{AB} = p_{A} \times p_{B}$&lt;/li&gt;
-  &lt;li&gt;$p_{aB} = p_{a} \times p_{B}$&lt;/li&gt;
-  &lt;li&gt;$p_{Ab} = p_{A} \times p_{b}$&lt;/li&gt;
-  &lt;li&gt;$p_{ab} = p_{a} \times p_{b}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;However, if the two SNPs have nonrandom association, the LD can be defined by disequilibrium coefficient:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$D_{AB} = p_{AB} - p_{A} \times p_{B}$&lt;/li&gt;
-  &lt;li&gt;$P_{AB} = p_{A} \times p_{B} + D_{AB}$&lt;/li&gt;
-  &lt;li&gt;$p_{aB} = p_{a} \times p_{B} - D_{AB}$&lt;/li&gt;
-  &lt;li&gt;$p_{Ab} = p_{A} \times p_{b} - D_{AB}$&lt;/li&gt;
-  &lt;li&gt;$p_{ab} = p_{a} \times p_{b} + D_{AB}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;other-ld-measures&quot;&gt;Other LD measures&lt;/h4&gt;
-
-&lt;p&gt;More wildely used measures for LD are D’ (LEWONTIN 1964) and $r^{2}$ (HILL and ROBERTSON 1968).&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;D'_{AB} = \frac{D_{AB}}{D_{min}}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} &lt; 0 %]]&gt;&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;D_{min} = min(p_{A}p_{b}, p_{a}p_{B}), if D_{AB} &gt; 0&lt;/script&gt;
-
-&lt;p&gt;D′ = 1 indicates that at least one of the four possible haplotypes is absent, regardless of the allele frequencies.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;r^{2} = \frac{D^{2}}{p_{A}p_{a}p_{B}p_{b}}&lt;/script&gt;
-
-&lt;p&gt;$r^{2}$ is a correlation coefficient of 1/0 (all or none) indicator variables indicating the presence of A and B.&lt;/p&gt;
-
-&lt;h4 id=&quot;influence-factor&quot;&gt;Influence Factor&lt;/h4&gt;
-
-&lt;p&gt;Linkage disequilibrium is influenced by many factors, including,&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;selection&lt;/li&gt;
-  &lt;li&gt;the rate of recombination&lt;/li&gt;
-  &lt;li&gt;the rate of mutation&lt;/li&gt;
-  &lt;li&gt;genetic drift&lt;/li&gt;
-  &lt;li&gt;the system of mating&lt;/li&gt;
-  &lt;li&gt;population structure&lt;/li&gt;
-  &lt;li&gt;genetic linkage.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;an-example-in-r&quot;&gt;An example in R&lt;/h4&gt;
-
-&lt;p&gt;Haplotype table&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;haplotype&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;ab&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Ab&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;aB&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;AB&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;frequency&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;32/5008&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1/5008&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4975/5008&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;2*2 allele frequency table&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;allele&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;a&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;A&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Total&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;b&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;32/5008&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;32/5008&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;B&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1/5008&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4975/5008&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4976/5008&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Total&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1/5008&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5007/5008&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#haplotype frequency
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pab&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pAb&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;5008&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;5008&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pAB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4975&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;5008&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pab&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pAb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pAB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 0 0.006389776 0.0001996805 0.9934105
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#allele frequency
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pa&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pab&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pA&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pAB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pAb&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pb&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pab&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pAb&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;paB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pAB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 0.0001996805 0.9998003 0.006389776 0.9936102
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#D
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pAB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pB&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## -1.275914e-06
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#Dmin
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Dmin&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pa&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Dmin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## -1.275914e-06
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#D'
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Ddot&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Dmin&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Ddot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#r-square
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rsq&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pa&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rsq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## 1.284376e-06
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bioinformatics.org.au/ws09/presentations/Day3_PVisscher.pdf&quot;&gt;ppt from Peter Visscher&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.springer.com/cn/book/9781441973375&quot;&gt;Laird et al, The Fundamentals of Modern Statistical Genetics, 2011&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cran.r-project.org/web/packages/HardyWeinberg/vignettes/HardyWeinberg.pdf&quot;&gt;R package HardyWeinberg&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/17248194&quot;&gt;Lewontin RC. The Interaction of Selection and Linkage. I. General Considerations; Heterotic Models. Genetics, 1964.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://link.springer.com/article/10.1007/BF01245622&quot;&gt;Hill W.G. Linkage disequilibrium in finite populations. Theoretical and Applied Genetics, 1968.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://csg.sph.umich.edu/abecasis/class/&quot;&gt;Gonçalo’s Lecture Notes - Models in Human Genetics&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Wed, 07 Jun 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/06/07/HWE_LD.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/06/07/HWE_LD.html</guid>
-        
-        <category>genetics</category>
         
         
       </item>

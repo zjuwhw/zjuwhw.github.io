@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>zjuwhw&#39;s blog</title>
-  <meta name="description" content="This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
-">
+  <title>Generalized Least Square</title>
+  <meta name="description" content="This is the note for the video tutorial of generalized least square by Broad Institute’s MIA talks.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/2017/12/04/GLS.html">
   <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -81,123 +80,80 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Generalized Least Square</h1>
+    <p class="post-meta"><time datetime="2017-12-04T00:00:00+10:00" itemprop="datePublished">Dec 4, 2017</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Dec 4, 2017</span> &raquo; <a class="post-link" href="/2017/12/04/GLS.html">Generalized Least Square</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 7, 2017</span> &raquo; <a class="post-link" href="/2017/11/07/more-GWAS.html">More than GWAS</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 12, 2017</span> &raquo; <a class="post-link" href="/2017/10/12/plot_par.html">Parameters for R plot funtion</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 21, 2017</span> &raquo; <a class="post-link" href="/2017/09/21/recombination.html">Recombination and Recombination Rate</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 8, 2017</span> &raquo; <a class="post-link" href="/2017/09/08/literature.html">Literature Collection in Quantitative Genetics</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 31, 2017</span> &raquo; <a class="post-link" href="/2017/08/31/sampling_cor.html">sampling distribution of correlation r</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 25, 2017</span> &raquo; <a class="post-link" href="/2017/08/25/mean_variance.html">mean, variance, covariance and correlation</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 21, 2017</span> &raquo; <a class="post-link" href="/2017/08/21/remainder_quotient.html">Remainder and quotient</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 18, 2017</span> &raquo; <a class="post-link" href="/2017/08/18/plink_bfile.html">Plink bfile manipulation</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 10, 2017</span> &raquo; <a class="post-link" href="/2017/08/10/pvalue_null.html">P-values under null hypothesis</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 7, 2017</span> &raquo; <a class="post-link" href="/2017/06/07/HWE_LD.html">HWE and LD</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 5, 2017</span> &raquo; <a class="post-link" href="/2017/06/05/Stats_R.html">Simple Statistic in R</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 4, 2017</span> &raquo; <a class="post-link" href="/2017/06/04/MathJax.html">Use MathJax to write Equations in Jekyll blogs</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 9, 2017</span> &raquo; <a class="post-link" href="/2017/05/09/Stats_MOOC.html">Statistics Mooc</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 9, 2017</span> &raquo; <a class="post-link" href="/2017/05/09/PBS.html">PBS</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 5, 2017</span> &raquo; <a class="post-link" href="/2017/05/05/GWAS_analysis.html">GWAS analysis</a>
-      </li>
-    
-  </ul>
+  <div class="post-content" itemprop="articleBody">
+    <p>This is the note for <a href="https://www.youtube.com/watch?v=XEne6yD7zmo&amp;list=PLlMMtlgw6qNjROoMNTBQjAcdx53kV50cS">the video tutorial of generalized least square</a> by Broad Institute’s MIA talks.</p>
+
+<h3 id="ordinary-least-square-ols">Ordinary Least Square (OLS)</h3>
+
+<h4 id="linear-model">Linear model</h4>
+
+<script type="math/tex; mode=display">\textbf{y} = \textbf{X} \boldsymbol{\beta} + \boldsymbol{\epsilon}</script>
+
+<ul>
+  <li>$\textbf{y}$: response variables</li>
+  <li>$\textbf{X}$: predictor(s)</li>
+  <li>$\mathbf{\beta}$: effect size</li>
+  <li>$\mathbf{\epsilon}$: noise, error, residual; $E(\boldsymbol{\epsilon})=0, Var(\boldsymbol{\epsilon})=\sigma^2\textbf{I}$</li>
+</ul>
+
+<p>Suppose n observations, p predictors, it can be also written,</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{bmatrix}y_1 \\ y_2 \\ ... \\ y_n \end{bmatrix} = \begin{bmatrix}x_{11} & ... & x_{1p} \\ x_{21} & ... & x_{2p} \\ ... & ... & ...\\ x_{n1} & ...  & x_{np} \end{bmatrix} \begin{bmatrix} \beta_1 \\ \beta_2 \\... \\ \beta_3 \end{bmatrix} + \begin{bmatrix} \epsilon_1 \\ \epsilon_2 \\ ... \\ \epsilon_n \end{bmatrix} %]]></script>
+
+<h4 id="minimize-ssrsse">Minimize SSR/SSE</h4>
+
+<script type="math/tex; mode=display">S(\boldsymbol{b}) := (\boldsymbol{y} - \boldsymbol{Xb})^T(\boldsymbol{y}-\boldsymbol{Xb})</script>
+
+<script type="math/tex; mode=display">\hat{\boldsymbol{\beta}}_{OLS} := argmin_{b} S(\boldsymbol{b})</script>
+
+<script type="math/tex; mode=display">\hat{\boldsymbol{\beta}}_{OLS} = (\boldsymbol{X}^T\boldsymbol{X})^{-1}\boldsymbol{X}^T\boldsymbol{y}</script>
+
+<h4 id="strength">Strength</h4>
+
+<ul>
+  <li>closed formula</li>
+  <li>Gauss-Markov: $\hat{\boldsymbol{\beta}}_{OLS}$ is the best linear unbiased estimator of $\boldsymbol{\beta}$, given $\epsilon_i’s$ are i.i.d.</li>
+</ul>
+
+<p>Q: what if $\epsilon_i’s$ are not i.i.d.? what is the best?</p>
+
+<h3 id="weighted-least-square-wls---drop-identical-distribution">Weighted Least Square (WLS) - drop identical distribution</h3>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\Sigma := Var(\boldsymbol{\epsilon}) =  \begin{pmatrix} \sigma_1^2 & 0 & ... & 0 \\ 0 & \sigma_2^2 & ... & 0 \\ ... & ... & ... & ... \\ 0 & 0 &  ... & \sigma_n^2 \end{pmatrix} %]]></script>
+
+<p>Let $D^2 = \Sigma^{-1}$ and $\delta = D\epsilon$</p>
+
+<script type="math/tex; mode=display">Dy = DX\beta + D\epsilon</script>
+
+<script type="math/tex; mode=display">Var(\delta) = Var(D\epsilon) = DVar(\epsilon)D^{-1} = D\Sigma D^T = \textbf{I}</script>
+
+<script type="math/tex; mode=display">\hat{\beta_{WLS}} = ((DX)^T(DX))^{-1}(DX)^TDy = (X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}y</script>
+
+<h3 id="generalized-least-square-gls---drop-iid">Generalized Least Square (GLS) - drop i.i.d.</h3>
+
+<script type="math/tex; mode=display">\Sigma:= Var(\epsilon)</script>
+
+<p>Let L be the <a href="https://en.wikipedia.org/wiki/Cholesky_decomposition">Cholesky decomp.</a> of $\Sigma^{-1}$ and $L^TL = \Sigma^{-1}$</p>
+
+<script type="math/tex; mode=display">Ly = LX\beta + L\epsilon</script>
+
+<script type="math/tex; mode=display">Var(L\sigma) = LVar(\epsilon)L^T = \textbf{I}</script>
+
+<script type="math/tex; mode=display">\hat{\beta_{GLS}} = (X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}y</script>
 
 
-<div class="pagination">
-  
-    <span>&laquo; 上一页</span>
-  
+  </div>
 
-  
-    
-      <em>1</em>
-    
-  
-    
-      <a href="/page2">2</a>
-    
-  
-    
-      <a href="/page3">3</a>
-    
-  
-    
-      <a href="/page4">4</a>
-    
-  
-    
-      <a href="/page5">5</a>
-    
-  
-
-  
-    <a href="/page2">下一页 &raquo;</a>
-  
-
-</div>
-
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-</div>
-
-
-
-<p> Number of visits:&nbsp; &nbsp; 
-<img src="http://hitwebcounter.com/counter/counter.php?page=6444042&style=0001&nbdigits=5&type=page&initCount=0" title="url and counting visits" Alt="url and counting visits"   border="0" >
-</p>     
-
+</article>
 
       </div>
     </div>
