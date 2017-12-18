@@ -91,7 +91,7 @@
     <p>P values are also random variables. The distribution of p values under
 null hypothesis should be a uniform one.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>set.seed(1)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set.seed(1)
 y = rnorm(50)
 ps = c()
 for(i in 1:2000){
@@ -100,18 +100,16 @@ for(i in 1:2000){
   ps = c(ps, p)
 }
 hist(ps,breaks=seq(0,1,0.05),col=c("red",rep("white",19)), main = "Distribution of P values under null (2000 replications)", freq=FALSE, xlab="P")
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><img src="/images/pvalue-chunk-1-1.png" alt="" /></p>
 
 <p><a href="https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot">QQ-plot</a> can show the p
 values follow an uniform distribution.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>library(car)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>library(car)
 qqPlot(ps, distribution="unif")
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><img src="/images/pvalue-chunk-2-1.png" alt="" /></p>
 

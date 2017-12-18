@@ -148,11 +148,10 @@
 
 <p>We can have use its data to a look the recombination across the human genome.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>library(data.table)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>library(data.table)
 data = fread("genetic_map_chr1_combined_b37.txt")
 plot(data$"position",data$"COMBINED_rate(cM/Mb)",type="l", xlab="chr1 (bp)", ylab="Recombination Rate(cM/Mb)")
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><img src="/images/recombination_chr1.png" alt="" /></p>
 

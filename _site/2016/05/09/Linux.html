@@ -201,7 +201,7 @@
   </li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>#分开output和error信息
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#分开output和error信息
 kill 1234 &gt;killout.txt 2&gt;killerr.txt
 
 #利用&gt;&amp;结合output和error信息
@@ -209,25 +209,22 @@ kill 1234 &gt;killouterr.txt 2&gt;&amp;1
 
 #利用/dev/null扔掉输出
 kill 1234 &gt;/dev/null 2&gt;&amp;1
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>Redirecting Input</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>more &lt; killout.txt
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>more &lt; killout.txt
+</code></pre></div></div>
 <p>但是这看起来并没有什么太大的用处。</p>
 
 <ul>
   <li>Pipes</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code> ps –xo comm | sort | uniq | grep -v sh | more
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ps –xo comm | sort | uniq | grep -v sh | more
+</code></pre></div></div>
 
 <h3 id="shell-programming-1">Shell Programming</h3>
 
@@ -243,9 +240,8 @@ kill 1234 &gt;/dev/null 2&gt;&amp;1
 
 <h4 id="making-a-script-executable">Making a Script Executable</h4>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>chmod +x script
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chmod +x script
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">chmod</code>: change file modes or Access Control Lists</li>
@@ -257,7 +253,7 @@ kill 1234 &gt;/dev/null 2&gt;&amp;1
 
 <h4 id="variables">Variables</h4>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>#所有的变量都被当成字符串，且case-sensitive
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#所有的变量都被当成字符串，且case-sensitive
 #数字类的字符串可以用一些utilities转换
 #获取变量内容使用$
 salutation=Hello
@@ -272,18 +268,16 @@ echo $salutation      ##输出“7+5”
 # 使用read命令让用户对变量赋值
 read salutation     ##用户输入“Hi”
 echo $salutation      ##输出“Hi”
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h4 id="quoting">Quoting</h4>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>myvar=”Hi there”
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>myvar=”Hi there”
 echo $myvar        ##输出"Hi there"
 echo “$myvar”      ##输出"Hi there"
 echo ‘$myvar’      ##输出"$myvar" 
 echo \$myvar       ##输出"$myvar" 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h4 id="environment-variables">Environment Variables</h4>
 
@@ -346,26 +340,24 @@ echo \$myvar       ##输出"$myvar"
   <li>condition structure:</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## 检查是否存在文件
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 检查是否存在文件
 ## test的exit code决定是否继续执行代码
 if test -f fred.c
 then
 ## 插入代码
 fi
-</code></pre>
-</div>
+</code></pre></div></div>
 <p>或者</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>##请注意之间的空格
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##请注意之间的空格
 if [ -f fred.c ]
 then
 ## 插入代码
 fi
-</code></pre>
-</div>
+</code></pre></div></div>
 <p>完整的</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>if + 条件判断
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if + 条件判断
 then
 ## 插入代码
 elif + 条件判断
@@ -375,8 +367,7 @@ else
 ## 插入代码
 fi
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>condition types: <code class="highlighter-rouge">String Comparison</code>，<code class="highlighter-rouge">Arithmetic Comparison</code>，<code class="highlighter-rouge">File Conditional</code></li>

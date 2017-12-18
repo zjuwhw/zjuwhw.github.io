@@ -94,7 +94,7 @@
 
 <p>In the plink file formats, <code class="highlighter-rouge">.ped/map</code> files are text files used together to store pedigree + genotype information and variant information, respectively. For example, the below commands show the basic information of the <code class="highlighter-rouge">test.map</code> and <code class="highlighter-rouge">test.ped</code>, which is converted from test.bed/bim/fam files in gcta 1.26 software package.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ head -2 test.map
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ head -2 test.map
 1	rs4475691	0	836671
 1	rs28705211	0.0151734	890368
 
@@ -109,8 +109,7 @@ $ wc -l test.ped
     3925 test.ped
 $ head -1 test.ped|awk '{print NF}'
 2006
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><code class="highlighter-rouge">test.map</code> has 1000 lines, which represent 1000 variants with chromosome, SNP id, position in morgans and position in BP per line.</p>
 
@@ -120,18 +119,17 @@ $ head -1 test.ped|awk '{print NF}'
 
 <p>The <code class="highlighter-rouge">.bed/bim/fam</code> files are also called bfile, which is the binary file of <code class="highlighter-rouge">.ped/map</code> files. The bed file is the test file for genotype, the bim file is for variant information (similiar with map file, added with reference and alternative allele) and the fam file is the text file for pedigree information (first 6 columns of ped file).</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ head -2 test.bim
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ head -2 test.bim
 1	rs4475691	0	836671	T	C
 1	rs28705211	0.0151734	890368	C	G
 $ head -2 test.fam
 1 11 0 0 1 -9
 2 21 0 0 2 -9
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>The <code class="highlighter-rouge">.bed/bim/fam</code> files are easy to read/write for softwares and can reduce the storage by more than 10-fold (30840+15776286/982003+34840+76286).</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ ls -l test.ped test.map
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ls -l test.ped test.map
 -rw-r--r--  1 huanwei.wang  Group-Yang     30840 18 Aug 13:42 test.map
 -rw-r--r--  1 huanwei.wang  Group-Yang  15776286 18 Aug 13:42 test.ped
 $ ls -l test.bed test.bim test.fam
@@ -140,18 +138,16 @@ $ ls -l test.bed test.bim test.fam
 -rw-r-----  1 huanwei.wang  Group-Yang   76286 18 Aug 10:44 test.fam
 $ echo ""|awk '{print (30840+15776286)/(982003+34840+76286)}'
 14.4604
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>The <code class="highlighter-rouge">.bed/bim/fam</code> and <code class="highlighter-rouge">.ped/map</code> files can be converted to each other by plink software.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code># bfile to ped/map
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># bfile to ped/map
 $ plink2 --bfile test --recode --out test
 
 # ped/map to bfile
 $ plink2 --file test --make-bed --out test
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="r-package-plink2r">R package “plink2R”</h2>
 
@@ -159,43 +155,39 @@ $ plink2 --file test --make-bed --out test
 
 <p>Installation</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>devtools::install_github("gabraham/plink2R/plink2R")
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>devtools::install_github("gabraham/plink2R/plink2R")
+</code></pre></div></div>
 
 <p>Usage</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&gt; library(plink2R)
-Loading required package: Rcpp
-Loading required package: RcppEigen
-Warning message:
-package ‘Rcpp’ was built under R version 3.4.1
-&gt; dat &lt;- read_plink("test")
-&gt; dim(dat$bed)
-[1] 3925 1000
-&gt; dim(dat$fam)
-[1] 3925    6
-&gt; dim(dat$bim)
-[1] 1000    6
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">&gt;</span> <span class="n">library</span><span class="p">(</span><span class="n">plink2R</span><span class="p">)</span>
+<span class="n">Loading</span> <span class="n">required</span> <span class="k">package</span><span class="p">:</span> <span class="n">Rcpp</span>
+<span class="n">Loading</span> <span class="n">required</span> <span class="k">package</span><span class="p">:</span> <span class="n">RcppEigen</span>
+<span class="n">Warning</span> <span class="n">message</span><span class="p">:</span>
+<span class="k">package</span> <span class="err">‘</span><span class="n">Rcpp</span><span class="err">’</span> <span class="n">was</span> <span class="n">built</span> <span class="n">under</span> <span class="n">R</span> <span class="k">version</span> <span class="m">3.4.1</span>
+<span class="p">&gt;</span> <span class="n">dat</span> <span class="p">&lt;-</span> <span class="n">read_plink</span><span class="p">(</span><span class="s2">"test"</span><span class="p">)</span>
+<span class="p">&gt;</span> <span class="n">dim</span><span class="p">(</span><span class="n">dat</span><span class="p">$</span><span class="n">bed</span><span class="p">)</span>
+<span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="m">3925</span> <span class="m">1000</span>
+<span class="p">&gt;</span> <span class="n">dim</span><span class="p">(</span><span class="n">dat</span><span class="p">$</span><span class="n">fam</span><span class="p">)</span>
+<span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="m">3925</span>    <span class="m">6</span>
+<span class="p">&gt;</span> <span class="n">dim</span><span class="p">(</span><span class="n">dat</span><span class="p">$</span><span class="n">bim</span><span class="p">)</span>
+<span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="m">1000</span>    <span class="m">6</span>
+</code></pre></div></div>
 
 <p>But the plink2R is relatively slow and takes more memory, so try to manipulate bfile using plink as much as possible.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&gt; object.size(dat)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; object.size(dat)
 31908168 bytes
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="c-ad-python-library-plinkio">C ad Python library “plinkio”</h2>
 
 <p>There is also packages for C and Python lauguage, e.g. <a href="https://github.com/mfranberg/libplinkio">plinkio</a>.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>from plinkio import plinkfile
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from plinkio import plinkfile
 
 plink_file = plinkfile.open( "test" )
-</code></pre>
-</div>
+</code></pre></div></div>
 
   </div>
 

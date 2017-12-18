@@ -369,7 +369,7 @@
   <li><strong>Precise statment</strong>: No matter what the list, a proportion of at least <script type="math/tex">1-\frac{1}{k^{2}}</script>of the entries will be in the range <strong>average ± a few SDs</strong></li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Typical use
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Typical use
 
 Age: average 20 years, SD 5 years.
 What percent are more than 80 years old?
@@ -383,8 +383,7 @@ at most 0.7% (1/k^2, k=(80-20)/5 = 12)
 In conclusion, both bounds are correct.
 But Chebychev's bound is much sharper.
 Because it uses the SD, not just the average.
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h4 id="44-changing-units-of-measurement-standard-units">4.4 Changing units of measurement; standard units</h4>
 
@@ -465,7 +464,7 @@ Because it uses the SD, not just the average.
 <script type="math/tex; mode=display">% <![CDATA[
 = \frac{1}{ \sqrt{2\pi} }e^{-\frac{1}{2}z^{2}}, -\infty < z < \infty %]]></script>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Useful to remember
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Useful to remember
 
 total area = 1
 balance point: z=0
@@ -484,8 +483,7 @@ to the right of 2: about 2.5%
 Percentiles:
 95th percentils: z=1.65, roughly
 5th percentile: z=-1.65, roughly
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h4 id="52-normal-curves-relation-to-the-standard-normal">5.2 Normal curves: relation to the standard normal</h4>
 
@@ -505,7 +503,7 @@ Percentiles:
   <li>Finding a percent under a normal curve</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>For a list with average 67 and SD 3,
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>For a list with average 67 and SD 3,
 what percent are between 63 and 67?
 
 (63-67)/3 = -1.33 standard units
@@ -517,8 +515,7 @@ what percent are between -1.33 and 0?
 
 The applet says the area is 40.82%.
 In R, the expression is "pnorm(0) - pnorm(-1.33)"
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h4 id="53-approximating-data-histograms-percentiles-revisited">5.3 Approximating data histograms; percentiles revisited</h4>
 
@@ -734,7 +731,7 @@ In R, the expression is "pnorm(0) - pnorm(-1.33)"
 
 <h4 id="16-bayes-rule">1.6 Bayes’ Rule</h4>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>P(A) = 0.8; P(B) = 0.2; P(bad|A) = 0.01; P(bad|B) = 0.02
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>P(A) = 0.8; P(B) = 0.2; P(bad|A) = 0.01; P(bad|B) = 0.02
 
 P(A and bad)
  = P(A) * P(bad|A)
@@ -749,8 +746,7 @@ P(A|bad)
  = P(A and bad) / P(bad) 
  = 0.008/0.012 
  = 0.67
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>Bayes’Rule: Use it to find the conditional probability of an event at an earlier stage, given the result of a later stage.</li>
@@ -857,7 +853,7 @@ P(A|bad)
   </li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>X: the number of spots on one rool of a die
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>X: the number of spots on one rool of a die
 Probability distribution table for X:
  - spot 1: 1/6
  - spot 2: 1/6
@@ -868,8 +864,7 @@ Probability distribution table for X:
 
 Long run average value of X:
 1*1/6 + 2*1/6 + 3*1/6 + 4*1/6 + 5*1/6 + 6*1/6 = 3.5
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>Expected value of X = expectation of X = E(X)</li>
@@ -898,7 +893,7 @@ Long run average value of X:
   </li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>X: one draw at random from 1,2,2,3
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>X: one draw at random from 1,2,2,3
 
 X: 
 P(X = 1) = 1/4
@@ -919,8 +914,7 @@ E((X-E(X))^2) = 0.5
 
 standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
 = SD of the box (note: for one draw, n = 1)
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>n draws at random with replacment from a box of numbered tickets</li>
@@ -1047,14 +1041,13 @@ standard error of X = SE(X) = sqrt(E((X-E(X))^2)) = 0.71
 
 <p>Central Limit Theorem (sort of )</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Consider a population of size N, with mean μ and SD σ.
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Consider a population of size N, with mean μ and SD σ.
 Draw a simple random sample of size n.
 Then, if n is large in absolute terms but small relative to N:
 - the distribution of the sample sum is roughly normal with mean nμ and SE approximately sqrt(n)σ
 - the distribution of the sample mean is roughly normal with mean μ and SE approximately σ/sqrt(n)
 regardless of the distribution of the population
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>Why didn’t we use the correction factor?
@@ -1173,7 +1166,7 @@ regardless of the distribution of the population
   <li>Testing for a binomial p</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Genetic theory: each plant has a 25% chance of being red-flowering.
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Genetic theory: each plant has a 25% chance of being red-flowering.
 Experiment data: 400 plants of this species; 88 are red-flowering
 Question: Is the theory good, or are ther two few red?
 Answer:
@@ -1186,8 +1179,7 @@ one-sample z test:
 approximately normal with mean 100 (400*0.25) and SD 8.66(sqrt(400*0.25*0.75))
 z = (88.5 - 100)/8.66 = -1.328
 P-value = 9.21%
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h4 id="23-significance-level-and-p-value">2.3 Significance level and P-value</h4>
 
@@ -1301,7 +1293,7 @@ P-value = 9.21%
   <li>SE of the difference between independent random variables: SE(X-Y) = sqrt(Var(X) + Var(Y))</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>SRS1(e.g. average household income in City A): n=200, mean=518, SD=100
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SRS1(e.g. average household income in City A): n=200, mean=518, SD=100
 SRS2(e.g. average household income in City B): n=250, mean=509, SD=110
 H0: μ1 = μ2
 H1: μ1 &gt; μ2
@@ -1316,12 +1308,11 @@ z = (9-0)/9.92 = 0.907
 the P-value is 18.2%
 
 Conclusion: Stay with the null; the difference just looks like chance variation.
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h4 id="34-testing-for-the-difference-between-proportions">3.4 Testing for the difference between proportions</h4>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>SRS1: n=500, proportion=34%
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SRS1: n=500, proportion=34%
 SRS2: n=750, proportion=40%
 H0: p1 = p2
 H1: p1 &lt; p2
@@ -1340,14 +1331,13 @@ z = (6%-0)/2.8% = 2.14
 p-value ≈ 1.6%
 
 Conclusion: Alternative
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h3 id="4-dependent-samples">4 Dependent Samples</h3>
 
 <h4 id="41-paired-samples-parametric-analysis">4.1 Paired samples: parametric analysis</h4>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>SRS(e.g. students): n=100
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SRS(e.g. students): n=100
 measure1(e.g. math score): mean=68, SD=12
 measure2(e.g. verbal score): mean=72, SD=14
 H0: md = 0 (md = measure1 - measure2)
@@ -1369,12 +1359,11 @@ z = (-4 - 0)/1.176 = -3.4
 P is tiny
 
 Conclusion: Reject the null
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h4 id="42-paired-samples-non-parametric-analysis">4.2 Paired samples: non-parametric analysis</h4>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>SRS(e.g. students): n=100
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SRS(e.g. students): n=100
 measure1(e.g. math score): mean=68, SD=12
 measure2(e.g. verbal score): mean=72, SD=14
 H0: md = 0 (md = measure1 - measure2)
@@ -1384,8 +1373,7 @@ Calculate the number (e.g. 62) of measure1 - measure2 &lt; 0
 p = binomial(k&gt;=62, n, 0.5) = 1.05%
 
 Conclusion: md &lt; 0
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>The calculation ignores much of the information in the scores</li>
@@ -1398,7 +1386,7 @@ Conclusion: md &lt; 0
 
 <p>A sample of randomized controlled experiments</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>- experiment to test effectiveness of "cheat sheets" on probability exame
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- experiment to test effectiveness of "cheat sheets" on probability exame
 - 300 students agree to participate in a study
 - Treatment group: SRS of 200 is allowed to bring cheat-sheet into the exam.
 - Control group: The remaining 100 take the exam without the cheat-sheet.
@@ -1407,8 +1395,7 @@ Conclusion: md &lt; 0
 	- Control group: mean=80, SD=12
 
 - Did the treatment hurt?
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>Method: use the two-sample z test.</li>
@@ -1438,7 +1425,7 @@ Conclusion: md &lt; 0
 
 <p>A categorical data: more than two categories</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Sample of students at a large university:
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sample of students at a large university:
 	- 54 freshmen
 	- 40 sophomores
 	- 51 juniors
@@ -1446,8 +1433,7 @@ Conclusion: md &lt; 0
 	- 16 graduate
 H0: The data are lkie a simple random sample from a large population consisting of 22.5% each of freshmen, sophomores, juniors, and seniors, and 10% graduate students.
 H1: The data are not like a simple random sample from the population in the null.
-</code></pre>
-</div>
+</code></pre></div></div>
 <ul>
   <li>Compare the observed counts to what the null predicts:</li>
 </ul>

@@ -305,7 +305,7 @@ estimated variance of <em>b</em><sub>1</sub></li>
 
 <h2 id="r-code-example">R code example</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>lm_example = function(x,y){
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>lm_example = function(x,y){
   xmin = min(x); xmax = max(x)
   fit_lm = lm(y~x)
   b0 = fit_lm$"coefficient"[1]
@@ -343,8 +343,7 @@ data
 ## Rsq     0.2696518  0.26965179   0.2696518  0.2696518
 ## s_b1    0.0781583  0.02490594   0.4980101  0.1586960
 ## t       3.2721686  3.27216859   3.2721686  3.2721686
-</code></pre>
-</div>
+</code></pre></div></div>
 
   </div>
 

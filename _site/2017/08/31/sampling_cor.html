@@ -94,7 +94,7 @@
 x2, then r should be 0. However the sample estimation of r is not
 exactly 0. There is a sampling distribution around 0.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>rep = 1000; n = 25
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rep = 1000; n = 25
 set.seed(1)
 cors = c()
 for(i in 1:rep){
@@ -107,8 +107,7 @@ layout(matrix(1:2,1,2))
 par(cex.main=0.75)
 plot(x1, x2, main = paste("Scatterplot of last simulation\nn=",n,", estimated r = ", round(r,4), sep=""))
 hist(cors, main = paste("Distribution of estimated r\nmean=",round(mean(cors),4)," SD=",round(sd(cors),4),"\n(",rep," simulations of sample size = ",n,")", sep=""), xlab=expression(hat(r)), freq=F)
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><img src="/images/samdis_cor-chunk-1-1.png" alt="" /></p>
 
@@ -117,7 +116,7 @@ hist(cors, main = paste("Distribution of estimated r\nmean=",round(mean(cors),4)
 <p>However, if the population correlation is not equal to 0, the
 distribution of estimated r is skewed.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>rep = 1000; n = 25
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rep = 1000; n = 25
 set.seed(1)
 cors = c()
 for(i in 1:rep){
@@ -130,8 +129,7 @@ layout(matrix(1:2,1,2))
 par(cex.main=0.75)
 plot(x1, x2, main = paste("Scatterplot of last simulation\nn=",n,", estimated r = ", round(r,4), sep=""))
 hist(cors, main = paste("Distribution of estimated r\nmean=",round(mean(cors),4)," SD=",round(sd(cors),4),"\n(",rep," simulations of sample size = ",n,")", sep=""), xlab=expression(hat(r)), freq=F)
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><img src="/images/samdis_cor-chunk-2-1.png" alt="" /></p>
 
@@ -150,7 +148,7 @@ the correlation between x1 and x1+2*x2 should be:</p>
 
 <script type="math/tex; mode=display">z' = \frac{1}{2} \times ln\frac{1+r}{1-r} \sim N( \mu, \frac{1}{\sqrt{N-3}} )</script>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>rep = 1000; n = 25
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rep = 1000; n = 25
 set.seed(1)
 zs = c()
 for(i in 1:rep){
@@ -164,12 +162,11 @@ layout(matrix(1:2,1,2))
 par(cex.main=0.75)
 plot(x1, x2, main = paste("Scatterplot of last simulation\nn=",n,", estimated r = ", round(r,4),", z' = ", round(z,4), sep=""))
 hist(zs, main = paste("Distribution of z'\nmean=",round(mean(zs),4)," SD=",round(sd(zs),4),"\n(",rep," simulations of sample size = ",n,")", sep=""), xlab="z'", freq=F)
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><img src="/images/samdis_cor-chunk-3-1.png" alt="" /></p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>### The mean of z'
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>### The mean of z'
 0.5 * log((1+0.4472136)/(1-0.4472136))
 
 ## [1] 0.4812118
@@ -178,8 +175,7 @@ hist(zs, main = paste("Distribution of z'\nmean=",round(mean(zs),4)," SD=",round
 1/sqrt(n-3)
 
 ## [1] 0.2132007
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="reference">Reference</h2>
 

@@ -239,3 +239,7 @@ tags: ["medi", "HIT"]
 
 - [《Health Informatics on FHIR》](https://www.coursera.org/learn/fhir/home/info) on Coursera
 - wiki: [Medical_classification](https://en.wikipedia.org/wiki/Medical_classification)
+
+### Further reading
+
+- medipursuit post: [http://medipursuit.com/the-ultimate-medical-billing-and-coding-salary-guide/](http://medipursuit.com/the-ultimate-medical-billing-and-coding-salary-guide/)

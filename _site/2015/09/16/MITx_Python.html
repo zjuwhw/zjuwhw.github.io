@@ -474,21 +474,19 @@
 
 <h5 id="control-flow-while-loops">Control FLow: <code class="highlighter-rouge">while</code> loops</h5>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>while &lt;condition&gt;:
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>while &lt;condition&gt;:
 	&lt;expression&gt;
 	&lt;expression&gt;
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>repeat until <contidtion> is False</contidtion></p>
 
 <h5 id="control-flow-for-loops">Control FLow: <code class="highlighter-rouge">for</code> loops</h5>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>for &lt;variable&gt; in range(&lt;some_num&gt;):
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>for &lt;variable&gt; in range(&lt;some_num&gt;):
 	&lt;expression&gt;
 	&lt;expression&gt;
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h5 id="range-function">range function</h5>
 
@@ -614,7 +612,7 @@
 
 <p>EXAMPLE OF SQUARE ROOT</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="mi">25</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="mi">25</span>
 <span class="n">epsilon</span> <span class="o">=</span> <span class="mf">0.01</span>
 <span class="n">numGuesses</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">low</span> <span class="o">=</span> <span class="mf">1.0</span>
@@ -630,8 +628,7 @@
 	<span class="n">ans</span> <span class="o">=</span> <span class="p">(</span><span class="n">high</span> <span class="o">+</span> <span class="n">low</span><span class="p">)</span><span class="o">/</span><span class="mf">2.0</span>
 <span class="k">print</span><span class="p">(</span><span class="s">'numGuesses = '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numGuesses</span><span class="p">))</span>
 <span class="k">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">ans</span><span class="p">)</span> <span class="o">+</span> <span class="s">' is close to square root of '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Some obersvation</p>
 
@@ -649,7 +646,7 @@
 
 <p>convert decimal number to binary number</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">if</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
     <span class="n">isNeg</span> <span class="o">=</span> <span class="bp">True</span>
     <span class="n">num</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
@@ -662,8 +659,7 @@
 	<span class="n">num</span> <span class="o">=</span> <span class="n">num</span><span class="o">//</span><span class="mi">2</span>
 <span class="k">if</span> <span class="n">isNeg</span><span class="p">:</span>
 	<span class="n">result</span> <span class="o">=</span> <span class="err">‘</span><span class="o">-</span><span class="err">’</span> <span class="o">+</span> <span class="n">result</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>FRACTIONS</p>
 
@@ -689,7 +685,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 
 <p>Newton showed that if g is an approximation to the root, then <code class="highlighter-rouge">g – p(g)/p’(g)</code> is a better approximation; where p’ is derivative of p.</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">epsilon</span> <span class="o">=</span> <span class="mf">0.01</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">epsilon</span> <span class="o">=</span> <span class="mf">0.01</span>
 <span class="n">y</span> <span class="o">=</span> <span class="mf">24.0</span>
 <span class="n">guess</span> <span class="o">=</span> <span class="n">y</span><span class="o">/</span><span class="mf">2.0</span>
 <span class="n">numGuesses</span> <span class="o">=</span> <span class="mi">0</span>
@@ -698,8 +694,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 	<span class="n">guess</span> <span class="o">=</span> <span class="n">guess</span> <span class="o">-</span> <span class="p">(((</span><span class="n">guess</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">guess</span><span class="p">))</span>
 	<span class="k">print</span><span class="p">(</span><span class="err">‘</span><span class="n">numGuesses</span> <span class="o">=</span> <span class="err">‘</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">numGuesses</span><span class="p">))</span>
 	<span class="k">print</span><span class="p">(</span><span class="s">'Square root of '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="p">)</span> <span class="o">+</span> <span class="s">' is about '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">guess</span><span class="p">))</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h5 id="iterative-algorithms">Iterative algorithms</h5>
 
@@ -785,7 +780,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   </li>
 </ul>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">is_even</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>             <span class="c"># def是keyword；is_even是函数名，i是参数（parameters or arguments）</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">is_even</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>             <span class="c"># def是keyword；is_even是函数名，i是参数（parameters or arguments）</span>
 	<span class="s">"""                
 	Input: i, a positive int
 	Returns True if i is even, otherwise False
@@ -794,8 +789,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 	<span class="k">return</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span>   <span class="c"># return是keyword</span>
 
 <span class="n">is_even</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>	            <span class="c"># later in the code, you call the function using its name and values for parameters</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>VARIABLE SCOPE</p>
 
@@ -895,14 +889,13 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   </li>
 </ul>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">mult_iter</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">mult_iter</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
 	<span class="n">result</span> <span class="o">=</span> <span class="mi">0</span>
 	<span class="k">while</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
 		<span class="n">result</span> <span class="o">+=</span> <span class="n">a</span>    <span class="c"># value of computation</span>
 		<span class="n">b</span> <span class="o">-=</span> <span class="mi">1</span>         <span class="c"># iteration variable</span>
 	<span class="k">return</span> <span class="n">result</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>MULTIPLICATION – RECURSIVE SOLUTION</p>
 
@@ -911,13 +904,12 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   <li>base case</li>
 </ul>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">mult</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">mult</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
 	<span class="k">if</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>                          <span class="c"># base case</span>
 		<span class="k">return</span> <span class="n">a</span>
 	<span class="k">else</span><span class="p">:</span>
 		<span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">mult</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>         <span class="c"># recursive step</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>SOME OBSERVATIONS</p>
 
@@ -929,21 +921,19 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 
 <p>ITERATION vs. RECURSION</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">factorial_iter</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">factorial_iter</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
 	<span class="n">prod</span> <span class="o">=</span> <span class="mi">1</span>
 	<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
 		<span class="n">prod</span> <span class="o">*=</span> <span class="n">i</span>
 	<span class="k">return</span> <span class="n">prod</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
 	<span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
 		<span class="k">return</span> <span class="mi">1</span>
 	<span class="k">else</span><span class="p">:</span>
 		<span class="k">return</span> <span class="n">n</span><span class="o">*</span><span class="n">factorial</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>recursion may be simmpler, more intuitive</li>
@@ -962,7 +952,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 
 <h4 id="towers-of-hanoi汉诺塔">Towers of Hanoi（汉诺塔）</h4>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">printMove</span><span class="p">(</span><span class="n">fr</span><span class="p">,</span> <span class="n">to</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">printMove</span><span class="p">(</span><span class="n">fr</span><span class="p">,</span> <span class="n">to</span><span class="p">):</span>
 	<span class="k">print</span><span class="p">(</span><span class="s">"Move from "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">fr</span><span class="p">)</span> <span class="o">+</span> <span class="s">" to "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">to</span><span class="p">))</span>
 <span class="k">def</span> <span class="nf">Towers</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">fr</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">spare</span><span class="p">):</span>
 	<span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
@@ -971,8 +961,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 		<span class="n">Towers</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">fr</span><span class="p">,</span> <span class="n">spare</span><span class="p">,</span> <span class="n">to</span><span class="p">)</span>
 		<span class="n">Towers</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">fr</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">spare</span><span class="p">)</span>
 		<span class="n">Towers</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">spare</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">fr</span><span class="p">)</span>	
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h4 id="fibonacci斐波那契数列">Fibonacci（斐波那契数列）</h4>
 
@@ -992,7 +981,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   </li>
 </ul>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
 	<span class="s">"""
 	Input: x, an int &gt;= 0
 	Return: Fibonacci of x
@@ -1001,8 +990,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 		<span class="k">return</span> <span class="mi">1</span>
 	<span class="k">else</span><span class="p">:</span>
 		<span class="k">return</span> <span class="n">fib</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 <h4 id="recursion-on-non-numerics非数字递归">Recursion on non-numerics（非数字递归）</h4>
 
 <ul>
@@ -1019,7 +1007,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   </li>
 </ul>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">isPalindrome</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">isPalindrome</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
 	<span class="k">def</span> <span class="nf">toChars</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
 		<span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
 		<span class="n">ans</span> <span class="o">=</span> <span class="s">''</span>
@@ -1033,8 +1021,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 		<span class="k">else</span><span class="p">:</span>
 			<span class="k">return</span> <span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">s</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="ow">and</span> <span class="n">isPal</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
 	<span class="k">return</span> <span class="n">isPal</span><span class="p">(</span><span class="n">toChars</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h5 id="divid-and-conquer分治算法">Divid and Conquer（分治算法）</h5>
 
@@ -1056,19 +1043,18 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 
 <p>circle.py</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">pi</span> <span class="o">=</span> <span class="mf">3.14159</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pi</span> <span class="o">=</span> <span class="mf">3.14159</span>
 
 <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="n">radius</span><span class="p">):</span>
 	<span class="k">return</span> <span class="n">pi</span> <span class="o">*</span> <span class="p">(</span><span class="n">radius</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
 	
 <span class="k">def</span> <span class="nf">circumference</span><span class="p">(</span><span class="n">radius</span><span class="p">):</span>
 	<span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">pi</span> <span class="o">*</span> <span class="n">radius</span>	
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>import and use circle module</p>
 
-<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">circle</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">circle</span>
 
 <span class="n">pi</span> <span class="o">=</span> <span class="mi">3</span>
 <span class="k">print</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>                       <span class="c"># 3</span>
@@ -1076,8 +1062,7 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
 <span class="k">print</span><span class="p">(</span><span class="n">circle</span><span class="o">.</span><span class="n">area</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>           <span class="c"># 28.27431</span>
 <span class="k">print</span><span class="p">(</span><span class="n">circle</span><span class="o">.</span><span class="n">circumference</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>  <span class="c"># 18.849539999999998</span>
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>OTHER IMPORTING</p>
 
@@ -1085,11 +1070,10 @@ p(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + … + a<sub
   <li>if we don’t want to refer to functions and variables by their module, and the names don’t collide with other bindings, then we can use:</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>from circle import *
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from circle import *
 print(pi)
 print(area(3))
-</code></pre>
-</div>
+</code></pre></div></div>
 <ul>
   <li>this has the effect of creating bindings within the current scope for all objects defined within circle</li>
   <li>statements within a module are executed only the first time a module is imported</li>
@@ -1099,9 +1083,8 @@ print(area(3))
 
 <p>file handle:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>nameHandle = open(‘kids’, ‘w’)
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nameHandle = open(‘kids’, ‘w’)
+</code></pre></div></div>
 <p>creates a file named kids and returns file handle which we can name and thus reference. The w indicates that the file is to opened for writing into.</p>
 
 <h3 id="lecture-5-tuples-and-lists">Lecture 5: Tuples and Lists</h3>

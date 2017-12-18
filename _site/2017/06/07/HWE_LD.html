@@ -175,83 +175,71 @@ abline(v = 0.5, lty=2)
 
 <p>For example, a sample with 2504 individuals, the observed genotypes are 2467/36/1 for AA, Aa and aa. We can do the chi-square test in R.</p>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">### Observed genotype counts
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">### Observed genotype counts</span><span class="w">
 </span><span class="n">n_AA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2467</span><span class="w">
 </span><span class="n">n_Aa</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">36</span><span class="w">
 </span><span class="n">n_aa</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="w">
 </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n_AA</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">n_Aa</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">n_aa</span><span class="w">
 </span><span class="n">O_geno</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="n">n_AA</span><span class="p">,</span><span class="w"> </span><span class="n">n_Aa</span><span class="p">,</span><span class="w"> </span><span class="n">n_aa</span><span class="p">)</span><span class="w">
 </span><span class="n">cat</span><span class="p">(</span><span class="n">O_geno</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## 2467 36 1
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 2467 36 1
+</code></pre></div></div>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">### Observed allele count and frequency
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">### Observed allele count and frequency</span><span class="w">
 </span><span class="n">n_A</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n_AA</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">n_Aa</span><span class="w">
 </span><span class="n">n_a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n_aa</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">n_Aa</span><span class="w">
 </span><span class="n">p_A</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n_A</span><span class="o">/</span><span class="p">(</span><span class="m">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w">
 </span><span class="n">p_a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n_a</span><span class="o">/</span><span class="p">(</span><span class="m">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w">
 </span><span class="n">cat</span><span class="p">(</span><span class="n">p_A</span><span class="p">,</span><span class="w"> </span><span class="n">p_a</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## 0.9924121 0.007587859
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 0.9924121 0.007587859
+</code></pre></div></div>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">### Expected genotype count, under HWE
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">### Expected genotype count, under HWE</span><span class="w">
 </span><span class="n">E_AA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p_A</span><span class="o">^</span><span class="m">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="w">
 </span><span class="n">E_Aa</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">p_A</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">p_a</span><span class="w"> </span><span class="o">*</span><span class="w">  </span><span class="n">n</span><span class="w">
 </span><span class="n">E_aa</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p_a</span><span class="o">^</span><span class="m">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="w">
 </span><span class="n">E_geno</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="n">E_AA</span><span class="p">,</span><span class="w"> </span><span class="n">E_Aa</span><span class="p">,</span><span class="w"> </span><span class="n">E_aa</span><span class="p">)</span><span class="w">
 </span><span class="n">cat</span><span class="p">(</span><span class="n">E_geno</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## 2466.144 37.71166 0.1441693
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 2466.144 37.71166 0.1441693
+</code></pre></div></div>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">### Chi-square with df=1 (#genotypes - #alleles)
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">### Chi-square with df=1 (#genotypes - #alleles)</span><span class="w">
 </span><span class="n">chisq</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">sum</span><span class="p">((</span><span class="n">O_geno</span><span class="o">-</span><span class="n">E_geno</span><span class="p">)</span><span class="o">^</span><span class="m">2</span><span class="o">/</span><span class="n">E_geno</span><span class="p">)</span><span class="w">
 </span><span class="n">pvalue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">pchisq</span><span class="p">(</span><span class="n">chisq</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w">
 </span><span class="n">cat</span><span class="p">(</span><span class="n">paste</span><span class="p">(</span><span class="s2">"chisq:"</span><span class="p">,</span><span class="w"> </span><span class="n">chisq</span><span class="p">,</span><span class="w"> </span><span class="s2">";"</span><span class="p">,</span><span class="s2">"pvalue: "</span><span class="p">,</span><span class="w"> </span><span class="n">pvalue</span><span class="p">))</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## chisq: 5.15844350552391 ; pvalue:  0.02313362043297
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## chisq: 5.15844350552391 ; pvalue:  0.02313362043297
+</code></pre></div></div>
 
 <p>We can also use the R package “HardyWeinberg” to do the chi-square test.</p>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">### We can also use the R package "HardyWeinberg"
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">### We can also use the R package "HardyWeinberg"</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">HardyWeinberg</span><span class="p">)</span><span class="w">
 </span><span class="n">HWChisq</span><span class="p">(</span><span class="n">O_geno</span><span class="p">,</span><span class="w"> </span><span class="n">cc</span><span class="o">=</span><span class="m">0</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## Chi-square test for Hardy-Weinberg equilibrium (autosomal)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Chi-square test for Hardy-Weinberg equilibrium (autosomal)
 ## Chi2 =  5.158444 DF =  1 p-value =  0.02313362 D =  -0.8558307 f =  0.04538812
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>It’s hard to do the exact test directly in R because of the factorial calucation. So we also use the R package “HardyWeinberg”. A more common way is to use <a href="https://www.cog-genomics.org/plink/1.9/filter#hwe">PLINK</a> “–hwe” option.</p>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">HWExact</span><span class="p">(</span><span class="n">O_geno</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">HWExact</span><span class="p">(</span><span class="n">O_geno</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## Haldane Exact test for Hardy-Weinberg equilibrium (autosomal)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Haldane Exact test for Hardy-Weinberg equilibrium (autosomal)
 ## using SELOME p-value
 ## sample counts: n =  2467 n =  36 n =  1 
 ## H0: HWE (D==0), H1: D &lt;&gt; 0 
 ## D =  -0.8558307 p-value =  0.1318891
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>We can see that the p-values from chi-square and exact test are quite different. In 2005, <a href="http://www.sciencedirect.com/science/article/pii/S0002929707607356">Wigginton et al</a> has shown that the chi-square inflated type I error rates. So exact test is a better method.</p>
 
@@ -366,71 +354,59 @@ D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} < 0 %]]></script>
   </tbody>
 </table>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#haplotype frequency
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#haplotype frequency</span><span class="w">
 </span><span class="n">pab</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="w">
 </span><span class="n">pAb</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">32</span><span class="o">/</span><span class="m">5008</span><span class="w">
 </span><span class="n">paB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="o">/</span><span class="m">5008</span><span class="w">
 </span><span class="n">pAB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">4975</span><span class="o">/</span><span class="m">5008</span><span class="w">
 </span><span class="n">cat</span><span class="p">(</span><span class="n">pab</span><span class="p">,</span><span class="w"> </span><span class="n">pAb</span><span class="p">,</span><span class="w"> </span><span class="n">paB</span><span class="p">,</span><span class="w"> </span><span class="n">pAB</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## 0 0.006389776 0.0001996805 0.9934105
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 0 0.006389776 0.0001996805 0.9934105
+</code></pre></div></div>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#allele frequency
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#allele frequency</span><span class="w">
 </span><span class="n">pa</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">paB</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">pab</span><span class="w">
 </span><span class="n">pA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pAB</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">pAb</span><span class="w">
 </span><span class="n">pb</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pab</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">pAb</span><span class="w">
 </span><span class="n">pB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">paB</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">pAB</span><span class="w">
 </span><span class="n">cat</span><span class="p">(</span><span class="n">pa</span><span class="p">,</span><span class="w"> </span><span class="n">pA</span><span class="p">,</span><span class="w"> </span><span class="n">pb</span><span class="p">,</span><span class="w"> </span><span class="n">pB</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## 0.0001996805 0.9998003 0.006389776 0.9936102
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 0.0001996805 0.9998003 0.006389776 0.9936102
+</code></pre></div></div>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#D
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#D</span><span class="w">
 </span><span class="n">D</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pAB</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">pA</span><span class="o">*</span><span class="n">pB</span><span class="w">
 </span><span class="n">cat</span><span class="p">(</span><span class="n">D</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## -1.275914e-06
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## -1.275914e-06
+</code></pre></div></div>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#Dmin
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Dmin</span><span class="w">
 </span><span class="n">Dmin</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">max</span><span class="p">(</span><span class="o">-</span><span class="n">pA</span><span class="o">*</span><span class="n">pB</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="n">pa</span><span class="o">*</span><span class="n">pb</span><span class="p">)</span><span class="w">
 </span><span class="n">cat</span><span class="p">(</span><span class="n">Dmin</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## -1.275914e-06
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## -1.275914e-06
+</code></pre></div></div>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#D'
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#D'</span><span class="w">
 </span><span class="n">Ddot</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">D</span><span class="o">/</span><span class="n">Dmin</span><span class="w">
 </span><span class="n">cat</span><span class="p">(</span><span class="n">Ddot</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## 1
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 1
+</code></pre></div></div>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1">#r-square
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#r-square</span><span class="w">
 </span><span class="n">rsq</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">D</span><span class="o">^</span><span class="m">2</span><span class="o">/</span><span class="p">(</span><span class="n">pa</span><span class="o">*</span><span class="n">pA</span><span class="o">*</span><span class="n">pb</span><span class="o">*</span><span class="n">pB</span><span class="p">)</span><span class="w">
 </span><span class="n">cat</span><span class="p">(</span><span class="n">rsq</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## 1.284376e-06
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 1.284376e-06
+</code></pre></div></div>
 
 <h3 id="reference">Reference</h3>
 

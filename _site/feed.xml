@@ -6,9 +6,178 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Dec 2017 20:29:09 +1000</pubDate>
-    <lastBuildDate>Mon, 04 Dec 2017 20:29:09 +1000</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Mon, 18 Dec 2017 10:18:34 +1000</pubDate>
+    <lastBuildDate>Mon, 18 Dec 2017 10:18:34 +1000</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Biostatistics Mooc Note</title>
+        <description>&lt;p&gt;This is the notebook for the two-part coursera course “&lt;a href=&quot;https://www.coursera.org/learn/biostatistics-2/&quot;&gt;mathematical Biostatistics Boot Camp&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-1&quot;&gt;Part 1&lt;/h2&gt;
+
+&lt;h3 id=&quot;lecture-1-introduction&quot;&gt;Lecture 1, introduction&lt;/h3&gt;
+
+&lt;h4 id=&quot;biostatistics&quot;&gt;Biostatistics&lt;/h4&gt;
+
+&lt;h4 id=&quot;experiments&quot;&gt;Experiments&lt;/h4&gt;
+
+&lt;h4 id=&quot;set-notation&quot;&gt;Set notation&lt;/h4&gt;
+
+&lt;h4 id=&quot;probability&quot;&gt;Probability&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-2-probability&quot;&gt;Lecture 2, probability&lt;/h3&gt;
+
+&lt;h4 id=&quot;probability-1&quot;&gt;Probability&lt;/h4&gt;
+
+&lt;h4 id=&quot;random-variables&quot;&gt;Random variables&lt;/h4&gt;
+
+&lt;h4 id=&quot;pmfs-probability-mass-function-and-pdfs-probability-density-function&quot;&gt;PMFs (probability mass function) and PDFs (probability density function)&lt;/h4&gt;
+
+&lt;h4 id=&quot;cdfs-cumulative-distribution-function-survival-functions-and-quantiles&quot;&gt;CDFs (cumulative distribution function), survival functions and quantiles&lt;/h4&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecutre-3-expectations&quot;&gt;Lecutre 3, Expectations&lt;/h3&gt;
+
+&lt;h4 id=&quot;expected-values-discretecontinuous-random-variables&quot;&gt;Expected values: discrete/continuous random variables&lt;/h4&gt;
+
+&lt;h4 id=&quot;rules-about-expected-values&quot;&gt;Rules about expected values&lt;/h4&gt;
+
+&lt;h4 id=&quot;variances&quot;&gt;Variances&lt;/h4&gt;
+
+&lt;h4 id=&quot;chebyshevs-inequality&quot;&gt;Chebyshev’s inequality&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-4-random-vectors&quot;&gt;Lecture 4, Random Vectors&lt;/h3&gt;
+
+&lt;h4 id=&quot;random-vectors&quot;&gt;Random vectors&lt;/h4&gt;
+
+&lt;h4 id=&quot;independence-independent-events-independent-random-variables-iid-random-variables&quot;&gt;Independence: independent events, independent random variables, IID random variables&lt;/h4&gt;
+
+&lt;h4 id=&quot;correlation&quot;&gt;Correlation&lt;/h4&gt;
+
+&lt;h4 id=&quot;variance-and-correlation-properties&quot;&gt;Variance and Correlation properties&lt;/h4&gt;
+
+&lt;h4 id=&quot;variances-properties-of-sample-mean-standard-error&quot;&gt;Variances properties of sample mean (standard error)&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-sample-variance&quot;&gt;The sample variance&lt;/h4&gt;
+
+&lt;h4 id=&quot;some-discussion&quot;&gt;Some discussion&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-5-conditional-probability&quot;&gt;Lecture 5, Conditional Probability&lt;/h3&gt;
+
+&lt;h4 id=&quot;conditional-probability&quot;&gt;Conditional probability&lt;/h4&gt;
+
+&lt;h4 id=&quot;conditional-densities&quot;&gt;Conditional densities&lt;/h4&gt;
+
+&lt;h4 id=&quot;bayes-rule&quot;&gt;Bayes’ Rule&lt;/h4&gt;
+
+&lt;h4 id=&quot;diagnostic-tests&quot;&gt;Diagnostic tests&lt;/h4&gt;
+
+&lt;h4 id=&quot;dlr-diagnostic-likelihood-ratios&quot;&gt;DLR (diagnostic likelihood ratios)&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-6-likelihood&quot;&gt;Lecture 6, Likelihood&lt;/h3&gt;
+
+&lt;h4 id=&quot;defining-likelihood&quot;&gt;Defining likelihood&lt;/h4&gt;
+
+&lt;h4 id=&quot;interpreting-likelihood&quot;&gt;Interpreting likelihood&lt;/h4&gt;
+
+&lt;h4 id=&quot;plotting-likelihoods&quot;&gt;Plotting likelihoods&lt;/h4&gt;
+
+&lt;h4 id=&quot;maximum-likelihood&quot;&gt;Maximum likelihood&lt;/h4&gt;
+
+&lt;h4 id=&quot;interpreting-likelihood-ratios&quot;&gt;Interpreting likelihood ratios&lt;/h4&gt;
+
+&lt;h3 id=&quot;leture-7-some-common-distributions&quot;&gt;Leture 7, Some common distributions&lt;/h3&gt;
+
+&lt;h4 id=&quot;the-bernoulli-distribution&quot;&gt;The Bernoulli distribution&lt;/h4&gt;
+
+&lt;h4 id=&quot;binomial-trials&quot;&gt;Binomial trials&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-normal-distribution-properties-and-ml-estimate-of-mu&quot;&gt;The normal distribution: properties and ML estimate of $\mu$&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-8-asymptotics&quot;&gt;Lecture 8, Asymptotics&lt;/h3&gt;
+
+&lt;h4 id=&quot;limits-极限&quot;&gt;limits (极限)&lt;/h4&gt;
+
+&lt;h4 id=&quot;lln-the-law-of-large-numbers&quot;&gt;LLN (The Law of Large Numbers)&lt;/h4&gt;
+
+&lt;h4 id=&quot;clt-the-central-limit-theorem&quot;&gt;CLT (The Central Limit Theorem)&lt;/h4&gt;
+
+&lt;h4 id=&quot;ci-confidence-intervals&quot;&gt;CI (Confidence Intervals)&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-9-confidence-intervals&quot;&gt;Lecture 9, Confidence Intervals&lt;/h3&gt;
+
+&lt;h4 id=&quot;confidence-intervals&quot;&gt;Confidence intervals&lt;/h4&gt;
+
+&lt;h4 id=&quot;ci-for-a-normal-variance&quot;&gt;CI for a normal variance&lt;/h4&gt;
+
+&lt;h4 id=&quot;students-t-distibution&quot;&gt;Student’s t distibution&lt;/h4&gt;
+
+&lt;h4 id=&quot;confidence-intervals-for-normal-means&quot;&gt;Confidence intervals for normal means&lt;/h4&gt;
+
+&lt;h4 id=&quot;profile-likelihoods&quot;&gt;Profile likelihoods&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-10-t-confidence-intervals&quot;&gt;Lecture 10, T Confidence Intervals&lt;/h3&gt;
+
+&lt;h4 id=&quot;independent-group-t-intervals&quot;&gt;Independent group t intervals&lt;/h4&gt;
+
+&lt;h4 id=&quot;likelihood-method&quot;&gt;Likelihood method&lt;/h4&gt;
+
+&lt;h4 id=&quot;unequal-variances&quot;&gt;Unequal variances&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-11-plotting&quot;&gt;Lecture 11, Plotting&lt;/h3&gt;
+
+&lt;h4 id=&quot;histograms&quot;&gt;Histograms&lt;/h4&gt;
+
+&lt;h4 id=&quot;stem-and-leaf&quot;&gt;Stem and Leaf&lt;/h4&gt;
+
+&lt;h4 id=&quot;dotcharts&quot;&gt;Dotcharts&lt;/h4&gt;
+
+&lt;h4 id=&quot;boxplots&quot;&gt;Boxplots&lt;/h4&gt;
+
+&lt;h4 id=&quot;kdes-kernel-density-estimates&quot;&gt;KDEs (Kernel density estimates)&lt;/h4&gt;
+
+&lt;h4 id=&quot;qq-plots&quot;&gt;QQ-plots&lt;/h4&gt;
+
+&lt;h4 id=&quot;mosaic-plots&quot;&gt;Mosaic plots&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-12-bootstrapping&quot;&gt;Lecture 12, Bootstrapping&lt;/h3&gt;
+
+&lt;h4 id=&quot;the-jackknife&quot;&gt;The jackknife&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-bootstrap-principle&quot;&gt;The bootstrap principle&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-bootstrap&quot;&gt;The bootstrap&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-13-binomial-proportions&quot;&gt;Lecture 13, Binomial Proportions&lt;/h3&gt;
+
+&lt;h4 id=&quot;intervals-for-binomial-proportions&quot;&gt;Intervals for binomial proportions&lt;/h4&gt;
+
+&lt;h4 id=&quot;agresti-coull-interval&quot;&gt;Agresti-Coull interval&lt;/h4&gt;
+
+&lt;h4 id=&quot;bayesian-analysis-prior-specification-posterior-credible-intervals&quot;&gt;Bayesian analysis: Prior specification, posterior, credible intervals&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecutre-14-logs&quot;&gt;Lecutre 14, Logs&lt;/h3&gt;
+
+&lt;h4 id=&quot;logs&quot;&gt;Logs&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-geometri-mean&quot;&gt;The geometri mean&lt;/h4&gt;
+
+&lt;h4 id=&quot;gm-and-the-clt&quot;&gt;GM and the CLT&lt;/h4&gt;
+
+&lt;h4 id=&quot;comparisons&quot;&gt;Comparisons&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-log-normal-distribution&quot;&gt;The log-normal distribution&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 18 Dec 2017 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2017/12/18/biostatistics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/12/18/biostatistics.html</guid>
+        
+        <category>statistics</category>
+        
+        
+      </item>
     
       <item>
         <title>Generalized Least Square</title>
@@ -124,7 +293,7 @@ paramters to tune.&lt;/p&gt;
 
 &lt;h2 id=&quot;type&quot;&gt;type&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;layout(matrix(1:9, 3,3,byrow=T))
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;layout(matrix(1:9, 3,3,byrow=T))
 plot(1:2,1:2,type=&quot;p&quot;, main=&quot;\&quot;p\&quot; for points&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
 plot(1:2,1:2,type=&quot;l&quot;, main=&quot;\&quot;l\&quot; for lines&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
 plot(1:2,1:2,type=&quot;b&quot;, main=&quot;\&quot;b\&quot; for both&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
@@ -134,31 +303,28 @@ plot(1:2,1:2,type=&quot;h&quot;, main=&quot;\&quot;h\&quot; for histogram like&q
 plot(1:2,1:2,type=&quot;s&quot;, main=&quot;\&quot;s\&quot; for stair steps&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
 plot(1:2,1:2,type=&quot;S&quot;, main=&quot;\&quot;S\&quot; for other steps&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
 plot(1:2,1:2,type=&quot;n&quot;, main=&quot;\&quot;n\&quot; for no plotting&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/plot_par-1-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;main-sub-xlab-and-ylab&quot;&gt;main, sub, xlab and ylab&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;layout(matrix(1:4,2,2,byrow=T))
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;layout(matrix(1:4,2,2,byrow=T))
 plot(1,1,main=&quot;The main title&quot;)
 plot(1,1,sub=&quot;The sub title&quot;)
 plot(1,1,xlab=&quot;xlab&quot;)
 plot(1,1,ylab=&quot;ylab&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/plot_par-2-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;pch&quot;&gt;pch&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;layout(matrix(1:18,3,6,byrow=T))
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;layout(matrix(1:18,3,6,byrow=T))
 for(i in 1:18){
   plot(1,1,pch=i,xlab=&quot;&quot;,ylab=&quot;&quot;,main=paste(&quot;pch=&quot;,i,sep=&quot;&quot;))
 }
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/plot_par-3-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -242,11 +408,10 @@ page&lt;/a&gt;&lt;/li&gt;
 
 &lt;p&gt;We can have use its data to a look the recombination across the human genome.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;library(data.table)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;library(data.table)
 data = fread(&quot;genetic_map_chr1_combined_b37.txt&quot;)
 plot(data$&quot;position&quot;,data$&quot;COMBINED_rate(cM/Mb)&quot;,type=&quot;l&quot;, xlab=&quot;chr1 (bp)&quot;, ylab=&quot;Recombination Rate(cM/Mb)&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/recombination_chr1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
@@ -337,7 +502,7 @@ plot(data$&quot;position&quot;,data$&quot;COMBINED_rate(cM/Mb)&quot;,type=&quot;
 x2, then r should be 0. However the sample estimation of r is not
 exactly 0. There is a sampling distribution around 0.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rep = 1000; n = 25
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rep = 1000; n = 25
 set.seed(1)
 cors = c()
 for(i in 1:rep){
@@ -350,8 +515,7 @@ layout(matrix(1:2,1,2))
 par(cex.main=0.75)
 plot(x1, x2, main = paste(&quot;Scatterplot of last simulation\nn=&quot;,n,&quot;, estimated r = &quot;, round(r,4), sep=&quot;&quot;))
 hist(cors, main = paste(&quot;Distribution of estimated r\nmean=&quot;,round(mean(cors),4),&quot; SD=&quot;,round(sd(cors),4),&quot;\n(&quot;,rep,&quot; simulations of sample size = &quot;,n,&quot;)&quot;, sep=&quot;&quot;), xlab=expression(hat(r)), freq=F)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/samdis_cor-chunk-1-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -360,7 +524,7 @@ hist(cors, main = paste(&quot;Distribution of estimated r\nmean=&quot;,round(mea
 &lt;p&gt;However, if the population correlation is not equal to 0, the
 distribution of estimated r is skewed.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rep = 1000; n = 25
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rep = 1000; n = 25
 set.seed(1)
 cors = c()
 for(i in 1:rep){
@@ -373,8 +537,7 @@ layout(matrix(1:2,1,2))
 par(cex.main=0.75)
 plot(x1, x2, main = paste(&quot;Scatterplot of last simulation\nn=&quot;,n,&quot;, estimated r = &quot;, round(r,4), sep=&quot;&quot;))
 hist(cors, main = paste(&quot;Distribution of estimated r\nmean=&quot;,round(mean(cors),4),&quot; SD=&quot;,round(sd(cors),4),&quot;\n(&quot;,rep,&quot; simulations of sample size = &quot;,n,&quot;)&quot;, sep=&quot;&quot;), xlab=expression(hat(r)), freq=F)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/samdis_cor-chunk-2-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -393,7 +556,7 @@ the correlation between x1 and x1+2*x2 should be:&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;z' = \frac{1}{2} \times ln\frac{1+r}{1-r} \sim N( \mu, \frac{1}{\sqrt{N-3}} )&lt;/script&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rep = 1000; n = 25
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rep = 1000; n = 25
 set.seed(1)
 zs = c()
 for(i in 1:rep){
@@ -407,12 +570,11 @@ layout(matrix(1:2,1,2))
 par(cex.main=0.75)
 plot(x1, x2, main = paste(&quot;Scatterplot of last simulation\nn=&quot;,n,&quot;, estimated r = &quot;, round(r,4),&quot;, z' = &quot;, round(z,4), sep=&quot;&quot;))
 hist(zs, main = paste(&quot;Distribution of z'\nmean=&quot;,round(mean(zs),4),&quot; SD=&quot;,round(sd(zs),4),&quot;\n(&quot;,rep,&quot; simulations of sample size = &quot;,n,&quot;)&quot;, sep=&quot;&quot;), xlab=&quot;z'&quot;, freq=F)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/samdis_cor-chunk-3-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;### The mean of z'
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;### The mean of z'
 0.5 * log((1+0.4472136)/(1-0.4472136))
 
 ## [1] 0.4812118
@@ -421,8 +583,7 @@ hist(zs, main = paste(&quot;Distribution of z'\nmean=&quot;,round(mean(zs),4),&q
 1/sqrt(n-3)
 
 ## [1] 0.2132007
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
 
@@ -659,7 +820,7 @@ estimated variance of &lt;em&gt;b&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;/li&gt;
 
 &lt;h2 id=&quot;r-code-example&quot;&gt;R code example&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lm_example = function(x,y){
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lm_example = function(x,y){
   xmin = min(x); xmax = max(x)
   fit_lm = lm(y~x)
   b0 = fit_lm$&quot;coefficient&quot;[1]
@@ -697,8 +858,7 @@ data
 ## Rsq     0.2696518  0.26965179   0.2696518  0.2696518
 ## s_b1    0.0781583  0.02490594   0.4980101  0.1586960
 ## t       3.2721686  3.27216859   3.2721686  3.2721686
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Fri, 25 Aug 2017 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2017/08/25/mean_variance.html</link>
@@ -724,7 +884,7 @@ data
 
 &lt;p&gt;=8 + 4 + 1 = 13&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;BinToDec = function(x){
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;BinToDec = function(x){
   sum(2^(which(rev(unlist(strsplit(as.character(x), &quot;&quot;)) == 1))-1))
 }
 DecToBin = function(x){
@@ -743,12 +903,11 @@ BinToDec(&quot;1101&quot;)
 DecToBin(13)
 
 ## [1] &quot;1101&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;from-n-ary-to-decimal&quot;&gt;From n-ary to decimal&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NaryToDec = function(x, n){
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NaryToDec = function(x, n){
   sum(n^(which(rev(unlist(strsplit(as.character(x), &quot;&quot;)) == 1))-1))
 }
 DecToNary = function(x,n){
@@ -771,8 +930,7 @@ DecToNary(13,2)
 DecToNary(13,3)
 
 ## [1] &quot;111&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;multiple-loop-indexs-to-one-loop-index&quot;&gt;multiple loop indexs to one loop index&lt;/h2&gt;
 
@@ -782,7 +940,7 @@ I usually just put one for-loop into the nest of antoher for-loop.&lt;/p&gt;
 &lt;p&gt;But if I would like to parallel them using different nodes in a computing cluster and
 submit a job array using one index, how to do it?&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for(a in 1:2){
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for(a in 1:2){
   for(b in 1:3){
     for(c in 1:4){
       print(paste(a,b,c,sep=&quot; &quot;))
@@ -846,8 +1004,7 @@ for(index in 1:24){
 ## [1] &quot;2 1 3&quot;
 ## [1] &quot;1 2 3&quot;
 ## [1] &quot;2 2 3&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Mon, 21 Aug 2017 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2017/08/21/remainder_quotient.html</link>
@@ -866,7 +1023,7 @@ for(index in 1:24){
 
 &lt;p&gt;In the plink file formats, &lt;code class=&quot;highlighter-rouge&quot;&gt;.ped/map&lt;/code&gt; files are text files used together to store pedigree + genotype information and variant information, respectively. For example, the below commands show the basic information of the &lt;code class=&quot;highlighter-rouge&quot;&gt;test.map&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;test.ped&lt;/code&gt;, which is converted from test.bed/bim/fam files in gcta 1.26 software package.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ head -2 test.map
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ head -2 test.map
 1	rs4475691	0	836671
 1	rs28705211	0.0151734	890368
 
@@ -881,8 +1038,7 @@ $ wc -l test.ped
     3925 test.ped
 $ head -1 test.ped|awk '{print NF}'
 2006
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;test.map&lt;/code&gt; has 1000 lines, which represent 1000 variants with chromosome, SNP id, position in morgans and position in BP per line.&lt;/p&gt;
 
@@ -892,18 +1048,17 @@ $ head -1 test.ped|awk '{print NF}'
 
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;.bed/bim/fam&lt;/code&gt; files are also called bfile, which is the binary file of &lt;code class=&quot;highlighter-rouge&quot;&gt;.ped/map&lt;/code&gt; files. The bed file is the test file for genotype, the bim file is for variant information (similiar with map file, added with reference and alternative allele) and the fam file is the text file for pedigree information (first 6 columns of ped file).&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ head -2 test.bim
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ head -2 test.bim
 1	rs4475691	0	836671	T	C
 1	rs28705211	0.0151734	890368	C	G
 $ head -2 test.fam
 1 11 0 0 1 -9
 2 21 0 0 2 -9
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;.bed/bim/fam&lt;/code&gt; files are easy to read/write for softwares and can reduce the storage by more than 10-fold (30840+15776286/982003+34840+76286).&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ls -l test.ped test.map
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ls -l test.ped test.map
 -rw-r--r--  1 huanwei.wang  Group-Yang     30840 18 Aug 13:42 test.map
 -rw-r--r--  1 huanwei.wang  Group-Yang  15776286 18 Aug 13:42 test.ped
 $ ls -l test.bed test.bim test.fam
@@ -912,18 +1067,16 @@ $ ls -l test.bed test.bim test.fam
 -rw-r-----  1 huanwei.wang  Group-Yang   76286 18 Aug 10:44 test.fam
 $ echo &quot;&quot;|awk '{print (30840+15776286)/(982003+34840+76286)}'
 14.4604
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;.bed/bim/fam&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.ped/map&lt;/code&gt; files can be converted to each other by plink software.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# bfile to ped/map
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# bfile to ped/map
 $ plink2 --bfile test --recode --out test
 
 # ped/map to bfile
 $ plink2 --file test --make-bed --out test
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;r-package-plink2r&quot;&gt;R package “plink2R”&lt;/h2&gt;
 
@@ -931,43 +1084,39 @@ $ plink2 --file test --make-bed --out test
 
 &lt;p&gt;Installation&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;devtools::install_github(&quot;gabraham/plink2R/plink2R&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;devtools::install_github(&quot;gabraham/plink2R/plink2R&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Usage&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; library(plink2R)
-Loading required package: Rcpp
-Loading required package: RcppEigen
-Warning message:
-package ‘Rcpp’ was built under R version 3.4.1
-&amp;gt; dat &amp;lt;- read_plink(&quot;test&quot;)
-&amp;gt; dim(dat$bed)
-[1] 3925 1000
-&amp;gt; dim(dat$fam)
-[1] 3925    6
-&amp;gt; dim(dat$bim)
-[1] 1000    6
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plink2R&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Loading&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;required&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Rcpp&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Loading&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;required&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RcppEigen&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Warning&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;‘&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Rcpp&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;was&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;built&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;under&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;R&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;version&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3.4.1&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dat&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;read_plink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3925&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1000&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fam&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3925&lt;/span&gt;    &lt;span class=&quot;m&quot;&gt;6&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1000&lt;/span&gt;    &lt;span class=&quot;m&quot;&gt;6&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;But the plink2R is relatively slow and takes more memory, so try to manipulate bfile using plink as much as possible.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; object.size(dat)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; object.size(dat)
 31908168 bytes
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;c-ad-python-library-plinkio&quot;&gt;C ad Python library “plinkio”&lt;/h2&gt;
 
 &lt;p&gt;There is also packages for C and Python lauguage, e.g. &lt;a href=&quot;https://github.com/mfranberg/libplinkio&quot;&gt;plinkio&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;from plinkio import plinkfile
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;from plinkio import plinkfile
 
 plink_file = plinkfile.open( &quot;test&quot; )
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Fri, 18 Aug 2017 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2017/08/18/plink_bfile.html</link>
@@ -978,48 +1127,6 @@ plink_file = plinkfile.open( &quot;test&quot; )
         <category>GWAS</category>
         
         <category>plink</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>P-values under null hypothesis</title>
-        <description>&lt;p&gt;P values are also random variables. The distribution of p values under
-null hypothesis should be a uniform one.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;set.seed(1)
-y = rnorm(50)
-ps = c()
-for(i in 1:2000){
-  x = rnorm(50)
-  p = summary(lm(y~x))$coefficients[2,4]
-  ps = c(ps, p)
-}
-hist(ps,breaks=seq(0,1,0.05),col=c(&quot;red&quot;,rep(&quot;white&quot;,19)), main = &quot;Distribution of P values under null (2000 replications)&quot;, freq=FALSE, xlab=&quot;P&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/pvalue-chunk-1-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot&quot;&gt;QQ-plot&lt;/a&gt; can show the p
-values follow an uniform distribution.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;library(car)
-qqPlot(ps, distribution=&quot;unif&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/pvalue-chunk-2-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;proof&quot;&gt;Proof&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://vasishth-statistics.blogspot.com.au/2016/04/a-simple-proof-that-p-value.html&quot;&gt;http://vasishth-statistics.blogspot.com.au/2016/04/a-simple-proof-that-p-value.html&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 10 Aug 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/08/10/pvalue_null.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/08/10/pvalue_null.html</guid>
-        
-        <category>statistics</category>
         
         
       </item>

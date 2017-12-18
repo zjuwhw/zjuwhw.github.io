@@ -92,7 +92,7 @@
 
 <h2 id="curl">Curl</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$curl -v https://genedock.com
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$curl -v https://genedock.com
 
 
 * Rebuilt URL to: https://genedock.com/
@@ -107,7 +107,7 @@
 &gt; User-Agent: curl/7.43.0
 &gt; Accept: */*
 &gt;
-<span class="nt">&lt; HTTP</span><span class="err">/</span><span class="na">1</span><span class="err">.</span><span class="na">1</span> <span class="na">200</span> <span class="na">OK</span>
+<span class="nt">&lt;</span> <span class="nt">HTTP</span><span class="err">/</span><span class="na">1</span><span class="err">.</span><span class="na">1</span> <span class="na">200</span> <span class="na">OK</span>
 <span class="err">&lt;</span> <span class="na">Server:</span> <span class="na">nginx</span><span class="err">/</span><span class="na">1</span><span class="err">.</span><span class="na">6</span><span class="err">.</span><span class="na">0</span>
 <span class="err">&lt;</span> <span class="na">Date:</span> <span class="na">Mon</span><span class="err">,</span> <span class="na">05</span> <span class="na">Sep</span> <span class="na">2016</span> <span class="na">05:58:07</span> <span class="na">GMT</span>
 <span class="err">&lt;</span> <span class="na">Content-Type:</span> <span class="na">text</span><span class="err">/</span><span class="na">html</span><span class="err">;</span> <span class="na">charset=</span><span class="s">utf-8</span>
@@ -117,8 +117,7 @@
 <span class="err">&lt;</span>
 <span class="err">&lt;!</span><span class="na">DOCTYPE</span> <span class="na">html</span><span class="nt">&gt;&lt;html</span> <span class="na">lang=</span><span class="s">"zh-CN"</span><span class="nt">&gt;&lt;head&gt;&lt;title&gt;</span>GeneDock<span class="nt">&lt;/title&gt;&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;&lt;meta</span> <span class="na">content=</span><span class="s">"IE=edge"</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span><span class="nt">&gt;&lt;meta</span> <span class="na">content=</span><span class="s">"width=1200"</span> <span class="na">name=</span><span class="s">"viewport"</span><span class="nt">&gt;&lt;meta</span> <span class="na">content=</span><span class="s">"GeneDock,www.genedock.com,genedock.com,genedock,北京聚道,聚道科技,基因数据云服务,北京聚道科技有限公司,GeneDock,北京GeneDock"</span> <span class="na">name=</span><span class="s">"Keywords"</span><span class="nt">&gt;&lt;meta</span> <span class="na">content=</span><span class="s">"GeneDock,www.genedock.com,genedock.com,genedock,北京聚道,聚道科技,基因数据云服务,北京聚道科技有限公司,GeneDock,北京GeneDoc
 ......
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
 <p><code class="highlighter-rouge">-v</code>参数显示整个http通信过程。更多可以参考<a href="http://www.ruanyifeng.com/blog/2011/09/curl.html">阮一峰博客《curl网站开发指南》</a>。</p>
 
@@ -126,12 +125,11 @@
   <li>请求部分：</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&gt; GET / HTTP/1.1
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; GET / HTTP/1.1
 &gt; Host: genedock.com
 &gt; User-Agent: curl/7.43.0
 &gt; Accept: */*
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><code class="highlighter-rouge">GET</code>是http动词，<code class="highlighter-rouge">HTTP/1.1</code>是HTTP的版本，<code class="highlighter-rouge">Host</code>是服务端的主机，<code class="highlighter-rouge">User-Agent</code>是发送请求的应用名称，<code class="highlighter-rouge">Accept</code>是可以接受何种类型的返回。</p>
 
@@ -139,15 +137,14 @@
   <li>返回部分：</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt; HTTP/1.1 200 OK
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt; HTTP/1.1 200 OK
 &lt; Server: nginx/1.6.0
 &lt; Date: Mon, 05 Sep 2016 05:58:07 GMT
 &lt; Content-Type: text/html; charset=utf-8
 &lt; Content-Length: 8856
 &lt; Connection: keep-alive
 &lt; Set-Cookie: session=eyJfaWQiOnsiIGIiOiJaREZsWm1ObU16UTFabVJtWlRSa016ZGlabU5rWldWaU5qWmpPVFJoTTJJPSJ9fQ.Cq6a7w.LUjBEmjf-e6B_4aGSpSHElVIVzg; HttpOnly; Path=/
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><code class="highlighter-rouge">200</code>是status code（状态码），<code class="highlighter-rouge">Server</code>是客户端应用软件的名字和版本号，<code class="highlighter-rouge">Date</code>是消息产生的时间或者时间戳，<code class="highlighter-rouge">Content-Type</code>是返回body的对象类型，<code class="highlighter-rouge">Content-Length</code>是返回body的长度或者大小，<code class="highlighter-rouge">Connection</code>是允许客户端和服务端指定请求-返回链接的选项，<code class="highlighter-rouge">Set-Cookie</code>是用来设置客户端的一个token，让服务端来识别身份。</p>
 
@@ -155,7 +152,7 @@
 
 <h2 id="httpie">HTTPie</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$http --print=HhBb https://genedock.com
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$http --print=HhBb https://genedock.com
 
 
 GET / HTTP/1.1
@@ -178,8 +175,7 @@ Transfer-Encoding: chunked
 
 <span class="cp">&lt;!DOCTYPE html&gt;</span><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"zh-CN"</span><span class="nt">&gt;&lt;head&gt;&lt;title&gt;</span>GeneDock<span class="nt">&lt;/title&gt;</span>
 ....
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>更多httpie的参数可见<a href="https://github.com/jkbrzt/httpie">https://github.com/jkbrzt/httpie</a></p>
 
@@ -193,7 +189,7 @@ Transfer-Encoding: chunked
 
 <h2 id="python的request包">Python的Request包</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ python
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ python
 Python 2.7.10 (default, Oct 23 2015, 19:19:21)
 [GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -211,8 +207,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 &gt;&gt;&gt; print r.content
 <span class="cp">&lt;!DOCTYPE html&gt;</span><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"zh-CN"</span><span class="nt">&gt;&lt;head&gt;&lt;title&gt;</span>GeneDock<span class="nt">&lt;/title&gt;</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 
   </div>

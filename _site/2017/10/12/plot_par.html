@@ -93,7 +93,7 @@ paramters to tune.</p>
 
 <h2 id="type">type</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>layout(matrix(1:9, 3,3,byrow=T))
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layout(matrix(1:9, 3,3,byrow=T))
 plot(1:2,1:2,type="p", main="\"p\" for points", xlab="x", ylab="y")
 plot(1:2,1:2,type="l", main="\"l\" for lines", xlab="x", ylab="y")
 plot(1:2,1:2,type="b", main="\"b\" for both", xlab="x", ylab="y")
@@ -103,31 +103,28 @@ plot(1:2,1:2,type="h", main="\"h\" for histogram like", xlab="x", ylab="y")
 plot(1:2,1:2,type="s", main="\"s\" for stair steps", xlab="x", ylab="y")
 plot(1:2,1:2,type="S", main="\"S\" for other steps", xlab="x", ylab="y")
 plot(1:2,1:2,type="n", main="\"n\" for no plotting", xlab="x", ylab="y")
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><img src="/images/plot_par-1-1.png" alt="" /></p>
 
 <h2 id="main-sub-xlab-and-ylab">main, sub, xlab and ylab</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>layout(matrix(1:4,2,2,byrow=T))
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layout(matrix(1:4,2,2,byrow=T))
 plot(1,1,main="The main title")
 plot(1,1,sub="The sub title")
 plot(1,1,xlab="xlab")
 plot(1,1,ylab="ylab")
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><img src="/images/plot_par-2-1.png" alt="" /></p>
 
 <h2 id="pch">pch</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>layout(matrix(1:18,3,6,byrow=T))
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layout(matrix(1:18,3,6,byrow=T))
 for(i in 1:18){
   plot(1,1,pch=i,xlab="",ylab="",main=paste("pch=",i,sep=""))
 }
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><img src="/images/plot_par-3-1.png" alt="" /></p>
 

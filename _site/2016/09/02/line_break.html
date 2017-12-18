@@ -93,13 +93,12 @@
   <li>unix: \n</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>sed -e 's/$/\r/' inputfile &gt; outputfile                # UNIX to DOS  (adding CRs)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sed -e 's/$/\r/' inputfile &gt; outputfile                # UNIX to DOS  (adding CRs)
 sed -e 's/\r$//' inputfile &gt; outputfile                # DOS  to UNIX (removing CRs)
 perl -pe 's/\r\n|\n|\r/\r\n/g' inputfile &gt; outputfile  # Convert to DOS
 perl -pe 's/\r\n|\n|\r/\n/g'   inputfile &gt; outputfile  # Convert to UNIX
 perl -pe 's/\r\n|\n|\r/\r/g'   inputfile &gt; outputfile  # Convert to old Mac
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>参考： <a href="http://stackoverflow.com/questions/6373888/converting-newline-formatting-from-mac-to-windows">stackoverflow.com</a></p>
 
