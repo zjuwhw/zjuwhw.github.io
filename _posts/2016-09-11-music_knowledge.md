@@ -131,8 +131,8 @@ source: [http://www.justinguitar.com/en/BC-105-PracticeTips.php](http://www.just
 ## 有用的链接
 
 - [《Introduction to Guitar》 on Coursera](https://www.coursera.org/learn/guitar/)
-
 - [《Justin's Beginners Guitar Course》](http://www.justinguitar.com/en/BC-000-BeginnersCourse.php)
+- [《How to Choose the Best Guitar, 15 Factors to Consider According to Science》](https://beginnerguitarhq.com/best-guitar/)
 
 ## 常见和弦
 
