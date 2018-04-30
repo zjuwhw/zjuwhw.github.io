@@ -40,3 +40,7 @@ CV:
 ![Alt text](/images/me.jpg)
 
 2012
+
+![Alt text](/images/Huanwei_Wang_2017May.JPG)
+
+May 2017
