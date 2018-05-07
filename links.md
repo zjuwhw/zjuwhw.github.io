@@ -8,7 +8,93 @@ permalink: /links/
 {:toc}
 
 
-This is a website list I'm following about bioinformatics/genetics/statistic/computer science areas. (updated 2017/06/30)
+This is a website list I'm following about bioinformatics/genetics/statistic/computer science areas. (updated 2018/05/08)
+
+## Lab website
+
+### My lab
+
+- [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720)
+- [PCTG](http://cnsgenomics.com/)
+
+### Genetics
+
+- [Peter Visscher](https://researchers.uq.edu.au/researcher/1487)
+- [Naomi Wray](https://researchers.uq.edu.au/researcher/2006)
+- [Jian Yang](https://researchers.uq.edu.au/researcher/2713)
+- [Ben Hayes](https://qaafi.uq.edu.au/profile/1059/ben-hayes)
+- [David Evans](https://di.uq.edu.au/profile/997/david-evans)
+- [Nicholas Martin](http://www.qimrberghofer.edu.au/people/nicholas-martin/)
+- [Matthew Brown](https://research.qut.edu.au/translationalgenomicsgroup/people/matthew-brown/)
+- [Matthew Robinson](http://wp.unil.ch/ctgg)
+- [Hong Lee](https://sites.google.com/site/honglee0707/)
+- [Beben Benyamin](http://people.unisa.edu.au/Beben.Benyamin)
+- [Benjamin Neale](http://www.nealelab.is/)
+- [Alkes Price](https://www.hsph.harvard.edu/alkes-price/)
+- [Patrick Turley](https://www.paturley.com/)
+- [Po-Ru Loh](https://statgen.hms.harvard.edu/)
+- [Hilary Finucane](http://finucanelab.org/)
+- [Goncalo Abecasis](http://csg.sph.umich.edu/abecasis/)
+- [Shaun Purcell](http://research.mssm.edu/statgen/)
+- [Bruce Walsh](http://nitro.biosci.arizona.edu/)
+- [David Balding](https://scholar.google.com/citations?hl=zh-CN&user=9bqHVEsAAAAJ&view_op=list_works&sortby=pubdate)
+- Michael Snyder: [lab](http://snyderlab.stanford.edu/), [Standrod](https://med.stanford.edu/profiles/michael-snyder)
+- [Jonathan Pritchard](http://web.stanford.edu/group/pritchardlab/home.html)
+- [Stephen Montgomery](http://montgomerylab.stanford.edu/)
+- [Luke Evans](https://www.colorado.edu/ibg/luke-evans)
+- [Matthew Keller](http://www.matthewckeller.com/index.html)
+- [Mark McCarthy](https://www.ndm.ox.ac.uk/principal-investigators/researcher/mark-mccarthy)
+- [Carl Anderson](http://www.sanger.ac.uk/people/directory/anderson-carl)
+- [George Davey Smith](http://www.bristol.ac.uk/cardiovascular/people/george-davey-smith/index.html)
+- [Jie Zheng](http://www.bris.ac.uk/social-community-medicine/people/jie-zheng/overview.html)
+- [Hai Fang](http://www.cs.bris.ac.uk/~hfang/)
+- [Jonathan Mill](http://www.epigenomicslab.com/)
+- [Lude Franke](https://www.rug.nl/research/genetics/staff/lude-franke)
+- [Danielle Posthuma](https://ctg.cncr.nl/)
+
+### Genome Research
+
+- [Eric S. Lander](http://www.broadinstitute.org/history-leadership/scientific-leadership/core-members/eric-s-lander)
+- [Alexander Stark](http://www.starklab.org/)
+- [Yi Zhang](http://zhanglab.tch.harvard.edu/lab.htm)
+- [Howard Chang](http://changlab.stanford.edu/)
+- [John Stamatoyannopoulos](http://www.stamlab.org/)
+- [Bin Ren](http://bioinformatics-renlab.ucsd.edu/rentrac/)
+- [Zhiping Weng](http://zlab.umassmed.edu/zlab/index.shtml)
+- [Stunnenberg](http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&term=Stunnenberg+HG%5Bau%5D&dispmax=50)
+- [Xiaole(Shirley) Liu](http://liulab.dfci.harvard.edu/)
+- [Young Lab](http://younglab.wi.mit.edu/)
+- [Wang Ting](http://wang.wustl.edu/)
+
+### Computational Biologist
+
+- [Yang Li](http://www.picb.ac.cn/rnomics/yanglab/)
+- [Istvan Albert ](http://www.personal.psu.edu/iua1/)
+- [Xuegong Zhang]( http://bioinfo.au.tsinghua.edu.cn/member/xzhang/XZhang_Chinese.html)
+- [Ao Ping](http://systemsbiology.sjtu.edu.cn/)
+- [rafalab]( http://rafalab.dfci.harvard.edu/)
+- [Lior Pachter](https://math.berkeley.edu/~lpachter/index.html)
+- [Cole Trapnell](http://cole-trapnell-lab.github.io/)
+- [Steven Salzberg](http://salzberg-lab.org/)
+- [Yarden Katz](http://www.mit.edu/~yarden/)
+- [Wolfgang Huber](http://www.embl.de/research/units/genome_biology/huber/index.html)
+- [Wong Yong Wang](http://web.stanford.edu/group/wonglab/)
+
+### Hematology
+
+- [Daniel G Tenen](http://hsci.harvard.edu/people/daniel-g-tenen)
+- [Ellen Rothenberg](http://www.bbe.caltech.edu/content/ellen-rothenberg)
+- [James C. Mulloy](http://www.cincinnatichildrens.org/bio/m/james-mulloy/)
+- [Constanze Bonifer](http://www.birmingham.ac.uk/staff/profiles/cancer/bonifer-constanze.aspx)
+- [Bertie G?ttgens](http://www.stemcells.cam.ac.uk/researchers/principal-investigators/bertie-gottgens)
+- [DongEr Zhang](http://labs.biology.ucsd.edu/zhang/)
+- [Jinghui Zhang](http://www.stjude.org/stjude/v/index.jsp?vgnextoid=39254a82840f7210VgnVCM1000001e0215acRCRD)
+- [Margaret A. Goodell](https://www.bcm.edu/research/labs/goodell/)
+- [Robert G Roeder](http://www.rockefeller.edu/research/faculty/labheads/RobertRoeder/)
+- [Stephen D. Nimer](http://uhealthsystem.com/doctors/profile/134105)
+
+
+
 
 ## Blogs
 
@@ -68,7 +154,8 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [PLINK2 (v1.9 beta)](https://www.cog-genomics.org/plink2): a comprehensive update to Shaun Purcell's PLINK
 - [GCTA](http://cnsgenomics.com/software/gcta/): to estimate the proportion of phenotypic variance explained by genome- or chromosome-wide SNPs for complex traits
 - [SMR](http://cnsgenomics.com/software/smr/index.html): association between gene expression and a complex trait
-- [GSMR](http://cnsgenomics.com/software/gsmr/gsmr.html): causal association between a risk factor and disease
+- [GSMR](http://cnsgenomics.com/software/gsmr/index.html): causal association between a risk factor and disease
+- [OSCA](http://cnsgenomics.com/software/osca/#Overview): analysis of complex traits using multi-omics data
 - [MACH](http://csg.sph.umich.edu/abecasis/mach/index.html): resolve long haplotypes or infer missing genotypes
 - [IMPUTE2](http://mathgen.stats.ox.ac.uk/impute/impute_v2.html): genotype imputation and haplotype phasing program
 - [METAL](http://genome.sph.umich.edu/wiki/METAL_Program): meta-analysis of genomewide association scans
@@ -173,70 +260,6 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [links directory](http://bioinformatics.ca/links_directory/)
 - [stackexchange](https://stackexchange.com/)
 - [stackoverflow](https://stackoverflow.com/)
-
-## Personal website
-
-### Hematology
-
-- [Daniel G Tenen](http://hsci.harvard.edu/people/daniel-g-tenen)
-- [Ellen Rothenberg](http://www.bbe.caltech.edu/content/ellen-rothenberg)
-- [James C. Mulloy](http://www.cincinnatichildrens.org/bio/m/james-mulloy/)
-- [Constanze Bonifer](http://www.birmingham.ac.uk/staff/profiles/cancer/bonifer-constanze.aspx)
-- [Bertie G?ttgens](http://www.stemcells.cam.ac.uk/researchers/principal-investigators/bertie-gottgens)
-- [DongEr Zhang](http://labs.biology.ucsd.edu/zhang/)
-- [Jinghui Zhang](http://www.stjude.org/stjude/v/index.jsp?vgnextoid=39254a82840f7210VgnVCM1000001e0215acRCRD)
-- [Margaret A. Goodell](https://www.bcm.edu/research/labs/goodell/)
-- [Robert G Roeder](http://www.rockefeller.edu/research/faculty/labheads/RobertRoeder/)
-- [Stephen D. Nimer](http://uhealthsystem.com/doctors/profile/134105)
-
-### Genome Research
-
-- [Eric S. Lander](http://www.broadinstitute.org/history-leadership/scientific-leadership/core-members/eric-s-lander)
-- [Alexander Stark](http://www.starklab.org/)
-- [Yi Zhang](http://zhanglab.tch.harvard.edu/lab.htm)
-- [Howard Chang](http://changlab.stanford.edu/)
-- [John Stamatoyannopoulos](http://www.stamlab.org/)
-- [Bin Ren](http://bioinformatics-renlab.ucsd.edu/rentrac/)
-- [Zhiping Weng](http://zlab.umassmed.edu/zlab/index.shtml)
-- [Stunnenberg](http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&term=Stunnenberg+HG%5Bau%5D&dispmax=50)
-- [Xiaole(Shirley) Liu](http://liulab.dfci.harvard.edu/)
-- [Young Lab](http://younglab.wi.mit.edu/)
-- [Wang Ting](http://wang.wustl.edu/)
-
-### Computational Biologist
-
-- [Yang Li](http://www.picb.ac.cn/rnomics/yanglab/)
-- [Istvan Albert ](http://www.personal.psu.edu/iua1/)
-- [Xuegong Zhang]( http://bioinfo.au.tsinghua.edu.cn/member/xzhang/XZhang_Chinese.html)
-- [Ao Ping](http://systemsbiology.sjtu.edu.cn/)
-- [rafalab]( http://rafalab.dfci.harvard.edu/)
-- [Lior Pachter](https://math.berkeley.edu/~lpachter/index.html)
-- [Cole Trapnell](http://cole-trapnell-lab.github.io/)
-- [Steven Salzberg](http://salzberg-lab.org/)
-- [Yarden Katz](http://www.mit.edu/~yarden/)
-- [Wolfgang Huber](http://www.embl.de/research/units/genome_biology/huber/index.html)
-- [Mike Snyder](http://snyderlab.stanford.edu/)
-- [Wong Yong Wang](http://web.stanford.edu/group/wonglab/)
-- [Peter Visshcer](http://cnsgenomics.com/index.html)
-
-### Human Genetics
-
-- [Goncalo Abecasis](http://csg.sph.umich.edu/abecasis/)
-- [Shaun Purcell](http://research.mssm.edu/statgen/)
-- [Alkes Price](https://www.hsph.harvard.edu/alkes-price/)
-- [Benjamin Neale](http://www.nealelab.is/)
-- [Bruce Walsh](http://nitro.biosci.arizona.edu/)
-- [Matt Robinson](http://wp.unil.ch/ctgg)
-- [方海](http://www.cs.bris.ac.uk/~hfang/)
-- [Jonathan Pritchard](http://web.stanford.edu/group/pritchardlab/home.html)
-- [Mark McCarthy](https://www.ndm.ox.ac.uk/principal-investigators/researcher/mark-mccarthy)
-- [David Balding](https://scholar.google.com/citations?hl=zh-CN&user=9bqHVEsAAAAJ&view_op=list_works&sortby=pubdate)
-
-
-### My lab
-
-- [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720)
-- [CNSG](http://cnsgenomics.com/)
 
 ## Journal
 
