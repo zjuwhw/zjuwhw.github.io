@@ -32,6 +32,12 @@ Blogs:
 - [google site](https://sites.google.com/site/zjuwhwsblog/home)
 - [163 blog](http://blog.163.com/zju_whw/)
 
+Notebooks:
+
+- [Applied linear regression models](https://zjuwhw.github.io/notebook-alrm/)
+- [Introduction to Quantitative Genetics](https://zjuwhw.github.io/notebook-qg/)
+- [Statistical Inference](https://zjuwhw.github.io/notebook-si/)
+
 CV:
 
 - [2015 CV](/documents/CV_whw-2015.pdf)
