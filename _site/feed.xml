@@ -6,9 +6,149 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Jun 2018 10:31:00 +1000</pubDate>
-    <lastBuildDate>Fri, 01 Jun 2018 10:31:00 +1000</lastBuildDate>
+    <pubDate>Fri, 01 Jun 2018 20:39:26 +1000</pubDate>
+    <lastBuildDate>Fri, 01 Jun 2018 20:39:26 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>LD and Allele frequency</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#linkage-disequilibrium-ld&quot;&gt;Linkage Disequilibrium (LD)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#haplotype-and-allele-frequencies&quot;&gt;Haplotype and Allele
+Frequencies&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#measure-d&quot;&gt;Measure D&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#measure-r2&quot;&gt;Measure &lt;em&gt;r&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#measure-d-1&quot;&gt;Measure D’&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#notes&quot;&gt;Notes&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#quantification-of-relationship-between-allele-frequencies-and-r2&quot;&gt;Quantification of relationship between allele frequencies and
+&lt;em&gt;r&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#further-reading&quot;&gt;Further reading&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;linkage-disequilibrium-ld&quot;&gt;Linkage Disequilibrium (LD)&lt;/h3&gt;
+
+&lt;h4 id=&quot;haplotype-and-allele-frequencies&quot;&gt;Haplotype and Allele Frequencies&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&quot;header&quot;&gt;
+&lt;th align=&quot;left&quot;&gt;Locus A&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Locus B Allele 1&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Allele 2&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Allele frequency&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&quot;odd&quot;&gt;
+&lt;td align=&quot;left&quot;&gt;Allele 1&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;A&lt;/em&gt;&lt;em&gt;B&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;A&lt;/em&gt;&lt;em&gt;b&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;A&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;even&quot;&gt;
+&lt;td align=&quot;left&quot;&gt;Allele 2&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;a&lt;/em&gt;&lt;em&gt;B&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;a&lt;/em&gt;&lt;em&gt;b&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;a&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;odd&quot;&gt;
+&lt;td align=&quot;left&quot;&gt;Allele frequency&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;B&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;b&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Firstly, as $p_a = 1 - p_A$, $p_b = 1 - p_B$, we can calculate $p_a$ or $p_b$, if we know $p_A$ or $p_B$.&lt;/p&gt;
+
+&lt;p&gt;Secondly, as $p_{Ab} = p_{A} - p_{AB}$, $p_{aB} = p_{B} - p_{AB}$, $p_{ab} = 1 - p_{A} - p_{B} + p_{AB}$, we can calcuate $p_{Ab}\text{, }p_{aB}\text{ and }p_{AB}$, if we know $p_{AB}$.&lt;/p&gt;
+
+&lt;p&gt;As the frequency of all four haplotype need to be greater or equal to 0, so we can know:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_A + p_B - 1 \le p_{AB} \le min[p_A,p_B]&lt;/script&gt;
+
+&lt;h4 id=&quot;measure-d&quot;&gt;Measure D&lt;/h4&gt;
+
+&lt;p&gt;Define that $D = p_{AB} - p_A \times p_B$, so we can know:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;-(1-p_A)(1-p_B) \le D \le min[p_A(1-p_B), p_B(1-p_A)]&lt;/script&gt;
+
+&lt;p&gt;, and&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{AB} = p_A \times p_B\text{, then }D = 0&lt;/script&gt;
+
+&lt;h4 id=&quot;measure-r2&quot;&gt;Measure &lt;em&gt;r&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/h4&gt;
+
+&lt;p&gt;The LD measure $r^2$ is the squared correlation, where r scales D by the standard deviations of the allele frequencies at two loci:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;r^2 = \frac{D^2}{p_Ap_B(1-p_A)(1-p_B)}&lt;/script&gt;
+
+&lt;p&gt;As I assume A and B are the major allele for loci 1 and 2, respectively, we can see:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1-p_A)^2(1-p_B)^2 \le p_A^2(1-p_B)^2&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1-p_A)^2(1-p_B)^2\le(1-p_A)^2p_B^2&lt;/script&gt;
+
+&lt;p&gt;and the range of $r^2$ is&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;0 \le r^2 \le min[\frac{p_A(1-p_B)}{(1-p_A)p_B}, \frac{(1-p_A)p_B}{p_A(1-p_B)}]&lt;/script&gt;
+
+&lt;h4 id=&quot;measure-d-1&quot;&gt;Measure D’&lt;/h4&gt;
+
+&lt;p&gt;The D’ scales D by its maximum value given the allele frequencies:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;D' = \frac{D}{min[p_A(1-p_B), p_B(1-p_A)]}\text{, if D &gt; 0}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+D' = \frac{D}{min[p_Ap_B, (1-p_A)(1-p_B)]}\text{, if D &lt; 0} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;|D’| has range 0-1 regardless of allele frequency&lt;/p&gt;
+
+&lt;h4 id=&quot;notes&quot;&gt;Notes&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;high |D’| and high $r^2$: the presence of only two haplotypes, small difference in allele frequency;&lt;/li&gt;
+  &lt;li&gt;high |D’| and low $r^2$: presence of only three haplotypes, different allele frquencies;&lt;/li&gt;
+  &lt;li&gt;low |D’| and low $r^2$: random coupling of alleles and presence of all four haplotypes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;quantification-of-relationship-between-allele-frequencies-and-r2&quot;&gt;Quantification of relationship between allele frequencies and $r^2$&lt;/h3&gt;
+
+&lt;p&gt;Furthermore, if we assume $p_B = p_A + v$, we can know:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;2p_A+v-1 \le p_{AB} \le min[p_A,p_A+v]&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;-(1-p_A)(1-p_A -v) \le D \le min[p_A(1-p_A-v),(p_A+v)(1-p_A)]&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;0 \le r^2 \le min[\frac{p_A(1-p_A-v)}{(p_A+v)(1-p_A)}, \frac{(p_A+v)(1-p_A)}{p_A(1-p_A-v)}]&lt;/script&gt;
+
+&lt;p&gt;If we set a threshold for $r^2$, i.e. $r^2 \ge t \ge 0$, then&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;-\frac{p_A(1-p_A)(1-t)}{1-p_A(1-t)} \le v \le \frac{p_A(1-p_A)(1-t)}{p_A(1-t)+t}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{tp_A}{1-p_A(1-t)} \le p_B \le \frac{p_A}{p_A(1-t)+t}&lt;/script&gt;
+
+&lt;h3 id=&quot;further-reading&quot;&gt;Further reading&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;shiny app: &lt;a href=&quot;https://huanwei.shinyapps.io/ldfrq/&quot;&gt;https://huanwei.shinyapps.io/ldfrq/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/15901470&quot;&gt;Naomi R. Wray. Twin Research and Human Genetics. 2005.&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 01 Jun 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/06/01/rsq_allele.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/06/01/rsq_allele.html</guid>
+        
+        <category>GWAS</category>
+        
+        <category>genetics</category>
+        
+        
+      </item>
     
       <item>
         <title>厨房用品</title>
@@ -924,152 +1064,6 @@ data
         <guid isPermaLink="true">http://localhost:4000/2017/08/25/mean_variance.html</guid>
         
         <category>statistics</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Remainder and quotient</title>
-        <description>&lt;h2 id=&quot;from-binary-to-decimal&quot;&gt;From binary to decimal&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;binary: “1101”&lt;/li&gt;
-  &lt;li&gt;decimal: “13”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;1 × 2&lt;sup&gt;4 − 1&lt;/sup&gt; + 1 × 2&lt;sup&gt;3 − 1&lt;/sup&gt; + 0 × 2&lt;sup&gt;2 − 1&lt;/sup&gt; + 1 × 2&lt;sup&gt;1 − 1&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;=1 × 2&lt;sup&gt;3&lt;/sup&gt; + 1 × 2&lt;sup&gt;2&lt;/sup&gt; + 1 × 2&lt;sup&gt;1&lt;/sup&gt; + 1 × 2&lt;sup&gt;0&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;=8 + 4 + 1 = 13&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;BinToDec = function(x){
-  sum(2^(which(rev(unlist(strsplit(as.character(x), &quot;&quot;)) == 1))-1))
-}
-DecToBin = function(x){
-  bin=&quot;&quot;
-  while(x != 0){
-    bin = paste(x%%2,bin,sep=&quot;&quot;)
-    x = x %/% 2
-  }
-  return(bin)
-}
-
-BinToDec(&quot;1101&quot;)
-
-## [1] 13
-
-DecToBin(13)
-
-## [1] &quot;1101&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;from-n-ary-to-decimal&quot;&gt;From n-ary to decimal&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NaryToDec = function(x, n){
-  sum(n^(which(rev(unlist(strsplit(as.character(x), &quot;&quot;)) == 1))-1))
-}
-DecToNary = function(x,n){
-  bin=&quot;&quot;
-  while(x != 0){
-    bin = paste(x%%n,bin,sep=&quot;&quot;)
-    x = x %/% n
-  }
-  return(bin)
-}
-
-NaryToDec(&quot;1101&quot;,2)
-
-## [1] 13
-
-DecToNary(13,2)
-
-## [1] &quot;1101&quot;
-
-DecToNary(13,3)
-
-## [1] &quot;111&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;multiple-loop-indexs-to-one-loop-index&quot;&gt;multiple loop indexs to one loop index&lt;/h2&gt;
-
-&lt;p&gt;It’s common for me to run a script using multiple loops to iterate.
-I usually just put one for-loop into the nest of antoher for-loop.&lt;/p&gt;
-
-&lt;p&gt;But if I would like to parallel them using different nodes in a computing cluster and
-submit a job array using one index, how to do it?&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for(a in 1:2){
-  for(b in 1:3){
-    for(c in 1:4){
-      print(paste(a,b,c,sep=&quot; &quot;))
-    }
-  }
-}
-
-## [1] &quot;1 1 1&quot;
-## [1] &quot;1 1 2&quot;
-## [1] &quot;1 1 3&quot;
-## [1] &quot;1 1 4&quot;
-## [1] &quot;1 2 1&quot;
-## [1] &quot;1 2 2&quot;
-## [1] &quot;1 2 3&quot;
-## [1] &quot;1 2 4&quot;
-## [1] &quot;1 3 1&quot;
-## [1] &quot;1 3 2&quot;
-## [1] &quot;1 3 3&quot;
-## [1] &quot;1 3 4&quot;
-## [1] &quot;2 1 1&quot;
-## [1] &quot;2 1 2&quot;
-## [1] &quot;2 1 3&quot;
-## [1] &quot;2 1 4&quot;
-## [1] &quot;2 2 1&quot;
-## [1] &quot;2 2 2&quot;
-## [1] &quot;2 2 3&quot;
-## [1] &quot;2 2 4&quot;
-## [1] &quot;2 3 1&quot;
-## [1] &quot;2 3 2&quot;
-## [1] &quot;2 3 3&quot;
-## [1] &quot;2 3 4&quot;
-
-for(index in 1:24){
-  ar = (index-1) %% 2 + 1; aq = (index-1) %/% 2
-  br = (aq - 1) %% 3 + 1; bq = (aq - 1) %/% 3
-  cr = (bq - 1) %% 4 + 1
-  print(paste(ar,br,cr,sep=&quot; &quot;))
-}
-
-## [1] &quot;1 3 3&quot;
-## [1] &quot;2 3 3&quot;
-## [1] &quot;1 1 4&quot;
-## [1] &quot;2 1 4&quot;
-## [1] &quot;1 2 4&quot;
-## [1] &quot;2 2 4&quot;
-## [1] &quot;1 3 4&quot;
-## [1] &quot;2 3 4&quot;
-## [1] &quot;1 1 1&quot;
-## [1] &quot;2 1 1&quot;
-## [1] &quot;1 2 1&quot;
-## [1] &quot;2 2 1&quot;
-## [1] &quot;1 3 1&quot;
-## [1] &quot;2 3 1&quot;
-## [1] &quot;1 1 2&quot;
-## [1] &quot;2 1 2&quot;
-## [1] &quot;1 2 2&quot;
-## [1] &quot;2 2 2&quot;
-## [1] &quot;1 3 2&quot;
-## [1] &quot;2 3 2&quot;
-## [1] &quot;1 1 3&quot;
-## [1] &quot;2 1 3&quot;
-## [1] &quot;1 2 3&quot;
-## [1] &quot;2 2 3&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Mon, 21 Aug 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/08/21/remainder_quotient.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/08/21/remainder_quotient.html</guid>
-        
-        <category>cs</category>
         
         
       </item>
