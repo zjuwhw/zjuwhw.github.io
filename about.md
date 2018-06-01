@@ -6,6 +6,12 @@ permalink: /about/
 
 I am Huanwei Wang, a PhD student in Univeristy of Queensland. My research field is quantitative genetics now.
 
+CV:
+
+- [2015 CV](/documents/CV_whw-2015.pdf)
+- [201701 CV](/documents/CV_whw-201701.pdf) 
+- [201806 CV](/documents/CV_whw-201806.pdf) 
+
 Email:
 
 - zju.whw@gmail.com
@@ -38,10 +44,11 @@ Notebooks:
 - [Introduction to Quantitative Genetics](https://zjuwhw.github.io/notebook-qg/)
 - [Statistical Inference](https://zjuwhw.github.io/notebook-si/)
 
-CV:
+Shiny:
 
-- [2015 CV](/documents/CV_whw-2015.pdf)
-- [201701 CV](/documents/CV_whw-201701.pdf) 
+- [LD and allele frequency](https://huanwei.shinyapps.io/ldfrq/)
+
+
 
 ![Alt text](/images/me.jpg)
 
