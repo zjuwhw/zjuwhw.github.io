@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>RESTful API</title>
-  <meta name="description" content="前言：什么是REST？">
+  <title>回国资料收集</title>
+  <meta name="description" content="“回国”是在中国的海外留学生经常谈论的一个问题，加上我在澳大利亚的博士老板杨剑教授最近已经与温州医科大学正式签约，所以这个问题最近会更加频繁地思考。">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/2016/09/03/REST.html">
+  <link rel="canonical" href="http://localhost:4000/2018/06/14/china_recruitment.html">
   <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -97,163 +97,34 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">RESTful API</h1>
-    <p class="post-meta"><time datetime="2016-09-03T00:00:00+10:00" itemprop="datePublished">Sep 3, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">回国资料收集</h1>
+    <p class="post-meta"><time datetime="2018-06-14T00:00:00+10:00" itemprop="datePublished">Jun 14, 2018</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h2 id="前言什么是rest">前言：什么是REST？</h2>
+    <p>“回国”是在中国的海外留学生经常谈论的一个问题，加上我在澳大利亚的博士老板<a href="http://researchers.uq.edu.au/researcher/2713">杨剑教授</a>最近已经与<a href="http://news.wmu.edu.cn/show/2/23558.html">温州医科大学</a>正式签约，所以这个问题最近会更加频繁地思考。</p>
 
-<blockquote>
-  <p>一种架构设计风格，提供了设计原则和约束条件，而不是架构。而满足这些约束条件和原则的应用程序或设计就是 RESTful架构或服务。</p>
-</blockquote>
+<p>故打算写这篇博客，收集当前国内的一些招聘信息。尽管以后是否回国、何时回国（博士毕业？几年博后？）、回国时自己的水平、国内的政策等一系列问题都尚未确定，但是未雨绸缪总是好的。</p>
 
-<p>— <a href="https://segmentfault.com/q/1010000003064904">segmentfault</a></p>
-
-<p>我理解“就是有了规范/规则/限制/风格”，就能享受到一些”好处“。</p>
-
-<h2 id="overview概况">Overview（概况）</h2>
-
+<p>BioArt微信博文：</p>
 <ul>
-  <li>REST: REpresentational State Transfer</li>
-  <li>Resource-based（基于资源）</li>
-  <li>Representations（表述）</li>
-  <li>Six constraints（6点限制）</li>
-  <li>Uniform Interface（统一接口）</li>
-  <li>Stateless（无状态性）</li>
-  <li>Cacheable（可缓存）</li>
-  <li>Client-Server（客户端-服务端结构）</li>
-  <li>Layered System（分层系统）</li>
-  <li>Code on Demand (optional)（按需编码）</li>
-</ul>
-
-<h2 id="resource-based基于资源">Resource Based(基于资源)</h2>
-
-<ul>
-  <li>Things vs. actions</li>
-  <li>Nouns vs. verbs</li>
-  <li>Versus SOAP-RPC（注：SOAP和RPC是另外两种主流的Web服务实现方案）</li>
-  <li>Identified by URIs
+  <li><a href="http://www.sohu.com/a/134854744_650136">《第一批“青年千人”现状概览（生命科学领域）丨BioArt深度观察》</a></li>
+  <li>
+    <p><a href="http://www.sohu.com/a/208635234_650136">升级版丨第十四批青千名单（生命科学与医学部）</a></p>
+  </li>
+  <li>浙江大学：
     <ul>
-      <li>Multiple URIs may refer to same resource</li>
+      <li>浙江大学生命科学研究院：<a href="http://lsi.zju.edu.cn/redir.php?catalog_id=13706&amp;object_id=68180">公告</a></li>
     </ul>
   </li>
-  <li>Separate from their representation(s)</li>
-</ul>
-
-<h2 id="representations表述">Representations(表述)</h2>
-
-<ul>
-  <li>How resources get manipulated（对资源的描述、如何操作资源的）</li>
-  <li>Part of the resource state
+  <li>
+    <p>温州医科大学： <a href="http://rsc.wmu.edu.cn/info/1043/1149.htm">公告</a></p>
+  </li>
+  <li>东北大学
     <ul>
-      <li>Transferred between client and server</li>
+      <li><a href="http://www.clhs.neu.edu.cn/">东北大学生命科学与健康学院</a></li>
     </ul>
   </li>
-  <li>Typically JSON or XML</li>
-  <li>Example:
-    <ul>
-      <li>Resource: person(Todd)</li>
-      <li>Service: contact information (GET)</li>
-      <li>Representation:
-        <ul>
-          <li>name, address, phone number …</li>
-          <li>JSON or XML format</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="uniform-interface统一接口">Uniform Interface（统一接口）</h2>
-
-<ul>
-  <li>Defines the interface between client and server</li>
-  <li>Simplifies and decouples the architecture</li>
-  <li>Fundamental to RESTful design</li>
-  <li>For us this means:
-    <ul>
-      <li>HTTP verbs(GET, PUT, POST, DELETE)</li>
-      <li>URIs(resource name)</li>
-      <li>HTTP response(status, body)</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="stateless无状态性">Stateless（无状态性）</h2>
-
-<ul>
-  <li>Server contains no client state（服务端不包含任何客户端的状态）</li>
-  <li>Each request contains enough context to process the message（每一个请求都含有足够的内容来进行处理）
-    <ul>
-      <li>Self-descriptive messages（自明信息）</li>
-    </ul>
-  </li>
-  <li>Any session state is held on the client（任何的状态都由客户端来保存）</li>
-</ul>
-
-<h2 id="client-server客户端-服务端结构">Client-Server（客户端-服务端结构）</h2>
-
-<ul>
-  <li>Assume a disconnected system（假设两端不相连）</li>
-  <li>Separation of concerns（关注点分离）</li>
-  <li>Uniform interface is the link between the two（由统一接口将两者链接）</li>
-</ul>
-
-<h2 id="cacheable可缓存">Cacheable（可缓存）</h2>
-
-<ul>
-  <li>Server responses（representations）are cacheable（服务端的响应或者表述是可缓存的）
-    <ul>
-      <li>不准确地</li>
-      <li>准确地</li>
-      <li>可谈判地</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="layered-system分层系统">Layered System（分层系统）</h2>
-
-<ul>
-  <li>Client can’t assume direct connection to server</li>
-  <li>Software or hardware intermediaries between client and server</li>
-  <li>Improves scalability</li>
-</ul>
-
-<h2 id="code-on-demand按需编码">Code on Demand（按需编码）</h2>
-
-<ul>
-  <li>Server can temporarily extend client（服务端可以临时扩展客户端）</li>
-  <li>Transfer logic to client（将逻辑传给客户端）</li>
-  <li>Client executes logic（客户端来执行逻辑）</li>
-  <li>For example: Java applets; JavaScript</li>
-  <li>The only optional constraiant（唯一可选的）</li>
-</ul>
-
-<h2 id="summary">Summary</h2>
-
-<ul>
-  <li>Violating any constraint other than Code On Demand means service is not strictly RESTful（违反任何除“按需编码”之外的限制，都意味着服务不是严格地RESTful。注：目前REST-like也很流行）
-    <ul>
-      <li>Example: Three-legged OAUTH2</li>
-    </ul>
-  </li>
-  <li>Compliance with REST constraints allows（好处）:
-    <ul>
-      <li>Scalability</li>
-      <li>Simplicity</li>
-      <li>Modifiability</li>
-      <li>Visibility</li>
-      <li>Portability</li>
-      <li>Reliability</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="参考资料">参考资料：</h2>
-
-<ul>
-  <li><a href="http://www.restapitutorial.com/lessons/whatisrest.html">《What is REST》视频</a></li>
 </ul>
 
   </div>

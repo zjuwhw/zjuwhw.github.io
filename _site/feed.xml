@@ -6,9 +6,45 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Jun 2018 20:39:26 +1000</pubDate>
-    <lastBuildDate>Fri, 01 Jun 2018 20:39:26 +1000</lastBuildDate>
+    <pubDate>Tue, 19 Jun 2018 10:21:17 +1000</pubDate>
+    <lastBuildDate>Tue, 19 Jun 2018 10:21:17 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>回国资料收集</title>
+        <description>&lt;p&gt;“回国”是在中国的海外留学生经常谈论的一个问题，加上我在澳大利亚的博士老板&lt;a href=&quot;http://researchers.uq.edu.au/researcher/2713&quot;&gt;杨剑教授&lt;/a&gt;最近已经与&lt;a href=&quot;http://news.wmu.edu.cn/show/2/23558.html&quot;&gt;温州医科大学&lt;/a&gt;正式签约，所以这个问题最近会更加频繁地思考。&lt;/p&gt;
+
+&lt;p&gt;故打算写这篇博客，收集当前国内的一些招聘信息。尽管以后是否回国、何时回国（博士毕业？几年博后？）、回国时自己的水平、国内的政策等一系列问题都尚未确定，但是未雨绸缪总是好的。&lt;/p&gt;
+
+&lt;p&gt;BioArt微信博文：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.sohu.com/a/134854744_650136&quot;&gt;《第一批“青年千人”现状概览（生命科学领域）丨BioArt深度观察》&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sohu.com/a/208635234_650136&quot;&gt;升级版丨第十四批青千名单（生命科学与医学部）&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;浙江大学：
+    &lt;ul&gt;
+      &lt;li&gt;浙江大学生命科学研究院：&lt;a href=&quot;http://lsi.zju.edu.cn/redir.php?catalog_id=13706&amp;amp;object_id=68180&quot;&gt;公告&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;温州医科大学： &lt;a href=&quot;http://rsc.wmu.edu.cn/info/1043/1149.htm&quot;&gt;公告&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;东北大学
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.clhs.neu.edu.cn/&quot;&gt;东北大学生命科学与健康学院&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 14 Jun 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/06/14/china_recruitment.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/06/14/china_recruitment.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>LD and Allele frequency</title>
@@ -794,274 +830,6 @@ r&lt;/a&gt;&lt;/li&gt;
         <pubDate>Thu, 31 Aug 2017 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2017/08/31/sampling_cor.html</link>
         <guid isPermaLink="true">http://localhost:4000/2017/08/31/sampling_cor.html</guid>
-        
-        <category>statistics</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>mean, variance, covariance and correlation</title>
-        <description>&lt;h2 id=&quot;descriptive-statistics&quot;&gt;Descriptive statistics&lt;/h2&gt;
-
-&lt;h3 id=&quot;one-variable&quot;&gt;one variable&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;statistic&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$X$&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$X+c$&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$c \times X$&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$scale(X) = \frac{X-mean(X)}{SD(X)}$&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;mean&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{\sum{x_i}}{n}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;mean(X) + c&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$c \times mean(X)$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;SS (Sum of Squares)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\sum{(x_i - \bar{x})^2} $&lt;br /&gt; $=\sum{x_i^2} - n\bar{x}^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$SS_X$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$c^2 \times SS_X$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;n-1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Var (Variance)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{\sum{(x_i - \bar{x})^2}}{n-1}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Var(X)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$c^2 \times Var(X)$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;SD (Standard Deviation)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\sqrt{\frac{\sum{(x_i - \bar{x})^2}}{n-1}}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;SD(X)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$c \times SD(X)$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;two-variables&quot;&gt;two variables&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;statistic&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$X,Y$&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$X+c,Y$&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$c \times X,Y$&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$scale(X), scale(Y)$&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;SS (Sum of Squares)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\sum(x_i-\bar{x})(y_i-\bar{y})$&lt;br /&gt; $= \sum{x_iy_i - n\bar{x}\bar{y}}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$SS_{XY}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$c \times SS_{XY}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$(n-1) \times  Cor(X,Y)$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Cov (Covariance)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{n-1}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Cov(X,Y)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$c \times Cov(X,Y)$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Cor(X,Y)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Cor (Correlation)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum(x_i-\bar{x})^2 \times \sum(y_i-\bar{y})^2}}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Cor(X,Y)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Cor(X,Y)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Cor(X,Y)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;random-variables&quot;&gt;Random Variables&lt;/h2&gt;
-
-&lt;h3 id=&quot;expected-value-or-mean&quot;&gt;expected value or mean:&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;E(X) = \sum x_if(x_i)&lt;/script&gt;
-
-&lt;h3 id=&quot;variance&quot;&gt;variance&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Var(X) = \sum (x_i - \mu)^2 f(x_i)&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Var(X)= E((X-E(X))^2) = E(X^2) - (E(X))^2&lt;/script&gt;
-
-&lt;h3 id=&quot;covariance&quot;&gt;covariance&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Cov(X,Y) = \sum(x_i - \mu_x)(y_i - \mu_y)f(x_i, y_i)&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Cov(X,Y) = E((X-E(X))(Y-E(Y))) = E(XY) - E(X)E(Y)&lt;/script&gt;
-
-&lt;h2 id=&quot;slr-simple-linear-regression&quot;&gt;SLR (simple linear regression)&lt;/h2&gt;
-
-&lt;p&gt;the normal error regression model:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Y = \beta_0 + \beta_1X + \epsilon&lt;/script&gt;
-
-&lt;p&gt;the estimation of regression function:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{Y_i} = b_0 + b_1X_i\text{, with }b_1 = \frac{SS_{XY}}{SS_X}, b_0 = \bar{Y} - b_1\bar{X}&lt;/script&gt;
-
-&lt;p&gt;the sampling distributon&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;b_1  \sim N(\beta_1,\sigma^2(b_1))\text{, so } \frac{b_1 - \beta_1}{\sigma(b_1)} \sim N(0,1)\text{, with }\sigma^2(b_1) = \frac{\sigma^2}{SS_X}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{b_1 - \beta_1}{s(b_1)} \sim t(n-2)\text{, with }s^2(b_1) = \frac{MSE}{SS_X}&lt;/script&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;statistic&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$X,Y$&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$X, scale(Y)$&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$scale(X), Y$&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;$scale(X),scale(Y)$&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$b_1$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{\sum(x_i-\bar{x})(y_i - \bar{y})}{\sum{(x_i-\bar{x})^2}}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{b_1}{SD(Y)}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$b_1SD(X)$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$b_1\frac{SD(X)}{SD(Y)} = Cor(X,Y)$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$\hat{Y_i}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$b_0+b_1X_i = \bar{y}+\frac{\sum(x_i-\bar{x})(y_i - \bar{y})}{\sum{(x_i-\bar{x})^2}}(x_i - \bar{x})$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{\hat{y_i}-\bar{y}}{SD(y)}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\hat{Y_i}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{\hat{y_i}-\bar{y}}{SD(y)}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;SSTO($SS_Y$)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\sum(Y_i - \bar{Y})^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{SSTO}{Var(Y)}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;SSTO&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{SSTO}{Var(Y)}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;SSE&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\sum(Y_i - \hat{Y_{i}})^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{SSE}{Var(Y)}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;SSE&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{SSE}{Var(Y)}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;MSE&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{\sum(Y_i - \hat{Y_i})^2}{n-2}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{MSE}{Var(Y)}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;MSE&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{MSE}{Var(Y)}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;SSR&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\sum(\hat{Y_i}-\bar{Y})^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{SSR}{Var(Y)}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;SSR&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{SSR}{Var(Y)}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$R^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$1-\frac{SSE}{SSTO} = \frac{SSR}{SSTO} = Cor(X,Y)^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$R^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$R^2$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$R^2$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$s(b_1)$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\sqrt{\frac{MSE}{SS_X}}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{s(b_1)}{SD(Y)}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$s(b_1)SD(X)$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$s(b_1)\frac{SD(X)}{SD(Y)}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;t&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;$\frac{b_1}{s(b_1)} = \frac{SS_{XY}}{\sqrt{MSE}\sqrt{SS_X}} = \pm\sqrt{(n-2)\frac{R^2}{1-R^2}}$&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
-
-&lt;h3 id=&quot;t2-and-r2&quot;&gt;&lt;em&gt;t&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; and &lt;em&gt;R&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/h3&gt;
-
-&lt;p&gt;$t^2 = \frac{b_1^2}{s(b_1)^2} = \frac{\frac{SS_{XY}^2}{SS_X^2}}{\frac{MSE}{SS_X}} = \frac{SS_{XY}^2}{MSE \times SS_X} = (n-2)\frac{SS_Y}{SSE}R^2 = (n-2)\frac{R^2}{\frac{SSE}{SS_Y}} = (n-2)\frac{R^2}{1-R^2}$&lt;/p&gt;
-
-&lt;p&gt;When n is large, t(n-1) –&amp;gt; N(0,1), so &lt;em&gt;t&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; –&amp;gt;
-&lt;em&gt;χ&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;terminology&quot;&gt;terminology&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;SSTO: total sum of squares&lt;/li&gt;
-  &lt;li&gt;SSE: error/residual sum of squares&lt;/li&gt;
-  &lt;li&gt;SSR: regression sum of squares&lt;/li&gt;
-  &lt;li&gt;MSE: error/residual mean squares&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;b&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;: the point estimator of &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;, effect size&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;s&lt;/em&gt;(&lt;em&gt;b&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;): the standard error of &lt;em&gt;b&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;, the
-estimated variance of &lt;em&gt;b&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;r-code-example&quot;&gt;R code example&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lm_example = function(x,y){
-  xmin = min(x); xmax = max(x)
-  fit_lm = lm(y~x)
-  b0 = fit_lm$&quot;coefficient&quot;[1]
-  b1 = fit_lm$&quot;coefficient&quot;[2]
-  yhat = x*b1 + b0
-  yhat1 = yhat[1]
-  SSTO = sum((y - mean(y))^2)
-  SSE = sum(fit_lm$residuals^2)
-  MSE = SSE/(length(y)-2)
-  SSR = sum((yhat - mean(y))^2)
-  R = cor(x,y)
-  Rsq = 1 - SSE/SSTO
-  s_b1 = summary(fit_lm)$coefficients[2,2]
-  t = summary(fit_lm)$coefficients[2,3]
-  p = summary(fit_lm)$coefficients[2,4]
-  #plot(x,y)
-  #lines(c(xmin, xmax),c(b0+xmin*b1, b0+xmax*b1),col=&quot;red&quot;)
-  data = data.frame(b1,yhat1,SSTO,SSE,MSE,SSR,R,Rsq,s_b1,t)
-  return(data)
-}
-x = trees$Height
-y = trees$Girth
-data = cbind(t(lm_example(x,y)),t(lm_example(x,scale(y))),t(lm_example(scale(x),y)),t(lm_example(scale(x),scale(y))))
-colnames = c(&quot;x_y&quot;,&quot;x_scy&quot;,&quot;scx_y&quot;,&quot;scx_scy&quot;)
-data
-
-##                 x           x           x          x
-## b1      0.2557471  0.08149644   1.6295728  0.5192801
-## yhat1  11.7139043 -0.48897864  11.7139043 -0.4889786
-## SSTO  295.4374194 30.00000000 295.4374194 30.0000000
-## SSE   215.7721895 21.91044621 215.7721895 21.9104462
-## MSE     7.4404203  0.75553263   7.4404203  0.7555326
-## SSR    79.6652299  8.08955379  79.6652299  8.0895538
-## R       0.5192801  0.51928007   0.5192801  0.5192801
-## Rsq     0.2696518  0.26965179   0.2696518  0.2696518
-## s_b1    0.0781583  0.02490594   0.4980101  0.1586960
-## t       3.2721686  3.27216859   3.2721686  3.2721686
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Fri, 25 Aug 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/08/25/mean_variance.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/08/25/mean_variance.html</guid>
         
         <category>statistics</category>
         
