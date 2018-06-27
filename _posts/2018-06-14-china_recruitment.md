@@ -23,6 +23,10 @@ tags: ["life"]
 - [吸引留学海外的高端人才归国的「千人计划」实施 5 年效果如何？](https://www.zhihu.com/question/21406046)
 - [作为青年千人计划的一员回国之后是怎样的体验？](https://www.zhihu.com/question/28551234)
 
+#### 科学杂志
+
+- [Scientific migration of junior scientists to China](https://genomebiology.biomedcentral.com/articles/10.1186/gb4180) by Genome Biology
+- [Career Guide: China](https://www.nature.com/collections/bxzlnkkfnf) by Nature
 
 ### 官方链接
 
