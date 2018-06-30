@@ -2,7 +2,7 @@
 layout: post
 title: 澳洲学生签证申请
 date: 2017-01-03
-tags: ["career"]
+tags: ["life"]
 ---
 
 * TOC

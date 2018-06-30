@@ -2,7 +2,7 @@
 layout: post
 title: 昆士兰大学博士申请
 date: 2016-12-18
-tags: ["career"]
+tags: ["life"]
 ---
 
 这个博客主要是记录一下我澳大利亚[昆士兰大学](https://www.uq.edu.au/)PhD项目的申请进度。

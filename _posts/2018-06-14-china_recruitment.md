@@ -5,7 +5,7 @@ date: 2018-06-14
 tags: ["life"]
 ---
 
-“回国”是在中国的海外留学生经常谈论的一个问题，加上我在澳大利亚的博士老板[杨剑教授](http://researchers.uq.edu.au/researcher/2713)最近已经与[温州医科大学](http://news.wmu.edu.cn/show/2/23558.html)正式签约，所以这个问题最近会更加频繁地思考。
+“回国”是海外留学生经常谈论的一个问题，加上我在澳大利亚的博士导师[杨剑教授](http://researchers.uq.edu.au/researcher/2713)最近已经与[温州医科大学](http://news.wmu.edu.cn/show/2/23558.html)正式签约，所以这个问题最近会更加频繁地思考。
 
 故打算写这篇博客，收集当前国内的一些招聘信息。尽管以后是否回国、何时回国（博士毕业？几年博后？）、回国时自己的水平、国内的政策等一系列问题都尚未确定，但是未雨绸缪总是好的。
 
@@ -47,6 +47,9 @@ tags: ["life"]
 - Houfeng Zheng：[homepage](http://www.wias.org.cn/index.php?a=detail&catid=490&id=8531&web=english)
 - 王立铭: [homepage](http://lsi.zju.edu.cn/redir.php?catalog_id=27266), [google scholar](https://scholar.google.com/citations?user=er1LWUoAAAAJ&hl=en)
 - 郭国骥: [homepage](http://person.zju.edu.cn/ggj)
+- 刘晗: [homepage](http://www.sih.org.cn/people.asp?id=9)
+- 孙晓建: [homepage](http://www.sih.org.cn/people.asp?id=13)
+- 卢敏: [homepage](http://www.sih.org.cn/people.asp?id=5)
 - 许恒: [homepage](http://www.xuhenglab.cn/), [google scholar](https://scholar.google.com/citations?hl=en&user=W__QlMEAAAAJ&view_op=list_works&sortby=pubdate)
 - 李国亮：[homepage](http://guolianglab.org/index.php), [google scholar](https://scholar.google.com/citations?user=s9n7-fQAAAAJ&hl=en)
 - 费腾: [homepage](http://faculty.neu.edu.cn/feiteng/index.html), [google scholar](https://scholar.google.com/citations?user=K4Q0r-cAAAAJ&hl=en)
