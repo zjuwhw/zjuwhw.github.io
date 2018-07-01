@@ -25,7 +25,8 @@ tags: ["life"]
 |Toyota|丰田|日本|<img src="/images/car-logo/toyota.png" alt="" style="height: 50px; display:block; margin: 0 auto;"/>|
 |Volkswagen|大众|德国|<img src="/images/car-logo/volkswagen.png" alt="" style="height: 50px; display:block; margin: 0 auto;"/>|
 |Chevrolet|雪佛兰|美国|<img src="/images/car-logo/chevrolet.png" alt="" style="height: 50px; display:block; margin: 0 auto;"/>|
-
+|Audi|奥迪|德国|<img src="/images/car-logo/audi.png" alt="" style="height: 50px; display:block; margin: 0 auto;"/>|
+|Kia|起亚|韩国|<img src="/images/car-logo/kia.png" alt="" style="height: 50px; display:block; margin: 0 auto;"/>|
 
 ## Body type（车型）
 
@@ -35,7 +36,7 @@ tags: ["life"]
 - Van 中小型货车
 - Truck 卡车
 - Wagon 旅行车
-- Convertible 敞篷车
+- Convertible/Cabriolet 敞篷车
 - SUV（Sport Utility Vehicle）运动型多用途车
 
 ![](/images/car_types.jpg)
@@ -62,7 +63,14 @@ tags: ["life"]
 - All Whell Drive
 - 4*4
 
-## Cylinder Configuration （汽缸配置）
+## Engine
+
+- Engine type 发动机类型
+	- electric
+	- piston 活塞
+	- rotary 转子发动机
+- cubic centimetres 立方厘米
+- Cylinder Configuration （汽缸配置）
 
 
 ## 更多链接：
@@ -71,6 +79,8 @@ tags: ["life"]
 - ["Buying a used car" on Queensland government website](https://www.qld.gov.au/transport/buying/rules/used)
 - [wikihow: how to buy a car](https://www.wikihow.com/Buy-a-Car)
 - [美国买车入门级教程](http://bbs.gter.net/thread-1926366-1-1.html)
+- [gumtree](https://www.gumtree.com.au/cars)
+- [carsales](https://www.carsales.com.au/)
 - 汽车品牌
 	- [维基百科列表（英文）](https://en.wikipedia.org/wiki/List_of_car_brands)
 	- [维基百科列表（中文）](https://zh.wikipedia.org/wiki/%E6%B1%BD%E8%BB%8A%E5%93%81%E7%89%8C%E5%88%97%E8%A1%A8)

@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Jun 2018 20:31:31 +1000</pubDate>
-    <lastBuildDate>Sat, 30 Jun 2018 20:31:31 +1000</lastBuildDate>
+    <pubDate>Mon, 02 Jul 2018 09:35:20 +1000</pubDate>
+    <lastBuildDate>Mon, 02 Jul 2018 09:35:20 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -132,6 +132,22 @@
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Audi&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;奥迪&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;德国&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;/images/car-logo/audi.png&quot; alt=&quot;&quot; style=&quot;height: 50px; display:block; margin: 0 auto;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Kia&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;起亚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;韩国&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;/images/car-logo/kia.png&quot; alt=&quot;&quot; style=&quot;height: 50px; display:block; margin: 0 auto;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
@@ -144,7 +160,7 @@
   &lt;li&gt;Van 中小型货车&lt;/li&gt;
   &lt;li&gt;Truck 卡车&lt;/li&gt;
   &lt;li&gt;Wagon 旅行车&lt;/li&gt;
-  &lt;li&gt;Convertible 敞篷车&lt;/li&gt;
+  &lt;li&gt;Convertible/Cabriolet 敞篷车&lt;/li&gt;
   &lt;li&gt;SUV（Sport Utility Vehicle）运动型多用途车&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -178,7 +194,19 @@
   &lt;li&gt;4*4&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;cylinder-configuration-汽缸配置&quot;&gt;Cylinder Configuration （汽缸配置）&lt;/h2&gt;
+&lt;h2 id=&quot;engine&quot;&gt;Engine&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Engine type 发动机类型
+    &lt;ul&gt;
+      &lt;li&gt;electric&lt;/li&gt;
+      &lt;li&gt;piston 活塞&lt;/li&gt;
+      &lt;li&gt;rotary 转子发动机&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;cubic centimetres 立方厘米&lt;/li&gt;
+  &lt;li&gt;Cylinder Configuration （汽缸配置）&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;更多链接&quot;&gt;更多链接：&lt;/h2&gt;
 
@@ -187,6 +215,8 @@
   &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/buying/rules/used&quot;&gt;“Buying a used car” on Queensland government website&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.wikihow.com/Buy-a-Car&quot;&gt;wikihow: how to buy a car&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://bbs.gter.net/thread-1926366-1-1.html&quot;&gt;美国买车入门级教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gumtree.com.au/cars&quot;&gt;gumtree&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.carsales.com.au/&quot;&gt;carsales&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;汽车品牌
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_car_brands&quot;&gt;维基百科列表（英文）&lt;/a&gt;&lt;/li&gt;
