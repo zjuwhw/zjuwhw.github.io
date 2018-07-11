@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>zjuwhw&#39;s blog</title>
-  <meta name="description" content="This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
-">
+  <title>Shell commands to check data usage</title>
+  <meta name="description" content="It’s good to check the status of your own data usage. Here are some commands I find useful. Check man du, man df or man find for more information.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/2018/05/29/data_usage.html">
   <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -95,123 +94,66 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Shell commands to check data usage</h1>
+    <p class="post-meta"><time datetime="2018-05-29T00:00:00+10:00" itemprop="datePublished">May 29, 2018</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jun 30, 2018</span> &raquo; <a class="post-link" href="/2018/06/30/buying_a_car.html">买车资料收集</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 14, 2018</span> &raquo; <a class="post-link" href="/2018/06/14/china_recruitment.html">回国资料收集</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 1, 2018</span> &raquo; <a class="post-link" href="/2018/06/01/rsq_allele.html">LD and Allele frequency</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 29, 2018</span> &raquo; <a class="post-link" href="/2018/05/29/data_usage.html">Shell commands to check data usage</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 6, 2018</span> &raquo; <a class="post-link" href="/2018/05/06/kitchen.html">厨房用品</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 18, 2017</span> &raquo; <a class="post-link" href="/2017/12/18/biostatistics.html">Biostatistics Mooc Note</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 4, 2017</span> &raquo; <a class="post-link" href="/2017/12/04/GLS.html">Generalized Least Square</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 7, 2017</span> &raquo; <a class="post-link" href="/2017/11/07/more-GWAS.html">More than GWAS</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 12, 2017</span> &raquo; <a class="post-link" href="/2017/10/12/plot_par.html">Parameters for R plot funtion</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 21, 2017</span> &raquo; <a class="post-link" href="/2017/09/21/recombination.html">Recombination and Recombination Rate</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 8, 2017</span> &raquo; <a class="post-link" href="/2017/09/08/literature.html">Literature Collection in Quantitative Genetics</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 31, 2017</span> &raquo; <a class="post-link" href="/2017/08/31/sampling_cor.html">sampling distribution of correlation r</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 25, 2017</span> &raquo; <a class="post-link" href="/2017/08/25/mean_variance.html">mean, variance, covariance and correlation</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 21, 2017</span> &raquo; <a class="post-link" href="/2017/08/21/remainder_quotient.html">Remainder and quotient</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 18, 2017</span> &raquo; <a class="post-link" href="/2017/08/18/plink_bfile.html">Plink bfile manipulation</a>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 10, 2017</span> &raquo; <a class="post-link" href="/2017/08/10/pvalue_null.html">P-values under null hypothesis</a>
-      </li>
-    
-  </ul>
+  <div class="post-content" itemprop="articleBody">
+    <p>It’s good to check the status of your own data usage. Here are some commands I find useful. Check <code class="highlighter-rouge">man du</code>, <code class="highlighter-rouge">man df</code> or <code class="highlighter-rouge">man find</code> for more information.</p>
 
+<h3 id="use-df-to-check-disk-space-usage">Use <code class="highlighter-rouge">df</code> to check disk space usage</h3>
 
-<div class="pagination">
-  
-    <span>&laquo; 上一页</span>
-  
+<p>The command <code class="highlighter-rouge">df</code> can be used to report disk space usage.</p>
 
-  
-    
-      <em>1</em>
-    
-  
-    
-      <a href="/page2">2</a>
-    
-  
-    
-      <a href="/page3">3</a>
-    
-  
-    
-      <a href="/page4">4</a>
-    
-  
-    
-      <a href="/page5">5</a>
-    
-  
+<p>Below is an example to report the space usage of disk /shares/compbio, which is for our group.</p>
 
-  
-    <a href="/page2">下一页 &raquo;</a>
-  
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ df -h|grep comp
 
-</div>
+10.100.136.1@tcp:/compbio
+                      100T   93T  2.2T  98% /shares/compbio
+</code></pre></div></div>
 
+<h3 id="use-du-to-check-file-space-usage">Use <code class="highlighter-rouge">du</code> to check file space usage</h3>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>The command <code class="highlighter-rouge">du</code> can be used to report file space usage.</p>
 
-</div>
+<p>Here is an example to report the file space in my folder, where “–max-depth” is the option to set the level of directory/subdirectory and “–h” is the option to print in human-readable format.</p>
 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+$ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
 
+76G    ./reference
+648M    ./software
+658G    ./meQTL
+979M    ./learning
+1.7T    ./projects
+2.4T    .
+</code></pre></div></div>
 
-<p> Number of visits:&nbsp; &nbsp; 
-<img src="http://hitwebcounter.com/counter/counter.php?page=6444042&style=0001&nbdigits=5&type=page&initCount=0" title="url and counting visits" Alt="url and counting visits"   border="0" >
-</p>     
+<h3 id="use-find-and-wc-to-count-the-file-number">Use <code class="highlighter-rouge">find</code> and <code class="highlighter-rouge">wc</code> to count the file number</h3>
 
+<p>The command <code class="highlighter-rouge">find</code> can be used to walk through all files and folders and we can combine <code class="highlighter-rouge">find</code> and <code class="highlighter-rouge">wc</code> to count the file number in your folder.</p>
+
+<p>Here is an example to count the number of files.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$  find /gpfs/gpfs01/polaris/Q0286/huanwei.wang -type f | wc -l
+
+68737
+</code></pre></div></div>
+
+<p>Another example is to count the number of folders.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$  find /gpfs/gpfs01/polaris/Q0286/huanwei.wang -type d | wc -l
+
+1498
+</code></pre></div></div>
+
+  </div>
+
+</article>
 
       </div>
     </div>

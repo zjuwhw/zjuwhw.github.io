@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Jul 2018 09:35:20 +1000</pubDate>
-    <lastBuildDate>Mon, 02 Jul 2018 09:35:20 +1000</lastBuildDate>
+    <pubDate>Wed, 11 Jul 2018 21:05:43 +1000</pubDate>
+    <lastBuildDate>Wed, 11 Jul 2018 21:05:43 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -445,6 +445,66 @@ D' = \frac{D}{min[p_Ap_B, (1-p_A)(1-p_B)]}\text{, if D &lt; 0} %]]&gt;&lt;/scrip
         <category>GWAS</category>
         
         <category>genetics</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Shell commands to check data usage</title>
+        <description>&lt;p&gt;It’s good to check the status of your own data usage. Here are some commands I find useful. Check &lt;code class=&quot;highlighter-rouge&quot;&gt;man du&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;man df&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;man find&lt;/code&gt; for more information.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-df-to-check-disk-space-usage&quot;&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;df&lt;/code&gt; to check disk space usage&lt;/h3&gt;
+
+&lt;p&gt;The command &lt;code class=&quot;highlighter-rouge&quot;&gt;df&lt;/code&gt; can be used to report disk space usage.&lt;/p&gt;
+
+&lt;p&gt;Below is an example to report the space usage of disk /shares/compbio, which is for our group.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ df -h|grep comp
+
+10.100.136.1@tcp:/compbio
+                      100T   93T  2.2T  98% /shares/compbio
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;use-du-to-check-file-space-usage&quot;&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;du&lt;/code&gt; to check file space usage&lt;/h3&gt;
+
+&lt;p&gt;The command &lt;code class=&quot;highlighter-rouge&quot;&gt;du&lt;/code&gt; can be used to report file space usage.&lt;/p&gt;
+
+&lt;p&gt;Here is an example to report the file space in my folder, where “–max-depth” is the option to set the level of directory/subdirectory and “–h” is the option to print in human-readable format.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+$ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
+
+76G    ./reference
+648M    ./software
+658G    ./meQTL
+979M    ./learning
+1.7T    ./projects
+2.4T    .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;use-find-and-wc-to-count-the-file-number&quot;&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;find&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;wc&lt;/code&gt; to count the file number&lt;/h3&gt;
+
+&lt;p&gt;The command &lt;code class=&quot;highlighter-rouge&quot;&gt;find&lt;/code&gt; can be used to walk through all files and folders and we can combine &lt;code class=&quot;highlighter-rouge&quot;&gt;find&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;wc&lt;/code&gt; to count the file number in your folder.&lt;/p&gt;
+
+&lt;p&gt;Here is an example to count the number of files.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$  find /gpfs/gpfs01/polaris/Q0286/huanwei.wang -type f | wc -l
+
+68737
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Another example is to count the number of folders.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$  find /gpfs/gpfs01/polaris/Q0286/huanwei.wang -type d | wc -l
+
+1498
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 29 May 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/05/29/data_usage.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/05/29/data_usage.html</guid>
+        
+        <category>cs</category>
         
         
       </item>
@@ -918,76 +978,6 @@ plot(data$&quot;position&quot;,data$&quot;COMBINED_rate(cM/Mb)&quot;,type=&quot;
         <guid isPermaLink="true">http://localhost:4000/2017/09/21/recombination.html</guid>
         
         <category>bio</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Literature Collection in Quantitative Genetics</title>
-        <description>&lt;h3 id=&quot;charles-darwin-1809-1882&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Charles_Darwin&quot;&gt;Charles Darwin&lt;/a&gt; (1809-1882)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Darwin, C. (1861). On the origin of species. [&lt;a href=&quot;http://darwin-online.org.uk/converted/pdf/1861_OriginNY_F382.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;gregor-mendel-1822-1884&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Gregor_Mendel&quot;&gt;Gregor Mendel&lt;/a&gt; (1822-1884)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mendel, G. (1865). Experiments in plant hybridization. [&lt;a href=&quot;http://old.esp.org/foundations/genetics/classical/gm-65-a.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;francis-galton-1822-1911&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Francis_Galton&quot;&gt;Francis Galton&lt;/a&gt; (1822-1911)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Galton, F. (1877). Typical laws of heredity. Nature. [&lt;a href=&quot;http://galton.org/essays/1870-1879/galton-1877-typical-laws-heredity.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-  &lt;li&gt;Galton, F. (1886). Regression towards mediocrity in hereditary stature. Journal of the Anthropological Institute. [&lt;a href=&quot;http://galton.org/essays/1880-1889/galton-1886-jaigi-regression-stature.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-  &lt;li&gt;Galton, F. (1889). Natural Inheritance. Macmillan, London [&lt;a href=&quot;http://galton.org/books/natural-inheritance/pdf/galton-nat-inh-1up-clean.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;karl-pearson1857-1936&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Karl_Pearson&quot;&gt;Karl Pearson&lt;/a&gt;(1857-1936)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Pearson, K, Alice Lee. (1903). On the Laws of Inheritance in Man: I. Inheritance of Physical Characters. Biometrika. [&lt;a href=&quot;https://www.jstor.org/stable/pdf/2331507.pdf?refreqid=excelsior:142bec9d78e99bfa76244794c7487ea0&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-  &lt;li&gt;Pearson, K. (1920). Notes on the History of Correlation. Biometrika. [&lt;a href=&quot;http://webspace.ship.edu/pgmarr/Geo441/Readings/Pearson%201920%20-%20Notes%20on%20the%20History%20of%20Correlation.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;ronald-fisher-1890-1962&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ronald_Fisher&quot;&gt;Ronald Fisher&lt;/a&gt; (1890-1962)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Fisher, RA. (1918). The Correlation between Relatives on the Supposition of Mendelian Inheritance. Proc. Roy. Soc. Edinburgh. [&lt;a href=&quot;http://www.indiana.edu/~curtweb/L567/readings/Fisher1918.pdf&quot;&gt;pdf&lt;/a&gt;] [&lt;a href=&quot;https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A60675052E0FB78C561F66C670BC75DE/S0080456800012163a.pdf/xvthe_correlation_between_relatives_on_the_supposition_of_mendelian_inheritance.pdf&quot;&gt;pdf2&lt;/a&gt;]&lt;/li&gt;
-  &lt;li&gt;Fisher, RA. (1919). The Causes of Human Variability. Eugen Rev. [&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2942138/pdf/eugenrev00354-0021.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-  &lt;li&gt;Fisher, RA. (1941). Average Excess and Average Effect of a Gene Substitution. [&lt;a href=&quot;http://onlinelibrary.wiley.com/store/10.1111/j.1469-1809.1941.tb02272.x/asset/j.1469-1809.1941.tb02272.x.pdf?v=1&amp;amp;t=j82tz62g&amp;amp;s=ecce6e492d23baf368c83d8582ec702b20c6615f&amp;amp;systemMessage=Wiley+Online+Library+will+be+unavailable+on+Saturday+7th+Oct+from+03.00+EDT+%2F+08%3A00+BST+%2F+12%3A30+IST+%2F+15.00+SGT+to+08.00+EDT+%2F+13.00+BST+%2F+17%3A30+IST+%2F+20.00+SGT+and+Sunday+8th+Oct+from+03.00+EDT+%2F+08%3A00+BST+%2F+12%3A30+IST+%2F+15.00+SGT+to+06.00+EDT+%2F+11.00+BST+%2F+15%3A30+IST+%2F+18.00+SGT+for+essential+maintenance.+Apologies+for+the+inconvenience+caused+.&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;sewall-green-wright-1889-1988&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Sewall_Wright&quot;&gt;Sewall Green Wright&lt;/a&gt; (1889-1988)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Wright, S. (1921) Systems of Mating I. The Biometric Relations betweens Parent and Offspring. Genetics. [&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1200501/pdf/111.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-  &lt;li&gt;Wright, S. (1921) Systems of Mating II. The Effects of Inbreeding on the Genetic Composition of a Population. Genetics. [&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1200502/pdf/124.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;charles-roy-henderson-1911-1989&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Charles_Roy_Henderson&quot;&gt;Charles Roy Henderson&lt;/a&gt; (1911-1989)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Henderson CR. (1949). Estimation of changes in herd environment. J Dairy Sci. [&lt;a href=&quot;http://morotalab.org/literature/pdf/henderson1949.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-  &lt;li&gt;Henderson CR. (1950). Estimation of genetic parameters. Ann Math Stat. [&lt;a href=&quot;http://morotalab.org/literature/pdf/henderson1950.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;jay-laurence-lush-1896-1982&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Jay_Laurence_Lush&quot;&gt;Jay Laurence Lush&lt;/a&gt; (1896-1982)&lt;/h3&gt;
-
-&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Blog: &lt;a href=&quot;http://morotalab.org/literature/2015/03/07/The-Origin-of-BLUP-and-MME/&quot;&gt;The origin of BLUP and MME&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;BioRxir paper: &lt;a href=&quot;http://www.biorxiv.org/content/biorxiv/early/2016/02/15/039768.full.pdf&quot;&gt;the infinitesimal model&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://eblogution.wordpress.com/2014/07/21/benchmark-papers-in-quantitative-genetics-the-bill-hills-list-part-i/&quot;&gt;Bill Hill’s Benchmark paper list&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Fri, 08 Sep 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/09/08/literature.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/08/literature.html</guid>
-        
-        <category>statistics</category>
         
         
       </item>
