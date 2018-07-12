@@ -380,11 +380,8 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 
 ## Database
 
-- [NCBI](http://www.ncbi.nlm.nih.gov/)
-- [GEO](http://www.ncbi.nlm.nih.gov/geo/)
+- [NCBI](http://www.ncbi.nlm.nih.gov/), [GEO](http://www.ncbi.nlm.nih.gov/geo/), [SRA](http://www.ncbi.nlm.nih.gov/sra/), [GenBank]( http://www.ncbi.nlm.nih.gov/genbank/)
 - [Array-express](http://www.ebi.ac.uk/arrayexpress/)
-- [SRA](http://www.ncbi.nlm.nih.gov/sra/)
-- [GenBank]( http://www.ncbi.nlm.nih.gov/genbank/)
 - [PDB]( http://www.rcsb.org/pdb/home/home.do)
 - [GO (Gene Ontology) ](http://geneontology.org/)
 - [SO (Sequence Ontology)](http://www.sequenceontology.org/)
@@ -421,11 +418,15 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 
 ## Funding
 
-- [NIH](http://www.nih.gov/)
-- [NCI](http://www.cancer.gov/)
-- [NHGRI](https://www.genome.gov/)
-- [国自然](http://www.nsfc.gov.cn/)
-- [科技部](http://www.most.gov.cn/kjjh/xmsb/)
+### USA
+
+[NIH](http://www.nih.gov/), [NCI](http://www.cancer.gov/), [NHGRI](https://www.genome.gov/)
+
+### China
+[国自然](http://www.nsfc.gov.cn/), [科技部](http://www.most.gov.cn/kjjh/xmsb/)
+
+### Australia
+[NHMRC](https://www.nhmrc.gov.au/), [ARC](http://www.arc.gov.au/)
 
 
 ## Bioinformatic cloud
