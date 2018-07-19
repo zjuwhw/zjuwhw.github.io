@@ -92,8 +92,11 @@ tags: ["life"]
 - ["How to buy a car?" Insider Guides](http://insiderguides.com.au/how-do-i-buy-a-car/?mc_cid=9ea1455210&mc_eid=4e993d551b)
 - [wikihow: how to buy a car](https://www.wikihow.com/Buy-a-Car)
 - [美国买车入门级教程](http://bbs.gter.net/thread-1926366-1-1.html)
-- [gumtree](https://www.gumtree.com.au/cars)
-- [carsales](https://www.carsales.com.au/)
+- 澳洲买车网站：
+	- [carsales](https://www.carsales.com.au/)
+	- [gumtree](https://www.gumtree.com.au/cars)
+	- [cars guide](https://www.carsguide.com.au/)
+	- [Manheim](http://www.manheim.com.au/)
 - 汽车品牌
 	- [维基百科列表（英文）](https://en.wikipedia.org/wiki/List_of_car_brands)
 	- [维基百科列表（中文）](https://zh.wikipedia.org/wiki/%E6%B1%BD%E8%BB%8A%E5%93%81%E7%89%8C%E5%88%97%E8%A1%A8)
