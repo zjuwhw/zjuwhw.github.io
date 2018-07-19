@@ -6,15 +6,32 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Jul 2018 10:52:51 +1000</pubDate>
-    <lastBuildDate>Thu, 12 Jul 2018 10:52:51 +1000</lastBuildDate>
+    <pubDate>Thu, 19 Jul 2018 13:38:24 +1000</pubDate>
+    <lastBuildDate>Thu, 19 Jul 2018 13:38:24 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>买车资料收集</title>
         <description>&lt;p&gt;虽然我留学所在城市布里斯班在城区范围内的&lt;a href=&quot;https://www.visitbrisbane.com.au/information/visitor-essentials/public-transport-in-brisbane?sc_lang=en-au&quot;&gt;公共交通&lt;/a&gt;还是可以的，但是如果想去远一点的地方，买车是很有必要的。由于完全没有经验，故写这篇博客，收集一下买车相关的资料，以及对应的中英文词汇。&lt;/p&gt;
 
-&lt;h2 id=&quot;make生产厂商model车型&quot;&gt;make（生产厂商）/model(车型)：&lt;/h2&gt;
+&lt;h2 id=&quot;在澳大利亚如何买车&quot;&gt;在澳大利亚如何买车&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;新车？二手车？&lt;/li&gt;
+  &lt;li&gt;买车途径：
+    &lt;ul&gt;
+      &lt;li&gt;a licensed motor dealer（车行）&lt;/li&gt;
+      &lt;li&gt;privately from the owner（私人卖家）&lt;/li&gt;
+      &lt;li&gt;at an auction （拍卖）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;检查VIN号：check the vehicle identification number (VIN) first&lt;/li&gt;
+  &lt;li&gt;注册和保险&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;车的相关参数&quot;&gt;车的相关参数&lt;/h2&gt;
+
+&lt;h3 id=&quot;make生产厂商model车型&quot;&gt;make（生产厂商）/model(车型)：&lt;/h3&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -151,7 +168,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&quot;body-type车型&quot;&gt;Body type（车型）&lt;/h2&gt;
+&lt;h3 id=&quot;body-type车型&quot;&gt;Body type（车型）&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Sedan 轿车&lt;/li&gt;
@@ -166,14 +183,14 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/car_types.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;transmission变速器&quot;&gt;Transmission（变速器）&lt;/h2&gt;
+&lt;h3 id=&quot;transmission变速器&quot;&gt;Transmission（变速器）&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Manual 手动&lt;/li&gt;
   &lt;li&gt;Automatic 自动&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;fuel-type燃料类型&quot;&gt;Fuel Type（燃料类型）&lt;/h2&gt;
+&lt;h3 id=&quot;fuel-type燃料类型&quot;&gt;Fuel Type（燃料类型）&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Diesel 柴油&lt;/li&gt;
@@ -185,7 +202,7 @@
   &lt;li&gt;Dual Fuel 双燃料&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;drive-train&quot;&gt;Drive train&lt;/h2&gt;
+&lt;h3 id=&quot;drive-train&quot;&gt;Drive train&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Front Whell Drive&lt;/li&gt;
@@ -194,7 +211,7 @@
   &lt;li&gt;4*4&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;engine&quot;&gt;Engine&lt;/h2&gt;
+&lt;h3 id=&quot;engine&quot;&gt;Engine&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Engine type 发动机类型
@@ -213,6 +230,7 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.ppsr.gov.au/&quot;&gt;Personal Property Securities register (PPSR)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/buying/rules/used&quot;&gt;“Buying a used car” on Queensland government website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://insiderguides.com.au/how-do-i-buy-a-car/?mc_cid=9ea1455210&amp;amp;mc_eid=4e993d551b&quot;&gt;“How to buy a car?” Insider Guides&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.wikihow.com/Buy-a-Car&quot;&gt;wikihow: how to buy a car&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://bbs.gter.net/thread-1926366-1-1.html&quot;&gt;美国买车入门级教程&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.gumtree.com.au/cars&quot;&gt;gumtree&lt;/a&gt;&lt;/li&gt;

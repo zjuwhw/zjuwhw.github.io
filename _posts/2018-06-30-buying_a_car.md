@@ -7,7 +7,19 @@ tags: ["life"]
 
 虽然我留学所在城市布里斯班在城区范围内的[公共交通](https://www.visitbrisbane.com.au/information/visitor-essentials/public-transport-in-brisbane?sc_lang=en-au)还是可以的，但是如果想去远一点的地方，买车是很有必要的。由于完全没有经验，故写这篇博客，收集一下买车相关的资料，以及对应的中英文词汇。
 
-## make（生产厂商）/model(车型)：
+## 在澳大利亚如何买车
+
+- 新车？二手车？
+- 买车途径：
+	- a licensed motor dealer（车行）
+	- privately from the owner（私人卖家）
+	- at an auction （拍卖）
+- 检查VIN号：check the vehicle identification number (VIN) first
+- 注册和保险	
+
+## 车的相关参数
+
+### make（生产厂商）/model(车型)：
 
 
 |生产厂商(英文)|生产厂商(中文)|创厂国家|Logo|车型(英文)|车型(中文)|
@@ -28,7 +40,7 @@ tags: ["life"]
 |Audi|奥迪|德国|<img src="/images/car-logo/audi.png" alt="" style="height: 50px; display:block; margin: 0 auto;"/>|
 |Kia|起亚|韩国|<img src="/images/car-logo/kia.png" alt="" style="height: 50px; display:block; margin: 0 auto;"/>|
 
-## Body type（车型）
+### Body type（车型）
 
 - Sedan 轿车
 - Coupe 双门跑车
@@ -41,12 +53,12 @@ tags: ["life"]
 
 ![](/images/car_types.jpg)
 
-## Transmission（变速器）
+### Transmission（变速器）
 
 - Manual 手动
 - Automatic 自动
 
-## Fuel Type（燃料类型）
+### Fuel Type（燃料类型）
 
 - Diesel 柴油
 - Hybrid/Electric 混合动力/电力
@@ -56,14 +68,14 @@ tags: ["life"]
 - Petrol - Unleaded
 - Dual Fuel 双燃料
 
-## Drive train
+### Drive train
 
 - Front Whell Drive
 - Rear Whell Drive
 - All Whell Drive
 - 4*4
 
-## Engine
+### Engine
 
 - Engine type 发动机类型
 	- electric
@@ -77,6 +89,7 @@ tags: ["life"]
 
 - [Personal Property Securities register (PPSR)](https://www.ppsr.gov.au/)
 - ["Buying a used car" on Queensland government website](https://www.qld.gov.au/transport/buying/rules/used)
+- ["How to buy a car?" Insider Guides](http://insiderguides.com.au/how-do-i-buy-a-car/?mc_cid=9ea1455210&mc_eid=4e993d551b)
 - [wikihow: how to buy a car](https://www.wikihow.com/Buy-a-Car)
 - [美国买车入门级教程](http://bbs.gter.net/thread-1926366-1-1.html)
 - [gumtree](https://www.gumtree.com.au/cars)
