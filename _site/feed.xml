@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Jul 2018 13:50:13 +1000</pubDate>
-    <lastBuildDate>Thu, 19 Jul 2018 13:50:13 +1000</lastBuildDate>
+    <pubDate>Sun, 22 Jul 2018 09:43:23 +1000</pubDate>
+    <lastBuildDate>Sun, 22 Jul 2018 09:43:23 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -546,6 +546,8 @@ $ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
   &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-ground-black-pepper&quot;&gt;Coles Gound Black Pepper&lt;/a&gt;：黑胡椒粉&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-shredded-coconut&quot;&gt;Coles Shredded Coconut&lt;/a&gt;：椰子丝&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-cornflour&quot;&gt;Coles Cornflour&lt;/a&gt;：玉米粉&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-flour-plain-white-5880841p&quot;&gt;Coles White Plain Flour&lt;/a&gt;: 中筋面粉&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-flour-self-raising-white&quot;&gt;Coles White Self Raising Flour&lt;/a&gt;: 低筋面粉&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-polka-dot-patty-pans&quot;&gt;Coles Polka Dot Patty Pans&lt;/a&gt;：圆点蛋糕托&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/lee-kum-kee-sauce-soy-premium&quot;&gt;Lee Kum Kee premium soy sauce&lt;/a&gt;：李锦记特级生抽&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Lee-Kum-Kee-Premium-Sauce/dp/B0001EJ4CU&quot;&gt;Lee Kum Kee premium dark soy sauce&lt;/a&gt;：李锦记特级老抽&lt;/li&gt;
