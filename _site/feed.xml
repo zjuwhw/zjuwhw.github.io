@@ -6,9 +6,76 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Jul 2018 09:43:23 +1000</pubDate>
-    <lastBuildDate>Sun, 22 Jul 2018 09:43:23 +1000</lastBuildDate>
+    <pubDate>Mon, 20 Aug 2018 11:18:18 +1000</pubDate>
+    <lastBuildDate>Mon, 20 Aug 2018 11:18:18 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>漂白粉的使用说明</title>
+        <description>&lt;p&gt;Coles lemon bleach&lt;/p&gt;
+
+&lt;h2 id=&quot;general&quot;&gt;General&lt;/h2&gt;
+
+&lt;p&gt;Suitable for whitening linens and removing stains&lt;/p&gt;
+
+&lt;p&gt;contains: Sodium Hypochlorite 42g/L (Avaliable chlorine 4% W.V when packed). Sodium hydroxide 9g/L.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-promise&quot;&gt;Our Promise&lt;/h2&gt;
+
+&lt;p&gt;100% satisfied with this product or return it to your Coles customer service desk for a 100% refund.&lt;/p&gt;
+
+&lt;h2 id=&quot;directions-for-use&quot;&gt;Directions for use&lt;/h2&gt;
+
+&lt;p&gt;DO NOT SWALLOW&lt;/p&gt;
+
+&lt;p&gt;Bleaching and colourfast testing&lt;/p&gt;
+
+&lt;p&gt;Pre-treatment of nappies&lt;/p&gt;
+
+&lt;p&gt;Bathroom, kitchen and laundry surfaces&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Garbage bins: To hygienically clean and deodorise, rinse bin and mix 1 cup of Coles Brand Bleach to 5 litre of water. For stubborn odours, use undiluted and leave in contract surfaces for 10 to 15 minutes. Rinse thoroughly.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;垃圾桶：为了干净地清理和除臭，冲洗垃圾桶，混合1杯Coles牌漂白剂和5升水。对于顽固的气味，使用未稀释的并且&lt;/p&gt;
+
+&lt;p&gt;Driveway, Paving, Patios and Roof&lt;/p&gt;
+
+&lt;h2 id=&quot;caution&quot;&gt;Caution&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Do not use on silk, wool, leather, rayon, drip dry or iron cottons. Do not use on bare steel, silver, aluminum, unpainted metal or worn enamel baths and basin.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不要用在丝绸，羊毛，皮革，人造丝，滴干或者免熨棉布。不要用在裸钢，银，铝，未涂漆的金属，磨损的发廊浴和盆。&lt;/p&gt;
+
+&lt;h2 id=&quot;warning&quot;&gt;Warning&lt;/h2&gt;
+
+&lt;p&gt;Highly corrosive. May produce sever burns. Attacks skin and eys. Vapour may be harmful. May give off dangerous gas if mixed with other products. Do not mix with other detergents or chemicals.&lt;/p&gt;
+
+&lt;h2 id=&quot;safety-directions&quot;&gt;Safety Directions&lt;/h2&gt;
+
+&lt;p&gt;Use only as directed. Ensure adequate ventilation when using. Avoid contact with skin and eyes. Wear eye protection and protective gloves when mixing or using as it produces sever burns. Mix with cold water only. Crorosive. Discard diluted solutions after use. Cap should be closed firmly when not in use. Wash hands after use.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-aid&quot;&gt;First Aid&lt;/h2&gt;
+
+&lt;p&gt;For advice contact a Poisons Information Centre on 131126 or a doctor if swallowed do NOT induce vomiting. If in eys, hold eyelids apart and flush the eye continuously with running water. Continue flushing until advised to stop by the Poisons Information Centre or a doctor, or for at least 15 minutes.&lt;/p&gt;
+
+&lt;p&gt;If skin or hair contact occurs, remove contaminated clothing and flush skin and hair with running water.&lt;/p&gt;
+
+&lt;h2 id=&quot;storage&quot;&gt;Storage&lt;/h2&gt;
+
+&lt;p&gt;Store upright below 30°C and out of direct sunlight. Before disposal, rinse bottle with cold water.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Aug 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/08/18/bleach.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/18/bleach.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>买车资料收集</title>
@@ -753,6 +820,170 @@ $ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
 &lt;h4 id=&quot;comparisons&quot;&gt;Comparisons&lt;/h4&gt;
 
 &lt;h4 id=&quot;the-log-normal-distribution&quot;&gt;The log-normal distribution&lt;/h4&gt;
+
+&lt;h2 id=&quot;part-2&quot;&gt;Part 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;lecture-1-hypothesis-testing&quot;&gt;Lecture 1, Hypothesis Testing&lt;/h3&gt;
+
+&lt;h4 id=&quot;hypothesis-testing&quot;&gt;Hypothesis testing&lt;/h4&gt;
+
+&lt;h4 id=&quot;general-rules&quot;&gt;General rules&lt;/h4&gt;
+
+&lt;h4 id=&quot;notes&quot;&gt;Notes&lt;/h4&gt;
+
+&lt;h4 id=&quot;two-sided-tests&quot;&gt;Two sided tests&lt;/h4&gt;
+
+&lt;h4 id=&quot;confidence-intervals-1&quot;&gt;Confidence intervals&lt;/h4&gt;
+
+&lt;h4 id=&quot;p-value&quot;&gt;P-value&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-2-power&quot;&gt;Lecture 2, Power&lt;/h3&gt;
+
+&lt;h4 id=&quot;power&quot;&gt;Power&lt;/h4&gt;
+
+&lt;h4 id=&quot;calculating-power&quot;&gt;Calculating power&lt;/h4&gt;
+
+&lt;h4 id=&quot;t-tests&quot;&gt;T-tests&lt;/h4&gt;
+
+&lt;h4 id=&quot;monte-carlo&quot;&gt;Monte Carlo&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-3-two-sample-tests&quot;&gt;Lecture 3, Two sample tests&lt;/h3&gt;
+
+&lt;h4 id=&quot;matched-data&quot;&gt;Matched data&lt;/h4&gt;
+
+&lt;h4 id=&quot;aside-regression-to-the-mean&quot;&gt;Aside, regression to the mean&lt;/h4&gt;
+
+&lt;h4 id=&quot;two-independent-groups&quot;&gt;Two independent groups&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-4-two-sample-binomial-tests&quot;&gt;Lecture 4, Two sample binomial tests&lt;/h3&gt;
+
+&lt;h4 id=&quot;the-score-statistic&quot;&gt;The score statistic&lt;/h4&gt;
+
+&lt;h4 id=&quot;exact-tests&quot;&gt;Exact tests&lt;/h4&gt;
+
+&lt;h4 id=&quot;comparing-two-binomial-proportions&quot;&gt;Comparing two binomial proportions&lt;/h4&gt;
+
+&lt;h4 id=&quot;bayesian-and-likelihood-analysis-of-two-proportions&quot;&gt;Bayesian and likelihood analysis of two proportions&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-5-relative-risks-and-odds-ratios&quot;&gt;Lecture 5, Relative risks and odds ratios&lt;/h3&gt;
+
+&lt;h4 id=&quot;relative-measures&quot;&gt;Relative measures&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-relative-risk&quot;&gt;The relative risk&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-odds-ratio&quot;&gt;The odds ratio&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-6-delta-method&quot;&gt;Lecture 6, Delta method&lt;/h3&gt;
+
+&lt;h4 id=&quot;recap&quot;&gt;Recap&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-delta-method&quot;&gt;The delta method&lt;/h4&gt;
+
+&lt;h4 id=&quot;derivation-of-the-delta-method&quot;&gt;Derivation of the delta method&lt;/h4&gt;
+
+&lt;h3 id=&quot;fishers-exact-test&quot;&gt;Fisher’s Exact test&lt;/h3&gt;
+
+&lt;h4 id=&quot;fishers-exact-test-1&quot;&gt;Fisher’s exact test&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-hypergeometric-distribution&quot;&gt;The hypergeometric distribution&lt;/h4&gt;
+
+&lt;h4 id=&quot;fishers-exact-test-in-practice&quot;&gt;Fisher’s exact test in practice&lt;/h4&gt;
+
+&lt;h4 id=&quot;monte-carlo-1&quot;&gt;Monte Carlo&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-8-chi-squared-tests&quot;&gt;Lecture 8, Chi-Squared tests&lt;/h3&gt;
+
+&lt;h4 id=&quot;chi-squared-testing&quot;&gt;Chi-squared testing&lt;/h4&gt;
+
+&lt;h4 id=&quot;testing-independence&quot;&gt;Testing independence&lt;/h4&gt;
+
+&lt;h4 id=&quot;testing-equality-of-several-proportions&quot;&gt;Testing equality of several proportions&lt;/h4&gt;
+
+&lt;h4 id=&quot;generalization&quot;&gt;Generalization&lt;/h4&gt;
+
+&lt;h4 id=&quot;independence&quot;&gt;Independence&lt;/h4&gt;
+
+&lt;h4 id=&quot;monte-carlo-2&quot;&gt;Monte Carlo&lt;/h4&gt;
+
+&lt;h4 id=&quot;goodness-of-fit-testing&quot;&gt;Goodness of fit testing&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-9-simpsons-paradox-and-confouding&quot;&gt;Lecture 9, Simpson’s Paradox and Confouding&lt;/h3&gt;
+
+&lt;h4 id=&quot;simpsons-paradox&quot;&gt;Simpson’s paradox&lt;/h4&gt;
+
+&lt;h4 id=&quot;more-examples&quot;&gt;More examples&lt;/h4&gt;
+
+&lt;h4 id=&quot;confouding&quot;&gt;Confouding&lt;/h4&gt;
+
+&lt;h4 id=&quot;weighting&quot;&gt;Weighting&lt;/h4&gt;
+
+&lt;h4 id=&quot;mantelhaenszel-estimator&quot;&gt;Mantel/Haenszel estimator&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-10-case-control-data&quot;&gt;Lecture 10, Case Control Data&lt;/h3&gt;
+
+&lt;h4 id=&quot;case-control-methods&quot;&gt;Case-control methods&lt;/h4&gt;
+
+&lt;h4 id=&quot;rare-disease-assumption&quot;&gt;Rare disease assumption&lt;/h4&gt;
+
+&lt;h4 id=&quot;exact-inference-for-the-odss-ratio&quot;&gt;Exact inference for the odss ratio&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-11-matched-two-by-two-tables&quot;&gt;Lecture 11, Matched Two by Two tables&lt;/h3&gt;
+
+&lt;h4 id=&quot;matched-pairs-data&quot;&gt;Matched pairs data&lt;/h4&gt;
+
+&lt;h4 id=&quot;dependence&quot;&gt;Dependence&lt;/h4&gt;
+
+&lt;h4 id=&quot;marginal-homogeneity&quot;&gt;Marginal homogeneity&lt;/h4&gt;
+
+&lt;h4 id=&quot;mcnemars-test&quot;&gt;McNemar’s test&lt;/h4&gt;
+
+&lt;h4 id=&quot;estimation&quot;&gt;Estimation&lt;/h4&gt;
+
+&lt;h4 id=&quot;relationship-with-cmh&quot;&gt;Relationship with CMH&lt;/h4&gt;
+
+&lt;h4 id=&quot;marginal-odds-ratios&quot;&gt;Marginal odds ratios&lt;/h4&gt;
+
+&lt;h4 id=&quot;conditional-versus-marginal&quot;&gt;Conditional versus marginal&lt;/h4&gt;
+
+&lt;h4 id=&quot;conditional-ml&quot;&gt;Conditional ML&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-12&quot;&gt;Lecture 12&lt;/h3&gt;
+
+&lt;h4 id=&quot;nonparametric-tests&quot;&gt;Nonparametric tests&lt;/h4&gt;
+
+&lt;h4 id=&quot;sign-test&quot;&gt;Sign test&lt;/h4&gt;
+
+&lt;h4 id=&quot;signed-rank-test&quot;&gt;Signed rank test&lt;/h4&gt;
+
+&lt;h4 id=&quot;monte-carlo-3&quot;&gt;Monte Carlo&lt;/h4&gt;
+
+&lt;h4 id=&quot;independent-groups&quot;&gt;Independent groups&lt;/h4&gt;
+
+&lt;h4 id=&quot;mannwhitney-test&quot;&gt;Mann/Whitney test&lt;/h4&gt;
+
+&lt;h4 id=&quot;monte-carlo-4&quot;&gt;Monte Carlo&lt;/h4&gt;
+
+&lt;h4 id=&quot;permutation-tests&quot;&gt;Permutation tests&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecture-13&quot;&gt;Lecture 13&lt;/h3&gt;
+
+&lt;h4 id=&quot;the-poisson-distribution&quot;&gt;The Poisson distribution&lt;/h4&gt;
+
+&lt;h4 id=&quot;poisson-approximation-to-the-binomial&quot;&gt;Poisson approximation to the binomial&lt;/h4&gt;
+
+&lt;h4 id=&quot;person-time-analysis&quot;&gt;Person-time analysis&lt;/h4&gt;
+
+&lt;h4 id=&quot;exact-tests-1&quot;&gt;Exact tests&lt;/h4&gt;
+
+&lt;h4 id=&quot;time-to-event-modeling&quot;&gt;Time-to-event modeling&lt;/h4&gt;
+
+&lt;h3 id=&quot;lecutre-14&quot;&gt;Lecutre 14&lt;/h3&gt;
+
+&lt;h4 id=&quot;multiplicity&quot;&gt;Multiplicity&lt;/h4&gt;
+
+&lt;h4 id=&quot;bonferoni&quot;&gt;Bonferoni&lt;/h4&gt;
+
+&lt;h4 id=&quot;fdr&quot;&gt;FDR&lt;/h4&gt;
 </description>
         <pubDate>Mon, 18 Dec 2017 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2017/12/18/biostatistics.html</link>
@@ -926,84 +1157,6 @@ page&lt;/a&gt;&lt;/li&gt;
         <guid isPermaLink="true">http://localhost:4000/2017/10/12/plot_par.html</guid>
         
         <category>R</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Recombination and Recombination Rate</title>
-        <description>&lt;p&gt;Recently, I read the &lt;a href=&quot;http://adamauton.com/&quot;&gt;Adam Auton&lt;/a&gt;’s PhD Thesis &lt;a href=&quot;http://adamauton.com/adam_auton_thesis.pdf&quot;&gt;“The Estimation of Recombination Rates from Population Genetic Data”&lt;/a&gt;, this blog is its notes.&lt;/p&gt;
-
-&lt;h2 id=&quot;recombination&quot;&gt;Recombination&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Genetic_recombination&quot;&gt;Homologous recombination&lt;/a&gt; is the process by which a pair of homologous DNA sequences exchange some portion of their DNA. In eukaryotes, genetic recombination during meiosis can lead to a novel set of genetic information that can be passed on from the parents to the offspring&lt;/p&gt;
-
-&lt;p&gt;The recombination was found by &lt;a href=&quot;https://en.wikipedia.org/wiki/Thomas_Hunt_Morgan&quot;&gt;Thomas Hunt Morgan&lt;/a&gt; in 1911, when studying the chromosome theory of heredity. And his student &lt;a href=&quot;https://en.wikipedia.org/wiki/Alfred_Sturtevant&quot;&gt;Sturtevant&lt;/a&gt; uses crossover data to construct the first genetic map in drosophila. Read more &lt;a href=&quot;https://www.nature.com/scitable/topicpage/thomas-hunt-morgan-genetic-recombination-and-gene-496&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A model for the process by which recombination occurs in eukaryotes was proposed in 1964 by Robin Holliday (HOLLIDAY 1964). It shows two possible resolutions, known as Gene Conversion and Crossover. When talking about recombination, people always mean crossover as it leaves a much larger singal easy to trace.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/recombination_holliday.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;recombination-rate-centimorgan-cm&quot;&gt;Recombination Rate (centimorgan, cM)&lt;/h2&gt;
-
-&lt;p&gt;A commonly used unit of recombination rate is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Centimorgan&quot;&gt;centimorgan&lt;/a&gt;, which is defined as a 1% chance that two loci will be separated by a recombination event in one generation.&lt;/p&gt;
-
-&lt;p&gt;In eukaryotes, there is a notable uniformity in the total recombination map length regardless of genome size (AWADALLA 2003). The average recombination rate is therefore negatively correlated with genome size.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/recombination.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;recombination-rate-estimation&quot;&gt;Recombination Rate Estimation&lt;/h2&gt;
-
-&lt;p&gt;There are some methods to estimate the reombination rate.&lt;/p&gt;
-
-&lt;h3 id=&quot;genotyping-a-large-number-of-individuals-in-families&quot;&gt;Genotyping a large number of individuals in families&lt;/h3&gt;
-
-&lt;p&gt;In 2002, deCODE company (KONG et al. 2002) constructed a map from a large pedigree study of 869 individuals in 146 Icelandic families. They found&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The shorter chromosomes tended to have higher recombination rates than the larger chromosomes&lt;/li&gt;
-  &lt;li&gt;There was also a high degree of rate heterogeneity within chromosomes&lt;/li&gt;
-  &lt;li&gt;an average of 1.65 times longer in females than in males&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;sperm-typing&quot;&gt;Sperm Typing&lt;/h3&gt;
-
-&lt;p&gt;Sperm typing is to search for recombination sequences in the sperm product of male individuals.&lt;/p&gt;
-
-&lt;h3 id=&quot;mhc-region&quot;&gt;MHC Region&lt;/h3&gt;
-
-&lt;p&gt;A 216kb region of the major histocompatibility complex (MHC) on chromosome 6 has been extensively studied by sperm typing (JEFFREYS et al. 2001)&lt;/p&gt;
-
-&lt;p&gt;The rate of recombination in these regions could be hundred or thousands of times that of the surrounding regions, and hence these areas were dubbed &lt;strong&gt;recombination hotspots&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;population-data&quot;&gt;Population data&lt;/h3&gt;
-
-&lt;p&gt;Recombination information can also be seem in the population genetic data.&lt;/p&gt;
-
-&lt;p&gt;Recombination events break down the amout of LD between loci. However, it is unclear how such statistics can be directly related to the underlying recombination rate (DEVLIN and RISCH 1995).&lt;/p&gt;
-
-&lt;p&gt;One early and simple method is known as &lt;strong&gt;four-gamete test&lt;/strong&gt; (WEIR 1979). But it has very low power.&lt;/p&gt;
-
-&lt;p&gt;Nowadays, people, such as 23andme, use population data, such as HapMap to estimate the recombination rate using more complicated model and algorithms.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-genetic-map-provide-by-impute&quot;&gt;The genetic map provide by IMPUTE&lt;/h3&gt;
-
-&lt;p&gt;The imputation software &lt;a href=&quot;https://mathgen.stats.ox.ac.uk/impute/impute_v2.html&quot;&gt;IMPUTE2&lt;/a&gt; provide the genetic map for human in its &lt;a href=&quot;https://mathgen.stats.ox.ac.uk/impute/1000GP_Phase3.html&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We can have use its data to a look the recombination across the human genome.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;library(data.table)
-data = fread(&quot;genetic_map_chr1_combined_b37.txt&quot;)
-plot(data$&quot;position&quot;,data$&quot;COMBINED_rate(cM/Mb)&quot;,type=&quot;l&quot;, xlab=&quot;chr1 (bp)&quot;, ylab=&quot;Recombination Rate(cM/Mb)&quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/recombination_chr1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 21 Sep 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/09/21/recombination.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/21/recombination.html</guid>
-        
-        <category>bio</category>
         
         
       </item>

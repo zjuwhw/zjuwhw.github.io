@@ -163,3 +163,167 @@ This is the notebook for the two-part coursera course "[mathematical Biostatisti
 #### Comparisons
 
 #### The log-normal distribution
+
+## Part 2
+
+### Lecture 1, Hypothesis Testing
+
+#### Hypothesis testing
+
+#### General rules
+
+#### Notes
+
+#### Two sided tests
+
+#### Confidence intervals
+
+#### P-value
+
+### Lecture 2, Power
+
+#### Power
+
+#### Calculating power
+
+#### T-tests
+
+#### Monte Carlo
+
+### Lecture 3, Two sample tests
+
+#### Matched data
+
+#### Aside, regression to the mean
+
+#### Two independent groups
+
+### Lecture 4, Two sample binomial tests
+
+#### The score statistic
+
+#### Exact tests
+
+#### Comparing two binomial proportions
+
+#### Bayesian and likelihood analysis of two proportions
+
+### Lecture 5, Relative risks and odds ratios
+
+#### Relative measures
+
+#### The relative risk
+
+#### The odds ratio
+
+### Lecture 6, Delta method
+
+#### Recap
+
+#### The delta method
+
+#### Derivation of the delta method
+
+### Fisher's Exact test
+
+#### Fisher's exact test
+
+#### The hypergeometric distribution
+
+#### Fisher's exact test in practice
+
+#### Monte Carlo
+
+### Lecture 8, Chi-Squared tests
+
+#### Chi-squared testing
+
+#### Testing independence
+
+#### Testing equality of several proportions
+
+#### Generalization
+
+#### Independence
+
+#### Monte Carlo
+
+#### Goodness of fit testing
+
+### Lecture 9, Simpson's Paradox and Confouding
+
+#### Simpson's paradox
+
+#### More examples
+
+#### Confouding
+
+#### Weighting
+
+#### Mantel/Haenszel estimator
+
+### Lecture 10, Case Control Data
+
+#### Case-control methods
+
+#### Rare disease assumption
+
+#### Exact inference for the odss ratio
+
+### Lecture 11, Matched Two by Two tables
+
+#### Matched pairs data
+
+#### Dependence
+
+#### Marginal homogeneity
+
+#### McNemar's test
+
+#### Estimation
+
+#### Relationship with CMH
+
+#### Marginal odds ratios
+
+#### Conditional versus marginal
+
+#### Conditional ML
+
+### Lecture 12
+
+#### Nonparametric tests
+
+#### Sign test
+
+#### Signed rank test
+
+#### Monte Carlo
+
+#### Independent groups
+
+#### Mann/Whitney test
+
+#### Monte Carlo
+
+#### Permutation tests
+
+### Lecture 13
+
+#### The Poisson distribution
+
+#### Poisson approximation to the binomial
+
+#### Person-time analysis
+
+#### Exact tests
+
+#### Time-to-event modeling
+
+### Lecutre 14
+
+#### Multiplicity
+
+#### Bonferoni
+
+#### FDR
