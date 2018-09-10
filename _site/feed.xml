@@ -6,9 +6,121 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Aug 2018 11:18:18 +1000</pubDate>
-    <lastBuildDate>Mon, 20 Aug 2018 11:18:18 +1000</lastBuildDate>
+    <pubDate>Mon, 10 Sep 2018 20:27:22 +1000</pubDate>
+    <lastBuildDate>Mon, 10 Sep 2018 20:27:22 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>澳洲移民资料收集</title>
+        <description>&lt;p&gt;“回国”还是“留下”是留学生毕业后面临的选择。目前为止，我对两者都持开放的态度，还没有决定到底会选哪一个，不过收集资料，未雨绸缪总是好事。之前写了一篇关于回国的博客“&lt;a href=&quot;http://zjuwhw.github.io/2018/06/14/china_recruitment.html&quot;&gt;回国资料收集&lt;/a&gt;”，这里写一篇关于“移民”的博客，收集和整理相关的资料。&lt;/p&gt;
+
+&lt;h3 id=&quot;统计数据&quot;&gt;统计数据&lt;/h3&gt;
+
+&lt;p&gt;摘抄并翻译自&lt;a href=&quot;https://www.homeaffairs.gov.au/ReportsandPublications/Documents/statistics/report-on-migration-program-2016-17.pdf&quot;&gt;2016-2017年移民报告&lt;/a&gt;。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The total permanent migration programme outcome for 2016–17 was 183,608 places within the
+planning level of 190,000.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2016-17年度永久移民项目共计183,608个，小于之前计划提供的190,000个。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The major source countries in the migration programme were India (21.2 per cent), China
+(15.4 per cent) and the United Kingdom (9.3 per cent).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;主要的来源国为印度（21.2%），中国（15.4%）和英国（9.3%）。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Within the managed migration programme the breakdown was:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;123,567 places were delivered in the Skill stream;&lt;/li&gt;
+    &lt;li&gt;56,220 places were delivered in the Family stream; and&lt;/li&gt;
+    &lt;li&gt;421 places were delivered in the Special Eligibility stream.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;进一步细分，123,567个（67.3%）技术移民，56,220个(30.6%)家庭移民，421个特殊条件移民。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Within the Skill stream:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;the Employer Sponsored category had an outcome of 48,250 places. It comprised
+39.0 per cent of the Skill stream outcome, with 38,052 places (78.9 per cent) granted under
+the Employer Nomination Scheme and 10,198 places (21.1 per cent) granted under the Regional Sponsored Migration Scheme;&lt;/li&gt;
+    &lt;li&gt;General Skilled Migration (GSM) had an outcome of 67,857 places. GSM comprised
+54.9 per cent of the Skill stream outcome;&lt;/li&gt;
+    &lt;li&gt;the Business Innovation and Investment Programme had an outcome of places; and&lt;/li&gt;
+    &lt;li&gt;the Distinguished Talent category had an outcome of 200 places.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;进一步细分技术移民，雇主担保（Employer Sponsored category）有48250个（39%），一般技术移民（General Skilled Migration）有67857个（54.9%），商业创新和投资项目（Business Innovation and Investment Programme）有7260个（5.9%）和杰出人才（Distinguished Talent category）200个。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/immi_report1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2007-2017这十年间，澳洲每年的移民人数均在18万左右，技术移民和家庭移民的比例也很稳定。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/immi_report3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;澳洲移民排名前十的来源国是：印度，中国，英国，菲利宾，巴基斯坦，越南，南非，尼泊尔，马来西亚，以色列。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/immi_report4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;过去十年，中国移民占比基本没变，主要是南亚移民增加，英国移民减少。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/immi_report5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;大部分的移民会居住在&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%96%B0%E5%8D%97%E5%A8%81%E7%88%BE%E5%A3%AB%E5%B7%9E&quot;&gt;新南威尔士州&lt;/a&gt;（悉尼为首府）和&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E7%B6%AD%E5%A4%9A%E5%88%A9%E4%BA%9E%E5%B7%9E&quot;&gt;维多利亚州&lt;/a&gt;（墨尔本为首府）。&lt;/p&gt;
+
+&lt;h3 id=&quot;移民的好处&quot;&gt;移民的好处&lt;/h3&gt;
+
+&lt;p&gt;摘抄并翻译自&lt;a href=&quot;https://www.homeaffairs.gov.au/trav/life/aust-1&quot;&gt;澳大利亚政府网站&lt;/a&gt;。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;An Australian permanent resident (permanent resident) is the name given to a non-citizen who is the holder of a permanent visa. A permanent resident can live, work and study without restriction in Australia.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;澳大利亚永久居民是指非公民单持有永久签证的人。永久居民可以在澳大利亚无限制的生活，工作和学习额。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Eligibility for Australian government services and benefits, for both citizens and non-citizens, is the responsibility of the government agency with policy responsibility for the service or benefit. 
+Following are some examples:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Social Security&lt;/li&gt;
+    &lt;li&gt;National health scheme&lt;/li&gt;
+    &lt;li&gt;education&lt;/li&gt;
+    &lt;li&gt;higher education loans program&lt;/li&gt;
+    &lt;li&gt;electoral&lt;/li&gt;
+    &lt;li&gt;citizenship conferral&lt;/li&gt;
+    &lt;li&gt;migration sponsorship&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;可以享有澳大利亚政府的一些服务和好处。一些例子包括：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;社会保障&lt;/li&gt;
+  &lt;li&gt;全民医疗体系&lt;/li&gt;
+  &lt;li&gt;教育&lt;/li&gt;
+  &lt;li&gt;高等教育贷款&lt;/li&gt;
+  &lt;li&gt;选举（笔者注：永久居民不可以，公民可以）&lt;/li&gt;
+  &lt;li&gt;申请公民身份&lt;/li&gt;
+  &lt;li&gt;移民连锁&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 10 Sep 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/09/10/immigrate.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/09/10/immigrate.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>漂白粉的使用说明</title>
@@ -1097,66 +1209,6 @@ $ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
         <guid isPermaLink="true">http://localhost:4000/2017/11/07/more-GWAS.html</guid>
         
         <category>GWAS</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Parameters for R plot funtion</title>
-        <description>&lt;p&gt;The plot() function in R is widely used. It actually has numerous
-paramters to tune.&lt;/p&gt;
-
-&lt;h2 id=&quot;type&quot;&gt;type&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;layout(matrix(1:9, 3,3,byrow=T))
-plot(1:2,1:2,type=&quot;p&quot;, main=&quot;\&quot;p\&quot; for points&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
-plot(1:2,1:2,type=&quot;l&quot;, main=&quot;\&quot;l\&quot; for lines&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
-plot(1:2,1:2,type=&quot;b&quot;, main=&quot;\&quot;b\&quot; for both&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
-plot(1:2,1:2,type=&quot;c&quot;, main=&quot;\&quot;c\&quot; for the lines part alone of \&quot;b\&quot;&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
-plot(1:2,1:2,type=&quot;o&quot;, main=&quot;\&quot;o\&quot; for both overplotted&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
-plot(1:2,1:2,type=&quot;h&quot;, main=&quot;\&quot;h\&quot; for histogram like&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
-plot(1:2,1:2,type=&quot;s&quot;, main=&quot;\&quot;s\&quot; for stair steps&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
-plot(1:2,1:2,type=&quot;S&quot;, main=&quot;\&quot;S\&quot; for other steps&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
-plot(1:2,1:2,type=&quot;n&quot;, main=&quot;\&quot;n\&quot; for no plotting&quot;, xlab=&quot;x&quot;, ylab=&quot;y&quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/plot_par-1-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;main-sub-xlab-and-ylab&quot;&gt;main, sub, xlab and ylab&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;layout(matrix(1:4,2,2,byrow=T))
-plot(1,1,main=&quot;The main title&quot;)
-plot(1,1,sub=&quot;The sub title&quot;)
-plot(1,1,xlab=&quot;xlab&quot;)
-plot(1,1,ylab=&quot;ylab&quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/plot_par-2-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;pch&quot;&gt;pch&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;layout(matrix(1:18,3,6,byrow=T))
-for(i in 1:18){
-  plot(1,1,pch=i,xlab=&quot;&quot;,ylab=&quot;&quot;,main=paste(&quot;pch=&quot;,i,sep=&quot;&quot;))
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/plot_par-3-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;plot function help page&lt;/li&gt;
-  &lt;li&gt;par help page&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.statmethods.net/advgraphs/parameters.html&quot;&gt;“Graphic Parameters” quick-R
-page&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Thu, 12 Oct 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/10/12/plot_par.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/10/12/plot_par.html</guid>
-        
-        <category>R</category>
         
         
       </item>
