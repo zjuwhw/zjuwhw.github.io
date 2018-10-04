@@ -15,21 +15,24 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 ### My lab
 
 - [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720)
+	- [Hai Fang](http://www.cs.bris.ac.uk/~hfang/)
+	- [Jiantao Shi](https://jiantaoshi.github.io/index.html)
 - [PCTG](http://cnsgenomics.com/)
+	- [Peter Visscher](https://researchers.uq.edu.au/researcher/1487)
+	- [Naomi Wray](https://researchers.uq.edu.au/researcher/2006)
+	- [Jian Yang](https://researchers.uq.edu.au/researcher/2713)
+	- [Joseph Powell](https://www.garvan.org.au/people/jospow)
+	- [Matthew Robinson](http://wp.unil.ch/ctgg)
+	- [Hong Lee](https://sites.google.com/site/honglee0707/)
+	- [Beben Benyamin](http://people.unisa.edu.au/Beben.Benyamin)
 
 ### Genetics
 
-- [Peter Visscher](https://researchers.uq.edu.au/researcher/1487)
-- [Naomi Wray](https://researchers.uq.edu.au/researcher/2006)
-- [Jian Yang](https://researchers.uq.edu.au/researcher/2713)
 - [Ben Hayes](https://qaafi.uq.edu.au/profile/1059/ben-hayes)
 - [David Evans](https://di.uq.edu.au/profile/997/david-evans)
 - [Nicholas Martin](http://www.qimrberghofer.edu.au/people/nicholas-martin/)
 - [Manuel A. R. Ferreira](https://genepi.qimr.edu.au/staff/manuelF/)
 - [Matthew Brown](https://research.qut.edu.au/translationalgenomicsgroup/people/matthew-brown/)
-- [Matthew Robinson](http://wp.unil.ch/ctgg)
-- [Hong Lee](https://sites.google.com/site/honglee0707/)
-- [Beben Benyamin](http://people.unisa.edu.au/Beben.Benyamin)
 - [Benjamin Neale](http://www.nealelab.is/)
 - [Alkes Price](https://www.hsph.harvard.edu/alkes-price/)
 - [Patrick Turley](https://www.paturley.com/)
@@ -51,7 +54,6 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [Carl Anderson](http://www.sanger.ac.uk/people/directory/anderson-carl)
 - [George Davey Smith](http://www.bristol.ac.uk/cardiovascular/people/george-davey-smith/index.html)
 - [Jie Zheng](http://www.bris.ac.uk/social-community-medicine/people/jie-zheng/overview.html)
-- [Hai Fang](http://www.cs.bris.ac.uk/~hfang/)
 - [Jonathan Mill](http://www.epigenomicslab.com/)
 - [Nick Barton](https://ist.ac.at/research/research-groups/barton-group/)
 - [William Hill](https://en.wikipedia.org/wiki/Bill_Hill_(geneticist))

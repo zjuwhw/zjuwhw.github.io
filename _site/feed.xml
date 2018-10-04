@@ -6,9 +6,101 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Sep 2018 20:27:22 +1000</pubDate>
-    <lastBuildDate>Mon, 10 Sep 2018 20:27:22 +1000</lastBuildDate>
+    <pubDate>Thu, 04 Oct 2018 10:46:05 +1000</pubDate>
+    <lastBuildDate>Thu, 04 Oct 2018 10:46:05 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Molecular QTL study</title>
+        <description>&lt;p&gt;A collection of pulication/dataset/cohort about molecular QTL study.&lt;/p&gt;
+
+&lt;h3 id=&quot;atac-qtl-chromatin-accessbility&quot;&gt;ATAC-QTL (chromatin accessbility)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gate, R. E., Cheng, C. S., Aiden, A. P., Siba, A., Tabaka, M., Lituiev, D., … Regev, A. (2018). Genetic determinants of co-accessible chromatin regions in activated T cells across humans. Nature Genetics, 50(8), 1140–1150. &lt;a href=&quot;https://doi.org/10.1038/s41588-018-0156-2&quot;&gt;https://doi.org/10.1038/s41588-018-0156-2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hqtl-histone-marker&quot;&gt;hQTL (histone marker)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;McVicker, G., van de Geijn, B., Degner, J. F., Cain, C. E., Banovich, N. E., Raj, A., … Pritchard, J. K. (2013). Identification of Genetic Variants That Affect Histone Modifications in Human Cells. Science, 342(6159), 747–749. &lt;a href=&quot;https://doi.org/10.1126/science.1242429&quot;&gt;https://doi.org/10.1126/science.1242429&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Grubert, F., Zaugg, J. B., Kasowski, M., Ursu, O., Spacek, D. V., Martin, A. R., … Snyder, M. (2015). Genetic Control of Chromatin States in Humans Involves Local and Distal Chromosomal Interactions. Cell, 162(5), 1051–1065. &lt;a href=&quot;https://doi.org/10.1016/j.cell.2015.07.048&quot;&gt;https://doi.org/10.1016/j.cell.2015.07.048&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mqtl-dna-methylation&quot;&gt;mQTL (DNA methylation)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Meta study of &lt;a href=&quot;https://www.lothianbirthcohort.ed.ac.uk/&quot;&gt;LBC&lt;/a&gt; and &lt;a href=&quot;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0035430&quot;&gt;BSGS&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;McRae, A., Marioni, R. E., Shah, S., Yang, J., Powell, J. E., Harris, S. E., … Montgomery, G. W. (2017). Identification of 55,000 Replicated DNA Methylation QTL. BioRxiv. Retrieved from &lt;a href=&quot;http://biorxiv.org/content/early/2017/07/21/166710.abstract&quot;&gt;http://biorxiv.org/content/early/2017/07/21/166710.abstract&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;eqtl-gene-expression&quot;&gt;eQTL (gene expression)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cnsgenomics.com/shiny/CAGE/&quot;&gt;CAGE study&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Lloyd-Jones, L. R., Holloway, A., McRae, A., Yang, J., Small, K., Zeng, B., … Powell, J. E. (2017). The Genetic Architecture of Gene Expression in Peripheral Blood. The American Journal of Human Genetics, 100(2), 228–237. &lt;a href=&quot;https://doi.org/10.1016/j.ajhg.2016.12.008&quot;&gt;https://doi.org/10.1016/j.ajhg.2016.12.008&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gtexportal.org/home/&quot;&gt;GTEx study&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Aguet, F., Ardlie, K. G., Cummings, B. B., Gelfand, E. T., Getz, G., Hadley, K., … Montgomery, S. B. (2017). Genetic effects on gene expression across human tissues. Nature, 550(7675), 204–213. &lt;a href=&quot;https://doi.org/10.1038/nature24277&quot;&gt;https://doi.org/10.1038/nature24277&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Geuvadis study
+    &lt;ul&gt;
+      &lt;li&gt;Lappalainen, T., Sammeth, M., Friedländer, M. R., ’T Hoen, P. A. C., Monlong, J., Rivas, M. A., … Dermitzakis, E. T. (2013). Transcriptome and genome sequencing uncovers functional variation in humans. Nature, 501(7468), 506–511. &lt;a href=&quot;https://doi.org/10.1038/nature12531&quot;&gt;https://doi.org/10.1038/nature12531&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cell.com/consortium/IHEC&quot;&gt;IHEC&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Chen, L., Ge, B., Casale, F. P., Vasquez, L., Kwan, T., Garrido-Martín, D., … Soranzo, N. (2016). Genetic Drivers of Epigenetic and Transcriptional Variation in Human Immune Cells. Cell (Vol. 167). &lt;a href=&quot;https://doi.org/10.1016/j.cell.2016.10.026&quot;&gt;https://doi.org/10.1016/j.cell.2016.10.026&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;splicing-qtl&quot;&gt;splicing QTL&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Li, Y. I., van de Geijn, B., Raj, A., Knowles, D. a, Petti, A. a, Golan, D., … Pritchard, J. K. (2016). RNA splicing is a primary link between genetic variation and disease. Science, 352(6285), 600–604. &lt;a href=&quot;https://doi.org/10.1126/science.aad9417&quot;&gt;https://doi.org/10.1126/science.aad9417&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Li, Y. I., van de Geijn, B., Raj, A., Knowles, D. a, Petti, A. a, Golan, D., … Pritchard, J. K. (2016). RNA splicing is a primary link between genetic variation and disease. Science, 352(6285), 600–604. &lt;a href=&quot;https://doi.org/10.1126/science.aad9417&quot;&gt;https://doi.org/10.1126/science.aad9417&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;ctqtl-cell-type-specific&quot;&gt;ctQTL (cell-type-specific)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ishigaki, K., Kochi, Y., Suzuki, A., Tsuchida, Y., Tsuchiya, H., Sumitomo, S., … Yamamoto, K. (2017). Polygenic burdens on cell-specific pathways underlie the risk of rheumatoid arthritis. Nature Genetics, 49(7), 1120–1125. &lt;a href=&quot;https://doi.org/10.1038/ng.3885&quot;&gt;https://doi.org/10.1038/ng.3885&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;scqtl-single-cell&quot;&gt;scQTL (single-cell)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ishigaki, K., Kochi, Y., Suzuki, A., Tsuchida, Y., Tsuchiya, H., Sumitomo, S., … Yamamoto, K. (2017). Polygenic burdens on cell-specific pathways underlie the risk of rheumatoid arthritis. Nature Genetics, 49(7), 1120–1125. &lt;a href=&quot;https://doi.org/10.1038/ng.3885&quot;&gt;https://doi.org/10.1038/ng.3885&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;allelic-specific-exprssion-qtl&quot;&gt;allelic specific exprssion QTL&lt;/h4&gt;
+
+&lt;h3 id=&quot;pqtl-protein&quot;&gt;pQTL (protein)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.intervalstudy.org.uk/&quot;&gt;INTERVAL study&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Sun, B. B., Maranville, J. C., Peters, J. E., Stacey, D., Staley, J. R., Blackshaw, J., … Butterworth, A. S. (2018). Genomic atlas of the human plasma proteome. Nature, 558(7708), 73–79. &lt;a href=&quot;https://doi.org/10.1038/s41586-018-0175-2&quot;&gt;https://doi.org/10.1038/s41586-018-0175-2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 03 Oct 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/10/03/molecular-qtl.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/10/03/molecular-qtl.html</guid>
+        
+        <category>GWAS</category>
+        
+        <category>bio</category>
+        
+        
+      </item>
     
       <item>
         <title>澳洲移民资料收集</title>
@@ -1176,39 +1268,6 @@ $ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
         <guid isPermaLink="true">http://localhost:4000/2017/12/04/GLS.html</guid>
         
         <category>statistics</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>More than GWAS</title>
-        <description>&lt;p&gt;Since developed in about &lt;a href=&quot;https://www.nature.com/nature/journal/v447/n7145/full/nature05911.html&quot;&gt;2007&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Genome-wide_association_study&quot;&gt;GWAS (Genome-wide association study)&lt;/a&gt; has gained an &lt;a href=&quot;https://www.nature.com/nature/journal/v546/n7658/full/546360a.html&quot;&gt;increasing attention&lt;/a&gt; in biological research. Apart from the standard association analysis, an increasing number of novel statisical analysis methods are developed to gain more knowledge, such as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$h^2_{SNP}$: the heritability estimation&lt;/li&gt;
-  &lt;li&gt;$r_G$: genetic correlation between traits&lt;/li&gt;
-  &lt;li&gt;PRS: polygenic risk score to predict the genetic risk&lt;/li&gt;
-  &lt;li&gt;MR: Mendelian randomisation&lt;/li&gt;
-  &lt;li&gt;Fine-mapping&lt;/li&gt;
-  &lt;li&gt;integrating with other type of data (such as eQTL etc.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are two great reviews from &lt;a href=&quot;http://cnsgenomics.com/&quot;&gt;my lab&lt;/a&gt; for this part of filed, so I just write the relavant content down here.&lt;/p&gt;
-
-&lt;h3 id=&quot;visscher-et-al-2017&quot;&gt;&lt;a href=&quot;http://dx.doi.org/10.1016/j.ajhg.2017.06.005&quot;&gt;Visscher et al. 2017&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/more-gwas2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;maier-et-al-2017&quot;&gt;&lt;a href=&quot;http://dx.doi.org/10.1017/S0033291717002318&quot;&gt;Maier et al. 2017&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/more-gwas1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 07 Nov 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/11/07/more-GWAS.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/07/more-GWAS.html</guid>
-        
-        <category>GWAS</category>
         
         
       </item>
