@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Oct 2018 19:57:33 +1000</pubDate>
-    <lastBuildDate>Mon, 08 Oct 2018 19:57:33 +1000</lastBuildDate>
+    <pubDate>Mon, 08 Oct 2018 20:19:43 +1000</pubDate>
+    <lastBuildDate>Mon, 08 Oct 2018 20:19:43 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -19,6 +19,22 @@
 &lt;p&gt;&lt;img src=&quot;/images/teeth-au-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/teeth-au-4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;治疗顺序为何先易后难；&lt;/li&gt;
+  &lt;li&gt;同样很贵（1700刀），为何根管推荐回国，而带冠却在澳洲做；&lt;/li&gt;
+  &lt;li&gt;左上拔除后，后续怎么处理，花费如何；&lt;/li&gt;
+  &lt;li&gt;左上有没有可能不拔。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;一般问题：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;似乎我的牙特别不好；&lt;/li&gt;
+  &lt;li&gt;牙线流血怎么办？&lt;/li&gt;
+  &lt;li&gt;应该使用哪种牙线？&lt;/li&gt;
+  &lt;li&gt;电动牙刷两次+牙线一次+半年洗牙/检查 – 牙能保证到多少岁？&lt;/li&gt;
+&lt;/ol&gt;
 </description>
         <pubDate>Mon, 08 Oct 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/10/08/teeth.html</link>
