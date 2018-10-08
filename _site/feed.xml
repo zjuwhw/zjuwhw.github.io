@@ -6,9 +6,28 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Oct 2018 10:46:05 +1000</pubDate>
-    <lastBuildDate>Thu, 04 Oct 2018 10:46:05 +1000</lastBuildDate>
+    <pubDate>Mon, 08 Oct 2018 19:15:14 +1000</pubDate>
+    <lastBuildDate>Mon, 08 Oct 2018 19:15:14 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>我的牙齿-澳洲求医</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/teeth-au-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/teeth-au-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/teeth-au-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/teeth-au-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Oct 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/10/08/teeth.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/10/08/teeth.html</guid>
+        
+        <category>medi</category>
+        
+        
+      </item>
     
       <item>
         <title>Molecular QTL study</title>
@@ -1192,80 +1211,6 @@ $ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
         <pubDate>Mon, 18 Dec 2017 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2017/12/18/biostatistics.html</link>
         <guid isPermaLink="true">http://localhost:4000/2017/12/18/biostatistics.html</guid>
-        
-        <category>statistics</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Generalized Least Square</title>
-        <description>&lt;p&gt;This is the note for &lt;a href=&quot;https://www.youtube.com/watch?v=XEne6yD7zmo&amp;amp;list=PLlMMtlgw6qNjROoMNTBQjAcdx53kV50cS&quot;&gt;the video tutorial of generalized least square&lt;/a&gt; by Broad Institute’s MIA talks.&lt;/p&gt;
-
-&lt;h3 id=&quot;ordinary-least-square-ols&quot;&gt;Ordinary Least Square (OLS)&lt;/h3&gt;
-
-&lt;h4 id=&quot;linear-model&quot;&gt;Linear model&lt;/h4&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\textbf{y} = \textbf{X} \boldsymbol{\beta} + \boldsymbol{\epsilon}&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$\textbf{y}$: response variables&lt;/li&gt;
-  &lt;li&gt;$\textbf{X}$: predictor(s)&lt;/li&gt;
-  &lt;li&gt;$\mathbf{\beta}$: effect size&lt;/li&gt;
-  &lt;li&gt;$\mathbf{\epsilon}$: noise, error, residual; $E(\boldsymbol{\epsilon})=0, Var(\boldsymbol{\epsilon})=\sigma^2\textbf{I}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Suppose n observations, p predictors, it can be also written,&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{bmatrix}y_1 \\ y_2 \\ ... \\ y_n \end{bmatrix} = \begin{bmatrix}x_{11} &amp; ... &amp; x_{1p} \\ x_{21} &amp; ... &amp; x_{2p} \\ ... &amp; ... &amp; ...\\ x_{n1} &amp; ...  &amp; x_{np} \end{bmatrix} \begin{bmatrix} \beta_1 \\ \beta_2 \\... \\ \beta_3 \end{bmatrix} + \begin{bmatrix} \epsilon_1 \\ \epsilon_2 \\ ... \\ \epsilon_n \end{bmatrix} %]]&gt;&lt;/script&gt;
-
-&lt;h4 id=&quot;minimize-ssrsse&quot;&gt;Minimize SSR/SSE&lt;/h4&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;S(\boldsymbol{b}) := (\boldsymbol{y} - \boldsymbol{Xb})^T(\boldsymbol{y}-\boldsymbol{Xb})&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{\boldsymbol{\beta}}_{OLS} := argmin_{b} S(\boldsymbol{b})&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{\boldsymbol{\beta}}_{OLS} = (\boldsymbol{X}^T\boldsymbol{X})^{-1}\boldsymbol{X}^T\boldsymbol{y}&lt;/script&gt;
-
-&lt;h4 id=&quot;strength&quot;&gt;Strength&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;closed formula&lt;/li&gt;
-  &lt;li&gt;Gauss-Markov: $\hat{\boldsymbol{\beta}}_{OLS}$ is the best linear unbiased estimator of $\boldsymbol{\beta}$, given $\epsilon_i’s$ are i.i.d.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Q: what if $\epsilon_i’s$ are not i.i.d.? what is the best?&lt;/p&gt;
-
-&lt;h3 id=&quot;weighted-least-square-wls---drop-identical-distribution&quot;&gt;Weighted Least Square (WLS) - drop identical distribution&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\Sigma := Var(\boldsymbol{\epsilon}) =  \begin{pmatrix} \sigma_1^2 &amp; 0 &amp; ... &amp; 0 \\ 0 &amp; \sigma_2^2 &amp; ... &amp; 0 \\ ... &amp; ... &amp; ... &amp; ... \\ 0 &amp; 0 &amp;  ... &amp; \sigma_n^2 \end{pmatrix} %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;Let $D^2 = \Sigma^{-1}$ and $\delta = D\epsilon$&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Dy = DX\beta + D\epsilon&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Var(\delta) = Var(D\epsilon) = DVar(\epsilon)D^{-1} = D\Sigma D^T = \textbf{I}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{\beta_{WLS}} = ((DX)^T(DX))^{-1}(DX)^TDy = (X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}y&lt;/script&gt;
-
-&lt;h3 id=&quot;generalized-least-square-gls---drop-iid&quot;&gt;Generalized Least Square (GLS) - drop i.i.d.&lt;/h3&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Sigma:= Var(\epsilon)&lt;/script&gt;
-
-&lt;p&gt;Let L be the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cholesky_decomposition&quot;&gt;Cholesky decomp.&lt;/a&gt; of $\Sigma^{-1}$ and $L^TL = \Sigma^{-1}$&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Ly = LX\beta + L\epsilon&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Var(L\sigma) = LVar(\epsilon)L^T = \textbf{I}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\hat{\beta_{GLS}} = (X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}y&lt;/script&gt;
-
-</description>
-        <pubDate>Mon, 04 Dec 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/12/04/GLS.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/12/04/GLS.html</guid>
         
         <category>statistics</category>
         
