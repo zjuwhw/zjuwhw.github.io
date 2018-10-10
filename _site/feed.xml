@@ -6,25 +6,97 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Oct 2018 20:19:43 +1000</pubDate>
-    <lastBuildDate>Mon, 08 Oct 2018 20:19:43 +1000</lastBuildDate>
+    <pubDate>Wed, 10 Oct 2018 11:56:49 +1000</pubDate>
+    <lastBuildDate>Wed, 10 Oct 2018 11:56:49 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
+        <title>我的牙齿-上海</title>
+        <description>&lt;p&gt;这个博客写于2018年10月，主要是根据当时的Evernote笔记，回忆2015年在上海三次治牙经历。以方便之后阅读。&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Oct 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/10/10/teeth.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/10/10/teeth.html</guid>
+        
+        <category>medi</category>
+        
+        
+      </item>
+    
+      <item>
         <title>我的牙齿-澳洲求医</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/teeth-au-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#我的治牙经历&quot; id=&quot;markdown-toc-我的治牙经历&quot;&gt;我的治牙经历&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#澳洲检查&quot; id=&quot;markdown-toc-澳洲检查&quot;&gt;澳洲检查&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#目前疑惑&quot; id=&quot;markdown-toc-目前疑惑&quot;&gt;目前疑惑&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#对澳洲治疗&quot; id=&quot;markdown-toc-对澳洲治疗&quot;&gt;对澳洲治疗&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#对回国治疗&quot; id=&quot;markdown-toc-对回国治疗&quot;&gt;对回国治疗&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#其他信息&quot; id=&quot;markdown-toc-其他信息&quot;&gt;其他信息：&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#另外两张x光片&quot; id=&quot;markdown-toc-另外两张x光片&quot;&gt;另外两张X光片&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/teeth-au-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;我的治牙经历&quot;&gt;我的治牙经历&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/teeth-au-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;我的牙齿从小时候就一直不好：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;小学&lt;/strong&gt;（本溪，1996-2002）：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;彩屯某诊所&lt;/strong&gt;：右下磨牙根管治疗（杀神经）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;初中&lt;/strong&gt;（本溪，2002-2005）：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;王氏诊所&lt;/strong&gt;：两颗上门牙补牙 + 右上磨牙根管治疗 + 左上磨牙补牙 + 左下磨牙补牙&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;研究生&lt;/strong&gt;（上海，2012-2015）：（详见博客[“&lt;a href=&quot;/2018/10/10/teeth.html&quot;&gt;我的牙齿-上海&lt;/a&gt;”]）
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;浦南医院&lt;/strong&gt;（2015年1月8日）：左上磨牙补牙 + 右下磨牙补牙&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;瑞金医院&lt;/strong&gt;（2015年2月4日-3月2日）：左上磨牙根管治疗（瑞金医院）&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;瑞金医院&lt;/strong&gt;（2015年11月9日）：右下磨牙开裂检查（已经无法再补，要考虑至少1000人民币带冠）+ 咨询（残根要拔除，根管治疗的都可以带冠，其他还可以）&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;瑞金医院&lt;/strong&gt;（2015年12月9日）：左上另一磨牙残根拔除（瑞金医院）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;工作&lt;/strong&gt;（北京，2016）：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;美年大健康体检&lt;/strong&gt;（2016年11月23日）：建议左下智齿拔除，右侧智齿可拔可不拔（拔除的原因主要是怕刷牙刷不到而龋齿）&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;安贞医院&lt;/strong&gt;（2016年12月9日）拍了全口X片+拔了左上智齿（详见博客&lt;a href=&quot;/2016/12/09/teeth.html&quot;&gt;“我的牙齿-安贞医院”&lt;/a&gt;）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/teeth-au-1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;此为本次澳洲就诊的X光片，两外两张见下方。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;这真是一个非常痛苦的事情。因为：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;牙齿的损坏和不断坏牙的趋势似乎是不可逆的：一旦被腐坏了，就只能是补，补完了就是杀神经，最后就是拔掉；&lt;/li&gt;
+  &lt;li&gt;治疗非常的痛苦：不仅费用昂贵，而且治疗过程很疼，有时一颗牙还要治疗多次。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;澳洲检查&quot;&gt;澳洲检查&lt;/h3&gt;
+
+&lt;p&gt;这次在澳大利亚&lt;a href=&quot;https://stluciadental.com.au/&quot;&gt;St Lucia Dental&lt;/a&gt;做了一个检查（还包括拍片和洗牙）。共花费249刀（约1250人民币；已扣除10%的学生折扣）。他们给出的治疗建议如下：&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/teeth-au-4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;目前疑惑&quot;&gt;目前疑惑&lt;/h3&gt;
+
+&lt;h4 id=&quot;对澳洲治疗&quot;&gt;对澳洲治疗&lt;/h4&gt;
+
+&lt;p&gt;这次检查：&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;治疗顺序为何先易后难；&lt;/li&gt;
   &lt;li&gt;同样很贵（1700刀），为何根管推荐回国，而带冠却在澳洲做；&lt;/li&gt;
   &lt;li&gt;左上拔除后，后续怎么处理，花费如何；&lt;/li&gt;
-  &lt;li&gt;左上有没有可能不拔。&lt;/li&gt;
+  &lt;li&gt;左上有没有可能不拔；&lt;/li&gt;
+  &lt;li&gt;有没有更省钱的方式，如私人保险；&lt;/li&gt;
+  &lt;li&gt;还有没有后续花费。&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;一般问题：&lt;/p&gt;
@@ -35,6 +107,36 @@
   &lt;li&gt;应该使用哪种牙线？&lt;/li&gt;
   &lt;li&gt;电动牙刷两次+牙线一次+半年洗牙/检查 – 牙能保证到多少岁？&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;老婆的问题：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;为什么只有根管推荐了回国？补牙加起来也很贵，是否也可以回国治疗。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;对回国治疗&quot;&gt;对回国治疗&lt;/h4&gt;
+
+&lt;p&gt;如果可以回国治疗，意味着可以节省很多费用，但同时我也有很多担心。就如同&lt;a href=&quot;https://www.ada.org.au/Your-Dental-Health/Adults-31-64/Dental-Tourism&quot;&gt;澳洲牙医协会关于“治牙旅行”的文章&lt;/a&gt;，主要是：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;没治好&lt;/li&gt;
+  &lt;li&gt;医疗水平&lt;/li&gt;
+  &lt;li&gt;他们发现了“超级细菌（Superbugs）”&lt;/li&gt;
+  &lt;li&gt;太多治疗，太少时间&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;其他信息&quot;&gt;其他信息：&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.smile.com.au/dental-fees/qld&quot;&gt;Smile网站给出的澳洲治牙参考费用&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/60513156&quot;&gt;知乎问题“美国的牙医水平与中国相比如何？”&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;另外两张x光片&quot;&gt;另外两张X光片&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/teeth-au-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/teeth-au-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Oct 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/10/08/teeth.html</link>
@@ -896,339 +998,6 @@ $ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
         <guid isPermaLink="true">http://localhost:4000/2018/05/06/kitchen.html</guid>
         
         <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Biostatistics Mooc Note</title>
-        <description>&lt;p&gt;This is the notebook for the two-part coursera course “&lt;a href=&quot;https://www.coursera.org/learn/biostatistics-2/&quot;&gt;mathematical Biostatistics Boot Camp&lt;/a&gt;”.&lt;/p&gt;
-
-&lt;h2 id=&quot;part-1&quot;&gt;Part 1&lt;/h2&gt;
-
-&lt;h3 id=&quot;lecture-1-introduction&quot;&gt;Lecture 1, introduction&lt;/h3&gt;
-
-&lt;h4 id=&quot;biostatistics&quot;&gt;Biostatistics&lt;/h4&gt;
-
-&lt;h4 id=&quot;experiments&quot;&gt;Experiments&lt;/h4&gt;
-
-&lt;h4 id=&quot;set-notation&quot;&gt;Set notation&lt;/h4&gt;
-
-&lt;h4 id=&quot;probability&quot;&gt;Probability&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-2-probability&quot;&gt;Lecture 2, probability&lt;/h3&gt;
-
-&lt;h4 id=&quot;probability-1&quot;&gt;Probability&lt;/h4&gt;
-
-&lt;h4 id=&quot;random-variables&quot;&gt;Random variables&lt;/h4&gt;
-
-&lt;h4 id=&quot;pmfs-probability-mass-function-and-pdfs-probability-density-function&quot;&gt;PMFs (probability mass function) and PDFs (probability density function)&lt;/h4&gt;
-
-&lt;h4 id=&quot;cdfs-cumulative-distribution-function-survival-functions-and-quantiles&quot;&gt;CDFs (cumulative distribution function), survival functions and quantiles&lt;/h4&gt;
-
-&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecutre-3-expectations&quot;&gt;Lecutre 3, Expectations&lt;/h3&gt;
-
-&lt;h4 id=&quot;expected-values-discretecontinuous-random-variables&quot;&gt;Expected values: discrete/continuous random variables&lt;/h4&gt;
-
-&lt;h4 id=&quot;rules-about-expected-values&quot;&gt;Rules about expected values&lt;/h4&gt;
-
-&lt;h4 id=&quot;variances&quot;&gt;Variances&lt;/h4&gt;
-
-&lt;h4 id=&quot;chebyshevs-inequality&quot;&gt;Chebyshev’s inequality&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-4-random-vectors&quot;&gt;Lecture 4, Random Vectors&lt;/h3&gt;
-
-&lt;h4 id=&quot;random-vectors&quot;&gt;Random vectors&lt;/h4&gt;
-
-&lt;h4 id=&quot;independence-independent-events-independent-random-variables-iid-random-variables&quot;&gt;Independence: independent events, independent random variables, IID random variables&lt;/h4&gt;
-
-&lt;h4 id=&quot;correlation&quot;&gt;Correlation&lt;/h4&gt;
-
-&lt;h4 id=&quot;variance-and-correlation-properties&quot;&gt;Variance and Correlation properties&lt;/h4&gt;
-
-&lt;h4 id=&quot;variances-properties-of-sample-mean-standard-error&quot;&gt;Variances properties of sample mean (standard error)&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-sample-variance&quot;&gt;The sample variance&lt;/h4&gt;
-
-&lt;h4 id=&quot;some-discussion&quot;&gt;Some discussion&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-5-conditional-probability&quot;&gt;Lecture 5, Conditional Probability&lt;/h3&gt;
-
-&lt;h4 id=&quot;conditional-probability&quot;&gt;Conditional probability&lt;/h4&gt;
-
-&lt;h4 id=&quot;conditional-densities&quot;&gt;Conditional densities&lt;/h4&gt;
-
-&lt;h4 id=&quot;bayes-rule&quot;&gt;Bayes’ Rule&lt;/h4&gt;
-
-&lt;h4 id=&quot;diagnostic-tests&quot;&gt;Diagnostic tests&lt;/h4&gt;
-
-&lt;h4 id=&quot;dlr-diagnostic-likelihood-ratios&quot;&gt;DLR (diagnostic likelihood ratios)&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-6-likelihood&quot;&gt;Lecture 6, Likelihood&lt;/h3&gt;
-
-&lt;h4 id=&quot;defining-likelihood&quot;&gt;Defining likelihood&lt;/h4&gt;
-
-&lt;h4 id=&quot;interpreting-likelihood&quot;&gt;Interpreting likelihood&lt;/h4&gt;
-
-&lt;h4 id=&quot;plotting-likelihoods&quot;&gt;Plotting likelihoods&lt;/h4&gt;
-
-&lt;h4 id=&quot;maximum-likelihood&quot;&gt;Maximum likelihood&lt;/h4&gt;
-
-&lt;h4 id=&quot;interpreting-likelihood-ratios&quot;&gt;Interpreting likelihood ratios&lt;/h4&gt;
-
-&lt;h3 id=&quot;leture-7-some-common-distributions&quot;&gt;Leture 7, Some common distributions&lt;/h3&gt;
-
-&lt;h4 id=&quot;the-bernoulli-distribution&quot;&gt;The Bernoulli distribution&lt;/h4&gt;
-
-&lt;h4 id=&quot;binomial-trials&quot;&gt;Binomial trials&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-normal-distribution-properties-and-ml-estimate-of-mu&quot;&gt;The normal distribution: properties and ML estimate of $\mu$&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-8-asymptotics&quot;&gt;Lecture 8, Asymptotics&lt;/h3&gt;
-
-&lt;h4 id=&quot;limits-极限&quot;&gt;limits (极限)&lt;/h4&gt;
-
-&lt;h4 id=&quot;lln-the-law-of-large-numbers&quot;&gt;LLN (The Law of Large Numbers)&lt;/h4&gt;
-
-&lt;h4 id=&quot;clt-the-central-limit-theorem&quot;&gt;CLT (The Central Limit Theorem)&lt;/h4&gt;
-
-&lt;h4 id=&quot;ci-confidence-intervals&quot;&gt;CI (Confidence Intervals)&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-9-confidence-intervals&quot;&gt;Lecture 9, Confidence Intervals&lt;/h3&gt;
-
-&lt;h4 id=&quot;confidence-intervals&quot;&gt;Confidence intervals&lt;/h4&gt;
-
-&lt;h4 id=&quot;ci-for-a-normal-variance&quot;&gt;CI for a normal variance&lt;/h4&gt;
-
-&lt;h4 id=&quot;students-t-distibution&quot;&gt;Student’s t distibution&lt;/h4&gt;
-
-&lt;h4 id=&quot;confidence-intervals-for-normal-means&quot;&gt;Confidence intervals for normal means&lt;/h4&gt;
-
-&lt;h4 id=&quot;profile-likelihoods&quot;&gt;Profile likelihoods&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-10-t-confidence-intervals&quot;&gt;Lecture 10, T Confidence Intervals&lt;/h3&gt;
-
-&lt;h4 id=&quot;independent-group-t-intervals&quot;&gt;Independent group t intervals&lt;/h4&gt;
-
-&lt;h4 id=&quot;likelihood-method&quot;&gt;Likelihood method&lt;/h4&gt;
-
-&lt;h4 id=&quot;unequal-variances&quot;&gt;Unequal variances&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-11-plotting&quot;&gt;Lecture 11, Plotting&lt;/h3&gt;
-
-&lt;h4 id=&quot;histograms&quot;&gt;Histograms&lt;/h4&gt;
-
-&lt;h4 id=&quot;stem-and-leaf&quot;&gt;Stem and Leaf&lt;/h4&gt;
-
-&lt;h4 id=&quot;dotcharts&quot;&gt;Dotcharts&lt;/h4&gt;
-
-&lt;h4 id=&quot;boxplots&quot;&gt;Boxplots&lt;/h4&gt;
-
-&lt;h4 id=&quot;kdes-kernel-density-estimates&quot;&gt;KDEs (Kernel density estimates)&lt;/h4&gt;
-
-&lt;h4 id=&quot;qq-plots&quot;&gt;QQ-plots&lt;/h4&gt;
-
-&lt;h4 id=&quot;mosaic-plots&quot;&gt;Mosaic plots&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-12-bootstrapping&quot;&gt;Lecture 12, Bootstrapping&lt;/h3&gt;
-
-&lt;h4 id=&quot;the-jackknife&quot;&gt;The jackknife&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-bootstrap-principle&quot;&gt;The bootstrap principle&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-bootstrap&quot;&gt;The bootstrap&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-13-binomial-proportions&quot;&gt;Lecture 13, Binomial Proportions&lt;/h3&gt;
-
-&lt;h4 id=&quot;intervals-for-binomial-proportions&quot;&gt;Intervals for binomial proportions&lt;/h4&gt;
-
-&lt;h4 id=&quot;agresti-coull-interval&quot;&gt;Agresti-Coull interval&lt;/h4&gt;
-
-&lt;h4 id=&quot;bayesian-analysis-prior-specification-posterior-credible-intervals&quot;&gt;Bayesian analysis: Prior specification, posterior, credible intervals&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecutre-14-logs&quot;&gt;Lecutre 14, Logs&lt;/h3&gt;
-
-&lt;h4 id=&quot;logs&quot;&gt;Logs&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-geometri-mean&quot;&gt;The geometri mean&lt;/h4&gt;
-
-&lt;h4 id=&quot;gm-and-the-clt&quot;&gt;GM and the CLT&lt;/h4&gt;
-
-&lt;h4 id=&quot;comparisons&quot;&gt;Comparisons&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-log-normal-distribution&quot;&gt;The log-normal distribution&lt;/h4&gt;
-
-&lt;h2 id=&quot;part-2&quot;&gt;Part 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;lecture-1-hypothesis-testing&quot;&gt;Lecture 1, Hypothesis Testing&lt;/h3&gt;
-
-&lt;h4 id=&quot;hypothesis-testing&quot;&gt;Hypothesis testing&lt;/h4&gt;
-
-&lt;h4 id=&quot;general-rules&quot;&gt;General rules&lt;/h4&gt;
-
-&lt;h4 id=&quot;notes&quot;&gt;Notes&lt;/h4&gt;
-
-&lt;h4 id=&quot;two-sided-tests&quot;&gt;Two sided tests&lt;/h4&gt;
-
-&lt;h4 id=&quot;confidence-intervals-1&quot;&gt;Confidence intervals&lt;/h4&gt;
-
-&lt;h4 id=&quot;p-value&quot;&gt;P-value&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-2-power&quot;&gt;Lecture 2, Power&lt;/h3&gt;
-
-&lt;h4 id=&quot;power&quot;&gt;Power&lt;/h4&gt;
-
-&lt;h4 id=&quot;calculating-power&quot;&gt;Calculating power&lt;/h4&gt;
-
-&lt;h4 id=&quot;t-tests&quot;&gt;T-tests&lt;/h4&gt;
-
-&lt;h4 id=&quot;monte-carlo&quot;&gt;Monte Carlo&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-3-two-sample-tests&quot;&gt;Lecture 3, Two sample tests&lt;/h3&gt;
-
-&lt;h4 id=&quot;matched-data&quot;&gt;Matched data&lt;/h4&gt;
-
-&lt;h4 id=&quot;aside-regression-to-the-mean&quot;&gt;Aside, regression to the mean&lt;/h4&gt;
-
-&lt;h4 id=&quot;two-independent-groups&quot;&gt;Two independent groups&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-4-two-sample-binomial-tests&quot;&gt;Lecture 4, Two sample binomial tests&lt;/h3&gt;
-
-&lt;h4 id=&quot;the-score-statistic&quot;&gt;The score statistic&lt;/h4&gt;
-
-&lt;h4 id=&quot;exact-tests&quot;&gt;Exact tests&lt;/h4&gt;
-
-&lt;h4 id=&quot;comparing-two-binomial-proportions&quot;&gt;Comparing two binomial proportions&lt;/h4&gt;
-
-&lt;h4 id=&quot;bayesian-and-likelihood-analysis-of-two-proportions&quot;&gt;Bayesian and likelihood analysis of two proportions&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-5-relative-risks-and-odds-ratios&quot;&gt;Lecture 5, Relative risks and odds ratios&lt;/h3&gt;
-
-&lt;h4 id=&quot;relative-measures&quot;&gt;Relative measures&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-relative-risk&quot;&gt;The relative risk&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-odds-ratio&quot;&gt;The odds ratio&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-6-delta-method&quot;&gt;Lecture 6, Delta method&lt;/h3&gt;
-
-&lt;h4 id=&quot;recap&quot;&gt;Recap&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-delta-method&quot;&gt;The delta method&lt;/h4&gt;
-
-&lt;h4 id=&quot;derivation-of-the-delta-method&quot;&gt;Derivation of the delta method&lt;/h4&gt;
-
-&lt;h3 id=&quot;fishers-exact-test&quot;&gt;Fisher’s Exact test&lt;/h3&gt;
-
-&lt;h4 id=&quot;fishers-exact-test-1&quot;&gt;Fisher’s exact test&lt;/h4&gt;
-
-&lt;h4 id=&quot;the-hypergeometric-distribution&quot;&gt;The hypergeometric distribution&lt;/h4&gt;
-
-&lt;h4 id=&quot;fishers-exact-test-in-practice&quot;&gt;Fisher’s exact test in practice&lt;/h4&gt;
-
-&lt;h4 id=&quot;monte-carlo-1&quot;&gt;Monte Carlo&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-8-chi-squared-tests&quot;&gt;Lecture 8, Chi-Squared tests&lt;/h3&gt;
-
-&lt;h4 id=&quot;chi-squared-testing&quot;&gt;Chi-squared testing&lt;/h4&gt;
-
-&lt;h4 id=&quot;testing-independence&quot;&gt;Testing independence&lt;/h4&gt;
-
-&lt;h4 id=&quot;testing-equality-of-several-proportions&quot;&gt;Testing equality of several proportions&lt;/h4&gt;
-
-&lt;h4 id=&quot;generalization&quot;&gt;Generalization&lt;/h4&gt;
-
-&lt;h4 id=&quot;independence&quot;&gt;Independence&lt;/h4&gt;
-
-&lt;h4 id=&quot;monte-carlo-2&quot;&gt;Monte Carlo&lt;/h4&gt;
-
-&lt;h4 id=&quot;goodness-of-fit-testing&quot;&gt;Goodness of fit testing&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-9-simpsons-paradox-and-confouding&quot;&gt;Lecture 9, Simpson’s Paradox and Confouding&lt;/h3&gt;
-
-&lt;h4 id=&quot;simpsons-paradox&quot;&gt;Simpson’s paradox&lt;/h4&gt;
-
-&lt;h4 id=&quot;more-examples&quot;&gt;More examples&lt;/h4&gt;
-
-&lt;h4 id=&quot;confouding&quot;&gt;Confouding&lt;/h4&gt;
-
-&lt;h4 id=&quot;weighting&quot;&gt;Weighting&lt;/h4&gt;
-
-&lt;h4 id=&quot;mantelhaenszel-estimator&quot;&gt;Mantel/Haenszel estimator&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-10-case-control-data&quot;&gt;Lecture 10, Case Control Data&lt;/h3&gt;
-
-&lt;h4 id=&quot;case-control-methods&quot;&gt;Case-control methods&lt;/h4&gt;
-
-&lt;h4 id=&quot;rare-disease-assumption&quot;&gt;Rare disease assumption&lt;/h4&gt;
-
-&lt;h4 id=&quot;exact-inference-for-the-odss-ratio&quot;&gt;Exact inference for the odss ratio&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-11-matched-two-by-two-tables&quot;&gt;Lecture 11, Matched Two by Two tables&lt;/h3&gt;
-
-&lt;h4 id=&quot;matched-pairs-data&quot;&gt;Matched pairs data&lt;/h4&gt;
-
-&lt;h4 id=&quot;dependence&quot;&gt;Dependence&lt;/h4&gt;
-
-&lt;h4 id=&quot;marginal-homogeneity&quot;&gt;Marginal homogeneity&lt;/h4&gt;
-
-&lt;h4 id=&quot;mcnemars-test&quot;&gt;McNemar’s test&lt;/h4&gt;
-
-&lt;h4 id=&quot;estimation&quot;&gt;Estimation&lt;/h4&gt;
-
-&lt;h4 id=&quot;relationship-with-cmh&quot;&gt;Relationship with CMH&lt;/h4&gt;
-
-&lt;h4 id=&quot;marginal-odds-ratios&quot;&gt;Marginal odds ratios&lt;/h4&gt;
-
-&lt;h4 id=&quot;conditional-versus-marginal&quot;&gt;Conditional versus marginal&lt;/h4&gt;
-
-&lt;h4 id=&quot;conditional-ml&quot;&gt;Conditional ML&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-12&quot;&gt;Lecture 12&lt;/h3&gt;
-
-&lt;h4 id=&quot;nonparametric-tests&quot;&gt;Nonparametric tests&lt;/h4&gt;
-
-&lt;h4 id=&quot;sign-test&quot;&gt;Sign test&lt;/h4&gt;
-
-&lt;h4 id=&quot;signed-rank-test&quot;&gt;Signed rank test&lt;/h4&gt;
-
-&lt;h4 id=&quot;monte-carlo-3&quot;&gt;Monte Carlo&lt;/h4&gt;
-
-&lt;h4 id=&quot;independent-groups&quot;&gt;Independent groups&lt;/h4&gt;
-
-&lt;h4 id=&quot;mannwhitney-test&quot;&gt;Mann/Whitney test&lt;/h4&gt;
-
-&lt;h4 id=&quot;monte-carlo-4&quot;&gt;Monte Carlo&lt;/h4&gt;
-
-&lt;h4 id=&quot;permutation-tests&quot;&gt;Permutation tests&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecture-13&quot;&gt;Lecture 13&lt;/h3&gt;
-
-&lt;h4 id=&quot;the-poisson-distribution&quot;&gt;The Poisson distribution&lt;/h4&gt;
-
-&lt;h4 id=&quot;poisson-approximation-to-the-binomial&quot;&gt;Poisson approximation to the binomial&lt;/h4&gt;
-
-&lt;h4 id=&quot;person-time-analysis&quot;&gt;Person-time analysis&lt;/h4&gt;
-
-&lt;h4 id=&quot;exact-tests-1&quot;&gt;Exact tests&lt;/h4&gt;
-
-&lt;h4 id=&quot;time-to-event-modeling&quot;&gt;Time-to-event modeling&lt;/h4&gt;
-
-&lt;h3 id=&quot;lecutre-14&quot;&gt;Lecutre 14&lt;/h3&gt;
-
-&lt;h4 id=&quot;multiplicity&quot;&gt;Multiplicity&lt;/h4&gt;
-
-&lt;h4 id=&quot;bonferoni&quot;&gt;Bonferoni&lt;/h4&gt;
-
-&lt;h4 id=&quot;fdr&quot;&gt;FDR&lt;/h4&gt;
-</description>
-        <pubDate>Mon, 18 Dec 2017 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2017/12/18/biostatistics.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/12/18/biostatistics.html</guid>
-        
-        <category>statistics</category>
         
         
       </item>
