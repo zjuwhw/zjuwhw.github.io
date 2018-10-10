@@ -6,13 +6,87 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Oct 2018 12:06:31 +1000</pubDate>
-    <lastBuildDate>Wed, 10 Oct 2018 12:06:31 +1000</lastBuildDate>
+    <pubDate>Wed, 10 Oct 2018 14:48:04 +1000</pubDate>
+    <lastBuildDate>Wed, 10 Oct 2018 14:48:04 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>我的牙齿-上海</title>
-        <description>&lt;p&gt;这个博客写于2018年10月，主要是根据当时的Evernote笔记，回忆2015年在上海三次治牙经历。以方便之后阅读。&lt;/p&gt;
+        <description>&lt;p&gt;这个博客写于2018年10月，主要是根据当时的Evernote笔记，回忆2015年在上海几次治牙经历。以方便之后阅读。&lt;/p&gt;
+
+&lt;h3 id=&quot;花费&quot;&gt;花费&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;日期&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;地点&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;治疗内容&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;总花费（元）&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;评价&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1月8日&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;浦南医院&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;左上磨牙补牙 + 右下磨牙补牙&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;忘记了&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;大夫很细心，讲解的时候还花了图，但是最终这两个牙都重治了&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2月4日&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;瑞金医院&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;左上磨牙根管治疗-初诊&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;92&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;感觉很专业，很正规。&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2月11日&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;瑞金医院&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;左上磨牙根管治疗-根管治疗&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;262&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3月2日&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;瑞金医院&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;左上磨牙根管治疗-填充材料&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;242&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11月9日&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;瑞金医院&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;右下磨牙开裂检查 + 咨询&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;77&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;当时1000元做冠，对于学生来说太贵了，而且医保不保&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12月9日&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;瑞金医院&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;左上另一磨牙残根拔除&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;211&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;这个残根很多人都说很难拔，最终拔得还挺顺利，用很大的螺丝刀和锤子敲了很多下&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;注：在瑞金医院治疗的后五次均为校医院挂号转诊，总花费中每次均包含校医院挂号费1元和瑞金医院挂号费14元。最后凭学生保险报销了224.5元。报销有个起付线（当时是300元），超过部分医保报销一部分，比例根据所去医院和具体情况有所变动。&lt;/p&gt;
+
+&lt;h3 id=&quot;片子&quot;&gt;片子&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/teeth-sh-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;2015年2月5日瑞金医院初诊&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/teeth-sh-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;2015年2月12日瑞金医院根管治疗&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/teeth-sh-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;2015年3月2日瑞金医院填充材料&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Oct 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/10/10/teeth.html</link>
