@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Oct 2018 11:56:49 +1000</pubDate>
-    <lastBuildDate>Wed, 10 Oct 2018 11:56:49 +1000</lastBuildDate>
+    <pubDate>Wed, 10 Oct 2018 12:06:31 +1000</pubDate>
+    <lastBuildDate>Wed, 10 Oct 2018 12:06:31 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -68,8 +68,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/teeth-au-1.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;em&gt;此为本次澳洲就诊的X光片，两外两张见下方。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/teeth-au-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;此为本次澳洲就诊的X光片，两外两张见下方。&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;这真是一个非常痛苦的事情。因为：&lt;/p&gt;
 
