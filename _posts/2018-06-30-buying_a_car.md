@@ -15,7 +15,9 @@ tags: ["life"]
 	- privately from the owner（私人卖家）
 	- at an auction （拍卖）
 - 检查VIN号：check the vehicle identification number (VIN) first
-- 注册和保险	
+- 注册和保险
+
+["Buying a used car" on Queensland government website](https://www.qld.gov.au/transport/buying/rules/used)
 
 ## 车的相关参数
 

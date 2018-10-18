@@ -42,6 +42,7 @@ tags: ["life"]
 ### 拿到offer
 
 - 2016年08月12日，通知录取（adminssion）成功。
+- 2016年10月06日，通知奖学金公布时间更改到10月31日（由于impending changes within the structure of Government funded scholarships）
 - 2016年10月31日，通知奖学金（scholarship）成功。
 - 2016年12月14日，正式收到offer（adminssion and scholarship）。
 - 2017年01月17日，收到eCoE（电子注册确认函）。
