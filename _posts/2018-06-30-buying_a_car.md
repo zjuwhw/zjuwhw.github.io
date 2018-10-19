@@ -89,17 +89,22 @@ tags: ["life"]
 
 ## 更多链接：
 
-- [Personal Property Securities register (PPSR)](https://www.ppsr.gov.au/)
-- ["Buying a used car" on Queensland government website](https://www.qld.gov.au/transport/buying/rules/used)
-- ["How to buy a car?" Insider Guides](http://insiderguides.com.au/how-do-i-buy-a-car/?mc_cid=9ea1455210&mc_eid=4e993d551b)
-- [wikihow: how to buy a car](https://www.wikihow.com/Buy-a-Car)
-- [美国买车入门级教程](http://bbs.gter.net/thread-1926366-1-1.html)
+- 政府网站：
+	- [Personal Property Securities register (PPSR)](https://www.ppsr.gov.au/)
+	- ["Buying a used car" on Queensland government website](https://www.qld.gov.au/transport/buying/rules/used)
+	- [transfer registration(rego)](https://www.qld.gov.au/transport/registration/transfer/rego)
+	- [Safety certificates](https://www.qld.gov.au/transport/registration/roadworthy)
 - 澳洲买车网站：
 	- [carsales](https://www.carsales.com.au/)
 	- [gumtree](https://www.gumtree.com.au/cars)
 	- [cars guide](https://www.carsguide.com.au/)
 	- [Manheim](http://www.manheim.com.au/)
-- 汽车品牌
+	- [微博#布丁卖车#](https://s.weibo.com/weibo/%23%E5%B8%83%E4%B8%81%E5%8D%96%E8%BD%A6%23)
+- 网上教程：
+	- ["How to buy a car?" Insider Guides](http://insiderguides.com.au/how-do-i-buy-a-car/?mc_cid=9ea1455210&mc_eid=4e993d551b)
+	- [wikihow: how to buy a car](https://www.wikihow.com/Buy-a-Car)
+	- [美国买车入门级教程](http://bbs.gter.net/thread-1926366-1-1.html)
+- 汽车资料：
 	- [维基百科列表（英文）](https://en.wikipedia.org/wiki/List_of_car_brands)
 	- [维基百科列表（中文）](https://zh.wikipedia.org/wiki/%E6%B1%BD%E8%BB%8A%E5%93%81%E7%89%8C%E5%88%97%E8%A1%A8)
 	- [global cars brands](https://www.globalcarsbrands.com/all-car-brands-list-and-logos/)

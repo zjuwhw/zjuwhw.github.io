@@ -6,9 +6,56 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Oct 2018 09:38:24 +1000</pubDate>
-    <lastBuildDate>Fri, 19 Oct 2018 09:38:24 +1000</lastBuildDate>
+    <pubDate>Fri, 19 Oct 2018 10:09:46 +1000</pubDate>
+    <lastBuildDate>Fri, 19 Oct 2018 10:09:46 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>学车和考驾照</title>
+        <description>&lt;h3 id=&quot;澳洲驾照&quot;&gt;澳洲驾照：&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;General information:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/YAyAKtjlP0mR2kBDDzDFqw&quot;&gt;WeChat Blog&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/driver-licensing/applying/learner&quot;&gt;Learner licence&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Written test:
+    &lt;ul&gt;
+      &lt;li&gt;Prepration:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://publications.qld.gov.au/dataset/your-keys-to-driving-in-queensland&quot;&gt;Your keys to Driving in Queensland&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.service.transport.qld.gov.au/practiceroadrulestest/public/Welcome.xhtml?dswid=8558&quot;&gt;Online practice&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;How to apply:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/contacts/centres/view?title=Toowong%20Transport%20and%20Main%20Roads%20Customer%20Service%20Centre&quot;&gt;Toowong Transport and Main Road Customer Service Centre&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.support.transport.qld.gov.au/qt/formsdat.nsf/forms/QF3000/$file/F3000_CFD.pdf&quot;&gt;Form F3000&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/driver-licensing/identity&quot;&gt;Evidence of identity&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/getting/tests#practical&quot;&gt;Practical Driving Test&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/getting/education/learner&quot;&gt;Driving Tips for learner drivers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;我的经历&quot;&gt;我的经历&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2017年11月22日：通过笔试，获得Learner驾照（有效期至2020年11月21日），花费190刀（三年驾照166.76刀 + 笔试费24刀）&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 19 Oct 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/10/19/driving.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/10/19/driving.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>我的牙齿-上海</title>
@@ -713,20 +760,31 @@ Following are some examples:&lt;/p&gt;
 &lt;h2 id=&quot;更多链接&quot;&gt;更多链接：&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ppsr.gov.au/&quot;&gt;Personal Property Securities register (PPSR)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/buying/rules/used&quot;&gt;“Buying a used car” on Queensland government website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://insiderguides.com.au/how-do-i-buy-a-car/?mc_cid=9ea1455210&amp;amp;mc_eid=4e993d551b&quot;&gt;“How to buy a car?” Insider Guides&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.wikihow.com/Buy-a-Car&quot;&gt;wikihow: how to buy a car&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bbs.gter.net/thread-1926366-1-1.html&quot;&gt;美国买车入门级教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;政府网站：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.ppsr.gov.au/&quot;&gt;Personal Property Securities register (PPSR)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/buying/rules/used&quot;&gt;“Buying a used car” on Queensland government website&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/registration/transfer/rego&quot;&gt;transfer registration(rego)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/registration/roadworthy&quot;&gt;Safety certificates&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;澳洲买车网站：
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.carsales.com.au/&quot;&gt;carsales&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.gumtree.com.au/cars&quot;&gt;gumtree&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.carsguide.com.au/&quot;&gt;cars guide&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.manheim.com.au/&quot;&gt;Manheim&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://s.weibo.com/weibo/%23%E5%B8%83%E4%B8%81%E5%8D%96%E8%BD%A6%23&quot;&gt;微博#布丁卖车#&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;汽车品牌
+  &lt;li&gt;网上教程：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://insiderguides.com.au/how-do-i-buy-a-car/?mc_cid=9ea1455210&amp;amp;mc_eid=4e993d551b&quot;&gt;“How to buy a car?” Insider Guides&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.wikihow.com/Buy-a-Car&quot;&gt;wikihow: how to buy a car&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://bbs.gter.net/thread-1926366-1-1.html&quot;&gt;美国买车入门级教程&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;汽车资料：
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_car_brands&quot;&gt;维基百科列表（英文）&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%B1%BD%E8%BB%8A%E5%93%81%E7%89%8C%E5%88%97%E8%A1%A8&quot;&gt;维基百科列表（中文）&lt;/a&gt;&lt;/li&gt;
@@ -1014,67 +1072,6 @@ $ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
         <guid isPermaLink="true">http://localhost:4000/2018/05/29/data_usage.html</guid>
         
         <category>cs</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>厨房用品</title>
-        <description>&lt;p&gt;来澳洲已经&lt;a href=&quot;http://zjuwhw.github.io/2016/12/18/phd-application.html&quot;&gt;一年多了&lt;/a&gt;，为了省钱，目前一日三餐都是在家里自己做的。写这个博客，主要的目的是整理一下平时我用过的厨房用品，以及对应的英文名字。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/saxa-table-salt-iodised&quot;&gt;Iodised Table Salt&lt;/a&gt;：加碘盐&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-smart-buy-salt-cooking&quot;&gt;Coles Cooking Salt&lt;/a&gt;：盐&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-sugar-white&quot;&gt;Coles White Sugar&lt;/a&gt;：白糖&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-brand-oil-canola&quot;&gt;Coles Canola Oil&lt;/a&gt;：&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%8F%9C%E7%B1%BD%E6%B2%B9&quot;&gt;芥花油&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-vic-metro-roxburgh/product/coles-oil-canola-cooking-spray&quot;&gt;Coles Conala Oil Spray&lt;/a&gt;：芥花油喷雾&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-ground-black-pepper&quot;&gt;Coles Gound Black Pepper&lt;/a&gt;：黑胡椒粉&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-shredded-coconut&quot;&gt;Coles Shredded Coconut&lt;/a&gt;：椰子丝&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-cornflour&quot;&gt;Coles Cornflour&lt;/a&gt;：玉米粉&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-flour-plain-white-5880841p&quot;&gt;Coles White Plain Flour&lt;/a&gt;: 中筋面粉&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-flour-self-raising-white&quot;&gt;Coles White Self Raising Flour&lt;/a&gt;: 低筋面粉&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/coles-polka-dot-patty-pans&quot;&gt;Coles Polka Dot Patty Pans&lt;/a&gt;：圆点蛋糕托&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/lee-kum-kee-sauce-soy-premium&quot;&gt;Lee Kum Kee premium soy sauce&lt;/a&gt;：李锦记特级生抽&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Lee-Kum-Kee-Premium-Sauce/dp/B0001EJ4CU&quot;&gt;Lee Kum Kee premium dark soy sauce&lt;/a&gt;：李锦记特级老抽&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/lee-kum-kee-sauce-vegetarian-stir-fry&quot;&gt;Lee Kum Kee Vegetarian Stir Fry Sauce&lt;/a&gt;：李锦记素食耗油&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/lee-kum-kee-sauce-chilli-garlic&quot;&gt;Lee Kum Kee chilli garlic sauce&lt;/a&gt;： 李锦记蒜蓉辣椒酱&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/masterfoods-cumin-seed-whole&quot;&gt;MasterFoods Whole Cumin Seeds&lt;/a&gt;：孜然粒&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.woolworths.com.au/shop/productdetails/274623/chin-kiang-ingredients-vinegar&quot;&gt;Chinkiang vinegar&lt;/a&gt;：镇江陈醋&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/tandaco-yeast-dry&quot;&gt;Tandaco dry yeast&lt;/a&gt;：酵母&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/erawan-tapioca-starch&quot;&gt;Erawan Tapioca Starch&lt;/a&gt;：木薯淀粉/芡粉&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/erawan-flour-rice-glutinous&quot;&gt;Erawan Glutinous Rice Flour&lt;/a&gt;：糯米粉&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://shop.coles.com.au/a/a-national/product/nisshin-bread-crumbs-panko&quot;&gt;Nisshin Panko Bread Crumbs&lt;/a&gt;：日清面包糠&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.woolworths.com.au/Shop/ProductDetails/848770/sun-swallow-szechuan-pepper&quot;&gt;Sun Swallow Szechuan Pepper&lt;/a&gt;：日燕特级川花椒&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://yuensmarket.com.au/product/pssschp113&quot;&gt;Sun Swallow Chilli Powder&lt;/a&gt;：日燕特级辣椒粉&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://yuensmarket.com.au/product/pssscup113&quot;&gt;Sun Swallow Cumin Powder&lt;/a&gt;：日燕特级孜然粉&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.buyasianfood.com.au/_products/HerbsSpices(Dried)/SunSwallowStarAnise50G-61-5090-.aspx&quot;&gt;Sun Swallow Star Anise&lt;/a&gt;：日燕特级大红八角&lt;/li&gt;
-  &lt;li&gt;Sun Swallow Dried Cinnamone：日燕特级桂皮&lt;/li&gt;
-  &lt;li&gt;Sun Swallow Dried Chili (M)：日燕中辣椒干&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.crazyasia.com.au/spices/heng-fai-xanthoxylum-piperitun-pricklyash-powder-100g?zenid=cqh4479ub17fgt5j1kjr3gtrf4&quot;&gt;Heng Fai Pricklysah Powder&lt;/a&gt;：恒晖特级花椒粉&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.hengfai.com.au/getdetailitem.php?string=4c756d70205375676172&quot;&gt;Heng Fai Lump Sugar&lt;/a&gt;：恒晖水晶单晶糖&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.buyasianfood.com.au/_products/HerbsSpices(Dried)/PandarooMadrasCurryPowder-61-22348-.aspx&quot;&gt;Pandaroo Madras Curry Powder&lt;/a&gt;：咖喱粉&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.buyasianfood.com.au/_products/JapaneseKorean/Seaweed/PandarooYakiNoriForSushi25G-125-2323-.aspx&quot;&gt;Pandaroo yaki sushi nori&lt;/a&gt;：寿司用紫菜&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.exoticgroceries.com.au//product_info.php?manufacturers_id=2434Pandaroo&amp;amp;products_id=43759&amp;amp;osCsid=fa428v57uh35e3hjvntjntcn24&quot;&gt;Pandaroo Shao Hsing Cooking Wine&lt;/a&gt;：陈年厨房用花雕酒&lt;/li&gt;
-  &lt;li&gt;Hot Soy Bean Paste: 川老汇红油郫县豆瓣酱&lt;/li&gt;
-  &lt;li&gt;Sesame Paste: 同发祥芝麻酱&lt;/li&gt;
-  &lt;li&gt;Soybean Paste: 六月香豆瓣酱&lt;/li&gt;
-  &lt;li&gt;Bean Chili with Pork Mince: 老干妈肉丝豆豉油辣椒&lt;/li&gt;
-  &lt;li&gt;Sesame Oil：王致和芝麻香油&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;产品对应的网络链接来自于澳洲超市&lt;a href=&quot;https://shop.coles.com.au/a/a-national/everything/browse&quot;&gt;Coles&lt;/a&gt;，&lt;a href=&quot;https://www.woolworths.com.au/&quot;&gt;Woolworths&lt;/a&gt;，&lt;a href=&quot;https://yuensmarket.com.au/&quot;&gt;亚洲超市Yuan‘s Market（袁氏行）&lt;/a&gt;或者其他网络图片。&lt;/p&gt;
-
-&lt;h3 id=&quot;拓展资料&quot;&gt;拓展资料&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.douban.com/note/197799643/&quot;&gt;各式食材中英文對照&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 06 May 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/05/06/kitchen.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/05/06/kitchen.html</guid>
-        
-        <category>life</category>
         
         
       </item>
