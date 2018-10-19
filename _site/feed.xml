@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Oct 2018 10:09:46 +1000</pubDate>
-    <lastBuildDate>Fri, 19 Oct 2018 10:09:46 +1000</lastBuildDate>
+    <pubDate>Fri, 19 Oct 2018 10:53:59 +1000</pubDate>
+    <lastBuildDate>Fri, 19 Oct 2018 10:53:59 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -39,7 +39,17 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/getting/tests#practical&quot;&gt;Practical Driving Test&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;学车&quot;&gt;学车&lt;/h3&gt;
+
+&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/getting/education/learner&quot;&gt;Driving Tips for learner drivers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/getting/schools&quot;&gt;driving school&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.yellowpages.com.au/search/listings?clue=Driving+Lessons+%26+Schools&amp;amp;locationClue=4067&amp;amp;lat=&amp;amp;lon=&quot;&gt;Yellow pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.indooroopillydrivingschool.com.au/faq.html&quot;&gt;Indooroopilly driving school&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.noyelling.com.au/&quot;&gt;No Yelling Driving School&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;华人教练&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;我的经历&quot;&gt;我的经历&lt;/h3&gt;
@@ -47,6 +57,7 @@
 &lt;ul&gt;
   &lt;li&gt;2017年11月22日：通过笔试，获得Learner驾照（有效期至2020年11月21日），花费190刀（三年驾照166.76刀 + 笔试费24刀）&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Fri, 19 Oct 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/10/19/driving.html</link>
