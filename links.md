@@ -368,7 +368,7 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [IHEC](http://ihec-epigenomes.org/)
 - [1000 Genomes](http://www.1000genomes.org/)
 - [TARGET](http://target.nci.nih.gov/dataMatrix/)
-- [GTEx(Genotype-Tissue Expression)](http://www.gtexportal.org/home/)
+- [GTEx(Genotype-Tissue Expression)](http://www.gtexportal.org/home/), [Nature Collection](https://www.nature.com/collections/dcfzxywzby)
 - [Fantom5](http://fantom.gsc.riken.jp/5/)
 - [CCLE](http://www.broadinstitute.org/ccle/home)
 - [HMP](http://hmpdacc.org/)
@@ -401,7 +401,7 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 
 ## Consortium
 
-- [UKB(UK Biobank)](http://www.ukbiobank.ac.uk/)
+- [UKB(UK Biobank)](http://www.ukbiobank.ac.uk/), [Nature Collection](https://www.nature.com/collections/bpthhnywqk)
 - [BBMRI-NL(Biobanking and BioMolecular resources Research Infrastructure The Netherlands)](http://www.bbmri.nl/)
 - [GIANT(Genetic Investigation of Anthropometric Traits)](http://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium)
 - [PGC(Psychiatric Genomics Consortium)](https://www.med.unc.edu/pgc)

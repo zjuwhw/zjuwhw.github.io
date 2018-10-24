@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Oct 2018 10:53:59 +1000</pubDate>
-    <lastBuildDate>Fri, 19 Oct 2018 10:53:59 +1000</lastBuildDate>
+    <pubDate>Wed, 24 Oct 2018 19:39:06 +1000</pubDate>
+    <lastBuildDate>Wed, 24 Oct 2018 19:39:06 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -56,6 +56,12 @@
 
 &lt;ul&gt;
   &lt;li&gt;2017年11月22日：通过笔试，获得Learner驾照（有效期至2020年11月21日），花费190刀（三年驾照166.76刀 + 笔试费24刀）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;其他资料&quot;&gt;其他资料&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.wikihow.com/Drive-a-Car&quot;&gt;wikihow “how to drive a car”&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
