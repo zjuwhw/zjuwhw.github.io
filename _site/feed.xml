@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Oct 2018 19:39:06 +1000</pubDate>
-    <lastBuildDate>Wed, 24 Oct 2018 19:39:06 +1000</lastBuildDate>
+    <pubDate>Mon, 29 Oct 2018 14:22:27 +1000</pubDate>
+    <lastBuildDate>Mon, 29 Oct 2018 14:22:27 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -165,12 +165,12 @@
         <title>我的牙齿-澳洲求医</title>
         <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#我的治牙经历&quot; id=&quot;markdown-toc-我的治牙经历&quot;&gt;我的治牙经历&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#澳洲检查&quot; id=&quot;markdown-toc-澳洲检查&quot;&gt;澳洲检查&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#目前疑惑&quot; id=&quot;markdown-toc-目前疑惑&quot;&gt;目前疑惑&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#对澳洲治疗&quot; id=&quot;markdown-toc-对澳洲治疗&quot;&gt;对澳洲治疗&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#对回国治疗&quot; id=&quot;markdown-toc-对回国治疗&quot;&gt;对回国治疗&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20181008&quot; id=&quot;markdown-toc-澳洲看牙20181008&quot;&gt;澳洲看牙（20181008）&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#目前疑惑&quot; id=&quot;markdown-toc-目前疑惑&quot;&gt;目前疑惑&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20181025&quot; id=&quot;markdown-toc-澳洲看牙20181025&quot;&gt;澳洲看牙（20181025）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20181029&quot; id=&quot;markdown-toc-澳洲看牙20181029&quot;&gt;澳洲看牙（20181029）&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#其他信息&quot; id=&quot;markdown-toc-其他信息&quot;&gt;其他信息：&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#另外两张x光片&quot; id=&quot;markdown-toc-另外两张x光片&quot;&gt;另外两张X光片&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -217,15 +217,13 @@
   &lt;li&gt;治疗非常的痛苦：不仅费用昂贵，而且治疗过程很疼，有时一颗牙还要治疗多次。&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;澳洲检查&quot;&gt;澳洲检查&lt;/h3&gt;
+&lt;h3 id=&quot;澳洲看牙20181008&quot;&gt;澳洲看牙（20181008）&lt;/h3&gt;
 
 &lt;p&gt;这次在澳大利亚&lt;a href=&quot;https://stluciadental.com.au/&quot;&gt;St Lucia Dental&lt;/a&gt;做了一个检查（还包括拍片和洗牙）。共花费249刀（约1250人民币；已扣除10%的学生折扣）。他们给出的治疗建议如下：&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/teeth-au-4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;目前疑惑&quot;&gt;目前疑惑&lt;/h3&gt;
-
-&lt;h4 id=&quot;对澳洲治疗&quot;&gt;对澳洲治疗&lt;/h4&gt;
+&lt;h4 id=&quot;目前疑惑&quot;&gt;目前疑惑&lt;/h4&gt;
 
 &lt;p&gt;这次检查：&lt;/p&gt;
 
@@ -253,22 +251,16 @@
   &lt;li&gt;为什么只有根管推荐了回国？补牙加起来也很贵，是否也可以回国治疗。&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4 id=&quot;对回国治疗&quot;&gt;对回国治疗&lt;/h4&gt;
+&lt;h3 id=&quot;澳洲看牙20181025&quot;&gt;澳洲看牙（20181025）&lt;/h3&gt;
 
-&lt;p&gt;如果可以回国治疗，意味着可以节省很多费用，但同时我也有很多担心。就如同&lt;a href=&quot;https://www.ada.org.au/Your-Dental-Health/Adults-31-64/Dental-Tourism&quot;&gt;澳洲牙医协会关于“治牙旅行”的文章&lt;/a&gt;，主要是：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;没治好&lt;/li&gt;
-  &lt;li&gt;医疗水平&lt;/li&gt;
-  &lt;li&gt;他们发现了“超级细菌（Superbugs）”&lt;/li&gt;
-  &lt;li&gt;太多治疗，太少时间&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h3 id=&quot;澳洲看牙20181029&quot;&gt;澳洲看牙（20181029）&lt;/h3&gt;
 
 &lt;h3 id=&quot;其他信息&quot;&gt;其他信息：&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.smile.com.au/dental-fees/qld&quot;&gt;Smile网站给出的澳洲治牙参考费用&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/60513156&quot;&gt;知乎问题“美国的牙医水平与中国相比如何？”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ada.org.au/Your-Dental-Health/Adults-31-64/Dental-Tourism&quot;&gt;澳洲牙医协会关于“治牙旅行”的文章&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;另外两张x光片&quot;&gt;另外两张X光片&lt;/h3&gt;
