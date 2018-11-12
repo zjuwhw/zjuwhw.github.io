@@ -59,6 +59,7 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [William Hill](https://en.wikipedia.org/wiki/Bill_Hill_(geneticist))
 - [Bruce Weir](http://sph.washington.edu/faculty/fac_bio.asp?url_ID=Weir_Bruce)
 - [Patrick Sullivan](https://www.med.unc.edu/genetics/sullivanlab/)
+- [George Davey Smith](https://scholar.google.com/citations?hl=en&user=OOVzKokAAAAJ&view_op=list_works&sortby=pubdate)
 
 ### Genome Research
 

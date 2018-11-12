@@ -6,9 +6,30 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Oct 2018 14:22:27 +1000</pubDate>
-    <lastBuildDate>Mon, 29 Oct 2018 14:22:27 +1000</lastBuildDate>
+    <pubDate>Mon, 12 Nov 2018 13:58:40 +1000</pubDate>
+    <lastBuildDate>Mon, 12 Nov 2018 13:58:40 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Mendelian Randomization study</title>
+        <description>&lt;p&gt;MR-Egger:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1093/ije/dyv080&quot;&gt;Bowden, J., Davey Smith, G. &amp;amp; Burgess, S. Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression. Int. J. Epidemiol. 44, 512–525 (2015)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SMR&lt;/p&gt;
+
+&lt;p&gt;GSMR&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 Nov 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/11/09/MR.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/09/MR.html</guid>
+        
+        <category>GWAS</category>
+        
+        <category>bio</category>
+        
+        
+      </item>
     
       <item>
         <title>学车和考驾照</title>
@@ -253,7 +274,16 @@
 
 &lt;h3 id=&quot;澳洲看牙20181025&quot;&gt;澳洲看牙（20181025）&lt;/h3&gt;
 
+&lt;p&gt;补了右上的两颗，花费522刀。&lt;/p&gt;
+
 &lt;h3 id=&quot;澳洲看牙20181029&quot;&gt;澳洲看牙（20181029）&lt;/h3&gt;
+
+&lt;p&gt;补了中间的三颗，花费717刀。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;20181101打电话反馈：前面两个牙齿对冷和热敏感度变高，预约了医生。&lt;/li&gt;
+  &lt;li&gt;20181105医生打电话来：建议再等一周时间。&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;其他信息&quot;&gt;其他信息：&lt;/h3&gt;
 
@@ -1021,66 +1051,6 @@ D' = \frac{D}{min[p_Ap_B, (1-p_A)(1-p_B)]}\text{, if D &lt; 0} %]]&gt;&lt;/scrip
         <category>GWAS</category>
         
         <category>genetics</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Shell commands to check data usage</title>
-        <description>&lt;p&gt;It’s good to check the status of your own data usage. Here are some commands I find useful. Check &lt;code class=&quot;highlighter-rouge&quot;&gt;man du&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;man df&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;man find&lt;/code&gt; for more information.&lt;/p&gt;
-
-&lt;h3 id=&quot;use-df-to-check-disk-space-usage&quot;&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;df&lt;/code&gt; to check disk space usage&lt;/h3&gt;
-
-&lt;p&gt;The command &lt;code class=&quot;highlighter-rouge&quot;&gt;df&lt;/code&gt; can be used to report disk space usage.&lt;/p&gt;
-
-&lt;p&gt;Below is an example to report the space usage of disk /shares/compbio, which is for our group.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ df -h|grep comp
-
-10.100.136.1@tcp:/compbio
-                      100T   93T  2.2T  98% /shares/compbio
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;use-du-to-check-file-space-usage&quot;&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;du&lt;/code&gt; to check file space usage&lt;/h3&gt;
-
-&lt;p&gt;The command &lt;code class=&quot;highlighter-rouge&quot;&gt;du&lt;/code&gt; can be used to report file space usage.&lt;/p&gt;
-
-&lt;p&gt;Here is an example to report the file space in my folder, where “–max-depth” is the option to set the level of directory/subdirectory and “–h” is the option to print in human-readable format.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-$ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
-
-76G    ./reference
-648M    ./software
-658G    ./meQTL
-979M    ./learning
-1.7T    ./projects
-2.4T    .
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;use-find-and-wc-to-count-the-file-number&quot;&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;find&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;wc&lt;/code&gt; to count the file number&lt;/h3&gt;
-
-&lt;p&gt;The command &lt;code class=&quot;highlighter-rouge&quot;&gt;find&lt;/code&gt; can be used to walk through all files and folders and we can combine &lt;code class=&quot;highlighter-rouge&quot;&gt;find&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;wc&lt;/code&gt; to count the file number in your folder.&lt;/p&gt;
-
-&lt;p&gt;Here is an example to count the number of files.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$  find /gpfs/gpfs01/polaris/Q0286/huanwei.wang -type f | wc -l
-
-68737
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Another example is to count the number of folders.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$  find /gpfs/gpfs01/polaris/Q0286/huanwei.wang -type d | wc -l
-
-1498
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Tue, 29 May 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/05/29/data_usage.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/05/29/data_usage.html</guid>
-        
-        <category>cs</category>
         
         
       </item>
