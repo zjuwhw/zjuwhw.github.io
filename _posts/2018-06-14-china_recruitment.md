@@ -30,7 +30,9 @@ tags: ["life"]
 
 ### 官方链接
 
-
+- 北京生命科学研究所：[官网](http://www.nibs.ac.cn/)
+- 北京大学生命科学学院：[官网](http://www.bio.pku.edu.cn/)
+- 清华大学生命科学学院：[官网](https://life.tsinghua.edu.cn/)
 - 浙江大学：
 	- 浙江大学生命科学研究院：[官网](http://lsi.zju.edu.cn/)，[招聘公告](http://lsi.zju.edu.cn/redir.php?catalog_id=13706&object_id=68180)
 	- 浙江大学遗传学研究所：[官网](http://www.ig.zju.edu.cn/)，[招聘公告](http://www.ig.zju.edu.cn/redir.php?catalog_id=10011&object_id=21622)
