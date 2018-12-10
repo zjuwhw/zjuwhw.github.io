@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Dec 2018 09:58:34 +1000</pubDate>
-    <lastBuildDate>Wed, 05 Dec 2018 09:58:34 +1000</lastBuildDate>
+    <pubDate>Mon, 10 Dec 2018 20:13:01 +1000</pubDate>
+    <lastBuildDate>Mon, 10 Dec 2018 20:13:01 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -848,6 +848,13 @@ Following are some examples:&lt;/p&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.car-logos.org/&quot;&gt;car logo&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;个人经历&quot;&gt;个人经历&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2018年11月18日，在朋友的帮助下查看了一辆车（&lt;a href=&quot;https://www.carsales.com.au/cars/details/Honda-Civic-2008/SSE-AD-5765728/?_ga=2.131300687.1711095904.1542417375-1183647803.1539662075&quot;&gt;2008 Honda Civic&lt;/a&gt;），最终没买；&lt;/li&gt;
+  &lt;li&gt;2018年12月10日，签了合同，交了钱（6500刀），买了一辆车（&lt;a href=&quot;https://www.carsales.com.au/cars/details/Ford-Fiesta-2012/SSE-AD-5805973?_ga=2.28691772.1474406298.1544055276-1183647803.1539662075&amp;amp;from=singlemessage&quot;&gt;2012 Ford Fiesta&lt;/a&gt;）&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 30 Jun 2018 00:00:00 +1000</pubDate>

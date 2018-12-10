@@ -109,3 +109,8 @@ tags: ["life"]
 	- [维基百科列表（中文）](https://zh.wikipedia.org/wiki/%E6%B1%BD%E8%BB%8A%E5%93%81%E7%89%8C%E5%88%97%E8%A1%A8)
 	- [global cars brands](https://www.globalcarsbrands.com/all-car-brands-list-and-logos/)
 	- [car logo](http://www.car-logos.org/)
+
+## 个人经历
+
+- 2018年11月18日，在朋友的帮助下查看了一辆车（[2008 Honda Civic](https://www.carsales.com.au/cars/details/Honda-Civic-2008/SSE-AD-5765728/?_ga=2.131300687.1711095904.1542417375-1183647803.1539662075)），最终没买；
+- 2018年12月10日，签了合同，交了钱（6500刀），买了一辆车（[2012 Ford Fiesta](https://www.carsales.com.au/cars/details/Ford-Fiesta-2012/SSE-AD-5805973?_ga=2.28691772.1474406298.1544055276-1183647803.1539662075&from=singlemessage)）
