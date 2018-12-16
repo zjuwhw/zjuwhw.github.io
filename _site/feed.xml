@@ -6,9 +6,57 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Dec 2018 20:13:01 +1000</pubDate>
-    <lastBuildDate>Mon, 10 Dec 2018 20:13:01 +1000</lastBuildDate>
+    <pubDate>Sun, 16 Dec 2018 13:00:52 +1000</pubDate>
+    <lastBuildDate>Sun, 16 Dec 2018 13:00:52 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>《中国近代史》笔记</title>
+        <description>&lt;p&gt;陆陆续续读《&lt;a href=&quot;https://book.douban.com/subject/2376486/&quot;&gt;中国近代史》（徐中约 著）&lt;/a&gt;已经有一段时间了。在澳大利亚昆大学的博物馆中找到中文书籍还是很喜出望外的，虽然是繁体字，但是读起来几乎没有障碍。&lt;/p&gt;
+
+&lt;h3 id=&quot;清朝1644-1911&quot;&gt;清朝（1644-1911）&lt;/h3&gt;
+&lt;h4 id=&quot;顺治1644-1661&quot;&gt;顺治（1644-1661）&lt;/h4&gt;
+&lt;h4 id=&quot;康熙1662-1722&quot;&gt;康熙（1662-1722）&lt;/h4&gt;
+&lt;h4 id=&quot;雍正1723-1735&quot;&gt;雍正（1723-1735）&lt;/h4&gt;
+&lt;h4 id=&quot;乾隆1736-1795&quot;&gt;乾隆（1736-1795）&lt;/h4&gt;
+&lt;h4 id=&quot;嘉庆1796-1820&quot;&gt;嘉庆（1796-1820）&lt;/h4&gt;
+&lt;h4 id=&quot;道光1821-1850&quot;&gt;道光（1821-1850）&lt;/h4&gt;
+&lt;h4 id=&quot;咸丰1851-1861&quot;&gt;咸丰（1851-1861）&lt;/h4&gt;
+&lt;h4 id=&quot;同治1862-1874&quot;&gt;同治（1862-1874）&lt;/h4&gt;
+&lt;h4 id=&quot;光绪1875-1908&quot;&gt;光绪（1875-1908）&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1894：中日甲午战争&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;宣统1909-1911&quot;&gt;宣统（1909-1911）&lt;/h4&gt;
+
+&lt;h3 id=&quot;中华民国1912-&quot;&gt;中华民国（1912-）&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1919：五四运动&lt;/li&gt;
+  &lt;li&gt;1921: 中国共产党的成立&lt;/li&gt;
+  &lt;li&gt;1928: 南京国民政府&lt;/li&gt;
+  &lt;li&gt;1931：九一八事变&lt;/li&gt;
+  &lt;li&gt;1937: 卢沟桥事变/七七事变&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;中华人民共和国1949-&quot;&gt;中华人民共和国（1949-）&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1966: 文化大革命的开始&lt;/li&gt;
+  &lt;li&gt;1976: 周恩来、朱德、毛泽东，先后逝世&lt;/li&gt;
+  &lt;li&gt;1978: 中共十一届三中全会&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 16 Dec 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/12/16/modern-china-story.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/12/16/modern-china-story.html</guid>
+        
+        <category>book</category>
+        
+        
+      </item>
     
       <item>
         <title>Mendelian Randomization study</title>
@@ -855,6 +903,7 @@ Following are some examples:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;2018年11月18日，在朋友的帮助下查看了一辆车（&lt;a href=&quot;https://www.carsales.com.au/cars/details/Honda-Civic-2008/SSE-AD-5765728/?_ga=2.131300687.1711095904.1542417375-1183647803.1539662075&quot;&gt;2008 Honda Civic&lt;/a&gt;），最终没买；&lt;/li&gt;
   &lt;li&gt;2018年12月10日，签了合同，交了钱（6500刀），买了一辆车（&lt;a href=&quot;https://www.carsales.com.au/cars/details/Ford-Fiesta-2012/SSE-AD-5805973?_ga=2.28691772.1474406298.1544055276-1183647803.1539662075&amp;amp;from=singlemessage&quot;&gt;2012 Ford Fiesta&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;2018年12月11日，去&lt;a href=&quot;https://www.qld.gov.au/transport/contacts/centres/view?title=Toowong%20Transport%20and%20Main%20Roads%20Customer%20Service%20Centre&quot;&gt;交通局&lt;/a&gt;办理了&lt;a href=&quot;https://www.qld.gov.au/transport/registration/transfer/rego&quot;&gt;注册转移&lt;/a&gt;，交了43.5刀。另外还买了RACQ的全险（&lt;a href=&quot;https://www.racq.com.au/insurance/get-insurance/car-insurance/comprehensive-car-insurance&quot;&gt;comprehensive car insurance&lt;/a&gt;）&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 30 Jun 2018 00:00:00 +1000</pubDate>
@@ -938,146 +987,6 @@ Following are some examples:&lt;/p&gt;
         <guid isPermaLink="true">http://localhost:4000/2018/06/14/china_recruitment.html</guid>
         
         <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>LD and Allele frequency</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#linkage-disequilibrium-ld&quot;&gt;Linkage Disequilibrium (LD)&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#haplotype-and-allele-frequencies&quot;&gt;Haplotype and Allele
-Frequencies&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#measure-d&quot;&gt;Measure D&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#measure-r2&quot;&gt;Measure &lt;em&gt;r&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#measure-d-1&quot;&gt;Measure D’&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#notes&quot;&gt;Notes&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#quantification-of-relationship-between-allele-frequencies-and-r2&quot;&gt;Quantification of relationship between allele frequencies and
-&lt;em&gt;r&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#further-reading&quot;&gt;Further reading&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;linkage-disequilibrium-ld&quot;&gt;Linkage Disequilibrium (LD)&lt;/h3&gt;
-
-&lt;h4 id=&quot;haplotype-and-allele-frequencies&quot;&gt;Haplotype and Allele Frequencies&lt;/h4&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr class=&quot;header&quot;&gt;
-&lt;th align=&quot;left&quot;&gt;Locus A&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;Locus B Allele 1&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;Allele 2&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;Allele frequency&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&quot;odd&quot;&gt;
-&lt;td align=&quot;left&quot;&gt;Allele 1&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;A&lt;/em&gt;&lt;em&gt;B&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;A&lt;/em&gt;&lt;em&gt;b&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;A&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&quot;even&quot;&gt;
-&lt;td align=&quot;left&quot;&gt;Allele 2&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;a&lt;/em&gt;&lt;em&gt;B&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;a&lt;/em&gt;&lt;em&gt;b&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;a&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&quot;odd&quot;&gt;
-&lt;td align=&quot;left&quot;&gt;Allele frequency&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;B&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;b&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Firstly, as $p_a = 1 - p_A$, $p_b = 1 - p_B$, we can calculate $p_a$ or $p_b$, if we know $p_A$ or $p_B$.&lt;/p&gt;
-
-&lt;p&gt;Secondly, as $p_{Ab} = p_{A} - p_{AB}$, $p_{aB} = p_{B} - p_{AB}$, $p_{ab} = 1 - p_{A} - p_{B} + p_{AB}$, we can calcuate $p_{Ab}\text{, }p_{aB}\text{ and }p_{AB}$, if we know $p_{AB}$.&lt;/p&gt;
-
-&lt;p&gt;As the frequency of all four haplotype need to be greater or equal to 0, so we can know:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_A + p_B - 1 \le p_{AB} \le min[p_A,p_B]&lt;/script&gt;
-
-&lt;h4 id=&quot;measure-d&quot;&gt;Measure D&lt;/h4&gt;
-
-&lt;p&gt;Define that $D = p_{AB} - p_A \times p_B$, so we can know:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;-(1-p_A)(1-p_B) \le D \le min[p_A(1-p_B), p_B(1-p_A)]&lt;/script&gt;
-
-&lt;p&gt;, and&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;p_{AB} = p_A \times p_B\text{, then }D = 0&lt;/script&gt;
-
-&lt;h4 id=&quot;measure-r2&quot;&gt;Measure &lt;em&gt;r&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/h4&gt;
-
-&lt;p&gt;The LD measure $r^2$ is the squared correlation, where r scales D by the standard deviations of the allele frequencies at two loci:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;r^2 = \frac{D^2}{p_Ap_B(1-p_A)(1-p_B)}&lt;/script&gt;
-
-&lt;p&gt;As I assume A and B are the major allele for loci 1 and 2, respectively, we can see:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1-p_A)^2(1-p_B)^2 \le p_A^2(1-p_B)^2&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1-p_A)^2(1-p_B)^2\le(1-p_A)^2p_B^2&lt;/script&gt;
-
-&lt;p&gt;and the range of $r^2$ is&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;0 \le r^2 \le min[\frac{p_A(1-p_B)}{(1-p_A)p_B}, \frac{(1-p_A)p_B}{p_A(1-p_B)}]&lt;/script&gt;
-
-&lt;h4 id=&quot;measure-d-1&quot;&gt;Measure D’&lt;/h4&gt;
-
-&lt;p&gt;The D’ scales D by its maximum value given the allele frequencies:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;D' = \frac{D}{min[p_A(1-p_B), p_B(1-p_A)]}\text{, if D &gt; 0}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-D' = \frac{D}{min[p_Ap_B, (1-p_A)(1-p_B)]}\text{, if D &lt; 0} %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;|D’| has range 0-1 regardless of allele frequency&lt;/p&gt;
-
-&lt;h4 id=&quot;notes&quot;&gt;Notes&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;high |D’| and high $r^2$: the presence of only two haplotypes, small difference in allele frequency;&lt;/li&gt;
-  &lt;li&gt;high |D’| and low $r^2$: presence of only three haplotypes, different allele frquencies;&lt;/li&gt;
-  &lt;li&gt;low |D’| and low $r^2$: random coupling of alleles and presence of all four haplotypes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;quantification-of-relationship-between-allele-frequencies-and-r2&quot;&gt;Quantification of relationship between allele frequencies and $r^2$&lt;/h3&gt;
-
-&lt;p&gt;Furthermore, if we assume $p_B = p_A + v$, we can know:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;2p_A+v-1 \le p_{AB} \le min[p_A,p_A+v]&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;-(1-p_A)(1-p_A -v) \le D \le min[p_A(1-p_A-v),(p_A+v)(1-p_A)]&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;0 \le r^2 \le min[\frac{p_A(1-p_A-v)}{(p_A+v)(1-p_A)}, \frac{(p_A+v)(1-p_A)}{p_A(1-p_A-v)}]&lt;/script&gt;
-
-&lt;p&gt;If we set a threshold for $r^2$, i.e. $r^2 \ge t \ge 0$, then&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;-\frac{p_A(1-p_A)(1-t)}{1-p_A(1-t)} \le v \le \frac{p_A(1-p_A)(1-t)}{p_A(1-t)+t}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{tp_A}{1-p_A(1-t)} \le p_B \le \frac{p_A}{p_A(1-t)+t}&lt;/script&gt;
-
-&lt;h3 id=&quot;further-reading&quot;&gt;Further reading&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;shiny app: &lt;a href=&quot;https://huanwei.shinyapps.io/ldfrq/&quot;&gt;https://huanwei.shinyapps.io/ldfrq/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/15901470&quot;&gt;Naomi R. Wray. Twin Research and Human Genetics. 2005.&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Fri, 01 Jun 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/06/01/rsq_allele.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/06/01/rsq_allele.html</guid>
-        
-        <category>GWAS</category>
-        
-        <category>genetics</category>
         
         
       </item>
