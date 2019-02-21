@@ -52,14 +52,15 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [Danielle Posthuma](https://ctg.cncr.nl/)
 - [Mark McCarthy](https://www.ndm.ox.ac.uk/principal-investigators/researcher/mark-mccarthy)
 - [Carl Anderson](http://www.sanger.ac.uk/people/directory/anderson-carl)
-- [George Davey Smith](http://www.bristol.ac.uk/cardiovascular/people/george-davey-smith/index.html)
+- [George Davey Smith](http://www.bristol.ac.uk/cardiovascular/people/george-davey-smith/index.html): [google scholar](https://scholar.google.com/citations?hl=en&user=OOVzKokAAAAJ&view_op=list_works&sortby=pubdate)
 - [Jie Zheng](http://www.bris.ac.uk/social-community-medicine/people/jie-zheng/overview.html)
 - [Jonathan Mill](http://www.epigenomicslab.com/)
+- [Ian Deary](https://www.ed.ac.uk/profile/ian-deary)
+- [Riccardo E. Marioni](https://www.ed.ac.uk/centre-genomic-medicine/research-groups/marioni-group), [google scholar](https://scholar.google.co.uk/citations?user=gA3Ik3MAAAAJ&hl=en)
 - [Nick Barton](https://ist.ac.at/research/research-groups/barton-group/)
 - [William Hill](https://en.wikipedia.org/wiki/Bill_Hill_(geneticist))
 - [Bruce Weir](http://sph.washington.edu/faculty/fac_bio.asp?url_ID=Weir_Bruce)
 - [Patrick Sullivan](https://www.med.unc.edu/genetics/sullivanlab/)
-- [George Davey Smith](https://scholar.google.com/citations?hl=en&user=OOVzKokAAAAJ&view_op=list_works&sortby=pubdate)
 
 ### Genome Research
 
