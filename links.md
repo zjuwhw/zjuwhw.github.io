@@ -25,6 +25,8 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 	- [Matthew Robinson](http://wp.unil.ch/ctgg)
 	- [Hong Lee](https://sites.google.com/site/honglee0707/)
 	- [Beben Benyamin](http://people.unisa.edu.au/Beben.Benyamin)
+	- [Gibran Hemani](http://www.bristol.ac.uk/social-community-medicine/people/gibran-hemani/index.html)
+	- [Albert Tenesa](https://www.ed.ac.uk/roslin/about/contact-us/staff/albert-tenesa)
 
 ### Genetics
 
@@ -33,6 +35,8 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [Nicholas Martin](http://www.qimrberghofer.edu.au/people/nicholas-martin/)
 - [Manuel A. R. Ferreira](https://genepi.qimr.edu.au/staff/manuelF/)
 - [Matthew Brown](https://research.qut.edu.au/translationalgenomicsgroup/people/matthew-brown/)
+- [David Balding](https://scholar.google.com/citations?hl=zh-CN&user=9bqHVEsAAAAJ&view_op=list_works&sortby=pubdate)
+- [Michael Goddard](https://www.findanexpert.unimelb.edu.au/display/person3714)
 - [Benjamin Neale](http://www.nealelab.is/)
 - [Alkes Price](https://www.hsph.harvard.edu/alkes-price/)
 - [Patrick Turley](https://www.paturley.com/)
@@ -42,10 +46,10 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [Goncalo Abecasis](http://csg.sph.umich.edu/abecasis/)
 - [Shaun Purcell](http://research.mssm.edu/statgen/)
 - [Bruce Walsh](http://nitro.biosci.arizona.edu/)
-- [David Balding](https://scholar.google.com/citations?hl=zh-CN&user=9bqHVEsAAAAJ&view_op=list_works&sortby=pubdate)
 - Michael Snyder: [lab](http://snyderlab.stanford.edu/), [Standrod](https://med.stanford.edu/profiles/michael-snyder)
 - [Jonathan Pritchard](http://web.stanford.edu/group/pritchardlab/home.html)
 - [Stephen Montgomery](http://montgomerylab.stanford.edu/)
+- [Matthew Stephens](http://stephenslab.uchicago.edu/)
 - [Luke Evans](https://www.colorado.edu/ibg/luke-evans)
 - [Matthew Keller](http://www.matthewckeller.com/index.html)
 - [Lude Franke](https://www.rug.nl/research/genetics/staff/lude-franke)
@@ -61,6 +65,11 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [William Hill](https://en.wikipedia.org/wiki/Bill_Hill_(geneticist))
 - [Bruce Weir](http://sph.washington.edu/faculty/fac_bio.asp?url_ID=Weir_Bruce)
 - [Patrick Sullivan](https://www.med.unc.edu/genetics/sullivanlab/)
+
+### biostatistics
+
+- [Hongyu Zhao](https://publichealth.yale.edu/people/hongyu_zhao.profile): [lab page](http://zhaocenter.org/), [google scholar](https://scholar.google.com/citations?hl=en&user=__z1kpoAAAAJ&view_op=list_works&sortby=pubdate)
+- [Nilanjan Chatterjee](https://www.jhsph.edu/faculty/directory/profile/1826/nilanjan-chatterjee)
 
 ### Genome Research
 
@@ -82,7 +91,7 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [Istvan Albert ](http://www.personal.psu.edu/iua1/)
 - [Xuegong Zhang]( http://bioinfo.au.tsinghua.edu.cn/member/xzhang/XZhang_Chinese.html)
 - [Ao Ping](http://systemsbiology.sjtu.edu.cn/)
-- [rafalab]( http://rafalab.dfci.harvard.edu/)
+- [Rafalab]( http://rafalab.dfci.harvard.edu/)
 - [Lior Pachter](https://math.berkeley.edu/~lpachter/index.html)
 - [Cole Trapnell](http://cole-trapnell-lab.github.io/)
 - [Steven Salzberg](http://salzberg-lab.org/)
