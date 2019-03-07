@@ -42,7 +42,10 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [Patrick Turley](https://www.paturley.com/)
 - [Po-Ru Loh](https://statgen.hms.harvard.edu/)
 - [Hilary Finucane](http://finucanelab.org/)
+- [Tian Ge](https://scholar.harvard.edu/tge): [Google Scholar](https://scholar.google.com/citations?hl=en&user=ENVEpnYAAAAJ&view_op=list_works&citft=1&email_for_op=zju.whw%40gmail.com&gmla=AJsN-F7zXKSHhCBQzlfbJY6hn5NTNaHIyXyUHoDWDBliVVrTIybUhFwSJcIkxGKUdQ_GmlxIV6cGW9yE58uHKcEvGdI_k-O5-rvl-xT0fIAosjGMcCHT_2zANECFzx52MWEZQmvv9Qqu9eXy_zMyUxqN5H8Em_XZEAPqYBuMHPWxkLnBET5JHXe7k7kgYEGYssaQBtLWMXofmNFOL_-0ipppwop_jOR2uGr8mr95xI8IjMs-J-yV3KQ)
+- [Soumya Raychaudhuri](https://immunogenomics.hms.harvard.edu/): [Google Scholar]()
 - [Bogdan Pasaniuc](http://bogdan.bioinformatics.ucla.edu/)
+- [Nilanjan Chatterjee](https://scholar.google.co.uk/citations?hl=en&user=vErFKeAAAAAJ&view_op=list_works&citft=1&email_for_op=zju.whw%40gmail.com&gmla=AJsN-F64H0NAyZv782CrGZKCcMEt37qcEDYCqKxP6k1v3tx0H927OazYahDyONrI9qcr0PaZ84ZlFZkShsZEQxkJzh13IxXiiEhbDHcskQp30lghhdlary0)
 - [Goncalo Abecasis](http://csg.sph.umich.edu/abecasis/)
 - [Shaun Purcell](http://research.mssm.edu/statgen/)
 - [Bruce Walsh](http://nitro.biosci.arizona.edu/)
@@ -58,9 +61,14 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [Carl Anderson](http://www.sanger.ac.uk/people/directory/anderson-carl)
 - [George Davey Smith](http://www.bristol.ac.uk/cardiovascular/people/george-davey-smith/index.html): [google scholar](https://scholar.google.com/citations?hl=en&user=OOVzKokAAAAJ&view_op=list_works&sortby=pubdate)
 - [Jie Zheng](http://www.bris.ac.uk/social-community-medicine/people/jie-zheng/overview.html)
+- [Jack Bowden](http://www.bris.ac.uk/social-community-medicine/people/jack-m-bowden/overview.html)
+- [Stephen Burgess](https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/a-to-g/stephen-burgess/)
+- [Chris Haley](https://www.ed.ac.uk/profile/chris-haley)
 - [Jonathan Mill](http://www.epigenomicslab.com/)
 - [Ian Deary](https://www.ed.ac.uk/profile/ian-deary)
 - [Riccardo E. Marioni](https://www.ed.ac.uk/centre-genomic-medicine/research-groups/marioni-group), [google scholar](https://scholar.google.co.uk/citations?user=gA3Ik3MAAAAJ&hl=en)
+- [Frank Dudbridge](https://scholar.google.com/citations?hl=en&user=pEfsoJsAAAAJ&sortby=pubdate&view_op=list_works&citft=1&email_for_op=zju.whw%40gmail.com&gmla=AJsN-F50N4RDJXVLx-iA7jbaE5uO99u9Ne3MD368j1DqPvTiqOrC93D0n5sIjcqPvj5NaGQSe2LahetXig5UbmkU6zTw8ZxB9x-GL1CRODIRIiebWHCvET0Vd17iiQNeg60p0TTO2FO7EEOObn-foTNmtUNuNOCHRh0fMV8_vzM4Cp56iLPYPN0NoL6CUPIIQZD4KC000g3IGPE8hr-nzGJIGEHEVvYoMyBBVRFY0Ynt4oV_zYqSalE): [Homepage](https://sites.google.com/site/fdudbridge/home)
+- [John RB Perry](http://www.mrc-epid.cam.ac.uk/people/john-perry/): [Google Scholar](https://scholar.google.com/citations?hl=en&user=jBCUa64AAAAJ&view_op=list_works&sortby=pubdate)
 - [Nick Barton](https://ist.ac.at/research/research-groups/barton-group/)
 - [William Hill](https://en.wikipedia.org/wiki/Bill_Hill_(geneticist))
 - [Bruce Weir](http://sph.washington.edu/faculty/fac_bio.asp?url_ID=Weir_Bruce)
@@ -379,7 +387,6 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [IHEC](http://ihec-epigenomes.org/)
 - [1000 Genomes](http://www.1000genomes.org/)
 - [TARGET](http://target.nci.nih.gov/dataMatrix/)
-- [GTEx(Genotype-Tissue Expression)](http://www.gtexportal.org/home/), [Nature Collection](https://www.nature.com/collections/dcfzxywzby)
 - [Fantom5](http://fantom.gsc.riken.jp/5/)
 - [CCLE](http://www.broadinstitute.org/ccle/home)
 - [HMP](http://hmpdacc.org/)
@@ -412,6 +419,8 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 
 ## Consortium
 
+### Complex traits
+
 - [UKB(UK Biobank)](http://www.ukbiobank.ac.uk/), [Nature Collection](https://www.nature.com/collections/bpthhnywqk)
 - [BBMRI-NL(Biobanking and BioMolecular resources Research Infrastructure The Netherlands)](http://www.bbmri.nl/)
 - [GIANT(Genetic Investigation of Anthropometric Traits)](http://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium)
@@ -427,7 +436,12 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [IIBDGC(International Inflammatory Bowel Disease Genetics Consortium)](https://www.ibdgenetics.org/)
 - [All of us program](https://allofus.nih.gov/)
 
+### Gene Expression
 
+- [CAGE](http://cnsgenomics.com/shiny/CAGE/)
+- [eQTLGene](http://www.eqtlgen.org/)
+- [GTEx(Genotype-Tissue Expression)](http://www.gtexportal.org/home/), [Nature Collection](https://www.nature.com/collections/dcfzxywzby)
+- [CMC](https://www.synapse.org/#!Synapse:syn2759792/wiki/69613)
 
 ## Funding
 
