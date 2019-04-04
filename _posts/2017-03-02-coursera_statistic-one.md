@@ -132,4 +132,4 @@ Z-score (Z = (X-M) / SD): A score on a Z-scale.
 注明：
 
 1. 本博客原来地址为：[https://sites.google.com/site/zjuwhwsblog/glossary/statisticoneoncoursera](https://sites.google.com/site/zjuwhwsblog/glossary/statisticoneoncoursera)
-2. 内容来自于Coursera上Princeton大学的《Statistic One》（不过目前已经下线）
+2. 内容来自于Coursera上Princeton大学的《Statistic One》（目前在Coursera上已经下线，视频在[Youtube](https://www.youtube.com/playlist?list=PLUVkIoT5K1HCck7CrTZPV3qbiKD84hPwT)可以找到）
