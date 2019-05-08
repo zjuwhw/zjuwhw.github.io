@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Apr 2019 11:52:00 +1000</pubDate>
-    <lastBuildDate>Thu, 04 Apr 2019 11:52:00 +1000</lastBuildDate>
+    <pubDate>Wed, 08 May 2019 14:47:27 +1000</pubDate>
+    <lastBuildDate>Wed, 08 May 2019 14:47:27 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -220,51 +220,69 @@
       </item>
     
       <item>
-        <title>学车和考驾照</title>
-        <description>&lt;h3 id=&quot;澳洲驾照&quot;&gt;澳洲驾照：&lt;/h3&gt;
+        <title>澳洲学车和考驾照</title>
+        <description>&lt;h3 id=&quot;总体信息&quot;&gt;总体信息&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;General information:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/YAyAKtjlP0mR2kBDDzDFqw&quot;&gt;WeChat Blog&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/driver-licensing/applying/learner&quot;&gt;Learner licence&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Written test:
-    &lt;ul&gt;
-      &lt;li&gt;Prepration:
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://publications.qld.gov.au/dataset/your-keys-to-driving-in-queensland&quot;&gt;Your keys to Driving in Queensland&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.service.transport.qld.gov.au/practiceroadrulestest/public/Welcome.xhtml?dswid=8558&quot;&gt;Online practice&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;How to apply:
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/contacts/centres/view?title=Toowong%20Transport%20and%20Main%20Roads%20Customer%20Service%20Centre&quot;&gt;Toowong Transport and Main Road Customer Service Centre&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.support.transport.qld.gov.au/qt/formsdat.nsf/forms/QF3000/$file/F3000_CFD.pdf&quot;&gt;Form F3000&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/driver-licensing/identity&quot;&gt;Evidence of identity&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/YAyAKtjlP0mR2kBDDzDFqw&quot;&gt;WeChat Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/driver-licensing/applying/learner&quot;&gt;Learner licence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;笔试&quot;&gt;笔试&lt;/h3&gt;
+
+&lt;h4 id=&quot;prepration&quot;&gt;Prepration:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://publications.qld.gov.au/dataset/your-keys-to-driving-in-queensland&quot;&gt;Your keys to Driving in Queensland&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.service.transport.qld.gov.au/practiceroadrulestest/public/Welcome.xhtml?dswid=8558&quot;&gt;Online practice&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;how-to-apply&quot;&gt;How to apply:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/contacts/centres/view?title=Toowong%20Transport%20and%20Main%20Roads%20Customer%20Service%20Centre&quot;&gt;Toowong Transport and Main Road Customer Service Centre&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.support.transport.qld.gov.au/qt/formsdat.nsf/forms/QF3000/$file/F3000_CFD.pdf&quot;&gt;Form F3000&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/driver-licensing/identity&quot;&gt;Evidence of identity&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;路考&quot;&gt;路考&lt;/h3&gt;
+
+&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/getting/tests#practical&quot;&gt;Practical Driving Test&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;学车&quot;&gt;学车&lt;/h3&gt;
 
+&lt;h4 id=&quot;政府网站&quot;&gt;政府网站：&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/getting/education/learner&quot;&gt;Driving Tips for learner drivers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;驾校&quot;&gt;驾校：&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;我的华人教练：王小飞（推荐，感兴趣可以找我要他微信）&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/getting/schools&quot;&gt;driving school&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.yellowpages.com.au/search/listings?clue=Driving+Lessons+%26+Schools&amp;amp;locationClue=4067&amp;amp;lat=&amp;amp;lon=&quot;&gt;Yellow pages&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.indooroopillydrivingschool.com.au/faq.html&quot;&gt;Indooroopilly driving school&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.noyelling.com.au/&quot;&gt;No Yelling Driving School&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;华人教练&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;youtube视频教程&quot;&gt;youtube视频教程&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/PracticeNZ/playlists&quot;&gt;Drive&lt;/a&gt;：新西兰的驾驶教程，规则类似(推荐)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PL4832D27DC53CA213&quot;&gt;Queensland Road Rules&lt;/a&gt;：昆士兰的驾驶规则&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLG-hRflGnyxT3kYGDEBKQVRJ-VBlz0lxq&quot;&gt;Driving test&lt;/a&gt;：澳洲的一个电视节目&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;我的经历&quot;&gt;我的经历&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;2017年11月22日：通过笔试，获得Learner驾照（有效期至2020年11月21日），花费190刀（三年驾照166.76刀 + 笔试费24刀）&lt;/li&gt;
+  &lt;li&gt;2019年1-4月：学车9次，每次1.5小时，每小时50刀，共计花费：675刀。&lt;/li&gt;
+  &lt;li&gt;2019年5月4日：通过路考，考试费+考前1小时练车费+使用驾校车，花费：233刀。&lt;/li&gt;
+  &lt;li&gt;2019年5月7日：去公路局换驾照（三年：第一年P2驾照，后两年自动换成O驾照），花费136.15，之前Learner驾照就作废了。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;其他资料&quot;&gt;其他资料&lt;/h3&gt;
