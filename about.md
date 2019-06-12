@@ -43,6 +43,7 @@ Notebooks:
 - [Applied linear regression models](https://zjuwhw.github.io/notebook-alrm/)
 - [Introduction to Quantitative Genetics](https://zjuwhw.github.io/notebook-qg/)
 - [Statistical Inference](https://zjuwhw.github.io/notebook-si/)
+- [Genetics and Analysis of Quantitative Traits](https://zjuwhw.github.io/notebook-gaqt/)
 
 Shiny:
 
