@@ -6,9 +6,80 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Jul 2019 10:22:03 +1000</pubDate>
-    <lastBuildDate>Thu, 11 Jul 2019 10:22:03 +1000</lastBuildDate>
+    <pubDate>Thu, 11 Jul 2019 11:05:07 +1000</pubDate>
+    <lastBuildDate>Thu, 11 Jul 2019 11:05:07 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>GWAS simulation setting - constant value vs random variable</title>
+        <description>&lt;p&gt;Simulation is a common method to study (bio)statistics, like quantitavie genetics or gwas (genome-wide association study).&lt;/p&gt;
+
+&lt;h3 id=&quot;gwas-simulation-setting&quot;&gt;GWAS simulation setting&lt;/h3&gt;
+
+&lt;p&gt;A common way to simulate a phenotype based on one simulated SNP (e.g. &lt;a href=&quot;https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1216-0&quot;&gt;Wu et al. Genome Biology 2017&lt;/a&gt;) is:&lt;/p&gt;
+
+&lt;p&gt;y = g + e; g = wu&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;y is a simulated phenotype&lt;/li&gt;
+  &lt;li&gt;w is a simulated standardized (mean 0 and variance 1) genotype, calculated by w = (x-2f)/sqrt(2f(1-f))
+    &lt;ul&gt;
+      &lt;li&gt;x is a simulated genotype, generated from Bin(2, f)&lt;/li&gt;
+      &lt;li&gt;f is the minor allele frequency, generated from Uni(0.1, 0.5)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;u is the effect size per standardized genotype, generated from N(0,1)&lt;/li&gt;
+  &lt;li&gt;g is the genetic value, calculated by wu&lt;/li&gt;
+  &lt;li&gt;e is the error term, generated from N(0, var(g)(1/h2 - 1))&lt;/li&gt;
+  &lt;li&gt;h2 is the variance explained by the genotype (heritability)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;constant-value-vs-random-variable&quot;&gt;Constant value vs random variable&lt;/h3&gt;
+
+&lt;p&gt;In this setting,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;y, w, x, and e are random variables&lt;/li&gt;
+  &lt;li&gt;h2 is a parameter, which is usually set manually&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Importantly note that&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;f and u are also constant values, although it is generated randomly&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;var(g) = var(wu) = u^2var(w) = u^2&lt;/p&gt;
+
+&lt;p&gt;E(var(gu)) = E(u^2) = var(u) + E(u)^2 = 1 + 0^2 = 1&lt;/p&gt;
+
+&lt;h3 id=&quot;r-code&quot;&gt;R code&lt;/h3&gt;
+
+&lt;p&gt;We can verify the above in R&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;set.seed(7)
+n=10000; rep=500; res=c()
+for(repindex in 1:rep){
+    f = runif(1, 0.1, 0.5)
+    x = rbinom(n, 2, f)
+    w = (x-2*f)/sqrt(2*f*(1-f))
+    u = rnorm(1)
+    g = w*u
+    res = c(res, var(g))
+}
+hist(res, main = &quot;&quot;, xlab=&quot;genetic variance (var(g))&quot;) ### emprical distribution
+abline(v=1, col=&quot;red&quot;)   ### expected value
+abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/gwas_simu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Jul 2019 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2019/07/11/gwas_simu.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/11/gwas_simu.html</guid>
+        
+        <category>statistics</category>
+        
+        
+      </item>
     
       <item>
         <title>科学杂志的发稿量</title>
@@ -754,73 +825,6 @@ Following are some examples:&lt;/p&gt;
         <pubDate>Mon, 10 Sep 2018 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2018/09/10/immigrate.html</link>
         <guid isPermaLink="true">http://localhost:4000/2018/09/10/immigrate.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>漂白粉的使用说明</title>
-        <description>&lt;p&gt;Coles lemon bleach&lt;/p&gt;
-
-&lt;h2 id=&quot;general&quot;&gt;General&lt;/h2&gt;
-
-&lt;p&gt;Suitable for whitening linens and removing stains&lt;/p&gt;
-
-&lt;p&gt;contains: Sodium Hypochlorite 42g/L (Avaliable chlorine 4% W.V when packed). Sodium hydroxide 9g/L.&lt;/p&gt;
-
-&lt;h2 id=&quot;our-promise&quot;&gt;Our Promise&lt;/h2&gt;
-
-&lt;p&gt;100% satisfied with this product or return it to your Coles customer service desk for a 100% refund.&lt;/p&gt;
-
-&lt;h2 id=&quot;directions-for-use&quot;&gt;Directions for use&lt;/h2&gt;
-
-&lt;p&gt;DO NOT SWALLOW&lt;/p&gt;
-
-&lt;p&gt;Bleaching and colourfast testing&lt;/p&gt;
-
-&lt;p&gt;Pre-treatment of nappies&lt;/p&gt;
-
-&lt;p&gt;Bathroom, kitchen and laundry surfaces&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Garbage bins: To hygienically clean and deodorise, rinse bin and mix 1 cup of Coles Brand Bleach to 5 litre of water. For stubborn odours, use undiluted and leave in contract surfaces for 10 to 15 minutes. Rinse thoroughly.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;垃圾桶：为了干净地清理和除臭，冲洗垃圾桶，混合1杯Coles牌漂白剂和5升水。对于顽固的气味，使用未稀释的并且&lt;/p&gt;
-
-&lt;p&gt;Driveway, Paving, Patios and Roof&lt;/p&gt;
-
-&lt;h2 id=&quot;caution&quot;&gt;Caution&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Do not use on silk, wool, leather, rayon, drip dry or iron cottons. Do not use on bare steel, silver, aluminum, unpainted metal or worn enamel baths and basin.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;不要用在丝绸，羊毛，皮革，人造丝，滴干或者免熨棉布。不要用在裸钢，银，铝，未涂漆的金属，磨损的发廊浴和盆。&lt;/p&gt;
-
-&lt;h2 id=&quot;warning&quot;&gt;Warning&lt;/h2&gt;
-
-&lt;p&gt;Highly corrosive. May produce sever burns. Attacks skin and eys. Vapour may be harmful. May give off dangerous gas if mixed with other products. Do not mix with other detergents or chemicals.&lt;/p&gt;
-
-&lt;h2 id=&quot;safety-directions&quot;&gt;Safety Directions&lt;/h2&gt;
-
-&lt;p&gt;Use only as directed. Ensure adequate ventilation when using. Avoid contact with skin and eyes. Wear eye protection and protective gloves when mixing or using as it produces sever burns. Mix with cold water only. Crorosive. Discard diluted solutions after use. Cap should be closed firmly when not in use. Wash hands after use.&lt;/p&gt;
-
-&lt;h2 id=&quot;first-aid&quot;&gt;First Aid&lt;/h2&gt;
-
-&lt;p&gt;For advice contact a Poisons Information Centre on 131126 or a doctor if swallowed do NOT induce vomiting. If in eys, hold eyelids apart and flush the eye continuously with running water. Continue flushing until advised to stop by the Poisons Information Centre or a doctor, or for at least 15 minutes.&lt;/p&gt;
-
-&lt;p&gt;If skin or hair contact occurs, remove contaminated clothing and flush skin and hair with running water.&lt;/p&gt;
-
-&lt;h2 id=&quot;storage&quot;&gt;Storage&lt;/h2&gt;
-
-&lt;p&gt;Store upright below 30°C and out of direct sunlight. Before disposal, rinse bottle with cold water.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Aug 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/08/18/bleach.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/18/bleach.html</guid>
         
         <category>life</category>
         
