@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Jun 2019 20:15:56 +1000</pubDate>
-    <lastBuildDate>Wed, 12 Jun 2019 20:15:56 +1000</lastBuildDate>
+    <pubDate>Thu, 11 Jul 2019 10:22:03 +1000</pubDate>
+    <lastBuildDate>Thu, 11 Jul 2019 10:22:03 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -401,6 +401,8 @@
   &lt;li&gt;&lt;a href=&quot;#澳洲看牙20181119&quot; id=&quot;markdown-toc-澳洲看牙20181119&quot;&gt;澳洲看牙（20181119）&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#澳洲看牙20181204&quot; id=&quot;markdown-toc-澳洲看牙20181204&quot;&gt;澳洲看牙（20181204）&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#澳洲看牙20190221&quot; id=&quot;markdown-toc-澳洲看牙20190221&quot;&gt;澳洲看牙（20190221）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20190611&quot; id=&quot;markdown-toc-澳洲看牙20190611&quot;&gt;澳洲看牙（20190611）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20190618&quot; id=&quot;markdown-toc-澳洲看牙20190618&quot;&gt;澳洲看牙（20190618）&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#总花费&quot; id=&quot;markdown-toc-总花费&quot;&gt;总花费&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#其他信息&quot; id=&quot;markdown-toc-其他信息&quot;&gt;其他信息：&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#另外两张x光片&quot; id=&quot;markdown-toc-另外两张x光片&quot;&gt;另外两张X光片&lt;/a&gt;&lt;/li&gt;
@@ -510,13 +512,26 @@
 &lt;ul&gt;
   &lt;li&gt;20190221: 对右下的大牙再次进行根管治疗，此为第一次，花费792刀。&lt;/li&gt;
   &lt;li&gt;20190312: “临时补牙”的材料掉了一小块，又补了一下。免费&lt;/li&gt;
-  &lt;li&gt;20190314:右下大牙根管治疗第二次，花费743刀。&lt;/li&gt;
+  &lt;li&gt;20190314: 右下大牙根管治疗第二次，花费743刀。&lt;/li&gt;
   &lt;li&gt;20190404: 右下大牙检查，并将其补齐。免费。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;澳洲看牙20190611&quot;&gt;澳洲看牙（20190611）&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;洗牙，检查，花费180刀。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;澳洲看牙20190618&quot;&gt;澳洲看牙（20190618）&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;20190614: 左上根管治疗后的大牙发生裂纹&lt;/li&gt;
+  &lt;li&gt;20190618: 将残破的部分拔出。免费。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;总花费&quot;&gt;总花费&lt;/h3&gt;
 
-&lt;p&gt;截止20190404，共花费3478(249 + 522 + 717 + 455 + 792 + 743)。&lt;/p&gt;
+&lt;p&gt;截止20190618，共花费3658(249 + 522 + 717 + 455 + 792 + 743 + 180)。&lt;/p&gt;
 
 &lt;h3 id=&quot;其他信息&quot;&gt;其他信息：&lt;/h3&gt;
 
