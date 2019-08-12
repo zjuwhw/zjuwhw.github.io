@@ -32,6 +32,7 @@ Social Media:
 - [Quora](https://www.quora.com/profile/Wang-Huanwei)
 - [Facebook](https://www.facebook.com/zju.whw)
 - [Twitter](https://twitter.com/zjuwhw)
+- [Google Scholar](https://scholar.google.com/citations?user=B8z18fgAAAAJ&hl=en)
 
 Blogs:
 
