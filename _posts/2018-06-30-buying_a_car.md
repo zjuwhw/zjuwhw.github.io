@@ -115,3 +115,6 @@ tags: ["life"]
 - 2018年11月18日，在朋友的帮助下查看了一辆车（[2008 Honda Civic](https://www.carsales.com.au/cars/details/Honda-Civic-2008/SSE-AD-5765728/?_ga=2.131300687.1711095904.1542417375-1183647803.1539662075)），最终没买；
 - 2018年12月10日，签了合同，交了钱（6500刀），买了一辆车（[2012 Ford Fiesta](https://www.carsales.com.au/cars/details/Ford-Fiesta-2012/SSE-AD-5805973?_ga=2.28691772.1474406298.1544055276-1183647803.1539662075&from=singlemessage)）
 - 2018年12月11日，去[交通局](https://www.qld.gov.au/transport/contacts/centres/view?title=Toowong%20Transport%20and%20Main%20Roads%20Customer%20Service%20Centre)办理了[注册转移](https://www.qld.gov.au/transport/registration/transfer/rego)，交了43.5刀。另外还买了RACQ的全险（[comprehensive car insurance](https://www.racq.com.au/insurance/get-insurance/car-insurance/comprehensive-car-insurance)）
+- 2019年9月12日，接到了safety recall，去Metro Ford（Woolloongabba）免费更换了门闩（？）。
+- 2019年9月16日，2个headlight globes坏了，去MyCar（之前叫Kmart services）进行了检查和更换，花费58刀（29*2）。
+- 2019年9月30日，去Vulture Street进行保养，花费165刀。
