@@ -4,11 +4,83 @@
     <title>zjuwhw's blog</title>
     <description>This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Oct 2019 10:14:14 +1000</pubDate>
-    <lastBuildDate>Wed, 16 Oct 2019 10:14:14 +1000</lastBuildDate>
+    <link>http://localhost:4001/</link>
+    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 11 Nov 2019 15:17:20 +1000</pubDate>
+    <lastBuildDate>Mon, 11 Nov 2019 15:17:20 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>文章引用率</title>
+        <description>&lt;p&gt;评价一个研究人员的研究成果是非常非常难的事情，尽管有的时候必须要这么做（例如，申请基金，学术岗位的面试等）。我知道有人会去关注Google scholar页面的citation数据统计。其中&lt;a href=&quot;https://en.wikipedia.org/wiki/H-index&quot;&gt;h-index&lt;/a&gt;表示h篇文章被引用了至少h次，i10-index表示多少篇文章被引用了至少10次。&lt;/p&gt;
+
+&lt;p&gt;这个博客收录了我所在的领域（生命科学-遗传学）的一些人（包括我自己）的google scholar页面，截图于2019年11月11日。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Researcher&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com/citations?user=LXVfPc8AAAAJ&amp;amp;hl=en&quot;&gt;Eric Lander&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com.au/citations?user=Ba2kwtkAAAAJ&amp;amp;hl=en&quot;&gt;Nick Martin&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com.au/citations?user=4eOEw-IAAAAJ&amp;amp;hl=en&quot;&gt;Grant Montgomery&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Google scholar&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/eric_lander.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/george_smith.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/nick_martin.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Researcher&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com/citations?hl=en&amp;amp;user=OOVzKokAAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&quot;&gt;George Davey Smith&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com.au/citations?hl=en&amp;amp;user=PWOitw0AAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&quot;&gt;Peter Visscher&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com.au/citations?user=uR-N1H0AAAAJ&amp;amp;hl=en&quot;&gt;Naomi Wray&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Google scholar&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/grant_montgomery.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/peter_visscher.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/naomi_wray.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Researcher&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com/citations?hl=en&amp;amp;user=aLuqQs8AAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&quot;&gt;Jian Yang&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com/citations?user=Xu-FkbkAAAAJ&amp;amp;hl=en&quot;&gt;Yang Wu&lt;/a&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com/citations?user=B8z18fgAAAAJ&amp;amp;hl=en&quot;&gt;Huanwei Wang&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Google scholar&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/jian_yang.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/yang_wu.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/huanwei_wang.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Mon, 11 Nov 2019 00:00:00 +1000</pubDate>
+        <link>http://localhost:4001/2019/11/11/citation.html</link>
+        <guid isPermaLink="true">http://localhost:4001/2019/11/11/citation.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>澳洲收入</title>
@@ -32,8 +104,8 @@
 
 </description>
         <pubDate>Sun, 14 Jul 2019 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2019/07/14/salary.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/07/14/salary.html</guid>
+        <link>http://localhost:4001/2019/07/14/salary.html</link>
+        <guid isPermaLink="true">http://localhost:4001/2019/07/14/salary.html</guid>
         
         <category>life</category>
         
@@ -103,8 +175,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;p&gt;&lt;img src=&quot;/images/gwas_simu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 11 Jul 2019 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2019/07/11/gwas_simu.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/07/11/gwas_simu.html</guid>
+        <link>http://localhost:4001/2019/07/11/gwas_simu.html</link>
+        <guid isPermaLink="true">http://localhost:4001/2019/07/11/gwas_simu.html</guid>
         
         <category>statistics</category>
         
@@ -134,8 +206,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;img src=&quot;/images/scopus_sa.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Mar 2019 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2019/03/01/journal.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/03/01/journal.html</guid>
+        <link>http://localhost:4001/2019/03/01/journal.html</link>
+        <guid isPermaLink="true">http://localhost:4001/2019/03/01/journal.html</guid>
         
         <category>science</category>
         
@@ -243,8 +315,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;h3 id=&quot;telephone&quot;&gt;Telephone&lt;/h3&gt;
 </description>
         <pubDate>Mon, 17 Dec 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/12/17/ford-fiesta.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/12/17/ford-fiesta.html</guid>
+        <link>http://localhost:4001/2018/12/17/ford-fiesta.html</link>
+        <guid isPermaLink="true">http://localhost:4001/2018/12/17/ford-fiesta.html</guid>
         
         <category>life</category>
         
@@ -291,8 +363,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 16 Dec 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/12/16/modern-china-story.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/12/16/modern-china-story.html</guid>
+        <link>http://localhost:4001/2018/12/16/modern-china-story.html</link>
+        <guid isPermaLink="true">http://localhost:4001/2018/12/16/modern-china-story.html</guid>
         
         <category>book</category>
         
@@ -310,8 +382,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;p&gt;GSMR&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Nov 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/11/09/MR.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/11/09/MR.html</guid>
+        <link>http://localhost:4001/2018/11/09/MR.html</link>
+        <guid isPermaLink="true">http://localhost:4001/2018/11/09/MR.html</guid>
         
         <category>GWAS</category>
         
@@ -394,8 +466,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 
 </description>
         <pubDate>Fri, 19 Oct 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/10/19/driving.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/10/19/driving.html</guid>
+        <link>http://localhost:4001/2018/10/19/driving.html</link>
+        <guid isPermaLink="true">http://localhost:4001/2018/10/19/driving.html</guid>
         
         <category>life</category>
         
@@ -481,8 +553,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;p&gt;&lt;em&gt;2015年3月2日瑞金医院填充材料&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Oct 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/10/10/teeth.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/10/10/teeth.html</guid>
+        <link>http://localhost:4001/2018/10/10/teeth.html</link>
+        <guid isPermaLink="true">http://localhost:4001/2018/10/10/teeth.html</guid>
         
         <category>medi</category>
         
@@ -649,102 +721,10 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;p&gt;&lt;img src=&quot;/images/teeth-au-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Oct 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/10/08/teeth.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/10/08/teeth.html</guid>
+        <link>http://localhost:4001/2018/10/08/teeth.html</link>
+        <guid isPermaLink="true">http://localhost:4001/2018/10/08/teeth.html</guid>
         
         <category>medi</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Molecular QTL study</title>
-        <description>&lt;p&gt;A collection of pulication/dataset/cohort about molecular QTL study.&lt;/p&gt;
-
-&lt;h3 id=&quot;atac-qtl-chromatin-accessbility&quot;&gt;ATAC-QTL (chromatin accessbility)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Gate, R. E., Cheng, C. S., Aiden, A. P., Siba, A., Tabaka, M., Lituiev, D., … Regev, A. (2018). Genetic determinants of co-accessible chromatin regions in activated T cells across humans. Nature Genetics, 50(8), 1140–1150. &lt;a href=&quot;https://doi.org/10.1038/s41588-018-0156-2&quot;&gt;https://doi.org/10.1038/s41588-018-0156-2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;hqtl-histone-marker&quot;&gt;hQTL (histone marker)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;McVicker, G., van de Geijn, B., Degner, J. F., Cain, C. E., Banovich, N. E., Raj, A., … Pritchard, J. K. (2013). Identification of Genetic Variants That Affect Histone Modifications in Human Cells. Science, 342(6159), 747–749. &lt;a href=&quot;https://doi.org/10.1126/science.1242429&quot;&gt;https://doi.org/10.1126/science.1242429&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Grubert, F., Zaugg, J. B., Kasowski, M., Ursu, O., Spacek, D. V., Martin, A. R., … Snyder, M. (2015). Genetic Control of Chromatin States in Humans Involves Local and Distal Chromosomal Interactions. Cell, 162(5), 1051–1065. &lt;a href=&quot;https://doi.org/10.1016/j.cell.2015.07.048&quot;&gt;https://doi.org/10.1016/j.cell.2015.07.048&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;mqtl-dna-methylation&quot;&gt;mQTL (DNA methylation)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Meta study of &lt;a href=&quot;https://www.lothianbirthcohort.ed.ac.uk/&quot;&gt;LBC&lt;/a&gt; and &lt;a href=&quot;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0035430&quot;&gt;BSGS&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;McRae, A., Marioni, R. E., Shah, S., Yang, J., Powell, J. E., Harris, S. E., … Montgomery, G. W. (2017). Identification of 55,000 Replicated DNA Methylation QTL. BioRxiv. Retrieved from &lt;a href=&quot;http://biorxiv.org/content/early/2017/07/21/166710.abstract&quot;&gt;http://biorxiv.org/content/early/2017/07/21/166710.abstract&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;eqtl-gene-expression&quot;&gt;eQTL (gene expression)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://cnsgenomics.com/shiny/CAGE/&quot;&gt;CAGE study&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Lloyd-Jones, L. R., Holloway, A., McRae, A., Yang, J., Small, K., Zeng, B., … Powell, J. E. (2017). The Genetic Architecture of Gene Expression in Peripheral Blood. The American Journal of Human Genetics, 100(2), 228–237. &lt;a href=&quot;https://doi.org/10.1016/j.ajhg.2016.12.008&quot;&gt;https://doi.org/10.1016/j.ajhg.2016.12.008&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gtexportal.org/home/&quot;&gt;GTEx study&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Aguet, F., Ardlie, K. G., Cummings, B. B., Gelfand, E. T., Getz, G., Hadley, K., … Montgomery, S. B. (2017). Genetic effects on gene expression across human tissues. Nature, 550(7675), 204–213. &lt;a href=&quot;https://doi.org/10.1038/nature24277&quot;&gt;https://doi.org/10.1038/nature24277&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Geuvadis study
-    &lt;ul&gt;
-      &lt;li&gt;Lappalainen, T., Sammeth, M., Friedländer, M. R., ’T Hoen, P. A. C., Monlong, J., Rivas, M. A., … Dermitzakis, E. T. (2013). Transcriptome and genome sequencing uncovers functional variation in humans. Nature, 501(7468), 506–511. &lt;a href=&quot;https://doi.org/10.1038/nature12531&quot;&gt;https://doi.org/10.1038/nature12531&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cell.com/consortium/IHEC&quot;&gt;IHEC&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Chen, L., Ge, B., Casale, F. P., Vasquez, L., Kwan, T., Garrido-Martín, D., … Soranzo, N. (2016). Genetic Drivers of Epigenetic and Transcriptional Variation in Human Immune Cells. Cell (Vol. 167). &lt;a href=&quot;https://doi.org/10.1016/j.cell.2016.10.026&quot;&gt;https://doi.org/10.1016/j.cell.2016.10.026&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;splicing-qtl&quot;&gt;splicing QTL&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Li, Y. I., van de Geijn, B., Raj, A., Knowles, D. a, Petti, A. a, Golan, D., … Pritchard, J. K. (2016). RNA splicing is a primary link between genetic variation and disease. Science, 352(6285), 600–604. &lt;a href=&quot;https://doi.org/10.1126/science.aad9417&quot;&gt;https://doi.org/10.1126/science.aad9417&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Li, Y. I., van de Geijn, B., Raj, A., Knowles, D. a, Petti, A. a, Golan, D., … Pritchard, J. K. (2016). RNA splicing is a primary link between genetic variation and disease. Science, 352(6285), 600–604. &lt;a href=&quot;https://doi.org/10.1126/science.aad9417&quot;&gt;https://doi.org/10.1126/science.aad9417&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;ctqtl-cell-type-specific&quot;&gt;ctQTL (cell-type-specific)&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ishigaki, K., Kochi, Y., Suzuki, A., Tsuchida, Y., Tsuchiya, H., Sumitomo, S., … Yamamoto, K. (2017). Polygenic burdens on cell-specific pathways underlie the risk of rheumatoid arthritis. Nature Genetics, 49(7), 1120–1125. &lt;a href=&quot;https://doi.org/10.1038/ng.3885&quot;&gt;https://doi.org/10.1038/ng.3885&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;scqtl-single-cell&quot;&gt;scQTL (single-cell)&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ishigaki, K., Kochi, Y., Suzuki, A., Tsuchida, Y., Tsuchiya, H., Sumitomo, S., … Yamamoto, K. (2017). Polygenic burdens on cell-specific pathways underlie the risk of rheumatoid arthritis. Nature Genetics, 49(7), 1120–1125. &lt;a href=&quot;https://doi.org/10.1038/ng.3885&quot;&gt;https://doi.org/10.1038/ng.3885&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;allelic-specific-exprssion-qtl&quot;&gt;allelic specific exprssion QTL&lt;/h4&gt;
-
-&lt;h3 id=&quot;pqtl-protein&quot;&gt;pQTL (protein)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.intervalstudy.org.uk/&quot;&gt;INTERVAL study&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Sun, B. B., Maranville, J. C., Peters, J. E., Stacey, D., Staley, J. R., Blackshaw, J., … Butterworth, A. S. (2018). Genomic atlas of the human plasma proteome. Nature, 558(7708), 73–79. &lt;a href=&quot;https://doi.org/10.1038/s41586-018-0175-2&quot;&gt;https://doi.org/10.1038/s41586-018-0175-2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 03 Oct 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/10/03/molecular-qtl.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/10/03/molecular-qtl.html</guid>
-        
-        <category>GWAS</category>
-        
-        <category>bio</category>
         
         
       </item>
