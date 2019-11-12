@@ -4,11 +4,43 @@
     <title>zjuwhw's blog</title>
     <description>This is zjuwhw's personal blog. Powered by Jekyll and Host in Github.
 </description>
-    <link>http://localhost:4001/</link>
-    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Nov 2019 15:17:20 +1000</pubDate>
-    <lastBuildDate>Mon, 11 Nov 2019 15:17:20 +1000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 12 Nov 2019 14:28:32 +1000</pubDate>
+    <lastBuildDate>Tue, 12 Nov 2019 14:28:32 +1000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>考古学术语</title>
+        <description>&lt;p&gt;我的同事&lt;a href=&quot;https://cnsgenomics.com/team/freydenzon.html&quot;&gt;Anna&lt;/a&gt;在今天实验室的文献汇报（journal club）上讲了一篇最近发表在Science上的用古DNA（ancient DNA）序列研究人类形成的&lt;a href=&quot;https://science.sciencemag.org/content/365/6457/eaat7487&quot;&gt;文章&lt;/a&gt;。由于有太多英文单词不认识，所以听下来很困难。这篇博客，收集一些这篇文章相关的英文单词的中英文对译。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mbuti_people&quot;&gt;Mbuti&lt;/a&gt;: 姆巴提人&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Indigenous_people_of_New_Guinea&quot;&gt;Papuans&lt;/a&gt; (Indigenous people of New Guinea): 巴布亚人&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Dai_people&quot;&gt;Dai&lt;/a&gt;: 傣族&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Onge&quot;&gt;Onge&lt;/a&gt;: 翁奇人&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Rajput&quot;&gt;Rajput&lt;/a&gt;: 拉杰普特人&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Nicobarese&quot;&gt;Nicobarese&lt;/a&gt;: 尼科巴人&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Juang_people&quot;&gt;Juang&lt;/a&gt;:&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Denisovan&quot;&gt;Denisovan&lt;/a&gt;: 丹尼索瓦人&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Yamnaya_culture&quot;&gt;Yamnaya culture&lt;/a&gt;: 颜那亚文化&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Bronze_Age&quot;&gt;Bronze Age&lt;/a&gt;: 青铜时代&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://simple.wikipedia.org/wiki/Balto-Slavic_languages&quot;&gt;Balto-Slavic languages&lt;/a&gt;: 波罗的-斯拉夫语族&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Indus_Valley_Civilisation&quot;&gt;Indus Valley Civilisation&lt;/a&gt;: 印度河流域文明&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Indo-European_languages&quot;&gt;Indo-European languages&lt;/a&gt;: 印欧语系&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Eurasia&quot;&gt;Eurasia&lt;/a&gt;: 欧亚大陆&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Era&quot;&gt;BCE, Before Common Era&lt;/a&gt;: 公元前&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Neolithic&quot;&gt;Neolithic&lt;/a&gt;: 新石器时代&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 12 Nov 2019 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2019/11/12/population.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/11/12/population.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>文章引用率</title>
@@ -74,8 +106,8 @@
 &lt;/table&gt;
 </description>
         <pubDate>Mon, 11 Nov 2019 00:00:00 +1000</pubDate>
-        <link>http://localhost:4001/2019/11/11/citation.html</link>
-        <guid isPermaLink="true">http://localhost:4001/2019/11/11/citation.html</guid>
+        <link>http://localhost:4000/2019/11/11/citation.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/11/11/citation.html</guid>
         
         <category>life</category>
         
@@ -104,8 +136,8 @@
 
 </description>
         <pubDate>Sun, 14 Jul 2019 00:00:00 +1000</pubDate>
-        <link>http://localhost:4001/2019/07/14/salary.html</link>
-        <guid isPermaLink="true">http://localhost:4001/2019/07/14/salary.html</guid>
+        <link>http://localhost:4000/2019/07/14/salary.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/14/salary.html</guid>
         
         <category>life</category>
         
@@ -175,8 +207,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;p&gt;&lt;img src=&quot;/images/gwas_simu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 11 Jul 2019 00:00:00 +1000</pubDate>
-        <link>http://localhost:4001/2019/07/11/gwas_simu.html</link>
-        <guid isPermaLink="true">http://localhost:4001/2019/07/11/gwas_simu.html</guid>
+        <link>http://localhost:4000/2019/07/11/gwas_simu.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/11/gwas_simu.html</guid>
         
         <category>statistics</category>
         
@@ -206,8 +238,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;img src=&quot;/images/scopus_sa.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Mar 2019 00:00:00 +1000</pubDate>
-        <link>http://localhost:4001/2019/03/01/journal.html</link>
-        <guid isPermaLink="true">http://localhost:4001/2019/03/01/journal.html</guid>
+        <link>http://localhost:4000/2019/03/01/journal.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/01/journal.html</guid>
         
         <category>science</category>
         
@@ -315,8 +347,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;h3 id=&quot;telephone&quot;&gt;Telephone&lt;/h3&gt;
 </description>
         <pubDate>Mon, 17 Dec 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4001/2018/12/17/ford-fiesta.html</link>
-        <guid isPermaLink="true">http://localhost:4001/2018/12/17/ford-fiesta.html</guid>
+        <link>http://localhost:4000/2018/12/17/ford-fiesta.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/12/17/ford-fiesta.html</guid>
         
         <category>life</category>
         
@@ -363,8 +395,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 16 Dec 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4001/2018/12/16/modern-china-story.html</link>
-        <guid isPermaLink="true">http://localhost:4001/2018/12/16/modern-china-story.html</guid>
+        <link>http://localhost:4000/2018/12/16/modern-china-story.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/12/16/modern-china-story.html</guid>
         
         <category>book</category>
         
@@ -382,8 +414,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;p&gt;GSMR&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Nov 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4001/2018/11/09/MR.html</link>
-        <guid isPermaLink="true">http://localhost:4001/2018/11/09/MR.html</guid>
+        <link>http://localhost:4000/2018/11/09/MR.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/09/MR.html</guid>
         
         <category>GWAS</category>
         
@@ -466,8 +498,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 
 </description>
         <pubDate>Fri, 19 Oct 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4001/2018/10/19/driving.html</link>
-        <guid isPermaLink="true">http://localhost:4001/2018/10/19/driving.html</guid>
+        <link>http://localhost:4000/2018/10/19/driving.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/10/19/driving.html</guid>
         
         <category>life</category>
         
@@ -553,176 +585,8 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;p&gt;&lt;em&gt;2015年3月2日瑞金医院填充材料&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Oct 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4001/2018/10/10/teeth.html</link>
-        <guid isPermaLink="true">http://localhost:4001/2018/10/10/teeth.html</guid>
-        
-        <category>medi</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>我的牙齿-澳洲求医</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#我的治牙经历&quot; id=&quot;markdown-toc-我的治牙经历&quot;&gt;我的治牙经历&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20181008&quot; id=&quot;markdown-toc-澳洲看牙20181008&quot;&gt;澳洲看牙（20181008）&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#目前疑惑&quot; id=&quot;markdown-toc-目前疑惑&quot;&gt;目前疑惑&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20181025&quot; id=&quot;markdown-toc-澳洲看牙20181025&quot;&gt;澳洲看牙（20181025）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20181029&quot; id=&quot;markdown-toc-澳洲看牙20181029&quot;&gt;澳洲看牙（20181029）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20181119&quot; id=&quot;markdown-toc-澳洲看牙20181119&quot;&gt;澳洲看牙（20181119）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20181204&quot; id=&quot;markdown-toc-澳洲看牙20181204&quot;&gt;澳洲看牙（20181204）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20190221&quot; id=&quot;markdown-toc-澳洲看牙20190221&quot;&gt;澳洲看牙（20190221）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20190611&quot; id=&quot;markdown-toc-澳洲看牙20190611&quot;&gt;澳洲看牙（20190611）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#澳洲看牙20190618&quot; id=&quot;markdown-toc-澳洲看牙20190618&quot;&gt;澳洲看牙（20190618）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#总花费&quot; id=&quot;markdown-toc-总花费&quot;&gt;总花费&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#其他信息&quot; id=&quot;markdown-toc-其他信息&quot;&gt;其他信息：&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#另外两张x光片&quot; id=&quot;markdown-toc-另外两张x光片&quot;&gt;另外两张X光片&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;我的治牙经历&quot;&gt;我的治牙经历&lt;/h3&gt;
-
-&lt;p&gt;我的牙齿从小时候就一直不好：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;小学&lt;/strong&gt;（本溪，1996-2002）：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;彩屯某诊所&lt;/strong&gt;：右下磨牙根管治疗（杀神经）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;初中&lt;/strong&gt;（本溪，2002-2005）：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;王氏诊所&lt;/strong&gt;：两颗上门牙补牙 + 右上磨牙根管治疗 + 左上磨牙补牙 + 左下磨牙补牙&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;研究生&lt;/strong&gt;（上海，2012-2015）：（详见博客[“&lt;a href=&quot;/2018/10/10/teeth.html&quot;&gt;我的牙齿-上海&lt;/a&gt;”]）
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;浦南医院&lt;/strong&gt;（2015年1月8日）：左上磨牙补牙 + 右下磨牙补牙&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;瑞金医院&lt;/strong&gt;（2015年2月4日-3月2日）：左上磨牙根管治疗（瑞金医院）&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;瑞金医院&lt;/strong&gt;（2015年11月9日）：右下磨牙开裂检查（已经无法再补，要考虑至少1000人民币带冠）+ 咨询（残根要拔除，根管治疗的都可以带冠，其他还可以）&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;瑞金医院&lt;/strong&gt;（2015年12月9日）：左上另一磨牙残根拔除（瑞金医院）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;工作&lt;/strong&gt;（北京，2016）：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;美年大健康体检&lt;/strong&gt;（2016年11月23日）：建议左下智齿拔除，右侧智齿可拔可不拔（拔除的原因主要是怕刷牙刷不到而龋齿）&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;安贞医院&lt;/strong&gt;（2016年12月9日）拍了全口X片+拔了左上智齿（详见博客&lt;a href=&quot;/2016/12/09/teeth.html&quot;&gt;“我的牙齿-安贞医院”&lt;/a&gt;）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/teeth-au-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;此为本次澳洲就诊的X光片，两外两张见下方。&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;这真是一个非常痛苦的事情。因为：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;牙齿的损坏和不断坏牙的趋势似乎是不可逆的：一旦被腐坏了，就只能是补，补完了就是杀神经，最后就是拔掉；&lt;/li&gt;
-  &lt;li&gt;治疗非常的痛苦：不仅费用昂贵，而且治疗过程很疼，有时一颗牙还要治疗多次。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;澳洲看牙20181008&quot;&gt;澳洲看牙（20181008）&lt;/h3&gt;
-
-&lt;p&gt;这次在澳大利亚&lt;a href=&quot;https://stluciadental.com.au/&quot;&gt;St Lucia Dental&lt;/a&gt;做了一个检查（还包括拍片和洗牙）。共花费249刀（约1250人民币；已扣除10%的学生折扣）。他们给出的治疗建议如下：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/teeth-au-4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;目前疑惑&quot;&gt;目前疑惑&lt;/h4&gt;
-
-&lt;p&gt;这次检查：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;治疗顺序为何先易后难；&lt;/li&gt;
-  &lt;li&gt;同样很贵（1700刀），为何根管推荐回国，而带冠却在澳洲做；&lt;/li&gt;
-  &lt;li&gt;左上拔除后，后续怎么处理，花费如何；&lt;/li&gt;
-  &lt;li&gt;左上有没有可能不拔；&lt;/li&gt;
-  &lt;li&gt;有没有更省钱的方式，如私人保险；&lt;/li&gt;
-  &lt;li&gt;还有没有后续花费。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;一般问题：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;似乎我的牙特别不好；&lt;/li&gt;
-  &lt;li&gt;牙线流血怎么办？&lt;/li&gt;
-  &lt;li&gt;应该使用哪种牙线？&lt;/li&gt;
-  &lt;li&gt;电动牙刷两次+牙线一次+半年洗牙/检查 – 牙能保证到多少岁？&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;老婆的问题：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;为什么只有根管推荐了回国？补牙加起来也很贵，是否也可以回国治疗。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;澳洲看牙20181025&quot;&gt;澳洲看牙（20181025）&lt;/h3&gt;
-
-&lt;p&gt;补了右上的两颗，花费522刀。&lt;/p&gt;
-
-&lt;h3 id=&quot;澳洲看牙20181029&quot;&gt;澳洲看牙（20181029）&lt;/h3&gt;
-
-&lt;p&gt;补了中间的三颗，花费717刀。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;20181101打电话反馈：前面两个牙齿对冷和热敏感度变高，预约了医生。&lt;/li&gt;
-  &lt;li&gt;20181105医生打电话来：建议再等一周时间。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;澳洲看牙20181119&quot;&gt;澳洲看牙（20181119）&lt;/h3&gt;
-
-&lt;p&gt;补过的中间三颗对冷热的敏感完全消失了，医生说这个是正常的，神经会缩回去。&lt;/p&gt;
-
-&lt;p&gt;又补了两颗，花费455刀。&lt;/p&gt;
-
-&lt;h3 id=&quot;澳洲看牙20181204&quot;&gt;澳洲看牙（20181204）&lt;/h3&gt;
-
-&lt;p&gt;对左上和右下两颗大牙进一步拍片，左上做了“临时补牙”（temporary filling）。本次免费。&lt;/p&gt;
-
-&lt;h3 id=&quot;澳洲看牙20190221&quot;&gt;澳洲看牙（20190221）&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;20190221: 对右下的大牙再次进行根管治疗，此为第一次，花费792刀。&lt;/li&gt;
-  &lt;li&gt;20190312: “临时补牙”的材料掉了一小块，又补了一下。免费&lt;/li&gt;
-  &lt;li&gt;20190314: 右下大牙根管治疗第二次，花费743刀。&lt;/li&gt;
-  &lt;li&gt;20190404: 右下大牙检查，并将其补齐。免费。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;澳洲看牙20190611&quot;&gt;澳洲看牙（20190611）&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;洗牙，检查，花费180刀。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;澳洲看牙20190618&quot;&gt;澳洲看牙（20190618）&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;20190614: 左上根管治疗后的大牙发生裂纹&lt;/li&gt;
-  &lt;li&gt;20190618: 将残破的部分拔出。免费。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;总花费&quot;&gt;总花费&lt;/h3&gt;
-
-&lt;p&gt;截止20190618，共花费3658(249 + 522 + 717 + 455 + 792 + 743 + 180)。&lt;/p&gt;
-
-&lt;h3 id=&quot;其他信息&quot;&gt;其他信息：&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.smile.com.au/dental-fees/qld&quot;&gt;Smile网站给出的澳洲治牙参考费用&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/60513156&quot;&gt;知乎问题“美国的牙医水平与中国相比如何？”&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ada.org.au/Your-Dental-Health/Adults-31-64/Dental-Tourism&quot;&gt;澳洲牙医协会关于“治牙旅行”的文章&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;另外两张x光片&quot;&gt;另外两张X光片&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/teeth-au-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/teeth-au-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Oct 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4001/2018/10/08/teeth.html</link>
-        <guid isPermaLink="true">http://localhost:4001/2018/10/08/teeth.html</guid>
+        <link>http://localhost:4000/2018/10/10/teeth.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/10/10/teeth.html</guid>
         
         <category>medi</category>
         
