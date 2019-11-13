@@ -8,7 +8,7 @@ permalink: /links/
 {:toc}
 
 
-This is a website list I'm following about bioinformatics/genetics/statistic/computer science areas. (updated 2019/03/08)
+This is a website list I'm following about bioinformatics/genetics/statistic/computer science areas. (updated 14/Nov/2019)
 
 ## Lab website
 
@@ -199,6 +199,15 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - [《Parallel Computer Architecture and Programming》](http://15418.courses.cs.cmu.edu/spring2016/home) by CMU
 - [《Computer Networks》](http://www.cs.cmu.edu/~prs/15-441-F14/index.html) by CMU
 - [《CS155 Computer and Network Security》](https://crypto.stanford.edu/cs155/syllabus.html) by Stanford
+
+### Genetics
+
+- [MIA by Broad Institute](https://www.broadinstitute.org/talks/fall-2019/mia)
+- ["PRIMER ON MEDICAL AND POPULATION GENETICS" by Broad Institute](https://www.broadinstitute.org/scientific-community/science/programs/medical-and-population-genetics/primers/primer-medical-and-pop)
+- ["Summer Institute in Social-Science Genomics"](https://www.rsfgenomicsschool.com/2019-materials)
+- ["POPULATION GENETICS AND EVOLUTION" @ICTS, India](https://www.icts.res.in/program/popgen2016/talks)
+- ["COMPUTATIONAL GENOMICS SUMMER INSTITUTE" @UCLA](http://computationalgenomics.bioinformatics.ucla.edu/resources/videos/)
+- ["Genomic Medicine XII: Genomics and Risk Prediction" by NIH/NHGRI](https://www.genome.gov/event-calendar/genomic-medicine-xii-genomics-and-risk-prediction)
 
 ## Project
 
