@@ -37,7 +37,7 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 
 ### Genome Research
 
-- [Eric S. Lander](http://www.broadinstitute.org/history-leadership/scientific-leadership/core-members/eric-s-lander), [Alexander Stark](http://www.starklab.org/), [Yi Zhang](http://zhanglab.tch.harvard.edu/lab.htm), [Howard Chang](http://changlab.stanford.edu/), [John Stamatoyannopoulos](http://www.stamlab.org/), [Bin Ren](http://bioinformatics-renlab.ucsd.edu/rentrac/), [Zhiping Weng](http://zlab.umassmed.edu/zlab/index.shtml), [Stunnenberg](http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&term=Stunnenberg+HG%5Bau%5D&dispmax=50), [Xiaole(Shirley) Liu](http://liulab.dfci.harvard.edu/), [Young Lab](http://younglab.wi.mit.edu/), [Wang Ting](http://wang.wustl.edu/)
+- [Eric S. Lander](http://www.broadinstitute.org/history-leadership/scientific-leadership/core-members/eric-s-lander), [Alexander Stark](http://www.starklab.org/), [Yi Zhang](http://zhanglab.tch.harvard.edu/lab.htm), [Howard Chang](http://changlab.stanford.edu/), [John Stamatoyannopoulos](http://www.stamlab.org/), [Bin Ren](http://bioinformatics-renlab.ucsd.edu/rentrac/), [Zhiping Weng](https://www.umassmed.edu/zlab/), [Stunnenberg](http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&term=Stunnenberg+HG%5Bau%5D&dispmax=50), [Xiaole(Shirley) Liu](http://liulab.dfci.harvard.edu/), [Young Lab](http://younglab.wi.mit.edu/), [Wang Ting](http://wang.wustl.edu/)
 
 ### Computational Biologist
 
