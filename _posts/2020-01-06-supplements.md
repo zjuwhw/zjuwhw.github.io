@@ -18,7 +18,7 @@ tags: ["life", "medi"]
 > Food supplements are very popular with Australians. But while supplements have some benefits, most people don’t need them. If you’re thinking about taking food supplements, talk to your doctor first – some can cause more harm than good.
 
 
-膳食补充剂在澳洲非常流行。尽管它有一些好处，但是大部分人是不需要它的。如果你想要使用，你应该先和你的医生谈一下（译者注：澳洲是多级诊疗制度哦，一般会和GP医生，即国内翻译的全科医生活着家庭医生，讨论这类问题），因为一些有可能弊大于利。
+膳食补充剂在澳洲非常流行。尽管它有一些好处，但是大部分人是不需要它的。如果你想要使用，你应该先和你的医生谈一下（译者注：澳洲是多级诊疗制度哦，一般会和GP医生(即国内翻译的全科医生/家庭医生)讨论这类问题），因为一些有可能弊大于利。
 
 ### 什么是膳食补充剂（What are food supplements?）
 
