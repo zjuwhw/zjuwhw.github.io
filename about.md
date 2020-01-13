@@ -7,24 +7,21 @@ permalink: /about/
 I am Huanwei Wang, a PhD student in Univeristy of Queensland. My research field is quantitative genetics now.
 
 CV:
-
+- [201806 CV](/documents/CV_whw-201806.pdf)
+- [201701 CV](/documents/CV_whw-201701.pdf)  
 - [2015 CV](/documents/CV_whw-2015.pdf)
-- [201701 CV](/documents/CV_whw-201701.pdf) 
-- [201806 CV](/documents/CV_whw-201806.pdf) 
 
 Email:
 
 - zju.whw@gmail.com
-- zju_whw@163.com
-- sjtu_whw@sjtu.edu.cn
-- huanwei.wang@uqconnect.edu.au
-- huanwei.wang@uq.net.au
 - huanwei.wang@uq.edu.au
-- huanwei.wang@imb.uq.edu.au
+- zju_whw@163.com
 
-Social Media:
+Accounts:
 
+- [Google Scholar](https://scholar.google.com/citations?user=B8z18fgAAAAJ&hl=en)
 - [LinkedIn](https://cn.linkedin.com/in/huanwei-wang-53205b61)
+- [ORCID](http://orcid.org/0000-0002-6137-3391)
 - [Zhihu](https://www.zhihu.com/people/wang-huan-wei)
 - [Github](https://github.com/zjuwhw)
 - [weibo](http://weibo.com/u/1862168475)
@@ -32,7 +29,7 @@ Social Media:
 - [Quora](https://www.quora.com/profile/Wang-Huanwei)
 - [Facebook](https://www.facebook.com/zju.whw)
 - [Twitter](https://twitter.com/zjuwhw)
-- [Google Scholar](https://scholar.google.com/citations?user=B8z18fgAAAAJ&hl=en)
+
 
 Blogs:
 
