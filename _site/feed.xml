@@ -6,9 +6,71 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jan 2020 09:01:33 +1000</pubDate>
-    <lastBuildDate>Tue, 14 Jan 2020 09:01:33 +1000</lastBuildDate>
+    <pubDate>Tue, 28 Jan 2020 15:05:55 +0800</pubDate>
+    <lastBuildDate>Tue, 28 Jan 2020 15:05:55 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>新型冠状病毒疫情</title>
+        <description>&lt;p&gt;今年春节（计划是1月18日-2月9日）我回家（&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82&quot;&gt;辽宁省本溪市&lt;/a&gt;）过年，赶上武汉爆发“&lt;a href=&quot;https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6&quot;&gt;新型冠状病毒&lt;/a&gt;”。目前政府采取了很强力的措施（如包括武汉在内的很多湖北省的封城，取消了很多地方的公共交通等），同时建议民众减少外出，尽量呆在家中。&lt;/p&gt;
+
+&lt;p&gt;故想写这个博客，收集各种信息:&lt;/p&gt;
+
+&lt;h2 id=&quot;疫情通报&quot;&gt;疫情通报&lt;/h2&gt;
+
+&lt;h3 id=&quot;各卫生健康委&quot;&gt;各卫生健康委&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml&quot;&gt;国家卫生健康委&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wjw.hubei.gov.cn/fbjd/dtyw/&quot;&gt;湖北省卫生健康委员会&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wsjkw.sh.gov.cn/xwfb/index.html&quot;&gt;上海市卫生健康委员会&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;媒体和网站&quot;&gt;媒体和网站&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://3g.dxy.cn/newh5/view/pneumonia&quot;&gt;丁香园实时地图&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6&quot;&gt;约翰霍普金斯大学的CSSE地图&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;公共卫生相关组织&quot;&gt;公共卫生相关组织&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&quot;&gt;世界卫生组织（WHO）&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/&quot;&gt;情况报告&lt;/a&gt;: &lt;a href=&quot;https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200127-sitrep-7-2019--ncov.pdf&quot;&gt;27/Jan/2020&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdc.gov/coronavirus/2019-ncov/about/index.html&quot;&gt;CDC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/&quot;&gt;中国疾病预防中心&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;“&lt;a href=&quot;http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/jszl_11811/202001/P020200127544648420736.pdf&quot;&gt;2019 新型冠状病毒疫情进展和风险评估&lt;/a&gt;”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;科研论文&quot;&gt;科研论文&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/coronavirus&quot;&gt;柳叶刀&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;“&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext&quot;&gt;Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China&lt;/a&gt;”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/coronavirus&quot;&gt;新英格兰&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 27 Jan 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/01/27/coronavirus.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/01/27/coronavirus.html</guid>
+        
+        <category>life</category>
+        
+        <category>medi</category>
+        
+        
+      </item>
     
       <item>
         <title>保健品</title>
@@ -145,7 +207,7 @@ Learn more here about the development and quality assurance of healthdirect cont
   &lt;p&gt;Last reviewed: March 2019&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Mon, 06 Jan 2020 00:00:00 +1000</pubDate>
+        <pubDate>Mon, 06 Jan 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/01/06/supplements.html</link>
         <guid isPermaLink="true">http://localhost:4000/2020/01/06/supplements.html</guid>
         
@@ -179,7 +241,7 @@ Learn more here about the development and quality assurance of healthdirect cont
   &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Neolithic&quot;&gt;Neolithic&lt;/a&gt;: 新石器时代&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 12 Nov 2019 00:00:00 +1000</pubDate>
+        <pubDate>Tue, 12 Nov 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/11/12/population.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/11/12/population.html</guid>
         
@@ -251,7 +313,7 @@ Learn more here about the development and quality assurance of healthdirect cont
   &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
-        <pubDate>Mon, 11 Nov 2019 00:00:00 +1000</pubDate>
+        <pubDate>Mon, 11 Nov 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/11/11/citation.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/11/11/citation.html</guid>
         
@@ -281,7 +343,7 @@ Learn more here about the development and quality assurance of healthdirect cont
 &lt;p&gt;我所在的昆士兰大学研究人员的工资也是&lt;a href=&quot;https://staff.uq.edu.au/information-and-services/human-resources/pay-leave-entitlements/pay-scales/research-academic&quot;&gt;公开的&lt;/a&gt;。研究人员分不同的级别（level A-E，每个level还有不同的分类）。博士毕业的博士后属于level A，工资是84,878澳元，相当于41万人民币，税前（具体要交多少税我不知道）。&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 14 Jul 2019 00:00:00 +1000</pubDate>
+        <pubDate>Sun, 14 Jul 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/07/14/salary.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/07/14/salary.html</guid>
         
@@ -352,7 +414,7 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 
 &lt;p&gt;&lt;img src=&quot;/images/gwas_simu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 11 Jul 2019 00:00:00 +1000</pubDate>
+        <pubDate>Thu, 11 Jul 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/07/11/gwas_simu.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/07/11/gwas_simu.html</guid>
         
@@ -383,7 +445,7 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 &lt;p&gt;Science Advances
 &lt;img src=&quot;/images/scopus_sa.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 01 Mar 2019 00:00:00 +1000</pubDate>
+        <pubDate>Fri, 01 Mar 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/03/01/journal.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/03/01/journal.html</guid>
         
@@ -492,7 +554,7 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 
 &lt;h3 id=&quot;telephone&quot;&gt;Telephone&lt;/h3&gt;
 </description>
-        <pubDate>Mon, 17 Dec 2018 00:00:00 +1000</pubDate>
+        <pubDate>Mon, 17 Dec 2018 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2018/12/17/ford-fiesta.html</link>
         <guid isPermaLink="true">http://localhost:4000/2018/12/17/ford-fiesta.html</guid>
         
@@ -540,7 +602,7 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
   &lt;li&gt;1978: 中共十一届三中全会&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 16 Dec 2018 00:00:00 +1000</pubDate>
+        <pubDate>Sun, 16 Dec 2018 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2018/12/16/modern-china-story.html</link>
         <guid isPermaLink="true">http://localhost:4000/2018/12/16/modern-china-story.html</guid>
         
@@ -559,95 +621,13 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
 
 &lt;p&gt;GSMR&lt;/p&gt;
 </description>
-        <pubDate>Fri, 09 Nov 2018 00:00:00 +1000</pubDate>
+        <pubDate>Fri, 09 Nov 2018 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2018/11/09/MR.html</link>
         <guid isPermaLink="true">http://localhost:4000/2018/11/09/MR.html</guid>
         
         <category>GWAS</category>
         
         <category>bio</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>澳洲学车和考驾照</title>
-        <description>&lt;h3 id=&quot;总体信息&quot;&gt;总体信息&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/YAyAKtjlP0mR2kBDDzDFqw&quot;&gt;WeChat Blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/driver-licensing/applying/learner&quot;&gt;Learner licence&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;笔试&quot;&gt;笔试&lt;/h3&gt;
-
-&lt;h4 id=&quot;prepration&quot;&gt;Prepration:&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://publications.qld.gov.au/dataset/your-keys-to-driving-in-queensland&quot;&gt;Your keys to Driving in Queensland&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.service.transport.qld.gov.au/practiceroadrulestest/public/Welcome.xhtml?dswid=8558&quot;&gt;Online practice&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;how-to-apply&quot;&gt;How to apply:&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/contacts/centres/view?title=Toowong%20Transport%20and%20Main%20Roads%20Customer%20Service%20Centre&quot;&gt;Toowong Transport and Main Road Customer Service Centre&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.support.transport.qld.gov.au/qt/formsdat.nsf/forms/QF3000/$file/F3000_CFD.pdf&quot;&gt;Form F3000&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/driver-licensing/identity&quot;&gt;Evidence of identity&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;路考&quot;&gt;路考&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/getting/tests#practical&quot;&gt;Practical Driving Test&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;学车&quot;&gt;学车&lt;/h3&gt;
-
-&lt;h4 id=&quot;政府网站&quot;&gt;政府网站：&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/getting/education/learner&quot;&gt;Driving Tips for learner drivers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;驾校&quot;&gt;驾校：&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;我的华人教练：王小飞（推荐，感兴趣可以找我要他微信）&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/transport/licensing/getting/schools&quot;&gt;driving school&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.yellowpages.com.au/search/listings?clue=Driving+Lessons+%26+Schools&amp;amp;locationClue=4067&amp;amp;lat=&amp;amp;lon=&quot;&gt;Yellow pages&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.indooroopillydrivingschool.com.au/faq.html&quot;&gt;Indooroopilly driving school&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.noyelling.com.au/&quot;&gt;No Yelling Driving School&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;youtube视频教程&quot;&gt;youtube视频教程&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/PracticeNZ/playlists&quot;&gt;Drive&lt;/a&gt;：新西兰的驾驶教程，规则类似(推荐)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PL4832D27DC53CA213&quot;&gt;Queensland Road Rules&lt;/a&gt;：昆士兰的驾驶规则&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLG-hRflGnyxT3kYGDEBKQVRJ-VBlz0lxq&quot;&gt;Driving test&lt;/a&gt;：澳洲的一个电视节目&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;我的经历&quot;&gt;我的经历&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2017年11月22日：通过笔试，获得Learner驾照（有效期至2020年11月21日），花费190刀（三年驾照166.76刀 + 笔试费24刀）&lt;/li&gt;
-  &lt;li&gt;2019年1-4月：学车9次，每次1.5小时，每小时50刀，共计花费：675刀。&lt;/li&gt;
-  &lt;li&gt;2019年5月4日：通过路考，考试费+考前1小时练车费+使用驾校车，花费：233刀。&lt;/li&gt;
-  &lt;li&gt;2019年5月7日：去公路局换驾照（三年：第一年P2驾照，后两年自动换成O驾照），花费136.15，之前Learner驾照就作废了。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;其他资料&quot;&gt;其他资料&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.wikihow.com/Drive-a-Car&quot;&gt;wikihow “how to drive a car”&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 19 Oct 2018 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2018/10/19/driving.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/10/19/driving.html</guid>
-        
-        <category>life</category>
         
         
       </item>

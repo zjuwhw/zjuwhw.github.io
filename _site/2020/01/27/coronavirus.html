@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>P-values under null hypothesis</title>
-  <meta name="description" content="P values are also random variables. The distribution of p values undernull hypothesis should be a uniform one.">
+  <title>新型冠状病毒疫情</title>
+  <meta name="description" content="今年春节（计划是1月18日-2月9日）我回家（辽宁省本溪市）过年，赶上武汉爆发“新型冠状病毒”。目前政府采取了很强力的措施（如包括武汉在内的很多湖北省的封城，取消了很多地方的公共交通等），同时建议民众减少外出，尽量呆在家中。">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/2017/08/10/pvalue_null.html">
+  <link rel="canonical" href="http://localhost:4000/2020/01/27/coronavirus.html">
   <link rel="alternate" type="application/rss+xml" title="zjuwhw's blog" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -99,39 +99,59 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">P-values under null hypothesis</h1>
-    <p class="post-meta"><time datetime="2017-08-10T00:00:00+08:00" itemprop="datePublished">Aug 10, 2017</time></p>
+    <h1 class="post-title" itemprop="name headline">新型冠状病毒疫情</h1>
+    <p class="post-meta"><time datetime="2020-01-27T00:00:00+08:00" itemprop="datePublished">Jan 27, 2020</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>P values are also random variables. The distribution of p values under
-null hypothesis should be a uniform one.</p>
+    <p>今年春节（计划是1月18日-2月9日）我回家（<a href="https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82">辽宁省本溪市</a>）过年，赶上武汉爆发“<a href="https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6">新型冠状病毒</a>”。目前政府采取了很强力的措施（如包括武汉在内的很多湖北省的封城，取消了很多地方的公共交通等），同时建议民众减少外出，尽量呆在家中。</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set.seed(1)
-y = rnorm(50)
-ps = c()
-for(i in 1:2000){
-  x = rnorm(50)
-  p = summary(lm(y~x))$coefficients[2,4]
-  ps = c(ps, p)
-}
-hist(ps,breaks=seq(0,1,0.05),col=c("red",rep("white",19)), main = "Distribution of P values under null (2000 replications)", freq=FALSE, xlab="P")
-</code></pre></div></div>
+<p>故想写这个博客，收集各种信息:</p>
 
-<p><img src="/images/pvalue-chunk-1-1.png" alt="" /></p>
+<h2 id="疫情通报">疫情通报</h2>
 
-<p><a href="https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot">QQ-plot</a> can show the p
-values follow an uniform distribution.</p>
+<h3 id="各卫生健康委">各卫生健康委</h3>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>library(car)
-qqPlot(ps, distribution="unif")
-</code></pre></div></div>
+<ul>
+  <li><a href="http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml">国家卫生健康委</a></li>
+  <li><a href="http://wjw.hubei.gov.cn/fbjd/dtyw/">湖北省卫生健康委员会</a></li>
+  <li><a href="http://wsjkw.sh.gov.cn/xwfb/index.html">上海市卫生健康委员会</a></li>
+</ul>
 
-<p><img src="/images/pvalue-chunk-2-1.png" alt="" /></p>
+<h3 id="媒体和网站">媒体和网站</h3>
 
-<h1 id="proof">Proof</h1>
+<ul>
+  <li><a href="https://3g.dxy.cn/newh5/view/pneumonia">丁香园实时地图</a></li>
+  <li><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">约翰霍普金斯大学的CSSE地图</a></li>
+</ul>
 
-<p><a href="http://vasishth-statistics.blogspot.com.au/2016/04/a-simple-proof-that-p-value.html">http://vasishth-statistics.blogspot.com.au/2016/04/a-simple-proof-that-p-value.html</a></p>
+<h2 id="公共卫生相关组织">公共卫生相关组织</h2>
+
+<ul>
+  <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">世界卫生组织（WHO）</a>
+    <ul>
+      <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/">情况报告</a>: <a href="https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200127-sitrep-7-2019--ncov.pdf">27/Jan/2020</a></li>
+    </ul>
+  </li>
+  <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/about/index.html">CDC</a></li>
+  <li><a href="http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/">中国疾病预防中心</a>
+    <ul>
+      <li>“<a href="http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/jszl_11811/202001/P020200127544648420736.pdf">2019 新型冠状病毒疫情进展和风险评估</a>”</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="科研论文">科研论文</h2>
+
+<ul>
+  <li><a href="https://www.thelancet.com/coronavirus">柳叶刀</a>
+    <ul>
+      <li>“<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext">Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China</a>”</li>
+    </ul>
+  </li>
+  <li><a href="https://www.nejm.org/coronavirus">新英格兰</a></li>
+</ul>
+
 
   </div>
 
