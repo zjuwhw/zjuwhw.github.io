@@ -31,6 +31,7 @@ tags: ["life", "medi"]
 	- "[2019 新型冠状病毒疫情进展和风险评估](http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/jszl_11811/202001/P020200127544648420736.pdf)"
 - [澳大利亚健康中心](https://www.health.gov.au/health-topics/novel-coronavirus-2019-ncov)
 	- [昆士兰健康中心](http://conditions.health.qld.gov.au/HealthCondition/condition/14/217/838/novel-coronavirus)
+	- [昆士兰大学](https://about.uq.edu.au/coronavirus-advice-uq-community)
 
 ## 科研论文
 
@@ -47,6 +48,7 @@ epidemic predictions](https://www.medrxiv.org/content/10.1101/2020.01.23.2001854
 	- [Mobs Lab, Preliminary analysis of the 2019 nCOV outbreak in Wuhan city](https://www.mobs-lab.org/2019ncov.html)
 	- [伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)的报告: Imai et al.](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/)
 	- [约翰霍普金斯大学的CSSE地图](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+	- [香港大学李嘉诚医学院：Leung et al.](https://sph.hku.hk/images/news/press-releases2020/Wuhan-20200127.pdf)
 
 
 
