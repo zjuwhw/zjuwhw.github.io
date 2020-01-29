@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jan 2020 09:08:02 +0800</pubDate>
-    <lastBuildDate>Wed, 29 Jan 2020 09:08:02 +0800</lastBuildDate>
+    <pubDate>Wed, 29 Jan 2020 11:10:53 +0800</pubDate>
+    <lastBuildDate>Wed, 29 Jan 2020 11:10:53 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -30,7 +30,6 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://3g.dxy.cn/newh5/view/pneumonia&quot;&gt;丁香园实时地图&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6&quot;&gt;约翰霍普金斯大学的CSSE地图&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;公共卫生相关组织&quot;&gt;公共卫生相关组织&lt;/h2&gt;
@@ -38,13 +37,19 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&quot;&gt;世界卫生组织（WHO）&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/&quot;&gt;情况报告&lt;/a&gt;: &lt;a href=&quot;https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200127-sitrep-7-2019--ncov.pdf&quot;&gt;27/Jan/2020&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/&quot;&gt;情况报告&lt;/a&gt;: &lt;a href=&quot;https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200127-sitrep-7-2019--ncov.pdf&quot;&gt;27/Jan/2020&lt;/a&gt;, &lt;a href=&quot;https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf&quot;&gt;28/Jan/2020&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.who.int/publications-detail/global-surveillance-for-human-infection-with-novel-coronavirus-(2019-ncov)&quot;&gt;全球监控的建议&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cdc.gov/coronavirus/2019-ncov/about/index.html&quot;&gt;CDC&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/&quot;&gt;中国疾病预防中心&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;“&lt;a href=&quot;http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/jszl_11811/202001/P020200127544648420736.pdf&quot;&gt;2019 新型冠状病毒疫情进展和风险评估&lt;/a&gt;”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.health.gov.au/health-topics/novel-coronavirus-2019-ncov&quot;&gt;澳大利亚健康中心&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://conditions.health.qld.gov.au/HealthCondition/condition/14/217/838/novel-coronavirus&quot;&gt;昆士兰健康中心&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -54,20 +59,27 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/coronavirus&quot;&gt;柳叶刀&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;“&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext&quot;&gt;Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China&lt;/a&gt;”&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext&quot;&gt;Huang et al., Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/coronavirus&quot;&gt;新英格兰&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/coronavirus&quot;&gt;新英格兰&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMoa2001017&quot;&gt;Zhu et al., A Novel Coronavirus from Patients with Pneumonia in China, 2019&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMc2001272&quot;&gt;Phan et al., Importation and Human-to-Human Transmission of a Novel Coronavirus in Vietnam&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;Preprint
     &lt;ul&gt;
-      &lt;li&gt;“&lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v1.full.pdf&quot;&gt;Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and
-epidemic predictions&lt;/a&gt;”&lt;/li&gt;
-      &lt;li&gt;“&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1.full.pdf&quot;&gt;Transmission dynamics of 2019 novel coronavirus (2019-nCoV)&lt;/a&gt;”&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v2&quot;&gt;Read et al., Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and
+epidemic predictions&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1&quot;&gt;Liu et al., Transmission dynamics of 2019 novel coronavirus (2019-nCoV)&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;others:
     &lt;ul&gt;
-      &lt;li&gt;“&lt;a href=&quot;https://www.mobs-lab.org/2019ncov.html&quot;&gt;Preliminary analysis of the 2019 nCOV outbreak in Wuhan city&lt;/a&gt;”&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.mobs-lab.org/2019ncov.html&quot;&gt;Mobs Lab, Preliminary analysis of the 2019 nCOV outbreak in Wuhan city&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)的报告: Imai et al.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6&quot;&gt;约翰霍普金斯大学的CSSE地图&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
