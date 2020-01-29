@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Jan 2020 15:05:55 +0800</pubDate>
-    <lastBuildDate>Tue, 28 Jan 2020 15:05:55 +0800</lastBuildDate>
+    <pubDate>Wed, 29 Jan 2020 09:08:02 +0800</pubDate>
+    <lastBuildDate>Wed, 29 Jan 2020 09:08:02 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -58,6 +58,18 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/coronavirus&quot;&gt;新英格兰&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Preprint
+    &lt;ul&gt;
+      &lt;li&gt;“&lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v1.full.pdf&quot;&gt;Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and
+epidemic predictions&lt;/a&gt;”&lt;/li&gt;
+      &lt;li&gt;“&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1.full.pdf&quot;&gt;Transmission dynamics of 2019 novel coronavirus (2019-nCoV)&lt;/a&gt;”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;others:
+    &lt;ul&gt;
+      &lt;li&gt;“&lt;a href=&quot;https://www.mobs-lab.org/2019ncov.html&quot;&gt;Preliminary analysis of the 2019 nCOV outbreak in Wuhan city&lt;/a&gt;”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 </description>

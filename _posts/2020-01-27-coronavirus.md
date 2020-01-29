@@ -36,7 +36,12 @@ tags: ["life", "medi"]
 - [柳叶刀](https://www.thelancet.com/coronavirus)
 	- "[Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext)"
 - [新英格兰](https://www.nejm.org/coronavirus)
-
+- Preprint
+	- "[Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and
+epidemic predictions](https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v1.full.pdf)"
+	- "[Transmission dynamics of 2019 novel coronavirus (2019-nCoV)](https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1.full.pdf)"
+- others:
+	- "[Preliminary analysis of the 2019 nCOV outbreak in Wuhan city](https://www.mobs-lab.org/2019ncov.html)"
 
 
 
