@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Feb 2020 11:15:34 +0800</pubDate>
-    <lastBuildDate>Sat, 01 Feb 2020 11:15:34 +0800</lastBuildDate>
+    <pubDate>Thu, 06 Feb 2020 09:28:43 +0800</pubDate>
+    <lastBuildDate>Thu, 06 Feb 2020 09:28:43 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -99,6 +99,20 @@
   &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2759815&quot;&gt;Coronavirus Infections—More Than Just the Common Cold&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;nature&quot;&gt;Nature&lt;/h4&gt;
+
+&lt;h5 id=&quot;news&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/d41586-020-00154-w&quot;&gt;news&lt;/a&gt;&lt;/h5&gt;
+
+&lt;h5 id=&quot;research&quot;&gt;&lt;a href=&quot;https://www.springernature.com/gp/researchers/campaigns/coronavirus&quot;&gt;research&lt;/a&gt;&lt;/h5&gt;
+
+&lt;h4 id=&quot;science&quot;&gt;Science&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patient-transmitting-coronavirus-wrong&quot;&gt;Study claiming new coronavirus can be transmitted by people without symptoms was flawed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/01/can-anti-hiv-combination-or-other-existing-drugs-outwit-new-coronavirus&quot;&gt;Can an anti-HIV combination or other existing drugs outwit the new coronavirus?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/01/wuhan-seafood-market-may-not-be-source-novel-virus-spreading-globally&quot;&gt;Wuhan seafood market may not be source of novel virus spreading globally&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id=&quot;预印本preprint&quot;&gt;预印本（preprint）&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -121,6 +135,7 @@ epidemic predictions&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://sph.hku.hk/images/news/press-releases2020/Wuhan-20200127.pdf&quot;&gt;香港大学李嘉诚医学院：Leung et al.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cchen.shinyapps.io/2019_nCoV/&quot;&gt;Exponential regeression for confirmed cases, a shiny app by Chenfeng&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://nextstrain.org/ncov&quot;&gt;Nextstrain Genomic epidemiology analysis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://virological.org/&quot;&gt;http://virological.org/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;twitter&quot;&gt;twitter&lt;/h3&gt;

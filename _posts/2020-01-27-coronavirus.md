@@ -69,6 +69,18 @@ tags: ["life", "medi"]
 
 - [Coronavirus Infections—More Than Just the Common Cold](https://jamanetwork.com/journals/jama/fullarticle/2759815)
 
+#### Nature
+
+##### [news](https://www.nature.com/articles/d41586-020-00154-w)
+
+##### [research](https://www.springernature.com/gp/researchers/campaigns/coronavirus)
+
+#### Science
+
+- [Study claiming new coronavirus can be transmitted by people without symptoms was flawed](https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patient-transmitting-coronavirus-wrong)
+- [Can an anti-HIV combination or other existing drugs outwit the new coronavirus?](https://www.sciencemag.org/news/2020/01/can-anti-hiv-combination-or-other-existing-drugs-outwit-new-coronavirus)
+- [Wuhan seafood market may not be source of novel virus spreading globally](https://www.sciencemag.org/news/2020/01/wuhan-seafood-market-may-not-be-source-novel-virus-spreading-globally)
+
 ### 预印本（preprint）
 
 - [Read et al., Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and
@@ -85,6 +97,7 @@ epidemic predictions](https://www.medrxiv.org/content/10.1101/2020.01.23.2001854
 - [香港大学李嘉诚医学院：Leung et al.](https://sph.hku.hk/images/news/press-releases2020/Wuhan-20200127.pdf)
 - [Exponential regeression for confirmed cases, a shiny app by Chenfeng](https://cchen.shinyapps.io/2019_nCoV/)
 - [Nextstrain Genomic epidemiology analysis](https://nextstrain.org/ncov)
+- [http://virological.org/](http://virological.org/)
 
 ### twitter
 
