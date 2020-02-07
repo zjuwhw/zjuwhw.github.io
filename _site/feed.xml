@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Feb 2020 09:28:43 +0800</pubDate>
-    <lastBuildDate>Thu, 06 Feb 2020 09:28:43 +0800</lastBuildDate>
+    <pubDate>Fri, 07 Feb 2020 11:22:01 +0800</pubDate>
+    <lastBuildDate>Fri, 07 Feb 2020 11:22:01 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -75,6 +75,9 @@
 &lt;h5 id=&quot;others&quot;&gt;Others:&lt;/h5&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930300-7&quot;&gt;Wang and Zhang, What to do next to control the 2019-nCoV epidemic?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/pb-assets/Lancet/pdfs/coronavirus/S0140673620303172.pdf&quot;&gt;Russell, Millar, Baillie, Clinical evidence does not support corticosteroid treatment
+for 2019-nCoV lung injury&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30212-9/fulltext&quot;&gt;Horton, Offline: 2019-nCoV outbreak—early lessons&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30032-2/fulltext&quot;&gt;Ji et al., Origins of MERS-CoV, and lessons for 2019-nCoV&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -91,26 +94,29 @@
   &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMe2001126?query=featured_coronavirus&quot;&gt;Perlman et al., Another Decade, Another Coronavirus&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;nature&quot;&gt;&lt;a href=&quot;https://www.nature.com/collections/hajgidghjb&quot;&gt;Nature&lt;/a&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/d41586-020-00154-w&quot;&gt;Coronavirus latest: infections in China pass 20,000&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/s41586-020-2012-7&quot;&gt;Zhou et al., A pneumonia outbreak associated with a new coronavirus of probable bat origin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/s41586-020-2008-3&quot;&gt;Wu et al., A new coronavirus associated with human respiratory disease in China&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;science&quot;&gt;Science&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/02/beast-moving-very-fast-will-new-coronavirus-be-contained-or-go-pandemic&quot;&gt;‘This beast is moving very fast.’ Will the new coronavirus be contained—or go pandemic?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patient-transmitting-coronavirus-wrong&quot;&gt;Study claiming new coronavirus can be transmitted by people without symptoms was flawed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/01/can-anti-hiv-combination-or-other-existing-drugs-outwit-new-coronavirus&quot;&gt;Can an anti-HIV combination or other existing drugs outwit the new coronavirus?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/01/wuhan-seafood-market-may-not-be-source-novel-virus-spreading-globally&quot;&gt;Wuhan seafood market may not be source of novel virus spreading globally&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;bmj&quot;&gt;&lt;a href=&quot;https://www.bmj.com/coronavirus&quot;&gt;BMJ&lt;/a&gt;&lt;/h4&gt;
 
 &lt;h4 id=&quot;jama&quot;&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/pages/coronavirus-alert&quot;&gt;JAMA&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2759815&quot;&gt;Coronavirus Infections—More Than Just the Common Cold&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;nature&quot;&gt;Nature&lt;/h4&gt;
-
-&lt;h5 id=&quot;news&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/d41586-020-00154-w&quot;&gt;news&lt;/a&gt;&lt;/h5&gt;
-
-&lt;h5 id=&quot;research&quot;&gt;&lt;a href=&quot;https://www.springernature.com/gp/researchers/campaigns/coronavirus&quot;&gt;research&lt;/a&gt;&lt;/h5&gt;
-
-&lt;h4 id=&quot;science&quot;&gt;Science&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patient-transmitting-coronavirus-wrong&quot;&gt;Study claiming new coronavirus can be transmitted by people without symptoms was flawed&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/01/can-anti-hiv-combination-or-other-existing-drugs-outwit-new-coronavirus&quot;&gt;Can an anti-HIV combination or other existing drugs outwit the new coronavirus?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/01/wuhan-seafood-market-may-not-be-source-novel-virus-spreading-globally&quot;&gt;Wuhan seafood market may not be source of novel virus spreading globally&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;预印本preprint&quot;&gt;预印本（preprint）&lt;/h3&gt;

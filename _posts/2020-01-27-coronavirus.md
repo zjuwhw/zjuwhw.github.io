@@ -50,6 +50,9 @@ tags: ["life", "medi"]
 
 ##### Others:
 
+- [Wang and Zhang, What to do next to control the 2019-nCoV epidemic?](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930300-7)
+- [Russell, Millar, Baillie, Clinical evidence does not support corticosteroid treatment
+for 2019-nCoV lung injury](https://www.thelancet.com/pb-assets/Lancet/pdfs/coronavirus/S0140673620303172.pdf)
 - [Horton, Offline: 2019-nCoV outbreak—early lessons](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30212-9/fulltext)
 - [Ji et al., Origins of MERS-CoV, and lessons for 2019-nCoV](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30032-2/fulltext)
 
@@ -63,23 +66,24 @@ tags: ["life", "medi"]
 - [Munster et al., A Novel Coronavirus Emerging in China — Key Questions for Impact Assessment](https://www.nejm.org/doi/full/10.1056/NEJMp2000929?query=featured_coronavirus)
 - [Perlman et al., Another Decade, Another Coronavirus](https://www.nejm.org/doi/full/10.1056/NEJMe2001126?query=featured_coronavirus)
 
+#### [Nature](https://www.nature.com/collections/hajgidghjb)
+
+- [Coronavirus latest: infections in China pass 20,000](https://www.nature.com/articles/d41586-020-00154-w)
+- [Zhou et al., A pneumonia outbreak associated with a new coronavirus of probable bat origin](https://www.nature.com/articles/s41586-020-2012-7)
+- [Wu et al., A new coronavirus associated with human respiratory disease in China](https://www.nature.com/articles/s41586-020-2008-3)
+
+#### Science
+
+- [‘This beast is moving very fast.’ Will the new coronavirus be contained—or go pandemic?](https://www.sciencemag.org/news/2020/02/beast-moving-very-fast-will-new-coronavirus-be-contained-or-go-pandemic)
+- [Study claiming new coronavirus can be transmitted by people without symptoms was flawed](https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patient-transmitting-coronavirus-wrong)
+- [Can an anti-HIV combination or other existing drugs outwit the new coronavirus?](https://www.sciencemag.org/news/2020/01/can-anti-hiv-combination-or-other-existing-drugs-outwit-new-coronavirus)
+- [Wuhan seafood market may not be source of novel virus spreading globally](https://www.sciencemag.org/news/2020/01/wuhan-seafood-market-may-not-be-source-novel-virus-spreading-globally)
+
 #### [BMJ](https://www.bmj.com/coronavirus)
 
 #### [JAMA](https://jamanetwork.com/journals/jama/pages/coronavirus-alert)
 
 - [Coronavirus Infections—More Than Just the Common Cold](https://jamanetwork.com/journals/jama/fullarticle/2759815)
-
-#### Nature
-
-##### [news](https://www.nature.com/articles/d41586-020-00154-w)
-
-##### [research](https://www.springernature.com/gp/researchers/campaigns/coronavirus)
-
-#### Science
-
-- [Study claiming new coronavirus can be transmitted by people without symptoms was flawed](https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patient-transmitting-coronavirus-wrong)
-- [Can an anti-HIV combination or other existing drugs outwit the new coronavirus?](https://www.sciencemag.org/news/2020/01/can-anti-hiv-combination-or-other-existing-drugs-outwit-new-coronavirus)
-- [Wuhan seafood market may not be source of novel virus spreading globally](https://www.sciencemag.org/news/2020/01/wuhan-seafood-market-may-not-be-source-novel-virus-spreading-globally)
 
 ### 预印本（preprint）
 
