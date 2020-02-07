@@ -79,6 +79,11 @@ for 2019-nCoV lung injury](https://www.thelancet.com/pb-assets/Lancet/pdfs/coron
 - [Can an anti-HIV combination or other existing drugs outwit the new coronavirus?](https://www.sciencemag.org/news/2020/01/can-anti-hiv-combination-or-other-existing-drugs-outwit-new-coronavirus)
 - [Wuhan seafood market may not be source of novel virus spreading globally](https://www.sciencemag.org/news/2020/01/wuhan-seafood-market-may-not-be-source-novel-virus-spreading-globally)
 
+#### [Eurosurveillance](https://www.eurosurveillance.org/content/2019-ncov)
+
+- [Quilty et al., Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV)](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.5.2000080)
+- [Corman et al., Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.3.2000045)
+
 #### [BMJ](https://www.bmj.com/coronavirus)
 
 #### [JAMA](https://jamanetwork.com/journals/jama/pages/coronavirus-alert)
