@@ -24,8 +24,9 @@ tags: ["life", "medi"]
 ## 公共卫生相关组织
 
 - [世界卫生组织（WHO）](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
-	- [情况报告](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/): [27/Jan/2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200127-sitrep-7-2019--ncov.pdf), [28/Jan/2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf)
+	- [情况报告](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/)
 	- [全球监控的建议](https://www.who.int/publications-detail/global-surveillance-for-human-infection-with-novel-coronavirus-(2019-ncov))
+	- [传言和事实](https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)
 - [CDC](https://www.cdc.gov/coronavirus/2019-ncov/about/index.html)
 - [European CDC](https://www.ecdc.europa.eu/en/novel-coronavirus-china)
 - [China CDC](http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/): "[2019 新型冠状病毒疫情进展和风险评估](http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/jszl_11811/202001/P020200127544648420736.pdf)"
@@ -66,6 +67,15 @@ for 2019-nCoV lung injury](https://www.thelancet.com/pb-assets/Lancet/pdfs/coron
 - [Munster et al., A Novel Coronavirus Emerging in China — Key Questions for Impact Assessment](https://www.nejm.org/doi/full/10.1056/NEJMp2000929?query=featured_coronavirus)
 - [Perlman et al., Another Decade, Another Coronavirus](https://www.nejm.org/doi/full/10.1056/NEJMe2001126?query=featured_coronavirus)
 
+#### [JAMA](https://jamanetwork.com/journals/jama/pages/coronavirus-alert)
+
+- [Wang et al., Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China](https://jamanetwork.com/journals/jama/fullarticle/2761044)
+- [Chang et al., Epidemiologic and Clinical Characteristics of Novel Coronavirus Infections Involving 13 Patients Outside Wuhan, China](https://jamanetwork.com/journals/jama/fullarticle/2761043)
+- [2019 Novel Coronavirus—Important Information for Clinicians](https://jamanetwork.com/journals/jama/fullarticle/2760782)
+- [Phelan et al., The Novel Coronavirus Originating in Wuhan, China
+Challenges for Global Health Governance](https://jamanetwork.com/journals/jama/fullarticle/2760500)
+- [Coronavirus Infections—More Than Just the Common Cold](https://jamanetwork.com/journals/jama/fullarticle/2759815)
+
 #### [Nature](https://www.nature.com/collections/hajgidghjb)
 
 - [Coronavirus latest: infections in China pass 20,000](https://www.nature.com/articles/d41586-020-00154-w)
@@ -86,9 +96,7 @@ for 2019-nCoV lung injury](https://www.thelancet.com/pb-assets/Lancet/pdfs/coron
 
 #### [BMJ](https://www.bmj.com/coronavirus)
 
-#### [JAMA](https://jamanetwork.com/journals/jama/pages/coronavirus-alert)
 
-- [Coronavirus Infections—More Than Just the Common Cold](https://jamanetwork.com/journals/jama/fullarticle/2759815)
 
 ### 预印本（preprint）
 
@@ -113,3 +121,6 @@ epidemic predictions](https://www.medrxiv.org/content/10.1101/2020.01.23.2001854
 - [哈佛大学公共卫生学院twitter](https://twitter.com/CCDD_HSPH/status/1222257431230631936)
 - [dr muge cevik(@mugecevik)twitter](https://twitter.com/mugecevik/status/1221020657242333184)
 
+## 博客
+
+- [作家方方](http://fangfang.blog.caixin.com/)

@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Feb 2020 22:24:47 +0800</pubDate>
-    <lastBuildDate>Fri, 07 Feb 2020 22:24:47 +0800</lastBuildDate>
+    <pubDate>Mon, 10 Feb 2020 10:20:23 +0800</pubDate>
+    <lastBuildDate>Mon, 10 Feb 2020 10:20:23 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -37,8 +37,9 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&quot;&gt;世界卫生组织（WHO）&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/&quot;&gt;情况报告&lt;/a&gt;: &lt;a href=&quot;https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200127-sitrep-7-2019--ncov.pdf&quot;&gt;27/Jan/2020&lt;/a&gt;, &lt;a href=&quot;https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf&quot;&gt;28/Jan/2020&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/&quot;&gt;情况报告&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.who.int/publications-detail/global-surveillance-for-human-infection-with-novel-coronavirus-(2019-ncov)&quot;&gt;全球监控的建议&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters&quot;&gt;传言和事实&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cdc.gov/coronavirus/2019-ncov/about/index.html&quot;&gt;CDC&lt;/a&gt;&lt;/li&gt;
@@ -94,6 +95,17 @@ for 2019-nCoV lung injury&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMe2001126?query=featured_coronavirus&quot;&gt;Perlman et al., Another Decade, Another Coronavirus&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;jama&quot;&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/pages/coronavirus-alert&quot;&gt;JAMA&lt;/a&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761044&quot;&gt;Wang et al., Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761043&quot;&gt;Chang et al., Epidemiologic and Clinical Characteristics of Novel Coronavirus Infections Involving 13 Patients Outside Wuhan, China&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2760782&quot;&gt;2019 Novel Coronavirus—Important Information for Clinicians&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2760500&quot;&gt;Phelan et al., The Novel Coronavirus Originating in Wuhan, China
+Challenges for Global Health Governance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2759815&quot;&gt;Coronavirus Infections—More Than Just the Common Cold&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;nature&quot;&gt;&lt;a href=&quot;https://www.nature.com/collections/hajgidghjb&quot;&gt;Nature&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
@@ -119,12 +131,6 @@ for 2019-nCoV lung injury&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;bmj&quot;&gt;&lt;a href=&quot;https://www.bmj.com/coronavirus&quot;&gt;BMJ&lt;/a&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;jama&quot;&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/pages/coronavirus-alert&quot;&gt;JAMA&lt;/a&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2759815&quot;&gt;Coronavirus Infections—More Than Just the Common Cold&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;h3 id=&quot;预印本preprint&quot;&gt;预印本（preprint）&lt;/h3&gt;
 
@@ -158,6 +164,11 @@ epidemic predictions&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://twitter.com/mugecevik/status/1221020657242333184&quot;&gt;dr muge cevik(@mugecevik)twitter&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;博客&quot;&gt;博客&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fangfang.blog.caixin.com/&quot;&gt;作家方方&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Mon, 27 Jan 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/01/27/coronavirus.html</link>
