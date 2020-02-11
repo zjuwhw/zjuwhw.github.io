@@ -107,7 +107,11 @@ epidemic predictions](https://www.medrxiv.org/content/10.1101/2020.01.23.2001854
 ### 研究机构网站:
 
 - [Mobs Lab, Preliminary analysis of the 2019 nCOV outbreak in Wuhan city](https://www.mobs-lab.org/2019ncov.html): [29/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan29.pdf), [27/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan27.pdf), [26/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan26.pdf)
-- [伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)的报告: Imai et al.](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/): [Report 3 (25/Jan)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf), [Report 2 (22/Jan)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf), [Report 1 (17/Jan)](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-17-01-2020.pdf)
+- [伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)的报告: Imai et al.](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/): 
+	- [Report 4 (10/Feb): Severity](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/)
+	- [Report 3 (25/Jan): Transmissibility](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf)
+	- [Report 2 (22/Jan): potential total number of cases](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
+	- [Report 1 (17/Jan): potential total number of cases](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-17-01-2020.pdf)
 - 约翰霍普金斯大学的CSSE: 
 	- [地图](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 	- 建模分析的博客 (Lauren Gardner): [31/Jan](https://systems.jhu.edu/research/public-health/ncov-model-2/), [26/Jan](https://systems.jhu.edu/research/public-health/ncov-model/)

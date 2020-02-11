@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Feb 2020 10:31:13 +0800</pubDate>
-    <lastBuildDate>Mon, 10 Feb 2020 10:31:13 +0800</lastBuildDate>
+    <pubDate>Tue, 11 Feb 2020 14:27:09 +0800</pubDate>
+    <lastBuildDate>Tue, 11 Feb 2020 14:27:09 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -144,7 +144,14 @@ epidemic predictions&lt;/a&gt;&lt;/li&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.mobs-lab.org/2019ncov.html&quot;&gt;Mobs Lab, Preliminary analysis of the 2019 nCOV outbreak in Wuhan city&lt;/a&gt;: &lt;a href=&quot;https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan29.pdf&quot;&gt;29/Jan/2020&lt;/a&gt;, &lt;a href=&quot;https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan27.pdf&quot;&gt;27/Jan/2020&lt;/a&gt;, &lt;a href=&quot;https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan26.pdf&quot;&gt;26/Jan/2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)的报告: Imai et al.&lt;/a&gt;: &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf&quot;&gt;Report 3 (25/Jan)&lt;/a&gt;, &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf&quot;&gt;Report 2 (22/Jan)&lt;/a&gt;, &lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-17-01-2020.pdf&quot;&gt;Report 1 (17/Jan)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)的报告: Imai et al.&lt;/a&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;Report 4 (10/Feb): Severity&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf&quot;&gt;Report 3 (25/Jan): Transmissibility&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf&quot;&gt;Report 2 (22/Jan): potential total number of cases&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-17-01-2020.pdf&quot;&gt;Report 1 (17/Jan): potential total number of cases&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;约翰霍普金斯大学的CSSE:
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6&quot;&gt;地图&lt;/a&gt;&lt;/li&gt;
