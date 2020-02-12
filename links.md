@@ -14,7 +14,7 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 
 ### My lab
 
-- [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720), [Hai Fang](http://www.cs.bris.ac.uk/~hfang/), [Jiantao Shi](https://jiantaoshi.github.io/index.html)
+- [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720), [Hai Fang](http://www.cs.bris.ac.uk/~hfang/), [Jiantao Shi](https://jiantaoshi.github.io/index.html), [Zhaohui Gu](https://gu-lab20.github.io/)
 - [PCTG](http://cnsgenomics.com/), [Peter Visscher](https://researchers.uq.edu.au/researcher/1487), [Naomi Wray](https://researchers.uq.edu.au/researcher/2006), [Jian Yang](https://researchers.uq.edu.au/researcher/2713), [Joseph Powell](https://www.garvan.org.au/people/jospow), [Matthew Robinson](http://wp.unil.ch/ctgg),[Hong Lee](https://sites.google.com/site/honglee0707/), [Beben Benyamin](http://people.unisa.edu.au/Beben.Benyamin), [Gibran Hemani](http://www.bristol.ac.uk/social-community-medicine/people/gibran-hemani/index.html), [Albert Tenesa](https://www.ed.ac.uk/roslin/about/contact-us/staff/albert-tenesa)
 
 ### Genetics

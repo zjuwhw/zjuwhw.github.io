@@ -84,6 +84,7 @@ Challenges for Global Health Governance](https://jamanetwork.com/journals/jama/f
 
 #### Science
 
+- [Mission impossible? WHO director fights to prevent a pandemic without offending China](https://www.sciencemag.org/news/2020/02/mission-impossible-who-director-fights-prevent-pandemic-without-offending-china?utm_source=Nature+Briefing&utm_campaign=8d77fd0d49-briefing-dy-20200211&utm_medium=email&utm_term=0_c9dfd39373-8d77fd0d49-43744165)
 - [‘This beast is moving very fast.’ Will the new coronavirus be contained—or go pandemic?](https://www.sciencemag.org/news/2020/02/beast-moving-very-fast-will-new-coronavirus-be-contained-or-go-pandemic)
 - [Study claiming new coronavirus can be transmitted by people without symptoms was flawed](https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patient-transmitting-coronavirus-wrong)
 - [Can an anti-HIV combination or other existing drugs outwit the new coronavirus?](https://www.sciencemag.org/news/2020/01/can-anti-hiv-combination-or-other-existing-drugs-outwit-new-coronavirus)
@@ -119,11 +120,17 @@ epidemic predictions](https://www.medrxiv.org/content/10.1101/2020.01.23.2001854
 - [Exponential regeression for confirmed cases, a shiny app by Chenfeng](https://cchen.shinyapps.io/2019_nCoV/)
 - [Nextstrain Genomic epidemiology analysis](https://nextstrain.org/ncov)
 - [http://virological.org/](http://virological.org/)
+- [伦敦卫生与热带医学院](https://cmmid.github.io/ncov)
 
 ### twitter
 
 - [哈佛大学公共卫生学院twitter](https://twitter.com/CCDD_HSPH/status/1222257431230631936)
 - [dr muge cevik(@mugecevik)twitter](https://twitter.com/mugecevik/status/1221020657242333184)
+
+## MOOC
+
+- [Epidemics I](https://www.edx.org/course/epidemics-i)
+- [Epidemics II](https://www.edx.org/course/epidemics-ii)
 
 ## 博客
 
