@@ -82,7 +82,7 @@ Challenges for Global Health Governance](https://jamanetwork.com/journals/jama/f
 - [Zhou et al., A pneumonia outbreak associated with a new coronavirus of probable bat origin](https://www.nature.com/articles/s41586-020-2012-7)
 - [Wu et al., A new coronavirus associated with human respiratory disease in China](https://www.nature.com/articles/s41586-020-2008-3)
 
-#### Science
+#### [Science](https://www.sciencemag.org/tags/coronavirus)
 
 - [Mission impossible? WHO director fights to prevent a pandemic without offending China](https://www.sciencemag.org/news/2020/02/mission-impossible-who-director-fights-prevent-pandemic-without-offending-china?utm_source=Nature+Briefing&utm_campaign=8d77fd0d49-briefing-dy-20200211&utm_medium=email&utm_term=0_c9dfd39373-8d77fd0d49-43744165)
 - [‘This beast is moving very fast.’ Will the new coronavirus be contained—or go pandemic?](https://www.sciencemag.org/news/2020/02/beast-moving-very-fast-will-new-coronavirus-be-contained-or-go-pandemic)
@@ -98,29 +98,39 @@ Challenges for Global Health Governance](https://jamanetwork.com/journals/jama/f
 #### [BMJ](https://www.bmj.com/coronavirus)
 
 
+#### others
+
+- [Li and Clercq, Therapeutic options for the 2019 novel coronavirus (2019-nCoV), nature reveiws drug discovery](https://www.nature.com/articles/d41573-020-00016-0)
 
 ### 预印本（preprint）
 
+- [Tian et al., Early evaluation of Wuhan City travel restrictions in response to the 2019 novel coronavirus outbreak](https://www.medrxiv.org/content/10.1101/2020.01.30.20019844v2)
+- [Hellewell et al., Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts](https://www.medrxiv.org/content/10.1101/2020.02.08.20021162v1)
+- [Chinazzi et al., The effect of travel restrictions on the spread of the 2019 novel coronavirus (2019-nCoV) outbreak](https://www.medrxiv.org/content/10.1101/2020.02.09.20021261v1)
 - [Read et al., Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and
 epidemic predictions](https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v2)
 - [Liu et al., Transmission dynamics of 2019 novel coronavirus (2019-nCoV)](https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1)
 
 ### 研究机构网站:
-
-- [Mobs Lab, Preliminary analysis of the 2019 nCOV outbreak in Wuhan city](https://www.mobs-lab.org/2019ncov.html): [29/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan29.pdf), [27/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan27.pdf), [26/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan26.pdf)
-- [伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)的报告: Imai et al.](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/): 
+- [伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/): 
 	- [Report 4 (10/Feb): Severity](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/)
 	- [Report 3 (25/Jan): Transmissibility](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf)
 	- [Report 2 (22/Jan): potential total number of cases](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
 	- [Report 1 (17/Jan): potential total number of cases](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-17-01-2020.pdf)
-- 约翰霍普金斯大学的CSSE: 
+- [美国东北大学Mobs Lab](https://www.mobs-lab.org/2019ncov.html)
+	- [29/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan29.pdf)
+	- [27/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan27.pdf)
+	- [26/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan26.pdf)
+- [伦敦卫生与热带医学院CMMID](https://cmmid.github.io/ncov)
+- 约翰霍普金斯大学CSSE: 
 	- [地图](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 	- 建模分析的博客 (Lauren Gardner): [31/Jan](https://systems.jhu.edu/research/public-health/ncov-model-2/), [26/Jan](https://systems.jhu.edu/research/public-health/ncov-model/)
-- [香港大学李嘉诚医学院：Leung et al.](https://sph.hku.hk/images/news/press-releases2020/Wuhan-20200127.pdf)
-- [Exponential regeression for confirmed cases, a shiny app by Chenfeng](https://cchen.shinyapps.io/2019_nCoV/)
+- [香港大学李嘉诚医学院](https://sph.hku.hk/en/about-us/divisioncentreunit/who-collaborating-centre-for-infectious-disease-epidemiology-and-control/2019-ncov)
+	- [27/Jan/2020](https://sph.hku.hk/images/news/press-releases2020/Wuhan-20200127.pdf)
+- [哈佛大学公共卫生学院](https://www.hsph.harvard.edu/news/hsph-in-the-news/the-latest-on-the-coronavirus/)
 - [Nextstrain Genomic epidemiology analysis](https://nextstrain.org/ncov)
 - [http://virological.org/](http://virological.org/)
-- [伦敦卫生与热带医学院](https://cmmid.github.io/ncov)
+- [Exponential regeression for confirmed cases, a shiny app by Chenfeng](https://cchen.shinyapps.io/2019_nCoV/)
 
 ### twitter
 
