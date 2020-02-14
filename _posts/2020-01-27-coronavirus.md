@@ -5,9 +5,9 @@ date: 2020-01-27
 tags: ["life", "medi"]
 ---
 
-今年春节（计划是1月18日-2月9日）我回家（[辽宁省本溪市](https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82)）过年，赶上武汉爆发“[新型冠状病毒](https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6)”。目前政府采取了很强力的措施（如包括武汉在内的很多湖北省的封城，取消了很多地方的公共交通等），同时建议民众减少外出，尽量呆在家中。
+今年春节（计划是1月18日-2月9日）我回家（[辽宁省本溪市](https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82)）过年，赶上武汉爆发“[新型冠状病毒](https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6)”。从1月24日起，一直呆在家中。由于疫情的发展和交通限制，取消了原计划1月28日去我老婆老家（河北邢台隆尧县）的计划。又由于2月1日澳大利亚政府颁布的限制令，我们取消了2月9日返回澳洲的机票。目前，远程工作（PhD科研），等待消息返回澳洲继续读书。
 
-故想写这个博客，收集各种信息:
+写这个博客，收集各种信息:
 
 ## 疫情通报
 
@@ -51,6 +51,8 @@ tags: ["life", "medi"]
 
 ##### Others:
 
+- [Habibi et al., Do not violate the International Health Regulations during the COVID-19 outbreak](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30373-1/fulltext)
+- [Zhang, Early lessons from the frontline of the 2019-nCoV outbreak](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30356-1/fulltext)
 - [Wang and Zhang, What to do next to control the 2019-nCoV epidemic?](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930300-7)
 - [Russell, Millar, Baillie, Clinical evidence does not support corticosteroid treatment
 for 2019-nCoV lung injury](https://www.thelancet.com/pb-assets/Lancet/pdfs/coronavirus/S0140673620303172.pdf)
