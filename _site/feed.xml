@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Feb 2020 12:23:38 +0800</pubDate>
-    <lastBuildDate>Fri, 14 Feb 2020 12:23:38 +0800</lastBuildDate>
+    <pubDate>Mon, 17 Feb 2020 08:47:21 +0800</pubDate>
+    <lastBuildDate>Mon, 17 Feb 2020 08:47:21 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -100,6 +100,9 @@ for 2019-nCoV lung injury&lt;/a&gt;&lt;/li&gt;
 &lt;h4 id=&quot;jama&quot;&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/pages/coronavirus-alert&quot;&gt;JAMA&lt;/a&gt;&lt;/h4&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761659&quot;&gt;Wei et al., Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China, 14/Feb/2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761556&quot;&gt;US Emergency Legal Responses to Novel Coronavirus, 13/Feb/2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761285&quot;&gt;Preparation for Possible Sustained Transmission of 2019 Novel Coronavirus, 11/Feb/2020&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761044&quot;&gt;Wang et al., Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761043&quot;&gt;Chang et al., Epidemiologic and Clinical Characteristics of Novel Coronavirus Infections Involving 13 Patients Outside Wuhan, China&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2760782&quot;&gt;2019 Novel Coronavirus—Important Information for Clinicians&lt;/a&gt;&lt;/li&gt;
@@ -156,6 +159,7 @@ epidemic predictions&lt;/a&gt;&lt;/li&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)&lt;/a&gt;:
     &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College---COVID-19---genetic-analysis-FINAL.pdf&quot;&gt;Report 5 (15/Feb): Phylogenetic analysis of SARS-CoV-2&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;Report 4 (10/Feb): Severity&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf&quot;&gt;Report 3 (25/Jan): Transmissibility&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf&quot;&gt;Report 2 (22/Jan): potential total number of cases&lt;/a&gt;&lt;/li&gt;
@@ -170,15 +174,17 @@ epidemic predictions&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cmmid.github.io/ncov&quot;&gt;伦敦卫生与热带医学院CMMID&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.centerforhealthsecurity.org/resources/COVID-19/index.html&quot;&gt;约翰霍普金斯大学公共卫生学院&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;约翰霍普金斯大学CSSE:
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6&quot;&gt;地图&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;建模分析的博客 (Lauren Gardner): &lt;a href=&quot;https://systems.jhu.edu/research/public-health/ncov-model-2/&quot;&gt;31/Jan&lt;/a&gt;, &lt;a href=&quot;https://systems.jhu.edu/research/public-health/ncov-model/&quot;&gt;26/Jan&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sph.hku.hk/en/about-us/divisioncentreunit/who-collaborating-centre-for-infectious-disease-epidemiology-and-control/2019-ncov&quot;&gt;香港大学李嘉诚医学院&lt;/a&gt;
+  &lt;li&gt;香港大学
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://sph.hku.hk/images/news/press-releases2020/Wuhan-20200127.pdf&quot;&gt;27/Jan/2020&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.med.hku.hk/The-Latest-from-HKUMed-on-COVID-19&quot;&gt;李嘉诚医学院&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://sph.hku.hk/en/about-us/divisioncentreunit/who-collaborating-centre-for-infectious-disease-epidemiology-and-control/2019-ncov&quot;&gt;公共卫生学院&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.hsph.harvard.edu/news/hsph-in-the-news/the-latest-on-the-coronavirus/&quot;&gt;哈佛大学公共卫生学院&lt;/a&gt;&lt;/li&gt;

@@ -71,6 +71,9 @@ for 2019-nCoV lung injury](https://www.thelancet.com/pb-assets/Lancet/pdfs/coron
 
 #### [JAMA](https://jamanetwork.com/journals/jama/pages/coronavirus-alert)
 
+- [Wei et al., Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China, 14/Feb/2020](https://jamanetwork.com/journals/jama/fullarticle/2761659)
+- [US Emergency Legal Responses to Novel Coronavirus, 13/Feb/2020](https://jamanetwork.com/journals/jama/fullarticle/2761556)
+- [Preparation for Possible Sustained Transmission of 2019 Novel Coronavirus, 11/Feb/2020](https://jamanetwork.com/journals/jama/fullarticle/2761285)
 - [Wang et al., Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China](https://jamanetwork.com/journals/jama/fullarticle/2761044)
 - [Chang et al., Epidemiologic and Clinical Characteristics of Novel Coronavirus Infections Involving 13 Patients Outside Wuhan, China](https://jamanetwork.com/journals/jama/fullarticle/2761043)
 - [2019 Novel Coronavirus—Important Information for Clinicians](https://jamanetwork.com/journals/jama/fullarticle/2760782)
@@ -115,6 +118,7 @@ epidemic predictions](https://www.medrxiv.org/content/10.1101/2020.01.23.2001854
 
 ### 研究机构网站:
 - [伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/): 
+	- [Report 5 (15/Feb): Phylogenetic analysis of SARS-CoV-2](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College---COVID-19---genetic-analysis-FINAL.pdf)
 	- [Report 4 (10/Feb): Severity](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/)
 	- [Report 3 (25/Jan): Transmissibility](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf)
 	- [Report 2 (22/Jan): potential total number of cases](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
@@ -124,11 +128,14 @@ epidemic predictions](https://www.medrxiv.org/content/10.1101/2020.01.23.2001854
 	- [27/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan27.pdf)
 	- [26/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan26.pdf)
 - [伦敦卫生与热带医学院CMMID](https://cmmid.github.io/ncov)
+- [约翰霍普金斯大学公共卫生学院](http://www.centerforhealthsecurity.org/resources/COVID-19/index.html)
 - 约翰霍普金斯大学CSSE: 
 	- [地图](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 	- 建模分析的博客 (Lauren Gardner): [31/Jan](https://systems.jhu.edu/research/public-health/ncov-model-2/), [26/Jan](https://systems.jhu.edu/research/public-health/ncov-model/)
-- [香港大学李嘉诚医学院](https://sph.hku.hk/en/about-us/divisioncentreunit/who-collaborating-centre-for-infectious-disease-epidemiology-and-control/2019-ncov)
-	- [27/Jan/2020](https://sph.hku.hk/images/news/press-releases2020/Wuhan-20200127.pdf)
+- 香港大学
+	- [李嘉诚医学院](http://www.med.hku.hk/The-Latest-from-HKUMed-on-COVID-19)
+	- [公共卫生学院](https://sph.hku.hk/en/about-us/divisioncentreunit/who-collaborating-centre-for-infectious-disease-epidemiology-and-control/2019-ncov)
+
 - [哈佛大学公共卫生学院](https://www.hsph.harvard.edu/news/hsph-in-the-news/the-latest-on-the-coronavirus/)
 - [Nextstrain Genomic epidemiology analysis](https://nextstrain.org/ncov)
 - [http://virological.org/](http://virological.org/)
