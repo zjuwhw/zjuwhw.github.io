@@ -6,9 +6,171 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Feb 2020 09:31:28 +0800</pubDate>
-    <lastBuildDate>Mon, 17 Feb 2020 09:31:28 +0800</lastBuildDate>
+    <pubDate>Tue, 25 Feb 2020 13:25:15 +0800</pubDate>
+    <lastBuildDate>Tue, 25 Feb 2020 13:25:15 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>中国房价</title>
+        <description>&lt;p&gt;中国大城市高企的房价往往是年轻人生活中关心和热议的话题。故，我今天访问&lt;a href=&quot;https://www.sofang.com/&quot;&gt;搜房网&lt;/a&gt;的“查房价”功能，来查看一下各城市当前的房价情况。&lt;/p&gt;
+
+&lt;p&gt;各城市二手房“1月均价”&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;城市&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;房价（人民币）&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;城市&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;房价（人民币）&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;城市&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;房价（人民币）&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;北京&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;69967&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;济南&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;20357&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;天津&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;24792&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;长春&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10782&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;南京&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;30100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;温州&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;16926&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;成都&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;16586&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;青岛&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;27761&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;武汉&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18450&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;重庆&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12696&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;上海&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;62606&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;乌鲁木齐&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8516&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;大连&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;17051&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;沈阳&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11396&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;厦门&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;42645&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;福州&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;24875&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;深圳&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;49183&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;西安&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;13534&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;广州&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;35315&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;石家庄&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;13573&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;邢台&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7665&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;杭州&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;27033&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;苏州&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;23757&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/beijing.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/changchun.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/chengdu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/chongqing.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/dalian.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/fuzhou.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/guangzhou.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/hangzhou.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/jinan.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/nanjing.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/qingdao.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/shanghai.png&quot; alt=&quot;&quot; /&gt;&amp;lt;hr&amp;gt;
+&lt;img src=&quot;/images/house_price/shenyang.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/shenzhen.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/shijiazhuang.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/suzhou.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/tianjin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/wenzhou.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/wuhan.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/wulumuqi.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/xiamen.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/xian.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/house_price/xingtai.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Tue, 25 Feb 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/02/25/house.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/02/25/house.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>新型冠状病毒疫情</title>
@@ -759,27 +921,6 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
         <guid isPermaLink="true">http://localhost:4000/2018/12/16/modern-china-story.html</guid>
         
         <category>book</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mendelian Randomization study</title>
-        <description>&lt;p&gt;MR-Egger:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1093/ije/dyv080&quot;&gt;Bowden, J., Davey Smith, G. &amp;amp; Burgess, S. Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression. Int. J. Epidemiol. 44, 512–525 (2015)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;SMR&lt;/p&gt;
-
-&lt;p&gt;GSMR&lt;/p&gt;
-</description>
-        <pubDate>Fri, 09 Nov 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/11/09/MR.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/11/09/MR.html</guid>
-        
-        <category>GWAS</category>
-        
-        <category>bio</category>
         
         
       </item>
