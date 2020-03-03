@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Feb 2020 13:25:15 +0800</pubDate>
-    <lastBuildDate>Tue, 25 Feb 2020 13:25:15 +0800</lastBuildDate>
+    <pubDate>Tue, 03 Mar 2020 13:39:36 +0800</pubDate>
+    <lastBuildDate>Tue, 03 Mar 2020 13:39:36 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -180,46 +180,71 @@
 
 &lt;h2 id=&quot;疫情通报&quot;&gt;疫情通报&lt;/h2&gt;
 
-&lt;h3 id=&quot;各卫生健康委&quot;&gt;各卫生健康委&lt;/h3&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml&quot;&gt;国家卫生健康委&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wjw.hubei.gov.cn/fbjd/dtyw/&quot;&gt;湖北省卫生健康委员会&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wsjkw.sh.gov.cn/xwfb/index.html&quot;&gt;上海市卫生健康委员会&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;媒体和网站&quot;&gt;媒体和网站&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://3g.dxy.cn/newh5/view/pneumonia&quot;&gt;丁香园实时地图&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;公共卫生相关组织&quot;&gt;公共卫生相关组织&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&quot;&gt;世界卫生组织（WHO）&lt;/a&gt;
+  &lt;li&gt;中国
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/&quot;&gt;情况报告&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.who.int/publications-detail/global-surveillance-for-human-infection-with-novel-coronavirus-(2019-ncov)&quot;&gt;全球监控的建议&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters&quot;&gt;传言和事实&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml&quot;&gt;国家卫生健康委&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;http://wjw.hubei.gov.cn/fbjd/dtyw/&quot;&gt;湖北省&lt;/a&gt;, &lt;a href=&quot;http://wsjkw.sh.gov.cn/xwfb/index.html&quot;&gt;上海市&lt;/a&gt;, &lt;a href=&quot;http://wsjk.ln.gov.cn/wst_zdzt/xxgzbd/yqtb/&quot;&gt;辽宁省&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://3g.dxy.cn/newh5/view/pneumonia&quot;&gt;丁香园实时地图&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdc.gov/coronavirus/2019-ncov/about/index.html&quot;&gt;CDC&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ecdc.europa.eu/en/novel-coronavirus-china&quot;&gt;European CDC&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/&quot;&gt;China CDC&lt;/a&gt;: “&lt;a href=&quot;http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/jszl_11811/202001/P020200127544648420736.pdf&quot;&gt;2019 新型冠状病毒疫情进展和风险评估&lt;/a&gt;”
+  &lt;li&gt;澳洲
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://cdcp.gd.gov.cn/&quot;&gt;广东省疾病预防控制中心&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert#current-status&quot;&gt;澳大利亚健康部门&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.health.qld.gov.au/news-events/health-alerts/novel-coronavirus&quot;&gt;昆士兰州&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.health.gov.au/health-topics/novel-coronavirus-2019-ncov&quot;&gt;澳大利亚健康中心&lt;/a&gt;
+  &lt;li&gt;世界
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://conditions.health.qld.gov.au/HealthCondition/condition/14/217/838/novel-coronavirus&quot;&gt;昆士兰健康中心&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/&quot;&gt;世界卫生组织（WHO) - situation report&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6&quot;&gt;约翰霍普金斯大学CSSE - tracking map&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;相关信息和措施&quot;&gt;相关信息和措施&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;中国
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.gov.cn/fuwu/zt/yqfkzq/index.htm&quot;&gt;中国人民政府&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;http://www.hubei.gov.cn/zhuanti/2020/gzxxgzbd/index.shtml&quot;&gt;湖北省&lt;/a&gt;, &lt;a href=&quot;http://www.ln.gov.cn/qmzx/xxgzbd/&quot;&gt;辽宁省&lt;/a&gt;, &lt;a href=&quot;http://www.benxi.gov.cn/zt/qlkjxxgzbdgrdfyyq&quot;&gt;本溪市&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/&quot;&gt;China CDC&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;澳洲
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.homeaffairs.gov.au/news-media/current-alerts/novel-coronavirus&quot;&gt;澳大利亚Home Affairs部门&lt;/a&gt;, &lt;a href=&quot;https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert&quot;&gt;澳大利亚健康部门&lt;/a&gt;, &lt;a href=&quot;https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/diseases-infection/diseases/coronavirus/public-info-novel-coronavirus&quot;&gt;昆士兰州&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://about.uq.edu.au/coronavirus-advice-uq-community&quot;&gt;昆士兰大学&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;世界
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&quot;&gt;世界卫生组织&lt;/a&gt;: &lt;a href=&quot;https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters&quot;&gt;传言和事实&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.cdc.gov/coronavirus/2019-ncov/about/index.html&quot;&gt;CDC&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.ecdc.europa.eu/en/novel-coronavirus-china&quot;&gt;European CDC&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;科学分析&quot;&gt;科学分析&lt;/h2&gt;
+&lt;h2 id=&quot;人们的生活&quot;&gt;人们的生活&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fangfang.blog.caixin.com/&quot;&gt;作家方方&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;凤凰卫视：&lt;a href=&quot;https://www.youtube.com/playlist?list=PLAPUFB0EKWq9Gr4BqjwjwXY3t9GgdAWEo&quot;&gt;名人面对面-武汉来信&lt;/a&gt;，&lt;a href=&quot;https://www.youtube.com/playlist?list=PLAPUFB0EKWq_FDe0rGSicf4RQJhLBe4Hr&quot;&gt;冷暖人生&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;vlog: &lt;a href=&quot;https://www.youtube.com/channel/UCrErTVwmRX5cbz1gL5xBFuA&quot;&gt;蜘蛛猴面包&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;科学研究&quot;&gt;科学研究&lt;/h2&gt;
 
 &lt;h3 id=&quot;发表论文&quot;&gt;发表论文&lt;/h3&gt;
 
@@ -337,12 +362,7 @@ epidemic predictions&lt;/a&gt;&lt;/li&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cmmid.github.io/ncov&quot;&gt;伦敦卫生与热带医学院CMMID&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.centerforhealthsecurity.org/resources/COVID-19/index.html&quot;&gt;约翰霍普金斯大学公共卫生学院&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;约翰霍普金斯大学CSSE:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6&quot;&gt;地图&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;建模分析的博客 (Lauren Gardner): &lt;a href=&quot;https://systems.jhu.edu/research/public-health/ncov-model-2/&quot;&gt;31/Jan&lt;/a&gt;, &lt;a href=&quot;https://systems.jhu.edu/research/public-health/ncov-model/&quot;&gt;26/Jan&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;约翰霍普金斯大学CSSE - 建模分析的博客 (Lauren Gardner): &lt;a href=&quot;https://systems.jhu.edu/research/public-health/ncov-model-2/&quot;&gt;31/Jan&lt;/a&gt;, &lt;a href=&quot;https://systems.jhu.edu/research/public-health/ncov-model/&quot;&gt;26/Jan&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;香港大学
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.med.hku.hk/The-Latest-from-HKUMed-on-COVID-19&quot;&gt;李嘉诚医学院&lt;/a&gt;&lt;/li&gt;
@@ -355,7 +375,7 @@ epidemic predictions&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cchen.shinyapps.io/2019_nCoV/&quot;&gt;Exponential regeression for confirmed cases, a shiny app by Chenfeng&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;twitter&quot;&gt;twitter&lt;/h3&gt;
+&lt;h2 id=&quot;twitter&quot;&gt;twitter&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://twitter.com/CCDD_HSPH/status/1222257431230631936&quot;&gt;哈佛大学公共卫生学院twitter&lt;/a&gt;&lt;/li&gt;
@@ -364,16 +384,8 @@ epidemic predictions&lt;/a&gt;&lt;/li&gt;
 
 &lt;h2 id=&quot;mooc&quot;&gt;MOOC&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/epidemics-i&quot;&gt;Epidemics I&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/epidemics-ii&quot;&gt;Epidemics II&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.edx.org/course/epidemics-i&quot;&gt;Epidemics I&lt;/a&gt;, &lt;a href=&quot;https://www.edx.org/course/epidemics-ii&quot;&gt;Epidemics II&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;博客&quot;&gt;博客&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://fangfang.blog.caixin.com/&quot;&gt;作家方方&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
         <pubDate>Mon, 27 Jan 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/01/27/coronavirus.html</link>

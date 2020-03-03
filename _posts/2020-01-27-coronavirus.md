@@ -11,31 +11,40 @@ tags: ["life", "medi"]
 
 ## 疫情通报
 
-### 各卫生健康委
+- 中国
+	- [国家卫生健康委](http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml)
+		- [湖北省](http://wjw.hubei.gov.cn/fbjd/dtyw/), [上海市](http://wsjkw.sh.gov.cn/xwfb/index.html), [辽宁省](http://wsjk.ln.gov.cn/wst_zdzt/xxgzbd/yqtb/)
+	- [丁香园实时地图](https://3g.dxy.cn/newh5/view/pneumonia)
+- 澳洲
+	- [澳大利亚健康部门](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert#current-status)
+		- [昆士兰州](https://www.health.qld.gov.au/news-events/health-alerts/novel-coronavirus)
+- 世界
+	- [世界卫生组织（WHO) - situation report](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/)
+	- [约翰霍普金斯大学CSSE - tracking map](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
-- [国家卫生健康委](http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml)
-- [湖北省卫生健康委员会](http://wjw.hubei.gov.cn/fbjd/dtyw/)
-- [上海市卫生健康委员会](http://wsjkw.sh.gov.cn/xwfb/index.html)
+## 相关信息和措施
 
-### 媒体和网站
-
-- [丁香园实时地图](https://3g.dxy.cn/newh5/view/pneumonia)
-
-## 公共卫生相关组织
-
-- [世界卫生组织（WHO）](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
-	- [情况报告](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/)
-	- [全球监控的建议](https://www.who.int/publications-detail/global-surveillance-for-human-infection-with-novel-coronavirus-(2019-ncov))
-	- [传言和事实](https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)
-- [CDC](https://www.cdc.gov/coronavirus/2019-ncov/about/index.html)
-- [European CDC](https://www.ecdc.europa.eu/en/novel-coronavirus-china)
-- [China CDC](http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/): "[2019 新型冠状病毒疫情进展和风险评估](http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/jszl_11811/202001/P020200127544648420736.pdf)"
-	- [广东省疾病预防控制中心](http://cdcp.gd.gov.cn/)
-- [澳大利亚健康中心](https://www.health.gov.au/health-topics/novel-coronavirus-2019-ncov)
-	- [昆士兰健康中心](http://conditions.health.qld.gov.au/HealthCondition/condition/14/217/838/novel-coronavirus)
+- 中国
+	- [中国人民政府](http://www.gov.cn/fuwu/zt/yqfkzq/index.htm)
+		- [湖北省](http://www.hubei.gov.cn/zhuanti/2020/gzxxgzbd/index.shtml), [辽宁省](http://www.ln.gov.cn/qmzx/xxgzbd/), [本溪市](http://www.benxi.gov.cn/zt/qlkjxxgzbdgrdfyyq)
+	- [China CDC](http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/)
+- 澳洲
+	- [澳大利亚Home Affairs部门](https://www.homeaffairs.gov.au/news-media/current-alerts/novel-coronavirus), [澳大利亚健康部门](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert), [昆士兰州](https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/diseases-infection/diseases/coronavirus/public-info-novel-coronavirus)
 	- [昆士兰大学](https://about.uq.edu.au/coronavirus-advice-uq-community)
 
-## 科学分析
+- 世界
+	- [世界卫生组织](https://www.who.int/emergencies/diseases/novel-coronavirus-2019): [传言和事实](https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)
+	- [CDC](https://www.cdc.gov/coronavirus/2019-ncov/about/index.html)
+	- [European CDC](https://www.ecdc.europa.eu/en/novel-coronavirus-china)
+
+
+## 人们的生活
+
+- [作家方方](http://fangfang.blog.caixin.com/)
+- 凤凰卫视：[名人面对面-武汉来信](https://www.youtube.com/playlist?list=PLAPUFB0EKWq9Gr4BqjwjwXY3t9GgdAWEo)，[冷暖人生](https://www.youtube.com/playlist?list=PLAPUFB0EKWq_FDe0rGSicf4RQJhLBe4Hr)
+- vlog: [蜘蛛猴面包](https://www.youtube.com/channel/UCrErTVwmRX5cbz1gL5xBFuA)
+
+## 科学研究
 
 ### 发表论文
 
@@ -129,9 +138,7 @@ epidemic predictions](https://www.medrxiv.org/content/10.1101/2020.01.23.2001854
 	- [26/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan26.pdf)
 - [伦敦卫生与热带医学院CMMID](https://cmmid.github.io/ncov)
 - [约翰霍普金斯大学公共卫生学院](http://www.centerforhealthsecurity.org/resources/COVID-19/index.html)
-- 约翰霍普金斯大学CSSE: 
-	- [地图](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
-	- 建模分析的博客 (Lauren Gardner): [31/Jan](https://systems.jhu.edu/research/public-health/ncov-model-2/), [26/Jan](https://systems.jhu.edu/research/public-health/ncov-model/)
+- 约翰霍普金斯大学CSSE - 建模分析的博客 (Lauren Gardner): [31/Jan](https://systems.jhu.edu/research/public-health/ncov-model-2/), [26/Jan](https://systems.jhu.edu/research/public-health/ncov-model/)
 - 香港大学
 	- [李嘉诚医学院](http://www.med.hku.hk/The-Latest-from-HKUMed-on-COVID-19)
 	- [公共卫生学院](https://sph.hku.hk/en/about-us/divisioncentreunit/who-collaborating-centre-for-infectious-disease-epidemiology-and-control/2019-ncov)
@@ -141,16 +148,12 @@ epidemic predictions](https://www.medrxiv.org/content/10.1101/2020.01.23.2001854
 - [http://virological.org/](http://virological.org/)
 - [Exponential regeression for confirmed cases, a shiny app by Chenfeng](https://cchen.shinyapps.io/2019_nCoV/)
 
-### twitter
+## twitter
 
 - [哈佛大学公共卫生学院twitter](https://twitter.com/CCDD_HSPH/status/1222257431230631936)
 - [dr muge cevik(@mugecevik)twitter](https://twitter.com/mugecevik/status/1221020657242333184)
 
 ## MOOC
 
-- [Epidemics I](https://www.edx.org/course/epidemics-i)
-- [Epidemics II](https://www.edx.org/course/epidemics-ii)
+[Epidemics I](https://www.edx.org/course/epidemics-i), [Epidemics II](https://www.edx.org/course/epidemics-ii)
 
-## 博客
-
-- [作家方方](http://fangfang.blog.caixin.com/)
