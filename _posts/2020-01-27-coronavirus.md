@@ -5,7 +5,7 @@ date: 2020-01-27
 tags: ["life", "medi"]
 ---
 
-今年春节（2020年1月25日）我请假（1月18日-2月9日）回国过年，赶上“[新型冠状病毒](https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6)”疫情爆发，从1月24日起，一直呆在家中（[辽宁省本溪市](https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82)）。由于疫情和交通限制，取消了1月28日去我老婆老家（河北邢台隆尧县）的机票，又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。目前，远程工作（PhD科研），等待消息返回澳洲继续读书。
+今年春节（2020年1月25日）我请假（1月18日-2月9日）回国过年，赶上“[新型冠状病毒](https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6)”疫情爆发，从1月24日起，一直呆在家中（[辽宁省本溪市](https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82)）。由于疫情和交通限制，取消了1月28日去我老婆老家（河北邢台隆尧县）的机票，又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。2月10日起，远程工作（remote working），但工作效率非常低。
 
 写这个博客，收集关于新型冠状病毒的各种信息:
 
@@ -17,7 +17,7 @@ tags: ["life", "medi"]
 	- [丁香园实时地图](https://3g.dxy.cn/newh5/view/pneumonia)
 - 澳洲
 	- [澳大利亚健康部门](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert#current-status)
-		- [昆士兰州](https://www.health.qld.gov.au/news-events/health-alerts/novel-coronavirus)
+		- [昆士兰州](https://www.health.qld.gov.au/news-events/health-alerts/novel-coronavirus), [](), []()
 - 世界
 	- [世界卫生组织（WHO) - situation report](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/)
 	- [约翰霍普金斯大学CSSE - tracking map](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
