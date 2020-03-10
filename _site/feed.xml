@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Mar 2020 09:25:10 +0800</pubDate>
-    <lastBuildDate>Sun, 08 Mar 2020 09:25:10 +0800</lastBuildDate>
+    <pubDate>Tue, 10 Mar 2020 22:03:07 +0800</pubDate>
+    <lastBuildDate>Tue, 10 Mar 2020 22:03:07 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -200,7 +200,7 @@
     
       <item>
         <title>新型冠状病毒疫情</title>
-        <description>&lt;p&gt;今年春节（2020年1月25日）我请假（1月18日-2月9日）回国过年，赶上“&lt;a href=&quot;https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6&quot;&gt;新型冠状病毒&lt;/a&gt;”疫情爆发，从1月24日起，一直呆在家中（&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82&quot;&gt;辽宁省本溪市&lt;/a&gt;）。由于疫情和交通限制，取消了1月28日去我老婆老家（河北邢台隆尧县）的机票，又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。2月10日起，远程工作（remote working），但工作效率非常低。&lt;/p&gt;
+        <description>&lt;p&gt;今年春节（2020年1月25日）我请假（1月18日-2月9日）回国过年，赶上“&lt;a href=&quot;https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6&quot;&gt;新型冠状病毒&lt;/a&gt;”疫情爆发和随之而来的交通限制，取消了1月28日去我老婆老家（河北邢台隆尧县）的机票。又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。从1月24日到现在，一直呆在家中（&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82&quot;&gt;辽宁省本溪市&lt;/a&gt;）。从2月10日起，远程工作（remote working）写论文，工作效率非常低。3月9日，和导师Skype视频，导师介绍了一些远程工作保持效率的经验（如规定时间，不受干扰的学习环境等），希望之后可以提高效率。&lt;/p&gt;
 
 &lt;p&gt;写这个博客，收集关于新型冠状病毒的各种信息:&lt;/p&gt;
 
@@ -221,7 +221,7 @@
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert#current-status&quot;&gt;澳大利亚健康部门&lt;/a&gt;
         &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.health.qld.gov.au/news-events/health-alerts/novel-coronavirus&quot;&gt;昆士兰州&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.health.qld.gov.au/news-events/health-alerts/novel-coronavirus&quot;&gt;昆士兰州&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -274,98 +274,14 @@
 
 &lt;h3 id=&quot;发表论文&quot;&gt;发表论文&lt;/h3&gt;
 
-&lt;h4 id=&quot;柳叶刀&quot;&gt;&lt;a href=&quot;https://www.thelancet.com/coronavirus&quot;&gt;柳叶刀&lt;/a&gt;&lt;/h4&gt;
-
-&lt;h5 id=&quot;articles&quot;&gt;Articles&lt;/h5&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30260-9/fulltext&quot;&gt;Wu et al., Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30211-7/fulltext&quot;&gt;Chen et al., Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30251-8/fulltext&quot;&gt;Lu et al., Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext&quot;&gt;Huang et al., Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30154-9/fulltext&quot;&gt;Chan et al., A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;others&quot;&gt;Others:&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30373-1/fulltext&quot;&gt;Habibi et al., Do not violate the International Health Regulations during the COVID-19 outbreak&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30356-1/fulltext&quot;&gt;Zhang, Early lessons from the frontline of the 2019-nCoV outbreak&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930300-7&quot;&gt;Wang and Zhang, What to do next to control the 2019-nCoV epidemic?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/pb-assets/Lancet/pdfs/coronavirus/S0140673620303172.pdf&quot;&gt;Russell, Millar, Baillie, Clinical evidence does not support corticosteroid treatment
-for 2019-nCoV lung injury&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30212-9/fulltext&quot;&gt;Horton, Offline: 2019-nCoV outbreak—early lessons&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30032-2/fulltext&quot;&gt;Ji et al., Origins of MERS-CoV, and lessons for 2019-nCoV&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;新英格兰&quot;&gt;&lt;a href=&quot;https://www.nejm.org/coronavirus&quot;&gt;新英格兰&lt;/a&gt;&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMoa2001191?query=featured_coronavirus&quot;&gt;Holshue et al., First Case of 2019 Novel Coronavirus in the United States&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMc2001468&quot;&gt;Rothe et al., Transmission of 2019-nCoV Infection from an Asymptomatic Contact in Germany&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMoa2001316&quot;&gt;Li et al., Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMc2001272&quot;&gt;Phan et al., Importation and Human-to-Human Transmission of a Novel Coronavirus in Vietnam&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMe2001329?query=featured_coronavirus&quot;&gt;Rubin et al., Medical Journals and the 2019-nCoV Outbreak&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMoa2001017&quot;&gt;Zhu et al., A Novel Coronavirus from Patients with Pneumonia in China, 2019&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMp2000929?query=featured_coronavirus&quot;&gt;Munster et al., A Novel Coronavirus Emerging in China — Key Questions for Impact Assessment&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/doi/full/10.1056/NEJMe2001126?query=featured_coronavirus&quot;&gt;Perlman et al., Another Decade, Another Coronavirus&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;jama&quot;&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/pages/coronavirus-alert&quot;&gt;JAMA&lt;/a&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761659&quot;&gt;Wei et al., Novel Coronavirus Infection in Hospitalized Infants Under 1 Year of Age in China, 14/Feb/2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761556&quot;&gt;US Emergency Legal Responses to Novel Coronavirus, 13/Feb/2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761285&quot;&gt;Preparation for Possible Sustained Transmission of 2019 Novel Coronavirus, 11/Feb/2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761044&quot;&gt;Wang et al., Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2761043&quot;&gt;Chang et al., Epidemiologic and Clinical Characteristics of Novel Coronavirus Infections Involving 13 Patients Outside Wuhan, China&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2760782&quot;&gt;2019 Novel Coronavirus—Important Information for Clinicians&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2760500&quot;&gt;Phelan et al., The Novel Coronavirus Originating in Wuhan, China
-Challenges for Global Health Governance&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/fullarticle/2759815&quot;&gt;Coronavirus Infections—More Than Just the Common Cold&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;nature&quot;&gt;&lt;a href=&quot;https://www.nature.com/collections/hajgidghjb&quot;&gt;Nature&lt;/a&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/d41586-020-00154-w&quot;&gt;Coronavirus latest: infections in China pass 20,000&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/s41586-020-2012-7&quot;&gt;Zhou et al., A pneumonia outbreak associated with a new coronavirus of probable bat origin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/s41586-020-2008-3&quot;&gt;Wu et al., A new coronavirus associated with human respiratory disease in China&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;science&quot;&gt;&lt;a href=&quot;https://www.sciencemag.org/tags/coronavirus&quot;&gt;Science&lt;/a&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/02/mission-impossible-who-director-fights-prevent-pandemic-without-offending-china?utm_source=Nature+Briefing&amp;amp;utm_campaign=8d77fd0d49-briefing-dy-20200211&amp;amp;utm_medium=email&amp;amp;utm_term=0_c9dfd39373-8d77fd0d49-43744165&quot;&gt;Mission impossible? WHO director fights to prevent a pandemic without offending China&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/02/beast-moving-very-fast-will-new-coronavirus-be-contained-or-go-pandemic&quot;&gt;‘This beast is moving very fast.’ Will the new coronavirus be contained—or go pandemic?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/02/paper-non-symptomatic-patient-transmitting-coronavirus-wrong&quot;&gt;Study claiming new coronavirus can be transmitted by people without symptoms was flawed&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/01/can-anti-hiv-combination-or-other-existing-drugs-outwit-new-coronavirus&quot;&gt;Can an anti-HIV combination or other existing drugs outwit the new coronavirus?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/news/2020/01/wuhan-seafood-market-may-not-be-source-novel-virus-spreading-globally&quot;&gt;Wuhan seafood market may not be source of novel virus spreading globally&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;eurosurveillance&quot;&gt;&lt;a href=&quot;https://www.eurosurveillance.org/content/2019-ncov&quot;&gt;Eurosurveillance&lt;/a&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.5.2000080&quot;&gt;Quilty et al., Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.3.2000045&quot;&gt;Corman et al., Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;bmj&quot;&gt;&lt;a href=&quot;https://www.bmj.com/coronavirus&quot;&gt;BMJ&lt;/a&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;others-1&quot;&gt;others&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/articles/d41573-020-00016-0&quot;&gt;Li and Clercq, Therapeutic options for the 2019 novel coronavirus (2019-nCoV), nature reveiws drug discovery&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;预印本preprint&quot;&gt;预印本（preprint）&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.01.30.20019844v2&quot;&gt;Tian et al., Early evaluation of Wuhan City travel restrictions in response to the 2019 novel coronavirus outbreak&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.02.08.20021162v1&quot;&gt;Hellewell et al., Feasibility of controlling 2019-nCoV outbreaks by isolation of cases and contacts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.02.09.20021261v1&quot;&gt;Chinazzi et al., The effect of travel restrictions on the spread of the 2019 novel coronavirus (2019-nCoV) outbreak&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v2&quot;&gt;Read et al., Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and
-epidemic predictions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.biorxiv.org/content/10.1101/2020.01.25.919787v1&quot;&gt;Liu et al., Transmission dynamics of 2019 novel coronavirus (2019-nCoV)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/coronavirus&quot;&gt;柳叶刀&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/coronavirus&quot;&gt;新英格兰&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/pages/coronavirus-alert&quot;&gt;JAMA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/collections/hajgidghjb&quot;&gt;Nature&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/tags/coronavirus&quot;&gt;Science&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.eurosurveillance.org/content/2019-ncov&quot;&gt;Eurosurveillance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bmj.com/coronavirus&quot;&gt;BMJ&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;研究机构网站&quot;&gt;研究机构网站:&lt;/h3&gt;
