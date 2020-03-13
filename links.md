@@ -8,14 +8,14 @@ permalink: /links/
 {:toc}
 
 
-This is a website list I'm following about bioinformatics/genetics/statistic/computer science areas. (updated 14/Nov/2019)
+This is a website list I'm following about bioinformatics/genetics/statistic/computer science areas. (lastest update: 13/March/2020)
 
 ## Lab website
 
 ### My lab
 
-- [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720), [Hai Fang](http://www.cs.bris.ac.uk/~hfang/), [Jiantao Shi](https://jiantaoshi.github.io/index.html), [Zhaohui Gu](https://gu-lab20.github.io/)
-- [PCTG](http://cnsgenomics.com/), [Peter Visscher](https://researchers.uq.edu.au/researcher/1487), [Naomi Wray](https://researchers.uq.edu.au/researcher/2006), [Jian Yang](https://researchers.uq.edu.au/researcher/2713), [Joseph Powell](https://www.garvan.org.au/people/jospow), [Matthew Robinson](http://wp.unil.ch/ctgg),[Hong Lee](https://sites.google.com/site/honglee0707/), [Beben Benyamin](http://people.unisa.edu.au/Beben.Benyamin), [Gibran Hemani](http://www.bristol.ac.uk/social-community-medicine/people/gibran-hemani/index.html), [Albert Tenesa](https://www.ed.ac.uk/roslin/about/contact-us/staff/albert-tenesa)
+- [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720), [Hai Fang](http://www.cs.bris.ac.uk/~hfang/), [Jiantao Shi](https://jiantaoshi.github.io/index.html), [Zhaohui Gu](https://gu-lab20.github.io/), [Maoxiang Qian](https://scholar.google.com/citations?hl=en&user=eh4qN6QAAAAJ&view_op=list_works&sortby=pubdate)
+- [PCTG](http://cnsgenomics.com/), [Peter Visscher](https://researchers.uq.edu.au/researcher/1487), [Naomi Wray](https://researchers.uq.edu.au/researcher/2006), [Jian Yang](https://researchers.uq.edu.au/researcher/2713), [Joseph Powell](https://www.garvan.org.au/people/jospow), [Matthew Robinson](http://wp.unil.ch/ctgg),[Hong Lee](https://sites.google.com/site/honglee0707/), [Jacob Gratten](https://scholar.google.com.au/citations?user=5XK9FO4AAAAJ&hl=en), [Beben Benyamin](http://people.unisa.edu.au/Beben.Benyamin), [Gibran Hemani](http://www.bristol.ac.uk/social-community-medicine/people/gibran-hemani/index.html), [Albert Tenesa](https://www.ed.ac.uk/roslin/about/contact-us/staff/albert-tenesa)
 
 ### Genetics
 
@@ -34,6 +34,7 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 
 [Mark McCarthy](https://www.ndm.ox.ac.uk/principal-investigators/researcher/mark-mccarthy), [Carl Anderson](http://www.sanger.ac.uk/people/directory/anderson-carl), [George Davey Smith](http://www.bristol.ac.uk/cardiovascular/people/george-davey-smith/index.html): [google scholar](https://scholar.google.com/citations?hl=en&user=OOVzKokAAAAJ&view_op=list_works&sortby=pubdate), [Jie Zheng](http://www.bris.ac.uk/social-community-medicine/people/jie-zheng/overview.html), [Jack Bowden](http://www.bris.ac.uk/social-community-medicine/people/jack-m-bowden/overview.html), [Stephen Burgess](https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/a-to-g/stephen-burgess/), [Chris Haley](https://www.ed.ac.uk/profile/chris-haley), [Jonathan Mill](http://www.epigenomicslab.com/), [Ian Deary](https://www.ed.ac.uk/profile/ian-deary), [Riccardo E. Marioni](https://www.ed.ac.uk/centre-genomic-medicine/research-groups/marioni-group) ([google scholar](https://scholar.google.co.uk/citations?user=gA3Ik3MAAAAJ&hl=en)), [Frank Dudbridge](https://scholar.google.com/citations?hl=en&user=pEfsoJsAAAAJ) ([Homepage](https://sites.google.com/site/fdudbridge/home)), [John RB Perry](http://www.mrc-epid.cam.ac.uk/people/john-perry/) ([Google Scholar](https://scholar.google.com/citations?hl=en&user=jBCUa64AAAAJ&view_op=list_works&sortby=pubdate)), [William Hill](https://en.wikipedia.org/wiki/Bill_Hill_(geneticist))
 
+[Chaolong Wang](http://chaolongwang.github.io/), [Chuanchao Wang](https://scholar.google.com/citations?user=lr_OGo0AAAAJ&hl=en), Houfeng Zheng ([google scholar](https://scholar.google.com/citations?user=IO3IhW8AAAAJ&hl=en), [lab page](https://www.wias.org.cn/english/JOINUS/PostDoctor/201907/t20190729_2366.shtml))
 
 ### Genome Research
 

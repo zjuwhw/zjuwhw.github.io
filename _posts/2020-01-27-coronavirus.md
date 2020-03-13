@@ -58,18 +58,19 @@ tags: ["life", "medi"]
 
 ### 研究机构网站:
 - [伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/): 
+	- [Report 8 (11/Mar): Symptom progression of COVID-19](http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-symptom-progression-11-03-2020.pdf)
+	- [Report 7 (9/Mar): Estimating infection prevalence in Wuhan City from repatriation flights](http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-repatriation-09-03-2020.pdf)
+	- [Report 6 (21/Feb): Relative sensitivity of international surveillance](http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-international-surveillance-21-02-2020.pdf) 
 	- [Report 5 (15/Feb): Phylogenetic analysis of SARS-CoV-2](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College---COVID-19---genetic-analysis-FINAL.pdf)
 	- [Report 4 (10/Feb): Severity](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/)
 	- [Report 3 (25/Jan): Transmissibility](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf)
 	- [Report 2 (22/Jan): potential total number of cases](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf)
 	- [Report 1 (17/Jan): potential total number of cases](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-17-01-2020.pdf)
 - [美国东北大学Mobs Lab](https://www.mobs-lab.org/2019ncov.html)
-	- [29/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan29.pdf)
-	- [27/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan27.pdf)
-	- [26/Jan/2020](https://www.mobs-lab.org/uploads/6/7/8/7/6787877/wuhan_novel_coronavirus_jan26.pdf)
 - [伦敦卫生与热带医学院CMMID](https://cmmid.github.io/ncov)
-- [约翰霍普金斯大学公共卫生学院](http://www.centerforhealthsecurity.org/resources/COVID-19/index.html)
-- 约翰霍普金斯大学CSSE - 建模分析的博客 (Lauren Gardner): [31/Jan](https://systems.jhu.edu/research/public-health/ncov-model-2/), [26/Jan](https://systems.jhu.edu/research/public-health/ncov-model/)
+- 约翰霍普金斯大学
+	- [公共卫生学院](http://www.centerforhealthsecurity.org/resources/COVID-19/index.html)
+	- CSSE - 建模分析的博客 (Lauren Gardner): [31/Jan](https://systems.jhu.edu/research/public-health/ncov-model-2/), [26/Jan](https://systems.jhu.edu/research/public-health/ncov-model/)
 - 香港大学
 	- [李嘉诚医学院](http://www.med.hku.hk/The-Latest-from-HKUMed-on-COVID-19)
 	- [公共卫生学院](https://sph.hku.hk/en/about-us/divisioncentreunit/who-collaborating-centre-for-infectious-disease-epidemiology-and-control/2019-ncov)
@@ -77,12 +78,12 @@ tags: ["life", "medi"]
 - [哈佛大学公共卫生学院](https://www.hsph.harvard.edu/news/hsph-in-the-news/the-latest-on-the-coronavirus/)
 - [Nextstrain Genomic epidemiology analysis](https://nextstrain.org/ncov)
 - [http://virological.org/](http://virological.org/)
-- [Exponential regeression for confirmed cases, a shiny app by Chenfeng](https://cchen.shinyapps.io/2019_nCoV/)
 
 ## twitter
 
 - [哈佛大学公共卫生学院twitter](https://twitter.com/CCDD_HSPH/status/1222257431230631936)
-- [dr muge cevik(@mugecevik)twitter](https://twitter.com/mugecevik/status/1221020657242333184)
+- [Marc Lipsitch](https://twitter.com/mlipsitch)
+- [dr muge cevik(@mugecevik)](https://twitter.com/mugecevik/status/1221020657242333184)
 
 ## MOOC
 
