@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Mar 2020 11:18:06 +0800</pubDate>
-    <lastBuildDate>Fri, 13 Mar 2020 11:18:06 +0800</lastBuildDate>
+    <pubDate>Fri, 13 Mar 2020 16:27:10 +0800</pubDate>
+    <lastBuildDate>Fri, 13 Mar 2020 16:27:10 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -221,7 +221,7 @@
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert#current-status&quot;&gt;澳大利亚健康部门&lt;/a&gt;
         &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.health.qld.gov.au/news-events/health-alerts/novel-coronavirus&quot;&gt;昆士兰州&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts&quot;&gt;昆士兰州&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -230,6 +230,7 @@
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/&quot;&gt;世界卫生组织（WHO) - situation report&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6&quot;&gt;约翰霍普金斯大学CSSE - tracking map&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.cidrap.umn.edu/covid-19/maps-visuals&quot;&gt;明尼苏达大学病例地图列表&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -249,7 +250,7 @@
   &lt;/li&gt;
   &lt;li&gt;澳洲
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.homeaffairs.gov.au/news-media/current-alerts/novel-coronavirus&quot;&gt;澳大利亚Home Affairs部门&lt;/a&gt;, &lt;a href=&quot;https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert&quot;&gt;澳大利亚健康部门&lt;/a&gt;, &lt;a href=&quot;https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/diseases-infection/diseases/coronavirus/public-info-novel-coronavirus&quot;&gt;昆士兰州&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.homeaffairs.gov.au/news-media/current-alerts/novel-coronavirus&quot;&gt;澳大利亚Home Affairs部门&lt;/a&gt;, &lt;a href=&quot;https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19&quot;&gt;澳大利亚健康部门&lt;/a&gt;, &lt;a href=&quot;https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/diseases-infection/diseases/coronavirus/public-info-novel-coronavirus&quot;&gt;昆士兰州&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://about.uq.edu.au/coronavirus-advice-uq-community&quot;&gt;昆士兰大学&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;

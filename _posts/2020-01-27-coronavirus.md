@@ -17,10 +17,11 @@ tags: ["life", "medi"]
 	- [丁香园实时地图](https://3g.dxy.cn/newh5/view/pneumonia)
 - 澳洲
 	- [澳大利亚健康部门](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert#current-status)
-		- [昆士兰州](https://www.health.qld.gov.au/news-events/health-alerts/novel-coronavirus)
+		- [昆士兰州](https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts)
 - 世界
 	- [世界卫生组织（WHO) - situation report](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/)
 	- [约翰霍普金斯大学CSSE - tracking map](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+	- [明尼苏达大学病例地图列表](http://www.cidrap.umn.edu/covid-19/maps-visuals)
 
 ## 相关信息和措施
 
@@ -29,7 +30,7 @@ tags: ["life", "medi"]
 		- [湖北省](http://www.hubei.gov.cn/zhuanti/2020/gzxxgzbd/index.shtml), [辽宁省](http://www.ln.gov.cn/qmzx/xxgzbd/), [本溪市](http://www.benxi.gov.cn/zt/qlkjxxgzbdgrdfyyq)
 	- [China CDC](http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/)
 - 澳洲
-	- [澳大利亚Home Affairs部门](https://www.homeaffairs.gov.au/news-media/current-alerts/novel-coronavirus), [澳大利亚健康部门](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert), [昆士兰州](https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/diseases-infection/diseases/coronavirus/public-info-novel-coronavirus)
+	- [澳大利亚Home Affairs部门](https://www.homeaffairs.gov.au/news-media/current-alerts/novel-coronavirus), [澳大利亚健康部门](https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19), [昆士兰州](https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/diseases-infection/diseases/coronavirus/public-info-novel-coronavirus)
 	- [昆士兰大学](https://about.uq.edu.au/coronavirus-advice-uq-community)
 
 - 世界
