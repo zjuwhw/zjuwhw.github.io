@@ -6,9 +6,113 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Mar 2020 15:58:07 +0800</pubDate>
-    <lastBuildDate>Tue, 17 Mar 2020 15:58:07 +0800</lastBuildDate>
+    <pubDate>Sun, 22 Mar 2020 13:52:30 +0800</pubDate>
+    <lastBuildDate>Sun, 22 Mar 2020 13:52:30 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>我的家乡本溪</title>
+        <description>&lt;p&gt;我的家乡在&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%9C%AC%E6%BA%AA%E5%B8%82&quot;&gt;辽宁省本溪市&lt;/a&gt;。我从出生（1989年）到小学（2002年），住在溪湖区&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%BD%A9%E5%B1%AF%E8%A1%97%E9%81%93&quot;&gt;彩屯街道&lt;/a&gt;（家在彩胜社区，小学是彩力小学（现为彩屯实验幼儿园））；初中和高中（2002-2008年），在平山区东明街道（初中实验中学，高中&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%9C%AC%E6%BA%AA%E5%B8%82%E9%AB%98%E7%BA%A7%E4%B8%AD%E5%AD%A6&quot;&gt;本溪市高级中学&lt;/a&gt;）；自大学起（2008-），我就在外念书，我们家搬到了平山区南地街道。&lt;/p&gt;
+
+&lt;p&gt;这个博客列了一下本溪的城乡划分（主要是溪湖区和平山区），资料来源自管家统计局“&lt;a href=&quot;http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/index.html&quot;&gt;关于更新全国统计用区划代码和城乡划分代码的公告&lt;/a&gt;”。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/21/2105.html&quot;&gt;本溪市 (210500000000)&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;平山区
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;210502001000	南地街道&lt;/strong&gt;&lt;/li&gt;
+          &lt;li&gt;210502002000	工人街道&lt;/li&gt;
+          &lt;li&gt;210502003000	平山街道&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;210502004000	东明街道&lt;/strong&gt;&lt;/li&gt;
+          &lt;li&gt;210502005000	崔东街道&lt;/li&gt;
+          &lt;li&gt;210502007000	站前街道&lt;/li&gt;
+          &lt;li&gt;210502008000	千金街道&lt;/li&gt;
+          &lt;li&gt;210502010000	北台街道&lt;/li&gt;
+          &lt;li&gt;210502011000	桥头街道&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;溪湖区
+        &lt;ul&gt;
+          &lt;li&gt;210503001000	河东街道&lt;/li&gt;
+          &lt;li&gt;210503003000	河西街道&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;210503005000	彩屯街道&lt;/strong&gt;&lt;/li&gt;
+          &lt;li&gt;210503006000	竖井街道&lt;/li&gt;
+          &lt;li&gt;210503007000	彩北街道&lt;/li&gt;
+          &lt;li&gt;210503009000	东风街道&lt;/li&gt;
+          &lt;li&gt;210503010000	石桥子街道&lt;/li&gt;
+          &lt;li&gt;210503011000	日月岛街道&lt;/li&gt;
+          &lt;li&gt;210503012000	张其寨街道&lt;/li&gt;
+          &lt;li&gt;210503013000	火连寨街道&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;明山区
+        &lt;ul&gt;
+          &lt;li&gt;210504001000	金山街道&lt;/li&gt;
+          &lt;li&gt;210504002000	北地街道&lt;/li&gt;
+          &lt;li&gt;210504004000	高峪街道&lt;/li&gt;
+          &lt;li&gt;210504005000	明山街道&lt;/li&gt;
+          &lt;li&gt;210504007000	东兴街道&lt;/li&gt;
+          &lt;li&gt;210504008000	新明街道&lt;/li&gt;
+          &lt;li&gt;210504009000	牛心台街道&lt;/li&gt;
+          &lt;li&gt;210504010000	卧龙街道&lt;/li&gt;
+          &lt;li&gt;210504011000	高台子街道&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;南芬区
+        &lt;ul&gt;
+          &lt;li&gt;210505001000	南芬街道&lt;/li&gt;
+          &lt;li&gt;210505002000	铁山街道&lt;/li&gt;
+          &lt;li&gt;210505003000	郭家街道&lt;/li&gt;
+          &lt;li&gt;210505004000	思山岭街道&lt;/li&gt;
+          &lt;li&gt;210505005000	下马塘街道&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;本溪满族自治县
+        &lt;ul&gt;
+          &lt;li&gt;210521001000	观音阁街道&lt;/li&gt;
+          &lt;li&gt;210521100000	小市镇&lt;/li&gt;
+          &lt;li&gt;210521101000	草河掌镇&lt;/li&gt;
+          &lt;li&gt;210521102000	草河城镇&lt;/li&gt;
+          &lt;li&gt;210521103000	草河口镇&lt;/li&gt;
+          &lt;li&gt;210521104000	连山关镇&lt;/li&gt;
+          &lt;li&gt;210521106000	清河城镇&lt;/li&gt;
+          &lt;li&gt;210521109000	田师傅镇&lt;/li&gt;
+          &lt;li&gt;210521110000	南甸镇&lt;/li&gt;
+          &lt;li&gt;210521111000	碱厂镇&lt;/li&gt;
+          &lt;li&gt;210521112000	高官镇&lt;/li&gt;
+          &lt;li&gt;210521202000	东营房乡&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;桓仁满族自治县
+        &lt;ul&gt;
+          &lt;li&gt;210522001000	八卦城街道&lt;/li&gt;
+          &lt;li&gt;210522100000	桓仁镇&lt;/li&gt;
+          &lt;li&gt;210522101000	普乐堡镇&lt;/li&gt;
+          &lt;li&gt;210522102000	二棚甸子镇&lt;/li&gt;
+          &lt;li&gt;210522103000	沙尖子镇&lt;/li&gt;
+          &lt;li&gt;210522104000	五里甸子镇&lt;/li&gt;
+          &lt;li&gt;210522108000	八里甸子镇&lt;/li&gt;
+          &lt;li&gt;210522110000	华来镇&lt;/li&gt;
+          &lt;li&gt;210522111000	古城镇&lt;/li&gt;
+          &lt;li&gt;210522201000	雅河朝鲜族乡&lt;/li&gt;
+          &lt;li&gt;210522202000	向阳乡&lt;/li&gt;
+          &lt;li&gt;210522206000	黑沟乡&lt;/li&gt;
+          &lt;li&gt;210522208000	北甸子乡&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 22 Mar 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/03/22/benxi.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/03/22/benxi.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>研究中国的学者</title>
@@ -273,7 +377,13 @@
 
 &lt;h2 id=&quot;科学研究&quot;&gt;科学研究&lt;/h2&gt;
 
-&lt;h3 id=&quot;发表论文&quot;&gt;发表论文&lt;/h3&gt;
+&lt;h3 id=&quot;研究汇总&quot;&gt;研究汇总&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/research/coronavirus/&quot;&gt;LITCOVID&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;杂志&quot;&gt;杂志&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/coronavirus&quot;&gt;柳叶刀&lt;/a&gt;&lt;/li&gt;
@@ -721,115 +831,6 @@ abline(v=mean(res), col=&quot;blue&quot;)  ### emprical value
         <guid isPermaLink="true">http://localhost:4000/2019/03/01/journal.html</guid>
         
         <category>science</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>“福特嘉年华”用户手册</title>
-        <description>&lt;p&gt;2018年12月10日，&lt;a href=&quot;/2018/06/30/buying_a_car.html&quot;&gt;我购买了一辆二手册2012年的福特嘉年华（Ford Fiesta）&lt;/a&gt;。为了更好地了解这个车，这个博客是用于记录该车&lt;a href=&quot;http://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/FIESTAWT.pdf&quot;&gt;用户手册&lt;/a&gt;上的一些信息。&lt;/p&gt;
-
-&lt;h3 id=&quot;introduction简介&quot;&gt;Introduction（简介）&lt;/h3&gt;
-
-&lt;h3 id=&quot;quick-start快速开始&quot;&gt;Quick start（快速开始）&lt;/h3&gt;
-
-&lt;h3 id=&quot;child-safety儿童安全&quot;&gt;Child safety（儿童安全）&lt;/h3&gt;
-
-&lt;h3 id=&quot;occupant-protection司机与乘客保护&quot;&gt;Occupant protection（司机与乘客保护）&lt;/h3&gt;
-
-&lt;h3 id=&quot;keys-and-remote-controls&quot;&gt;Keys and remote controls&lt;/h3&gt;
-
-&lt;h3 id=&quot;locks&quot;&gt;Locks&lt;/h3&gt;
-
-&lt;h3 id=&quot;engine-immobiliser&quot;&gt;Engine immobiliser&lt;/h3&gt;
-
-&lt;h3 id=&quot;alarm&quot;&gt;Alarm&lt;/h3&gt;
-
-&lt;h3 id=&quot;steering-wheel&quot;&gt;Steering wheel&lt;/h3&gt;
-
-&lt;h3 id=&quot;wipers-and-washers&quot;&gt;Wipers and washers&lt;/h3&gt;
-
-&lt;h3 id=&quot;lighting&quot;&gt;Lighting&lt;/h3&gt;
-
-&lt;h3 id=&quot;windows-and-mirrors&quot;&gt;Windows and mirrors&lt;/h3&gt;
-
-&lt;h3 id=&quot;instruments&quot;&gt;Instruments&lt;/h3&gt;
-
-&lt;h3 id=&quot;information-displays&quot;&gt;Information displays&lt;/h3&gt;
-
-&lt;h3 id=&quot;climate-control&quot;&gt;Climate control&lt;/h3&gt;
-
-&lt;h3 id=&quot;seats&quot;&gt;Seats&lt;/h3&gt;
-
-&lt;h3 id=&quot;convenience-features&quot;&gt;Convenience features&lt;/h3&gt;
-
-&lt;h3 id=&quot;starting-engine&quot;&gt;Starting engine&lt;/h3&gt;
-
-&lt;h3 id=&quot;fuel-and-refuelling燃料和填充燃料&quot;&gt;Fuel and refuelling（燃料和填充燃料）&lt;/h3&gt;
-
-&lt;h4 id=&quot;saftey-precautions安全预防&quot;&gt;Saftey precautions（安全预防）&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Stop refueling after the fuel nozzle stops the second time. Additional fuel will fill the expansion space in the fuel tank which could lead to fuel overflowing. Fuel spillage could be hazardous to other road users.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;transmission&quot;&gt;Transmission&lt;/h3&gt;
-
-&lt;h3 id=&quot;brakes&quot;&gt;Brakes&lt;/h3&gt;
-
-&lt;h3 id=&quot;stability-control-dsc&quot;&gt;Stability control (DSC)&lt;/h3&gt;
-
-&lt;h3 id=&quot;hill-start-assist&quot;&gt;Hill start assist&lt;/h3&gt;
-
-&lt;h3 id=&quot;cruise-control&quot;&gt;Cruise control&lt;/h3&gt;
-
-&lt;h3 id=&quot;load-carrying&quot;&gt;Load carrying&lt;/h3&gt;
-
-&lt;h3 id=&quot;towing&quot;&gt;Towing&lt;/h3&gt;
-
-&lt;h3 id=&quot;driving-hints&quot;&gt;Driving hints&lt;/h3&gt;
-
-&lt;h3 id=&quot;emergency-equipment&quot;&gt;Emergency equipment&lt;/h3&gt;
-
-&lt;h3 id=&quot;fuses&quot;&gt;Fuses&lt;/h3&gt;
-
-&lt;h3 id=&quot;vehicle-recovery&quot;&gt;Vehicle recovery&lt;/h3&gt;
-
-&lt;h3 id=&quot;maintenance&quot;&gt;Maintenance&lt;/h3&gt;
-
-&lt;h3 id=&quot;vehicle-care&quot;&gt;Vehicle care&lt;/h3&gt;
-
-&lt;h3 id=&quot;vehicle-battery&quot;&gt;Vehicle battery&lt;/h3&gt;
-
-&lt;h3 id=&quot;wheels-and-tyres&quot;&gt;Wheels and tyres&lt;/h3&gt;
-
-&lt;h3 id=&quot;vehicle-identification&quot;&gt;Vehicle identification&lt;/h3&gt;
-
-&lt;h3 id=&quot;technical-specifications&quot;&gt;Technical specifications&lt;/h3&gt;
-
-&lt;h3 id=&quot;audio-introduction&quot;&gt;Audio introduction&lt;/h3&gt;
-
-&lt;h3 id=&quot;audio-unit-overview&quot;&gt;Audio unit overview&lt;/h3&gt;
-
-&lt;h3 id=&quot;audio-system-security&quot;&gt;Audio system security&lt;/h3&gt;
-
-&lt;h3 id=&quot;audio-unit-operation&quot;&gt;Audio unit operation&lt;/h3&gt;
-
-&lt;h3 id=&quot;audio-unit-menu&quot;&gt;Audio unit menu&lt;/h3&gt;
-
-&lt;h3 id=&quot;compact-disc-player&quot;&gt;Compact disc player&lt;/h3&gt;
-
-&lt;h3 id=&quot;auxiliary-input-aux-in-socket&quot;&gt;Auxiliary input (AUX IN) socket&lt;/h3&gt;
-
-&lt;h3 id=&quot;audio-troubleshooting&quot;&gt;Audio troubleshooting&lt;/h3&gt;
-
-&lt;h3 id=&quot;telephone&quot;&gt;Telephone&lt;/h3&gt;
-</description>
-        <pubDate>Mon, 17 Dec 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/12/17/ford-fiesta.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/12/17/ford-fiesta.html</guid>
-        
-        <category>life</category>
         
         
       </item>

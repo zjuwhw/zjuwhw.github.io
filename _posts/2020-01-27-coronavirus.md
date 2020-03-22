@@ -47,7 +47,11 @@ tags: ["life", "medi"]
 
 ## 科学研究
 
-### 发表论文
+### 研究汇总
+
+- [LITCOVID](https://www.ncbi.nlm.nih.gov/research/coronavirus/)
+
+### 杂志
 
 - [柳叶刀](https://www.thelancet.com/coronavirus)
 - [新英格兰](https://www.nejm.org/coronavirus)
