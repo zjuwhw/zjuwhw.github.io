@@ -28,6 +28,7 @@ tags: ["life", "medi"]
 - 中国
 	- [中国人民政府](http://www.gov.cn/fuwu/zt/yqfkzq/index.htm)
 		- [湖北省](http://www.hubei.gov.cn/zhuanti/2020/gzxxgzbd/index.shtml), [辽宁省](http://www.ln.gov.cn/qmzx/xxgzbd/), [本溪市](http://www.benxi.gov.cn/zt/qlkjxxgzbdgrdfyyq)
+			- ["武汉市新型冠状病毒感染的肺炎疫情防控指挥部通告（第1号）" 2020-01-23](http://www.hubei.gov.cn/zhuanti/2020/gzxxgzbd/zxtb/202001/t20200123_2014402.shtml)
 	- [China CDC](http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/)
 - 澳洲
 	- [澳大利亚Home Affairs部门](https://www.homeaffairs.gov.au/news-media/current-alerts/novel-coronavirus)
