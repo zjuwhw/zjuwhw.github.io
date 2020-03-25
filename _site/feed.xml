@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Mar 2020 13:55:52 +0800</pubDate>
-    <lastBuildDate>Sun, 22 Mar 2020 13:55:52 +0800</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2020 09:24:47 +0800</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2020 09:24:47 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -323,9 +323,9 @@
   &lt;/li&gt;
   &lt;li&gt;澳洲
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers&quot;&gt;澳大利亚健康部门&lt;/a&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers&quot;&gt;澳大利亚健康部门-current situation&lt;/a&gt;
         &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts&quot;&gt;昆士兰州&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts&quot;&gt;昆士兰州-Current status &lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -354,7 +354,10 @@
   &lt;/li&gt;
   &lt;li&gt;澳洲
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.homeaffairs.gov.au/news-media/current-alerts/novel-coronavirus&quot;&gt;澳大利亚Home Affairs部门&lt;/a&gt;, &lt;a href=&quot;https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19&quot;&gt;澳大利亚健康部门&lt;/a&gt;, &lt;a href=&quot;https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/diseases-infection/diseases/coronavirus/public-info-novel-coronavirus&quot;&gt;昆士兰州&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.homeaffairs.gov.au/news-media/current-alerts/novel-coronavirus&quot;&gt;澳大利亚Home Affairs部门&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert&quot;&gt;澳大利亚健康部门-COVID19 health alert&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/take-action&quot;&gt;昆士兰州-Take action&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.brisbane.qld.gov.au/community-and-safety/community-safety/disasters-and-emergencies/coronavirus-council-updates-and-impacts&quot;&gt;Brisbane city council&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://about.uq.edu.au/coronavirus-advice-uq-community&quot;&gt;昆士兰大学&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -399,6 +402,8 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)&lt;/a&gt;:
     &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Exiting-Social-Distancing-24-03-2020.pdf&quot;&gt;Report 11 (24/Mar): Evidence of initial success for China exiting COVID-19 social distancing policy after achieving containment&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Population-Survey-20-03-2020.pdf&quot;&gt;Report 10 (20/Mar): Public Response to UK Government Recommendations on COVID-19: Population Survey, 17-18 March 2020&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf&quot;&gt;Report 9 (16/Mar): Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-symptom-progression-11-03-2020.pdf&quot;&gt;Report 8 (11/Mar): Symptom progression of COVID-19&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-repatriation-09-03-2020.pdf&quot;&gt;Report 7 (9/Mar): Estimating infection prevalence in Wuhan City from repatriation flights&lt;/a&gt;&lt;/li&gt;
