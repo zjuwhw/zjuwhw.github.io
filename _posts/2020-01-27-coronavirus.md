@@ -29,6 +29,8 @@ tags: ["life", "medi"]
 	- [中国人民政府](http://www.gov.cn/fuwu/zt/yqfkzq/index.htm)
 		- [湖北省](http://www.hubei.gov.cn/zhuanti/2020/gzxxgzbd/index.shtml), [辽宁省](http://www.ln.gov.cn/qmzx/xxgzbd/), [本溪市](http://www.benxi.gov.cn/zt/qlkjxxgzbdgrdfyyq)
 			- ["武汉市新型冠状病毒感染的肺炎疫情防控指挥部通告（第1号）" 2020-01-23](http://www.hubei.gov.cn/zhuanti/2020/gzxxgzbd/zxtb/202001/t20200123_2014402.shtml)
+	- [中国外交部](https://www.fmprc.gov.cn/web/zyxw/)
+		- [中华人民共和国外交部、国家移民管理局关于暂时停止持有效中国签证、居留许可的外国人入境的公告](https://www.fmprc.gov.cn/web/zyxw/t1761858.shtml)
 	- [China CDC](http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/)
 - 澳洲
 	- [澳大利亚Home Affairs部门](https://www.homeaffairs.gov.au/news-media/current-alerts/novel-coronavirus)
@@ -67,6 +69,7 @@ tags: ["life", "medi"]
 
 ### 研究机构网站:
 - [伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/): 
+	- [Report 12 (26/Mar): The Global Impact of COVID-19 and Strategies for Mitigation and Suppression](http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Global-Impact-26-03-2020.pdf)
 	- [Report 11 (24/Mar): Evidence of initial success for China exiting COVID-19 social distancing policy after achieving containment](https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Exiting-Social-Distancing-24-03-2020.pdf)
 	- [Report 10 (20/Mar): Public Response to UK Government Recommendations on COVID-19: Population Survey, 17-18 March 2020](http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Population-Survey-20-03-2020.pdf)
 	- [Report 9 (16/Mar): Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand](http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf)

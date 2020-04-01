@@ -8,46 +8,69 @@ permalink: /links/
 {:toc}
 
 
-This is a website list I'm following about bioinformatics/genetics/statistic/computer science areas. (lastest update: 13/March/2020)
+This is a collection of URLs/links I'm following. (lastest update: 1/April/2020)
 
-## Lab website
+## Researchers
 
 ### My lab
 
-- [王侃侃](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720), [Hai Fang](http://www.cs.bris.ac.uk/~hfang/), [Jiantao Shi](https://jiantaoshi.github.io/index.html), [Zhaohui Gu](https://gu-lab20.github.io/), [Maoxiang Qian](https://scholar.google.com/citations?hl=en&user=eh4qN6QAAAAJ&view_op=list_works&sortby=pubdate)
-- [PCTG](http://cnsgenomics.com/), [Peter Visscher](https://researchers.uq.edu.au/researcher/1487), [Naomi Wray](https://researchers.uq.edu.au/researcher/2006), [Jian Yang](https://researchers.uq.edu.au/researcher/2713), [Joseph Powell](https://www.garvan.org.au/people/jospow), [Matthew Robinson](http://wp.unil.ch/ctgg),[Hong Lee](https://sites.google.com/site/honglee0707/), [Jacob Gratten](https://scholar.google.com.au/citations?user=5XK9FO4AAAAJ&hl=en), [Beben Benyamin](http://people.unisa.edu.au/Beben.Benyamin), [Gibran Hemani](http://www.bristol.ac.uk/social-community-medicine/people/gibran-hemani/index.html), [Albert Tenesa](https://www.ed.ac.uk/roslin/about/contact-us/staff/albert-tenesa)
+- [PCTG](http://cnsgenomics.com/), [Jian Yang](https://researchers.uq.edu.au/researcher/2713), [Peter Visscher](https://researchers.uq.edu.au/researcher/1487), [Naomi Wray](https://researchers.uq.edu.au/researcher/2006), [Joseph Powell](https://www.garvan.org.au/people/jospow), [Matthew Robinson](http://wp.unil.ch/ctgg), [Hong Lee](https://sites.google.com/site/honglee0707/), [Jacob Gratten](https://scholar.google.com.au/citations?user=5XK9FO4AAAAJ&hl=en), [Beben Benyamin](http://people.unisa.edu.au/Beben.Benyamin), [Gibran Hemani](http://www.bristol.ac.uk/social-community-medicine/people/gibran-hemani/index.html), [Albert Tenesa](https://www.ed.ac.uk/roslin/about/contact-us/staff/albert-tenesa), [Robert Maier](http://scholar.google.com/citations?user=eA5L1TcAAAAJ&hl=en)
+- [Kankan Wang](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720), [Hai Fang](http://www.cs.bris.ac.uk/~hfang/), [Jiantao Shi](https://jiantaoshi.github.io/index.html), [Zhaohui Gu](https://gu-lab20.github.io/), [Maoxiang Qian](https://scholar.google.com/citations?hl=en&user=eh4qN6QAAAAJ&view_op=list_works&sortby=pubdate), [Hui Zhang](http://www.gzfezx.com/a/201809/2507852.html)
+- Feng Han ([南京医科大学网站](http://english.njmu.edu.cn/_t965/2019/0126/c11686a142560/page.htm), [ResearchGate](https://www.researchgate.net/profile/Feng_Han7)), Gensheng Zhang ([Google scholar](https://scholar.google.com/citations?user=gQK4ow0AAAAJ&hl=en), [His Lab](https://sites.google.com/a/umich.edu/ling-qi-lab/))，[Jiyun Huang](https://scholar.google.com/citations?user=jUaNZpcAAAAJ&hl=en), [Yingxian Chen](https://www.linkedin.com/in/yingxian-chen-16445a1b/), [Rongrong Tao](http://scrcam.gzucm.edu.cn/kytd/yjrc.htm), [Yuelong Ji](https://www.linkedin.com/in/yuelong-ji-9574b735/)
+
 
 ### Genetics
 
-[Ben Hayes](https://qaafi.uq.edu.au/profile/1059/ben-hayes), [David Evans](https://di.uq.edu.au/profile/997/david-evans), [Matthew Brown](https://research.qut.edu.au/translationalgenomicsgroup/people/matthew-brown/), [Manuel A. R. Ferreira](https://genepi.qimr.edu.au/staff/manuelF/), [Nicholas Martin](http://www.qimrberghofer.edu.au/people/nicholas-martin/), [Sarah Medland](https://www.qimrberghofer.edu.au/lab/psychiatric-genetics/), [Stuart Macgregor](https://www.qimrberghofer.edu.au/lab/statistical-genetics/)
+- [Ben Hayes](https://qaafi.uq.edu.au/profile/1059/ben-hayes), [David Evans](https://di.uq.edu.au/profile/997/david-evans), [Matthew Brown](https://research.qut.edu.au/translationalgenomicsgroup/people/matthew-brown/), [Manuel A. R. Ferreira](https://genepi.qimr.edu.au/staff/manuelF/), [Nicholas Martin](http://www.qimrberghofer.edu.au/people/nicholas-martin/), [Sarah Medland](https://www.qimrberghofer.edu.au/lab/psychiatric-genetics/), [Stuart Macgregor](https://www.qimrberghofer.edu.au/lab/statistical-genetics/)
+- [David Balding](https://scholar.google.com/citations?hl=zh-CN&user=9bqHVEsAAAAJ&view_op=list_works&sortby=pubdate), [Doug Speed](https://aias.au.dk/aias-fellows/doug-speed/), [Michael Goddard](https://www.findanexpert.unimelb.edu.au/display/person3714)
+- [Benjamin Neale](http://www.nealelab.is/), [Alkes Price](https://www.hsph.harvard.edu/alkes-price/), [Po-Ru Loh](https://statgen.hms.harvard.edu/), [Hilary Finucane](http://finucanelab.org/), [Alexander (Sasha) Gusev](http://gusevlab.org/), [Soumya Raychaudhuri](https://immunogenomics.hms.harvard.edu/), [Xihong Lin](https://www.hsph.harvard.edu/xihong-lin/), [Patrick Turley](https://www.paturley.com/), [Tian Ge](https://scholar.harvard.edu/tge) ([Google Scholar](https://scholar.google.com/citations?hl=en&user=ENVEpnYAAAAJ))
+- [Peter Donnelly](https://en.wikipedia.org/wiki/Peter_Donnelly), [Molly Przeworski](https://przeworskilab.com/), [Graham Coop](https://gcbias.org/about/), [Jeremy J Berg](http://www.jjbpopgen.org/)
+- [Nilanjan Chatterjee](https://scholar.google.co.uk/citations?hl=en&user=vErFKeAAAAAJ), [Goncalo Abecasis](http://csg.sph.umich.edu/abecasis/), [Bruce Walsh](http://nitro.biosci.arizona.edu/), [Jonathan Pritchard](http://web.stanford.edu/group/pritchardlab/home.html), [Shaun Purcell](http://research.mssm.edu/statgen/), [Bogdan Pasaniuc](https://bogdan.dgsom.ucla.edu/pages/) ([Google scholar](https://scholar.google.com/citations?user=hNTsruIAAAAJ&hl=en)), [Stephen Montgomery](http://montgomerylab.stanford.edu/), [Matthew Keller](http://www.matthewckeller.com/index.html), [Luke Evans](https://www.colorado.edu/ibg/luke-evans), [Hongyu Zhao](https://publichealth.yale.edu/people/hongyu_zhao.profile) ([lab page](http://zhaocenter.org/), [google scholar](https://scholar.google.com/citations?hl=en&user=__z1kpoAAAAJ&view_op=list_works&sortby=pubdate)), Michael Snyder ([lab](http://snyderlab.stanford.edu/), [Standrod](https://med.stanford.edu/profiles/michael-snyder)), [Bruce Weir](http://sph.washington.edu/faculty/fac_bio.asp?url_ID=Weir_Bruce), [Patrick Sullivan](https://www.med.unc.edu/genetics/sullivanlab/)
+- [Matthew Stephens](http://stephenslab.uchicago.edu/), [Yang I Li](https://scholar.google.com/citations?hl=en&user=d18UeLEAAAAJ&view_op=list_works&sortby=pubdate)
+- [Lude Franke](https://www.rug.nl/research/genetics/staff/lude-franke), [Danielle Posthuma](https://ctg.cncr.nl/), [Nick Barton](https://ist.ac.at/research/research-groups/barton-group/)
+- [Mark McCarthy](https://www.ndm.ox.ac.uk/principal-investigators/researcher/mark-mccarthy), [Carl Anderson](http://www.sanger.ac.uk/people/directory/anderson-carl), [George Davey Smith](http://www.bristol.ac.uk/cardiovascular/people/george-davey-smith/index.html): [google scholar](https://scholar.google.com/citations?hl=en&user=OOVzKokAAAAJ&view_op=list_works&sortby=pubdate), [Jie Zheng](http://www.bris.ac.uk/social-community-medicine/people/jie-zheng/overview.html), [Jack Bowden](http://www.bris.ac.uk/social-community-medicine/people/jack-m-bowden/overview.html), [Stephen Burgess](https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/a-to-g/stephen-burgess/), [Chris Haley](https://www.ed.ac.uk/profile/chris-haley), [Jonathan Mill](http://www.epigenomicslab.com/), [Ian Deary](https://www.ed.ac.uk/profile/ian-deary), [Riccardo E. Marioni](https://www.ed.ac.uk/centre-genomic-medicine/research-groups/marioni-group) ([google scholar](https://scholar.google.co.uk/citations?user=gA3Ik3MAAAAJ&hl=en)), [Frank Dudbridge](https://scholar.google.com/citations?hl=en&user=pEfsoJsAAAAJ) ([Homepage](https://sites.google.com/site/fdudbridge/home)), [John RB Perry](http://www.mrc-epid.cam.ac.uk/people/john-perry/) ([Google Scholar](https://scholar.google.com/citations?hl=en&user=jBCUa64AAAAJ&view_op=list_works&sortby=pubdate)), [William Hill](https://en.wikipedia.org/wiki/Bill_Hill_(geneticist))
+- [Chaolong Wang](http://chaolongwang.github.io/), [Chuanchao Wang](https://scholar.google.com/citations?user=lr_OGo0AAAAJ&hl=en), Houfeng Zheng ([google scholar](https://scholar.google.com/citations?user=IO3IhW8AAAAJ&hl=en), [lab page](https://www.wias.org.cn/english/JOINUS/PostDoctor/201907/t20190729_2366.shtml)), [XU Shuhua](https://www.picb.ac.cn/PGG/), [Yongyong Shi](http://scholar.google.co.il/citations?user=mLFzCjYAAAAJ&hl=zh-CN)
 
-[David Balding](https://scholar.google.com/citations?hl=zh-CN&user=9bqHVEsAAAAJ&view_op=list_works&sortby=pubdate), [Doug Speed](https://aias.au.dk/aias-fellows/doug-speed/), [Michael Goddard](https://www.findanexpert.unimelb.edu.au/display/person3714)
-
-
-[Benjamin Neale](http://www.nealelab.is/), [Alkes Price](https://www.hsph.harvard.edu/alkes-price/), [Po-Ru Loh](https://statgen.hms.harvard.edu/), [Hilary Finucane](http://finucanelab.org/), [Alexander (Sasha) Gusev](http://gusevlab.org/), [Soumya Raychaudhuri](https://immunogenomics.hms.harvard.edu/), [Xihong Lin](https://www.hsph.harvard.edu/xihong-lin/), [Patrick Turley](https://www.paturley.com/), [Tian Ge](https://scholar.harvard.edu/tge) ([Google Scholar](https://scholar.google.com/citations?hl=en&user=ENVEpnYAAAAJ))
-
-[Nilanjan Chatterjee](https://scholar.google.co.uk/citations?hl=en&user=vErFKeAAAAAJ), [Goncalo Abecasis](http://csg.sph.umich.edu/abecasis/), [Bruce Walsh](http://nitro.biosci.arizona.edu/), [Jonathan Pritchard](http://web.stanford.edu/group/pritchardlab/home.html), [Shaun Purcell](http://research.mssm.edu/statgen/), [Bogdan Pasaniuc](https://bogdan.dgsom.ucla.edu/pages/) ([Google scholar](https://scholar.google.com/citations?user=hNTsruIAAAAJ&hl=en)), [Stephen Montgomery](http://montgomerylab.stanford.edu/), [Matthew Keller](http://www.matthewckeller.com/index.html), [Luke Evans](https://www.colorado.edu/ibg/luke-evans), [Hongyu Zhao](https://publichealth.yale.edu/people/hongyu_zhao.profile) ([lab page](http://zhaocenter.org/), [google scholar](https://scholar.google.com/citations?hl=en&user=__z1kpoAAAAJ&view_op=list_works&sortby=pubdate)), Michael Snyder ([lab](http://snyderlab.stanford.edu/), [Standrod](https://med.stanford.edu/profiles/michael-snyder)), [Bruce Weir](http://sph.washington.edu/faculty/fac_bio.asp?url_ID=Weir_Bruce), [Patrick Sullivan](https://www.med.unc.edu/genetics/sullivanlab/)
-
-[Matthew Stephens](http://stephenslab.uchicago.edu/), [Yang I Li](https://scholar.google.com/citations?hl=en&user=d18UeLEAAAAJ&view_op=list_works&sortby=pubdate)
-
-[Lude Franke](https://www.rug.nl/research/genetics/staff/lude-franke), [Danielle Posthuma](https://ctg.cncr.nl/), [Nick Barton](https://ist.ac.at/research/research-groups/barton-group/)
-
-[Mark McCarthy](https://www.ndm.ox.ac.uk/principal-investigators/researcher/mark-mccarthy), [Carl Anderson](http://www.sanger.ac.uk/people/directory/anderson-carl), [George Davey Smith](http://www.bristol.ac.uk/cardiovascular/people/george-davey-smith/index.html): [google scholar](https://scholar.google.com/citations?hl=en&user=OOVzKokAAAAJ&view_op=list_works&sortby=pubdate), [Jie Zheng](http://www.bris.ac.uk/social-community-medicine/people/jie-zheng/overview.html), [Jack Bowden](http://www.bris.ac.uk/social-community-medicine/people/jack-m-bowden/overview.html), [Stephen Burgess](https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/a-to-g/stephen-burgess/), [Chris Haley](https://www.ed.ac.uk/profile/chris-haley), [Jonathan Mill](http://www.epigenomicslab.com/), [Ian Deary](https://www.ed.ac.uk/profile/ian-deary), [Riccardo E. Marioni](https://www.ed.ac.uk/centre-genomic-medicine/research-groups/marioni-group) ([google scholar](https://scholar.google.co.uk/citations?user=gA3Ik3MAAAAJ&hl=en)), [Frank Dudbridge](https://scholar.google.com/citations?hl=en&user=pEfsoJsAAAAJ) ([Homepage](https://sites.google.com/site/fdudbridge/home)), [John RB Perry](http://www.mrc-epid.cam.ac.uk/people/john-perry/) ([Google Scholar](https://scholar.google.com/citations?hl=en&user=jBCUa64AAAAJ&view_op=list_works&sortby=pubdate)), [William Hill](https://en.wikipedia.org/wiki/Bill_Hill_(geneticist))
-
-[Chaolong Wang](http://chaolongwang.github.io/), [Chuanchao Wang](https://scholar.google.com/citations?user=lr_OGo0AAAAJ&hl=en), Houfeng Zheng ([google scholar](https://scholar.google.com/citations?user=IO3IhW8AAAAJ&hl=en), [lab page](https://www.wias.org.cn/english/JOINUS/PostDoctor/201907/t20190729_2366.shtml))
-
-### Genome Research
+### Genome Research, Computational Biologist & Hematology
 
 - [Eric S. Lander](http://www.broadinstitute.org/history-leadership/scientific-leadership/core-members/eric-s-lander), [Alexander Stark](http://www.starklab.org/), [Yi Zhang](http://zhanglab.tch.harvard.edu/lab.htm), [Howard Chang](http://changlab.stanford.edu/), [John Stamatoyannopoulos](http://www.stamlab.org/), [Bin Ren](http://bioinformatics-renlab.ucsd.edu/rentrac/), [Zhiping Weng](https://www.umassmed.edu/zlab/), [Stunnenberg](http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&term=Stunnenberg+HG%5Bau%5D&dispmax=50), [Xiaole(Shirley) Liu](http://liulab.dfci.harvard.edu/), [Young Lab](http://younglab.wi.mit.edu/), [Wang Ting](http://wang.wustl.edu/)
-
-### Computational Biologist
-
 - [Yang Li](http://www.picb.ac.cn/rnomics/yanglab/), [Istvan Albert ](http://www.personal.psu.edu/iua1/), [Xuegong Zhang]( http://bioinfo.au.tsinghua.edu.cn/member/xzhang/XZhang_Chinese.html), [Ao Ping](http://systemsbiology.sjtu.edu.cn/), [Rafalab]( http://rafalab.dfci.harvard.edu/), [Lior Pachter](https://math.berkeley.edu/~lpachter/index.html), [Cole Trapnell](http://cole-trapnell-lab.github.io/), [Steven Salzberg](http://salzberg-lab.org/), [Yarden Katz](http://www.mit.edu/~yarden/), [Wolfgang Huber](http://www.embl.de/research/units/genome_biology/huber/index.html), [Wong Yong Wang](http://web.stanford.edu/group/wonglab/)
+- [Peter Campbell](https://www.sanger.ac.uk/people/directory/campbell-peter), [Steven Lane](https://www.qimrberghofer.edu.au/lab/gordon-and-jessie-gilmour-leukaemia-research/), [John E. Dick](https://en.wikipedia.org/wiki/John_Edgar_Dick), [Daniel G Tenen](http://hsci.harvard.edu/people/daniel-g-tenen), [Robert G Roeder](http://www.rockefeller.edu/research/faculty/labheads/RobertRoeder/), [Ellen Rothenberg](https://www.bbe.caltech.edu/people/ellen-rothenberg), [James C. Mulloy](http://www.cincinnatichildrens.org/bio/m/james-mulloy/), [Constanze Bonifer](http://www.birmingham.ac.uk/staff/profiles/cancer/bonifer-constanze.aspx), [DongEr Zhang](http://labs.biology.ucsd.edu/zhang/), [Jinghui Zhang](http://www.stjude.org/stjude/v/index.jsp?vgnextoid=39254a82840f7210VgnVCM1000001e0215acRCRD), [Margaret A. Goodell](https://www.bcm.edu/research/labs/goodell/), [Stephen D. Nimer](http://uhealthsystem.com/doctors/profile/134105), [Bertie G?ttgens](http://www.stemcells.cam.ac.uk/researchers/principal-investigators/bertie-gottgens)
 
-### Hematology
 
-- [Daniel G Tenen](http://hsci.harvard.edu/people/daniel-g-tenen), [Ellen Rothenberg](http://www.bbe.caltech.edu/content/ellen-rothenberg), [James C. Mulloy](http://www.cincinnatichildrens.org/bio/m/james-mulloy/), [Constanze Bonifer](http://www.birmingham.ac.uk/staff/profiles/cancer/bonifer-constanze.aspx), [Bertie G?ttgens](http://www.stemcells.cam.ac.uk/researchers/principal-investigators/bertie-gottgens), [DongEr Zhang](http://labs.biology.ucsd.edu/zhang/), [Jinghui Zhang](http://www.stjude.org/stjude/v/index.jsp?vgnextoid=39254a82840f7210VgnVCM1000001e0215acRCRD), [Margaret A. Goodell](https://www.bcm.edu/research/labs/goodell/), [Robert G Roeder](http://www.rockefeller.edu/research/faculty/labheads/RobertRoeder/), [Stephen D. Nimer](http://uhealthsystem.com/doctors/profile/134105)
+## Project, Database & Consortium
 
+- [HapMap](http://hapmap.ncbi.nlm.nih.gov/), [1000 Genomes](http://www.1000genomes.org/), [ExAC](http://exac.broadinstitute.org/)
+- UK Biobank ([official web](http://www.ukbiobank.ac.uk/), [Nature Collection](https://www.nature.com/collections/bpthhnywqk)), [The Wellcome Trust UK10K project](http://www.uk10k.org/), [All of us program](https://allofus.nih.gov/), [PGC](https://www.med.unc.edu/pgc), [BBMRI-NL](http://www.bbmri.nl/), [GIANT](http://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium), [SSGAC](https://www.thessgac.org/), [WTCCC](https://www.wtccc.org.uk/), [IIBDGC](https://www.ibdgenetics.org/), [HRC(Haplotype Reference Consortium)](http://www.haplotype-reference-consortium.org/)
+- [CAGE](http://cnsgenomics.com/shiny/CAGE/), [eQTLGene](http://www.eqtlgen.org/), GTEx ([official web](http://www.gtexportal.org/home/), [Nature Collection](https://www.nature.com/collections/dcfzxywzby)), [CMC](https://www.synapse.org/#!Synapse:syn2759792/wiki/69613), [BLUEPRINT](http://www.blueprint-epigenome.eu/), [IHEC](http://ihec-epigenomes.org/)
+- [ENCODE](http://genome.ucsc.edu/ENCODE/), [Fantom5](http://fantom.gsc.riken.jp/5/), [RoadMap Epigenomics Project](http://www.roadmapepigenomics.org/), [CCLE](http://www.broadinstitute.org/ccle/home), [HFGP(Human Functional Genomics Project)](http://www.humanfunctionalgenomics.org/site/)
+- [HMP](http://hmpdacc.org/)
+- [TCGA](http://cancergenome.nih.gov/), [TARGET](http://target.nci.nih.gov/dataMatrix/), [PCAWG](https://www.nature.com/collections/afdejfafdb)
+- [NCBI](http://www.ncbi.nlm.nih.gov/), [GEO](http://www.ncbi.nlm.nih.gov/geo/), [SRA](http://www.ncbi.nlm.nih.gov/sra/), [GenBank]( http://www.ncbi.nlm.nih.gov/genbank/), [Array-express](http://www.ebi.ac.uk/arrayexpress/), [PDB]( http://www.rcsb.org/pdb/home/home.do), [GO (Gene Ontology) ](http://geneontology.org/), [SO (Sequence Ontology)](http://www.sequenceontology.org/), [KEGG](http://www.genome.jp/kegg/), [UCSC Genome Browser](http://genome.ucsc.edu/), [Ensembl](http://www.ensembl.org/index.html), [dbSNP](http://www.ncbi.nlm.nih.gov/snp/), [COSMIC](http://www.sanger.ac.uk/genetics/CGP/cosmic/), [ClinVar](http://www.ncbi.nlm.nih.gov/clinvar/), [OMIM](http://omim.org/), [primer design database](http://www.hsls.pitt.edu/obrc/index.php?page=pcr_oligos), [ExAC](http://exac.broadinstitute.org/), [Omictools](http://omictools.com/), [HGMD](http://www.hgmd.cf.ac.uk/ac/index.php)
+
+![](/images/timeline_project.jpg)
+
+## Softwares
+- [PLINK (v1.07)](http://zzz.bwh.harvard.edu/plink/), [PLINK2 (v1.9 beta)](https://www.cog-genomics.org/plink2), [GCTA](http://cnsgenomics.com/software/gcta/), [SMR](http://cnsgenomics.com/software/smr/index.html), [GSMR](http://cnsgenomics.com/software/gsmr/index.html), [OSCA](http://cnsgenomics.com/software/osca/#Overview)
+- [BOLT-LMM](https://data.broadinstitute.org/alkesgroup/BOLT-LMM/), [MACH](http://csg.sph.umich.edu/abecasis/mach/index.html), [IMPUTE2](http://mathgen.stats.ox.ac.uk/impute/impute_v2.html), [METAL](http://genome.sph.umich.edu/wiki/METAL_Program), [DEPICT](https://data.broadinstitute.org/mpg/depict/), [Beagle](https://faculty.washington.edu/browning/beagle/beagle.html), [haploview](https://www.broadinstitute.org/haploview/haploview), [HaploReg](http://archive.broadinstitute.org/mammals/haploreg/haploreg.php), [MERLIN](https://csg.sph.umich.edu/abecasis/Merlin/tour/assoc.html)
+- [bwa](http://bio-bwa.sourceforge.net/), [bowtie](http://bowtie-bio.sourceforge.net/index.shtml), [MACS](http://liulab.dfci.harvard.edu/MACS/), [MACS2](https://github.com/taoliu/MACS/), [SPP](http://compbio.med.harvard.edu/Supplements/ChIP-seq/), [HPeak](http://www.sph.umich.edu/csg/qin/HPeak/Readme.html), [meme-chip](http://meme.nbcr.net/meme/doc/meme-chip.html), [GimmeMotif](http://131.174.198.125/bioinfo/gimmemotifs/), [homer](http://biowhat.ucsd.edu/homer/), [CEAS](http://liulab.dfci.harvard.edu/CEAS/), [STAMP](http://www.benoslab.pitt.edu/stamp/)
+- [tophat](http://tophat.cbcb.umd.edu/), [STAR](https://github.com/alexdobin/STAR), [HISAT](https://ccb.jhu.edu/software/hisat/index.shtml), [StringTie](http://www.ccb.jhu.edu/software/stringtie/), [RSeQC](http://rseqc.sourceforge.net/), [RNA-SeQC](http://www.broadinstitute.org/cancer/cga/rna-seqc), [Cufflinks](http://cufflinks.cbcb.umd.edu/), [Scripture](https://www.broadinstitute.org/software/scripture/), [HTSeq](http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html), [featurecount](http://bioinf.wehi.edu.au/featureCounts/), [GFold](http://web.tongji.edu.cn/~zhanglab/GFOLD/), [DESeq](http://bioconductor.org/packages/2.12/bioc/html/DESeq.html), [DESeq2](http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html), [DEGseq](http://bioinfo.au.tsinghua.edu.cn/software/degseq/), [DEXSeq](http://www.bioconductor.org/packages/release/bioc/html/DEXSeq.html), [eXpress](http://bio.math.berkeley.edu/eXpress/overview.html), [RSEM](http://deweylab.biostat.wisc.edu/rsem/), [MISO]( http://genes.mit.edu/burgelab/miso/), [MATS](http://rnaseq-mats.sourceforge.net/), [MMSEQ](http://bgx.org.uk/software/mmseq.html), [CIRCexplorer](https://github.com/YangLab/CIRCexplorer), [CIRCfinder](https://github.com/YangLab/CIRCfinder)
+- [GATK](https://www.broadinstitute.org/gatk/), [MuTect](http://www.broadinstitute.org/cancer/cga/MuTect), [Pindel](http://gmt.genome.wustl.edu/packages/pindel/), [CREST](http://www.ncbi.nlm.nih.gov/pubmed/21666668), [SomaticSniper](http://gmt.genome.wustl.edu/packages/somatic-sniper/index.html), [VarScan2](http://varscan.sourceforge.net/), [Strelka](https://sites.google.com/site/strelkasomaticvariantcaller/), [JointSNVMix](https://code.google.com/p/joint-snv-mix/), [MutSig](https://www.broadinstitute.org/cancer/cga/mutsig), [InVEx](http://www.broadinstitute.org/cancer/cga/invex/), [Oncotator](http://www.broadinstitute.org/oncotator/), [bradkDancer](http://breakdancer.sourceforge.net/), [SciClone](https://github.com/genome/sciclone)
+- OncoSNP
+- RMA, MAS5.0, GCRMA
+- [samtools](http://samtools.sourceforge.net/)- [samstat](http://samstat.sourceforge.net/)- [bedtools](http://www.broadinstitute.org/cancer/cga/rna-seqc)- [bedops](https://code.google.com/p/bedops/)- [Fastqc](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)- [Fastx_toolkit](http://hannonlab.cshl.edu/fastx_toolkit/)- [trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic)- [Picard](http://broadinstitute.github.io/picard/)- [ucsc tools](http://hgdownload.cse.ucsc.edu/admin/exe/)- [CIRCOS](http://mkweb.bcgsc.ca/circos)- [SRAtoolkit](https://github.com/ncbi/sratoolkit)- [Entrez Direct](http://www.ncbi.nlm.nih.gov/news/02-06-2014-entrez-direct-released/)- [GenePattern](http://www.broadinstitute.org/cancer/software/genepattern/)- [pgltools](https://github.com/billgreenwald/pgltools)
+- [Jupyter](http://jupyter.org/)
+
+## Forum
+
+[Biostars](http://www.biostars.org/), [Seqanswers](http://seqanswers.com/),  [links directory](http://bioinformatics.ca/links_directory/), [stackexchange](https://stackexchange.com/), [stackoverflow](https://stackoverflow.com/)
+
+## Journal
+
+- [Cell](http://www.cell.com/), [Science](http://www.sciencemag.org/), [Nature](http://www.nature.com/), [PNAS](http://www.pnas.org/), [NEJM](http://www.nejm.org/), [Lancet](http://www.thelancet.com/), [Annual Review](http://www.annualreviews.org/), [Nature Communications](https://www.nature.com/ncomms/), [Science Advances](https://advances.sciencemag.org/)
+- [Nature Genetics](http://www.nature.com/ng/index.html), [Nature Review Genetics](http://www.nature.com/nrg/index.html), [American Journal of Human Genetics](http://www.cell.com/ajhg/home), [Trend in Genetics](http://www.cell.com/trends/genetics/home), [Human Molecular Genetics](https://academic.oup.com/hmg)
+- [Blood](http://bloodjournal.hematologylibrary.org/), [Leukemia](http://www.nature.com/leu/index.html)
+- [Genome Research](http://genome.cshlp.org/), [Genome Biology](https://genomebiology.biomedcentral.com/), [Nature Review Cancer](http://www.nature.com/nrc/index.html), [Nature biotechnology](http://www.nature.com/nbt/index.html), [PLOS Computational Biology](http://www.ploscompbiol.org/)
 
 
 
@@ -67,82 +90,6 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 ### IT
 
 - [阮一峰]( http://www.ruanyifeng.com/blog/)- [Chengwei's Words](http://www.chengweiyang.cn/archives/)- [Mozillazg's Blog](https://mozillazg.com/)- [James Hamilton - VP at Amazon Web Services](http://perspectives.mvdirona.com/)- [Denny Britz, a engineer in Google](http://blog.dennybritz.com/)- [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
-
-## Softwares
-
-### GWAS
-
-- [PLINK (v1.07)](http://zzz.bwh.harvard.edu/plink/): whole genome association analysis toolset
-- [PLINK2 (v1.9 beta)](https://www.cog-genomics.org/plink2): a comprehensive update to Shaun Purcell's PLINK
-- [GCTA](http://cnsgenomics.com/software/gcta/): to estimate the proportion of phenotypic variance explained by genome- or chromosome-wide SNPs for complex traits
-- [SMR](http://cnsgenomics.com/software/smr/index.html): association between gene expression and a complex trait
-- [GSMR](http://cnsgenomics.com/software/gsmr/index.html): causal association between a risk factor and disease
-- [OSCA](http://cnsgenomics.com/software/osca/#Overview): analysis of complex traits using multi-omics data
-- [MACH](http://csg.sph.umich.edu/abecasis/mach/index.html): resolve long haplotypes or infer missing genotypes
-- [IMPUTE2](http://mathgen.stats.ox.ac.uk/impute/impute_v2.html): genotype imputation and haplotype phasing program
-- [METAL](http://genome.sph.umich.edu/wiki/METAL_Program): meta-analysis of genomewide association scans
-- [DEPICT](https://data.broadinstitute.org/mpg/depict/): an integrative tool that based on predicted gene functions systematically prioritizes the most likely causal genes at associated loci, highlights enriched pathways, and identifies tissues/cell types where genes from associated loci are highly expressed
-- [Beagle](https://faculty.washington.edu/browning/beagle/beagle.html): genotype calling, genotype phasing, imputation of ungenotyped markers, and identity-by-descent segment detection
-- [haploview](https://www.broadinstitute.org/haploview/haploview): analysis and visualization of LD and haplotype maps
-- [HaploReg](http://archive.broadinstitute.org/mammals/haploreg/haploreg.php): annotations of the noncoding genome at variants
-- [BOLT-LMM](https://data.broadinstitute.org/alkesgroup/BOLT-LMM/): BOLT-LMM algorithm for mixed model association testing, and the BOLT-REML algorithm for variance components analysis
-- [MERLIN](https://csg.sph.umich.edu/abecasis/Merlin/tour/assoc.html): Association Analysis
-
-### ChIP-seq
-
-- [bwa](http://bio-bwa.sourceforge.net/)- [bowtie](http://bowtie-bio.sourceforge.net/index.shtml)- [MACS](http://liulab.dfci.harvard.edu/MACS/)- [MACS2](https://github.com/taoliu/MACS/)- [SPP](http://compbio.med.harvard.edu/Supplements/ChIP-seq/)- [HPeak](http://www.sph.umich.edu/csg/qin/HPeak/Readme.html)- [meme-chip](http://meme.nbcr.net/meme/doc/meme-chip.html)- [GimmeMotif](http://131.174.198.125/bioinfo/gimmemotifs/)- [homer](http://biowhat.ucsd.edu/homer/)- [CEAS](http://liulab.dfci.harvard.edu/CEAS/)- [STAMP](http://www.benoslab.pitt.edu/stamp/)
-
-### RNA-seq
-
-- [tophat](http://tophat.cbcb.umd.edu/)- [STAR](https://github.com/alexdobin/STAR)- [HISAT](https://ccb.jhu.edu/software/hisat/index.shtml)- [StringTie](http://www.ccb.jhu.edu/software/stringtie/)- [RSeQC](http://rseqc.sourceforge.net/)- [RNA-SeQC](http://www.broadinstitute.org/cancer/cga/rna-seqc)- [Cufflinks](http://cufflinks.cbcb.umd.edu/)- [Scripture](https://www.broadinstitute.org/software/scripture/)- [HTSeq](http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html)- [featurecount](http://bioinf.wehi.edu.au/featureCounts/)- [GFold](http://web.tongji.edu.cn/~zhanglab/GFOLD/)- [DESeq](http://bioconductor.org/packages/2.12/bioc/html/DESeq.html)- [DESeq2](http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html)- [DEGseq](http://bioinfo.au.tsinghua.edu.cn/software/degseq/)- [DEXSeq](http://www.bioconductor.org/packages/release/bioc/html/DEXSeq.html)- [eXpress](http://bio.math.berkeley.edu/eXpress/overview.html)- [RSEM](http://deweylab.biostat.wisc.edu/rsem/)- [MISO]( http://genes.mit.edu/burgelab/miso/)- [MATS](http://rnaseq-mats.sourceforge.net/)- [MMSEQ](http://bgx.org.uk/software/mmseq.html)- [CIRCexplorer](https://github.com/YangLab/CIRCexplorer)- [CIRCfinder](https://github.com/YangLab/CIRCfinder)
-
-### WGS/WES
-
-- [GATK](https://www.broadinstitute.org/gatk/)- [MuTect](http://www.broadinstitute.org/cancer/cga/MuTect)- [Pindel](http://gmt.genome.wustl.edu/packages/pindel/)- [CREST](http://www.ncbi.nlm.nih.gov/pubmed/21666668)- [SomaticSniper](http://gmt.genome.wustl.edu/packages/somatic-sniper/index.html)- [VarScan2](http://varscan.sourceforge.net/)- [Strelka](https://sites.google.com/site/strelkasomaticvariantcaller/)- [JointSNVMix](https://code.google.com/p/joint-snv-mix/)- [MutSig](https://www.broadinstitute.org/cancer/cga/mutsig)- [InVEx](http://www.broadinstitute.org/cancer/cga/invex/)- [Oncotator](http://www.broadinstitute.org/oncotator/)- [bradkDancer](http://breakdancer.sourceforge.net/)- [SciClone](https://github.com/genome/sciclone)
-
-
-### SNP array
-
-- OncoSNP:
-
-### microarray
-
-- RMA:
-- MAS5.0:
-- GCRMA:
-
-### Common Utilities
-
-- [samtools](http://samtools.sourceforge.net/)- [samstat](http://samstat.sourceforge.net/)- [bedtools](http://www.broadinstitute.org/cancer/cga/rna-seqc)- [bedops](https://code.google.com/p/bedops/)- [Fastqc](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)- [Fastx_toolkit](http://hannonlab.cshl.edu/fastx_toolkit/)- [trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic)- [Picard](http://broadinstitute.github.io/picard/)- [ucsc tools](http://hgdownload.cse.ucsc.edu/admin/exe/)- [CIRCOS](http://mkweb.bcgsc.ca/circos)- [SRAtoolkit](https://github.com/ncbi/sratoolkit)- [Entrez Direct](http://www.ncbi.nlm.nih.gov/news/02-06-2014-entrez-direct-released/)- [GenePattern](http://www.broadinstitute.org/cancer/software/genepattern/)- [pgltools](https://github.com/billgreenwald/pgltools)
-
-### IT
-
-- [Jupyter](http://jupyter.org/)
-
-## Forum
-
-- [Biostars](http://www.biostars.org/)- [Seqanswers](http://seqanswers.com/)- [links directory](http://bioinformatics.ca/links_directory/)- [stackexchange](https://stackexchange.com/)- [stackoverflow](https://stackoverflow.com/)
-
-## Journal
-
-### Comprehensive journals
-
-- [Cell](http://www.cell.com/)- [Science](http://www.sciencemag.org/)- [Nature](http://www.nature.com/)- [PNAS](http://www.pnas.org/)- [NEJM](http://www.nejm.org/)- [Lancet](http://www.thelancet.com/)- [Annual Review](http://www.annualreviews.org/)
-
-### Genetics
-- [Nature Genetics](http://www.nature.com/ng/index.html)- [Nature Review Genetics](http://www.nature.com/nrg/index.html)- [American Journal of Human Genetics](http://www.cell.com/ajhg/home)- [Trend in Genetics](http://www.cell.com/trends/genetics/home)- [Human Molecular Genetics](https://academic.oup.com/hmg)
-
-### Haematology
-
-- [Blood](http://bloodjournal.hematologylibrary.org/)- [Leukemia](http://www.nature.com/leu/index.html)
-
-### Others
-
-- [Genome Research](http://genome.cshlp.org/)
-- [Genome Biology](https://genomebiology.biomedcentral.com/)
-- [Nature Review Cancer](http://www.nature.com/nrc/index.html)
-- [Nature biotechnology](http://www.nature.com/nbt/index.html)
-- [PLOS Computational Biology](http://www.ploscompbiol.org/)
 
 
 ## Courses
@@ -210,71 +157,6 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - ["COMPUTATIONAL GENOMICS SUMMER INSTITUTE" @UCLA](http://computationalgenomics.bioinformatics.ucla.edu/resources/videos/)
 - ["Genomic Medicine XII: Genomics and Risk Prediction" by NIH/NHGRI](https://www.genome.gov/event-calendar/genomic-medicine-xii-genomics-and-risk-prediction)
 
-## Project
-
-- [HapMap](http://hapmap.ncbi.nlm.nih.gov/)
-- [ENCODE](http://genome.ucsc.edu/ENCODE/)
-- [TCGA](http://cancergenome.nih.gov/)
-- [RoadMap Epigenomics Project](http://www.roadmapepigenomics.org/)
-- [BLUEPRINT](http://www.blueprint-epigenome.eu/)
-- [IHEC](http://ihec-epigenomes.org/)
-- [1000 Genomes](http://www.1000genomes.org/)
-- [TARGET](http://target.nci.nih.gov/dataMatrix/)
-- [Fantom5](http://fantom.gsc.riken.jp/5/)
-- [CCLE](http://www.broadinstitute.org/ccle/home)
-- [HMP](http://hmpdacc.org/)
-- [The Wellcome Trust UK10K project](http://www.uk10k.org/)
-- [ExAC(Exome Aggregation Consortium)](http://exac.broadinstitute.org/)
-- [HFGP(Human Functional Genomics Project)](http://www.humanfunctionalgenomics.org/site/)
-- [HRC(Haplotype Reference Consortium)](http://www.haplotype-reference-consortium.org/)
-
-![](/images/timeline_project.jpg)
-
-
-## Database
-
-- [NCBI](http://www.ncbi.nlm.nih.gov/), [GEO](http://www.ncbi.nlm.nih.gov/geo/), [SRA](http://www.ncbi.nlm.nih.gov/sra/), [GenBank]( http://www.ncbi.nlm.nih.gov/genbank/)
-- [Array-express](http://www.ebi.ac.uk/arrayexpress/)
-- [PDB]( http://www.rcsb.org/pdb/home/home.do)
-- [GO (Gene Ontology) ](http://geneontology.org/)
-- [SO (Sequence Ontology)](http://www.sequenceontology.org/)
-- [KEGG](http://www.genome.jp/kegg/)
-- [UCSC Genome Browser](http://genome.ucsc.edu/)
-- [Ensembl](http://www.ensembl.org/index.html)
-- [dbSNP](http://www.ncbi.nlm.nih.gov/snp/)
-- [COSMIC](http://www.sanger.ac.uk/genetics/CGP/cosmic/)
-- [ClinVar](http://www.ncbi.nlm.nih.gov/clinvar/): genomic variation and its relationship to human health
-- [OMIM](http://omim.org/): Online Mendelian Inheritane in Man
-- [primer design database](http://www.hsls.pitt.edu/obrc/index.php?page=pcr_oligos)
-- [ExAC](http://exac.broadinstitute.org/)
-- [Omictools](http://omictools.com/)
-- [HGMD](http://www.hgmd.cf.ac.uk/ac/index.php): Human Gene Mutation Database
-
-## Consortium
-
-### Complex traits
-
-- [UKB(UK Biobank)](http://www.ukbiobank.ac.uk/), [Nature Collection](https://www.nature.com/collections/bpthhnywqk)
-- [BBMRI-NL(Biobanking and BioMolecular resources Research Infrastructure The Netherlands)](http://www.bbmri.nl/)
-- [GIANT(Genetic Investigation of Anthropometric Traits)](http://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium)
-- [PGC(Psychiatric Genomics Consortium)](https://www.med.unc.edu/pgc)
-	- ALZ(Alzheimer’s Workshop)
-	- Autism Spectrum Disorders(AUT)
-	- Bipolar Disorders (BIP)
-	- MDD(Major Depressive Disorders)
-	- SCZ(Schizophrenia)
-	- SUD(Substance Use Disorders)
-- [SSGAC(Social Science Genetic Association Consortium)](https://www.thessgac.org/)
-- [WTCCC(Wellcome Trust Cass Control Consortium)](https://www.wtccc.org.uk/)
-- [IIBDGC(International Inflammatory Bowel Disease Genetics Consortium)](https://www.ibdgenetics.org/)
-- [All of us program](https://allofus.nih.gov/)
-
-### Gene Expression
-
-- [CAGE](http://cnsgenomics.com/shiny/CAGE/)
-- [eQTLGene](http://www.eqtlgen.org/)
-- [GTEx(Genotype-Tissue Expression)](http://www.gtexportal.org/home/), [Nature Collection](https://www.nature.com/collections/dcfzxywzby)
-- [CMC](https://www.synapse.org/#!Synapse:syn2759792/wiki/69613)
 
 ## Funding
 
@@ -291,11 +173,7 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 
 ## Bioinformatic cloud
 
-- [Seven Bridge](https://www.sbgenomics.com/)
-- [DNAnexus](https://www.dnanexus.com/)
-- [Google Genomics](https://cloud.google.com/genomics/)
-- [NCI's Genomic Data Commons](https://gdc.nci.nih.gov/)
-- [Global Alliance for Genomics and Health](http://ga4gh.org)
+[Seven Bridge](https://www.sbgenomics.com/), [DNAnexus](https://www.dnanexus.com/), [Google Genomics](https://cloud.google.com/genomics/), [NCI's Genomic Data Commons](https://gdc.nci.nih.gov/), [Global Alliance for Genomics and Health](http://ga4gh.org), [nextflow](https://www.nextflow.io/)
 
 ## Your favorite blog on Biostar
 
@@ -305,13 +183,8 @@ This is a website list I'm following about bioinformatics/genetics/statistic/com
 - Your Favorite Bioinformatics Blog(S) (2013 Edition)
 
 ## 微信公众账号
-- 赛先生
-- 知识分子
-- 测序中国
-- 丁香园
-- 生物谷
-- 知因knowgene
-- 博士圈Illumina
+
+赛先生, 知识分子, 测序中国, 丁香园, 生物谷, 知因knowgene, 博士圈Illumina
 
 
 ## Books
