@@ -41,6 +41,8 @@ tags: ["life"]
 - 南京医科大学：[公告](http://rsc.njmu.edu.cn/2019/0402/c10978a145785/page.htm)
 - 东北大学
 	- [东北大学生命科学与健康学院](http://www.clhs.neu.edu.cn/)
+- 中国医科大学：
+	- [Nature job](https://www.nature.com/naturecareers/job/china-medical-university-seeking-talents-home-and-abroad-china-medical-university-cmu-723578)
 
 
 ### 青千网站
