@@ -11,6 +11,10 @@ CV:
 - [201701 CV](/documents/CV_whw-201701.pdf)  
 - [2015 CV](/documents/CV_whw-2015.pdf)
 
+thesis:
+
+- [master (in Chinese)](/documents/master_thesis.pdf)
+
 Email:
 
 - zju.whw@gmail.com
