@@ -37,7 +37,7 @@ tags: ["life"]
 	- 浙江大学生命科学研究院：[官网](http://lsi.zju.edu.cn/)，[招聘公告](http://lsi.zju.edu.cn/redir.php?catalog_id=13706&object_id=68180)
 	- 浙江大学遗传学研究所：[官网](http://www.ig.zju.edu.cn/)，[招聘公告](http://www.ig.zju.edu.cn/redir.php?catalog_id=10011&object_id=21622)
 - 温州医科大学： [公告](http://rsc.wmu.edu.cn/info/1043/1149.htm)
-- 浙江西湖高等研究院：[官网](http://www.wias.org.cn/index.html), [招聘公告](http://www.wias.org.cn/chinese-detail-372-9049.html)
+- 浙江西湖高等研究院：[官网](http://www.wias.org.cn/index.html), [招聘公告](http://www.wias.org.cn/chinese-detail-372-9049.html), [Nature Jobs](https://www.nature.com/naturecareers/job/faculty-positions-in-westlake-university-westlake-university-723449)
 - 南京医科大学：[公告](http://rsc.njmu.edu.cn/2019/0402/c10978a145785/page.htm)
 - 东北大学
 	- [东北大学生命科学与健康学院](http://www.clhs.neu.edu.cn/)

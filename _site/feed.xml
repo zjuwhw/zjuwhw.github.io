@@ -6,9 +6,27 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Apr 2020 14:59:54 +0800</pubDate>
-    <lastBuildDate>Tue, 21 Apr 2020 14:59:54 +0800</lastBuildDate>
+    <pubDate>Mon, 18 May 2020 12:04:48 +0800</pubDate>
+    <lastBuildDate>Mon, 18 May 2020 12:04:48 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>小米路由器</title>
+        <description>&lt;p&gt;做了一个ppt，向父母解释“更换小米路由器后网路测速情况”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/xiaomi_presentation_page1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/documents/xiaomi_presentation.pdf&quot;&gt;全文件链接&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 07 May 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/05/07/xiaomi-route.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/05/07/xiaomi-route.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>椎间盘突出症</title>
@@ -1301,82 +1319,6 @@ Learn more here about the development and quality assurance of healthdirect cont
         <pubDate>Tue, 12 Nov 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/11/12/population.html</link>
         <guid isPermaLink="true">http://localhost:4000/2019/11/12/population.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>文章引用率</title>
-        <description>&lt;p&gt;评价一个研究人员的研究成果是非常非常难的事情，尽管有的时候必须要这么做（例如，申请基金，学术岗位的面试等）。我知道有人会去关注Google scholar页面的citation数据统计。其中&lt;a href=&quot;https://en.wikipedia.org/wiki/H-index&quot;&gt;h-index&lt;/a&gt;表示h篇文章被引用了至少h次，i10-index表示多少篇文章被引用了至少10次。&lt;/p&gt;
-
-&lt;p&gt;这个博客收录了我所在的领域（生命科学-遗传学）的一些人（包括我自己）的google scholar页面，截图于2019年11月11日。&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Researcher&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com/citations?user=LXVfPc8AAAAJ&amp;amp;hl=en&quot;&gt;Eric Lander&lt;/a&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com.au/citations?user=Ba2kwtkAAAAJ&amp;amp;hl=en&quot;&gt;Nick Martin&lt;/a&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com.au/citations?user=4eOEw-IAAAAJ&amp;amp;hl=en&quot;&gt;Grant Montgomery&lt;/a&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Google scholar&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/eric_lander.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/george_smith.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/nick_martin.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Researcher&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com/citations?hl=en&amp;amp;user=OOVzKokAAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&quot;&gt;George Davey Smith&lt;/a&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com.au/citations?hl=en&amp;amp;user=PWOitw0AAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&quot;&gt;Peter Visscher&lt;/a&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com.au/citations?user=uR-N1H0AAAAJ&amp;amp;hl=en&quot;&gt;Naomi Wray&lt;/a&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Google scholar&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/grant_montgomery.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/peter_visscher.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/naomi_wray.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Researcher&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com/citations?hl=en&amp;amp;user=aLuqQs8AAAAJ&amp;amp;view_op=list_works&amp;amp;sortby=pubdate&quot;&gt;Jian Yang&lt;/a&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com/citations?user=Xu-FkbkAAAAJ&amp;amp;hl=en&quot;&gt;Yang Wu&lt;/a&gt;&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://scholar.google.com/citations?user=B8z18fgAAAAJ&amp;amp;hl=en&quot;&gt;Huanwei Wang&lt;/a&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Google scholar&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/jian_yang.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/yang_wu.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/images/google_scholar/huanwei_wang.png&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;拓展阅读：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.natureindex.com/news-blog/whats-wrong-with-the-h-index-according-to-its-inventor&quot;&gt;“What’s wrong with the H-index, according to its inventor”&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 11 Nov 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/11/11/citation.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/11/11/citation.html</guid>
         
         <category>life</category>
         
