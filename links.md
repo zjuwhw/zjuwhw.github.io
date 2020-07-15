@@ -37,6 +37,10 @@ This is a collection of URLs/links I'm following. (lastest update: 1/April/2020)
 - [Yang Li](http://www.picb.ac.cn/rnomics/yanglab/), [Istvan Albert ](http://www.personal.psu.edu/iua1/), [Xuegong Zhang]( http://bioinfo.au.tsinghua.edu.cn/member/xzhang/XZhang_Chinese.html), [Ao Ping](http://systemsbiology.sjtu.edu.cn/), [Rafalab]( http://rafalab.dfci.harvard.edu/), [Lior Pachter](https://math.berkeley.edu/~lpachter/index.html), [Cole Trapnell](http://cole-trapnell-lab.github.io/), [Steven Salzberg](http://salzberg-lab.org/), [Yarden Katz](http://www.mit.edu/~yarden/), [Wolfgang Huber](http://www.embl.de/research/units/genome_biology/huber/index.html), [Wong Yong Wang](http://web.stanford.edu/group/wonglab/)
 - [Peter Campbell](https://www.sanger.ac.uk/people/directory/campbell-peter), [Steven Lane](https://www.qimrberghofer.edu.au/lab/gordon-and-jessie-gilmour-leukaemia-research/), [John E. Dick](https://en.wikipedia.org/wiki/John_Edgar_Dick), [Daniel G Tenen](http://hsci.harvard.edu/people/daniel-g-tenen), [Robert G Roeder](http://www.rockefeller.edu/research/faculty/labheads/RobertRoeder/), [Ellen Rothenberg](https://www.bbe.caltech.edu/people/ellen-rothenberg), [James C. Mulloy](http://www.cincinnatichildrens.org/bio/m/james-mulloy/), [Constanze Bonifer](http://www.birmingham.ac.uk/staff/profiles/cancer/bonifer-constanze.aspx), [DongEr Zhang](http://labs.biology.ucsd.edu/zhang/), [Jinghui Zhang](http://www.stjude.org/stjude/v/index.jsp?vgnextoid=39254a82840f7210VgnVCM1000001e0215acRCRD), [Margaret A. Goodell](https://www.bcm.edu/research/labs/goodell/), [Stephen D. Nimer](http://uhealthsystem.com/doctors/profile/134105), [Bertie G?ttgens](http://www.stemcells.cam.ac.uk/researchers/principal-investigators/bertie-gottgens)
 
+#### Single Cell
+
+[Rahul Satija](https://satijalab.org/)
+
 
 ## Project, Database & Consortium
 
