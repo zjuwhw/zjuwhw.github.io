@@ -6,9 +6,154 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2020 09:53:47 +0800</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2020 09:53:47 +0800</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2020 15:43:23 +0800</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2020 15:43:23 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>初中课程</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#数学人教版&quot; id=&quot;markdown-toc-数学人教版&quot;&gt;数学（人教版）&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#八年级上&quot; id=&quot;markdown-toc-八年级上&quot;&gt;八年级上&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第11章-三角形&quot; id=&quot;markdown-toc-第11章-三角形&quot;&gt;第11章 三角形&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第12章-全等三角形&quot; id=&quot;markdown-toc-第12章-全等三角形&quot;&gt;第12章 全等三角形&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第13章-轴对称&quot; id=&quot;markdown-toc-第13章-轴对称&quot;&gt;第13章 轴对称&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第14章-整式的乘法与因式分解&quot; id=&quot;markdown-toc-第14章-整式的乘法与因式分解&quot;&gt;第14章 整式的乘法与因式分解&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第15章-分式&quot; id=&quot;markdown-toc-第15章-分式&quot;&gt;第15章 分式&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#九年级上&quot; id=&quot;markdown-toc-九年级上&quot;&gt;九年级上&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第21章-一元二次方程&quot; id=&quot;markdown-toc-第21章-一元二次方程&quot;&gt;第21章 一元二次方程&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第22章-二次函数&quot; id=&quot;markdown-toc-第22章-二次函数&quot;&gt;第22章 二次函数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第23章-旋转&quot; id=&quot;markdown-toc-第23章-旋转&quot;&gt;第23章 旋转&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第24章-圆&quot; id=&quot;markdown-toc-第24章-圆&quot;&gt;第24章 圆&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第25章-概率初步&quot; id=&quot;markdown-toc-第25章-概率初步&quot;&gt;第25章 概率初步&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;给亲戚家孩子补习初中课程，好多东西都忘记了。故看教程整理和回顾一下知识点。&lt;/p&gt;
+
+&lt;h2 id=&quot;数学人教版&quot;&gt;数学（人教版）&lt;/h2&gt;
+
+&lt;h3 id=&quot;八年级上&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/mp/homepage?__biz=MzU3NTg3MTYyMQ==&amp;amp;hid=8&amp;amp;sn=49a9d0cb1f703682fb577a464e3f4e75&amp;amp;scene=25#wechat_redirect&quot;&gt;八年级上&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第11章-三角形&quot;&gt;第11章 三角形&lt;/h4&gt;
+
+&lt;h4 id=&quot;第12章-全等三角形&quot;&gt;第12章 全等三角形&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;12.1 全等三角形
+    &lt;ul&gt;
+      &lt;li&gt;全等形，全等三角形&lt;/li&gt;
+      &lt;li&gt;对应顶点，对应边，对应角&lt;/li&gt;
+      &lt;li&gt;ABC与DEF全等，记作△ABC≌△DEF&lt;/li&gt;
+      &lt;li&gt;全等三角形的对应边相等，对应角相等&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;12.2 三角形全等的判断
+    &lt;ul&gt;
+      &lt;li&gt;三边分别相等的两个三角形全等（边边边）&lt;/li&gt;
+      &lt;li&gt;两边和它们的夹角分别相等的两个三角形全等（边角边）&lt;/li&gt;
+      &lt;li&gt;两角和它们的夹边分别相等的两个三角形全等（角边角）&lt;/li&gt;
+      &lt;li&gt;两角和其中一个角的对边分别相等的两个三角形全等（角角边）&lt;/li&gt;
+      &lt;li&gt;斜边和一条直角边分别相等的两个三角形全等（斜边直角边）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;12.3 角的平分线的性质&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;第13章-轴对称&quot;&gt;第13章 轴对称&lt;/h4&gt;
+
+&lt;h4 id=&quot;第14章-整式的乘法与因式分解&quot;&gt;第14章 整式的乘法与因式分解&lt;/h4&gt;
+
+&lt;h4 id=&quot;第15章-分式&quot;&gt;第15章 分式&lt;/h4&gt;
+
+&lt;h3 id=&quot;九年级上&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/mp/homepage?__biz=MzU3NTg3MTYyMQ==&amp;amp;hid=9&amp;amp;sn=8c04740f5f1b00dde586186932fad3d1&amp;amp;scene=25#wechat_redirect&quot;&gt;九年级上&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第21章-一元二次方程&quot;&gt;第21章 一元二次方程&lt;/h4&gt;
+
+&lt;h4 id=&quot;第22章-二次函数&quot;&gt;第22章 二次函数&lt;/h4&gt;
+
+&lt;h4 id=&quot;第23章-旋转&quot;&gt;第23章 旋转&lt;/h4&gt;
+
+&lt;h4 id=&quot;第24章-圆&quot;&gt;第24章 圆&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;24.1 圆的有关性质
+    &lt;ul&gt;
+      &lt;li&gt;24.1.1 圆&lt;/li&gt;
+      &lt;li&gt;24.1.2 垂直于弦的直径&lt;/li&gt;
+      &lt;li&gt;24.1.3 弧、弦、圆心角&lt;/li&gt;
+      &lt;li&gt;24.1.4 圆周角
+        &lt;ul&gt;
+          &lt;li&gt;圆周角：顶点在圆上，并且两边都与圆相交&lt;/li&gt;
+          &lt;li&gt;圆周角定律：
+            &lt;ul&gt;
+              &lt;li&gt;同弧所对圆周角为其圆心角的一半&lt;/li&gt;
+              &lt;li&gt;同弧或等弧所对的圆周角相等&lt;/li&gt;
+              &lt;li&gt;半圆（或直径）所对的圆周角是直角，90度的圆周角所对的弦是直径&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;圆内接多边形，多边形的外接圆&lt;/li&gt;
+          &lt;li&gt;圆内接四边形的对角互补（和为180度）&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;24.2 点和圆、直线和圆的位置关系
+    &lt;ul&gt;
+      &lt;li&gt;24.2.1 点和圆的位置关系
+        &lt;ul&gt;
+          &lt;li&gt;设圆o半径为r，点P到圆心的距离OP=d，则
+            &lt;ul&gt;
+              &lt;li&gt;点P在圆外 &amp;lt;=&amp;gt; d&amp;gt;r&lt;/li&gt;
+              &lt;li&gt;点P在圆上 &amp;lt;=&amp;gt; d=r&lt;/li&gt;
+              &lt;li&gt;点P在圆内 &amp;lt;=&amp;gt; d&amp;lt;r&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;不在同一条直线上的三个点确定一个圆，这个圆叫外接圆，其圆心为三角形的外心&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;24.3 正多边形和圆
+    &lt;ul&gt;
+      &lt;li&gt;正多边形的中心，半径，中心角，边心距&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;24.4 弧长和扇形面积
+    &lt;ul&gt;
+      &lt;li&gt;360度的圆心角所对应的弧长：2πR&lt;/li&gt;
+      &lt;li&gt;n度的圆心角对应的弧长：2πR/360*n&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;第25章-概率初步&quot;&gt;第25章 概率初步&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;25.1 随机事件与概率
+    &lt;ul&gt;
+      &lt;li&gt;25.1.1 随机事件&lt;/li&gt;
+      &lt;li&gt;25.1.2 概率&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;25.2 用列举法求概率&lt;/li&gt;
+  &lt;li&gt;25.3 用频率估计概率&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 22 Jul 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/07/22/middleschool.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/07/22/middleschool.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>小米路由器</title>
@@ -1289,38 +1434,6 @@ Learn more here about the development and quality assurance of healthdirect cont
         <category>life</category>
         
         <category>medi</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>考古学术语</title>
-        <description>&lt;p&gt;我的同事&lt;a href=&quot;https://cnsgenomics.com/team/freydenzon.html&quot;&gt;Anna&lt;/a&gt;在今天实验室的文献汇报（journal club）上讲了一篇最近发表在Science上的用古DNA（ancient DNA）序列研究人类形成的&lt;a href=&quot;https://science.sciencemag.org/content/365/6457/eaat7487&quot;&gt;文章&lt;/a&gt;。由于有太多英文单词不认识，所以听下来很困难。这篇博客，收集一些这篇文章相关的英文单词的中英文对译。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mbuti_people&quot;&gt;Mbuti&lt;/a&gt;: 姆巴提人&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Indigenous_people_of_New_Guinea&quot;&gt;Papuans&lt;/a&gt; (Indigenous people of New Guinea): 巴布亚人&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Dai_people&quot;&gt;Dai&lt;/a&gt;: 傣族&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Onge&quot;&gt;Onge&lt;/a&gt;: 翁奇人&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Rajput&quot;&gt;Rajput&lt;/a&gt;: 拉杰普特人&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Nicobarese&quot;&gt;Nicobarese&lt;/a&gt;: 尼科巴人&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Juang_people&quot;&gt;Juang&lt;/a&gt;:&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Denisovan&quot;&gt;Denisovan&lt;/a&gt;: 丹尼索瓦人&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Yamnaya_culture&quot;&gt;Yamnaya culture&lt;/a&gt;: 颜那亚文化&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Bronze_Age&quot;&gt;Bronze Age&lt;/a&gt;: 青铜时代&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://simple.wikipedia.org/wiki/Balto-Slavic_languages&quot;&gt;Balto-Slavic languages&lt;/a&gt;: 波罗的-斯拉夫语族&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Indus_Valley_Civilisation&quot;&gt;Indus Valley Civilisation&lt;/a&gt;: 印度河流域文明&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Indo-European_languages&quot;&gt;Indo-European languages&lt;/a&gt;: 印欧语系&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Eurasia&quot;&gt;Eurasia&lt;/a&gt;: 欧亚大陆&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Era&quot;&gt;BCE, Before Common Era&lt;/a&gt;: 公元前&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Neolithic&quot;&gt;Neolithic&lt;/a&gt;: 新石器时代&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 12 Nov 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/11/12/population.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/11/12/population.html</guid>
-        
-        <category>life</category>
         
         
       </item>

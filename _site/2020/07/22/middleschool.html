@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>RESTful API</title>
-  <meta name="description" content="前言：什么是REST？">
+  <title>初中课程</title>
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/2016/09/03/REST.html">
+  <link rel="canonical" href="http://localhost:4000/2020/07/22/middleschool.html">
   <link rel="alternate" type="application/rss+xml" title="Huanwei Wang's blog" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -101,164 +101,144 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">RESTful API</h1>
-    <p class="post-meta"><time datetime="2016-09-03T00:00:00+08:00" itemprop="datePublished">Sep 3, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">初中课程</h1>
+    <p class="post-meta"><time datetime="2020-07-22T00:00:00+08:00" itemprop="datePublished">Jul 22, 2020</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h2 id="前言什么是rest">前言：什么是REST？</h2>
-
-<blockquote>
-  <p>一种架构设计风格，提供了设计原则和约束条件，而不是架构。而满足这些约束条件和原则的应用程序或设计就是 RESTful架构或服务。</p>
-</blockquote>
-
-<p>— <a href="https://segmentfault.com/q/1010000003064904">segmentfault</a></p>
-
-<p>我理解“就是有了规范/规则/限制/风格”，就能享受到一些”好处“。</p>
-
-<h2 id="overview概况">Overview（概况）</h2>
-
-<ul>
-  <li>REST: REpresentational State Transfer</li>
-  <li>Resource-based（基于资源）</li>
-  <li>Representations（表述）</li>
-  <li>Six constraints（6点限制）</li>
-  <li>Uniform Interface（统一接口）</li>
-  <li>Stateless（无状态性）</li>
-  <li>Cacheable（可缓存）</li>
-  <li>Client-Server（客户端-服务端结构）</li>
-  <li>Layered System（分层系统）</li>
-  <li>Code on Demand (optional)（按需编码）</li>
-</ul>
-
-<h2 id="resource-based基于资源">Resource Based(基于资源)</h2>
-
-<ul>
-  <li>Things vs. actions</li>
-  <li>Nouns vs. verbs</li>
-  <li>Versus SOAP-RPC（注：SOAP和RPC是另外两种主流的Web服务实现方案）</li>
-  <li>Identified by URIs
-    <ul>
-      <li>Multiple URIs may refer to same resource</li>
-    </ul>
-  </li>
-  <li>Separate from their representation(s)</li>
-</ul>
-
-<h2 id="representations表述">Representations(表述)</h2>
-
-<ul>
-  <li>How resources get manipulated（对资源的描述、如何操作资源的）</li>
-  <li>Part of the resource state
-    <ul>
-      <li>Transferred between client and server</li>
-    </ul>
-  </li>
-  <li>Typically JSON or XML</li>
-  <li>Example:
-    <ul>
-      <li>Resource: person(Todd)</li>
-      <li>Service: contact information (GET)</li>
-      <li>Representation:
-        <ul>
-          <li>name, address, phone number …</li>
-          <li>JSON or XML format</li>
+    <ul id="markdown-toc">
+  <li><a href="#数学人教版" id="markdown-toc-数学人教版">数学（人教版）</a>    <ul>
+      <li><a href="#八年级上" id="markdown-toc-八年级上">八年级上</a>        <ul>
+          <li><a href="#第11章-三角形" id="markdown-toc-第11章-三角形">第11章 三角形</a></li>
+          <li><a href="#第12章-全等三角形" id="markdown-toc-第12章-全等三角形">第12章 全等三角形</a></li>
+          <li><a href="#第13章-轴对称" id="markdown-toc-第13章-轴对称">第13章 轴对称</a></li>
+          <li><a href="#第14章-整式的乘法与因式分解" id="markdown-toc-第14章-整式的乘法与因式分解">第14章 整式的乘法与因式分解</a></li>
+          <li><a href="#第15章-分式" id="markdown-toc-第15章-分式">第15章 分式</a></li>
+        </ul>
+      </li>
+      <li><a href="#九年级上" id="markdown-toc-九年级上">九年级上</a>        <ul>
+          <li><a href="#第21章-一元二次方程" id="markdown-toc-第21章-一元二次方程">第21章 一元二次方程</a></li>
+          <li><a href="#第22章-二次函数" id="markdown-toc-第22章-二次函数">第22章 二次函数</a></li>
+          <li><a href="#第23章-旋转" id="markdown-toc-第23章-旋转">第23章 旋转</a></li>
+          <li><a href="#第24章-圆" id="markdown-toc-第24章-圆">第24章 圆</a></li>
+          <li><a href="#第25章-概率初步" id="markdown-toc-第25章-概率初步">第25章 概率初步</a></li>
         </ul>
       </li>
     </ul>
   </li>
 </ul>
 
-<h2 id="uniform-interface统一接口">Uniform Interface（统一接口）</h2>
+<p>给亲戚家孩子补习初中课程，好多东西都忘记了。故看教程整理和回顾一下知识点。</p>
+
+<h2 id="数学人教版">数学（人教版）</h2>
+
+<h3 id="八年级上"><a href="https://mp.weixin.qq.com/mp/homepage?__biz=MzU3NTg3MTYyMQ==&amp;hid=8&amp;sn=49a9d0cb1f703682fb577a464e3f4e75&amp;scene=25#wechat_redirect">八年级上</a></h3>
+
+<h4 id="第11章-三角形">第11章 三角形</h4>
+
+<h4 id="第12章-全等三角形">第12章 全等三角形</h4>
 
 <ul>
-  <li>Defines the interface between client and server</li>
-  <li>Simplifies and decouples the architecture</li>
-  <li>Fundamental to RESTful design</li>
-  <li>For us this means:
+  <li>12.1 全等三角形
     <ul>
-      <li>HTTP verbs(GET, PUT, POST, DELETE)</li>
-      <li>URIs(resource name)</li>
-      <li>HTTP response(status, body)</li>
+      <li>全等形，全等三角形</li>
+      <li>对应顶点，对应边，对应角</li>
+      <li>ABC与DEF全等，记作△ABC≌△DEF</li>
+      <li>全等三角形的对应边相等，对应角相等</li>
+    </ul>
+  </li>
+  <li>12.2 三角形全等的判断
+    <ul>
+      <li>三边分别相等的两个三角形全等（边边边）</li>
+      <li>两边和它们的夹角分别相等的两个三角形全等（边角边）</li>
+      <li>两角和它们的夹边分别相等的两个三角形全等（角边角）</li>
+      <li>两角和其中一个角的对边分别相等的两个三角形全等（角角边）</li>
+      <li>斜边和一条直角边分别相等的两个三角形全等（斜边直角边）</li>
+    </ul>
+  </li>
+  <li>12.3 角的平分线的性质</li>
+</ul>
+
+<h4 id="第13章-轴对称">第13章 轴对称</h4>
+
+<h4 id="第14章-整式的乘法与因式分解">第14章 整式的乘法与因式分解</h4>
+
+<h4 id="第15章-分式">第15章 分式</h4>
+
+<h3 id="九年级上"><a href="https://mp.weixin.qq.com/mp/homepage?__biz=MzU3NTg3MTYyMQ==&amp;hid=9&amp;sn=8c04740f5f1b00dde586186932fad3d1&amp;scene=25#wechat_redirect">九年级上</a></h3>
+
+<h4 id="第21章-一元二次方程">第21章 一元二次方程</h4>
+
+<h4 id="第22章-二次函数">第22章 二次函数</h4>
+
+<h4 id="第23章-旋转">第23章 旋转</h4>
+
+<h4 id="第24章-圆">第24章 圆</h4>
+
+<ul>
+  <li>24.1 圆的有关性质
+    <ul>
+      <li>24.1.1 圆</li>
+      <li>24.1.2 垂直于弦的直径</li>
+      <li>24.1.3 弧、弦、圆心角</li>
+      <li>24.1.4 圆周角
+        <ul>
+          <li>圆周角：顶点在圆上，并且两边都与圆相交</li>
+          <li>圆周角定律：
+            <ul>
+              <li>同弧所对圆周角为其圆心角的一半</li>
+              <li>同弧或等弧所对的圆周角相等</li>
+              <li>半圆（或直径）所对的圆周角是直角，90度的圆周角所对的弦是直径</li>
+            </ul>
+          </li>
+          <li>圆内接多边形，多边形的外接圆</li>
+          <li>圆内接四边形的对角互补（和为180度）</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>24.2 点和圆、直线和圆的位置关系
+    <ul>
+      <li>24.2.1 点和圆的位置关系
+        <ul>
+          <li>设圆o半径为r，点P到圆心的距离OP=d，则
+            <ul>
+              <li>点P在圆外 &lt;=&gt; d&gt;r</li>
+              <li>点P在圆上 &lt;=&gt; d=r</li>
+              <li>点P在圆内 &lt;=&gt; d&lt;r</li>
+            </ul>
+          </li>
+          <li>不在同一条直线上的三个点确定一个圆，这个圆叫外接圆，其圆心为三角形的外心</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>24.3 正多边形和圆
+    <ul>
+      <li>正多边形的中心，半径，中心角，边心距</li>
+    </ul>
+  </li>
+  <li>24.4 弧长和扇形面积
+    <ul>
+      <li>360度的圆心角所对应的弧长：2πR</li>
+      <li>n度的圆心角对应的弧长：2πR/360*n</li>
     </ul>
   </li>
 </ul>
 
-<h2 id="stateless无状态性">Stateless（无状态性）</h2>
+<h4 id="第25章-概率初步">第25章 概率初步</h4>
 
 <ul>
-  <li>Server contains no client state（服务端不包含任何客户端的状态）</li>
-  <li>Each request contains enough context to process the message（每一个请求都含有足够的内容来进行处理）
+  <li>25.1 随机事件与概率
     <ul>
-      <li>Self-descriptive messages（自明信息）</li>
+      <li>25.1.1 随机事件</li>
+      <li>25.1.2 概率</li>
     </ul>
   </li>
-  <li>Any session state is held on the client（任何的状态都由客户端来保存）</li>
+  <li>25.2 用列举法求概率</li>
+  <li>25.3 用频率估计概率</li>
 </ul>
 
-<h2 id="client-server客户端-服务端结构">Client-Server（客户端-服务端结构）</h2>
-
-<ul>
-  <li>Assume a disconnected system（假设两端不相连）</li>
-  <li>Separation of concerns（关注点分离）</li>
-  <li>Uniform interface is the link between the two（由统一接口将两者链接）</li>
-</ul>
-
-<h2 id="cacheable可缓存">Cacheable（可缓存）</h2>
-
-<ul>
-  <li>Server responses（representations）are cacheable（服务端的响应或者表述是可缓存的）
-    <ul>
-      <li>不准确地</li>
-      <li>准确地</li>
-      <li>可谈判地</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="layered-system分层系统">Layered System（分层系统）</h2>
-
-<ul>
-  <li>Client can’t assume direct connection to server</li>
-  <li>Software or hardware intermediaries between client and server</li>
-  <li>Improves scalability</li>
-</ul>
-
-<h2 id="code-on-demand按需编码">Code on Demand（按需编码）</h2>
-
-<ul>
-  <li>Server can temporarily extend client（服务端可以临时扩展客户端）</li>
-  <li>Transfer logic to client（将逻辑传给客户端）</li>
-  <li>Client executes logic（客户端来执行逻辑）</li>
-  <li>For example: Java applets; JavaScript</li>
-  <li>The only optional constraiant（唯一可选的）</li>
-</ul>
-
-<h2 id="summary">Summary</h2>
-
-<ul>
-  <li>Violating any constraint other than Code On Demand means service is not strictly RESTful（违反任何除“按需编码”之外的限制，都意味着服务不是严格地RESTful。注：目前REST-like也很流行）
-    <ul>
-      <li>Example: Three-legged OAUTH2</li>
-    </ul>
-  </li>
-  <li>Compliance with REST constraints allows（好处）:
-    <ul>
-      <li>Scalability</li>
-      <li>Simplicity</li>
-      <li>Modifiability</li>
-      <li>Visibility</li>
-      <li>Portability</li>
-      <li>Reliability</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="参考资料">参考资料：</h2>
-
-<ul>
-  <li><a href="http://www.restapitutorial.com/lessons/whatisrest.html">《What is REST》视频</a></li>
-</ul>
 
   </div>
 
