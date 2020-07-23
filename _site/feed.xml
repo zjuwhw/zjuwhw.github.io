@@ -6,15 +6,84 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2020 07:47:25 +0800</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2020 07:47:25 +0800</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2020 21:48:06 +0800</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2020 21:48:06 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>初中课程</title>
         <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#数学人教版&quot; id=&quot;markdown-toc-数学人教版&quot;&gt;数学（人教版）&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#数学冀教版&quot; id=&quot;markdown-toc-数学冀教版&quot;&gt;数学（冀教版）&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#七年级上&quot; id=&quot;markdown-toc-七年级上&quot;&gt;七年级上&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第1章-有理数&quot; id=&quot;markdown-toc-第1章-有理数&quot;&gt;第1章 有理数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第2章-几何图形的初步认识&quot; id=&quot;markdown-toc-第2章-几何图形的初步认识&quot;&gt;第2章 几何图形的初步认识&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第3章-代数式&quot; id=&quot;markdown-toc-第3章-代数式&quot;&gt;第3章 代数式&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第4章-整式的加减&quot; id=&quot;markdown-toc-第4章-整式的加减&quot;&gt;第4章 整式的加减&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第5章-一元一次方程&quot; id=&quot;markdown-toc-第5章-一元一次方程&quot;&gt;第5章 一元一次方程&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#七年级下&quot; id=&quot;markdown-toc-七年级下&quot;&gt;七年级下&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第6章-二元一次方程组&quot; id=&quot;markdown-toc-第6章-二元一次方程组&quot;&gt;第6章 二元一次方程组&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第7章-相交线与平行线&quot; id=&quot;markdown-toc-第7章-相交线与平行线&quot;&gt;第7章 相交线与平行线&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第8章-整式的乘法&quot; id=&quot;markdown-toc-第8章-整式的乘法&quot;&gt;第8章 整式的乘法&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第9章-三角形&quot; id=&quot;markdown-toc-第9章-三角形&quot;&gt;第9章 三角形&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第10章-一元一次不等式和一元一次不等式组&quot; id=&quot;markdown-toc-第10章-一元一次不等式和一元一次不等式组&quot;&gt;第10章 一元一次不等式和一元一次不等式组&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第11章-因式分解&quot; id=&quot;markdown-toc-第11章-因式分解&quot;&gt;第11章 因式分解&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#八年级上&quot; id=&quot;markdown-toc-八年级上&quot;&gt;八年级上&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第12章-分式和分式方程&quot; id=&quot;markdown-toc-第12章-分式和分式方程&quot;&gt;第12章 分式和分式方程&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第13章-全等三角形&quot; id=&quot;markdown-toc-第13章-全等三角形&quot;&gt;第13章 全等三角形&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第14章-实数&quot; id=&quot;markdown-toc-第14章-实数&quot;&gt;第14章 实数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第15章-二次根式&quot; id=&quot;markdown-toc-第15章-二次根式&quot;&gt;第15章 二次根式&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第16章-轴对称和中心对称&quot; id=&quot;markdown-toc-第16章-轴对称和中心对称&quot;&gt;第16章 轴对称和中心对称&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第17章-特殊三角形&quot; id=&quot;markdown-toc-第17章-特殊三角形&quot;&gt;第17章 特殊三角形&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#八年级下&quot; id=&quot;markdown-toc-八年级下&quot;&gt;八年级下&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第18章-数据的收集与整理&quot; id=&quot;markdown-toc-第18章-数据的收集与整理&quot;&gt;第18章 数据的收集与整理&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第19章-平面直角坐标系&quot; id=&quot;markdown-toc-第19章-平面直角坐标系&quot;&gt;第19章 平面直角坐标系&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第20章-函数&quot; id=&quot;markdown-toc-第20章-函数&quot;&gt;第20章 函数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第21章-一次函数&quot; id=&quot;markdown-toc-第21章-一次函数&quot;&gt;第21章 一次函数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第22章-四边形&quot; id=&quot;markdown-toc-第22章-四边形&quot;&gt;第22章 四边形&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#九年级上&quot; id=&quot;markdown-toc-九年级上&quot;&gt;九年级上&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第23章-数据分析&quot; id=&quot;markdown-toc-第23章-数据分析&quot;&gt;第23章 数据分析&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第24章-一元二次方程&quot; id=&quot;markdown-toc-第24章-一元二次方程&quot;&gt;第24章 一元二次方程&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第25章-图形的相似&quot; id=&quot;markdown-toc-第25章-图形的相似&quot;&gt;第25章 图形的相似&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第26章-解直角三角形&quot; id=&quot;markdown-toc-第26章-解直角三角形&quot;&gt;第26章 解直角三角形&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第27章-反比例函数&quot; id=&quot;markdown-toc-第27章-反比例函数&quot;&gt;第27章 反比例函数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第28章-圆&quot; id=&quot;markdown-toc-第28章-圆&quot;&gt;第28章 圆&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#九年级下&quot; id=&quot;markdown-toc-九年级下&quot;&gt;九年级下&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第29章-直线与圆的位置关系&quot; id=&quot;markdown-toc-第29章-直线与圆的位置关系&quot;&gt;第29章 直线与圆的位置关系&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第30章-二次函数&quot; id=&quot;markdown-toc-第30章-二次函数&quot;&gt;第30章 二次函数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第31章-随机事件的概率&quot; id=&quot;markdown-toc-第31章-随机事件的概率&quot;&gt;第31章 随机事件的概率&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第32章-投影与视图&quot; id=&quot;markdown-toc-第32章-投影与视图&quot;&gt;第32章 投影与视图&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#数学人教版&quot; id=&quot;markdown-toc-数学人教版&quot;&gt;数学（人教版）&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#七年级上-1&quot; id=&quot;markdown-toc-七年级上-1&quot;&gt;七年级上&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第1章-有理数-1&quot; id=&quot;markdown-toc-第1章-有理数-1&quot;&gt;第1章 有理数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第2章-整式的加减&quot; id=&quot;markdown-toc-第2章-整式的加减&quot;&gt;第2章 整式的加减&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第3章-一元一次方程&quot; id=&quot;markdown-toc-第3章-一元一次方程&quot;&gt;第3章 一元一次方程&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第4章-几何图形初步&quot; id=&quot;markdown-toc-第4章-几何图形初步&quot;&gt;第4章 几何图形初步&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#七年级下-1&quot; id=&quot;markdown-toc-七年级下-1&quot;&gt;七年级下&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第5章-相交线与平行线&quot; id=&quot;markdown-toc-第5章-相交线与平行线&quot;&gt;第5章 相交线与平行线&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第6章-实数&quot; id=&quot;markdown-toc-第6章-实数&quot;&gt;第6章 实数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第7章-平面直角坐标系&quot; id=&quot;markdown-toc-第7章-平面直角坐标系&quot;&gt;第7章 平面直角坐标系&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第8章-二元一次方程组&quot; id=&quot;markdown-toc-第8章-二元一次方程组&quot;&gt;第8章 二元一次方程组&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第9章-不等式与不等式组&quot; id=&quot;markdown-toc-第9章-不等式与不等式组&quot;&gt;第9章 不等式与不等式组&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第10章-数据的收集整理与描述&quot; id=&quot;markdown-toc-第10章-数据的收集整理与描述&quot;&gt;第10章 数据的收集、整理与描述&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#八年级上-1&quot; id=&quot;markdown-toc-八年级上-1&quot;&gt;八年级上&lt;/a&gt;        &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;#第11章-三角形&quot; id=&quot;markdown-toc-第11章-三角形&quot;&gt;第11章 三角形&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#第12章-全等三角形&quot; id=&quot;markdown-toc-第12章-全等三角形&quot;&gt;第12章 全等三角形&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#第13章-轴对称&quot; id=&quot;markdown-toc-第13章-轴对称&quot;&gt;第13章 轴对称&lt;/a&gt;&lt;/li&gt;
@@ -22,7 +91,15 @@
           &lt;li&gt;&lt;a href=&quot;#第15章-分式&quot; id=&quot;markdown-toc-第15章-分式&quot;&gt;第15章 分式&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#九年级上&quot; id=&quot;markdown-toc-九年级上&quot;&gt;九年级上&lt;/a&gt;        &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#八年级下-1&quot; id=&quot;markdown-toc-八年级下-1&quot;&gt;八年级下&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第16章-二次根式&quot; id=&quot;markdown-toc-第16章-二次根式&quot;&gt;第16章 二次根式&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第17章-勾股定理&quot; id=&quot;markdown-toc-第17章-勾股定理&quot;&gt;第17章 勾股定理&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第18章-平行四边形&quot; id=&quot;markdown-toc-第18章-平行四边形&quot;&gt;第18章 平行四边形&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第19章-一次函数&quot; id=&quot;markdown-toc-第19章-一次函数&quot;&gt;第19章 一次函数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第20章-数据的分析&quot; id=&quot;markdown-toc-第20章-数据的分析&quot;&gt;第20章 数据的分析&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#九年级上-1&quot; id=&quot;markdown-toc-九年级上-1&quot;&gt;九年级上&lt;/a&gt;        &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;#第21章-一元二次方程&quot; id=&quot;markdown-toc-第21章-一元二次方程&quot;&gt;第21章 一元二次方程&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#第22章-二次函数&quot; id=&quot;markdown-toc-第22章-二次函数&quot;&gt;第22章 二次函数&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#第23章-旋转&quot; id=&quot;markdown-toc-第23章-旋转&quot;&gt;第23章 旋转&lt;/a&gt;&lt;/li&gt;
@@ -30,15 +107,124 @@
           &lt;li&gt;&lt;a href=&quot;#第25章-概率初步&quot; id=&quot;markdown-toc-第25章-概率初步&quot;&gt;第25章 概率初步&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#九年级下-1&quot; id=&quot;markdown-toc-九年级下-1&quot;&gt;九年级下&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#第26章-反比例函数&quot; id=&quot;markdown-toc-第26章-反比例函数&quot;&gt;第26章 反比例函数&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第27章-相似&quot; id=&quot;markdown-toc-第27章-相似&quot;&gt;第27章 相似&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第28章-锐角三角形&quot; id=&quot;markdown-toc-第28章-锐角三角形&quot;&gt;第28章 锐角三角形&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#第29章-投影与视图&quot; id=&quot;markdown-toc-第29章-投影与视图&quot;&gt;第29章 投影与视图&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;给亲戚家孩子补习初中课程，好多东西都忘记了。故看教程整理和回顾一下知识点。&lt;/p&gt;
+&lt;p&gt;给亲戚家孩子补习初中课程，好多东西都忘记了。故翻看教材，整理和回顾一下知识点。&lt;/p&gt;
+
+&lt;h2 id=&quot;数学冀教版&quot;&gt;数学（冀教版）&lt;/h2&gt;
+
+&lt;h3 id=&quot;七年级上&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/yqhzI7jdezhTe7AHu7U7vg&quot;&gt;七年级上&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第1章-有理数&quot;&gt;第1章 有理数&lt;/h4&gt;
+
+&lt;h4 id=&quot;第2章-几何图形的初步认识&quot;&gt;第2章 几何图形的初步认识&lt;/h4&gt;
+
+&lt;h4 id=&quot;第3章-代数式&quot;&gt;第3章 代数式&lt;/h4&gt;
+
+&lt;h4 id=&quot;第4章-整式的加减&quot;&gt;第4章 整式的加减&lt;/h4&gt;
+
+&lt;h4 id=&quot;第5章-一元一次方程&quot;&gt;第5章 一元一次方程&lt;/h4&gt;
+
+&lt;h3 id=&quot;七年级下&quot;&gt;&lt;a href=&quot;http://jiaocai.hebeijiaoyu.com.cn/book/%E6%B2%B3%E5%8C%97%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE%E5%86%80%E6%95%99%E7%89%88/%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90/%E5%88%9D%E4%B8%AD/%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf&quot;&gt;七年级下&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第6章-二元一次方程组&quot;&gt;第6章 二元一次方程组&lt;/h4&gt;
+
+&lt;h4 id=&quot;第7章-相交线与平行线&quot;&gt;第7章 相交线与平行线&lt;/h4&gt;
+
+&lt;h4 id=&quot;第8章-整式的乘法&quot;&gt;第8章 整式的乘法&lt;/h4&gt;
+
+&lt;h4 id=&quot;第9章-三角形&quot;&gt;第9章 三角形&lt;/h4&gt;
+
+&lt;h4 id=&quot;第10章-一元一次不等式和一元一次不等式组&quot;&gt;第10章 一元一次不等式和一元一次不等式组&lt;/h4&gt;
+
+&lt;h4 id=&quot;第11章-因式分解&quot;&gt;第11章 因式分解&lt;/h4&gt;
+
+&lt;h3 id=&quot;八年级上&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/APQFOvEgSpLybiOZbREHvw&quot;&gt;八年级上&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第12章-分式和分式方程&quot;&gt;第12章 分式和分式方程&lt;/h4&gt;
+
+&lt;h4 id=&quot;第13章-全等三角形&quot;&gt;第13章 全等三角形&lt;/h4&gt;
+
+&lt;h4 id=&quot;第14章-实数&quot;&gt;第14章 实数&lt;/h4&gt;
+
+&lt;h4 id=&quot;第15章-二次根式&quot;&gt;第15章 二次根式&lt;/h4&gt;
+
+&lt;h4 id=&quot;第16章-轴对称和中心对称&quot;&gt;第16章 轴对称和中心对称&lt;/h4&gt;
+
+&lt;h4 id=&quot;第17章-特殊三角形&quot;&gt;第17章 特殊三角形&lt;/h4&gt;
+
+&lt;h3 id=&quot;八年级下&quot;&gt;&lt;a href=&quot;http://jiaocai.hebeijiaoyu.com.cn/book/%E6%B2%B3%E5%8C%97%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE%E5%86%80%E6%95%99%E7%89%88/%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90/%E5%88%9D%E4%B8%AD/%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf&quot;&gt;八年级下&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第18章-数据的收集与整理&quot;&gt;第18章 数据的收集与整理&lt;/h4&gt;
+
+&lt;h4 id=&quot;第19章-平面直角坐标系&quot;&gt;第19章 平面直角坐标系&lt;/h4&gt;
+
+&lt;h4 id=&quot;第20章-函数&quot;&gt;第20章 函数&lt;/h4&gt;
+
+&lt;h4 id=&quot;第21章-一次函数&quot;&gt;第21章 一次函数&lt;/h4&gt;
+
+&lt;h4 id=&quot;第22章-四边形&quot;&gt;第22章 四边形&lt;/h4&gt;
+
+&lt;h3 id=&quot;九年级上&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/XDl3aWowxb6p_eh0I8vJTQ&quot;&gt;九年级上&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第23章-数据分析&quot;&gt;第23章 数据分析&lt;/h4&gt;
+
+&lt;h4 id=&quot;第24章-一元二次方程&quot;&gt;第24章 一元二次方程&lt;/h4&gt;
+
+&lt;h4 id=&quot;第25章-图形的相似&quot;&gt;第25章 图形的相似&lt;/h4&gt;
+
+&lt;h4 id=&quot;第26章-解直角三角形&quot;&gt;第26章 解直角三角形&lt;/h4&gt;
+
+&lt;h4 id=&quot;第27章-反比例函数&quot;&gt;第27章 反比例函数&lt;/h4&gt;
+
+&lt;h4 id=&quot;第28章-圆&quot;&gt;第28章 圆&lt;/h4&gt;
+
+&lt;h3 id=&quot;九年级下&quot;&gt;&lt;a href=&quot;http://jiaocai.hebeijiaoyu.com.cn/book/%E6%B2%B3%E5%8C%97%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE%E5%86%80%E6%95%99%E7%89%88/%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90/%E5%88%9D%E4%B8%AD/%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf&quot;&gt;九年级下&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第29章-直线与圆的位置关系&quot;&gt;第29章 直线与圆的位置关系&lt;/h4&gt;
+
+&lt;h4 id=&quot;第30章-二次函数&quot;&gt;第30章 二次函数&lt;/h4&gt;
+
+&lt;h4 id=&quot;第31章-随机事件的概率&quot;&gt;第31章 随机事件的概率&lt;/h4&gt;
+
+&lt;h4 id=&quot;第32章-投影与视图&quot;&gt;第32章 投影与视图&lt;/h4&gt;
 
 &lt;h2 id=&quot;数学人教版&quot;&gt;数学（人教版）&lt;/h2&gt;
 
-&lt;h3 id=&quot;八年级上&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/mp/homepage?__biz=MzU3NTg3MTYyMQ==&amp;amp;hid=8&amp;amp;sn=49a9d0cb1f703682fb577a464e3f4e75&amp;amp;scene=25&quot;&gt;八年级上&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;七年级上-1&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/-zgK2Mnrx_SuQzhEbeP0fw&quot;&gt;七年级上&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第1章-有理数-1&quot;&gt;第1章 有理数&lt;/h4&gt;
+
+&lt;h4 id=&quot;第2章-整式的加减&quot;&gt;第2章 整式的加减&lt;/h4&gt;
+
+&lt;h4 id=&quot;第3章-一元一次方程&quot;&gt;第3章 一元一次方程&lt;/h4&gt;
+
+&lt;h4 id=&quot;第4章-几何图形初步&quot;&gt;第4章 几何图形初步&lt;/h4&gt;
+
+&lt;h3 id=&quot;七年级下-1&quot;&gt;&lt;a href=&quot;https://bp.pep.com.cn/ebook/sxqinjxc/mobile/index.html&quot;&gt;七年级下&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第5章-相交线与平行线&quot;&gt;第5章 相交线与平行线&lt;/h4&gt;
+
+&lt;h4 id=&quot;第6章-实数&quot;&gt;第6章 实数&lt;/h4&gt;
+
+&lt;h4 id=&quot;第7章-平面直角坐标系&quot;&gt;第7章 平面直角坐标系&lt;/h4&gt;
+
+&lt;h4 id=&quot;第8章-二元一次方程组&quot;&gt;第8章 二元一次方程组&lt;/h4&gt;
+
+&lt;h4 id=&quot;第9章-不等式与不等式组&quot;&gt;第9章 不等式与不等式组&lt;/h4&gt;
+
+&lt;h4 id=&quot;第10章-数据的收集整理与描述&quot;&gt;第10章 数据的收集、整理与描述&lt;/h4&gt;
+
+&lt;h3 id=&quot;八年级上-1&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/mp/homepage?__biz=MzU3NTg3MTYyMQ==&amp;amp;hid=8&amp;amp;sn=49a9d0cb1f703682fb577a464e3f4e75&amp;amp;scene=25&quot;&gt;八年级上&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h4 id=&quot;第11章-三角形&quot;&gt;第11章 三角形&lt;/h4&gt;
 
@@ -71,7 +257,19 @@
 
 &lt;h4 id=&quot;第15章-分式&quot;&gt;第15章 分式&lt;/h4&gt;
 
-&lt;h3 id=&quot;九年级上&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/mp/homepage?__biz=MzU3NTg3MTYyMQ==&amp;amp;hid=9&amp;amp;sn=8c04740f5f1b00dde586186932fad3d1&amp;amp;scene=25&quot;&gt;九年级上&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;八年级下-1&quot;&gt;&lt;a href=&quot;https://bp.pep.com.cn/ebook/sxbanjxc/mobile/index.html&quot;&gt;八年级下&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第16章-二次根式&quot;&gt;第16章 二次根式&lt;/h4&gt;
+
+&lt;h4 id=&quot;第17章-勾股定理&quot;&gt;第17章 勾股定理&lt;/h4&gt;
+
+&lt;h4 id=&quot;第18章-平行四边形&quot;&gt;第18章 平行四边形&lt;/h4&gt;
+
+&lt;h4 id=&quot;第19章-一次函数&quot;&gt;第19章 一次函数&lt;/h4&gt;
+
+&lt;h4 id=&quot;第20章-数据的分析&quot;&gt;第20章 数据的分析&lt;/h4&gt;
+
+&lt;h3 id=&quot;九年级上-1&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/mp/homepage?__biz=MzU3NTg3MTYyMQ==&amp;amp;hid=9&amp;amp;sn=8c04740f5f1b00dde586186932fad3d1&amp;amp;scene=25&quot;&gt;九年级上&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h4 id=&quot;第21章-一元二次方程&quot;&gt;第21章 一元二次方程&lt;/h4&gt;
 
@@ -191,6 +389,15 @@
   &lt;li&gt;25.3 用频率估计概率&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;九年级下-1&quot;&gt;&lt;a href=&quot;https://bp.pep.com.cn/ebook/sxjiunjxc/mobile/index.html&quot;&gt;九年级下&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;第26章-反比例函数&quot;&gt;第26章 反比例函数&lt;/h4&gt;
+
+&lt;h4 id=&quot;第27章-相似&quot;&gt;第27章 相似&lt;/h4&gt;
+
+&lt;h4 id=&quot;第28章-锐角三角形&quot;&gt;第28章 锐角三角形&lt;/h4&gt;
+
+&lt;h4 id=&quot;第29章-投影与视图&quot;&gt;第29章 投影与视图&lt;/h4&gt;
 </description>
         <pubDate>Wed, 22 Jul 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/07/22/middleschool.html</link>
