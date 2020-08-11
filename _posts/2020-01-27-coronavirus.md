@@ -5,7 +5,7 @@ date: 2020-01-27
 tags: ["life", "medi"]
 ---
 
-今年春节（2020年1月25日）我请假（1月18日-2月9日）回国过年，赶上“[新型冠状病毒](https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6)”疫情爆发和随之而来的交通限制，取消了1月28日去我老婆老家（河北邢台隆尧县）的机票。又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。从1月24日到现在，一直呆在家中（[辽宁省本溪市](https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82)）。从2月10日起，远程工作（remote working）写论文，工作效率非常低。3月9日，和导师Skype视频，效率得到很大改善。4月16日完成了第三年的答辩。接下来，要开始写毕业论文了。
+今年春节（2020年1月25日）我请假（1月18日-2月9日）回国过年，赶上“[新型冠状病毒](https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6)”疫情爆发和随之而来的交通限制，取消了1月28日去我老婆老家（河北邢台隆尧县）的机票。又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。2月10日起，远程工作（remote working）写论文，工作效率非常低。3月9日，和导师Skype视频，效率得到很大改善。4月16日完成了第三年的答辩。1月24日到5月23日，一直呆在我家中（[辽宁省本溪市](https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82)）。5月23日到8月5日，在老婆家中（河北邢台隆尧县）。8月5日到现在，在杭州西湖大学访问学生，希望有更好的学习环境。
 
 写这个博客，收集关于新型冠状病毒的各种信息:
 
@@ -104,3 +104,6 @@ tags: ["life", "medi"]
 
 [Epidemics I](https://www.edx.org/course/epidemics-i), [Epidemics II](https://www.edx.org/course/epidemics-ii)
 
+## Others
+
+[Free Printable poster](https://www.websiteplanet.com/blog/free-printable-posters-covid-19/)

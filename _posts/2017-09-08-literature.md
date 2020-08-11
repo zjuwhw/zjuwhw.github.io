@@ -42,6 +42,7 @@ tags: ["statistics"]
 
 ### [Jay Laurence Lush](https://en.wikipedia.org/wiki/Jay_Laurence_Lush) (1896-1982)
 
+### [Alan Robertson](https://en.wikipedia.org/wiki/Alan_Robertson_(geneticist))
 
 ### Reference
 

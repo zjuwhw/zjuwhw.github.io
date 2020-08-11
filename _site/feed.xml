@@ -6,13 +6,15 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2020 21:48:06 +0800</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2020 21:48:06 +0800</lastBuildDate>
+    <pubDate>Tue, 11 Aug 2020 09:49:29 +0800</pubDate>
+    <lastBuildDate>Tue, 11 Aug 2020 09:49:29 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>初中课程</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+        <description>&lt;p&gt;给亲戚家孩子补习初中课程，好多东西都忘记了。故翻看教材，整理和回顾一下知识点。&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#数学冀教版&quot; id=&quot;markdown-toc-数学冀教版&quot;&gt;数学（冀教版）&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#七年级上&quot; id=&quot;markdown-toc-七年级上&quot;&gt;七年级上&lt;/a&gt;        &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;#第1章-有理数&quot; id=&quot;markdown-toc-第1章-有理数&quot;&gt;第1章 有理数&lt;/a&gt;&lt;/li&gt;
@@ -117,8 +119,6 @@
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;给亲戚家孩子补习初中课程，好多东西都忘记了。故翻看教材，整理和回顾一下知识点。&lt;/p&gt;
 
 &lt;h2 id=&quot;数学冀教版&quot;&gt;数学（冀教版）&lt;/h2&gt;
 
@@ -1381,7 +1381,7 @@
     
       <item>
         <title>新型冠状病毒疫情</title>
-        <description>&lt;p&gt;今年春节（2020年1月25日）我请假（1月18日-2月9日）回国过年，赶上“&lt;a href=&quot;https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6&quot;&gt;新型冠状病毒&lt;/a&gt;”疫情爆发和随之而来的交通限制，取消了1月28日去我老婆老家（河北邢台隆尧县）的机票。又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。从1月24日到现在，一直呆在家中（&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82&quot;&gt;辽宁省本溪市&lt;/a&gt;）。从2月10日起，远程工作（remote working）写论文，工作效率非常低。3月9日，和导师Skype视频，效率得到很大改善。4月16日完成了第三年的答辩。接下来，要开始写毕业论文了。&lt;/p&gt;
+        <description>&lt;p&gt;今年春节（2020年1月25日）我请假（1月18日-2月9日）回国过年，赶上“&lt;a href=&quot;https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6&quot;&gt;新型冠状病毒&lt;/a&gt;”疫情爆发和随之而来的交通限制，取消了1月28日去我老婆老家（河北邢台隆尧县）的机票。又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。2月10日起，远程工作（remote working）写论文，工作效率非常低。3月9日，和导师Skype视频，效率得到很大改善。4月16日完成了第三年的答辩。1月24日到5月23日，一直呆在我家中（&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82&quot;&gt;辽宁省本溪市&lt;/a&gt;）。5月23日到8月5日，在老婆家中（河北邢台隆尧县）。8月5日到现在，在杭州西湖大学访问学生，希望有更好的学习环境。&lt;/p&gt;
 
 &lt;p&gt;写这个博客，收集关于新型冠状病毒的各种信息:&lt;/p&gt;
 
@@ -1533,6 +1533,9 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.edx.org/course/epidemics-i&quot;&gt;Epidemics I&lt;/a&gt;, &lt;a href=&quot;https://www.edx.org/course/epidemics-ii&quot;&gt;Epidemics II&lt;/a&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;others&quot;&gt;Others&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.websiteplanet.com/blog/free-printable-posters-covid-19/&quot;&gt;Free Printable poster&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 Jan 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/01/27/coronavirus.html</link>
