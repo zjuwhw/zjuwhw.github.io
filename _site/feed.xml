@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Aug 2020 09:49:29 +0800</pubDate>
-    <lastBuildDate>Tue, 11 Aug 2020 09:49:29 +0800</lastBuildDate>
+    <pubDate>Thu, 13 Aug 2020 11:26:34 +0800</pubDate>
+    <lastBuildDate>Thu, 13 Aug 2020 11:26:34 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -1405,6 +1405,7 @@
           &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts&quot;&gt;昆士兰州-Current status &lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.abc.net.au/&quot;&gt;ABC news&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;世界
@@ -1412,6 +1413,8 @@
       &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/&quot;&gt;世界卫生组织（WHO) - situation report&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6&quot;&gt;约翰霍普金斯大学CSSE - tracking map&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.cidrap.umn.edu/covid-19/maps-visuals&quot;&gt;明尼苏达大学病例地图列表&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.worldometers.info/coronavirus/&quot;&gt;worldometers&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://ourworldindata.org/coronavirus&quot;&gt;our world in data&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;

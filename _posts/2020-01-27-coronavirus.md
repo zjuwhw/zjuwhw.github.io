@@ -18,10 +18,13 @@ tags: ["life", "medi"]
 - 澳洲
 	- [澳大利亚健康部门-current situation](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers)
 		- [昆士兰州-Current status ](https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts)
+	- [ABC news](https://www.abc.net.au/)
 - 世界
 	- [世界卫生组织（WHO) - situation report](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/)
 	- [约翰霍普金斯大学CSSE - tracking map](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 	- [明尼苏达大学病例地图列表](http://www.cidrap.umn.edu/covid-19/maps-visuals)
+	- [worldometers](https://www.worldometers.info/coronavirus/)
+	- [our world in data](https://ourworldindata.org/coronavirus)
 
 ## 相关信息和措施
 
