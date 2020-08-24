@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Aug 2020 11:26:34 +0800</pubDate>
-    <lastBuildDate>Thu, 13 Aug 2020 11:26:34 +0800</lastBuildDate>
+    <pubDate>Mon, 24 Aug 2020 13:57:16 +0800</pubDate>
+    <lastBuildDate>Mon, 24 Aug 2020 13:57:16 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -945,11 +945,13 @@
         <title>我的家乡本溪</title>
         <description>&lt;p&gt;我的家乡在&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%9C%AC%E6%BA%AA%E5%B8%82&quot;&gt;辽宁省本溪市&lt;/a&gt;。我从出生（1989年）到小学（2002年），住在溪湖区&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%BD%A9%E5%B1%AF%E8%A1%97%E9%81%93&quot;&gt;彩屯街道&lt;/a&gt;（家在彩胜社区，小学是彩力小学（现为彩屯实验幼儿园））；初中和高中（2002-2008年），在平山区东明街道（初中实验中学，高中&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%9C%AC%E6%BA%AA%E5%B8%82%E9%AB%98%E7%BA%A7%E4%B8%AD%E5%AD%A6&quot;&gt;本溪市高级中学&lt;/a&gt;）；自大学起（2008-），我就在外念书，我们家搬到了平山区南地街道。&lt;/p&gt;
 
-&lt;p&gt;这个博客列了一下本溪的城乡划分，资料来源自管家统计局“&lt;a href=&quot;http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/index.html&quot;&gt;关于更新全国统计用区划代码和城乡划分代码的公告&lt;/a&gt;”。&lt;/p&gt;
+&lt;h3 id=&quot;城乡划分&quot;&gt;城乡划分&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/benxi_admin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;(图片来自&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Administrative_Division_Benxi.png/1554px-Administrative_Division_Benxi.png&quot;&gt;中文维基百科&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;资料来源自管家统计局“&lt;a href=&quot;http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/index.html&quot;&gt;关于更新全国统计用区划代码和城乡划分代码的公告&lt;/a&gt;”。&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/21/2105.html&quot;&gt;本溪市 (210500000000)&lt;/a&gt;
@@ -1062,7 +1064,20 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/66243&quot;&gt;2018&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/81739&quot;&gt;2019&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;781.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3.5%&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;51.9&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2.8%&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;373.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2.8%&lt;/td&gt;
+      &lt;td&gt;356.1&lt;/td&gt;
+      &lt;td&gt;4.4%&lt;/td&gt;
+      &lt;td&gt;46673&lt;/td&gt;
+      &lt;td&gt;3.4%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/66252&quot;&gt;2018&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;823.1&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;1.2%&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;50.0&lt;/td&gt;
@@ -1181,6 +1196,38 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h3 id=&quot;人口&quot;&gt;人口&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;年份&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;总人口&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;总户数&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;户平均人口&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjfx/84312&quot;&gt;2019&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1445187&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;560098&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2.58&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjfx/66504&quot;&gt;2018&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1461496&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjfx/66504&quot;&gt;2017&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1476326&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
         <pubDate>Sun, 22 Mar 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/03/22/benxi.html</link>
@@ -1489,22 +1536,7 @@
 
 &lt;h3 id=&quot;研究机构网站&quot;&gt;研究机构网站:&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)&lt;/a&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Global-Impact-26-03-2020.pdf&quot;&gt;Report 12 (26/Mar): The Global Impact of COVID-19 and Strategies for Mitigation and Suppression&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Exiting-Social-Distancing-24-03-2020.pdf&quot;&gt;Report 11 (24/Mar): Evidence of initial success for China exiting COVID-19 social distancing policy after achieving containment&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-Population-Survey-20-03-2020.pdf&quot;&gt;Report 10 (20/Mar): Public Response to UK Government Recommendations on COVID-19: Population Survey, 17-18 March 2020&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf&quot;&gt;Report 9 (16/Mar): Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-symptom-progression-11-03-2020.pdf&quot;&gt;Report 8 (11/Mar): Symptom progression of COVID-19&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-repatriation-09-03-2020.pdf&quot;&gt;Report 7 (9/Mar): Estimating infection prevalence in Wuhan City from repatriation flights&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-international-surveillance-21-02-2020.pdf&quot;&gt;Report 6 (21/Feb): Relative sensitivity of international surveillance&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College---COVID-19---genetic-analysis-FINAL.pdf&quot;&gt;Report 5 (15/Feb): Phylogenetic analysis of SARS-CoV-2&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;Report 4 (10/Feb): Severity&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-2019-nCoV-transmissibility.pdf&quot;&gt;Report 3 (25/Jan): Transmissibility&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-22-01-2020.pdf&quot;&gt;Report 2 (22/Jan): potential total number of cases&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/2019-nCoV-outbreak-report-17-01-2020.pdf&quot;&gt;Report 1 (17/Jan): potential total number of cases&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)&lt;/a&gt;:&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.mobs-lab.org/2019ncov.html&quot;&gt;美国东北大学Mobs Lab&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cmmid.github.io/ncov&quot;&gt;伦敦卫生与热带医学院CMMID&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;约翰霍普金斯大学
@@ -1524,12 +1556,13 @@
   &lt;li&gt;&lt;a href=&quot;http://virological.org/&quot;&gt;http://virological.org/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;twitter&quot;&gt;twitter&lt;/h2&gt;
+&lt;h2 id=&quot;twitter--weibo&quot;&gt;twitter &amp;amp; Weibo&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://twitter.com/CCDD_HSPH/status/1222257431230631936&quot;&gt;哈佛大学公共卫生学院twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://twitter.com/mlipsitch&quot;&gt;Marc Lipsitch&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://twitter.com/mugecevik/status/1221020657242333184&quot;&gt;dr muge cevik(@mugecevik)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://weibo.com/529645621?topnav=1&amp;amp;wvr=6&amp;amp;topsug=1&amp;amp;is_all=1&quot;&gt;子陵在听歌&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;mooc&quot;&gt;MOOC&lt;/h2&gt;
