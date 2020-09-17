@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Aug 2020 13:57:16 +0800</pubDate>
-    <lastBuildDate>Mon, 24 Aug 2020 13:57:16 +0800</lastBuildDate>
+    <pubDate>Thu, 17 Sep 2020 10:55:06 +0800</pubDate>
+    <lastBuildDate>Thu, 17 Sep 2020 10:55:06 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -1453,6 +1453,7 @@
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.abc.net.au/&quot;&gt;ABC news&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://covidlive.com.au/&quot;&gt;COVID LIVE&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;世界
@@ -1462,6 +1463,8 @@
       &lt;li&gt;&lt;a href=&quot;http://www.cidrap.umn.edu/covid-19/maps-visuals&quot;&gt;明尼苏达大学病例地图列表&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.worldometers.info/coronavirus/&quot;&gt;worldometers&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://ourworldindata.org/coronavirus&quot;&gt;our world in data&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html&quot;&gt;New York times Vaccine Tracker&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/science/coronavirus-drugs-treatments.html&quot;&gt;New Yorkm times treatment tracker&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -1527,7 +1530,11 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/coronavirus&quot;&gt;柳叶刀&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/coronavirus&quot;&gt;新英格兰&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/pages/coronavirus-alert&quot;&gt;JAMA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/pages/coronavirus-alert&quot;&gt;JAMA&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/pages/covid-19-interviews&quot;&gt;Video interview&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.nature.com/collections/hajgidghjb&quot;&gt;Nature&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/tags/coronavirus&quot;&gt;Science&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.eurosurveillance.org/content/2019-ncov&quot;&gt;Eurosurveillance&lt;/a&gt;&lt;/li&gt;
@@ -1554,6 +1561,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.hsph.harvard.edu/news/hsph-in-the-news/the-latest-on-the-coronavirus/&quot;&gt;哈佛大学公共卫生学院&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://nextstrain.org/ncov&quot;&gt;Nextstrain Genomic epidemiology analysis&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://virological.org/&quot;&gt;http://virological.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://biology.mit.edu/undergraduate/current-students/subject-offerings/covid-19-sars-cov-2-and-the-pandemic/&quot;&gt;MIT biology course, “COVID19, SARS-CoV-2 and the Pandemic”&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;twitter--weibo&quot;&gt;twitter &amp;amp; Weibo&lt;/h2&gt;
