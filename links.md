@@ -41,6 +41,8 @@ This is a collection of URLs/links I'm following. (lastest update: 1/April/2020)
 
 [Rahul Satija](https://satijalab.org/)
 
+Jan Vijg: [SJTU](https://www.shsmu.edu.cn/sph-cscomics/index.htm), [Labpage](https://www.vijglab.org/)
+
 
 ## Project, Database & Consortium
 
