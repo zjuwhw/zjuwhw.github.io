@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Dec 2020 11:52:00 +0800</pubDate>
-    <lastBuildDate>Thu, 03 Dec 2020 11:52:00 +0800</lastBuildDate>
+    <pubDate>Mon, 14 Dec 2020 10:13:57 +0800</pubDate>
+    <lastBuildDate>Mon, 14 Dec 2020 10:13:57 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -1463,13 +1463,11 @@
       &lt;li&gt;&lt;a href=&quot;http://www.cidrap.umn.edu/covid-19/maps-visuals&quot;&gt;明尼苏达大学病例地图列表&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.worldometers.info/coronavirus/&quot;&gt;worldometers&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://ourworldindata.org/coronavirus&quot;&gt;our world in data&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html&quot;&gt;New York times Vaccine Tracker&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/science/coronavirus-drugs-treatments.html&quot;&gt;New Yorkm times treatment tracker&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;相关信息和措施&quot;&gt;相关信息和措施&lt;/h2&gt;
+&lt;h2 id=&quot;相关措施&quot;&gt;相关措施&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;中国
@@ -1564,7 +1562,7 @@
   &lt;li&gt;&lt;a href=&quot;https://biology.mit.edu/undergraduate/current-students/subject-offerings/covid-19-sars-cov-2-and-the-pandemic/&quot;&gt;MIT biology course, “COVID19, SARS-CoV-2 and the Pandemic”&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;twitter--weibo&quot;&gt;twitter &amp;amp; Weibo&lt;/h2&gt;
+&lt;h3 id=&quot;twitter--weibo&quot;&gt;twitter &amp;amp; Weibo&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://twitter.com/CCDD_HSPH/status/1222257431230631936&quot;&gt;哈佛大学公共卫生学院twitter&lt;/a&gt;&lt;/li&gt;
@@ -1573,13 +1571,19 @@
   &lt;li&gt;&lt;a href=&quot;https://weibo.com/529645621?topnav=1&amp;amp;wvr=6&amp;amp;topsug=1&amp;amp;is_all=1&quot;&gt;子陵在听歌&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;mooc&quot;&gt;MOOC&lt;/h2&gt;
+&lt;h3 id=&quot;new-york-times-tracker&quot;&gt;New York times tracker&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.edx.org/course/epidemics-i&quot;&gt;Epidemics I&lt;/a&gt;, &lt;a href=&quot;https://www.edx.org/course/epidemics-ii&quot;&gt;Epidemics II&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html&quot;&gt;New York times Vaccine Tracker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/science/coronavirus-drugs-treatments.html&quot;&gt;New Yorkm times treatment tracker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;others&quot;&gt;Others&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.websiteplanet.com/blog/free-printable-posters-covid-19/&quot;&gt;Free Printable poster&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.websiteplanet.com/blog/free-printable-posters-covid-19/&quot;&gt;Free Printable poster&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/epidemics-i&quot;&gt;Epidemics I&lt;/a&gt;, &lt;a href=&quot;https://www.edx.org/course/epidemics-ii&quot;&gt;Epidemics II&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Mon, 27 Jan 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/01/27/coronavirus.html</link>

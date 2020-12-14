@@ -26,10 +26,9 @@ tags: ["life", "medi"]
 	- [明尼苏达大学病例地图列表](http://www.cidrap.umn.edu/covid-19/maps-visuals)
 	- [worldometers](https://www.worldometers.info/coronavirus/)
 	- [our world in data](https://ourworldindata.org/coronavirus)
-	- [New York times Vaccine Tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html)
-	- [New Yorkm times treatment tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-drugs-treatments.html)
 
-## 相关信息和措施
+
+## 相关措施
 
 - 中国
 	- [中国人民政府](http://www.gov.cn/fuwu/zt/yqfkzq/index.htm)
@@ -89,17 +88,19 @@ tags: ["life", "medi"]
 - [http://virological.org/](http://virological.org/)
 - [MIT biology course, "COVID19, SARS-CoV-2 and the Pandemic"](https://biology.mit.edu/undergraduate/current-students/subject-offerings/covid-19-sars-cov-2-and-the-pandemic/)
 
-## twitter & Weibo
+### twitter & Weibo
 
 - [哈佛大学公共卫生学院twitter](https://twitter.com/CCDD_HSPH/status/1222257431230631936)
 - [Marc Lipsitch](https://twitter.com/mlipsitch)
 - [dr muge cevik(@mugecevik)](https://twitter.com/mugecevik/status/1221020657242333184)
 - [子陵在听歌](https://weibo.com/529645621?topnav=1&wvr=6&topsug=1&is_all=1)
 
-## MOOC
+### New York times tracker
 
-[Epidemics I](https://www.edx.org/course/epidemics-i), [Epidemics II](https://www.edx.org/course/epidemics-ii)
+- [New York times Vaccine Tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html)
+- [New Yorkm times treatment tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-drugs-treatments.html)
 
 ## Others
 
-[Free Printable poster](https://www.websiteplanet.com/blog/free-printable-posters-covid-19/)
+- [Free Printable poster](https://www.websiteplanet.com/blog/free-printable-posters-covid-19/)
+- [Epidemics I](https://www.edx.org/course/epidemics-i), [Epidemics II](https://www.edx.org/course/epidemics-ii)
