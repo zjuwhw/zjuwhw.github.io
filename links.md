@@ -8,7 +8,7 @@ permalink: /links/
 {:toc}
 
 
-This is a collection of URLs/links I'm following. (lastest update: 1/April/2020)
+This is a collection of URLs/links I'm following.
 
 ## Researchers
 
@@ -57,49 +57,7 @@ Jan Vijg: [SJTU](https://www.shsmu.edu.cn/sph-cscomics/index.htm), [Labpage](htt
 
 ![](/images/timeline_project.jpg)
 
-## Softwares
-- [PLINK (v1.07)](http://zzz.bwh.harvard.edu/plink/), [PLINK2 (v1.9 beta)](https://www.cog-genomics.org/plink2), [GCTA](http://cnsgenomics.com/software/gcta/), [SMR](http://cnsgenomics.com/software/smr/index.html), [GSMR](http://cnsgenomics.com/software/gsmr/index.html), [OSCA](http://cnsgenomics.com/software/osca/#Overview)
-- [BOLT-LMM](https://data.broadinstitute.org/alkesgroup/BOLT-LMM/), [MACH](http://csg.sph.umich.edu/abecasis/mach/index.html), [IMPUTE2](http://mathgen.stats.ox.ac.uk/impute/impute_v2.html), [METAL](http://genome.sph.umich.edu/wiki/METAL_Program), [DEPICT](https://data.broadinstitute.org/mpg/depict/), [Beagle](https://faculty.washington.edu/browning/beagle/beagle.html), [haploview](https://www.broadinstitute.org/haploview/haploview), [HaploReg](http://archive.broadinstitute.org/mammals/haploreg/haploreg.php), [MERLIN](https://csg.sph.umich.edu/abecasis/Merlin/tour/assoc.html)
-- [bwa](http://bio-bwa.sourceforge.net/), [bowtie](http://bowtie-bio.sourceforge.net/index.shtml), [MACS](http://liulab.dfci.harvard.edu/MACS/), [MACS2](https://github.com/taoliu/MACS/), [SPP](http://compbio.med.harvard.edu/Supplements/ChIP-seq/), [HPeak](http://www.sph.umich.edu/csg/qin/HPeak/Readme.html), [meme-chip](http://meme.nbcr.net/meme/doc/meme-chip.html), [GimmeMotif](http://131.174.198.125/bioinfo/gimmemotifs/), [homer](http://biowhat.ucsd.edu/homer/), [CEAS](http://liulab.dfci.harvard.edu/CEAS/), [STAMP](http://www.benoslab.pitt.edu/stamp/)
-- [tophat](http://tophat.cbcb.umd.edu/), [STAR](https://github.com/alexdobin/STAR), [HISAT](https://ccb.jhu.edu/software/hisat/index.shtml), [StringTie](http://www.ccb.jhu.edu/software/stringtie/), [RSeQC](http://rseqc.sourceforge.net/), [RNA-SeQC](http://www.broadinstitute.org/cancer/cga/rna-seqc), [Cufflinks](http://cufflinks.cbcb.umd.edu/), [Scripture](https://www.broadinstitute.org/software/scripture/), [HTSeq](http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html), [featurecount](http://bioinf.wehi.edu.au/featureCounts/), [GFold](http://web.tongji.edu.cn/~zhanglab/GFOLD/), [DESeq](http://bioconductor.org/packages/2.12/bioc/html/DESeq.html), [DESeq2](http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html), [DEGseq](http://bioinfo.au.tsinghua.edu.cn/software/degseq/), [DEXSeq](http://www.bioconductor.org/packages/release/bioc/html/DEXSeq.html), [eXpress](http://bio.math.berkeley.edu/eXpress/overview.html), [RSEM](http://deweylab.biostat.wisc.edu/rsem/), [MISO]( http://genes.mit.edu/burgelab/miso/), [MATS](http://rnaseq-mats.sourceforge.net/), [MMSEQ](http://bgx.org.uk/software/mmseq.html), [CIRCexplorer](https://github.com/YangLab/CIRCexplorer), [CIRCfinder](https://github.com/YangLab/CIRCfinder)
-- [GATK](https://www.broadinstitute.org/gatk/), [MuTect](http://www.broadinstitute.org/cancer/cga/MuTect), [Pindel](http://gmt.genome.wustl.edu/packages/pindel/), [CREST](http://www.ncbi.nlm.nih.gov/pubmed/21666668), [SomaticSniper](http://gmt.genome.wustl.edu/packages/somatic-sniper/index.html), [VarScan2](http://varscan.sourceforge.net/), [Strelka](https://sites.google.com/site/strelkasomaticvariantcaller/), [JointSNVMix](https://code.google.com/p/joint-snv-mix/), [MutSig](https://www.broadinstitute.org/cancer/cga/mutsig), [InVEx](http://www.broadinstitute.org/cancer/cga/invex/), [Oncotator](http://www.broadinstitute.org/oncotator/), [bradkDancer](http://breakdancer.sourceforge.net/), [SciClone](https://github.com/genome/sciclone)
-- OncoSNP
-- RMA, MAS5.0, GCRMA
-- [samtools](http://samtools.sourceforge.net/)- [samstat](http://samstat.sourceforge.net/)- [bedtools](http://www.broadinstitute.org/cancer/cga/rna-seqc)- [bedops](https://code.google.com/p/bedops/)- [Fastqc](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)- [Fastx_toolkit](http://hannonlab.cshl.edu/fastx_toolkit/)- [trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic)- [Picard](http://broadinstitute.github.io/picard/)- [ucsc tools](http://hgdownload.cse.ucsc.edu/admin/exe/)- [CIRCOS](http://mkweb.bcgsc.ca/circos)- [SRAtoolkit](https://github.com/ncbi/sratoolkit)- [Entrez Direct](http://www.ncbi.nlm.nih.gov/news/02-06-2014-entrez-direct-released/)- [GenePattern](http://www.broadinstitute.org/cancer/software/genepattern/)- [pgltools](https://github.com/billgreenwald/pgltools)
-- [Jupyter](http://jupyter.org/)
-
-## Forum
-
-[Biostars](http://www.biostars.org/), [Seqanswers](http://seqanswers.com/),  [links directory](http://bioinformatics.ca/links_directory/), [stackexchange](https://stackexchange.com/), [stackoverflow](https://stackoverflow.com/)
-
-## Journal
-
-- [Cell](http://www.cell.com/), [Science](http://www.sciencemag.org/), [Nature](http://www.nature.com/), [PNAS](http://www.pnas.org/), [NEJM](http://www.nejm.org/), [Lancet](http://www.thelancet.com/), [Annual Review](http://www.annualreviews.org/), [Nature Communications](https://www.nature.com/ncomms/), [Science Advances](https://advances.sciencemag.org/)
-- [Nature Genetics](http://www.nature.com/ng/index.html), [Nature Review Genetics](http://www.nature.com/nrg/index.html), [American Journal of Human Genetics](http://www.cell.com/ajhg/home), [Trend in Genetics](http://www.cell.com/trends/genetics/home), [Human Molecular Genetics](https://academic.oup.com/hmg)
-- [Blood](http://bloodjournal.hematologylibrary.org/), [Leukemia](http://www.nature.com/leu/index.html)
-- [Genome Research](http://genome.cshlp.org/), [Genome Biology](https://genomebiology.biomedcentral.com/), [Nature Review Cancer](http://www.nature.com/nrc/index.html), [Nature biotechnology](http://www.nature.com/nbt/index.html), [PLOS Computational Biology](http://www.ploscompbiol.org/)
-
-
-
-## Blogs
-
-### General Science Community
-
-- [陈国强](http://blog.shsmu-path.com.cn/), [薛宇](http://blog.sciencenet.cn/home.php?mod=space&uid=404304), [饶毅](http://blog.sciencenet.cn/?2237), [鲁白](http://blog.sciencenet.cn/home.php?mod=space&uid=393255)
-
-
-### Bioinformatics
-
-- [Xiaole Shirley Liu's Blog Site](http://www.longwoodgenomics.org/), [雁起平沙](http://yanping.me/cn/)- [萧之逸](http://lwzhanghz.blog.163.com/blog/#m=0)- [云之南](http://fhqdddddd.blog.163.com/)- [陈连福](http://www.chenlianfu.com/)- [YGC](http://guangchuangyu.github.io/)
-- [yixf](http://yixf.name/)- [azalea](http://azaleasays.com/)
-- [David Langenberger](http://hoffmann.bioinf.uni-leipzig.de/LIFE/David.html)- [Jiang Li](https://sites.google.com/site/riverlee2008/)- Heng Li: 1)[sourceforge](http://lh3lh3.users.sourceforge.net/) 2)[github](http://lh3.github.io/)- [onetipperday](http://onetipperday.blogspot.com/)- [Bergman Lab](http://bergmanlab.ls.manchester.ac.uk/?page_id=45)- Ewan's blog: 1)[blogspot](http://genomeinformatician.blogspot.com/) 2)[wordpress](https://ewanbirney.wordpress.com/)- [Yokofakun](http://plindenbaum.blogspot.com/)- [Puriney](http://joseph.yy.blog.163.com/)- [RNA-seq Bolg](http://www.rna-seqblog.com/)- [What You're Doing Is Rahter Desperate](https://nsaunders.wordpress.com/)- [Win-Vector Blog](http://www.win-vector.com/blog/)- [Genomes Unzipped](http://genomesunzipped.org/)- [MassGenomics](http://massgenomics.org/)- [CoreGenomics](http://core-genomics.blogspot.com/)- [Simply Statistics](http://simplystatistics.org/)- [CureFFI](http://www.cureffi.org/archives/)- [enseqlopedia.com](http://enseqlopedia.com/)- [The Genome Factory](http://thegenomefactory.blogspot.com.au/)- [genetics for fun](http://apol1.blogspot.com.au/)- [Diving into Genetics and Genomics](http://crazyhottommy.blogspot.com.au)
-
-### IT
-
-- [阮一峰]( http://www.ruanyifeng.com/blog/)- [Chengwei's Words](http://www.chengweiyang.cn/archives/)- [Mozillazg's Blog](https://mozillazg.com/)- [James Hamilton - VP at Amazon Web Services](http://perspectives.mvdirona.com/)- [Denny Britz, a engineer in Google](http://blog.dennybritz.com/)- [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
-
-
-## Courses
+## Courses and Books
 
 ### Bioinformatics
 
@@ -164,37 +122,7 @@ Jan Vijg: [SJTU](https://www.shsmu.edu.cn/sph-cscomics/index.htm), [Labpage](htt
 - ["COMPUTATIONAL GENOMICS SUMMER INSTITUTE" @UCLA](http://computationalgenomics.bioinformatics.ucla.edu/resources/videos/)
 - ["Genomic Medicine XII: Genomics and Risk Prediction" by NIH/NHGRI](https://www.genome.gov/event-calendar/genomic-medicine-xii-genomics-and-risk-prediction)
 
-
-## Funding
-
-### USA
-
-[NIH](http://www.nih.gov/), [NCI](http://www.cancer.gov/), [NHGRI](https://www.genome.gov/)
-
-### China
-[国自然](http://www.nsfc.gov.cn/), [科技部](http://www.most.gov.cn/kjjh/xmsb/)
-
-### Australia
-[NHMRC](https://www.nhmrc.gov.au/), [ARC](http://www.arc.gov.au/)
-
-
-## Bioinformatic cloud
-
-[Seven Bridge](https://www.sbgenomics.com/), [DNAnexus](https://www.dnanexus.com/), [Google Genomics](https://cloud.google.com/genomics/), [NCI's Genomic Data Commons](https://gdc.nci.nih.gov/), [Global Alliance for Genomics and Health](http://ga4gh.org), [nextflow](https://www.nextflow.io/)
-
-## Your favorite blog on Biostar
-
-- Your Favorite Bioinformatics Blogs (March 2010)
-- Your Favorite Bioinformatics Blogs (October 2011)
-- What Are Your Favorite Bioit News Resources / Blogs (2012 Edition)
-- Your Favorite Bioinformatics Blog(S) (2013 Edition)
-
-## 微信公众账号
-
-赛先生, 知识分子, 测序中国, 丁香园, 生物谷, 知因knowgene, 博士圈Illumina
-
-
-## Books
+### Books
 
 - [Pro Git](https://book.douban.com/subject/3420144/)
 - [HTTP: The Definitive Guide](https://book.douban.com/subject/1440226/)
@@ -217,3 +145,85 @@ Jan Vijg: [SJTU](https://www.shsmu.edu.cn/sph-cscomics/index.htm), [Labpage](htt
 - [Population genetics: a concise guide](https://book.douban.com/subject/1358257/)
 - [Statistical Inference](https://book.douban.com/subject/1464795/)
 - [The Elements of Statistical Learning](https://book.douban.com/subject/3294335/)
+
+## Journal
+
+- [Cell](http://www.cell.com/), [Science](http://www.sciencemag.org/), [Nature](http://www.nature.com/), [PNAS](http://www.pnas.org/), [NEJM](http://www.nejm.org/), [Lancet](http://www.thelancet.com/), [Annual Review](http://www.annualreviews.org/), [Nature Communications](https://www.nature.com/ncomms/), [Science Advances](https://advances.sciencemag.org/)
+- [Nature Genetics](http://www.nature.com/ng/index.html), [Nature Review Genetics](http://www.nature.com/nrg/index.html), [American Journal of Human Genetics](http://www.cell.com/ajhg/home), [Trend in Genetics](http://www.cell.com/trends/genetics/home), [Human Molecular Genetics](https://academic.oup.com/hmg)
+- [Blood](http://bloodjournal.hematologylibrary.org/), [Leukemia](http://www.nature.com/leu/index.html)
+- [Genome Research](http://genome.cshlp.org/), [Genome Biology](https://genomebiology.biomedcentral.com/), [Nature Review Cancer](http://www.nature.com/nrc/index.html), [Nature biotechnology](http://www.nature.com/nbt/index.html), [PLOS Computational Biology](http://www.ploscompbiol.org/)
+
+## Softwares
+- [PLINK (v1.07)](http://zzz.bwh.harvard.edu/plink/), [PLINK2 (v1.9 beta)](https://www.cog-genomics.org/plink2), [GCTA](http://cnsgenomics.com/software/gcta/), [SMR](http://cnsgenomics.com/software/smr/index.html), [GSMR](http://cnsgenomics.com/software/gsmr/index.html), [OSCA](http://cnsgenomics.com/software/osca/#Overview)
+- [BOLT-LMM](https://data.broadinstitute.org/alkesgroup/BOLT-LMM/), [MACH](http://csg.sph.umich.edu/abecasis/mach/index.html), [IMPUTE2](http://mathgen.stats.ox.ac.uk/impute/impute_v2.html), [METAL](http://genome.sph.umich.edu/wiki/METAL_Program), [DEPICT](https://data.broadinstitute.org/mpg/depict/), [Beagle](https://faculty.washington.edu/browning/beagle/beagle.html), [haploview](https://www.broadinstitute.org/haploview/haploview), [HaploReg](http://archive.broadinstitute.org/mammals/haploreg/haploreg.php), [MERLIN](https://csg.sph.umich.edu/abecasis/Merlin/tour/assoc.html)
+- [bwa](http://bio-bwa.sourceforge.net/), [bowtie](http://bowtie-bio.sourceforge.net/index.shtml), [MACS](http://liulab.dfci.harvard.edu/MACS/), [MACS2](https://github.com/taoliu/MACS/), [SPP](http://compbio.med.harvard.edu/Supplements/ChIP-seq/), [HPeak](http://www.sph.umich.edu/csg/qin/HPeak/Readme.html), [meme-chip](http://meme.nbcr.net/meme/doc/meme-chip.html), [GimmeMotif](http://131.174.198.125/bioinfo/gimmemotifs/), [homer](http://biowhat.ucsd.edu/homer/), [CEAS](http://liulab.dfci.harvard.edu/CEAS/), [STAMP](http://www.benoslab.pitt.edu/stamp/)
+- [tophat](http://tophat.cbcb.umd.edu/), [STAR](https://github.com/alexdobin/STAR), [HISAT](https://ccb.jhu.edu/software/hisat/index.shtml), [StringTie](http://www.ccb.jhu.edu/software/stringtie/), [RSeQC](http://rseqc.sourceforge.net/), [RNA-SeQC](http://www.broadinstitute.org/cancer/cga/rna-seqc), [Cufflinks](http://cufflinks.cbcb.umd.edu/), [Scripture](https://www.broadinstitute.org/software/scripture/), [HTSeq](http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html), [featurecount](http://bioinf.wehi.edu.au/featureCounts/), [GFold](http://web.tongji.edu.cn/~zhanglab/GFOLD/), [DESeq](http://bioconductor.org/packages/2.12/bioc/html/DESeq.html), [DESeq2](http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html), [DEGseq](http://bioinfo.au.tsinghua.edu.cn/software/degseq/), [DEXSeq](http://www.bioconductor.org/packages/release/bioc/html/DEXSeq.html), [eXpress](http://bio.math.berkeley.edu/eXpress/overview.html), [RSEM](http://deweylab.biostat.wisc.edu/rsem/), [MISO]( http://genes.mit.edu/burgelab/miso/), [MATS](http://rnaseq-mats.sourceforge.net/), [MMSEQ](http://bgx.org.uk/software/mmseq.html), [CIRCexplorer](https://github.com/YangLab/CIRCexplorer), [CIRCfinder](https://github.com/YangLab/CIRCfinder)
+- [GATK](https://www.broadinstitute.org/gatk/), [MuTect](http://www.broadinstitute.org/cancer/cga/MuTect), [Pindel](http://gmt.genome.wustl.edu/packages/pindel/), [CREST](http://www.ncbi.nlm.nih.gov/pubmed/21666668), [SomaticSniper](http://gmt.genome.wustl.edu/packages/somatic-sniper/index.html), [VarScan2](http://varscan.sourceforge.net/), [Strelka](https://sites.google.com/site/strelkasomaticvariantcaller/), [JointSNVMix](https://code.google.com/p/joint-snv-mix/), [MutSig](https://www.broadinstitute.org/cancer/cga/mutsig), [InVEx](http://www.broadinstitute.org/cancer/cga/invex/), [Oncotator](http://www.broadinstitute.org/oncotator/), [bradkDancer](http://breakdancer.sourceforge.net/), [SciClone](https://github.com/genome/sciclone)
+- OncoSNP
+- RMA, MAS5.0, GCRMA
+- [samtools](http://samtools.sourceforge.net/)- [samstat](http://samstat.sourceforge.net/)- [bedtools](http://www.broadinstitute.org/cancer/cga/rna-seqc)- [bedops](https://code.google.com/p/bedops/)- [Fastqc](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)- [Fastx_toolkit](http://hannonlab.cshl.edu/fastx_toolkit/)- [trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic)- [Picard](http://broadinstitute.github.io/picard/)- [ucsc tools](http://hgdownload.cse.ucsc.edu/admin/exe/)- [CIRCOS](http://mkweb.bcgsc.ca/circos)- [SRAtoolkit](https://github.com/ncbi/sratoolkit)- [Entrez Direct](http://www.ncbi.nlm.nih.gov/news/02-06-2014-entrez-direct-released/)- [GenePattern](http://www.broadinstitute.org/cancer/software/genepattern/)- [pgltools](https://github.com/billgreenwald/pgltools)
+- [Jupyter](http://jupyter.org/)
+
+
+
+
+## Blogs, Forum, and WeChat
+
+### General Science Community
+
+- [陈国强](http://blog.shsmu-path.com.cn/), [薛宇](http://blog.sciencenet.cn/home.php?mod=space&uid=404304), [饶毅](http://blog.sciencenet.cn/?2237), [鲁白](http://blog.sciencenet.cn/home.php?mod=space&uid=393255)
+
+
+### Bioinformatics
+
+- [Xiaole Shirley Liu's Blog Site](http://www.longwoodgenomics.org/), [雁起平沙](http://yanping.me/cn/)- [萧之逸](http://lwzhanghz.blog.163.com/blog/#m=0)- [云之南](http://fhqdddddd.blog.163.com/)- [陈连福](http://www.chenlianfu.com/)- [YGC](http://guangchuangyu.github.io/)
+- [yixf](http://yixf.name/)- [azalea](http://azaleasays.com/)
+- [David Langenberger](http://hoffmann.bioinf.uni-leipzig.de/LIFE/David.html)- [Jiang Li](https://sites.google.com/site/riverlee2008/)- Heng Li: 1)[sourceforge](http://lh3lh3.users.sourceforge.net/) 2)[github](http://lh3.github.io/)- [onetipperday](http://onetipperday.blogspot.com/)- [Bergman Lab](http://bergmanlab.ls.manchester.ac.uk/?page_id=45)- Ewan's blog: 1)[blogspot](http://genomeinformatician.blogspot.com/) 2)[wordpress](https://ewanbirney.wordpress.com/)- [Yokofakun](http://plindenbaum.blogspot.com/)- [Puriney](http://joseph.yy.blog.163.com/)- [RNA-seq Bolg](http://www.rna-seqblog.com/)- [What You're Doing Is Rahter Desperate](https://nsaunders.wordpress.com/)- [Win-Vector Blog](http://www.win-vector.com/blog/)- [Genomes Unzipped](http://genomesunzipped.org/)- [MassGenomics](http://massgenomics.org/)- [CoreGenomics](http://core-genomics.blogspot.com/)- [Simply Statistics](http://simplystatistics.org/)- [CureFFI](http://www.cureffi.org/archives/)- [enseqlopedia.com](http://enseqlopedia.com/)- [The Genome Factory](http://thegenomefactory.blogspot.com.au/)- [genetics for fun](http://apol1.blogspot.com.au/)- [Diving into Genetics and Genomics](http://crazyhottommy.blogspot.com.au)
+
+### IT
+
+- [阮一峰]( http://www.ruanyifeng.com/blog/)- [Chengwei's Words](http://www.chengweiyang.cn/archives/)- [Mozillazg's Blog](https://mozillazg.com/)- [James Hamilton - VP at Amazon Web Services](http://perspectives.mvdirona.com/)- [Denny Britz, a engineer in Google](http://blog.dennybritz.com/)- [Linux工具快速教程](http://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) 
+
+### forum
+
+[Biostars](http://www.biostars.org/), [Seqanswers](http://seqanswers.com/),  [links directory](http://bioinformatics.ca/links_directory/), [stackexchange](https://stackexchange.com/), [stackoverflow](https://stackoverflow.com/)
+
+### Bioinformatic cloud company
+
+[Seven Bridge](https://www.sbgenomics.com/), [DNAnexus](https://www.dnanexus.com/), [Google Genomics](https://cloud.google.com/genomics/), [NCI's Genomic Data Commons](https://gdc.nci.nih.gov/), [Global Alliance for Genomics and Health](http://ga4gh.org), [nextflow](https://www.nextflow.io/)
+
+### Your favorite blog on Biostar
+
+- Your Favorite Bioinformatics Blogs (March 2010)
+- Your Favorite Bioinformatics Blogs (October 2011)
+- What Are Your Favorite Bioit News Resources / Blogs (2012 Edition)
+- Your Favorite Bioinformatics Blog(S) (2013 Edition)
+
+### 微信公众账号
+
+赛先生, 知识分子, 测序中国, 丁香园, 生物谷, 知因knowgene, 博士圈Illumina
+
+
+
+
+## Funding
+
+### USA
+
+[NIH](http://www.nih.gov/), [NCI](http://www.cancer.gov/), [NHGRI](https://www.genome.gov/)
+
+### China
+[国自然](http://www.nsfc.gov.cn/), [科技部](http://www.most.gov.cn/kjjh/xmsb/)
+
+### Australia
+[NHMRC](https://www.nhmrc.gov.au/), [ARC](http://www.arc.gov.au/)
+
+
+
+
+
+
+
+
+
+

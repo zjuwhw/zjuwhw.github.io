@@ -5,7 +5,9 @@ date: 2020-01-27
 tags: ["life", "medi"]
 ---
 
-今年春节（2020年1月25日）我请假（1月18日-2月9日）回国过年，赶上“[新型冠状病毒](https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6)”疫情爆发和随之而来的交通限制，取消了1月28日去然然老家（河北邢台隆尧县）的机票。又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。2月10日起，远程工作（remote working）写论文，工作效率非常低。3月9日，和导师Skype视频，效率得到很大改善。4月16日完成了第三年的答辩。1月24日到5月23日，一直呆在我家中（[辽宁省本溪市](https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82)）。5月23日到8月5日，在老婆家中（河北邢台隆尧县）。8月5日到现在，在杭州西湖大学访问学生，希望有更好的学习环境。8月17日起，然然也在西湖大学[蒋敏实验室](https://www.westlake.edu.cn/info/1606/3768.htm)开始做访问工作人员。然然9月24日拿到澳洲的入境豁免，11月底离职，12月8日坐飞机返澳。
+今年春节（2020年1月25日）我和老婆请假（1月18日-2月9日）回国过年，赶上“[新型冠状病毒](https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6)”疫情爆发和随之而来的交通限制，取消了1月28日去然然老家（河北邢台隆尧县）的机票。又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。2月10日起，远程工作（remote working）写论文，工作效率非常低。3月9日，和导师Skype视频，效率得到很大改善。4月16日完成了第三年的答辩。1月24日到5月23日，一直呆在我家中（[辽宁省本溪市](https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82)）。5月23日到8月5日，在老婆家中（河北邢台隆尧县）。
+
+8月5日开始，我在杭州西湖大学访问学生，希望有更好的学习环境。8月17日起，然然也在西湖大学[蒋敏实验室](https://www.westlake.edu.cn/info/1606/3768.htm)开始做访问工作人员。然然9月24日拿到澳洲的入境豁免，11月底离职，12月8日坐飞机返澳。我是2021年1月1日，从杭州西湖大学离开返回辽宁本溪家中。
 
 写这个博客，收集关于新型冠状病毒的各种信息:
 
@@ -15,6 +17,7 @@ tags: ["life", "medi"]
 	- [国家卫生健康委](http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml)
 		- [湖北省](http://wjw.hubei.gov.cn/fbjd/dtyw/), [上海市](http://wsjkw.sh.gov.cn/xwfb/index.html), [辽宁省](http://wsjk.ln.gov.cn/wst_zdzt/xxgzbd/yqtb/)
 	- [丁香园实时地图](https://3g.dxy.cn/newh5/view/pneumonia)
+	- [澎湃新闻](https://www.thepaper.cn/)
 - 澳洲
 	- [澳大利亚健康部门-current situation](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers)
 		- [昆士兰州-Current status ](https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts)
@@ -95,12 +98,14 @@ tags: ["life", "medi"]
 - [dr muge cevik(@mugecevik)](https://twitter.com/mugecevik/status/1221020657242333184)
 - [子陵在听歌](https://weibo.com/529645621?topnav=1&wvr=6&topsug=1&is_all=1)
 
-### New York times tracker
+### Tracker
 
 - [New York times Vaccine Tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html)
 - [New Yorkm times treatment tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-drugs-treatments.html)
+- [Bloomberg Vaccined tracker](https://www.bloomberg.com/graphics/covid-vaccine-tracker-global-distribution/)
 
 ## Others
 
+- [The New Yorker "The Plague Year"](https://www.newyorker.com/magazine/2021/01/04/the-plague-year)
 - [Free Printable poster](https://www.websiteplanet.com/blog/free-printable-posters-covid-19/)
 - [Epidemics I](https://www.edx.org/course/epidemics-i), [Epidemics II](https://www.edx.org/course/epidemics-ii)

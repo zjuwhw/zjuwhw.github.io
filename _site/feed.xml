@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Dec 2020 21:46:28 +0800</pubDate>
-    <lastBuildDate>Fri, 18 Dec 2020 21:46:28 +0800</lastBuildDate>
+    <pubDate>Mon, 04 Jan 2021 09:33:05 +0800</pubDate>
+    <lastBuildDate>Mon, 04 Jan 2021 09:33:05 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -1495,7 +1495,9 @@
     
       <item>
         <title>新型冠状病毒疫情</title>
-        <description>&lt;p&gt;今年春节（2020年1月25日）我请假（1月18日-2月9日）回国过年，赶上“&lt;a href=&quot;https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6&quot;&gt;新型冠状病毒&lt;/a&gt;”疫情爆发和随之而来的交通限制，取消了1月28日去然然老家（河北邢台隆尧县）的机票。又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。2月10日起，远程工作（remote working）写论文，工作效率非常低。3月9日，和导师Skype视频，效率得到很大改善。4月16日完成了第三年的答辩。1月24日到5月23日，一直呆在我家中（&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82&quot;&gt;辽宁省本溪市&lt;/a&gt;）。5月23日到8月5日，在老婆家中（河北邢台隆尧县）。8月5日到现在，在杭州西湖大学访问学生，希望有更好的学习环境。8月17日起，然然也在西湖大学&lt;a href=&quot;https://www.westlake.edu.cn/info/1606/3768.htm&quot;&gt;蒋敏实验室&lt;/a&gt;开始做访问工作人员。然然9月24日拿到澳洲的入境豁免，11月底离职，12月8日坐飞机返澳。&lt;/p&gt;
+        <description>&lt;p&gt;今年春节（2020年1月25日）我和老婆请假（1月18日-2月9日）回国过年，赶上“&lt;a href=&quot;https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6&quot;&gt;新型冠状病毒&lt;/a&gt;”疫情爆发和随之而来的交通限制，取消了1月28日去然然老家（河北邢台隆尧县）的机票。又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。2月10日起，远程工作（remote working）写论文，工作效率非常低。3月9日，和导师Skype视频，效率得到很大改善。4月16日完成了第三年的答辩。1月24日到5月23日，一直呆在我家中（&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82&quot;&gt;辽宁省本溪市&lt;/a&gt;）。5月23日到8月5日，在老婆家中（河北邢台隆尧县）。&lt;/p&gt;
+
+&lt;p&gt;8月5日开始，我在杭州西湖大学访问学生，希望有更好的学习环境。8月17日起，然然也在西湖大学&lt;a href=&quot;https://www.westlake.edu.cn/info/1606/3768.htm&quot;&gt;蒋敏实验室&lt;/a&gt;开始做访问工作人员。然然9月24日拿到澳洲的入境豁免，11月底离职，12月8日坐飞机返澳。我是2021年1月1日，从杭州西湖大学离开返回辽宁本溪家中。&lt;/p&gt;
 
 &lt;p&gt;写这个博客，收集关于新型冠状病毒的各种信息:&lt;/p&gt;
 
@@ -1510,6 +1512,7 @@
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://3g.dxy.cn/newh5/view/pneumonia&quot;&gt;丁香园实时地图&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.thepaper.cn/&quot;&gt;澎湃新闻&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;澳洲
@@ -1638,16 +1641,18 @@
   &lt;li&gt;&lt;a href=&quot;https://weibo.com/529645621?topnav=1&amp;amp;wvr=6&amp;amp;topsug=1&amp;amp;is_all=1&quot;&gt;子陵在听歌&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;new-york-times-tracker&quot;&gt;New York times tracker&lt;/h3&gt;
+&lt;h3 id=&quot;tracker&quot;&gt;Tracker&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html&quot;&gt;New York times Vaccine Tracker&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/science/coronavirus-drugs-treatments.html&quot;&gt;New Yorkm times treatment tracker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/graphics/covid-vaccine-tracker-global-distribution/&quot;&gt;Bloomberg Vaccined tracker&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;others&quot;&gt;Others&lt;/h2&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.newyorker.com/magazine/2021/01/04/the-plague-year&quot;&gt;The New Yorker “The Plague Year”&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.websiteplanet.com/blog/free-printable-posters-covid-19/&quot;&gt;Free Printable poster&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/epidemics-i&quot;&gt;Epidemics I&lt;/a&gt;, &lt;a href=&quot;https://www.edx.org/course/epidemics-ii&quot;&gt;Epidemics II&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
