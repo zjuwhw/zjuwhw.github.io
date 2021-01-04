@@ -15,7 +15,7 @@ tags: ["life", "medi"]
 
 - 中国
 	- [国家卫生健康委](http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml)
-		- [湖北省](http://wjw.hubei.gov.cn/fbjd/dtyw/), [上海市](http://wsjkw.sh.gov.cn/xwfb/index.html), [辽宁省](http://wsjk.ln.gov.cn/wst_zdzt/xxgzbd/yqtb/)
+		- [湖北省](http://wjw.hubei.gov.cn/fbjd/dtyw/), [上海市](http://wsjkw.sh.gov.cn/xwfb/index.html), [辽宁省](http://wsjk.ln.gov.cn/wst_zdzt/xxgzbd/yqtb/)，[河北省](http://www.hebwst.gov.cn/xxgzbdfyyqfk/index.jhtml)
 	- [丁香园实时地图](https://3g.dxy.cn/newh5/view/pneumonia)
 	- [澎湃新闻](https://www.thepaper.cn/)
 - 澳洲

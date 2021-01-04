@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Jan 2021 09:33:05 +0800</pubDate>
-    <lastBuildDate>Mon, 04 Jan 2021 09:33:05 +0800</lastBuildDate>
+    <pubDate>Mon, 04 Jan 2021 09:38:07 +0800</pubDate>
+    <lastBuildDate>Mon, 04 Jan 2021 09:38:07 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -1508,7 +1508,7 @@
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml&quot;&gt;国家卫生健康委&lt;/a&gt;
         &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;http://wjw.hubei.gov.cn/fbjd/dtyw/&quot;&gt;湖北省&lt;/a&gt;, &lt;a href=&quot;http://wsjkw.sh.gov.cn/xwfb/index.html&quot;&gt;上海市&lt;/a&gt;, &lt;a href=&quot;http://wsjk.ln.gov.cn/wst_zdzt/xxgzbd/yqtb/&quot;&gt;辽宁省&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;http://wjw.hubei.gov.cn/fbjd/dtyw/&quot;&gt;湖北省&lt;/a&gt;, &lt;a href=&quot;http://wsjkw.sh.gov.cn/xwfb/index.html&quot;&gt;上海市&lt;/a&gt;, &lt;a href=&quot;http://wsjk.ln.gov.cn/wst_zdzt/xxgzbd/yqtb/&quot;&gt;辽宁省&lt;/a&gt;，&lt;a href=&quot;http://www.hebwst.gov.cn/xxgzbdfyyqfk/index.jhtml&quot;&gt;河北省&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://3g.dxy.cn/newh5/view/pneumonia&quot;&gt;丁香园实时地图&lt;/a&gt;&lt;/li&gt;
