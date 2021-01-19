@@ -58,6 +58,6 @@ tags: ["life", "medi"]
 
 ### 参考资料
 
-1. https://www.legacy.com/obituaries/houstonchronicle/obituary.aspx?n=francis-patrick-hadlock-frank&pid=15908152
-2. https://www.ultrasoundpaedia.com/normal-2ndtrimester/
-3. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5029995/pdf/AJUM-16-098.pdf
+1. [Dr Francis Partrick Hadlock](https://www.legacy.com/obituaries/houstonchronicle/obituary.aspx?n=francis-patrick-hadlock-frank&pid=15908152)
+2. [Ultrasoundpaedia website](https://www.ultrasoundpaedia.com/normal-2ndtrimester/)
+3. [A pictorial guide for the second trimester ultrasound](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5029995/pdf/AJUM-16-098.pdf)
