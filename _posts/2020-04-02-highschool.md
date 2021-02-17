@@ -5,6 +5,12 @@ date: 2020-04-02
 tags: ["life"]
 ---
 
+![](/images/highschool/2021-1.jpeg)
+
+![](/images/highschool/2021-2.jpeg)
+
+2021年
+
 ![](/images/highschool/2020.jpeg)
 
 2020年
