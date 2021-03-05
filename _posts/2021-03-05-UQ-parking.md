@@ -20,7 +20,7 @@ tags: ["life"]
 
 上面为截图示例。在2021年3月5日上午10:14更新的数据，P1，P2，P7，P8二楼，P9均已经“Full”或者是“Nearly Full”（沿河一圈的blue zone没有实时停车位置信息）。
 
-- [Causal parking](https://campuses.uq.edu.au/information-and-services/parking-transport/parking/casual/st-lucia]
+- [Causal parking](https://campuses.uq.edu.au/information-and-services/parking-transport/parking/casual/st-lucia)
 	- Blue zone （14P daily）：每天14小时，收费5刀/天
 	- 其他还有Grey， Red， Yellow， Pink，Orange zone等等
 - [Staff permit](https://campuses.uq.edu.au/information-and-services/parking-transport/parking/permits/types)：有了staff permit可以停在P3，P4，P11。每天5刀。通过[vPermit系统](https://vpermit.com.au/uq/)购买，可以直接付款，也可以通过[salary packing](https://staff.uq.edu.au/information-and-services/human-resources/pay-leave-entitlements/salary-packaging)付款。
