@@ -117,8 +117,10 @@ tags: ["life"]
 - 2018年12月11日，去[交通局](https://www.qld.gov.au/transport/contacts/centres/view?title=Toowong%20Transport%20and%20Main%20Roads%20Customer%20Service%20Centre)办理了[注册转移](https://www.qld.gov.au/transport/registration/transfer/rego)，交了43.5刀。另外还买了RACQ的全险（[comprehensive car insurance](https://www.racq.com.au/insurance/get-insurance/car-insurance/comprehensive-car-insurance)）706.75刀，从11/Dec/2018-11/Dec/2019.
 - 2019年9月12日，接到了safety recall，去Metro Ford（Woolloongabba）免费更换了门闩（？）。
 - 2019年9月16日，2个headlight globes坏了，去MyCar（之前叫Kmart services）进行了检查和更换，花费58刀（29*2）。
-- 2019年9月30日，去Vulture Street进行保养，花费165刀。
+- 2019年9月30日，去[Vulture Street Car service](http://www.vulturestreetgarage.com.au/)进行保养，花费165刀。
 - 2019年12月16日，更新RACQ全险，花费711.79，从16/Dec/2019-16/Dec/2020。
 - 2020年3月5日，更新了rego，748.97刀。
 - 2021年3月2日，更新了rego，748.32刀。
 - 2021年3月3日，去MyCar换了电池，219刀。
+- 2021年3月8-9日，买了RACQ全险（777.47刀）+RACQ Roadside assistant（109刀）。
+- 2021年3月10日，去[Vulture Street Car service](http://www.vulturestreetgarage.com.au/)进行保养，花费165刀。
