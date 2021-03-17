@@ -44,6 +44,7 @@ Notebooks:
 - [Introduction to Quantitative Genetics](https://zjuwhw.github.io/notebook-qg/)
 - [Statistical Inference](https://zjuwhw.github.io/notebook-si/)
 - [Genetics and Analysis of Quantitative Traits](https://zjuwhw.github.io/notebook-gaqt/)
+- [Evolution and Selection Quantitative Traits](https://zjuwhw.github.io/notebook-esqt/)
 
 Shiny:
 
