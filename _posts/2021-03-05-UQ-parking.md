@@ -28,3 +28,8 @@ tags: ["life"]
 - [UQ nav/UQ Maps app](https://my.uq.edu.au/mobile-apps): 对你导航UQ中具体的位置有帮助
 
 
+### 我的经历
+
+我是3月4日申请的staff permit（paid with salary scarification），第二天就批准了（听说有些人等待批准花了几个月）。
+
+之后由于租了Carmody Road的房子，就在那里停车了，3月23日取消了staff permit。
