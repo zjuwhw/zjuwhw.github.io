@@ -16,3 +16,4 @@ tags: ["genetics", "China"]
 - Taizhou longitudinal study with 0.2m individuals: [news](https://hupi.fudan.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1041&wbnewsid=1577)
 - Chinese National Twin Registry with 61k twin pairs: [paper](https://onlinelibrary.wiley.com/doi/full/10.1111/joim.12926)
 - Westlake BioBank for Chinese (WBBC): [paper1](https://www.biorxiv.org/content/10.1101/2021.02.06.430086v1), [paper2](https://www.medrxiv.org/content/10.1101/2020.12.16.20248291v1), [website](https://wbbc.westlake.edu.cn/index.html)
+- [中国队列共享平台](http://chinacohort.bjmu.edu.cn/)

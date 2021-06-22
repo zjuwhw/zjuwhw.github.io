@@ -7,7 +7,7 @@ permalink: /about/
 I am Huanwei Wang (王焕威), a PhD student in Univeristy of Queensland. My research field is quantitative genetics now.
 
 CV:
-- [202009 CV](/documents/CV_huanwei_30Sep2020.pdf)
+- [202106 CV](/documents/CV_huanwei_22Jun2021.pdf)
 
 thesis:
 

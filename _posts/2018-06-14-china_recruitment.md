@@ -13,6 +13,8 @@ tags: ["life"]
 - [Scientific migration of junior scientists to China](https://genomebiology.biomedcentral.com/articles/10.1186/gb4180) by Genome Biology
 - [Career Guide: China](https://www.nature.com/collections/bxzlnkkfnf) by Nature
 - [Chinese academics who work abroad are slower to win major honour](https://www.nature.com/articles/d41586-019-03772-1)
+- [Nature index 2018: China](https://www.natureindex.com/supplements/nature-index-2018-china/index)
+- [Nature index 2021: China](https://www.nature.com/collections/fajdbdifgf)
 
 ### Research study
 
