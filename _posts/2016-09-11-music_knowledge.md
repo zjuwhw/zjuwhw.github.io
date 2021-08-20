@@ -2,7 +2,7 @@
 layout: post
 title: 吉他学习
 date: 2016-09-11
-tags: ["music"]
+tags: ["life"]
 ---
 
 * TOC

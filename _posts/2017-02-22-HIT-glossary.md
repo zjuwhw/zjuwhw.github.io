@@ -2,7 +2,7 @@
 layout: post
 title: 卫生信息学简介
 date: 2017-02-22
-tags: ["medi", "HIT"]
+tags: ["medi"]
 ---
 
 

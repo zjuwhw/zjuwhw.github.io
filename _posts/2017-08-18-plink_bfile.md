@@ -2,7 +2,7 @@
 layout: post
 title: Plink bfile manipulation
 date: 2017-08-18
-tags: ["genetics", "GWAS", "plink"]
+tags: ["genetics", "GWAS"]
 ---
 
 [Plink](https://www.cog-genomics.org/plink2) is one of the most widely used software in GWAS field and its relative file format [bfile](https://www.cog-genomics.org/plink/1.9/formats#bed), a binary file used to store genotype information, may be more popular as supported by other softwares (e.g. [GCTA](http://cnsgenomics.com/software/gcta/#Overview)) as input files.
