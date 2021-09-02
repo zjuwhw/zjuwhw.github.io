@@ -124,3 +124,4 @@ tags: ["life"]
 - 2021年3月3日，去MyCar换了电池，219刀。
 - 2021年3月8-9日，买了RACQ全险（777.47刀）+RACQ Roadside assistant（109刀）。
 - 2021年3月10日，去[Vulture Street Car service](http://www.vulturestreetgarage.com.au/)进行保养，花费165刀。
+- 2021年8月26日，Vulture Street car service，花费175刀。

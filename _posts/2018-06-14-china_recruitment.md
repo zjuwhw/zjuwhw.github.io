@@ -15,6 +15,7 @@ tags: ["life"]
 - [Chinese academics who work abroad are slower to win major honour](https://www.nature.com/articles/d41586-019-03772-1)
 - [Nature index 2018: China](https://www.natureindex.com/supplements/nature-index-2018-china/index)
 - [Nature index 2021: China](https://www.nature.com/collections/fajdbdifgf)
+- [Nature jobs](https://www.nature.com/naturecareers/jobs/search?text=&location=china)
 
 ### Research study
 
