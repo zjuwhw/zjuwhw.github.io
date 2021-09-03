@@ -15,23 +15,22 @@ tags: ["life"]
 | [Toowong](https://www.realestate.com.au/neighbourhoods/toowong-4066-qld) |-|889,000|1,400,000|445,000|731,000|
 |[Taringa](https://www.realestate.com.au/neighbourhoods/taringa-4068-qld) |-|888,250|1,327,500|410,000|680,000|
 | [Indooroopilly](https://www.realestate.com.au/neighbourhoods/indooroopilly-4068-qld) |-|787,500|1,273,000|430,000|620,000
+| [Auchenflower](https://www.realestate.com.au/neighbourhoods/auchenflower-4066-qld)|-|1,080,000|1,413,500|422,665|675,000|
+| [Herston](https://www.realestate.com.au/neighbourhoods/herston-4006-qld) |-|-|-|447,500|-
+| [Kelvin Grove](https://www.realestate.com.au/neighbourhoods/kelvin-grove-4059-qld)|-|870,000|-|440,000|629,607
+| [Newmarket](https://www.realestate.com.au/neighbourhoods/newmarket-4051-qld)|-|820,500|1,100,500|411,000|557,500|
+|[Chermside](https://www.realestate.com.au/neighbourhoods/chermside-4032-qld)|-|690,000|830,000|374,500|461,250
+|[Chermside West](https://www.realestate.com.au/neighbourhoods/chermside-west-4032-qld)|-|643,750|710,000|-|-|
+| [Kenmore](https://www.realestate.com.au/neighbourhoods/kenmore-4069-qld)|-|750,000|847,750|-|725,500
+| [Kenmore Hills](https://www.realestate.com.au/neighbourhoods/kenmore-hills-4069-qld)|-|-|980,000|-|-|
+| [West End](https://www.realestate.com.au/neighbourhoods/west-end-4101-qld)|-|1,150,000|1,235,000|534,500|884,000
+| [Annerley](https://www.realestate.com.au/neighbourhoods/annerley-4103-qld)|765,000|807,500|890,000|386,000|580,000|
+| [Fairfield](https://www.realestate.com.au/neighbourhoods/fairfield-4103-qld) |-|822,500|-|420,000|647,000
 | [Upper Mount Gravatt](https://www.realestate.com.au/neighbourhoods/upper-mount-gravatt-4122-qld) |-|718,0000|756,250|397,500|494,500|
 | [Eight Mile Plains](https://www.realestate.com.au/neighbourhoods/eight-mile-plains-4113-qld)|-|628,000|795,000|-|400,000|
 | [Sunnybank](https://www.realestate.com.au/neighbourhoods/sunnybank-4109-qld) |-|682,000|790,000|-|415,000
 | [Sunnybank Hill](https://www.realestate.com.au/neighbourhoods/sunnybank-hills-4109-qld) |-|585,000|710,000|-|372,000|
 | [Inala](https://www.realestate.com.au/neighbourhoods/inala-4077-qld)|342,000|380,000|437,500|-|-|
-| [Auchenflower](https://www.realestate.com.au/neighbourhoods/auchenflower-4066-qld)|-|1,080,000|1,413,500|422,665|675,000|
-| [Kenmore](https://www.realestate.com.au/neighbourhoods/kenmore-4069-qld)|-|750,000|847,750|-|725,500
-| [Kenmore Hills](https://www.realestate.com.au/neighbourhoods/kenmore-hills-4069-qld)|-|-|980,000|-|-|
-| [Herston](https://www.realestate.com.au/neighbourhoods/herston-4006-qld) |-|-|-|447,500|-
-| [Kelvin Grove](https://www.realestate.com.au/neighbourhoods/kelvin-grove-4059-qld)|-|870,000|-|440,000|629,607
-| [Newmarket](https://www.realestate.com.au/neighbourhoods/newmarket-4051-qld)|-|820,500|1,100,500|411,000|557,500|
-| [Annerley](https://www.realestate.com.au/neighbourhoods/annerley-4103-qld)|765,000|807,500|890,000|386,000|580,000|
-| [West End](https://www.realestate.com.au/neighbourhoods/west-end-4101-qld)|-|1,150,000|1,235,000|534,500|884,000
-| [Fairfield](https://www.realestate.com.au/neighbourhoods/fairfield-4103-qld) |-|822,500|-|420,000|647,000
-|[Chermside](https://www.realestate.com.au/neighbourhoods/chermside-4032-qld)|-|690,000|830,000|374,500|461,250
-|[Chermside West](https://www.realestate.com.au/neighbourhoods/chermside-west-4032-qld)|-|643,750|710,000|-|-|
-
 
 
 
