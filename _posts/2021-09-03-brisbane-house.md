@@ -19,8 +19,12 @@ tags: ["life"]
 | [Herston](https://www.realestate.com.au/neighbourhoods/herston-4006-qld) |-|-|-|447,500|-
 | [Kelvin Grove](https://www.realestate.com.au/neighbourhoods/kelvin-grove-4059-qld)|-|870,000|-|440,000|629,607
 | [Newmarket](https://www.realestate.com.au/neighbourhoods/newmarket-4051-qld)|-|820,500|1,100,500|411,000|557,500|
+|[Alderley](https://www.realestate.com.au/neighbourhoods/alderley-4051-qld)|-|850,000|1,037,500|380,000|632,500|
+|[Enoggera](https://www.realestate.com.au/neighbourhoods/enoggera-4051-qld)|637,500|743,750|950,000|416,000|499,100|
 |[Chermside](https://www.realestate.com.au/neighbourhoods/chermside-4032-qld)|-|690,000|830,000|374,500|461,250
 |[Chermside West](https://www.realestate.com.au/neighbourhoods/chermside-west-4032-qld)|-|643,750|710,000|-|-|
+|[The Gap](https://www.realestate.com.au/neighbourhoods/the-gap-4061-qld)|-|750,000|890,500|-|682,500|
+|[Everton Park](https://www.realestate.com.au/neighbourhoods/everton-park-4053-qld)|535,000|678,000|721,000|368,500|507,500|
 | [Kenmore](https://www.realestate.com.au/neighbourhoods/kenmore-4069-qld)|-|750,000|847,750|-|725,500
 | [Kenmore Hills](https://www.realestate.com.au/neighbourhoods/kenmore-hills-4069-qld)|-|-|980,000|-|-|
 | [West End](https://www.realestate.com.au/neighbourhoods/west-end-4101-qld)|-|1,150,000|1,235,000|534,500|884,000
