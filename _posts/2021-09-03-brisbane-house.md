@@ -39,3 +39,9 @@ tags: ["life"]
 
 
 * BR for bedroom
+
+To do: 学区信息
+
+- [edmap](https://www.qgso.qld.gov.au/maps/edmap/)
+- [myschool](https://www.myschool.edu.au/)
+- [advice from QLD government](https://www.qld.gov.au/law/housing-and-neighbours/buying-and-selling-a-property/buying-a-home)
