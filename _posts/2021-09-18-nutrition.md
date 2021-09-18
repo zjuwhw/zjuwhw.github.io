@@ -7,6 +7,7 @@ tags: ["life"]
 
 关注一些食品袋上的营养成分表（Nutrition information）。
 
+<img src="/images/nutrition/nutrition01_198.jpeg" alt="" width="200"/>
 
 ![](/images/nutrition/nutrition01_198.jpeg)
 
