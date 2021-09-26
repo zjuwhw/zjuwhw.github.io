@@ -12,6 +12,7 @@ CV:
 thesis:
 
 - [master (in Chinese)](/documents/master_thesis.pdf)
+- [phd (in English)](https://espace.library.uq.edu.au/view/UQ:a4f8ceb)
 
 Email:
 
@@ -31,6 +32,7 @@ Accounts:
 - [Quora](https://www.quora.com/profile/Wang-Huanwei)
 - [Facebook](https://www.facebook.com/zju.whw)
 - [Twitter](https://twitter.com/zjuwhw)
+- [UQ Researcher](https://researchers.uq.edu.au/researcher/30551)
 
 
 Blogs:
