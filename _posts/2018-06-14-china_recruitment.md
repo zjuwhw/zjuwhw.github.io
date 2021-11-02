@@ -17,6 +17,21 @@ tags: ["life"]
 - [Nature index 2021: China](https://www.nature.com/collections/fajdbdifgf)
 - [Nature jobs](https://www.nature.com/naturecareers/jobs/search?text=&location=china)
 
+### [暂艳君](https://scholar.google.se/citations?user=mDYaiRYAAAAJ&hl=zh-CN)博士bilibili视频
+
+- [2018-2020 过去三年去国内高校科研单位求职的几点启发](https://www.bilibili.com/video/BV1uh41117Ht)
+- [高校招聘启事中的晦涩词解读（编制支持与考核）](https://www.bilibili.com/video/BV1HK4y1p7oE)
+- [如何把高校教职申请材料写活-高校教职申请系列三](https://www.bilibili.com/video/BV16v4y1o7kw)
+- [高校求职投完简历之后的准备](https://www.bilibili.com/video/BV1vy4y1Y748)
+- [高校求职系列之五-拿到offer该谈什么、注意什么？](https://www.bilibili.com/video/BV1Yy4y1J7gi)
+
+### “四青”
+
+- 海外优青：[国家自然科学基金优秀青年科学基金项目（海外）项目指南](https://www.nsfc.gov.cn/publish/portal0/tab442/info79819.htm)
+- 国内优青
+- 青年拔尖: [解读青年拔尖人才支持计划](http://www.mohrss.gov.cn/SYrlzyhshbzb/zcfg/SYzhengcejiedu/201303/t20130309_87378.html)
+- 青年长江
+
 ### Research study
 
 - [When international mobility meets local connections: Evidence from China](https://academic.oup.com/spp/article-abstract/46/4/518/5364332?redirectedFrom=fulltext)
@@ -42,9 +57,9 @@ tags: ["life"]
 
 ### 研究人员
 
-- 西湖大学：[杨剑](https://www.westlake.edu.cn/info/1085/4903.htm)，[郑厚峰](https://www.westlake.edu.cn/info/1085/3834.htm)
-- 浙江大学：王立铭（[homepage](http://lsi.zju.edu.cn/25674/list.htm), [google scholar](https://scholar.google.com/citations?user=er1LWUoAAAAJ&hl=en)），[郭国骥](http://person.zju.edu.cn/ggj)
-- 上海交通大学医学院：[刘晗](http://www.sih.org.cn/people.asp?id=9)，[孙晓建](http://www.sih.org.cn/people.asp?id=13)，[冯建东](http://person.zju.edu.cn/feng)，[卢敏](http://www.sih.org.cn/people.asp?id=5)
+- 西湖大学：[杨剑](https://sls.westlake.edu.cn/en/Faculty/202006/t20200629_6050.shtml)，[郑厚峰](https://sls.westlake.edu.cn/en/Faculty/201912/t20191202_2406.shtml)
+- 浙江大学：王立铭（[homepage](http://lsi.zju.edu.cn/25674/list.htm), [google scholar](https://scholar.google.com/citations?user=er1LWUoAAAAJ&hl=en)），[郭国骥](http://person.zju.edu.cn/ggj)，[冯建东](http://person.zju.edu.cn/feng)
+- 上海交通大学医学院：[刘晗](http://www.sih.org.cn/people.asp?id=9)，[孙晓建](http://www.sih.org.cn/people.asp?id=13)，[卢敏](http://www.sih.org.cn/people.asp?id=5)
 - 其他：许恒（[homepage](http://www.xuhenglab.cn/), [google scholar](https://scholar.google.com/citations?hl=en&user=W__QlMEAAAAJ&view_op=list_works&sortby=pubdate)）
 ，李国亮（[homepage](http://guolianglab.org/index.php), [google scholar](https://scholar.google.com/citations?user=s9n7-fQAAAAJ&hl=en)），费腾（[homepage](http://faculty.neu.edu.cn/feiteng/index.html), [google scholar](https://scholar.google.com/citations?user=K4Q0r-cAAAAJ&hl=en)）
 
