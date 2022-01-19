@@ -21,14 +21,19 @@ tags: ["life", "medi"]
 - 澳洲
 	- [澳大利亚健康部门-current situation](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers)
 		- [昆士兰州-Current status ](https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts)
-	- [ABC news](https://www.abc.net.au/)
 	- [COVID LIVE](https://covidlive.com.au/)
+	- [ABC COVID spread](https://www.abc.net.au/news/2020-03-17/coronavirus-cases-data-reveals-how-covid-19-spreads-in-australia/12060704)
+	- [ABC Vaccine tracker](https://www.abc.net.au/news/2021-03-02/charting-australias-covid-vaccine-rollout/13197518)
+
 - 世界
 	- [世界卫生组织（WHO) - situation report](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/)
 	- [约翰霍普金斯大学CSSE - tracking map](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 	- [明尼苏达大学病例地图列表](http://www.cidrap.umn.edu/covid-19/maps-visuals)
 	- [worldometers](https://www.worldometers.info/coronavirus/)
 	- [our world in data](https://ourworldindata.org/coronavirus)
+	- [New York times Vaccine Tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html)
+	- [New York times treatment tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-drugs-treatments.html)
+	- [Bloomberg Vaccined tracker](https://www.bloomberg.com/graphics/covid-vaccine-tracker-global-distribution/)
 
 
 ## 相关措施
@@ -98,12 +103,7 @@ tags: ["life", "medi"]
 - [dr muge cevik(@mugecevik)](https://twitter.com/mugecevik/status/1221020657242333184)
 - [子陵在听歌](https://weibo.com/529645621?topnav=1&wvr=6&topsug=1&is_all=1)
 
-### Tracker
 
-- [New York times Vaccine Tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html)
-- [New Yorkm times treatment tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-drugs-treatments.html)
-- [Bloomberg Vaccined tracker](https://www.bloomberg.com/graphics/covid-vaccine-tracker-global-distribution/)
-- [ABC Vaccine tracker](https://www.abc.net.au/news/2021-03-02/charting-australias-covid-vaccine-rollout/13197518)
 
 ## Others
 
