@@ -18,3 +18,4 @@ tags: ["genetics", "China"]
 - Westlake BioBank for Chinese (WBBC): [paper1](https://www.biorxiv.org/content/10.1101/2021.02.06.430086v1), [paper2](https://www.medrxiv.org/content/10.1101/2020.12.16.20248291v1), [website](https://wbbc.westlake.edu.cn/index.html)
 - [中国队列共享平台](http://chinacohort.bjmu.edu.cn/)
 - Guangxi, China: the Fangchenggang Area Male Health and Examination Survey (FAMHES) with 4,303 men [paper1](https://link.springer.com/article/10.1007/s43657-021-00023-0)
+- [4D-SZ](https://www.sciencedirect.com/science/article/pii/S2590097821000070)

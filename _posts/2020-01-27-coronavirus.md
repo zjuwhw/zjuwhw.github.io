@@ -34,6 +34,7 @@ tags: ["life", "medi"]
 	- [New York times Vaccine Tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html)
 	- [New York times treatment tracker](https://www.nytimes.com/interactive/2020/science/coronavirus-drugs-treatments.html)
 	- [Bloomberg Vaccined tracker](https://www.bloomberg.com/graphics/covid-vaccine-tracker-global-distribution/)
+	- [IHME COVID projection](https://covid19.healthdata.org/global)
 
 
 ## 相关措施
