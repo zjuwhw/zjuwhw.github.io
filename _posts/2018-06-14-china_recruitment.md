@@ -40,7 +40,8 @@ tags: ["life"]
 ### 官方链接
 
 - 北京：[北京生命科学研究所](http://www.nibs.ac.cn/), [北京大学生命科学学院](http://www.bio.pku.edu.cn/), [清华大学生命科学学院](https://life.tsinghua.edu.cn/)
-- 江浙沪：[浙江大学博士后网站](https://hr.zju.edu.cn/postdoctor/), [浙江大学生命科学研究院](http://lsi.zju.edu.cn/25132/list.htm), [浙江大学遗传学研究所](http://www.ig.zju.edu.cn/), [浙江大学医学中心](http://www.med-x.zju.edu.cn/hnwzp/list.htm), [温州医科大学](http://rsc.wmu.edu.cn/)，[南京医科大学](http://rsc.njmu.edu.cn/2019/0402/c10978a145785/page.htm)
+- 江浙沪：[复旦大学人类表型研究院](https://hupi.fudan.edu.cn/kxyj/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1069)，[浙江大学博士后网站](https://hr.zju.edu.cn/postdoctor/), [浙江大学生命科学研究院](http://lsi.zju.edu.cn/25132/list.htm), [浙江大学遗传学研究所](http://www.ig.zju.edu.cn/), [浙江大学医学中心](http://www.med-x.zju.edu.cn/hnwzp/list.htm), [温州医科大学](http://rsc.wmu.edu.cn/)，[南京医科大学](http://rsc.njmu.edu.cn/2019/0402/c10978a145785/page.htm), 苏州系统医学研究所([官网](http://www.ismsz.cn/Index/PageJOB/640d0819-f0b1-4975-a349-1b41502f35ac), [Nature jobs](https://www.nature.com/naturecareers/job/suzhou-institute-of-systems-medicine-seeking-postdoctoral-research-fellows-suzhou-institute-of-systems-medicine-ism-cams-pumc-750420))
+- 珠三角：[南方科技大学生科院](https://bio.sustech.edu.cn/)
 - 东北：[东北大学生命科学与健康学院](http://www.clhs.neu.edu.cn/)([人才招聘](http://www.clhs.neu.edu.cn/1949/list.htm))， [中国医科大学](https://www.cmu.edu.cn/) ([Nature job(old)](https://www.nature.com/naturecareers/job/china-medical-university-seeking-talents-home-and-abroad-china-medical-university-cmu-723578)), [大连理工大学生物工程学院](https://life.dlut.edu.cn/index.htm)([人才招聘](https://life.dlut.edu.cn/rczp/rczp.htm))
 - [南方科技大学](http://talent.sustech.edu.cn/rsfw/sys/zpglxt/extranet/index.do#/gsxq/1/257f589e45a04124acd69b21b4263e6f)
 - 西湖大学
