@@ -125,3 +125,9 @@ tags: ["life"]
 - 2021年3月8-9日，买了RACQ全险（777.47刀）+RACQ Roadside assistant（109刀）。
 - 2021年3月10日，去[Vulture Street Car service](http://www.vulturestreetgarage.com.au/)进行保养，花费165刀。
 - 2021年8月26日，Vulture Street car service，花费175刀。
+- 2022年1月25日，Vulture Street car service，保养+换雨刷器，花费未知。
+- 2022年1月25日, 更新了rego，755.35刀
+- 2022年2月11日，去Vulture Street car service，修车（黄色引擎指示灯亮，有时会突然失去动力，有时会无法倒车）；建议找Ford dealer处理，有可能会在保修期
+- 2022年2月17日，去Ford dealer（Newstead），是transmission control model的问题，更新软件解决，免费。
+- 2022年2月20日，黄色指示灯问题再次出现，无法倒车，手动推车，导致车撞围栏，后玻璃撞碎。
+- 2022年3月1日，到Vulture Street Car service，修后玻璃，380刀

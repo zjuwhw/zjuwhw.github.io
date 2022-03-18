@@ -16,7 +16,7 @@ tags: ["life", "medi"]
 - 中国
 	- [国家卫生健康委](http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml)
 		- [湖北省](http://wjw.hubei.gov.cn/fbjd/dtyw/), [上海市](http://wsjkw.sh.gov.cn/xwfb/index.html), [辽宁省](http://wsjk.ln.gov.cn/wst_zdzt/xxgzbd/yqtb/)，[河北省](http://www.hebwst.gov.cn/xxgzbdfyyqfk/index.jhtml)
-	- [丁香园实时地图](https://3g.dxy.cn/newh5/view/pneumonia)
+	- 疫情地图： [丁香园](https://3g.dxy.cn/newh5/view/pneumonia)； [网易](https://wp.m.163.com/163/page/news/virus_report/index.html?_nw_=1&_anw_=1)
 	- [澎湃新闻](https://www.thepaper.cn/)
 - 澳洲
 	- [澳大利亚健康部门-current situation](https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers)
@@ -81,6 +81,7 @@ tags: ["life", "medi"]
 - [Science](https://www.sciencemag.org/tags/coronavirus)
 - [Eurosurveillance](https://www.eurosurveillance.org/content/2019-ncov)
 - [BMJ](https://www.bmj.com/coronavirus)
+- [China CDC weekly](https://weekly.chinacdc.cn/)
 
 ### 研究机构网站:
 - [伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/): 
@@ -102,7 +103,7 @@ tags: ["life", "medi"]
 - [哈佛大学公共卫生学院twitter](https://twitter.com/CCDD_HSPH/status/1222257431230631936)
 - [Marc Lipsitch](https://twitter.com/mlipsitch)
 - [dr muge cevik(@mugecevik)](https://twitter.com/mugecevik/status/1221020657242333184)
-- [子陵在听歌](https://weibo.com/529645621?topnav=1&wvr=6&topsug=1&is_all=1)
+- [子陵在听歌](https://weibo.com/529645621)
 
 
 
