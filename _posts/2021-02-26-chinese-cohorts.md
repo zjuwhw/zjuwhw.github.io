@@ -19,3 +19,6 @@ tags: ["genetics", "China"]
 - [中国队列共享平台](http://chinacohort.bjmu.edu.cn/)
 - Guangxi, China: the Fangchenggang Area Male Health and Examination Survey (FAMHES) with 4,303 men [paper1](https://link.springer.com/article/10.1007/s43657-021-00023-0)
 - [4D-SZ](https://www.sciencedirect.com/science/article/pii/S2590097821000070)
+- gut microbiome and blood metabolites from BGI-Shenzhen, "3,432 Chinese individuals with whole-genome, whole-metagenome, anthropometric and blood metabolic trait data" - [Liu et al. Nature Genetics 2022](https://www.nature.com/articles/s41588-021-00968-y)
+- COVID gwas from Wang Chaolong group at Wuhan, "genotyped 1457 (598/859 with severe/mild symptoms) and sequenced 1141 (severe/mild: 474/667) patients of Chinese ancestry" - [Wu et al. Communications biology, 2021](https://www.nature.com/articles/s42003-021-02549-5)
+- fingerprint gwas from Jin Li group at Fudan/Shanghai, "9,909 individuals from three Han Chinese cohorts" - [Li et al. Cell, 2022](https://doi.org/10.1016/j.cell.2021.12.008)
