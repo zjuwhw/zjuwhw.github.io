@@ -131,3 +131,9 @@ tags: ["life"]
 - 2022年2月17日，去Ford dealer（Newstead），是transmission control model的问题，更新软件解决，免费。
 - 2022年2月20日，黄色指示灯问题再次出现，无法倒车，手动推车，导致车撞围栏，后玻璃撞碎。
 - 2022年3月1日，到Vulture Street Car service，修后玻璃，380刀
+- 2022年3月25日，再次去Ford dealer（Newstead），这次说需要等待3个月去更换TCM。目前正在联系13ford安排另外一辆车供使用。
+
+Ford TCM recall：
+
+- [https://www.youtube.com/watch?v=SAtpPOXf6co&t=0s](https://www.youtube.com/watch?v=SAtpPOXf6co&t=0s)
+- [https://www.youtube.com/watch?v=wUatcpvUONA](https://www.youtube.com/watch?v=wUatcpvUONA)
