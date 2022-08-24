@@ -901,6 +901,11 @@ Test statistic = $\displaystyle\sum{\frac{(o - e)^2}{e}}$ over all categories ~ 
 	- SD = sqrt(2 * degrees of freedom)
 	- As the degrees of freedom increase, the chi-square curve looks more and more like a normal curve.
 
+```{r}
+x = matrix(c(54, 40, 51, 39, 16, 45, 45, 45, 45, 20), nrow=2, byrow=T)
+chisq.test(x[1,], p=x[2,]/sum(x[2,]), correct=F)
+```
+
 #### 5.2 How Fisher used the chi-squared test
 
 - Test raises questions about the accuracy of Mendel's data: the deviations from his models were smaller than would be expected by chance.

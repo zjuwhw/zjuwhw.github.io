@@ -64,6 +64,10 @@ tags: ["life"]
 - 其他：许恒（[homepage](http://www.xuhenglab.cn/), [google scholar](https://scholar.google.com/citations?hl=en&user=W__QlMEAAAAJ&view_op=list_works&sortby=pubdate)）
 ，李国亮（[homepage](http://guolianglab.org/index.php), [google scholar](https://scholar.google.com/citations?user=s9n7-fQAAAAJ&hl=en)），费腾（[homepage](http://faculty.neu.edu.cn/feiteng/index.html), [google scholar](https://scholar.google.com/citations?user=K4Q0r-cAAAAJ&hl=en)）
 
+### 学术会议
+
+[华大智造，2022，北京](https://mp.weixin.qq.com/s/0KzpYFuOUmHFoDBhxqokEw)
+
 ### 存档
 
 由于[千人计划不公开宣传](https://www.nature.com/articles/d41586-018-07167-6)，以下链接目前已经失效。
