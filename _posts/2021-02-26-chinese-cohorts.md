@@ -24,3 +24,8 @@ tags: ["genetics", "China"]
 - fingerprint gwas from Jin Li group at Fudan/Shanghai, "9,909 individuals from three Han Chinese cohorts" - [Li et al. Cell, 2022](https://doi.org/10.1016/j.cell.2021.12.008)
 
 - [zhishifenzi: 中国百万人群大队列，何去何从？](http://zhishifenzi.com/news/multiple/12221.html)
+
+- NyuWa Chinese Population Variant Database (NCVD): [paper](https://www.sciencedirect.com/science/article/pii/S2211124721014996?via%3Dihub), [website](http://bigdata.ibp.ac.cn/NyuWa_variants/index.phps)
+- Chinese Millionome Database: [paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac638/6649379), [website](http://cmdb.bgi.com/cmdb/about)
+
+- [China Kadoorie Biobank](https://www.medrxiv.org/content/10.1101/2022.05.02.22274487v1)

@@ -15,8 +15,8 @@ tags: ["life"]
 |:--|:--|:--|:--|:--|
 |睡觉|	Cot（婴儿床）|	200-300|	Ikea1，ikea2|Sundvik （179, 9/May/2021）|
 ||	Cot mattress (婴儿床垫)|	50-100|	Ikea1, ikea2|JATTEROTT (99)|
-||	Cot bedlinen/sheets (床单)	25/4-piece|Ikea1, ikea2|LENAST(16.99/2-pack)
-||交通	|Restrain/car seat（安全座椅）：rear-facing child car seat, forward-facing child car seat， booster seat|	200-1000	|babybunting|Britax Graphene (469) from Babybunting|
+||	Cot bedlinen/sheets (床单)	|25/4-piece|Ikea1, ikea2|LENAST(16.99/2-pack)
+|交通	|Restrain/car seat（安全座椅）：rear-facing child car seat, forward-facing child car seat， booster seat|	200-1000	|babybunting|Britax Graphene (469) from Babybunting|
 ||	stroller/pram (婴儿推车）|	100-2000|	babybunting|second-hand, bugboo fox, 20/Jun/2021, $750|
 ||	baby carrier (婴儿背带）|	50-500	|babybunting|ergobaby omni 360 air mesh, 2nd-hand (100 AUD, including 15 AUD delivery fee), 26/May/2021|
 |喂养/尿布/洗澡|	Nappies (尿不湿）|0.14-0.25/nappy|Aldi|Huggies newborn 108PACK up to 5kg (30);MAMIA 28 nappies (3.99);Huggies 2 infant 96PACK 4-8 kg (30 + 24.99)
