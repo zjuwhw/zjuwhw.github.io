@@ -14,7 +14,7 @@ This is a collection of URLs/links I'm following.
 
 ### My lab
 
-- [PCTG](http://cnsgenomics.com/), [Jian Yang](https://en.westlake.edu.cn/academics/School_of_Life_Science/About/Faculty/202006/t20200629_6050.shtml), [Peter Visscher](https://researchers.uq.edu.au/researcher/1487), [Naomi Wray](https://researchers.uq.edu.au/researcher/2006), [Joseph Powell](https://www.garvan.org.au/people/jospow), [Matthew Robinson](http://wp.unil.ch/ctgg), [Hong Lee](https://sites.google.com/site/honglee0707/), [Jacob Gratten](https://scholar.google.com.au/citations?user=5XK9FO4AAAAJ&hl=en), [Beben Benyamin](http://people.unisa.edu.au/Beben.Benyamin), [Gibran Hemani](http://www.bristol.ac.uk/social-community-medicine/people/gibran-hemani/index.html), [Albert Tenesa](https://www.ed.ac.uk/roslin/about/contact-us/staff/albert-tenesa), [Robert Maier](http://scholar.google.com/citations?user=eA5L1TcAAAAJ&hl=en), [Yang Wu](https://scholar.google.com/citations?user=Xu-FkbkAAAAJ&hl=en)
+- [PCTG](http://cnsgenomics.com/), [Jian Yang](https://yanglab.westlake.edu.cn/), [Peter Visscher](https://researchers.uq.edu.au/researcher/1487), [Naomi Wray](https://researchers.uq.edu.au/researcher/2006), [Joseph Powell](https://www.garvan.org.au/people/jospow), [Matthew Robinson](http://wp.unil.ch/ctgg), [Hong Lee](https://sites.google.com/site/honglee0707/), [Jacob Gratten](https://scholar.google.com.au/citations?user=5XK9FO4AAAAJ&hl=en), [Beben Benyamin](http://people.unisa.edu.au/Beben.Benyamin), [Gibran Hemani](http://www.bristol.ac.uk/social-community-medicine/people/gibran-hemani/index.html), [Albert Tenesa](https://www.ed.ac.uk/roslin/about/contact-us/staff/albert-tenesa), [Robert Maier](http://scholar.google.com/citations?user=eA5L1TcAAAAJ&hl=en), [Yang Wu](https://scholar.google.com/citations?user=Xu-FkbkAAAAJ&hl=en)
 - [Kankan Wang](http://daoshi.shsmu.edu.cn/Pages/TeacherInformationView.aspx?uid=A32E6543-1E2C-4136-91D8-C5E48D6396BC&from=s&pId=&tId=720), [Hai Fang](http://www.cs.bris.ac.uk/~hfang/), [Jiantao Shi](https://jiantaoshi.github.io/index.html), [Zhaohui Gu](https://gu-lab20.github.io/), [Maoxiang Qian](https://scholar.google.com/citations?hl=en&user=eh4qN6QAAAAJ&view_op=list_works&sortby=pubdate), [Hui Zhang](http://www.gzfezx.com/a/201809/2507852.html), [Yun Tan](http://scholar.google.com/citations?user=5z36TzcAAAAJ&hl=zh-CN)
 	- [Xianyang Li](https://scholar.google.com/citations?hl=en&user=6qSh9sIAAAAJ&view_op=list_works&sortby=pubdate)
 - Feng Han ([南京医科大学网站](http://english.njmu.edu.cn/_t965/2019/0126/c11686a142560/page.htm), [ResearchGate](https://www.researchgate.net/profile/Feng_Han7), [His Lab](https://www.prof-hanlab.com/)), Gensheng Zhang ([Google scholar](https://scholar.google.com/citations?user=oxpzF-EAAAAJ&hl=en), [His Lab](https://person.zju.edu.cn/6521028))，[Jiyun Huang](https://scholar.google.com/citations?user=jUaNZpcAAAAJ&hl=en), [Yingxian Chen](https://www.linkedin.com/in/yingxian-chen-16445a1b/), [Rongrong Tao](http://scrcam.gzucm.edu.cn/kytd/yjrc.htm), Yuelong Ji([linkedin](https://www.linkedin.com/in/yuelong-ji-9574b735/), [Peking university](https://sph.pku.edu.cn/info/1757/5432.htm))
@@ -155,6 +155,14 @@ Jan Vijg: [SJTU](https://www.shsmu.edu.cn/sph-cscomics/index.htm), [Labpage](htt
 - [Nature Genetics](http://www.nature.com/ng/index.html), [Nature Review Genetics](http://www.nature.com/nrg/index.html), [American Journal of Human Genetics](http://www.cell.com/ajhg/home), [Trend in Genetics](http://www.cell.com/trends/genetics/home), [Human Molecular Genetics](https://academic.oup.com/hmg)
 - [Blood](http://bloodjournal.hematologylibrary.org/), [Leukemia](http://www.nature.com/leu/index.html)
 - [Genome Research](http://genome.cshlp.org/), [Genome Biology](https://genomebiology.biomedcentral.com/), [Nature Review Cancer](http://www.nature.com/nrc/index.html), [Nature biotechnology](http://www.nature.com/nbt/index.html), [PLOS Computational Biology](http://www.ploscompbiol.org/)
+
+## Conference
+
+- [American Society of Human Genetics Annual meeting (ASHG)](https://www.ashg.org/meetings/2022-annual-meeting/)
+- [International Conference of Quantitative Genetics (ICQG)](https://icqg6.org/)
+- [Gene Mappers](https://www.genemappers2023.org/)
+- [European Society of Human Genetics (ESHG)](https://www.eshg.org/index.php?id=94)
+- [全球华人遗传学大会](http://www.gccgkx.com/)
 
 ## Softwares
 - [PLINK (v1.07)](http://zzz.bwh.harvard.edu/plink/), [PLINK2 (v1.9 beta)](https://www.cog-genomics.org/plink2), [GCTA](http://cnsgenomics.com/software/gcta/), [SMR](http://cnsgenomics.com/software/smr/index.html), [GSMR](http://cnsgenomics.com/software/gsmr/index.html), [OSCA](http://cnsgenomics.com/software/osca/#Overview)
