@@ -12,7 +12,7 @@ CV:
 thesis:
 
 - [master (in Chinese)](/documents/master_thesis.pdf)
-- [phd (in English)](https://espace.library.uq.edu.au/view/UQ:a4f8ceb)
+- [phd (in English)](/documents/phd_final_thesis.pdf)
 
 Email:
 
