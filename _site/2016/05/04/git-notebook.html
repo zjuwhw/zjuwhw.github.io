@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Git学习笔记</h1>
-    <p class="post-meta"><time datetime="2016-05-04T00:00:00+08:00" itemprop="datePublished">May 4, 2016</time></p>
+    <p class="post-meta"><time datetime="2016-05-04T00:00:00+10:00" itemprop="datePublished">May 4, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -110,13 +112,13 @@
 
 <h2 id="chapter-1-getting-started">Chapter 1: Getting Started</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>配置文件
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>配置文件
 /etc/gitconfig
 ~/.gitconfig or ~/.config/git/config
 .git/config
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#全局设置
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#全局设置
 git config --global core.editor vim
 #局部设置
 git config --local user.name "name"
@@ -127,23 +129,23 @@ git config --list
 
 <h2 id="chapter-2-git-basics">Chapter 2: Git Basics</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#Add file contents to the index
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#Add file contents to the index
 git add filename
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#Record changes to the repository
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#Record changes to the repository
 git commit #打开文本编辑器
 git commit -m "your text"
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#克隆到本地
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#克隆到本地
 git clone https://github.com/zjuwhw/test-repo
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#查看状态
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#查看状态
 #-untracted
 #-tracked: unmodified, modified, staged
 git status
 git status -s #简短显示
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#忽略跟踪文件或文件夹".gitignore"
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#忽略跟踪文件或文件夹".gitignore"
 $cat .gitignore
 *.a
 *.o
@@ -151,22 +153,22 @@ $cat .gitignore
 build/ #忽略文件夹
 doc/**/*.pdf
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#查看区别
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#查看区别
 git diff
 git diff --staged
 git diff --cached
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#不再跟踪文件
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#不再跟踪文件
 git rm filename
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#重命名
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#重命名
 git mv old_filename new_filename
 #相当于
 mv old_filename new_filename
 git rm old_filename
 git add new_filename
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#查阅历史
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#查阅历史
 git log
 git log -p #显示不同
 git log -n #显示几个
@@ -177,7 +179,7 @@ git log --graph
 git log --since=2.weeks
 git log --since="2008-10-01"
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#git log的format参数支持的特定格式
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#git log的format参数支持的特定格式
 </code></pre></div></div>
 
 <table>
@@ -241,18 +243,18 @@ git log --since="2008-10-01"
   </tbody>
 </table>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#remote
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#remote
 git remote
 git remote -v
 git remote add origin https://github.com/name/repo.git
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch
 git push origin master
 </code></pre></div></div>
 
 <h2 id="chapter-3-git-branching">Chapter 3: Git Branching</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#查看branch
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#查看branch
 git branch
 #新建branch
 git branch newbranch
@@ -261,10 +263,10 @@ git checkout newbranch
 #新建并切换branch
 git checkout -b newbranch
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#log中查看branch信息
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#log中查看branch信息
 git log --decorate
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#合并一个分支
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#合并一个分支
 git checkout master
 git merge issue#2940
 #删除一个分支
@@ -272,7 +274,7 @@ git branch -d issue#2940
 #删除一个远端的分支
 git push origin --delete issue#2940
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#查看merged或没有merged的分支
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#查看merged或没有merged的分支
 git branch --merged
 git branch --no-merged
 </code></pre></div></div>

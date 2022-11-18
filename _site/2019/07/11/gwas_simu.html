@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">GWAS simulation setting - constant value vs random variable</h1>
-    <p class="post-meta"><time datetime="2019-07-11T00:00:00+08:00" itemprop="datePublished">Jul 11, 2019</time></p>
+    <p class="post-meta"><time datetime="2019-07-11T00:00:00+10:00" itemprop="datePublished">Jul 11, 2019</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -149,7 +151,7 @@
 
 <p>We can verify the above in R</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set.seed(7)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>set.seed(7)
 n=10000; rep=500; res=c()
 for(repindex in 1:rep){
     f = runif(1, 0.1, 0.5)

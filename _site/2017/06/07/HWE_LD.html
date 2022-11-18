@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">HWE and LD</h1>
-    <p class="post-meta"><time datetime="2017-06-07T00:00:00+08:00" itemprop="datePublished">Jun 7, 2017</time></p>
+    <p class="post-meta"><time datetime="2017-06-07T00:00:00+10:00" itemprop="datePublished">Jun 7, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -125,27 +127,27 @@
 
 <p>So, the count of A and a alleles are:</p>
 
-<script type="math/tex; mode=display">n_{A} = 2 \times n_{AA} + n_{Aa}</script>
+\[n_{A} = 2 \times n_{AA} + n_{Aa}\]
 
-<script type="math/tex; mode=display">n_{a} = 2 \times n_{aa} + n_{Aa}</script>
+\[n_{a} = 2 \times n_{aa} + n_{Aa}\]
 
 <p>The frequencies of A and a alleles are:</p>
 
-<script type="math/tex; mode=display">p_{A} = \frac{n_{A}}{2n} = \frac{2 \times n_{AA} + n_{Aa}}{2n} = p_{AA} + \frac{1}{2}p_{Aa}</script>
+\[p_{A} = \frac{n_{A}}{2n} = \frac{2 \times n_{AA} + n_{Aa}}{2n} = p_{AA} + \frac{1}{2}p_{Aa}\]
 
-<script type="math/tex; mode=display">p_{a} = \frac{n_{a}}{2n} = \frac{2 \times n_{aa} + n_{Aa}}{2n} = p_{aa} + \frac{1}{2}p_{Aa}</script>
+\[p_{a} = \frac{n_{a}}{2n} = \frac{2 \times n_{aa} + n_{Aa}}{2n} = p_{aa} + \frac{1}{2}p_{Aa}\]
 
-<script type="math/tex; mode=display">p_{A} = 1 - p_{a}</script>
+\[p_{A} = 1 - p_{a}\]
 
 <h4 id="from-allele-to-genotype-frequencies---hwe">From Allele to Genotype frequencies - HWE</h4>
 
 <p>We cannot directly get genotype frequencies from allele frequencies. But under Hardy-Weiberge Equilibrium, we can do it by</p>
 
-<script type="math/tex; mode=display">p_{AA} = p_{A}^{2}</script>
+\[p_{AA} = p_{A}^{2}\]
 
-<script type="math/tex; mode=display">p_{Aa} = 2p_{A}p_{a}</script>
+\[p_{Aa} = 2p_{A}p_{a}\]
 
-<script type="math/tex; mode=display">p_{aa} = p_{a}^{2}</script>
+\[p_{aa} = p_{a}^{2}\]
 
 <p>The assumptions for HWE includes:</p>
 
@@ -159,7 +161,7 @@
 
 <p>In addition, we can see genotype frequencies is a binomial distribution. If SNP genotpes are coded X = 0, 1 and 2 (alleles) and the allele frequency is p, then:</p>
 
-<script type="math/tex; mode=display">X \sim B(2, p)\text{ with }E(X) = 2p\text{ and }Var(X)=2p(1-p)</script>
+\[X \sim B(2, p)\text{ with }E(X) = 2p\text{ and }Var(X)=2p(1-p)\]
 
 <p>We can plot the distribution of three different genotypes. In real genetics, we usually use the minor allele, so p is less than 0.5.</p>
 
@@ -183,13 +185,13 @@ abline(v = 0.5, lty=2)
 
 <p>For Chi-square test:</p>
 
-<script type="math/tex; mode=display">\chi^{2} = \frac{(n_{AA}-e{AA})^2}{e_{AA}} + \frac{(n_{Aa}-e{Aa})^2}{e_{Aa}} + \frac{(n_{aa}-e{aa})^2}{e_{aa}}</script>
+\[\chi^{2} = \frac{(n_{AA}-e{AA})^2}{e_{AA}} + \frac{(n_{Aa}-e{Aa})^2}{e_{Aa}} + \frac{(n_{aa}-e{aa})^2}{e_{aa}}\]
 
 <p>where $e_{AA} = np_{A}^2$, $e_{Aa} = 2np_{A}p_{a}$, $e_{aa} = np_{a}^2$ and df = 1 (#genotype - #allele).</p>
 
 <p>For exact test:</p>
 
-<script type="math/tex; mode=display">P(N_{Aa}|N_{A}) = \frac{n_{A}!n_{a}!n!2^{n_{Aa}}}{\frac{1}{2}(n_{A}-n_{Aa})!n_{Aa}!\frac{1}{2}(n_{a}-n_{Aa})!(2n)!}</script>
+\[P(N_{Aa}|N_{A}) = \frac{n_{A}!n_{a}!n!2^{n_{Aa}}}{\frac{1}{2}(n_{A}-n_{Aa})!n_{Aa}!\frac{1}{2}(n_{a}-n_{Aa})!(2n)!}\]
 
 <p>For example, a sample with 2504 individuals, the observed genotypes are 2467/36/1 for AA, Aa and aa. We can do the chi-square test in R.</p>
 
@@ -202,7 +204,7 @@ abline(v = 0.5, lty=2)
 </span><span class="n">cat</span><span class="p">(</span><span class="n">O_geno</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 2467 36 1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 2467 36 1
 </code></pre></div></div>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">### Observed allele count and frequency</span><span class="w">
@@ -213,7 +215,7 @@ abline(v = 0.5, lty=2)
 </span><span class="n">cat</span><span class="p">(</span><span class="n">p_A</span><span class="p">,</span><span class="w"> </span><span class="n">p_a</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 0.9924121 0.007587859
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 0.9924121 0.007587859
 </code></pre></div></div>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">### Expected genotype count, under HWE</span><span class="w">
@@ -224,7 +226,7 @@ abline(v = 0.5, lty=2)
 </span><span class="n">cat</span><span class="p">(</span><span class="n">E_geno</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 2466.144 37.71166 0.1441693
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 2466.144 37.71166 0.1441693
 </code></pre></div></div>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">### Chi-square with df=1 (#genotypes - #alleles)</span><span class="w">
@@ -233,7 +235,7 @@ abline(v = 0.5, lty=2)
 </span><span class="n">cat</span><span class="p">(</span><span class="n">paste</span><span class="p">(</span><span class="s2">"chisq:"</span><span class="p">,</span><span class="w"> </span><span class="n">chisq</span><span class="p">,</span><span class="w"> </span><span class="s2">";"</span><span class="p">,</span><span class="s2">"pvalue: "</span><span class="p">,</span><span class="w"> </span><span class="n">pvalue</span><span class="p">))</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## chisq: 5.15844350552391 ; pvalue:  0.02313362043297
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## chisq: 5.15844350552391 ; pvalue:  0.02313362043297
 </code></pre></div></div>
 
 <p>We can also use the R package “HardyWeinberg” to do the chi-square test.</p>
@@ -243,7 +245,7 @@ abline(v = 0.5, lty=2)
 </span><span class="n">HWChisq</span><span class="p">(</span><span class="n">O_geno</span><span class="p">,</span><span class="w"> </span><span class="n">cc</span><span class="o">=</span><span class="m">0</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Chi-square test for Hardy-Weinberg equilibrium (autosomal)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Chi-square test for Hardy-Weinberg equilibrium (autosomal)
 ## Chi2 =  5.158444 DF =  1 p-value =  0.02313362 D =  -0.8558307 f =  0.04538812
 </code></pre></div></div>
 
@@ -252,7 +254,7 @@ abline(v = 0.5, lty=2)
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">HWExact</span><span class="p">(</span><span class="n">O_geno</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Haldane Exact test for Hardy-Weinberg equilibrium (autosomal)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Haldane Exact test for Hardy-Weinberg equilibrium (autosomal)
 ## using SELOME p-value
 ## sample counts: n =  2467 n =  36 n =  1 
 ## H0: HWE (D==0), H1: D &lt;&gt; 0 
@@ -288,16 +290,15 @@ abline(v = 0.5, lty=2)
 
 <p>More wildely used measures for LD are D’ (LEWONTIN 1964) and $r^{2}$ (HILL and ROBERTSON 1968).</p>
 
-<script type="math/tex; mode=display">D'_{AB} = \frac{D_{AB}}{D_{min}}</script>
+\[D'_{AB} = \frac{D_{AB}}{D_{min}}\]
 
-<script type="math/tex; mode=display">% <![CDATA[
-D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} < 0 %]]></script>
+\[D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} &lt; 0\]
 
-<script type="math/tex; mode=display">D_{min} = min(p_{A}p_{b}, p_{a}p_{B}), if D_{AB} > 0</script>
+\[D_{min} = min(p_{A}p_{b}, p_{a}p_{B}), if D_{AB} &gt; 0\]
 
 <p>D′ = 1 indicates that at least one of the four possible haplotypes is absent, regardless of the allele frequencies.</p>
 
-<script type="math/tex; mode=display">r^{2} = \frac{D^{2}}{p_{A}p_{a}p_{B}p_{b}}</script>
+\[r^{2} = \frac{D^{2}}{p_{A}p_{a}p_{B}p_{b}}\]
 
 <p>$r^{2}$ is a correlation coefficient of 1/0 (all or none) indicator variables indicating the presence of A and B.</p>
 
@@ -380,7 +381,7 @@ D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} < 0 %]]></script>
 </span><span class="n">cat</span><span class="p">(</span><span class="n">pab</span><span class="p">,</span><span class="w"> </span><span class="n">pAb</span><span class="p">,</span><span class="w"> </span><span class="n">paB</span><span class="p">,</span><span class="w"> </span><span class="n">pAB</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 0 0.006389776 0.0001996805 0.9934105
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 0 0.006389776 0.0001996805 0.9934105
 </code></pre></div></div>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#allele frequency</span><span class="w">
@@ -391,7 +392,7 @@ D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} < 0 %]]></script>
 </span><span class="n">cat</span><span class="p">(</span><span class="n">pa</span><span class="p">,</span><span class="w"> </span><span class="n">pA</span><span class="p">,</span><span class="w"> </span><span class="n">pb</span><span class="p">,</span><span class="w"> </span><span class="n">pB</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 0.0001996805 0.9998003 0.006389776 0.9936102
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 0.0001996805 0.9998003 0.006389776 0.9936102
 </code></pre></div></div>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#D</span><span class="w">
@@ -399,7 +400,7 @@ D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} < 0 %]]></script>
 </span><span class="n">cat</span><span class="p">(</span><span class="n">D</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## -1.275914e-06
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## -1.275914e-06
 </code></pre></div></div>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Dmin</span><span class="w">
@@ -407,7 +408,7 @@ D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} < 0 %]]></script>
 </span><span class="n">cat</span><span class="p">(</span><span class="n">Dmin</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## -1.275914e-06
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## -1.275914e-06
 </code></pre></div></div>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#D'</span><span class="w">
@@ -415,7 +416,7 @@ D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} < 0 %]]></script>
 </span><span class="n">cat</span><span class="p">(</span><span class="n">Ddot</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 1
 </code></pre></div></div>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#r-square</span><span class="w">
@@ -423,7 +424,7 @@ D_{min} = max(-p_{A}p_{B}, -p_{a}p_{b}), if D_{AB} < 0 %]]></script>
 </span><span class="n">cat</span><span class="p">(</span><span class="n">rsq</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 1.284376e-06
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 1.284376e-06
 </code></pre></div></div>
 
 <h3 id="reference">Reference</h3>

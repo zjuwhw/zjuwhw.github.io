@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,31 +104,31 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Shell commands to check data usage</h1>
-    <p class="post-meta"><time datetime="2018-05-29T00:00:00+08:00" itemprop="datePublished">May 29, 2018</time></p>
+    <p class="post-meta"><time datetime="2018-05-29T00:00:00+10:00" itemprop="datePublished">May 29, 2018</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>It’s good to check the status of your own data usage. Here are some commands I find useful. Check <code class="highlighter-rouge">man du</code>, <code class="highlighter-rouge">man df</code> or <code class="highlighter-rouge">man find</code> for more information.</p>
+    <p>It’s good to check the status of your own data usage. Here are some commands I find useful. Check <code class="language-plaintext highlighter-rouge">man du</code>, <code class="language-plaintext highlighter-rouge">man df</code> or <code class="language-plaintext highlighter-rouge">man find</code> for more information.</p>
 
-<h3 id="use-df-to-check-disk-space-usage">Use <code class="highlighter-rouge">df</code> to check disk space usage</h3>
+<h3 id="use-df-to-check-disk-space-usage">Use <code class="language-plaintext highlighter-rouge">df</code> to check disk space usage</h3>
 
-<p>The command <code class="highlighter-rouge">df</code> can be used to report disk space usage.</p>
+<p>The command <code class="language-plaintext highlighter-rouge">df</code> can be used to report disk space usage.</p>
 
 <p>Below is an example to report the space usage of disk /shares/compbio, which is for our group.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ df -h|grep comp
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ df -h|grep comp
 
 10.100.136.1@tcp:/compbio
                       100T   93T  2.2T  98% /shares/compbio
 </code></pre></div></div>
 
-<h3 id="use-du-to-check-file-space-usage">Use <code class="highlighter-rouge">du</code> to check file space usage</h3>
+<h3 id="use-du-to-check-file-space-usage">Use <code class="language-plaintext highlighter-rouge">du</code> to check file space usage</h3>
 
-<p>The command <code class="highlighter-rouge">du</code> can be used to report file space usage.</p>
+<p>The command <code class="language-plaintext highlighter-rouge">du</code> can be used to report file space usage.</p>
 
 <p>Here is an example to report the file space in my folder, where “–max-depth” is the option to set the level of directory/subdirectory and “–h” is the option to print in human-readable format.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 $ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
 
 76G    ./reference
@@ -137,20 +139,20 @@ $ du --max-depth 1 -h /shares/compbio/Group-Yang/huanwei.wang
 2.4T    .
 </code></pre></div></div>
 
-<h3 id="use-find-and-wc-to-count-the-file-number">Use <code class="highlighter-rouge">find</code> and <code class="highlighter-rouge">wc</code> to count the file number</h3>
+<h3 id="use-find-and-wc-to-count-the-file-number">Use <code class="language-plaintext highlighter-rouge">find</code> and <code class="language-plaintext highlighter-rouge">wc</code> to count the file number</h3>
 
-<p>The command <code class="highlighter-rouge">find</code> can be used to walk through all files and folders and we can combine <code class="highlighter-rouge">find</code> and <code class="highlighter-rouge">wc</code> to count the file number in your folder.</p>
+<p>The command <code class="language-plaintext highlighter-rouge">find</code> can be used to walk through all files and folders and we can combine <code class="language-plaintext highlighter-rouge">find</code> and <code class="language-plaintext highlighter-rouge">wc</code> to count the file number in your folder.</p>
 
 <p>Here is an example to count the number of files.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$  find /gpfs/gpfs01/polaris/Q0286/huanwei.wang -type f | wc -l
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$  find /gpfs/gpfs01/polaris/Q0286/huanwei.wang -type f | wc -l
 
 68737
 </code></pre></div></div>
 
 <p>Another example is to count the number of folders.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$  find /gpfs/gpfs01/polaris/Q0286/huanwei.wang -type d | wc -l
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$  find /gpfs/gpfs01/polaris/Q0286/huanwei.wang -type d | wc -l
 
 1498
 </code></pre></div></div>

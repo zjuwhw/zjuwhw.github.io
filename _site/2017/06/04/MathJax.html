@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Use MathJax to write Equations in Jekyll blogs</h1>
-    <p class="post-meta"><time datetime="2017-06-04T00:00:00+08:00" itemprop="datePublished">Jun 4, 2017</time></p>
+    <p class="post-meta"><time datetime="2017-06-04T00:00:00+10:00" itemprop="datePublished">Jun 4, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -111,10 +113,10 @@
 <h3 id="use-mathjax-for-jekyll">Use <a href="https://www.mathjax.org/">MathJax</a> for Jekyll</h3>
 
 <ul>
-  <li>insert the code in the <code class="highlighter-rouge">_layouts/default.html</code></li>
+  <li>insert the code in the <code class="language-plaintext highlighter-rouge">_layouts/default.html</code></li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script type="text/x-mathjax-config"&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;script type="text/x-mathjax-config"&gt;
 MathJax.Hub.Config({
   tex2jax: {
     inlineMath: [['$','$'], ['\\(','\\)']],
@@ -131,13 +133,13 @@ MathJax.Hub.Config({
 
 <p>I found <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">LaTex/Mathematics</a> is wildly used to write equations on the website, such as <a href="http://rmarkdown.rstudio.com/authoring_basics.html">rmarkdown</a>.</p>
 
-<p>For example, use <code class="highlighter-rouge">$$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$</code> to write</p>
+<p>For example, use <code class="language-plaintext highlighter-rouge">$$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$</code> to write</p>
 
-<script type="math/tex; mode=display">mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}</script>
+\[mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}\]
 
-<p>Use <code class="highlighter-rouge">k_{n+1} = n^2 + k_n^2 - k_{n-1}</code> to write</p>
+<p>Use <code class="language-plaintext highlighter-rouge">k_{n+1} = n^2 + k_n^2 - k_{n-1}</code> to write</p>
 
-<script type="math/tex; mode=display">k_{n+1} = n^2 + k_n^2 - k_{n-1}</script>
+\[k_{n+1} = n^2 + k_n^2 - k_{n-1}\]
 
 <h3 id="reference">Reference</h3>
 

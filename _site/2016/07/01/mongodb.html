@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">mongoDB学习笔记</h1>
-    <p class="post-meta"><time datetime="2016-07-01T00:00:00+08:00" itemprop="datePublished">Jul 1, 2016</time></p>
+    <p class="post-meta"><time datetime="2016-07-01T00:00:00+10:00" itemprop="datePublished">Jul 1, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -204,20 +206,20 @@
 <h2 id="mongodb-package-componets"><a href="https://docs.mongodb.com/manual/reference/program/">MongoDB Package Componets</a></h2>
 
 <ul>
-  <li><code class="highlighter-rouge">mongod</code>: the primary daemon process(守护进程) for the MongoDB system</li>
-  <li><code class="highlighter-rouge">mongos</code>: MongoDB Shard. Sharding means a method for distributing data across multiple machines.</li>
-  <li><code class="highlighter-rouge">mongo</code>: <strong>an interactive JavaScript shell interface to MongoDB</strong></li>
-  <li><code class="highlighter-rouge">mongodump</code>: a utility for creating a binary export of the contents of a database</li>
-  <li><code class="highlighter-rouge">mongorestore</code>: writes data from a binary database dump created by mongodump to a MongoDB instance.</li>
-  <li><code class="highlighter-rouge">bsondump</code>: converts BSON files into human-readable formats, including JSON.</li>
-  <li><code class="highlighter-rouge">mongooplog</code>: a simple tool that polls operations from the replication oplog of a remote server, and applies them to the local server.</li>
-  <li><code class="highlighter-rouge">mongoimport</code>: imports content from an Extended JSON, CSV, or TSV export created by mongoexport, or potentially, another third-party export tool.</li>
-  <li><code class="highlighter-rouge">mongoexport</code>: a utility that produces a JSON or CSV export of data stored in a MongoDB instance.</li>
-  <li><code class="highlighter-rouge">mongostat</code>: provides a quick overview of the status of a currently running mongod or mongos instance</li>
-  <li><code class="highlighter-rouge">mongotop</code>: provides a method to track the amount of time a MongoDB instance spends reading and writing data</li>
-  <li><code class="highlighter-rouge">mongosniff</code>: provides a low-level operation tracing/sniffing view into database activity in real time</li>
-  <li><code class="highlighter-rouge">mongoperf</code>: a utility to check disk I/O performance independently of MongoDB</li>
-  <li><code class="highlighter-rouge">mongofiles</code>: makes it possible to manipulate files stored in your MongoDB instance in GridFS objects from the command line.</li>
+  <li><code class="language-plaintext highlighter-rouge">mongod</code>: the primary daemon process(守护进程) for the MongoDB system</li>
+  <li><code class="language-plaintext highlighter-rouge">mongos</code>: MongoDB Shard. Sharding means a method for distributing data across multiple machines.</li>
+  <li><code class="language-plaintext highlighter-rouge">mongo</code>: <strong>an interactive JavaScript shell interface to MongoDB</strong></li>
+  <li><code class="language-plaintext highlighter-rouge">mongodump</code>: a utility for creating a binary export of the contents of a database</li>
+  <li><code class="language-plaintext highlighter-rouge">mongorestore</code>: writes data from a binary database dump created by mongodump to a MongoDB instance.</li>
+  <li><code class="language-plaintext highlighter-rouge">bsondump</code>: converts BSON files into human-readable formats, including JSON.</li>
+  <li><code class="language-plaintext highlighter-rouge">mongooplog</code>: a simple tool that polls operations from the replication oplog of a remote server, and applies them to the local server.</li>
+  <li><code class="language-plaintext highlighter-rouge">mongoimport</code>: imports content from an Extended JSON, CSV, or TSV export created by mongoexport, or potentially, another third-party export tool.</li>
+  <li><code class="language-plaintext highlighter-rouge">mongoexport</code>: a utility that produces a JSON or CSV export of data stored in a MongoDB instance.</li>
+  <li><code class="language-plaintext highlighter-rouge">mongostat</code>: provides a quick overview of the status of a currently running mongod or mongos instance</li>
+  <li><code class="language-plaintext highlighter-rouge">mongotop</code>: provides a method to track the amount of time a MongoDB instance spends reading and writing data</li>
+  <li><code class="language-plaintext highlighter-rouge">mongosniff</code>: provides a low-level operation tracing/sniffing view into database activity in real time</li>
+  <li><code class="language-plaintext highlighter-rouge">mongoperf</code>: a utility to check disk I/O performance independently of MongoDB</li>
+  <li><code class="language-plaintext highlighter-rouge">mongofiles</code>: makes it possible to manipulate files stored in your MongoDB instance in GridFS objects from the command line.</li>
 </ul>
 
 <h2 id="mongodb-crud-operations">MongoDB CRUD Operations</h2>
@@ -226,7 +228,7 @@
 
 <p>add new documents to a collection</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>db.collection.insert()
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>db.collection.insert()
 db.collection.insertOne()
 db.collection.insertMany() 
 </code></pre></div></div>
@@ -235,7 +237,7 @@ db.collection.insertMany()
 
 <p>read documents from a collection, i.e. queries a collection for documents</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>db.collection.find()
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>db.collection.find()
 </code></pre></div></div>
 
 <table>
@@ -247,43 +249,43 @@ db.collection.insertMany()
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">{}</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">{}</code></td>
       <td style="text-align: left">所有documents</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">{a: 10}</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">{a: 10}</code></td>
       <td style="text-align: left">a filed值为10的documents</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">{a: {$gt: 10}}</code></td>
-      <td style="text-align: left">a值大于10的documents。更多见<a href="https://docs.mongodb.com/manual/reference/operator/query-comparison/#query-selectors-comparison">comparison query operators文档</a>。如<code class="highlighter-rouge">$eq</code>, <code class="highlighter-rouge">$gt</code>, <code class="highlighter-rouge">$gte</code>, <code class="highlighter-rouge">lt</code>, <code class="highlighter-rouge">lte</code>, etc.</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">{a: {$gt: 10}}</code></td>
+      <td style="text-align: left">a值大于10的documents。更多见<a href="https://docs.mongodb.com/manual/reference/operator/query-comparison/#query-selectors-comparison">comparison query operators文档</a>。如<code class="language-plaintext highlighter-rouge">$eq</code>, <code class="language-plaintext highlighter-rouge">$gt</code>, <code class="language-plaintext highlighter-rouge">$gte</code>, <code class="language-plaintext highlighter-rouge">lt</code>, <code class="language-plaintext highlighter-rouge">lte</code>, etc.</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">{a: 10, b: "hello"}</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">{a: 10, b: "hello"}</code></td>
       <td style="text-align: left">a值为10<strong>且</strong>b值为“hello”的documents</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">{a: {$in: [10,"hello"]}}</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">{a: {$in: [10,"hello"]}}</code></td>
       <td style="text-align: left">a值为10<strong>或</strong>为“hello”的documents</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">{$or: [{a: 10}, {b: "hello"}]}</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">{$or: [{a: 10}, {b: "hello"}]}</code></td>
       <td style="text-align: left">a值为10<strong>或</strong>b值为“hello”的documents</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">{a: {$all: [10, "hello"]}}</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">{a: {$all: [10, "hello"]}}</code></td>
       <td style="text-align: left">a是一个含有10和“hello”的数组的documents</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">{"a.b": 10}</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">{"a.b": 10}</code></td>
       <td style="text-align: left">a是一个embedded document，且b值为10的documents</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">{a: /^m/}</code> or <code class="highlighter-rouge">{a: {$regex: "^m"}}</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">{a: /^m/}</code> or <code class="language-plaintext highlighter-rouge">{a: {$regex: "^m"}}</code></td>
       <td style="text-align: left">a开头字母为m的documents</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">{a: {$type: 2}}</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">{a: {$type: 2}}</code></td>
       <td style="text-align: left">a为字符串类型的documents。注此处2为BSON type number。详情见<a href="https://docs.mongodb.com/manual/reference/operator/query/type/#document-type-available-types">文档</a></td>
     </tr>
   </tbody>
@@ -295,7 +297,7 @@ db.collection.insertMany()
 
 <p>modify existing documents in a collection</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>db.collection.update()
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>db.collection.update()
 db.collection.updateOne()
 db.collection.updateMany()
 db.collection.replaceOne()
@@ -305,7 +307,7 @@ db.collection.replaceOne()
 
 <p>remove documents from a collection</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>db.collection.remove()
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>db.collection.remove()
 db.collection.deleteOne()
 db.collection.deleteMany()
 </code></pre></div></div>
@@ -316,21 +318,21 @@ db.collection.deleteMany()
   <li>安装pymongo</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ pip install pymongo  
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ pip install pymongo  
 </code></pre></div></div>
 
 <ul>
   <li>导入pymongo</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pymongo import MongoClient
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from pymongo import MongoClient
 </code></pre></div></div>
 
 <ul>
   <li>创建一个connection</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>client = MongoClient() #默认是localhost，端口27017
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>client = MongoClient() #默认是localhost，端口27017
 client = MongoClient("mongodb://mongodb0.example.net:27017")
 </code></pre></div></div>
 

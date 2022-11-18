@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">PBS</h1>
-    <p class="post-meta"><time datetime="2017-05-09T00:00:00+08:00" itemprop="datePublished">May 9, 2017</time></p>
+    <p class="post-meta"><time datetime="2017-05-09T00:00:00+10:00" itemprop="datePublished">May 9, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -113,36 +115,36 @@
 <h3 id="pbs-commands">PBS Commands</h3>
 
 <ul>
-  <li><code class="highlighter-rouge">pbsnodes</code>: query PBS host or vnode status or mark hosts free or offline</li>
-  <li><code class="highlighter-rouge">qstat</code>: display status of PBS batch jobs, queues, or servers</li>
-  <li><code class="highlighter-rouge">qalter</code>: alter PBS job</li>
-  <li><code class="highlighter-rouge">qdel</code>: deletes PBS jobs</li>
-  <li><code class="highlighter-rouge">qrun</code>: run a PBS batch job now</li>
-  <li><code class="highlighter-rouge">qmove</code>: move PBS batch job</li>
-  <li><code class="highlighter-rouge">qhold</code>: hold PBS batch jobs</li>
-  <li><code class="highlighter-rouge">qrls</code>: release hold on PBS batch jobs</li>
-  <li><code class="highlighter-rouge">qsig</code>: signal PBS batch job</li>
-  <li><code class="highlighter-rouge">qsub</code>: Submit a job</li>
-  <li><code class="highlighter-rouge">tracejob</code>: Report job history</li>
+  <li><code class="language-plaintext highlighter-rouge">pbsnodes</code>: query PBS host or vnode status or mark hosts free or offline</li>
+  <li><code class="language-plaintext highlighter-rouge">qstat</code>: display status of PBS batch jobs, queues, or servers</li>
+  <li><code class="language-plaintext highlighter-rouge">qalter</code>: alter PBS job</li>
+  <li><code class="language-plaintext highlighter-rouge">qdel</code>: deletes PBS jobs</li>
+  <li><code class="language-plaintext highlighter-rouge">qrun</code>: run a PBS batch job now</li>
+  <li><code class="language-plaintext highlighter-rouge">qmove</code>: move PBS batch job</li>
+  <li><code class="language-plaintext highlighter-rouge">qhold</code>: hold PBS batch jobs</li>
+  <li><code class="language-plaintext highlighter-rouge">qrls</code>: release hold on PBS batch jobs</li>
+  <li><code class="language-plaintext highlighter-rouge">qsig</code>: signal PBS batch job</li>
+  <li><code class="language-plaintext highlighter-rouge">qsub</code>: Submit a job</li>
+  <li><code class="language-plaintext highlighter-rouge">tracejob</code>: Report job history</li>
 </ul>
 
 <h3 id="common-commands">Common commands</h3>
 
-<p><code class="highlighter-rouge">qstat -t</code>: Displays status information for jobs, job arrays, and subjobs.
-<code class="highlighter-rouge">qstat -Q</code>: Display queue status in default format</p>
+<p><code class="language-plaintext highlighter-rouge">qstat -t</code>: Displays status information for jobs, job arrays, and subjobs.
+<code class="language-plaintext highlighter-rouge">qstat -Q</code>: Display queue status in default format</p>
 
-<h3 id="common-pbs-lines">Common <code class="highlighter-rouge">#PBS</code> lines</h3>
+<h3 id="common-pbs-lines">Common <code class="language-plaintext highlighter-rouge">#PBS</code> lines</h3>
 
 <ul>
-  <li><code class="highlighter-rouge">-A</code>: account string</li>
-  <li><code class="highlighter-rouge">-J</code>: job array</li>
-  <li><code class="highlighter-rouge">-N</code>: job name</li>
-  <li><code class="highlighter-rouge">-l</code>: resource list
+  <li><code class="language-plaintext highlighter-rouge">-A</code>: account string</li>
+  <li><code class="language-plaintext highlighter-rouge">-J</code>: job array</li>
+  <li><code class="language-plaintext highlighter-rouge">-N</code>: job name</li>
+  <li><code class="language-plaintext highlighter-rouge">-l</code>: resource list
     <ul>
-      <li><code class="highlighter-rouge">select</code>: The number of nodes is requested via the select command</li>
-      <li><code class="highlighter-rouge">mem</code>: memory</li>
-      <li><code class="highlighter-rouge">ncpus</code>: cpu, thread</li>
-      <li><code class="highlighter-rouge">walltime</code>: walltime</li>
+      <li><code class="language-plaintext highlighter-rouge">select</code>: The number of nodes is requested via the select command</li>
+      <li><code class="language-plaintext highlighter-rouge">mem</code>: memory</li>
+      <li><code class="language-plaintext highlighter-rouge">ncpus</code>: cpu, thread</li>
+      <li><code class="language-plaintext highlighter-rouge">walltime</code>: walltime</li>
     </ul>
   </li>
 </ul>

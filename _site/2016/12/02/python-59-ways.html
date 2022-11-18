@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,70 +104,70 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Effective python的59个方法</h1>
-    <p class="post-meta"><time datetime="2016-12-02T00:00:00+08:00" itemprop="datePublished">Dec 2, 2016</time></p>
+    <p class="post-meta"><time datetime="2016-12-02T00:00:00+10:00" itemprop="datePublished">Dec 2, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     <ol>
   <li>Know which version of python you’re using</li>
   <li>Follow the PEP 8 style guide</li>
-  <li>Know the differences Between <code class="highlighter-rouge">bytes</code>, <code class="highlighter-rouge">str</code>, and <code class="highlighter-rouge">unicode</code></li>
+  <li>Know the differences Between <code class="language-plaintext highlighter-rouge">bytes</code>, <code class="language-plaintext highlighter-rouge">str</code>, and <code class="language-plaintext highlighter-rouge">unicode</code></li>
   <li>Write helper functions instead of complex expressions</li>
   <li>Know how to slice sequences</li>
-  <li>Avoid using <code class="highlighter-rouge">start</code>, <code class="highlighter-rouge">end</code> and <code class="highlighter-rouge">stride</code> in a single slice</li>
-  <li>Use list comprehensions instead of <code class="highlighter-rouge">map</code> and <code class="highlighter-rouge">filter</code></li>
+  <li>Avoid using <code class="language-plaintext highlighter-rouge">start</code>, <code class="language-plaintext highlighter-rouge">end</code> and <code class="language-plaintext highlighter-rouge">stride</code> in a single slice</li>
+  <li>Use list comprehensions instead of <code class="language-plaintext highlighter-rouge">map</code> and <code class="language-plaintext highlighter-rouge">filter</code></li>
   <li>Avoid more than two expressions in list comprehensions</li>
   <li>Consider generator expressions for large comprehensions</li>
-  <li>Prefer <code class="highlighter-rouge">enumerate</code> over <code class="highlighter-rouge">range</code></li>
-  <li>Use <code class="highlighter-rouge">zip</code> to process iterators in parallel</li>
-  <li>Avoid <code class="highlighter-rouge">else</code> blocks after <code class="highlighter-rouge">for</code> and <code class="highlighter-rouge">while</code> loops</li>
-  <li>Take advantage of each block in <code class="highlighter-rouge">try/except/else/finally</code></li>
-  <li>Prefer exceptions to returning <code class="highlighter-rouge">None</code></li>
+  <li>Prefer <code class="language-plaintext highlighter-rouge">enumerate</code> over <code class="language-plaintext highlighter-rouge">range</code></li>
+  <li>Use <code class="language-plaintext highlighter-rouge">zip</code> to process iterators in parallel</li>
+  <li>Avoid <code class="language-plaintext highlighter-rouge">else</code> blocks after <code class="language-plaintext highlighter-rouge">for</code> and <code class="language-plaintext highlighter-rouge">while</code> loops</li>
+  <li>Take advantage of each block in <code class="language-plaintext highlighter-rouge">try/except/else/finally</code></li>
+  <li>Prefer exceptions to returning <code class="language-plaintext highlighter-rouge">None</code></li>
   <li>Know how closures interact with variable scope</li>
   <li>Consider generators instead of returning lists</li>
   <li>Be Defensive when iterating over arguments</li>
   <li>Reduce visual noise with variable positional arguments</li>
   <li>Provide optional behavior with keyword arguments</li>
-  <li>Use <code class="highlighter-rouge">None</code> and Docstrings to specify dynamic default arguments</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">None</code> and Docstrings to specify dynamic default arguments</li>
   <li>Enforce clarity with Keyword-only arguments</li>
   <li>Prefer helper classes over bookkeeping wih dictionaries and tuples</li>
   <li>Accept functions for simple interfaces instead of classes</li>
-  <li>Use <code class="highlighter-rouge">@classmethod</code> polymorphism to construct objects generically</li>
-  <li>Initialize parent classes with <code class="highlighter-rouge">super</code></li>
+  <li>Use <code class="language-plaintext highlighter-rouge">@classmethod</code> polymorphism to construct objects generically</li>
+  <li>Initialize parent classes with <code class="language-plaintext highlighter-rouge">super</code></li>
   <li>Use multiple inheritance only for mix-in utility classes</li>
   <li>Prefer public attributes over private ones</li>
-  <li>Inherit from <code class="highlighter-rouge">collections.abc</code> for custom container types</li>
+  <li>Inherit from <code class="language-plaintext highlighter-rouge">collections.abc</code> for custom container types</li>
   <li>Use plain attributes instead of Get and Set methods</li>
-  <li>Consider <code class="highlighter-rouge"><span class="k">@property</span></code> instead of refactoring attributes</li>
-  <li>Use descriptors for reusable <code class="highlighter-rouge"><span class="k">@property</span></code> methods</li>
-  <li>Use <code class="highlighter-rouge">__getattr__</code>, <code class="highlighter-rouge">__getattribute__</code>, and <code class="highlighter-rouge">__setattr__</code> for lazy attributes</li>
+  <li>Consider <code class="language-plaintext highlighter-rouge">@property</code> instead of refactoring attributes</li>
+  <li>Use descriptors for reusable <code class="language-plaintext highlighter-rouge">@property</code> methods</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">__getattr__</code>, <code class="language-plaintext highlighter-rouge">__getattribute__</code>, and <code class="language-plaintext highlighter-rouge">__setattr__</code> for lazy attributes</li>
   <li>Validate subclasses with metaclasses</li>
   <li>Register class existence with metaclasses</li>
   <li>Annotate class attributes with metaclasses</li>
-  <li>Use <code class="highlighter-rouge">subprocess</code> to manage child processes</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">subprocess</code> to manage child processes</li>
   <li>Use threads for blocking I/O, avoid for parallelism</li>
-  <li>Use <code class="highlighter-rouge">Lock</code> to prevent data races in threads</li>
-  <li>Use <code class="highlighter-rouge">Queue</code> to coordinate work between threads</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">Lock</code> to prevent data races in threads</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">Queue</code> to coordinate work between threads</li>
   <li>Consider coroutines to run many functions concurrently</li>
-  <li>Consider <code class="highlighter-rouge">concurrent.futures</code> for true parallelism</li>
-  <li>Define function decorators with <code class="highlighter-rouge">functools.wraps</code></li>
-  <li>Consider <code class="highlighter-rouge">contextlib</code> and <code class="highlighter-rouge">with</code> statements for reusable <code class="highlighter-rouge">try/finally</code> behavior</li>
-  <li>Make <code class="highlighter-rouge">pickle</code> reliable with <code class="highlighter-rouge">copyreg</code></li>
-  <li>Use <code class="highlighter-rouge">datetime</code> instead of <code class="highlighter-rouge">time</code> for local clocks</li>
+  <li>Consider <code class="language-plaintext highlighter-rouge">concurrent.futures</code> for true parallelism</li>
+  <li>Define function decorators with <code class="language-plaintext highlighter-rouge">functools.wraps</code></li>
+  <li>Consider <code class="language-plaintext highlighter-rouge">contextlib</code> and <code class="language-plaintext highlighter-rouge">with</code> statements for reusable <code class="language-plaintext highlighter-rouge">try/finally</code> behavior</li>
+  <li>Make <code class="language-plaintext highlighter-rouge">pickle</code> reliable with <code class="language-plaintext highlighter-rouge">copyreg</code></li>
+  <li>Use <code class="language-plaintext highlighter-rouge">datetime</code> instead of <code class="language-plaintext highlighter-rouge">time</code> for local clocks</li>
   <li>Use built-in algorithms and data structures</li>
-  <li>Use <code class="highlighter-rouge">decimal</code> when precision is paramount</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">decimal</code> when precision is paramount</li>
   <li>Know where to find coummunity-built modules</li>
   <li>Write docstrings for every function, class, and module</li>
   <li>Use packages to organize modules and provide stable APIs</li>
-  <li>Define a root <code class="highlighter-rouge">Exception</code> to insulate callers from APIs</li>
+  <li>Define a root <code class="language-plaintext highlighter-rouge">Exception</code> to insulate callers from APIs</li>
   <li>Know how to break circular dependencies</li>
   <li>Use virtual environments for isolated and reproducible dependencies</li>
   <li>Consider module-scoped code to configure deployment environments</li>
-  <li>Use <code class="highlighter-rouge">repr</code> strings for debugging output</li>
-  <li>Test everything with <code class="highlighter-rouge">unittest</code></li>
-  <li>Consider interactive debugging with <code class="highlighter-rouge">pdb</code></li>
+  <li>Use <code class="language-plaintext highlighter-rouge">repr</code> strings for debugging output</li>
+  <li>Test everything with <code class="language-plaintext highlighter-rouge">unittest</code></li>
+  <li>Consider interactive debugging with <code class="language-plaintext highlighter-rouge">pdb</code></li>
   <li>Profile before optimizing</li>
-  <li>Use <code class="highlighter-rouge">tracemalloc</code> to understand memory usage and leaks</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">tracemalloc</code> to understand memory usage and leaks</li>
 </ol>
 
   </div>

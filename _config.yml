@@ -24,4 +24,5 @@ highlighter: rouge
 # paginate
 paginate: 16
 paginate_path: "page:num"
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
+plugins: [jekyll-paginate]

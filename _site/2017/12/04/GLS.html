@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Generalized Least Square</h1>
-    <p class="post-meta"><time datetime="2017-12-04T00:00:00+08:00" itemprop="datePublished">Dec 4, 2017</time></p>
+    <p class="post-meta"><time datetime="2017-12-04T00:00:00+10:00" itemprop="datePublished">Dec 4, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -112,7 +114,7 @@
 
 <h4 id="linear-model">Linear model</h4>
 
-<script type="math/tex; mode=display">\textbf{y} = \textbf{X} \boldsymbol{\beta} + \boldsymbol{\epsilon}</script>
+\[\textbf{y} = \textbf{X} \boldsymbol{\beta} + \boldsymbol{\epsilon}\]
 
 <ul>
   <li>$\textbf{y}$: response variables</li>
@@ -123,16 +125,15 @@
 
 <p>Suppose n observations, p predictors, it can be also written,</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{bmatrix}y_1 \\ y_2 \\ ... \\ y_n \end{bmatrix} = \begin{bmatrix}x_{11} & ... & x_{1p} \\ x_{21} & ... & x_{2p} \\ ... & ... & ...\\ x_{n1} & ...  & x_{np} \end{bmatrix} \begin{bmatrix} \beta_1 \\ \beta_2 \\... \\ \beta_3 \end{bmatrix} + \begin{bmatrix} \epsilon_1 \\ \epsilon_2 \\ ... \\ \epsilon_n \end{bmatrix} %]]></script>
+\[\begin{bmatrix}y_1 \\ y_2 \\ ... \\ y_n \end{bmatrix} = \begin{bmatrix}x_{11} &amp; ... &amp; x_{1p} \\ x_{21} &amp; ... &amp; x_{2p} \\ ... &amp; ... &amp; ...\\ x_{n1} &amp; ...  &amp; x_{np} \end{bmatrix} \begin{bmatrix} \beta_1 \\ \beta_2 \\... \\ \beta_3 \end{bmatrix} + \begin{bmatrix} \epsilon_1 \\ \epsilon_2 \\ ... \\ \epsilon_n \end{bmatrix}\]
 
 <h4 id="minimize-ssrsse">Minimize SSR/SSE</h4>
 
-<script type="math/tex; mode=display">S(\boldsymbol{b}) := (\boldsymbol{y} - \boldsymbol{Xb})^T(\boldsymbol{y}-\boldsymbol{Xb})</script>
+\[S(\boldsymbol{b}) := (\boldsymbol{y} - \boldsymbol{Xb})^T(\boldsymbol{y}-\boldsymbol{Xb})\]
 
-<script type="math/tex; mode=display">\hat{\boldsymbol{\beta}}_{OLS} := argmin_{b} S(\boldsymbol{b})</script>
+\[\hat{\boldsymbol{\beta}}_{OLS} := argmin_{b} S(\boldsymbol{b})\]
 
-<script type="math/tex; mode=display">\hat{\boldsymbol{\beta}}_{OLS} = (\boldsymbol{X}^T\boldsymbol{X})^{-1}\boldsymbol{X}^T\boldsymbol{y}</script>
+\[\hat{\boldsymbol{\beta}}_{OLS} = (\boldsymbol{X}^T\boldsymbol{X})^{-1}\boldsymbol{X}^T\boldsymbol{y}\]
 
 <h4 id="strength">Strength</h4>
 
@@ -145,28 +146,27 @@
 
 <h3 id="weighted-least-square-wls---drop-identical-distribution">Weighted Least Square (WLS) - drop identical distribution</h3>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\Sigma := Var(\boldsymbol{\epsilon}) =  \begin{pmatrix} \sigma_1^2 & 0 & ... & 0 \\ 0 & \sigma_2^2 & ... & 0 \\ ... & ... & ... & ... \\ 0 & 0 &  ... & \sigma_n^2 \end{pmatrix} %]]></script>
+\[\Sigma := Var(\boldsymbol{\epsilon}) =  \begin{pmatrix} \sigma_1^2 &amp; 0 &amp; ... &amp; 0 \\ 0 &amp; \sigma_2^2 &amp; ... &amp; 0 \\ ... &amp; ... &amp; ... &amp; ... \\ 0 &amp; 0 &amp;  ... &amp; \sigma_n^2 \end{pmatrix}\]
 
 <p>Let $D^2 = \Sigma^{-1}$ and $\delta = D\epsilon$</p>
 
-<script type="math/tex; mode=display">Dy = DX\beta + D\epsilon</script>
+\[Dy = DX\beta + D\epsilon\]
 
-<script type="math/tex; mode=display">Var(\delta) = Var(D\epsilon) = DVar(\epsilon)D^{-1} = D\Sigma D^T = \textbf{I}</script>
+\[Var(\delta) = Var(D\epsilon) = DVar(\epsilon)D^{-1} = D\Sigma D^T = \textbf{I}\]
 
-<script type="math/tex; mode=display">\hat{\beta_{WLS}} = ((DX)^T(DX))^{-1}(DX)^TDy = (X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}y</script>
+\[\hat{\beta_{WLS}} = ((DX)^T(DX))^{-1}(DX)^TDy = (X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}y\]
 
 <h3 id="generalized-least-square-gls---drop-iid">Generalized Least Square (GLS) - drop i.i.d.</h3>
 
-<script type="math/tex; mode=display">\Sigma:= Var(\epsilon)</script>
+\[\Sigma:= Var(\epsilon)\]
 
 <p>Let L be the <a href="https://en.wikipedia.org/wiki/Cholesky_decomposition">Cholesky decomp.</a> of $\Sigma^{-1}$ and $L^TL = \Sigma^{-1}$</p>
 
-<script type="math/tex; mode=display">Ly = LX\beta + L\epsilon</script>
+\[Ly = LX\beta + L\epsilon\]
 
-<script type="math/tex; mode=display">Var(L\sigma) = LVar(\epsilon)L^T = \textbf{I}</script>
+\[Var(L\sigma) = LVar(\epsilon)L^T = \textbf{I}\]
 
-<script type="math/tex; mode=display">\hat{\beta_{GLS}} = (X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}y</script>
+\[\hat{\beta_{GLS}} = (X^T\Sigma^{-1}X)^{-1}X^T\Sigma^{-1}y\]
 
 
   </div>

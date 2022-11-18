@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Linux学习笔记</h1>
-    <p class="post-meta"><time datetime="2016-05-09T00:00:00+08:00" itemprop="datePublished">May 9, 2016</time></p>
+    <p class="post-meta"><time datetime="2016-05-09T00:00:00+10:00" itemprop="datePublished">May 9, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -159,7 +161,7 @@
       <li>GNU Emacs: A text editor and environment</li>
     </ul>
   </li>
-  <li><code class="highlighter-rouge">PATH</code>:
+  <li><code class="language-plaintext highlighter-rouge">PATH</code>:
     <ul>
       <li>/bin, /usr/bin, /usr/local/bin</li>
       <li>/sbin, /usr/sbin (system administration program)</li>
@@ -182,15 +184,15 @@
   </li>
   <li>gcc
     <ul>
-      <li><code class="highlighter-rouge">-o</code> write output to <file></file></li>
-      <li><code class="highlighter-rouge">-I</code> use header files in subdirectories or nonstandard places</li>
-      <li><code class="highlighter-rouge">-l</code></li>
-      <li><code class="highlighter-rouge">-L</code></li>
+      <li><code class="language-plaintext highlighter-rouge">-o</code> write output to <file></file></li>
+      <li><code class="language-plaintext highlighter-rouge">-I</code> use header files in subdirectories or nonstandard places</li>
+      <li><code class="language-plaintext highlighter-rouge">-l</code></li>
+      <li><code class="language-plaintext highlighter-rouge">-L</code></li>
     </ul>
   </li>
   <li>Static libraries</li>
   <li>Shared Libraries</li>
-  <li>Getting help: <code class="highlighter-rouge">man gcc</code>和<code class="highlighter-rouge">info gcc</code></li>
+  <li>Getting help: <code class="language-plaintext highlighter-rouge">man gcc</code>和<code class="language-plaintext highlighter-rouge">info gcc</code></li>
 </ul>
 
 <h2 id="shell-programming">Shell Programming</h2>
@@ -199,27 +201,27 @@
 
 <ul>
   <li>A <em>shell</em> is a program that acts as the interface between you and the Linux system, enabling you to enter commands for the operating system to execute.</li>
-  <li>In linux, the standard shell that is always installed as <code class="highlighter-rouge">/bin/sh</code> is called <em>bash</em> (the GNU Bourne-Again SHell), from the GNU suite of tools.</li>
+  <li>In linux, the standard shell that is always installed as <code class="language-plaintext highlighter-rouge">/bin/sh</code> is called <em>bash</em> (the GNU Bourne-Again SHell), from the GNU suite of tools.</li>
 </ul>
 
 <h3 id="pipes-and-redirection">Pipes and Redirection</h3>
 <ul>
   <li>file descriptor:
     <ul>
-      <li><code class="highlighter-rouge">0</code>: standard input to a program</li>
-      <li><code class="highlighter-rouge">1</code>: standard output</li>
-      <li><code class="highlighter-rouge">2</code>: standard error</li>
+      <li><code class="language-plaintext highlighter-rouge">0</code>: standard input to a program</li>
+      <li><code class="language-plaintext highlighter-rouge">1</code>: standard output</li>
+      <li><code class="language-plaintext highlighter-rouge">2</code>: standard error</li>
     </ul>
   </li>
   <li>Redirecting Output
     <ul>
-      <li><code class="highlighter-rouge">&gt;</code>: redirect the standard output into a file</li>
-      <li><code class="highlighter-rouge">&gt;&gt;</code>: append the standard output into a file</li>
+      <li><code class="language-plaintext highlighter-rouge">&gt;</code>: redirect the standard output into a file</li>
+      <li><code class="language-plaintext highlighter-rouge">&gt;&gt;</code>: append the standard output into a file</li>
     </ul>
   </li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#分开output和error信息
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#分开output和error信息
 kill 1234 &gt;killout.txt 2&gt;killerr.txt
 
 #利用&gt;&amp;结合output和error信息
@@ -233,7 +235,7 @@ kill 1234 &gt;/dev/null 2&gt;&amp;1
   <li>Redirecting Input</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>more &lt; killout.txt
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>more &lt; killout.txt
 </code></pre></div></div>
 <p>但是这看起来并没有什么太大的用处。</p>
 
@@ -241,7 +243,7 @@ kill 1234 &gt;/dev/null 2&gt;&amp;1
   <li>Pipes</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ps –xo comm | sort | uniq | grep -v sh | more
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ps –xo comm | sort | uniq | grep -v sh | more
 </code></pre></div></div>
 
 <h3 id="shell-programming-1">Shell Programming</h3>
@@ -249,29 +251,29 @@ kill 1234 &gt;/dev/null 2&gt;&amp;1
 <h4 id="creating-a-script">Creating a script</h4>
 
 <ul>
-  <li><code class="highlighter-rouge">#</code>: comments</li>
-  <li><code class="highlighter-rouge">#!</code>(in the first line): tell the system which program to be used to execute this file. For example, <code class="highlighter-rouge"><span class="c">#! /bin/sh</span></code> is the default shell program.</li>
+  <li><code class="language-plaintext highlighter-rouge">#</code>: comments</li>
+  <li><code class="language-plaintext highlighter-rouge">#!</code>(in the first line): tell the system which program to be used to execute this file. For example, <code class="language-plaintext highlighter-rouge">#! /bin/sh</code> is the default shell program.</li>
   <li>commands: any Linux commands referenced by you <em>PATH</em> environment variable</li>
-  <li><code class="highlighter-rouge">exit</code>: returns a sensible exit code. <code class="highlighter-rouge">0</code> denotes success</li>
-  <li><code class="highlighter-rouge">file</code> command: check file type</li>
+  <li><code class="language-plaintext highlighter-rouge">exit</code>: returns a sensible exit code. <code class="language-plaintext highlighter-rouge">0</code> denotes success</li>
+  <li><code class="language-plaintext highlighter-rouge">file</code> command: check file type</li>
 </ul>
 
 <h4 id="making-a-script-executable">Making a Script Executable</h4>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chmod +x script
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chmod +x script
 </code></pre></div></div>
 
 <ul>
-  <li><code class="highlighter-rouge">chmod</code>: change file modes or Access Control Lists</li>
-  <li><code class="highlighter-rouge">chown</code>: change file owner and group</li>
-  <li><code class="highlighter-rouge">chgrp</code>: change group</li>
+  <li><code class="language-plaintext highlighter-rouge">chmod</code>: change file modes or Access Control Lists</li>
+  <li><code class="language-plaintext highlighter-rouge">chown</code>: change file owner and group</li>
+  <li><code class="language-plaintext highlighter-rouge">chgrp</code>: change group</li>
 </ul>
 
 <h3 id="shell-syntax">Shell Syntax</h3>
 
 <h4 id="variables">Variables</h4>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#所有的变量都被当成字符串，且case-sensitive
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#所有的变量都被当成字符串，且case-sensitive
 #数字类的字符串可以用一些utilities转换
 #获取变量内容使用$
 salutation=Hello
@@ -290,7 +292,7 @@ echo $salutation      ##输出“Hi”
 
 <h4 id="quoting">Quoting</h4>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>myvar=”Hi there”
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>myvar=”Hi there”
 echo $myvar        ##输出"Hi there"
 echo “$myvar”      ##输出"Hi there"
 echo ‘$myvar’      ##输出"$myvar" 
@@ -325,7 +327,7 @@ echo \$myvar       ##输出"$myvar"
     </tr>
     <tr>
       <td style="text-align: left">$$</td>
-      <td style="text-align: left">运行的脚本的process ID，经常用来生成临时文件，如<code class="highlighter-rouge">/tmp/tmpfile_$$</code></td>
+      <td style="text-align: left">运行的脚本的process ID，经常用来生成临时文件，如<code class="language-plaintext highlighter-rouge">/tmp/tmpfile_$$</code></td>
     </tr>
   </tbody>
 </table>
@@ -354,11 +356,11 @@ echo \$myvar       ##输出"$myvar"
 <h4 id="conditions">Conditions</h4>
 
 <ul>
-  <li><code class="highlighter-rouge">test</code> or <code class="highlighter-rouge">[</code>: the shell’s Boolean check</li>
+  <li><code class="language-plaintext highlighter-rouge">test</code> or <code class="language-plaintext highlighter-rouge">[</code>: the shell’s Boolean check</li>
   <li>condition structure:</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 检查是否存在文件
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 检查是否存在文件
 ## test的exit code决定是否继续执行代码
 if test -f fred.c
 then
@@ -367,7 +369,7 @@ fi
 </code></pre></div></div>
 <p>或者</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##请注意之间的空格
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##请注意之间的空格
 if [ -f fred.c ]
 then
 ## 插入代码
@@ -375,7 +377,7 @@ fi
 </code></pre></div></div>
 <p>完整的</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if + 条件判断
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if + 条件判断
 then
 ## 插入代码
 elif + 条件判断
@@ -388,7 +390,7 @@ fi
 </code></pre></div></div>
 
 <ul>
-  <li>condition types: <code class="highlighter-rouge">String Comparison</code>，<code class="highlighter-rouge">Arithmetic Comparison</code>，<code class="highlighter-rouge">File Conditional</code></li>
+  <li>condition types: <code class="language-plaintext highlighter-rouge">String Comparison</code>，<code class="language-plaintext highlighter-rouge">Arithmetic Comparison</code>，<code class="language-plaintext highlighter-rouge">File Conditional</code></li>
 </ul>
 
 <table>

@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Parameters for R plot funtion</h1>
-    <p class="post-meta"><time datetime="2017-10-12T00:00:00+08:00" itemprop="datePublished">Oct 12, 2017</time></p>
+    <p class="post-meta"><time datetime="2017-10-12T00:00:00+10:00" itemprop="datePublished">Oct 12, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -111,7 +113,7 @@ paramters to tune.</p>
 
 <h2 id="type">type</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layout(matrix(1:9, 3,3,byrow=T))
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layout(matrix(1:9, 3,3,byrow=T))
 plot(1:2,1:2,type="p", main="\"p\" for points", xlab="x", ylab="y")
 plot(1:2,1:2,type="l", main="\"l\" for lines", xlab="x", ylab="y")
 plot(1:2,1:2,type="b", main="\"b\" for both", xlab="x", ylab="y")
@@ -127,7 +129,7 @@ plot(1:2,1:2,type="n", main="\"n\" for no plotting", xlab="x", ylab="y")
 
 <h2 id="main-sub-xlab-and-ylab">main, sub, xlab and ylab</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layout(matrix(1:4,2,2,byrow=T))
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layout(matrix(1:4,2,2,byrow=T))
 plot(1,1,main="The main title")
 plot(1,1,sub="The sub title")
 plot(1,1,xlab="xlab")
@@ -138,7 +140,7 @@ plot(1,1,ylab="ylab")
 
 <h2 id="pch">pch</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layout(matrix(1:18,3,6,byrow=T))
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layout(matrix(1:18,3,6,byrow=T))
 for(i in 1:18){
   plot(1,1,pch=i,xlab="",ylab="",main=paste("pch=",i,sep=""))
 }

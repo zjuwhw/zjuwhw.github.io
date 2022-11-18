@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Recombination and Recombination Rate</h1>
-    <p class="post-meta"><time datetime="2017-09-21T00:00:00+08:00" itemprop="datePublished">Sep 21, 2017</time></p>
+    <p class="post-meta"><time datetime="2017-09-21T00:00:00+10:00" itemprop="datePublished">Sep 21, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -166,7 +168,7 @@
 
 <p>We can have use its data to a look the recombination across the human genome.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>library(data.table)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>library(data.table)
 data = fread("genetic_map_chr1_combined_b37.txt")
 plot(data$"position",data$"COMBINED_rate(cM/Mb)",type="l", xlab="chr1 (bp)", ylab="Recombination Rate(cM/Mb)")
 </code></pre></div></div>

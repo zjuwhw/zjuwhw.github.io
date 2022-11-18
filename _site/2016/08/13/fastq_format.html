@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Fastq格式</h1>
-    <p class="post-meta"><time datetime="2016-08-13T00:00:00+08:00" itemprop="datePublished">Aug 13, 2016</time></p>
+    <p class="post-meta"><time datetime="2016-08-13T00:00:00+10:00" itemprop="datePublished">Aug 13, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -121,7 +123,7 @@ Bcl conversion — Converts *.bcl files into *.fastq.gz files (compressed FASTQ 
 
 <h2 id="示例">示例：</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@EAS139:136:FC706VJ:2:5:1000:12850 1:Y:18:ATCACG
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@EAS139:136:FC706VJ:2:5:1000:12850 1:Y:18:ATCACG
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 +
 BBBBCCCC?&lt;A?BC?7@@???????DBBA@@@@A@@
@@ -136,7 +138,7 @@ BBBBCCCC?&lt;A?BC?7@@???????DBBA@@@@A@@
 
 <h2 id="header">Header</h2>
 
-<p><code class="highlighter-rouge">@&lt;instrument&gt;:&lt;run number&gt;:&lt;flowcell ID&gt;:&lt;lane&gt;:&lt;tile&gt;:&lt;x-pos&gt;:&lt;y-pos&gt; &lt;read&gt;:&lt;is filtered&gt;:&lt;control number&gt;:&lt;index sequence&gt;</code></p>
+<p><code class="language-plaintext highlighter-rouge">@&lt;instrument&gt;:&lt;run number&gt;:&lt;flowcell ID&gt;:&lt;lane&gt;:&lt;tile&gt;:&lt;x-pos&gt;:&lt;y-pos&gt; &lt;read&gt;:&lt;is filtered&gt;:&lt;control number&gt;:&lt;index sequence&gt;</code></p>
 
 <table>
   <thead>
@@ -153,67 +155,67 @@ BBBBCCCC?&lt;A?BC?7@@???????DBBA@@@@A@@
       <td style="text-align: left">Each sequence identifier line starts with @</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">&lt;instrument&gt; </code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;instrument&gt; </code></td>
       <td style="text-align: left">Characters allowed: a-z, A-Z, 0-9 and underscore</td>
       <td style="text-align: left">Instrument ID</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">&lt;run number&gt;</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;run number&gt;</code></td>
       <td style="text-align: left">Numerical</td>
       <td style="text-align: left">Run number on instrument</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">&lt;flowcell ID&gt;</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;flowcell ID&gt;</code></td>
       <td style="text-align: left">Characters allowed: a-z, A-Z, 0-9</td>
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">&lt;lane&gt;</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;lane&gt;</code></td>
       <td style="text-align: left">Numerical</td>
       <td style="text-align: left">Lane number</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">&lt;tile&gt;</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;tile&gt;</code></td>
       <td style="text-align: left">Numerical</td>
       <td style="text-align: left">Tile number</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">&lt;x_pos&gt;</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;x_pos&gt;</code></td>
       <td style="text-align: left">Numerical</td>
       <td style="text-align: left">X coordinate of cluster</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">&lt;y_pos&gt;</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;y_pos&gt;</code></td>
       <td style="text-align: left">Numerical</td>
       <td style="text-align: left">Y coordinate of cluster</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">&lt;read&gt;</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;read&gt;</code></td>
       <td style="text-align: left">Numerical</td>
       <td style="text-align: left">Read number. 1 can be single read or read 2 of paired-end</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">&lt;is filtered&gt;</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;is filtered&gt;</code></td>
       <td style="text-align: left">Y or N</td>
       <td style="text-align: left">Y if the read is filtered, N otherwise</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">&lt;control number&gt;</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;control number&gt;</code></td>
       <td style="text-align: left">Numerical</td>
       <td style="text-align: left">0 when none of the control bits are on, otherwise it is an even number.</td>
     </tr>
     <tr>
-      <td style="text-align: left"><code class="highlighter-rouge">&lt;index sequence&gt;</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">&lt;index sequence&gt;</code></td>
       <td style="text-align: left">ACTG</td>
       <td style="text-align: left">Index sequence</td>
     </tr>
   </tbody>
 </table>
 
-<p>因此<code class="highlighter-rouge">@EAS139:136:FC706VJ:2:5:1000:12850 1:Y:18:ATCACG</code>可以解释为：</p>
+<p>因此<code class="language-plaintext highlighter-rouge">@EAS139:136:FC706VJ:2:5:1000:12850 1:Y:18:ATCACG</code>可以解释为：</p>
 
 <ul>
-  <li>测序仪id为<code class="highlighter-rouge">EAS139</code></li>
+  <li>测序仪id为<code class="language-plaintext highlighter-rouge">EAS139</code></li>
   <li>run number：136</li>
   <li>flowcell ID：FC706VJ</li>
   <li>lane：2</li>
@@ -238,7 +240,7 @@ BBBBCCCC?&lt;A?BC?7@@???????DBBA@@@@A@@
   <li>公式</li>
 </ul>
 
-<p><code class="highlighter-rouge">Q = -10 * log10(P)</code> &lt;==&gt; <code class="highlighter-rouge">P = 10 ^(-Q/10)</code></p>
+<p><code class="language-plaintext highlighter-rouge">Q = -10 * log10(P)</code> &lt;==&gt; <code class="language-plaintext highlighter-rouge">P = 10 ^(-Q/10)</code></p>
 
 <p>这里Q为Phred quality score，P为base-calling的error probabilities（错误率）。</p>
 
@@ -335,11 +337,11 @@ BBBBCCCC?&lt;A?BC?7@@???????DBBA@@@@A@@
 
 <p>另外，常用软件<a href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/">FastQC</a>和<a href="http://www.usadellab.org/cms/?page=trimmomatic">Trimmomatic</a>均可以自动判断encoding的。</p>
 
-<p>因此，质量值<code class="highlighter-rouge">BBBBCCCC?&lt;A?BC?7@@???????DBBA@@@@A@@</code>：</p>
+<p>因此，质量值<code class="language-plaintext highlighter-rouge">BBBBCCCC?&lt;A?BC?7@@???????DBBA@@@@A@@</code>：</p>
 
 <ul>
-  <li>若采用Phred+64编码，应该为<code class="highlighter-rouge">2,2,2,6,6,6,6,6,6,6,6,6,6,9,9,9,9,9,9,9,9,9,9,9,9,9,9,2,6,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,6,6,6,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6</code></li>
-  <li>若采用Phred+32编码，应该为<code class="highlighter-rouge">33,33,33,37,37,37,37,37,37,37,37,37,37,40,40,40,40,40,40,40,40,40,40,40,40,40,40,33,37,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,37,37,37,37,37,37,37,37,37,37,33,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,33,37,37,37,37,37,37,37</code></li>
+  <li>若采用Phred+64编码，应该为<code class="language-plaintext highlighter-rouge">2,2,2,6,6,6,6,6,6,6,6,6,6,9,9,9,9,9,9,9,9,9,9,9,9,9,9,2,6,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,6,6,6,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6</code></li>
+  <li>若采用Phred+32编码，应该为<code class="language-plaintext highlighter-rouge">33,33,33,37,37,37,37,37,37,37,37,37,37,40,40,40,40,40,40,40,40,40,40,40,40,40,40,33,37,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,37,37,37,37,37,37,37,37,37,37,33,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,33,37,37,37,37,37,37,37</code></li>
 </ul>
 
 <p>故，很明显，使用的是“Phred+32”编码，且质量值均大于30，错误率均小于千分之一，准确率大于99.9%。</p>

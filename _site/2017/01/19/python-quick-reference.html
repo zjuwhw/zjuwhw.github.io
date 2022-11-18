@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">python的快速参考手册</h1>
-    <p class="post-meta"><time datetime="2017-01-19T00:00:00+08:00" itemprop="datePublished">Jan 19, 2017</time></p>
+    <p class="post-meta"><time datetime="2017-01-19T00:00:00+10:00" itemprop="datePublished">Jan 19, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -111,80 +113,80 @@
 <h3 id="common-operations-on-numerical-types">Common operations on numerical types</h3>
 
 <ul>
-  <li><code class="highlighter-rouge">i+j</code> is the sum of i and j</li>
-  <li><code class="highlighter-rouge">i-j</code> is i minus j</li>
-  <li><code class="highlighter-rouge">i*j</code> is the product（） of i and j</li>
-  <li><code class="highlighter-rouge">i//j</code>is integer division</li>
-  <li><code class="highlighter-rouge">i/j</code> is i divided by j. In Python 2.7, when i and j are both of type int, the result is also an int, otherwise the result is a float</li>
-  <li><code class="highlighter-rouge">i%j</code> is the remainder（余数） when the int i is divided by the int j</li>
-  <li><code class="highlighter-rouge">i**j</code> is i raised to the power j</li>
-  <li><code class="highlighter-rouge">x += y</code> is equivalent to <code class="highlighter-rouge">x = x + y</code>. <code class="highlighter-rouge">*=</code> and <code class="highlighter-rouge">-=</code> work the same way</li>
+  <li><code class="language-plaintext highlighter-rouge">i+j</code> is the sum of i and j</li>
+  <li><code class="language-plaintext highlighter-rouge">i-j</code> is i minus j</li>
+  <li><code class="language-plaintext highlighter-rouge">i*j</code> is the product（） of i and j</li>
+  <li><code class="language-plaintext highlighter-rouge">i//j</code>is integer division</li>
+  <li><code class="language-plaintext highlighter-rouge">i/j</code> is i divided by j. In Python 2.7, when i and j are both of type int, the result is also an int, otherwise the result is a float</li>
+  <li><code class="language-plaintext highlighter-rouge">i%j</code> is the remainder（余数） when the int i is divided by the int j</li>
+  <li><code class="language-plaintext highlighter-rouge">i**j</code> is i raised to the power j</li>
+  <li><code class="language-plaintext highlighter-rouge">x += y</code> is equivalent to <code class="language-plaintext highlighter-rouge">x = x + y</code>. <code class="language-plaintext highlighter-rouge">*=</code> and <code class="language-plaintext highlighter-rouge">-=</code> work the same way</li>
 </ul>
 
 <h3 id="comparison-and-boolean-operators">Comparison and Boolean operators</h3>
 
 <ul>
-  <li><code class="highlighter-rouge">x == y</code> returns True if x and y are equal</li>
-  <li><code class="highlighter-rouge">x != y</code> returns True if x and y are not equal</li>
-  <li><code class="highlighter-rouge">&lt;, &gt;, &lt;=, &gt;=</code> have their usual meanings</li>
-  <li><code class="highlighter-rouge">a and b</code> is True if both a and b are True, and False otherwise</li>
-  <li><code class="highlighter-rouge">a or b</code> is Ture if at least one of a and b is True, and False otherwise</li>
-  <li><code class="highlighter-rouge">not a</code> is True if a is Fasle, and False if a if True</li>
+  <li><code class="language-plaintext highlighter-rouge">x == y</code> returns True if x and y are equal</li>
+  <li><code class="language-plaintext highlighter-rouge">x != y</code> returns True if x and y are not equal</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;, &gt;, &lt;=, &gt;=</code> have their usual meanings</li>
+  <li><code class="language-plaintext highlighter-rouge">a and b</code> is True if both a and b are True, and False otherwise</li>
+  <li><code class="language-plaintext highlighter-rouge">a or b</code> is Ture if at least one of a and b is True, and False otherwise</li>
+  <li><code class="language-plaintext highlighter-rouge">not a</code> is True if a is Fasle, and False if a if True</li>
 </ul>
 
 <h3 id="common-operations-on-sequence-types">Common operations on sequence types</h3>
 
 <ul>
-  <li><code class="highlighter-rouge">seq[i]</code> returns the ith element in the sequence</li>
-  <li><code class="highlighter-rouge">len(seq)</code> returns the length of the sequence</li>
-  <li><code class="highlighter-rouge">seq1 + seq2</code> concatenates（链接） the two sequences</li>
-  <li><code class="highlighter-rouge">n*seq</code> returns a sequence that repeats seq n times</li>
-  <li><code class="highlighter-rouge">seq[start:end]</code> returns a slice（切片） of the sequence</li>
-  <li><code class="highlighter-rouge">e in seq</code> tests whether e is contained in the sequence</li>
-  <li><code class="highlighter-rouge">e not in seq</code> tests whether e is not contained in the sequence</li>
-  <li><code class="highlighter-rouge">for e in seq</code> iterates（迭代） over the elements of the sequence</li>
+  <li><code class="language-plaintext highlighter-rouge">seq[i]</code> returns the ith element in the sequence</li>
+  <li><code class="language-plaintext highlighter-rouge">len(seq)</code> returns the length of the sequence</li>
+  <li><code class="language-plaintext highlighter-rouge">seq1 + seq2</code> concatenates（链接） the two sequences</li>
+  <li><code class="language-plaintext highlighter-rouge">n*seq</code> returns a sequence that repeats seq n times</li>
+  <li><code class="language-plaintext highlighter-rouge">seq[start:end]</code> returns a slice（切片） of the sequence</li>
+  <li><code class="language-plaintext highlighter-rouge">e in seq</code> tests whether e is contained in the sequence</li>
+  <li><code class="language-plaintext highlighter-rouge">e not in seq</code> tests whether e is not contained in the sequence</li>
+  <li><code class="language-plaintext highlighter-rouge">for e in seq</code> iterates（迭代） over the elements of the sequence</li>
 </ul>
 
 <h3 id="common-string-methods">Common string methods</h3>
 
 <ul>
-  <li><code class="highlighter-rouge">s.count(s1)</code> counts how many times the string s1 occurs in s</li>
-  <li><code class="highlighter-rouge">s.find(s1)</code> returns the index of the first occurrence of the substring s1 in s; -1 if s1 is not in s</li>
-  <li><code class="highlighter-rouge">s.rfind(s1)</code> same as find, but starts fron the end of s</li>
-  <li><code class="highlighter-rouge">s.index(s1)</code> same as find, but raises an exception if s1 is not in s</li>
-  <li><code class="highlighter-rouge">s.rindx(s1)</code> same as index, but starts from the end of s</li>
-  <li><code class="highlighter-rouge">s.lower()</code> converts all uppercase letters to lowercase</li>
-  <li><code class="highlighter-rouge">s.replace(old, new)</code> replaces all occurrences of string old with string new</li>
-  <li><code class="highlighter-rouge">s.rstrip()</code> removes trailling white space</li>
-  <li><code class="highlighter-rouge">s.split(d)</code> Splits s using d as a delimiter（分隔符）. Return a list of substrings of s</li>
+  <li><code class="language-plaintext highlighter-rouge">s.count(s1)</code> counts how many times the string s1 occurs in s</li>
+  <li><code class="language-plaintext highlighter-rouge">s.find(s1)</code> returns the index of the first occurrence of the substring s1 in s; -1 if s1 is not in s</li>
+  <li><code class="language-plaintext highlighter-rouge">s.rfind(s1)</code> same as find, but starts fron the end of s</li>
+  <li><code class="language-plaintext highlighter-rouge">s.index(s1)</code> same as find, but raises an exception if s1 is not in s</li>
+  <li><code class="language-plaintext highlighter-rouge">s.rindx(s1)</code> same as index, but starts from the end of s</li>
+  <li><code class="language-plaintext highlighter-rouge">s.lower()</code> converts all uppercase letters to lowercase</li>
+  <li><code class="language-plaintext highlighter-rouge">s.replace(old, new)</code> replaces all occurrences of string old with string new</li>
+  <li><code class="language-plaintext highlighter-rouge">s.rstrip()</code> removes trailling white space</li>
+  <li><code class="language-plaintext highlighter-rouge">s.split(d)</code> Splits s using d as a delimiter（分隔符）. Return a list of substrings of s</li>
 </ul>
 
 <h3 id="common-list-methos">Common list methos</h3>
 
 <ul>
-  <li><code class="highlighter-rouge">L.append(e)</code> add the object（对象） e to the end of L</li>
-  <li><code class="highlighter-rouge">L.count(e)</code> returns the number of times that e occurs in L</li>
-  <li><code class="highlighter-rouge">L.insert(i, e)</code> inserts the object e into L at index i</li>
-  <li><code class="highlighter-rouge">L.extend(L1)</code> appends（追加） the items in list L1 to the end of L</li>
-  <li><code class="highlighter-rouge">L.remove(e)</code> deletes the first occurrence of e from L</li>
-  <li><code class="highlighter-rouge">L.index(e)</code> returns the index of the first occurrence of e in L</li>
-  <li><code class="highlighter-rouge">L.pop(i)</code> removes and returns the item at index i. Defaults to -1</li>
-  <li><code class="highlighter-rouge">L.sort()</code> has the side effect of sorting the elements of L</li>
-  <li><code class="highlighter-rouge">L.reverse()</code> has the side effect of reversing the order of the elements in L</li>
+  <li><code class="language-plaintext highlighter-rouge">L.append(e)</code> add the object（对象） e to the end of L</li>
+  <li><code class="language-plaintext highlighter-rouge">L.count(e)</code> returns the number of times that e occurs in L</li>
+  <li><code class="language-plaintext highlighter-rouge">L.insert(i, e)</code> inserts the object e into L at index i</li>
+  <li><code class="language-plaintext highlighter-rouge">L.extend(L1)</code> appends（追加） the items in list L1 to the end of L</li>
+  <li><code class="language-plaintext highlighter-rouge">L.remove(e)</code> deletes the first occurrence of e from L</li>
+  <li><code class="language-plaintext highlighter-rouge">L.index(e)</code> returns the index of the first occurrence of e in L</li>
+  <li><code class="language-plaintext highlighter-rouge">L.pop(i)</code> removes and returns the item at index i. Defaults to -1</li>
+  <li><code class="language-plaintext highlighter-rouge">L.sort()</code> has the side effect of sorting the elements of L</li>
+  <li><code class="language-plaintext highlighter-rouge">L.reverse()</code> has the side effect of reversing the order of the elements in L</li>
 </ul>
 
 <h3 id="common-operations-on-dictionaries">Common operations on dictionaries</h3>
 
 <ul>
-  <li><code class="highlighter-rouge">len(d)</code> returns the number of items in d</li>
-  <li><code class="highlighter-rouge">d.keys()</code> returns a list containing the keys in d</li>
-  <li><code class="highlighter-rouge">d.values()</code> returns a list containing the values in d</li>
-  <li><code class="highlighter-rouge">k in d</code> returns True if key k is in d</li>
-  <li><code class="highlighter-rouge">d[k]</code> returns the item in d with key k. Raises KeyError if k is not in d</li>
-  <li><code class="highlighter-rouge">d.get(k, v)</code> returns d[k] if k in d, and v otherwise</li>
-  <li><code class="highlighter-rouge">d[k] = v</code> associates the value v with the key k. If there is already a value associated with k, that value is replaced.</li>
-  <li><code class="highlighter-rouge">del d[k]</code> removes element with key k from d. Raises KeyError if k is not in d.</li>
-  <li><code class="highlighter-rouge">for k in d</code> iterates over the keys in d</li>
+  <li><code class="language-plaintext highlighter-rouge">len(d)</code> returns the number of items in d</li>
+  <li><code class="language-plaintext highlighter-rouge">d.keys()</code> returns a list containing the keys in d</li>
+  <li><code class="language-plaintext highlighter-rouge">d.values()</code> returns a list containing the values in d</li>
+  <li><code class="language-plaintext highlighter-rouge">k in d</code> returns True if key k is in d</li>
+  <li><code class="language-plaintext highlighter-rouge">d[k]</code> returns the item in d with key k. Raises KeyError if k is not in d</li>
+  <li><code class="language-plaintext highlighter-rouge">d.get(k, v)</code> returns d[k] if k in d, and v otherwise</li>
+  <li><code class="language-plaintext highlighter-rouge">d[k] = v</code> associates the value v with the key k. If there is already a value associated with k, that value is replaced.</li>
+  <li><code class="language-plaintext highlighter-rouge">del d[k]</code> removes element with key k from d. Raises KeyError if k is not in d.</li>
+  <li><code class="language-plaintext highlighter-rouge">for k in d</code> iterates over the keys in d</li>
 </ul>
 
 <h3 id="comparison-of-common-non-scalar-typesnon-scalar-have-internal-structure-that-can-be-accessed">Comparison of common non-scalar types（non-scalar: have internal structure that can be accessed)</h3>
@@ -234,17 +236,17 @@
 <h3 id="common-inputoutput-mechanisms">Common input/output mechanisms</h3>
 
 <ul>
-  <li><code class="highlighter-rouge">raw_input(msg)</code> prints msg and then returns value entered as a string</li>
-  <li><code class="highlighter-rouge">print s1, ..., sn</code> prints strings s1, …, sn with a space between each</li>
-  <li><code class="highlighter-rouge">open('fileName', 'w')</code> creates a file for writing</li>
-  <li><code class="highlighter-rouge">open('fileName', 'r')</code> opens an existing file for reading</li>
-  <li><code class="highlighter-rouge">open('fileName', 'a')</code> opens an existing file for appending</li>
-  <li><code class="highlighter-rouge">fileHandle.read()</code> returns a string containing contents of the file</li>
-  <li><code class="highlighter-rouge">fileHandle.readline()</code> returns the next line in the file</li>
-  <li><code class="highlighter-rouge">fileHandle.readlines()</code> returns a list containing lines of the file</li>
-  <li><code class="highlighter-rouge">fileHandle.write(s)</code> write the string s to the end of the file</li>
-  <li><code class="highlighter-rouge">fileHandle.writelines(L)</code> Writes each element of L to the file</li>
-  <li><code class="highlighter-rouge">fileHandle.close()</code> closes the file</li>
+  <li><code class="language-plaintext highlighter-rouge">raw_input(msg)</code> prints msg and then returns value entered as a string</li>
+  <li><code class="language-plaintext highlighter-rouge">print s1, ..., sn</code> prints strings s1, …, sn with a space between each</li>
+  <li><code class="language-plaintext highlighter-rouge">open('fileName', 'w')</code> creates a file for writing</li>
+  <li><code class="language-plaintext highlighter-rouge">open('fileName', 'r')</code> opens an existing file for reading</li>
+  <li><code class="language-plaintext highlighter-rouge">open('fileName', 'a')</code> opens an existing file for appending</li>
+  <li><code class="language-plaintext highlighter-rouge">fileHandle.read()</code> returns a string containing contents of the file</li>
+  <li><code class="language-plaintext highlighter-rouge">fileHandle.readline()</code> returns the next line in the file</li>
+  <li><code class="language-plaintext highlighter-rouge">fileHandle.readlines()</code> returns a list containing lines of the file</li>
+  <li><code class="language-plaintext highlighter-rouge">fileHandle.write(s)</code> write the string s to the end of the file</li>
+  <li><code class="language-plaintext highlighter-rouge">fileHandle.writelines(L)</code> Writes each element of L to the file</li>
+  <li><code class="language-plaintext highlighter-rouge">fileHandle.close()</code> closes the file</li>
 </ul>
 
   </div>

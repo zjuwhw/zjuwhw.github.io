@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">sampling distribution of correlation r</h1>
-    <p class="post-meta"><time datetime="2017-08-31T00:00:00+08:00" itemprop="datePublished">Aug 31, 2017</time></p>
+    <p class="post-meta"><time datetime="2017-08-31T00:00:00+10:00" itemprop="datePublished">Aug 31, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -112,7 +114,7 @@
 x2, then r should be 0. However the sample estimation of r is not
 exactly 0. There is a sampling distribution around 0.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rep = 1000; n = 25
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rep = 1000; n = 25
 set.seed(1)
 cors = c()
 for(i in 1:rep){
@@ -134,7 +136,7 @@ hist(cors, main = paste("Distribution of estimated r\nmean=",round(mean(cors),4)
 <p>However, if the population correlation is not equal to 0, the
 distribution of estimated r is skewed.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rep = 1000; n = 25
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rep = 1000; n = 25
 set.seed(1)
 cors = c()
 for(i in 1:rep){
@@ -154,19 +156,19 @@ hist(cors, main = paste("Distribution of estimated r\nmean=",round(mean(cors),4)
 <p>Note that if x1 and x2 are two independent standard normal variables,
 the correlation between x1 and x1+2*x2 should be:</p>
 
-<script type="math/tex; mode=display">cor(x_1,x_1+2x_2) = \frac{cov(x_1, x_1+2x_2)}{\sqrt{var(x_1) \times var(x_1+2x_2)}}</script>
+\[cor(x_1,x_1+2x_2) = \frac{cov(x_1, x_1+2x_2)}{\sqrt{var(x_1) \times var(x_1+2x_2)}}\]
 
-<script type="math/tex; mode=display">= \frac{cov(x_1,x_1)+2cov(x_1,x_2)}{\sqrt{var(x1)\times (var(x_1)+4var(x_2)+2\times 2 \times cov(x_1,x_2))}}</script>
+\[= \frac{cov(x_1,x_1)+2cov(x_1,x_2)}{\sqrt{var(x1)\times (var(x_1)+4var(x_2)+2\times 2 \times cov(x_1,x_2))}}\]
 
-<script type="math/tex; mode=display">= \frac{1+0}{\sqrt{1 \times 5}} = 0.4472136</script>
+\[= \frac{1+0}{\sqrt{1 \times 5}} = 0.4472136\]
 
 <h2 id="fishers-z-transformtion">Fisher’s z transformtion</h2>
 
 <p>Fisher developed a way to r to z’:</p>
 
-<script type="math/tex; mode=display">z' = \frac{1}{2} \times ln\frac{1+r}{1-r} \sim N( \mu, \frac{1}{\sqrt{N-3}} )</script>
+\[z' = \frac{1}{2} \times ln\frac{1+r}{1-r} \sim N( \mu, \frac{1}{\sqrt{N-3}} )\]
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rep = 1000; n = 25
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rep = 1000; n = 25
 set.seed(1)
 zs = c()
 for(i in 1:rep){
@@ -184,7 +186,7 @@ hist(zs, main = paste("Distribution of z'\nmean=",round(mean(zs),4)," SD=",round
 
 <p><img src="/images/samdis_cor-chunk-3-1.png" alt="" /></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>### The mean of z'
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>### The mean of z'
 0.5 * log((1+0.4472136)/(1-0.4472136))
 
 ## [1] 0.4812118

@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">mean, variance, covariance and correlation</h1>
-    <p class="post-meta"><time datetime="2017-08-25T00:00:00+08:00" itemprop="datePublished">Aug 25, 2017</time></p>
+    <p class="post-meta"><time datetime="2017-08-25T00:00:00+10:00" itemprop="datePublished">Aug 25, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -193,35 +195,35 @@
 
 <h3 id="expected-value-or-mean">expected value or mean:</h3>
 
-<script type="math/tex; mode=display">E(X) = \sum x_if(x_i)</script>
+\[E(X) = \sum x_if(x_i)\]
 
 <h3 id="variance">variance</h3>
 
-<script type="math/tex; mode=display">Var(X) = \sum (x_i - \mu)^2 f(x_i)</script>
+\[Var(X) = \sum (x_i - \mu)^2 f(x_i)\]
 
-<script type="math/tex; mode=display">Var(X)= E((X-E(X))^2) = E(X^2) - (E(X))^2</script>
+\[Var(X)= E((X-E(X))^2) = E(X^2) - (E(X))^2\]
 
 <h3 id="covariance">covariance</h3>
 
-<script type="math/tex; mode=display">Cov(X,Y) = \sum(x_i - \mu_x)(y_i - \mu_y)f(x_i, y_i)</script>
+\[Cov(X,Y) = \sum(x_i - \mu_x)(y_i - \mu_y)f(x_i, y_i)\]
 
-<script type="math/tex; mode=display">Cov(X,Y) = E((X-E(X))(Y-E(Y))) = E(XY) - E(X)E(Y)</script>
+\[Cov(X,Y) = E((X-E(X))(Y-E(Y))) = E(XY) - E(X)E(Y)\]
 
 <h2 id="slr-simple-linear-regression">SLR (simple linear regression)</h2>
 
 <p>the normal error regression model:</p>
 
-<script type="math/tex; mode=display">Y = \beta_0 + \beta_1X + \epsilon</script>
+\[Y = \beta_0 + \beta_1X + \epsilon\]
 
 <p>the estimation of regression function:</p>
 
-<script type="math/tex; mode=display">\hat{Y_i} = b_0 + b_1X_i\text{, with }b_1 = \frac{SS_{XY}}{SS_X}, b_0 = \bar{Y} - b_1\bar{X}</script>
+\[\hat{Y_i} = b_0 + b_1X_i\text{, with }b_1 = \frac{SS_{XY}}{SS_X}, b_0 = \bar{Y} - b_1\bar{X}\]
 
 <p>the sampling distributon</p>
 
-<script type="math/tex; mode=display">b_1  \sim N(\beta_1,\sigma^2(b_1))\text{, so } \frac{b_1 - \beta_1}{\sigma(b_1)} \sim N(0,1)\text{, with }\sigma^2(b_1) = \frac{\sigma^2}{SS_X}</script>
+\[b_1  \sim N(\beta_1,\sigma^2(b_1))\text{, so } \frac{b_1 - \beta_1}{\sigma(b_1)} \sim N(0,1)\text{, with }\sigma^2(b_1) = \frac{\sigma^2}{SS_X}\]
 
-<script type="math/tex; mode=display">\frac{b_1 - \beta_1}{s(b_1)} \sim t(n-2)\text{, with }s^2(b_1) = \frac{MSE}{SS_X}</script>
+\[\frac{b_1 - \beta_1}{s(b_1)} \sim t(n-2)\text{, with }s^2(b_1) = \frac{MSE}{SS_X}\]
 
 <table>
   <thead>
@@ -323,7 +325,7 @@ estimated variance of <em>b</em><sub>1</sub></li>
 
 <h2 id="r-code-example">R code example</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>lm_example = function(x,y){
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>lm_example = function(x,y){
   xmin = min(x); xmax = max(x)
   fit_lm = lm(y~x)
   b0 = fit_lm$"coefficient"[1]

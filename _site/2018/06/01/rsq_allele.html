@@ -88,6 +88,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -102,7 +104,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">LD and Allele frequency</h1>
-    <p class="post-meta"><time datetime="2018-06-01T00:00:00+08:00" itemprop="datePublished">Jun 1, 2018</time></p>
+    <p class="post-meta"><time datetime="2018-06-01T00:00:00+10:00" itemprop="datePublished">Jun 1, 2018</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -163,42 +165,41 @@ Frequencies</a></li>
 
 <p>As the frequency of all four haplotype need to be greater or equal to 0, so we can know:</p>
 
-<script type="math/tex; mode=display">p_A + p_B - 1 \le p_{AB} \le min[p_A,p_B]</script>
+\[p_A + p_B - 1 \le p_{AB} \le min[p_A,p_B]\]
 
 <h4 id="measure-d">Measure D</h4>
 
 <p>Define that $D = p_{AB} - p_A \times p_B$, so we can know:</p>
 
-<script type="math/tex; mode=display">-(1-p_A)(1-p_B) \le D \le min[p_A(1-p_B), p_B(1-p_A)]</script>
+\[-(1-p_A)(1-p_B) \le D \le min[p_A(1-p_B), p_B(1-p_A)]\]
 
 <p>, and</p>
 
-<script type="math/tex; mode=display">p_{AB} = p_A \times p_B\text{, then }D = 0</script>
+\[p_{AB} = p_A \times p_B\text{, then }D = 0\]
 
 <h4 id="measure-r2">Measure <em>r</em><sup>2</sup></h4>
 
 <p>The LD measure $r^2$ is the squared correlation, where r scales D by the standard deviations of the allele frequencies at two loci:</p>
 
-<script type="math/tex; mode=display">r^2 = \frac{D^2}{p_Ap_B(1-p_A)(1-p_B)}</script>
+\[r^2 = \frac{D^2}{p_Ap_B(1-p_A)(1-p_B)}\]
 
 <p>As I assume A and B are the major allele for loci 1 and 2, respectively, we can see:</p>
 
-<script type="math/tex; mode=display">(1-p_A)^2(1-p_B)^2 \le p_A^2(1-p_B)^2</script>
+\[(1-p_A)^2(1-p_B)^2 \le p_A^2(1-p_B)^2\]
 
-<script type="math/tex; mode=display">(1-p_A)^2(1-p_B)^2\le(1-p_A)^2p_B^2</script>
+\[(1-p_A)^2(1-p_B)^2\le(1-p_A)^2p_B^2\]
 
 <p>and the range of $r^2$ is</p>
 
-<script type="math/tex; mode=display">0 \le r^2 \le min[\frac{p_A(1-p_B)}{(1-p_A)p_B}, \frac{(1-p_A)p_B}{p_A(1-p_B)}]</script>
+\[0 \le r^2 \le min[\frac{p_A(1-p_B)}{(1-p_A)p_B}, \frac{(1-p_A)p_B}{p_A(1-p_B)}]\]
 
 <h4 id="measure-d-1">Measure D’</h4>
 
 <p>The D’ scales D by its maximum value given the allele frequencies:</p>
 
-<script type="math/tex; mode=display">D' = \frac{D}{min[p_A(1-p_B), p_B(1-p_A)]}\text{, if D > 0}</script>
+\[D' = \frac{D}{min[p_A(1-p_B), p_B(1-p_A)]}\text{, if D &gt; 0}\]
 
-<script type="math/tex; mode=display">% <![CDATA[
-D' = \frac{D}{min[p_Ap_B, (1-p_A)(1-p_B)]}\text{, if D < 0} %]]></script>
+\[D' = \frac{D}{min[p_Ap_B, (1-p_A)(1-p_B)]}\text{, if D &lt; 0}\]
 
 <p>|D’| has range 0-1 regardless of allele frequency</p>
 
@@ -214,17 +215,17 @@ D' = \frac{D}{min[p_Ap_B, (1-p_A)(1-p_B)]}\text{, if D < 0} %]]></script>
 
 <p>Furthermore, if we assume $p_B = p_A + v$, we can know:</p>
 
-<script type="math/tex; mode=display">2p_A+v-1 \le p_{AB} \le min[p_A,p_A+v]</script>
+\[2p_A+v-1 \le p_{AB} \le min[p_A,p_A+v]\]
 
-<script type="math/tex; mode=display">-(1-p_A)(1-p_A -v) \le D \le min[p_A(1-p_A-v),(p_A+v)(1-p_A)]</script>
+\[-(1-p_A)(1-p_A -v) \le D \le min[p_A(1-p_A-v),(p_A+v)(1-p_A)]\]
 
-<script type="math/tex; mode=display">0 \le r^2 \le min[\frac{p_A(1-p_A-v)}{(p_A+v)(1-p_A)}, \frac{(p_A+v)(1-p_A)}{p_A(1-p_A-v)}]</script>
+\[0 \le r^2 \le min[\frac{p_A(1-p_A-v)}{(p_A+v)(1-p_A)}, \frac{(p_A+v)(1-p_A)}{p_A(1-p_A-v)}]\]
 
 <p>If we set a threshold for $r^2$, i.e. $r^2 \ge t \ge 0$, then</p>
 
-<script type="math/tex; mode=display">-\frac{p_A(1-p_A)(1-t)}{1-p_A(1-t)} \le v \le \frac{p_A(1-p_A)(1-t)}{p_A(1-t)+t}</script>
+\[-\frac{p_A(1-p_A)(1-t)}{1-p_A(1-t)} \le v \le \frac{p_A(1-p_A)(1-t)}{p_A(1-t)+t}\]
 
-<script type="math/tex; mode=display">\frac{tp_A}{1-p_A(1-t)} \le p_B \le \frac{p_A}{p_A(1-t)+t}</script>
+\[\frac{tp_A}{1-p_A(1-t)} \le p_B \le \frac{p_A}{p_A(1-t)+t}\]
 
 <h3 id="further-reading">Further reading</h3>
 

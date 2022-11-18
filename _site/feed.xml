@@ -1,76 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Huanwei Wang's blog</title>
-    <description>This is Huanwei Wang's personal blog. Powered by Jekyll and Host in Github.
+    <title>Huanwei Wang&apos;s blog</title>
+    <description>This is Huanwei Wang&apos;s personal blog. Powered by Jekyll and Host in Github.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Jan 2021 11:31:33 +0800</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2021 11:31:33 +0800</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
+    <pubDate>Fri, 18 Nov 2022 16:46:30 +1000</pubDate>
+    <lastBuildDate>Fri, 18 Nov 2022 16:46:30 +1000</lastBuildDate>
+    <generator>Jekyll v4.3.1</generator>
     
       <item>
-        <title>衣服上的洗衣标示</title>
-        <description>&lt;p&gt;前段时间买了一件优衣库的“柔软棉羊毛圆领针织衫（长袖）”，洗衣机洗过之后发现缩水明显，本想说讲究穿，结果第二次再次机洗后进一步缩水。故开始关注洗衣服的方法，以及衣服上面的洗衣标示。&lt;/p&gt;
+        <title>澳大利亚绿卡申请时间线</title>
+        <description>&lt;p&gt;我们（一家三口）是在2022年8月18日澳大利亚绿卡（PR，permanent residency visa)申请被批准，走的是global talent visa（GTI 858类型）。&lt;/p&gt;
 
-&lt;p&gt;这篇博客参考&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%B4%97%E8%A1%A3%E7%AC%A6%E8%99%9F&quot;&gt;“洗衣符号”维基百科页面&lt;/a&gt;，看一下我买的四件衣服的洗衣情况。&lt;/p&gt;
+&lt;p&gt;下面是我们申请的时间线和相关资料：&lt;/p&gt;
 
-&lt;h3 id=&quot;无缝羽绒厂大衣&quot;&gt;无缝羽绒厂大衣&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/uniqlo/1.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
+&lt;h3 id=&quot;学校提名&quot;&gt;学校提名&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;手洗，最高洗涤温度40℃&lt;/li&gt;
-  &lt;li&gt;不可漂白&lt;/li&gt;
-  &lt;li&gt;在阴凉处悬挂晾干&lt;/li&gt;
-  &lt;li&gt;不可翻转干燥&lt;/li&gt;
-  &lt;li&gt;不可熨烫&lt;/li&gt;
-  &lt;li&gt;不可干洗&lt;/li&gt;
+  &lt;li&gt;2021年4月11日：跟导师提出想要申请PR，希望他可以做我的提名人&lt;/li&gt;
+  &lt;li&gt;2021年4月13日：联系学校的HR，关于提名我申请PR&lt;/li&gt;
+  &lt;li&gt;2021年6月22日：获得学校的提名信&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;法兰绒格子衬衫长袖&quot;&gt;法兰绒格子衬衫（长袖）&lt;/h3&gt;
+&lt;h3 id=&quot;申请eoi&quot;&gt;申请EOI&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/uniqlo/2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;此visa申请分两步：一步是提交EOI（express of interest），一步是正式申请&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;最高洗涤温度40℃，常规程序&lt;/li&gt;
-  &lt;li&gt;仅允许氧漂/非氯漂&lt;/li&gt;
-  &lt;li&gt;悬挂晾干&lt;/li&gt;
-  &lt;li&gt;不可翻转干燥&lt;/li&gt;
-  &lt;li&gt;熨斗底板最高温度150℃&lt;/li&gt;
-  &lt;li&gt;使用四氯乙烯和符号F代表的所有溶剂的专业干洗，常规干洗&lt;/li&gt;
+  &lt;li&gt;2021年6月22日：提交了GTI EOI&lt;/li&gt;
+  &lt;li&gt;之间：多次与Global Talent Australasia（globaltalentaustralasia@homeaffairs.gov.au）和Global Talent（globaltalent@homeaffairs.gov.au）邮件咨询进度，均没有实质进展&lt;/li&gt;
+  &lt;li&gt;2022年6月21日：给Global Talent Australasia发邮件咨询进度&lt;/li&gt;
+  &lt;li&gt;2022年7月1日：Global Talent Australasia回复邮件，要进一步资料，包括CV，工资，和其他成就证明&lt;/li&gt;
+  &lt;li&gt;2022年7月2日：把资料通过邮件回复给Global Talent Australasia&lt;/li&gt;
+  &lt;li&gt;2022年7月4日：Global Talent Australasia发邮件给我和Global Talent，支持优先审核我的申请（“confirm priority processing support for this candidate”）&lt;/li&gt;
+  &lt;li&gt;2022年7月6日：得到EOI申请&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;柔软棉羊毛圆领针织衫长袖&quot;&gt;柔软棉羊毛圆领针织衫（长袖）&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/uniqlo/3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;正式申请&quot;&gt;正式申请&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;手洗，最高洗涤温度40℃&lt;/li&gt;
-  &lt;li&gt;不可漂白&lt;/li&gt;
-  &lt;li&gt;在阴凉处平摊晾干&lt;/li&gt;
-  &lt;li&gt;不可翻转干燥&lt;/li&gt;
-  &lt;li&gt;熨斗底板最高温度150℃&lt;/li&gt;
-  &lt;li&gt;使用碳氢化合物溶剂的专业干洗，常规干洗&lt;/li&gt;
+  &lt;li&gt;接到邀请后，我们花一些时间准备所需资料。包括无犯罪记录证明（Police clearance），中国的是父母待办，澳洲是网上申请。&lt;/li&gt;
+  &lt;li&gt;2022年7月16日：提交申请&lt;/li&gt;
+  &lt;li&gt;2022年7月18日：付款成功（通过Bpay付款，需要几天的转账时间）&lt;/li&gt;
+  &lt;li&gt;2022年8月8日：移民局Home Affair要求然然functional english的证明（之前提交的COE不符合要求）&lt;/li&gt;
+  &lt;li&gt;2022年8月13日：体检&lt;/li&gt;
+  &lt;li&gt;2022年8月16日：补交了然然的成绩单（学校开的官方成绩单）作为funcional english的证明&lt;/li&gt;
+  &lt;li&gt;2022年8月18日: 申请获批&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;摇粒绒拉链茄克长袖&quot;&gt;摇粒绒拉链茄克（长袖）&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/uniqlo/4.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;其他资料&quot;&gt;其他资料&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;最高洗涤温度40℃，常规程序&lt;/li&gt;
-  &lt;li&gt;不可漂白&lt;/li&gt;
-  &lt;li&gt;在阴凉处悬挂晾干&lt;/li&gt;
-  &lt;li&gt;不可翻转干燥&lt;/li&gt;
-  &lt;li&gt;不可熨烫&lt;/li&gt;
-  &lt;li&gt;不可干洗&lt;/li&gt;
+  &lt;li&gt;移民局网站1: &lt;a href=&quot;https://immi.homeaffairs.gov.au/visas/working-in-australia/visas-for-innovation/global-talent-independent-program&quot;&gt;https://immi.homeaffairs.gov.au/visas/working-in-australia/visas-for-innovation/global-talent-independent-program&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;移民局网站2: &lt;a href=&quot;https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/global-talent-visa-858&quot;&gt;https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/global-talent-visa-858&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;发送邮件给GlobalTalent@homeaffairs.gov.au ， 我得到了自动回复，有一些有用的信息&lt;/li&gt;
+  &lt;li&gt;如果人在澳洲，可以联系GlobalTalentAustralasia@homeaffairs.gov.au&lt;/li&gt;
+  &lt;li&gt;移民局网站Home Affair上的信息公示（The freedom of information） 会公开一些相关信息：&lt;a href=&quot;https://www.homeaffairs.gov.au/access-and-accountability/freedom-of-information/disclosure-logs/2022&quot;&gt;https://www.homeaffairs.gov.au/access-and-accountability/freedom-of-information/disclosure-logs/2022&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 16 Dec 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/12/16/washing.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/12/16/washing.html</guid>
+        <pubDate>Fri, 18 Nov 2022 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2022/11/18/PR.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/11/18/PR.html</guid>
         
         <category>life</category>
         
@@ -78,1592 +69,1397 @@
       </item>
     
       <item>
-        <title>初中课程</title>
-        <description>&lt;p&gt;给亲戚家孩子补习初中课程，好多东西都忘记了。故翻看教材，整理和回顾一下知识点。&lt;/p&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#数学冀教版&quot; id=&quot;markdown-toc-数学冀教版&quot;&gt;数学（冀教版）&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#七年级上&quot; id=&quot;markdown-toc-七年级上&quot;&gt;七年级上&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第1章-有理数&quot; id=&quot;markdown-toc-第1章-有理数&quot;&gt;第1章 有理数&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第2章-几何图形的初步认识&quot; id=&quot;markdown-toc-第2章-几何图形的初步认识&quot;&gt;第2章 几何图形的初步认识&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第3章-代数式&quot; id=&quot;markdown-toc-第3章-代数式&quot;&gt;第3章 代数式&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第4章-整式的加减&quot; id=&quot;markdown-toc-第4章-整式的加减&quot;&gt;第4章 整式的加减&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第5章-一元一次方程&quot; id=&quot;markdown-toc-第5章-一元一次方程&quot;&gt;第5章 一元一次方程&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#七年级下&quot; id=&quot;markdown-toc-七年级下&quot;&gt;七年级下&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第6章-二元一次方程组&quot; id=&quot;markdown-toc-第6章-二元一次方程组&quot;&gt;第6章 二元一次方程组&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第7章-相交线与平行线&quot; id=&quot;markdown-toc-第7章-相交线与平行线&quot;&gt;第7章 相交线与平行线&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第8章-整式的乘法&quot; id=&quot;markdown-toc-第8章-整式的乘法&quot;&gt;第8章 整式的乘法&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第9章-三角形&quot; id=&quot;markdown-toc-第9章-三角形&quot;&gt;第9章 三角形&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第10章-一元一次不等式和一元一次不等式组&quot; id=&quot;markdown-toc-第10章-一元一次不等式和一元一次不等式组&quot;&gt;第10章 一元一次不等式和一元一次不等式组&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第11章-因式分解&quot; id=&quot;markdown-toc-第11章-因式分解&quot;&gt;第11章 因式分解&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#八年级上&quot; id=&quot;markdown-toc-八年级上&quot;&gt;八年级上&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第12章-分式和分式方程&quot; id=&quot;markdown-toc-第12章-分式和分式方程&quot;&gt;第12章 分式和分式方程&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第13章-全等三角形&quot; id=&quot;markdown-toc-第13章-全等三角形&quot;&gt;第13章 全等三角形&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第14章-实数&quot; id=&quot;markdown-toc-第14章-实数&quot;&gt;第14章 实数&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第15章-二次根式&quot; id=&quot;markdown-toc-第15章-二次根式&quot;&gt;第15章 二次根式&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第16章-轴对称和中心对称&quot; id=&quot;markdown-toc-第16章-轴对称和中心对称&quot;&gt;第16章 轴对称和中心对称&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第17章-特殊三角形&quot; id=&quot;markdown-toc-第17章-特殊三角形&quot;&gt;第17章 特殊三角形&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#八年级下&quot; id=&quot;markdown-toc-八年级下&quot;&gt;八年级下&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第18章-数据的收集与整理&quot; id=&quot;markdown-toc-第18章-数据的收集与整理&quot;&gt;第18章 数据的收集与整理&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第19章-平面直角坐标系&quot; id=&quot;markdown-toc-第19章-平面直角坐标系&quot;&gt;第19章 平面直角坐标系&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第20章-函数&quot; id=&quot;markdown-toc-第20章-函数&quot;&gt;第20章 函数&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第21章-一次函数&quot; id=&quot;markdown-toc-第21章-一次函数&quot;&gt;第21章 一次函数&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第22章-四边形&quot; id=&quot;markdown-toc-第22章-四边形&quot;&gt;第22章 四边形&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#九年级上&quot; id=&quot;markdown-toc-九年级上&quot;&gt;九年级上&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第23章-数据分析&quot; id=&quot;markdown-toc-第23章-数据分析&quot;&gt;第23章 数据分析&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第24章-一元二次方程&quot; id=&quot;markdown-toc-第24章-一元二次方程&quot;&gt;第24章 一元二次方程&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第25章-图形的相似&quot; id=&quot;markdown-toc-第25章-图形的相似&quot;&gt;第25章 图形的相似&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第26章-解直角三角形&quot; id=&quot;markdown-toc-第26章-解直角三角形&quot;&gt;第26章 解直角三角形&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第27章-反比例函数&quot; id=&quot;markdown-toc-第27章-反比例函数&quot;&gt;第27章 反比例函数&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第28章-圆&quot; id=&quot;markdown-toc-第28章-圆&quot;&gt;第28章 圆&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#九年级下&quot; id=&quot;markdown-toc-九年级下&quot;&gt;九年级下&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第29章-直线与圆的位置关系&quot; id=&quot;markdown-toc-第29章-直线与圆的位置关系&quot;&gt;第29章 直线与圆的位置关系&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第30章-二次函数&quot; id=&quot;markdown-toc-第30章-二次函数&quot;&gt;第30章 二次函数&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第31章-随机事件的概率&quot; id=&quot;markdown-toc-第31章-随机事件的概率&quot;&gt;第31章 随机事件的概率&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第32章-投影与视图&quot; id=&quot;markdown-toc-第32章-投影与视图&quot;&gt;第32章 投影与视图&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#数学人教版&quot; id=&quot;markdown-toc-数学人教版&quot;&gt;数学（人教版）&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#七年级上-1&quot; id=&quot;markdown-toc-七年级上-1&quot;&gt;七年级上&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第1章-有理数-1&quot; id=&quot;markdown-toc-第1章-有理数-1&quot;&gt;第1章 有理数&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第2章-整式的加减&quot; id=&quot;markdown-toc-第2章-整式的加减&quot;&gt;第2章 整式的加减&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第3章-一元一次方程&quot; id=&quot;markdown-toc-第3章-一元一次方程&quot;&gt;第3章 一元一次方程&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第4章-几何图形初步&quot; id=&quot;markdown-toc-第4章-几何图形初步&quot;&gt;第4章 几何图形初步&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#七年级下-1&quot; id=&quot;markdown-toc-七年级下-1&quot;&gt;七年级下&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第5章-相交线与平行线&quot; id=&quot;markdown-toc-第5章-相交线与平行线&quot;&gt;第5章 相交线与平行线&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第6章-实数&quot; id=&quot;markdown-toc-第6章-实数&quot;&gt;第6章 实数&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第7章-平面直角坐标系&quot; id=&quot;markdown-toc-第7章-平面直角坐标系&quot;&gt;第7章 平面直角坐标系&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第8章-二元一次方程组&quot; id=&quot;markdown-toc-第8章-二元一次方程组&quot;&gt;第8章 二元一次方程组&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第9章-不等式与不等式组&quot; id=&quot;markdown-toc-第9章-不等式与不等式组&quot;&gt;第9章 不等式与不等式组&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第10章-数据的收集整理与描述&quot; id=&quot;markdown-toc-第10章-数据的收集整理与描述&quot;&gt;第10章 数据的收集、整理与描述&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#八年级上-1&quot; id=&quot;markdown-toc-八年级上-1&quot;&gt;八年级上&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第11章-三角形&quot; id=&quot;markdown-toc-第11章-三角形&quot;&gt;第11章 三角形&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第12章-全等三角形&quot; id=&quot;markdown-toc-第12章-全等三角形&quot;&gt;第12章 全等三角形&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第13章-轴对称&quot; id=&quot;markdown-toc-第13章-轴对称&quot;&gt;第13章 轴对称&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第14章-整式的乘法与因式分解&quot; id=&quot;markdown-toc-第14章-整式的乘法与因式分解&quot;&gt;第14章 整式的乘法与因式分解&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第15章-分式&quot; id=&quot;markdown-toc-第15章-分式&quot;&gt;第15章 分式&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#八年级下-1&quot; id=&quot;markdown-toc-八年级下-1&quot;&gt;八年级下&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第16章-二次根式&quot; id=&quot;markdown-toc-第16章-二次根式&quot;&gt;第16章 二次根式&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第17章-勾股定理&quot; id=&quot;markdown-toc-第17章-勾股定理&quot;&gt;第17章 勾股定理&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第18章-平行四边形&quot; id=&quot;markdown-toc-第18章-平行四边形&quot;&gt;第18章 平行四边形&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第19章-一次函数&quot; id=&quot;markdown-toc-第19章-一次函数&quot;&gt;第19章 一次函数&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第20章-数据的分析&quot; id=&quot;markdown-toc-第20章-数据的分析&quot;&gt;第20章 数据的分析&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#九年级上-1&quot; id=&quot;markdown-toc-九年级上-1&quot;&gt;九年级上&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第21章-一元二次方程&quot; id=&quot;markdown-toc-第21章-一元二次方程&quot;&gt;第21章 一元二次方程&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第22章-二次函数&quot; id=&quot;markdown-toc-第22章-二次函数&quot;&gt;第22章 二次函数&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第23章-旋转&quot; id=&quot;markdown-toc-第23章-旋转&quot;&gt;第23章 旋转&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第24章-圆&quot; id=&quot;markdown-toc-第24章-圆&quot;&gt;第24章 圆&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第25章-概率初步&quot; id=&quot;markdown-toc-第25章-概率初步&quot;&gt;第25章 概率初步&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#九年级下-1&quot; id=&quot;markdown-toc-九年级下-1&quot;&gt;九年级下&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#第26章-反比例函数&quot; id=&quot;markdown-toc-第26章-反比例函数&quot;&gt;第26章 反比例函数&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第27章-相似&quot; id=&quot;markdown-toc-第27章-相似&quot;&gt;第27章 相似&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第28章-锐角三角形&quot; id=&quot;markdown-toc-第28章-锐角三角形&quot;&gt;第28章 锐角三角形&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#第29章-投影与视图&quot; id=&quot;markdown-toc-第29章-投影与视图&quot;&gt;第29章 投影与视图&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;数学冀教版&quot;&gt;数学（冀教版）&lt;/h2&gt;
-
-&lt;h3 id=&quot;七年级上&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/yqhzI7jdezhTe7AHu7U7vg&quot;&gt;七年级上&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;第1章-有理数&quot;&gt;第1章 有理数&lt;/h4&gt;
-
-&lt;h4 id=&quot;第2章-几何图形的初步认识&quot;&gt;第2章 几何图形的初步认识&lt;/h4&gt;
-
-&lt;h4 id=&quot;第3章-代数式&quot;&gt;第3章 代数式&lt;/h4&gt;
-
-&lt;h4 id=&quot;第4章-整式的加减&quot;&gt;第4章 整式的加减&lt;/h4&gt;
-
-&lt;h4 id=&quot;第5章-一元一次方程&quot;&gt;第5章 一元一次方程&lt;/h4&gt;
-
-&lt;h3 id=&quot;七年级下&quot;&gt;&lt;a href=&quot;http://jiaocai.hebeijiaoyu.com.cn/book/%E6%B2%B3%E5%8C%97%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE%E5%86%80%E6%95%99%E7%89%88/%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90/%E5%88%9D%E4%B8%AD/%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf&quot;&gt;七年级下&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;第6章-二元一次方程组&quot;&gt;第6章 二元一次方程组&lt;/h4&gt;
-
-&lt;h4 id=&quot;第7章-相交线与平行线&quot;&gt;第7章 相交线与平行线&lt;/h4&gt;
-
-&lt;h4 id=&quot;第8章-整式的乘法&quot;&gt;第8章 整式的乘法&lt;/h4&gt;
-
-&lt;h4 id=&quot;第9章-三角形&quot;&gt;第9章 三角形&lt;/h4&gt;
-
-&lt;h4 id=&quot;第10章-一元一次不等式和一元一次不等式组&quot;&gt;第10章 一元一次不等式和一元一次不等式组&lt;/h4&gt;
-
-&lt;h4 id=&quot;第11章-因式分解&quot;&gt;第11章 因式分解&lt;/h4&gt;
-
-&lt;h3 id=&quot;八年级上&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/APQFOvEgSpLybiOZbREHvw&quot;&gt;八年级上&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;第12章-分式和分式方程&quot;&gt;第12章 分式和分式方程&lt;/h4&gt;
-
-&lt;h4 id=&quot;第13章-全等三角形&quot;&gt;第13章 全等三角形&lt;/h4&gt;
-
-&lt;h4 id=&quot;第14章-实数&quot;&gt;第14章 实数&lt;/h4&gt;
-
-&lt;h4 id=&quot;第15章-二次根式&quot;&gt;第15章 二次根式&lt;/h4&gt;
-
-&lt;h4 id=&quot;第16章-轴对称和中心对称&quot;&gt;第16章 轴对称和中心对称&lt;/h4&gt;
-
-&lt;h4 id=&quot;第17章-特殊三角形&quot;&gt;第17章 特殊三角形&lt;/h4&gt;
-
-&lt;h3 id=&quot;八年级下&quot;&gt;&lt;a href=&quot;http://jiaocai.hebeijiaoyu.com.cn/book/%E6%B2%B3%E5%8C%97%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE%E5%86%80%E6%95%99%E7%89%88/%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90/%E5%88%9D%E4%B8%AD/%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf&quot;&gt;八年级下&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;第18章-数据的收集与整理&quot;&gt;第18章 数据的收集与整理&lt;/h4&gt;
-
-&lt;h4 id=&quot;第19章-平面直角坐标系&quot;&gt;第19章 平面直角坐标系&lt;/h4&gt;
-
-&lt;h4 id=&quot;第20章-函数&quot;&gt;第20章 函数&lt;/h4&gt;
-
-&lt;h4 id=&quot;第21章-一次函数&quot;&gt;第21章 一次函数&lt;/h4&gt;
-
-&lt;h4 id=&quot;第22章-四边形&quot;&gt;第22章 四边形&lt;/h4&gt;
-
-&lt;h3 id=&quot;九年级上&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/XDl3aWowxb6p_eh0I8vJTQ&quot;&gt;九年级上&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;第23章-数据分析&quot;&gt;第23章 数据分析&lt;/h4&gt;
-
-&lt;h4 id=&quot;第24章-一元二次方程&quot;&gt;第24章 一元二次方程&lt;/h4&gt;
-
-&lt;h4 id=&quot;第25章-图形的相似&quot;&gt;第25章 图形的相似&lt;/h4&gt;
-
-&lt;h4 id=&quot;第26章-解直角三角形&quot;&gt;第26章 解直角三角形&lt;/h4&gt;
-
-&lt;h4 id=&quot;第27章-反比例函数&quot;&gt;第27章 反比例函数&lt;/h4&gt;
-
-&lt;h4 id=&quot;第28章-圆&quot;&gt;第28章 圆&lt;/h4&gt;
-
-&lt;h3 id=&quot;九年级下&quot;&gt;&lt;a href=&quot;http://jiaocai.hebeijiaoyu.com.cn/book/%E6%B2%B3%E5%8C%97%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE%E5%86%80%E6%95%99%E7%89%88/%E6%95%B0%E5%AD%A6%E6%95%99%E6%9D%90/%E5%88%9D%E4%B8%AD/%E5%88%9D%E4%B8%AD%E6%95%B0%E5%AD%A6%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf&quot;&gt;九年级下&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;第29章-直线与圆的位置关系&quot;&gt;第29章 直线与圆的位置关系&lt;/h4&gt;
-
-&lt;h4 id=&quot;第30章-二次函数&quot;&gt;第30章 二次函数&lt;/h4&gt;
-
-&lt;h4 id=&quot;第31章-随机事件的概率&quot;&gt;第31章 随机事件的概率&lt;/h4&gt;
-
-&lt;h4 id=&quot;第32章-投影与视图&quot;&gt;第32章 投影与视图&lt;/h4&gt;
-
-&lt;h2 id=&quot;数学人教版&quot;&gt;数学（人教版）&lt;/h2&gt;
-
-&lt;h3 id=&quot;七年级上-1&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/-zgK2Mnrx_SuQzhEbeP0fw&quot;&gt;七年级上&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;第1章-有理数-1&quot;&gt;第1章 有理数&lt;/h4&gt;
-
-&lt;h4 id=&quot;第2章-整式的加减&quot;&gt;第2章 整式的加减&lt;/h4&gt;
-
-&lt;h4 id=&quot;第3章-一元一次方程&quot;&gt;第3章 一元一次方程&lt;/h4&gt;
-
-&lt;h4 id=&quot;第4章-几何图形初步&quot;&gt;第4章 几何图形初步&lt;/h4&gt;
-
-&lt;h3 id=&quot;七年级下-1&quot;&gt;&lt;a href=&quot;https://bp.pep.com.cn/ebook/sxqinjxc/mobile/index.html&quot;&gt;七年级下&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;第5章-相交线与平行线&quot;&gt;第5章 相交线与平行线&lt;/h4&gt;
-
-&lt;h4 id=&quot;第6章-实数&quot;&gt;第6章 实数&lt;/h4&gt;
-
-&lt;h4 id=&quot;第7章-平面直角坐标系&quot;&gt;第7章 平面直角坐标系&lt;/h4&gt;
-
-&lt;h4 id=&quot;第8章-二元一次方程组&quot;&gt;第8章 二元一次方程组&lt;/h4&gt;
-
-&lt;h4 id=&quot;第9章-不等式与不等式组&quot;&gt;第9章 不等式与不等式组&lt;/h4&gt;
-
-&lt;h4 id=&quot;第10章-数据的收集整理与描述&quot;&gt;第10章 数据的收集、整理与描述&lt;/h4&gt;
-
-&lt;h3 id=&quot;八年级上-1&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/mp/homepage?__biz=MzU3NTg3MTYyMQ==&amp;amp;hid=8&amp;amp;sn=49a9d0cb1f703682fb577a464e3f4e75&amp;amp;scene=25&quot;&gt;八年级上&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;第11章-三角形&quot;&gt;第11章 三角形&lt;/h4&gt;
-
-&lt;h4 id=&quot;第12章-全等三角形&quot;&gt;第12章 全等三角形&lt;/h4&gt;
+        <title>中国新冠死亡率</title>
+        <description>&lt;p&gt;根据&lt;a href=&quot;https://weekly.chinacdc.cn/news/TrackingtheEpidemic.htm&quot;&gt;国家卫健委的统计数据&lt;/a&gt;，&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;12.1 全等三角形
-    &lt;ul&gt;
-      &lt;li&gt;全等形，全等三角形&lt;/li&gt;
-      &lt;li&gt;对应顶点，对应边，对应角&lt;/li&gt;
-      &lt;li&gt;ABC与DEF全等，记作△ABC≌△DEF&lt;/li&gt;
-      &lt;li&gt;全等三角形的对应边相等，对应角相等&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;12.2 三角形全等的判断
-    &lt;ul&gt;
-      &lt;li&gt;三边分别相等的两个三角形全等（边边边）&lt;/li&gt;
-      &lt;li&gt;两边和它们的夹角分别相等的两个三角形全等（边角边）&lt;/li&gt;
-      &lt;li&gt;两角和它们的夹边分别相等的两个三角形全等（角边角）&lt;/li&gt;
-      &lt;li&gt;两角和其中一个角的对边分别相等的两个三角形全等（角角边）&lt;/li&gt;
-      &lt;li&gt;斜边和一条直角边分别相等的两个三角形全等（斜边直角边）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;12.3 角的平分线的性质&lt;/li&gt;
+  &lt;li&gt;从2022年1月1日到2022年10月26日，国内共有新增确诊病例累计156087，新增无症状感染者累计785801，新增死亡累计590。死亡率仅为0.0006264014（万分之六）&lt;/li&gt;
+  &lt;li&gt;从2022年5月28日算起，国内新增死亡病例为0，但却累计新增了确诊病例34331，无症状感染者111841。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;第13章-轴对称&quot;&gt;第13章 轴对称&lt;/h4&gt;
+&lt;p&gt;不知道我的计算是否有误，代码见下方。&lt;/p&gt;
 
-&lt;h4 id=&quot;第14章-整式的乘法与因式分解&quot;&gt;第14章 整式的乘法与因式分解&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/images/covid_death.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;第15章-分式&quot;&gt;第15章 分式&lt;/h4&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;data = readLines(&quot;china_cdc.txt&quot;)
+days = data[grepl(&quot;2022$&quot;,data) &amp;amp; !grepl(&quot;National Health Commission Update&quot;, data)]
+new_confirmed = as.integer(sapply(strsplit(data[grep(&quot;Confirmed:&quot;, data)], &quot;Confirmed: | new&quot;), function(x) sub(&quot;,&quot;, &quot;&quot;,x[2])))
+new_asympt = as.integer(sapply(strsplit(data[grep(&quot;Asymptomatic:&quot;, data)], &quot;Asymptomatic: | new&quot;), function(x) sub(&quot;,&quot;, &quot;&quot;,x[2])))
+new_death = as.integer(sapply(strsplit(data[grep(&quot;Deaths:&quot;, data)], &quot;Deaths: | new&quot;), function(x) sub(&quot;,&quot;, &quot;&quot;,x[3])))
+res = data.frame(days=as.Date(days, &quot;%b %d, %Y&quot;), new_confirmed, new_asympt, new_death)
 
-&lt;h3 id=&quot;八年级下-1&quot;&gt;&lt;a href=&quot;https://bp.pep.com.cn/ebook/sxbanjxc/mobile/index.html&quot;&gt;八年级下&lt;/a&gt;&lt;/h3&gt;
+library(ggplot2); library(tidyverse)
+ggplot(res %&amp;gt;% pivot_longer(-days), aes(x=days, y=value)) + 
+    geom_point() + xlab(&quot;&quot;)+ ylab(&quot;counts&quot;)+
+    facet_wrap(vars(name), scales=&quot;free_y&quot;) + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + geom_vline(xintercept=as.Date(&quot;2022-05-28&quot;))
 
-&lt;h4 id=&quot;第16章-二次根式&quot;&gt;第16章 二次根式&lt;/h4&gt;
+res %&amp;gt;% filter(days &amp;gt;= as.Date(&quot;2022-05-28&quot;)) %&amp;gt;% summarise(sum(new_confirmed), sum(new_asympt), sum(new_death), n())
+###  sum(new_confirmed) sum(new_asympt) sum(new_death) n()
+### 1              34331          111841              0 152
 
-&lt;h4 id=&quot;第17章-勾股定理&quot;&gt;第17章 勾股定理&lt;/h4&gt;
+res %&amp;gt;% summarise(sum(new_confirmed), sum(new_asympt), sum(new_death), n())
+###   sum(new_confirmed) sum(new_asympt) sum(new_death) n()
+### 1             156087          785801            590 299
 
-&lt;h4 id=&quot;第18章-平行四边形&quot;&gt;第18章 平行四边形&lt;/h4&gt;
-
-&lt;h4 id=&quot;第19章-一次函数&quot;&gt;第19章 一次函数&lt;/h4&gt;
-
-&lt;h4 id=&quot;第20章-数据的分析&quot;&gt;第20章 数据的分析&lt;/h4&gt;
-
-&lt;h3 id=&quot;九年级上-1&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/mp/homepage?__biz=MzU3NTg3MTYyMQ==&amp;amp;hid=9&amp;amp;sn=8c04740f5f1b00dde586186932fad3d1&amp;amp;scene=25&quot;&gt;九年级上&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;第21章-一元二次方程&quot;&gt;第21章 一元二次方程&lt;/h4&gt;
-
-&lt;h4 id=&quot;第22章-二次函数&quot;&gt;第22章 二次函数&lt;/h4&gt;
-
-&lt;h4 id=&quot;第23章-旋转&quot;&gt;第23章 旋转&lt;/h4&gt;
-
-&lt;h4 id=&quot;第24章-圆&quot;&gt;第24章 圆&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;24.1 圆的有关性质
-    &lt;ul&gt;
-      &lt;li&gt;24.1.1 圆
-        &lt;ul&gt;
-          &lt;li&gt;圆，圆心，半径，记作⊙O，读作“圆O”&lt;/li&gt;
-          &lt;li&gt;弦，直径&lt;/li&gt;
-          &lt;li&gt;圆弧/弧，半圆，优弧和劣弧&lt;/li&gt;
-          &lt;li&gt;等圆（能够重合的两个圆），等弧&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;24.1.2 垂直于弦的直径
-        &lt;ul&gt;
-          &lt;li&gt;轴对称图形，直径为对称轴&lt;/li&gt;
-          &lt;li&gt;垂直于弦的直径 =&amp;gt; 平分弦，平分弧&lt;/li&gt;
-          &lt;li&gt;平分弦的直径 =&amp;gt; 垂直于弦，平分弧&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;24.1.3 弧、弦、圆心角
-        &lt;ul&gt;
-          &lt;li&gt;圆心角（定点在圆心上）&lt;/li&gt;
-          &lt;li&gt;在同圆或者是等圆中：
-            &lt;ul&gt;
-              &lt;li&gt;角等 =&amp;gt; 弦等，弧等&lt;/li&gt;
-              &lt;li&gt;弦等 =&amp;gt; 角等，弧等&lt;/li&gt;
-              &lt;li&gt;弧等 =&amp;gt; 角等，弦等&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;24.1.4 圆周角
-        &lt;ul&gt;
-          &lt;li&gt;圆周角：顶点在圆上，并且两边都与圆相交&lt;/li&gt;
-          &lt;li&gt;圆周角定律：
-            &lt;ul&gt;
-              &lt;li&gt;同弧所对圆周角为其圆心角的一半&lt;/li&gt;
-              &lt;li&gt;同弧或等弧所对的圆周角相等&lt;/li&gt;
-              &lt;li&gt;半圆（或直径）所对的圆周角是直角，90度的圆周角所对的弦是直径&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;圆内接多边形，多边形的外接圆&lt;/li&gt;
-          &lt;li&gt;圆内接四边形的对角互补（和为180度）&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;24.2 点和圆、直线和圆的位置关系
-    &lt;ul&gt;
-      &lt;li&gt;24.2.1 点和圆的位置关系
-        &lt;ul&gt;
-          &lt;li&gt;设圆O半径为r，点P到圆心的距离OP=d，则
-            &lt;ul&gt;
-              &lt;li&gt;点P在圆外 &amp;lt;=&amp;gt; d&amp;gt;r&lt;/li&gt;
-              &lt;li&gt;点P在圆上 &amp;lt;=&amp;gt; d=r&lt;/li&gt;
-              &lt;li&gt;点P在圆内 &amp;lt;=&amp;gt; d&amp;lt;r&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;不在同一条直线上的三个点确定一个圆，这个圆叫外接圆，其圆心为三角形的外心（三边垂直平分线的交点）&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;24.2.2 直线和圆的位置关系
-        &lt;ul&gt;
-          &lt;li&gt;相交（割线），相切（切线，切点），相离&lt;/li&gt;
-          &lt;li&gt;设圆O半径为r，圆心O到直线的距离为d：
-            &lt;ul&gt;
-              &lt;li&gt;相交 &amp;lt;=&amp;gt; d&amp;lt;r&lt;/li&gt;
-              &lt;li&gt;相切 &amp;lt;=&amp;gt; d=r&lt;/li&gt;
-              &lt;li&gt;相离 &amp;lt;=&amp;gt; d&amp;gt;r&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;切线的判定定理：经过半径的外端且垂直于这条半径的直线&lt;/li&gt;
-          &lt;li&gt;圆的切线垂直于过切点的半径&lt;/li&gt;
-          &lt;li&gt;圆外一点的两条切线，切线长&lt;/li&gt;
-          &lt;li&gt;从圆外一点可以引圆的两条切线，它们的切线长相等，这一点和圆心的连线平分两条切线的夹角&lt;/li&gt;
-          &lt;li&gt;内切圆，内心（三条角平分线的交点）&lt;/li&gt;
-          &lt;li&gt;圆与圆的关系：外离，内含，相切（内切和外切），相交&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;24.3 正多边形和圆
-    &lt;ul&gt;
-      &lt;li&gt;正多边形的中心，半径，中心角，边心距&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;24.4 弧长和扇形面积
-    &lt;ul&gt;
-      &lt;li&gt;360度的圆心角所对应的弧长：2πR&lt;/li&gt;
-      &lt;li&gt;n度的圆心角对应的弧长：2πR/360*n&lt;/li&gt;
-      &lt;li&gt;扇形：n度圆心角的扇形面积：nπR^2/360&lt;/li&gt;
-      &lt;li&gt;圆锥，母线，全面积&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/math_chapter24.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;第25章-概率初步&quot;&gt;第25章 概率初步&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;25.1 随机事件与概率
-    &lt;ul&gt;
-      &lt;li&gt;25.1.1 随机事件&lt;/li&gt;
-      &lt;li&gt;25.1.2 概率&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;25.2 用列举法求概率&lt;/li&gt;
-  &lt;li&gt;25.3 用频率估计概率&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;九年级下-1&quot;&gt;&lt;a href=&quot;https://bp.pep.com.cn/ebook/sxjiunjxc/mobile/index.html&quot;&gt;九年级下&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;第26章-反比例函数&quot;&gt;第26章 反比例函数&lt;/h4&gt;
-
-&lt;h4 id=&quot;第27章-相似&quot;&gt;第27章 相似&lt;/h4&gt;
-
-&lt;h4 id=&quot;第28章-锐角三角形&quot;&gt;第28章 锐角三角形&lt;/h4&gt;
-
-&lt;h4 id=&quot;第29章-投影与视图&quot;&gt;第29章 投影与视图&lt;/h4&gt;
+590/(156087+785801)
+### [1] 0.0006264014
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Wed, 22 Jul 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/07/22/middleschool.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/07/22/middleschool.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>小米路由器</title>
-        <description>&lt;p&gt;做了一个ppt，向父母解释“更换小米路由器后网路测速情况”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/xiaomi_presentation_page1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/documents/xiaomi_presentation.pdf&quot;&gt;全文件链接&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 07 May 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/05/07/xiaomi-route.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/05/07/xiaomi-route.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>椎间盘突出症</title>
-        <description>&lt;p&gt;周围有一些亲戚朋友得了“椎间盘突出症（herniated disk）”，于是翻译这篇梅奥诊所的&lt;a href=&quot;https://www.mayoclinic.org/diseases-conditions/herniated-disk/symptoms-causes/syc-20354095&quot;&gt;这篇介绍文章&lt;/a&gt;，希望有所帮助。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;但是请千万注意&lt;/strong&gt;，我的翻译可能会有不准确的地方。另外，此文章不能代替专业医学诊断治疗，请谨慎参考。最重要的是，有问题一定要去&lt;strong&gt;看医生&lt;/strong&gt;，&lt;strong&gt;和医生沟通&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;总览overview&quot;&gt;总览（Overview）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A herniated disk refers to a problem with one of the rubbery cushions (disks) that sit between the individual bones (vertebrae) that stack to make your spine.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;突出的椎间盘，指的是置于脊柱（spine）中的骨头（椎骨vertebrae）之间的一个橡胶垫（即椎间盘disk）的问题。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A spinal disk has a soft, jellylike center (nucleus) encased in a tougher, rubbery exterior (annulus). Sometimes called a slipped disk or a ruptured disk, a herniated disk occurs when some of the nucleus pushes out through a tear in the annulus.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;一个椎间盘有着柔软、果冻一样的中心（核），被一个更坚硬、橡胶样的外壳（环）所包裹。有时，我们叫做“滑盘”或者是“破裂盘”。椎间盘突出指的是，当有一些“核”通过“环”中的液体突出去了。【译者注：此处医学术语翻译的很不准确】&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A herniated disk, which can occur in any part of the spine, can irritate a nearby nerve. Depending on where the herniated disk is, it can result in pain, numbness or weakness in an arm or leg.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;椎间盘突出刺激周围的神经，可以发生在脊柱的任何一个部分。根据发生突出部位的不同，可以导致胳膊或者是腿的疼痛，麻木，或者是虚弱。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Many people have no symptoms from a herniated disk. Surgery is usually not necessary to relieve the problem.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;许多人发生椎间盘突出但没有症状。缓解问题的手术不是经常必要的。&lt;/p&gt;
-
-&lt;h2 id=&quot;症状symptoms&quot;&gt;症状（Symptoms）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most herniated disks occur in the lower back, although they can also occur in the neck. Signs and symptoms depend on where the disk is situated and whether the disk is pressing on a nerve. They usually affect one side of the body.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;大多数的椎间盘突出发生在后背的下部分，尽管有时也发生在颈部。出现的迹象和症状往往依赖于椎间盘的位置，和是否椎间盘压迫神经了。经常是身体的一侧会收到影响。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Arm or leg pain. If your herniated disk is in your lower back, you’ll typically feel the most pain in your buttocks, thigh and calf. You might have pain in part of the foot, as well. If your herniated disk is in your neck, you’ll typically feel the most pain in your shoulder and arm. This pain might shoot into your arm or leg when you cough, sneeze or move into certain positions. Pain is often described as sharp or burning.&lt;/li&gt;
-    &lt;li&gt;Numbness or tingling. People who have a herniated disk often have radiating numbness or tingling in the body part served by the affected nerves.&lt;/li&gt;
-    &lt;li&gt;Weakness. Muscles served by the affected nerves tend to weaken. This can cause you to stumble, or affect your ability to lift or hold items.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;手臂和腿疼：如果椎间盘突出发生在后背下部分，你通常会感觉臀部，大腿和小腿最疼。你也许还会感觉脚的一部分也疼。如果椎间盘突出发生在颈部，你通常会感觉到肩膀和胳膊最疼。疼痛可能会“射向”你的肩膀和腿，当你咳嗽，擤鼻涕或者是移动到特定姿势的时候。疼痛往往被形容成尖疼或者是灼烧痛。&lt;/li&gt;
-  &lt;li&gt;麻木和刺痛：有椎间盘突出的人经常会在神经受影响的部位有散发状的麻木或者是刺痛。&lt;/li&gt;
-  &lt;li&gt;虚弱：神经受影响的部位的肌肉会变得虚弱。这会引起你摔倒，或者是影响你提东西的能力。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You can have a herniated disk without symptoms. You might not know you have it unless it shows up on a spinal image.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;你是有可能有椎间盘突出但是没有症状的。你也许不知道你有，除非在你的脊柱影像中看到。&lt;/p&gt;
-
-&lt;h2 id=&quot;什么时候去看医生when-to-see-a-doctor&quot;&gt;什么时候去看医生（When to see a doctor）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Seek medical attention if your neck or back pain travels down your arm or leg, or if you also have numbness, tingling or weakness.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;当你的颈部或者是后背疼痛，蔓延到你的胳膊或者是腿的时候，或者是当你还有麻木，刺痛或者是虚弱的症状的时候，去寻求医生的注意。&lt;/p&gt;
-
-&lt;h2 id=&quot;病因causes&quot;&gt;病因（Causes）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Disk herniation is most often the result of a gradual, aging-related wear and tear called disk degeneration. As you age, your disks become less flexible and more prone to tearing or rupturing with even a minor strain or twist.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;椎间盘突出往往是长期，年龄相关磨损的结果，被称为椎间盘老化。当你年龄增长，你的椎间盘柔韧性变差，更易撕裂或者破裂，有时哪怕是一点的抻或者是扭。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most people can’t pinpoint the cause of their herniated disk. Sometimes, using your back muscles instead of your leg and thigh muscles to lift heavy objects can lead to a herniated disk, as can twisting and turning while lifting. Rarely, a traumatic event such as a fall or a blow to the back is the cause.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;大多数人是无法指出椎间盘突出的原因的。有时人们知道，使用背部肌肉，而非腿部/大腿肌肉提重物会导致椎间盘突出，因为扭到了。很少的情况下，是由于创伤性事件引起的，例如跌倒或者是后背吹到了。&lt;/p&gt;
-
-&lt;h2 id=&quot;危险因素risk-factors&quot;&gt;危险因素（Risk factors）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Factors that can increase your risk of a herniated disk include:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Weight. Excess body weight causes extra stress on the disks in your lower back.&lt;/li&gt;
-    &lt;li&gt;Occupation. People with physically demanding jobs have a greater risk of back problems. Repetitive lifting, pulling, pushing, bending sideways and twisting also can increase your risk of a herniated disk.&lt;/li&gt;
-    &lt;li&gt;Genetics. Some people inherit a predisposition to developing a herniated disk.&lt;/li&gt;
-    &lt;li&gt;Smoking. It’s thought that smoking lessens the oxygen supply to the disk, causing it to break down more quickly.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;能够增加你椎间盘突出风险的因素包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;体重。过高的体重会导致后背下部分的椎间盘受到更大的压力&lt;/li&gt;
-  &lt;li&gt;职业。体力消耗大的工作，往往会增加背部问题的风险。反复的提，拉，推，屈身和拧也会提高风险。&lt;/li&gt;
-  &lt;li&gt;遗传。&lt;/li&gt;
-  &lt;li&gt;抽烟。人们认为，抽烟会减少椎间盘的氧气输送，从而引起损坏更快。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;并发症complications&quot;&gt;并发症（Complications）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Just above your waist, your spinal cord ends. What continues through the spinal canal is a group of long nerve roots that resemble a horse’s tail (cauda equina).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;你的脊髓在就在你腰部上方停止。紧接着，你椎管里是一组长神经末梢，像马尾一样。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Rarely, disk herniation can compress the entire spinal canal, including all the nerves of the cauda equina. Rarely, emergency surgery might be required to avoid permanent weakness or paralysis.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;椎间盘突出很少能够压迫整个椎管，包括马尾部的神经。很少需要紧急手术去避免永久疼痛或者是麻痹。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Seek emergency medical attention if you have:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Worsening symptoms. Pain, numbness or weakness can increase to the point that they hamper your daily activities.&lt;/li&gt;
-    &lt;li&gt;Bladder or bowel dysfunction. Cauda equina syndrome can cause incontinence or difficulty urinating even with a full bladder.&lt;/li&gt;
-    &lt;li&gt;Saddle anesthesia. This progressive loss of sensation affects the areas that would touch a saddle — the inner thighs, back of legs and the area around the rectum.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;如果你有以下症状，请去需求紧急医学关注：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;更严重的症状。疼痛，麻木或者是虚弱到影响了你每天的活动。&lt;/li&gt;
-  &lt;li&gt;膀胱或肠功能障碍。马尾神经综合症，会引起尿失禁，或者是即使充满膀胱也会排尿困难。&lt;/li&gt;
-  &lt;li&gt;马鞍式感觉丧失：这个渐进性的感觉丧失会影响你接触马鞍的部位，即大腿内侧，腿后部和直肠周围。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;预防prevention&quot;&gt;预防（Prevention）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To help prevent a herniated disk, do the following:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Exercise. Strengthening the trunk muscles stabilizes and supports the spine.&lt;/li&gt;
-    &lt;li&gt;Maintain good posture. This reduces pressure on your spine and disks. Keep your back straight and aligned, particularly when sitting for long periods. Lift heavy objects properly, making your legs — not your back — do most of the work.&lt;/li&gt;
-    &lt;li&gt;Maintain a healthy weight. Excess weight puts more pressure on the spine and disks, making them more susceptible to herniation.&lt;/li&gt;
-    &lt;li&gt;Quit smoking. Avoid the use of any tobacco products.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;想要帮助预防椎间怕突出，你可以做：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;锻炼：增加躯干肌肉稳定性，支持你的脊柱&lt;/li&gt;
-  &lt;li&gt;保持良好姿势：这会降低对脊柱和椎间盘的压力。保证你的后背直和贴合，尤其是长时间坐着的时候。适当的提重物，使用你的腿而不是你的背去做大部分的工作。&lt;/li&gt;
-  &lt;li&gt;健康的体重&lt;/li&gt;
-  &lt;li&gt;戒烟&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;诊断diagnosis&quot;&gt;诊断（Diagnosis）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;During the physical exam, your doctor will check your back for tenderness. You might be asked to lie flat and move your legs into various positions to help determine the cause of your pain.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;在身体检查时，你的医生会检查你的背部的压痛。你也许会被要求躺平，移动腿到不同的位置，以帮助判断疼痛引起的原因。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Your doctor may also perform a neurological exam to check your:&lt;/p&gt;
-
-  &lt;ul&gt;
-    &lt;li&gt;Reflexes&lt;/li&gt;
-    &lt;li&gt;Muscle strength&lt;/li&gt;
-    &lt;li&gt;Walking ability&lt;/li&gt;
-    &lt;li&gt;Ability to feel light touches, pinpricks or vibration&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;你的医生也许还会做一些神经学的检查：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;反射&lt;/li&gt;
-  &lt;li&gt;肌肉强度&lt;/li&gt;
-  &lt;li&gt;走路能力&lt;/li&gt;
-  &lt;li&gt;感受轻触，针刺或者是振动的能力&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In most cases of herniated disk, a physical exam and a medical history are all that’s needed for a diagnosis. If your doctor suspects another condition or needs to see which nerves are affected, he or she may order one or more of the following tests.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;对于大多数的椎间盘突出，诊断只需要一个物理检查和一个病史询问。如果你的医生怀疑你有其他的情况或者是需求，去检查你的神经是否受到影响，他也许会要求更多的检查。&lt;/p&gt;
-
-&lt;h3 id=&quot;影像检测imaging-tests&quot;&gt;影像检测（Imaging tests）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;X-rays. Plain X-rays don’t detect herniated disks, but they can rule out other causes of back pain, such as an infection, tumor, spinal alignment issues or a broken bone.&lt;/li&gt;
-    &lt;li&gt;CT scan. A CT scanner takes a series of X-rays from different directions and then combines them to create cross-sectional images of your spinal column and the structures around it.&lt;/li&gt;
-    &lt;li&gt;MRI. Radio waves and a strong magnetic field are used to create images of your body’s internal structures. This test can be used to confirm the location of the herniated disk and to see which nerves are affected.&lt;/li&gt;
-    &lt;li&gt;Myelogram. A dye is injected into the spinal fluid before X-rays are taken. This test can show pressure on your spinal cord or nerves due to multiple herniated disks or other conditions.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;X光片。普通的X光片无法检测椎间盘突出，但是可以排除其他导致背痛的原因，例如感染，肿瘤，脊柱对齐的问题，或者是骨折。&lt;/li&gt;
-  &lt;li&gt;CT扫描。CT扫描会在不同方向进行一系列的X光片检测，然后将这些影像合并，创造出你脊柱的横向和它周围结构的图像。&lt;/li&gt;
-  &lt;li&gt;MRI核磁共振成像。无线电波和强磁场会产生出你身体内部结构的影像。这些检测可以用于确定你椎间盘突出的位置，和哪些神经受到影响。&lt;/li&gt;
-  &lt;li&gt;脊髓造影。在X光片进行之前，染料将会注射到你的脊柱液中。这个检测可以显示你脊髓和脊神经由于多处椎间盘突出或者其他原因而受到的压力。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;神经检测nerve-tests&quot;&gt;神经检测（Nerve tests）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Electromyograms and nerve conduction studies measure how well electrical impulses are moving along nerve tissue. This can help pinpoint the location of nerve damage.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;肌电图和神经传导研究，可以测量你的电脉冲在神经组织中传导的好坏。这可以帮助定位神经受损部位。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Nerve conduction study. This test measures electrical nerve impulses and functioning in your muscles and nerves through electrodes placed on your skin. The study measures the electrical impulses in your nerve signals when a small current passes through the nerve.&lt;/li&gt;
-    &lt;li&gt;Electromyography (EMG). During an EMG, your doctor inserts a needle electrode through your skin into various muscles. The test evaluates the electrical activity of your muscles when they contract and when they’re at rest.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;神经传导研究。这个检测会在皮肤上放置电极，测量你肌肉和神经中的电神经脉冲和功能。&lt;/li&gt;
-  &lt;li&gt;肌电图：医生会将针状的电极透过皮肤插入到你不同的肌肉部位，以评估你在解除和休息时肌肉的电流活动。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;治疗treatment&quot;&gt;治疗（Treatment）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Conservative treatment — mainly modifying activities to avoid movement that causes pain and taking pain medication — relieves symptoms in most people within a few days or weeks.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;保守治疗 - 主要是通过避免引起疼痛的移动，或者是服用止痛药。大多数人会在几天或者是几周内症状缓解。&lt;/p&gt;
-
-&lt;h3 id=&quot;药物medications&quot;&gt;药物（Medications）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Over-the-counter pain medications. If your pain is mild to moderate, your doctor might recommend over-the-counter pain medication, such as acetaminophen (Tylenol, others) ibuprofen (Advil, Motrin IB, others) or naproxen sodium (Aleve).&lt;/li&gt;
-    &lt;li&gt;Cortisone injections. If your pain doesn’t improve with oral medications, your doctor might recommend a corticosteroid that can be injected into the area around the spinal nerves. Spinal imaging can help guide the needle.&lt;/li&gt;
-    &lt;li&gt;Muscle relaxers. You might be prescribed these if you have muscle spasms. Sedation and dizziness are common side effects.&lt;/li&gt;
-    &lt;li&gt;Opioids. Because of the side effects of opioids and the potential for addiction, many doctors hesitate to prescribe them for disk herniation. If other medication doesn’t relieve your pain, your doctor might consider short-term use of opioids, such as codeine or an oxycodone-acetaminophen combination (Percocet, Roxicet). Sedation, nausea, confusion and constipation are possible side effects from these drugs.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;非处方止痛药。如果你的疼痛是轻度到中度的，你的医生也许会推荐你一些非处方止痛药，例如对乙酰氨基酚（泰诺，其他），布洛芬（Advil，Motrin IB，其他）或萘普生钠（Aleve）。&lt;/li&gt;
-  &lt;li&gt;可的松注射。如果你的疼痛无法通过口服药物缓解，你的医生也许会推荐你皮质类固醇，它可以直接被注射到脊神经周围的区域。脊柱的影像会帮助引导这个注射。&lt;/li&gt;
-  &lt;li&gt;肌肉放松剂。你也许会给一些处方药，如果你的肌肉痉挛。镇静和头晕会是常见的副作用。&lt;/li&gt;
-  &lt;li&gt;阿片类药物。因为阿片类药物的副作用和潜在的成瘾性，许多医生会犹豫是否要给椎间盘突出的患者开处方。如果其他药物无法缓解你的疼痛，你的医生也许可以考虑短期使用阿片类药物，例如可待因或羟考酮-对乙酰氨基酚组合物（Percocet，Roxicet）。镇静，恶心，意识模糊和便秘可能是这些药物的副作用。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;治疗therapy&quot;&gt;治疗（Therapy）&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Your doctor might suggest physical therapy to help with your pain. Physical therapists can show you positions and exercises designed to minimize the pain of a herniated disk.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;你的医生也许会建议进行一些物理治疗以帮助缓解你的疼痛。物理治疗师会告诉你练习的位置和动作，以使你椎间盘突出引起的疼痛最小。&lt;/p&gt;
-
-&lt;h3 id=&quot;手术surgery&quot;&gt;手术（Surgery）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Few people with herniated disks eventually need surgery. Your doctor might suggest surgery if conservative treatments fail to improve your symptoms after six weeks, especially if you continue to have:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Poorly controlled pain&lt;/li&gt;
-    &lt;li&gt;Numbness or weakness&lt;/li&gt;
-    &lt;li&gt;Difficulty standing or walking&lt;/li&gt;
-    &lt;li&gt;Loss of bladder or bowel control&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;很少椎间盘突出的人最终会需要手术。你的医生也许会推荐手术，如果保守治疗在6周后无法改善你的症状，尤其是你持续的有：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;控制不好的疼痛&lt;/li&gt;
-  &lt;li&gt;麻木或者虚弱&lt;/li&gt;
-  &lt;li&gt;站立或者行走困难&lt;/li&gt;
-  &lt;li&gt;膀胱或者是肠道失控&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In nearly all cases, surgeons can remove just the protruding portion of the disk. Rarely, the entire disk must be removed. In these cases, the vertebrae may need to be fused with a bone graft.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;在绝大多数的情况下，手术可以移除椎间盘突出部分。极少的情况下，需要移除整个椎间盘。那种情况下，椎骨需要与植骨融合。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To allow the process of bone fusion, which takes months, metal hardware is placed in the spine to provide spinal stability. Rarely, your surgeon might suggest the implantation of an artificial disk.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;骨头愈合可能需要数月时间，金属硬件会被放在脊柱中以提供稳定性。很少的情况下，你的手术会建议植入一个人造椎间盘。&lt;/p&gt;
-
-&lt;h2 id=&quot;生活方式和在家治疗lifestyle-and-home-remedies&quot;&gt;生活方式和在家治疗（Lifestyle and home remedies）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Besides taking the pain medications your doctor recommends, try:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;除了使用你医生推荐给你的止疼药，你还可以尝试：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Applying heat or cold. Initially, cold packs can be used to relieve pain and inflammation. After a few days, you might switch to gentle heat to give relief and comfort.&lt;/li&gt;
-    &lt;li&gt;Avoiding too much bed rest. Staying in bed can lead to stiff joints and weak muscles — which can complicate your recovery. Instead, rest in a position of comfort for 30 minutes, and then go for a short walk or do some work. Try to avoid activities that worsen your pain.&lt;/li&gt;
-    &lt;li&gt;Resuming activity slowly. Let your pain guide you in resuming your activities. Make sure your movements are slow and controlled, especially bending forward and lifting.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;热敷或者是冷敷。开始的时候，冰袋可以用来缓解疼痛和炎症。过几天后，你也许可以改成使用温热来缓解和舒适。&lt;/li&gt;
-  &lt;li&gt;避免过多的床上休息。呆在床上会导致硬关节和弱肌肉，这会使得你的恢复变复杂。相反，你应该以一种姿势休息30分钟，然后去走一走或者是做点其他工作。但要试图避免做使你疼痛加剧的活动。&lt;/li&gt;
-  &lt;li&gt;缓慢的恢复活动。让你的疼痛来引导你缓慢的恢复你的活动。保证你的运动是缓慢的，可控的，尤其是向前弯曲和提东西的时候。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;其他治疗alternative-medicine&quot;&gt;其他治疗（Alternative medicine）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Some alternative and complementary medicine treatments might help ease chronic back pain. Examples include:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Chiropractic. Spinal manipulation has been found to be moderately effective for low back pain that has lasted for at least a month. Rarely, chiropractic treatment of the neck can cause certain types of strokes.&lt;/li&gt;
-    &lt;li&gt;Acupuncture. Although results are usually modest, acupuncture appears to ease chronic back and neck pain.&lt;/li&gt;
-    &lt;li&gt;Massage. This hands-on therapy can provide short-term relief to people dealing with chronic low back pain.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;其他的一些治疗手段和补充药物治疗也许会帮助你缓解慢性的背部疼痛。例子包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;整脊。脊椎手术被发现对于持续至少一个月的腰痛是中等有效的。很少情况下，颈部的脊椎治疗会引起某些类型的中风。&lt;/li&gt;
-  &lt;li&gt;针刺。针刺会缓解慢性背和颈疼，尽管可能是中度的。&lt;/li&gt;
-  &lt;li&gt;按摩。这个随手的治疗可以提供短期的疼痛缓解，对于那些慢性背下部疼痛的人。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;为你的就诊作准备preparing-for-your-appointment&quot;&gt;为你的就诊作准备（Preparing for your appointment）&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You’re likely to start by seeing your family doctor. You might be referred to a doctor specializing in physical medicine and rehabilitation, orthopedic surgery, neurology, or neurosurgery.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;你也许开始要看你的家庭医生了。你也许会被转诊到物理医学和康复，骨外科，神经病学或神经外科等的专科医生那里。（译者注：国外一般是多级诊疗制度，先去看家庭医生（中国也有翻译为全科医生），再去看专科大夫。但目前国内，人们更习惯于直接去看专科大夫，而家庭医生制度尚未普及）。&lt;/p&gt;
-
-&lt;h3 id=&quot;你可以做什么what-you-can-do&quot;&gt;你可以做什么（What you can do）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Before your appointment, be prepared to answer the following questions:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;When did your symptoms start?&lt;/li&gt;
-    &lt;li&gt;Were you lifting, pushing or pulling anything at the time you first felt symptoms? Were you twisting your back?&lt;/li&gt;
-    &lt;li&gt;Has the pain kept you from participating in activities?&lt;/li&gt;
-    &lt;li&gt;What, if anything, seems to improve your symptoms?&lt;/li&gt;
-    &lt;li&gt;What, if anything, appears to worsen your symptoms?&lt;/li&gt;
-    &lt;li&gt;What medications or supplements do you take?&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;在预约钱，请准备好回答以下问题：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;什么时候症状开始的？&lt;/li&gt;
-  &lt;li&gt;症状开始时，是否提，推，或者是拉什么东西？是否扭到了后背？&lt;/li&gt;
-  &lt;li&gt;疼痛是否影响了你的活动？&lt;/li&gt;
-  &lt;li&gt;哪些症状在改善？&lt;/li&gt;
-  &lt;li&gt;哪些症状在恶化？&lt;/li&gt;
-  &lt;li&gt;哪些药物或者是保健品你在使用？&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;你从医生那里期待什么what-to-expect-from-your-doctor&quot;&gt;你从医生那里期待什么（What to expect from your doctor）&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Your doctor might ask other questions, including:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Does your pain travel into your arms or legs?&lt;/li&gt;
-    &lt;li&gt;Do you feel weakness or numbness in your arms or legs?&lt;/li&gt;
-    &lt;li&gt;Have you noticed changes in your bowel or bladder habits?&lt;/li&gt;
-    &lt;li&gt;Does coughing or sneezing worsen your leg pain?&lt;/li&gt;
-    &lt;li&gt;Is the pain interfering with sleep or work?&lt;/li&gt;
-    &lt;li&gt;Does your work involve heavy lifting?&lt;/li&gt;
-    &lt;li&gt;Do you smoke or otherwise use tobacco products?&lt;/li&gt;
-    &lt;li&gt;How has your weight changed recently?&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;你的医生有可能问你其他的问题，包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;疼痛是否蔓延到你的腿或者胳膊？&lt;/li&gt;
-  &lt;li&gt;你是否感到腿和胳膊麻木或者是虚弱？&lt;/li&gt;
-  &lt;li&gt;你有没有注意到肠或膀胱行为的改变？&lt;/li&gt;
-  &lt;li&gt;咳嗽或者是醒鼻子会否加重你的腿疼？&lt;/li&gt;
-  &lt;li&gt;疼痛会否影响睡眠或者是工作？&lt;/li&gt;
-  &lt;li&gt;你的工作是否会涉及到提重物？&lt;/li&gt;
-  &lt;li&gt;你是否抽烟或者使用其他烟草制品？&lt;/li&gt;
-  &lt;li&gt;你的体重最近有什么变化吗？&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 06 Apr 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/04/06/herniated-disk.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/04/06/herniated-disk.html</guid>
-        
-        <category>medi</category>
-        
-        <category>英文翻译</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>高中同学聚会</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/highschool/2020.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2020年&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/highschool/2019.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2019年&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/highschool/2018.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2018年（另，我的高中同学&lt;a href=&quot;https://www.linkedin.com/in/haifeng-wang-46990b91/&quot;&gt;王海峰&lt;/a&gt;于2017年因癌症去世，永远怀念他。）&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/highschool/2017.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2017年&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/highschool/2016.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2016年&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/highschool/2015.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2015年&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/highschool/2014.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2014年（另，2014年之前还在，李记饭店、鑫刚记等地方聚会过，但未找到照片）&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/highschool/2008.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2008年高中毕业照。&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Apr 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/04/02/highschool.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/04/02/highschool.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>澳洲租房经历和准备</title>
-        <description>&lt;p&gt;自从2017年4月抵达澳洲，一直住在一个地方（St Lucia）；2019年1月份，考虑换个住处但未成行；目前（2020年3月份），再次考虑更换住处。&lt;/p&gt;
-
-&lt;p&gt;本博客，整理过去2次经历，并为未来做准备。&lt;/p&gt;
-
-&lt;h3 id=&quot;住在st-lucia&quot;&gt;住在St Lucia&lt;/h3&gt;
-
-&lt;p&gt;2017年4月4日，我学生签证&lt;a href=&quot;http://zjuwhw.github.io/2016/12/18/phd-application.html&quot;&gt;下签&lt;/a&gt;，12日抵达布里斯班。所以在此期间，我需要找到一个住处。当时希望是找一个（5/April/2017与Amanda邮件）：有双人床（我和我老婆）；St Lucia附近（学校近）；不超过300刀/周（最好包水电）；不抽烟，没宠物。&lt;/p&gt;
-
-&lt;p&gt;之后我查询了&lt;a href=&quot;https://rental.uq.edu.au/Accommodation&quot;&gt;UQ rental的网站&lt;/a&gt;，选了3处发送邮件询问（我记得是询问了4处，但只找到了3处的邮件）：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2-bedroom shared unit/ apartment in Durham Street：4月6日询问，得到回复不租夫妇。&lt;/li&gt;
-  &lt;li&gt;6-bedroom shared house in Munro Street：4月6日询问，得到回复已出租，提供Indooroopilly每周200刀的couple room&lt;/li&gt;
-  &lt;li&gt;3-bedroom shared house in Dell Road：4月6日询问，经过协商，以300/周的价格一直住在此处。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;期间，我们协商了几次价格：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2017年7月5日：由于有新室友入住，我们也觉得生活费紧张，与房东协商，300降到280/周；&lt;/li&gt;
-  &lt;li&gt;2018年12月10日：我们&lt;a href=&quot;http://zjuwhw.github.io/2018/06/30/buying_a_car.html&quot;&gt;买了一辆车&lt;/a&gt;，需要用车库，所以将280提到了290/周。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;考虑换房&quot;&gt;考虑换房&lt;/h3&gt;
-
-&lt;p&gt;2019年1月份，我老婆在QIMR（Herston区）开始了博士学习，离住处较远，所以就考虑了换房。其他换房原因包括，为生孩子打算，不喜欢和别人合租。当时主要是通过&lt;a href=&quot;https://www.realestate.com.au/rent/&quot;&gt;realestat网站&lt;/a&gt;，查询并现场查看了几处（至少3处）房子，但一直没找到合适的。&lt;/p&gt;
-
-&lt;p&gt;2019年3月份左右，我老婆由于学生签证没下来而休学（已于当年6月份继续），我们就不再继续考虑换房了。其他原因也包括：找的房子似乎不合适（价格也都高于290/周），我会开车可以送她上下班等。&lt;/p&gt;
-
-&lt;h3 id=&quot;covid-19影响&quot;&gt;COVID-19影响&lt;/h3&gt;
-
-&lt;p&gt;2020年1月份回中国过年，之后爆发&lt;a href=&quot;http://zjuwhw.github.io/2020/01/27/coronavirus.html&quot;&gt;COVID19疫情&lt;/a&gt;，至今我们一直在中国远程工作。2月9日，与房东商量将房租从290降到260/周（例如，水电煤没人用了）。3月20日开始，与房东商量停止租约（主要为了省钱），并请朋友逐渐帮忙般行李。4月7日正式停租。&lt;/p&gt;
-</description>
-        <pubDate>Thu, 26 Mar 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/03/26/rent.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/03/26/rent.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>我的家乡本溪</title>
-        <description>&lt;p&gt;我的家乡在&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%9C%AC%E6%BA%AA%E5%B8%82&quot;&gt;辽宁省本溪市&lt;/a&gt;。我从出生（1989年）到小学（2002年），住在溪湖区&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%BD%A9%E5%B1%AF%E8%A1%97%E9%81%93&quot;&gt;彩屯街道&lt;/a&gt;（家在彩胜社区，小学是彩力小学（现为彩屯实验幼儿园））；初中和高中（2002-2008年），在平山区东明街道（初中实验中学，高中&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%9C%AC%E6%BA%AA%E5%B8%82%E9%AB%98%E7%BA%A7%E4%B8%AD%E5%AD%A6&quot;&gt;本溪市高级中学&lt;/a&gt;）；自大学起（2008-），我就在外念书，我们家搬到了平山区南地街道。&lt;/p&gt;
-
-&lt;h3 id=&quot;城乡划分&quot;&gt;城乡划分&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/benxi_admin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(图片来自&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Administrative_Division_Benxi.png/1554px-Administrative_Division_Benxi.png&quot;&gt;中文维基百科&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;资料来源自管家统计局“&lt;a href=&quot;http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/index.html&quot;&gt;关于更新全国统计用区划代码和城乡划分代码的公告&lt;/a&gt;”。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019/21/2105.html&quot;&gt;本溪市 (210500000000)&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;平山区
-        &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;210502001000	南地街道&lt;/strong&gt;&lt;/li&gt;
-          &lt;li&gt;210502002000	工人街道&lt;/li&gt;
-          &lt;li&gt;210502003000	平山街道&lt;/li&gt;
-          &lt;li&gt;&lt;strong&gt;210502004000	东明街道&lt;/strong&gt;&lt;/li&gt;
-          &lt;li&gt;210502005000	崔东街道&lt;/li&gt;
-          &lt;li&gt;210502007000	站前街道&lt;/li&gt;
-          &lt;li&gt;210502008000	千金街道&lt;/li&gt;
-          &lt;li&gt;210502010000	北台街道&lt;/li&gt;
-          &lt;li&gt;210502011000	桥头街道&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;溪湖区
-        &lt;ul&gt;
-          &lt;li&gt;210503001000	河东街道&lt;/li&gt;
-          &lt;li&gt;210503003000	河西街道&lt;/li&gt;
-          &lt;li&gt;&lt;strong&gt;210503005000	彩屯街道&lt;/strong&gt;&lt;/li&gt;
-          &lt;li&gt;210503006000	竖井街道&lt;/li&gt;
-          &lt;li&gt;210503007000	彩北街道&lt;/li&gt;
-          &lt;li&gt;210503009000	东风街道&lt;/li&gt;
-          &lt;li&gt;210503010000	石桥子街道&lt;/li&gt;
-          &lt;li&gt;210503011000	日月岛街道&lt;/li&gt;
-          &lt;li&gt;210503012000	张其寨街道&lt;/li&gt;
-          &lt;li&gt;210503013000	火连寨街道&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;明山区
-        &lt;ul&gt;
-          &lt;li&gt;210504001000	金山街道&lt;/li&gt;
-          &lt;li&gt;210504002000	北地街道&lt;/li&gt;
-          &lt;li&gt;210504004000	高峪街道&lt;/li&gt;
-          &lt;li&gt;210504005000	明山街道&lt;/li&gt;
-          &lt;li&gt;210504007000	东兴街道&lt;/li&gt;
-          &lt;li&gt;210504008000	新明街道&lt;/li&gt;
-          &lt;li&gt;210504009000	牛心台街道&lt;/li&gt;
-          &lt;li&gt;210504010000	卧龙街道&lt;/li&gt;
-          &lt;li&gt;210504011000	高台子街道&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;南芬区
-        &lt;ul&gt;
-          &lt;li&gt;210505001000	南芬街道&lt;/li&gt;
-          &lt;li&gt;210505002000	铁山街道&lt;/li&gt;
-          &lt;li&gt;210505003000	郭家街道&lt;/li&gt;
-          &lt;li&gt;210505004000	思山岭街道&lt;/li&gt;
-          &lt;li&gt;210505005000	下马塘街道&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;本溪满族自治县
-        &lt;ul&gt;
-          &lt;li&gt;210521001000	观音阁街道&lt;/li&gt;
-          &lt;li&gt;210521100000	小市镇&lt;/li&gt;
-          &lt;li&gt;210521101000	草河掌镇&lt;/li&gt;
-          &lt;li&gt;210521102000	草河城镇&lt;/li&gt;
-          &lt;li&gt;210521103000	草河口镇&lt;/li&gt;
-          &lt;li&gt;210521104000	连山关镇&lt;/li&gt;
-          &lt;li&gt;210521106000	清河城镇&lt;/li&gt;
-          &lt;li&gt;210521109000	田师傅镇&lt;/li&gt;
-          &lt;li&gt;210521110000	南甸镇&lt;/li&gt;
-          &lt;li&gt;210521111000	碱厂镇&lt;/li&gt;
-          &lt;li&gt;210521112000	高官镇&lt;/li&gt;
-          &lt;li&gt;210521202000	东营房乡&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;桓仁满族自治县
-        &lt;ul&gt;
-          &lt;li&gt;210522001000	八卦城街道&lt;/li&gt;
-          &lt;li&gt;210522100000	桓仁镇&lt;/li&gt;
-          &lt;li&gt;210522101000	普乐堡镇&lt;/li&gt;
-          &lt;li&gt;210522102000	二棚甸子镇&lt;/li&gt;
-          &lt;li&gt;210522103000	沙尖子镇&lt;/li&gt;
-          &lt;li&gt;210522104000	五里甸子镇&lt;/li&gt;
-          &lt;li&gt;210522108000	八里甸子镇&lt;/li&gt;
-          &lt;li&gt;210522110000	华来镇&lt;/li&gt;
-          &lt;li&gt;210522111000	古城镇&lt;/li&gt;
-          &lt;li&gt;210522201000	雅河朝鲜族乡&lt;/li&gt;
-          &lt;li&gt;210522202000	向阳乡&lt;/li&gt;
-          &lt;li&gt;210522206000	黑沟乡&lt;/li&gt;
-          &lt;li&gt;210522208000	北甸子乡&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;经济&quot;&gt;经济&lt;/h3&gt;
-
-&lt;p&gt;根据本溪市统计局的&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb&quot;&gt;统计公报&lt;/a&gt;: 2010-2018年本溪市国民经济和社会发展统计公布&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;年份&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;地区生产总值（亿元）&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;增长率&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;第一产业增加值（亿元）&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;增长率&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;第二产业增加值（亿元）&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;增长率&lt;/th&gt;
-      &lt;th&gt;第三产业（亿元）&lt;/th&gt;
-      &lt;th&gt;增长率&lt;/th&gt;
-      &lt;th&gt;人均地区生产总值（元）&lt;/th&gt;
-      &lt;th&gt;增长率&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/81739&quot;&gt;2019&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;781.1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;3.5%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;51.9&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2.8%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;373.1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2.8%&lt;/td&gt;
-      &lt;td&gt;356.1&lt;/td&gt;
-      &lt;td&gt;4.4%&lt;/td&gt;
-      &lt;td&gt;46673&lt;/td&gt;
-      &lt;td&gt;3.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/66252&quot;&gt;2018&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;823.1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1.2%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;50.0&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;3.0%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;374.2&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1.4%&lt;/td&gt;
-      &lt;td&gt;398.9&lt;/td&gt;
-      &lt;td&gt;0.8%&lt;/td&gt;
-      &lt;td&gt;46050&lt;/td&gt;
-      &lt;td&gt;1.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/66250&quot;&gt;2017&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;810.1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2.5%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;70.2&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2.8%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;351.7&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;0.4%&lt;/td&gt;
-      &lt;td&gt;388.2&lt;/td&gt;
-      &lt;td&gt;4.4%&lt;/td&gt;
-      &lt;td&gt;46662.6&lt;/td&gt;
-      &lt;td&gt;4.1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/66249&quot;&gt;2016&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;754.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-8.8%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;67.8&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;0.6%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;321.4&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-19.9%&lt;/td&gt;
-      &lt;td&gt;365.3&lt;/td&gt;
-      &lt;td&gt;2.2%&lt;/td&gt;
-      &lt;td&gt;无&lt;/td&gt;
-      &lt;td&gt;无&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/66248&quot;&gt;2015&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1164.62&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;3.6%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;67.0&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;3.7%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;599.1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1.6%&lt;/td&gt;
-      &lt;td&gt;498.52&lt;/td&gt;
-      &lt;td&gt;6.8%&lt;/td&gt;
-      &lt;td&gt;67652&lt;/td&gt;
-      &lt;td&gt;3.8%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/66247&quot;&gt;2014&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1171.16&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6.3%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;63.61&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;3.3%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;642.02&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.9%&lt;/td&gt;
-      &lt;td&gt;465.53&lt;/td&gt;
-      &lt;td&gt;7.3%&lt;/td&gt;
-      &lt;td&gt;67854&lt;/td&gt;
-      &lt;td&gt;6.3%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/66246&quot;&gt;2013&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1193.66&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;9.5%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;63.35&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4.7%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;712.92&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;9.9%&lt;/td&gt;
-      &lt;td&gt;417.39&lt;/td&gt;
-      &lt;td&gt;9.3%&lt;/td&gt;
-      &lt;td&gt;69123&lt;/td&gt;
-      &lt;td&gt;9.4%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/66245&quot;&gt;2012&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1112.37&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;10%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;60.19&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;674.6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;10%&lt;/td&gt;
-      &lt;td&gt;377.58&lt;/td&gt;
-      &lt;td&gt;10.8%&lt;/td&gt;
-      &lt;td&gt;64460&lt;/td&gt;
-      &lt;td&gt;9.95%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/66244&quot;&gt;2011&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1044.6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;13.6%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;53.2&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6.4%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;657.0&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;14.3%&lt;/td&gt;
-      &lt;td&gt;334.3&lt;/td&gt;
-      &lt;td&gt;13.4%&lt;/td&gt;
-      &lt;td&gt;66335&lt;/td&gt;
-      &lt;td&gt;12.7%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjgb/66243&quot;&gt;2010&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;860.4&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;16.0%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;43.4&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5.8%&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;536.0&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;17.6%&lt;/td&gt;
-      &lt;td&gt;281.0&lt;/td&gt;
-      &lt;td&gt;14.7%&lt;/td&gt;
-      &lt;td&gt;55283&lt;/td&gt;
-      &lt;td&gt;16.0%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;人口&quot;&gt;人口&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;年份&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;总人口&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;总户数&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;户平均人口&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjfx/84312&quot;&gt;2019&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1445187&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;560098&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2.58&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjfx/66504&quot;&gt;2018&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1461496&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://tjj.benxi.gov.cn/publicity/ywgz/xxfb/tjfx/66504&quot;&gt;2017&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1476326&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Sun, 22 Mar 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/03/22/benxi.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/03/22/benxi.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>研究中国的学者</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%B2%BB%E6%AD%A3%E6%B8%85&quot;&gt;费正清 (John King Fairbank)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/zh/%E5%82%85%E9%AB%98%E4%B9%89&quot;&gt;傅高义 (Ezra Feivel Vogel)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%AD%94%E9%A3%9E%E5%8A%9B&quot;&gt;孔飞力 (Philip Alden Kuhn)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E9%BB%8E%E5%AE%89%E5%8F%8B&quot;&gt;黎安友 (Andrew James Nathan)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%9F%AF%E4%BC%9F%E6%9E%97&quot;&gt;柯伟林 (William C. Kirby)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%B2%88%E5%A4%A7%E4%BC%9F&quot;&gt;沈大伟 (David Shambaugh)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;周雪光：&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%91%A8%E9%9B%AA%E5%85%89&quot;&gt;wiki页面&lt;/a&gt;，&lt;a href=&quot;https://web.stanford.edu/~xgzhou/zhou_home_Chinese.html&quot;&gt;个人网站&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.uts.edu.au/staff/james.laurenceson&quot;&gt;罗震 (James Laurenceson)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.piie.com/experts/senior-research-staff/nicholas-r-lardy&quot;&gt;NICHOLAS R. LARDY&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 04 Mar 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/03/04/china-researcher.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/03/04/china-researcher.html</guid>
-        
-        <category>life</category>
+        <pubDate>Fri, 04 Nov 2022 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2022/11/04/covid_death.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/11/04/covid_death.html</guid>
         
         <category>China</category>
         
-        
-      </item>
-    
-      <item>
-        <title>中国房价</title>
-        <description>&lt;p&gt;中国大城市高企的房价往往是年轻人生活中关心和热议的话题。故，我今天访问&lt;a href=&quot;https://www.sofang.com/&quot;&gt;搜房网&lt;/a&gt;的“查房价”功能，来查看一下各城市当前的房价情况。&lt;/p&gt;
-
-&lt;p&gt;各城市二手房“1月均价”&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;城市&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;房价（人民币）&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;城市&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;房价（人民币）&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;城市&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;房价（人民币）&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;北京&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;69967&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;济南&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;20357&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;天津&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;24792&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;长春&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10782&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;南京&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;30100&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;温州&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;16926&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;成都&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;16586&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;青岛&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;27761&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;武汉&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;18450&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;重庆&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;12696&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;上海&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;62606&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;乌鲁木齐&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;8516&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;大连&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;17051&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;沈阳&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;11396&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;厦门&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;42645&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;福州&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;24875&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;深圳&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;49183&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;西安&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;13534&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;广州&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;35315&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;石家庄&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;13573&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;邢台&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;7665&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;杭州&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;27033&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;苏州&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;23757&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/beijing.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/changchun.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/chengdu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/chongqing.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/dalian.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/fuzhou.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/guangzhou.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/hangzhou.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/jinan.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/nanjing.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/qingdao.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/shanghai.png&quot; alt=&quot;&quot; /&gt;&amp;lt;hr&amp;gt;
-&lt;img src=&quot;/images/house_price/shenyang.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/shenzhen.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/shijiazhuang.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/suzhou.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/tianjin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/wenzhou.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/wuhan.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/wulumuqi.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/xiamen.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/xian.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/house_price/xingtai.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-</description>
-        <pubDate>Tue, 25 Feb 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/02/25/house.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/02/25/house.html</guid>
-        
         <category>life</category>
         
         
       </item>
     
       <item>
-        <title>新型冠状病毒疫情</title>
-        <description>&lt;p&gt;今年春节（2020年1月25日）我和老婆请假（1月18日-2月9日）回国过年，赶上“&lt;a href=&quot;https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6&quot;&gt;新型冠状病毒&lt;/a&gt;”疫情爆发和随之而来的交通限制，取消了1月28日去然然老家（河北邢台隆尧县）的机票。又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。2月10日起，远程工作（remote working）写论文，工作效率非常低。3月9日，和导师Skype视频，效率得到很大改善。4月16日完成了第三年的答辩。1月24日到5月23日，一直呆在我家中（&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82&quot;&gt;辽宁省本溪市&lt;/a&gt;）。5月23日到8月5日，在老婆家中（河北邢台隆尧县）。&lt;/p&gt;
-
-&lt;p&gt;8月5日开始，我在杭州西湖大学访问学生，希望有更好的学习环境。8月17日起，然然也在西湖大学&lt;a href=&quot;https://www.westlake.edu.cn/info/1606/3768.htm&quot;&gt;蒋敏实验室&lt;/a&gt;开始做访问工作人员。然然9月24日拿到澳洲的入境豁免，11月底离职，12月8日坐飞机返澳。我是2021年1月1日，从杭州西湖大学离开返回辽宁本溪家中。&lt;/p&gt;
-
-&lt;p&gt;写这个博客，收集关于新型冠状病毒的各种信息:&lt;/p&gt;
-
-&lt;h2 id=&quot;疫情通报&quot;&gt;疫情通报&lt;/h2&gt;
+        <title>中国生命科学领域的发展</title>
+        <description>&lt;p&gt;我想通过这个博客，搜集一些关于中国生命科学领域发展的资料。&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;中国
+  &lt;li&gt;BioArt的CNS全景图：&lt;a href=&quot;http://www.bioart.com.cn/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=21&amp;amp;id=9236&quot;&gt;2021&lt;/a&gt;, &lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MzQyNjY1MQ==&amp;amp;mid=2652519914&amp;amp;idx=1&amp;amp;sn=883d5e038ed7631619152a67d73e4d6b&amp;amp;chksm=84e1ae5eb3962748274ce896057511f9d9dc2d038d9fda268363b1ab0ec7e618d9eb4fa3a395&amp;amp;scene=21#wechat_redirect&quot;&gt;2020&lt;/a&gt;, &lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MzQyNjY1MQ==&amp;amp;mid=2652479539&amp;amp;idx=1&amp;amp;sn=2ebb02ea84482334647cdade1b28b60e&amp;amp;chksm=84e23387b395ba91b33f63a78d6e1474741a3d367f79a5b5497769244d50336735977ab9b858&amp;amp;scene=21&amp;amp;rd2werd=1#wechat_redirect&quot;&gt;2019&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Nature index: &lt;a href=&quot;https://www.natureindex.com/annual-tables/2022&quot;&gt;2022 table&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/annual-tables/2021&quot;&gt;2021 table&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/annual-tables/2020&quot;&gt;2020 table&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/supplements/nature-index-2022-big-5&quot;&gt;Big 5 science nations&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/supplements/nature-index-2021-young-universities&quot;&gt;2021 Young universities&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;“知识分子”文章
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml&quot;&gt;国家卫生健康委&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;http://wjw.hubei.gov.cn/fbjd/dtyw/&quot;&gt;湖北省&lt;/a&gt;, &lt;a href=&quot;http://wsjkw.sh.gov.cn/xwfb/index.html&quot;&gt;上海市&lt;/a&gt;, &lt;a href=&quot;http://wsjk.ln.gov.cn/wst_zdzt/xxgzbd/yqtb/&quot;&gt;辽宁省&lt;/a&gt;，&lt;a href=&quot;http://www.hebwst.gov.cn/xxgzbdfyyqfk/index.jhtml&quot;&gt;河北省&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://3g.dxy.cn/newh5/view/pneumonia&quot;&gt;丁香园实时地图&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.thepaper.cn/&quot;&gt;澎湃新闻&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://zhishifenzi.blog.caixin.com/archives/247470&quot;&gt;“联合国最新报告：中国创新驱动发展到了十字路口”&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://zhishifenzi.com/depth/depth/6878.html&quot;&gt;专访杨卫：中国科学何时真正崛起？&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://zhishifenzi.blog.caixin.com/archives/253292&quot;&gt;饶毅总结二十世纪中国生命科学八项重要研究&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;澳洲
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers&quot;&gt;澳大利亚健康部门-current situation&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts&quot;&gt;昆士兰州-Current status &lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.abc.net.au/&quot;&gt;ABC news&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://covidlive.com.au/&quot;&gt;COVID LIVE&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;世界
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/&quot;&gt;世界卫生组织（WHO) - situation report&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6&quot;&gt;约翰霍普金斯大学CSSE - tracking map&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.cidrap.umn.edu/covid-19/maps-visuals&quot;&gt;明尼苏达大学病例地图列表&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.worldometers.info/coronavirus/&quot;&gt;worldometers&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://ourworldindata.org/coronavirus&quot;&gt;our world in data&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;相关措施&quot;&gt;相关措施&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;中国
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.gov.cn/fuwu/zt/yqfkzq/index.htm&quot;&gt;中国人民政府&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;http://www.hubei.gov.cn/zhuanti/2020/gzxxgzbd/index.shtml&quot;&gt;湖北省&lt;/a&gt;, &lt;a href=&quot;http://www.ln.gov.cn/qmzx/xxgzbd/&quot;&gt;辽宁省&lt;/a&gt;, &lt;a href=&quot;http://www.benxi.gov.cn/zt/qlkjxxgzbdgrdfyyq&quot;&gt;本溪市&lt;/a&gt;
-            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;http://www.hubei.gov.cn/zhuanti/2020/gzxxgzbd/zxtb/202001/t20200123_2014402.shtml&quot;&gt;“武汉市新型冠状病毒感染的肺炎疫情防控指挥部通告（第1号）” 2020-01-23&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.fmprc.gov.cn/web/zyxw/&quot;&gt;中国外交部&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.fmprc.gov.cn/web/zyxw/t1761858.shtml&quot;&gt;中华人民共和国外交部、国家移民管理局关于暂时停止持有效中国签证、居留许可的外国人入境的公告&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/&quot;&gt;China CDC&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;澳洲
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.homeaffairs.gov.au/news-media/current-alerts/novel-coronavirus&quot;&gt;澳大利亚Home Affairs部门&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert&quot;&gt;澳大利亚健康部门-COVID19 health alert&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/take-action&quot;&gt;昆士兰州-Take action&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.brisbane.qld.gov.au/community-and-safety/community-safety/disasters-and-emergencies/coronavirus-council-updates-and-impacts&quot;&gt;Brisbane city council&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://about.uq.edu.au/coronavirus-advice-uq-community&quot;&gt;昆士兰大学&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;世界
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&quot;&gt;世界卫生组织&lt;/a&gt;: &lt;a href=&quot;https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters&quot;&gt;传言和事实&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.cdc.gov/coronavirus/2019-ncov/about/index.html&quot;&gt;CDC&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.ecdc.europa.eu/en/novel-coronavirus-china&quot;&gt;European CDC&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;人们的生活&quot;&gt;人们的生活&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://fangfang.blog.caixin.com/&quot;&gt;作家方方&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;凤凰卫视：&lt;a href=&quot;https://www.youtube.com/playlist?list=PLAPUFB0EKWq9Gr4BqjwjwXY3t9GgdAWEo&quot;&gt;名人面对面-武汉来信&lt;/a&gt;，&lt;a href=&quot;https://www.youtube.com/playlist?list=PLAPUFB0EKWq_FDe0rGSicf4RQJhLBe4Hr&quot;&gt;冷暖人生&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;vlog: &lt;a href=&quot;https://www.youtube.com/channel/UCrErTVwmRX5cbz1gL5xBFuA&quot;&gt;蜘蛛猴面包&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;科学研究&quot;&gt;科学研究&lt;/h2&gt;
-
-&lt;h3 id=&quot;研究汇总&quot;&gt;研究汇总&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/research/coronavirus/&quot;&gt;LITCOVID&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;杂志&quot;&gt;杂志&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.thelancet.com/coronavirus&quot;&gt;柳叶刀&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nejm.org/coronavirus&quot;&gt;新英格兰&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/pages/coronavirus-alert&quot;&gt;JAMA&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://jamanetwork.com/journals/jama/pages/covid-19-interviews&quot;&gt;Video interview&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nature.com/collections/hajgidghjb&quot;&gt;Nature&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sciencemag.org/tags/coronavirus&quot;&gt;Science&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.eurosurveillance.org/content/2019-ncov&quot;&gt;Eurosurveillance&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bmj.com/coronavirus&quot;&gt;BMJ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;研究机构网站&quot;&gt;研究机构网站:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/&quot;&gt;伦敦帝国学院(imperial college london)/全球传染病分析英国医学研究委员会研究中心(MRC Centre for Global Infectious Disease Analysis)&lt;/a&gt;:&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mobs-lab.org/2019ncov.html&quot;&gt;美国东北大学Mobs Lab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cmmid.github.io/ncov&quot;&gt;伦敦卫生与热带医学院CMMID&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;约翰霍普金斯大学
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.centerforhealthsecurity.org/resources/COVID-19/index.html&quot;&gt;公共卫生学院&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;CSSE - 建模分析的博客 (Lauren Gardner): &lt;a href=&quot;https://systems.jhu.edu/research/public-health/ncov-model-2/&quot;&gt;31/Jan&lt;/a&gt;, &lt;a href=&quot;https://systems.jhu.edu/research/public-health/ncov-model/&quot;&gt;26/Jan&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;香港大学
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://www.med.hku.hk/The-Latest-from-HKUMed-on-COVID-19&quot;&gt;李嘉诚医学院&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://sph.hku.hk/en/about-us/divisioncentreunit/who-collaborating-centre-for-infectious-disease-epidemiology-and-control/2019-ncov&quot;&gt;公共卫生学院&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.hsph.harvard.edu/news/hsph-in-the-news/the-latest-on-the-coronavirus/&quot;&gt;哈佛大学公共卫生学院&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nextstrain.org/ncov&quot;&gt;Nextstrain Genomic epidemiology analysis&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://virological.org/&quot;&gt;http://virological.org/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://biology.mit.edu/undergraduate/current-students/subject-offerings/covid-19-sars-cov-2-and-the-pandemic/&quot;&gt;MIT biology course, “COVID19, SARS-CoV-2 and the Pandemic”&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;twitter--weibo&quot;&gt;twitter &amp;amp; Weibo&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/CCDD_HSPH/status/1222257431230631936&quot;&gt;哈佛大学公共卫生学院twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/mlipsitch&quot;&gt;Marc Lipsitch&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/mugecevik/status/1221020657242333184&quot;&gt;dr muge cevik(@mugecevik)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://weibo.com/529645621?topnav=1&amp;amp;wvr=6&amp;amp;topsug=1&amp;amp;is_all=1&quot;&gt;子陵在听歌&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;tracker&quot;&gt;Tracker&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html&quot;&gt;New York times Vaccine Tracker&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/interactive/2020/science/coronavirus-drugs-treatments.html&quot;&gt;New Yorkm times treatment tracker&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/graphics/covid-vaccine-tracker-global-distribution/&quot;&gt;Bloomberg Vaccined tracker&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;others&quot;&gt;Others&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.newyorker.com/magazine/2021/01/04/the-plague-year&quot;&gt;The New Yorker “The Plague Year”&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.websiteplanet.com/blog/free-printable-posters-covid-19/&quot;&gt;Free Printable poster&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/epidemics-i&quot;&gt;Epidemics I&lt;/a&gt;, &lt;a href=&quot;https://www.edx.org/course/epidemics-ii&quot;&gt;Epidemics II&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;中国科协生命科学学会联合体-中国生命科学十大进展：&lt;a href=&quot;http://www.culss.org.cn/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=48&amp;amp;id=271&quot;&gt;2020&lt;/a&gt;，&lt;a href=&quot;http://www.culss.org.cn/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=48&amp;amp;id=216&quot;&gt;2019&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;科技部-高技术研究发展中心-中国科学十大进展：&lt;a href=&quot;http://www.htrdc.com/gjszx/gsxw02/3865.shtml&quot;&gt;2021&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.qiushi.org/html/huojiangren/award_history/&quot;&gt;求是科学奖获奖者&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.futureprize.org/cn/laureates/list.html?listBy=prize&quot;&gt;未来科学大奖获奖人&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hlhl.org.cn/news/findnews/showtech.asp&quot;&gt;何梁何利基金会&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://baike.baidu.com/item/%E8%B0%88%E5%AE%B6%E6%A1%A2%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E5%A5%96/3862850&quot;&gt;谈家桢生命科学奖&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://baike.baidu.com/item/%E5%90%B4%E7%91%9E%E5%A5%96%E5%AD%A6%E9%87%91/2111444&quot;&gt;吴瑞奖学金&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://xplorerprize.org/awardee/index&quot;&gt;科学探索奖&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://casad.cas.cn/ysxx2017/ysmdyjj/qtysmd_124280/&quot;&gt;中国科学院院士&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cae.cn/cae/html/main/col48/column_48_1.html&quot;&gt;中国工程院院士&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 27 Jan 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2020/01/27/coronavirus.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/01/27/coronavirus.html</guid>
+        <pubDate>Mon, 28 Mar 2022 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2022/03/28/china-bio.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/03/28/china-bio.html</guid>
+        
+        <category>China</category>
+        
+        <category>bio</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>数据中国：健康</title>
+        <description>&lt;p&gt;我想通过数据来了解/研究中国，本博客关注健康领域，数据来源自&lt;a href=&quot;https://ourworldindata.org/&quot;&gt;Our World in Data&lt;/a&gt;，计划选取美国、澳洲、日本、新加坡、马来西亚来做对比。&lt;/p&gt;
+
+&lt;h3 id=&quot;预期寿命life-expectancy&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/life-expectancy&quot;&gt;预期寿命（life expectancy）&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/life_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/life_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;儿童死亡率child-mortality&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/child-mortality&quot;&gt;儿童死亡率（child mortality）&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/child_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/child_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;产妇死亡率maternal-mortality-&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/maternal-mortality&quot;&gt;产妇死亡率Maternal Mortality &lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/maternal_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/maternal_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;疾病负担burden-of-disease&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/maternal-mortality&quot;&gt;疾病负担Burden of Disease&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/disease_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/disease_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;癌症cancer&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/cancer&quot;&gt;癌症cancer&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/cancer_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/cancer_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;空气污染air-pollution&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/air-pollution&quot;&gt;空气污染Air Pollution&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/airpollution_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/airpollution_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;肥胖obesity&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/obesity&quot;&gt;肥胖Obesity&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/obesity_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/obesity_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;吸烟smoking&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/smoking&quot;&gt;吸烟smoking&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/smoking_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/smoking_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;自杀suicide&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/suicide&quot;&gt;自杀suicide&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/suicide_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/health/suicide_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 22 Jan 2022 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2022/01/22/china-health.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/01/22/china-health.html</guid>
         
         <category>life</category>
         
         <category>medi</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>My PhD timeline</title>
+        <description>&lt;p&gt;Below is my personal PhD timeline. But everyone could be different.
+So I refer you to the &lt;a href=&quot;https://my.uq.edu.au/information-and-services/higher-degree-research/my-thesis&quot;&gt;UQ website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;study commence: 12/April/2017&lt;/li&gt;
+  &lt;li&gt;Milestone 1: 12/April/2018&lt;/li&gt;
+  &lt;li&gt;Milestone 2: 11/April/2019&lt;/li&gt;
+  &lt;li&gt;Milestone 3: 16/April/2020&lt;/li&gt;
+  &lt;li&gt;initial thesis submission: 21/Jan/2021&lt;/li&gt;
+  &lt;li&gt;examiner report received: 24/Mar/2021&lt;/li&gt;
+  &lt;li&gt;oral examination: 20/April/2021&lt;/li&gt;
+  &lt;li&gt;examination outcome received: 14/May/2021&lt;/li&gt;
+  &lt;li&gt;corrected thesis submission: 14/July/2021&lt;/li&gt;
+  &lt;li&gt;degree awarded: 30/July/2021&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 22 Oct 2021 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2021/10/22/PhD.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/10/22/PhD.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>营养成分表</title>
+        <description>&lt;p&gt;关注一些食品袋上的营养成分表（Nutrition information）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/nutrition/nutrition01_198.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition02_211.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition03_218.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition04_359.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition05_546.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition06_735.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition07_750.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition08_793.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition09_950.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition10_1020.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition11_1040.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition12_1489.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition13_1490.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nnutrition/utrition14_1490.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition15_1680.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition16_1700.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition17_1870.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition18_1950.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition19_2175.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition20_2443.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition21_2443.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
+&lt;img src=&quot;/images/nutrition/nutrition22_2558.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Sep 2021 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2021/09/18/nutrition.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/09/18/nutrition.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>澳洲房价</title>
+        <description>&lt;p&gt;尽管博客的题目是“澳洲房价”，但是我想写的是我所生活的澳大利亚昆士兰州布里斯班市的各个区（suburbs）的房价情况。之前写过一篇中国房价的博客，&lt;a href=&quot;http://zjuwhw.github.io/2020/02/25/house.html&quot;&gt;可以点击这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Brisbane&quot;&gt;布里斯班&lt;/a&gt;，是昆士兰州的首府，澳大利亚人口第三大的城市（仅次于悉尼、墨尔本），是我目前的工作地点。布里斯班有很多个suburbs（&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_Brisbane_suburbs&quot;&gt;列表&lt;/a&gt;，&lt;a href=&quot;https://ontheworldmap.com/australia/city/brisbane/brisbane-suburbs-map.jpg&quot;&gt;地图&lt;/a&gt;），房价和租金会有所差异。这个博客中的数据来源自&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/&quot;&gt;realestate网站&lt;/a&gt;，网站的数据会不定时更新，我这里只是选取我访问时的数据。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;suburb&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;House (2 BR)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;House (3 BR)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;House (4 BR)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Unit (2 BR)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Unit (3 BR)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/st-lucia-4067-qld&quot;&gt;St Lucia&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1,100,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1,502,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;425,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;730,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/toowong-4066-qld&quot;&gt;Toowong&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;889,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1,400,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;445,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;731,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/taringa-4068-qld&quot;&gt;Taringa&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;888,250&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1,327,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;410,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;680,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/indooroopilly-4068-qld&quot;&gt;Indooroopilly&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;787,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1,273,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;430,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;620,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/auchenflower-4066-qld&quot;&gt;Auchenflower&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1,080,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1,413,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;422,665&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;675,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/herston-4006-qld&quot;&gt;Herston&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;447,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/kelvin-grove-4059-qld&quot;&gt;Kelvin Grove&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;870,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;440,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;629,607&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/newmarket-4051-qld&quot;&gt;Newmarket&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;820,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1,100,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;411,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;557,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/alderley-4051-qld&quot;&gt;Alderley&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;850,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1,037,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;380,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;632,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/enoggera-4051-qld&quot;&gt;Enoggera&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;637,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;743,750&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;950,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;416,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;499,100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/chermside-4032-qld&quot;&gt;Chermside&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;690,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;830,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;374,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;461,250&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/chermside-west-4032-qld&quot;&gt;Chermside West&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;643,750&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;710,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/the-gap-4061-qld&quot;&gt;The Gap&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;750,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;890,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;682,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/everton-park-4053-qld&quot;&gt;Everton Park&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;535,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;678,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;721,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;368,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;507,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/kenmore-4069-qld&quot;&gt;Kenmore&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;750,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;847,750&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;725,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/kenmore-hills-4069-qld&quot;&gt;Kenmore Hills&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;980,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/west-end-4101-qld&quot;&gt;West End&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1,150,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1,235,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;534,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;884,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/annerley-4103-qld&quot;&gt;Annerley&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;765,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;807,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;890,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;386,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;580,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/fairfield-4103-qld&quot;&gt;Fairfield&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;822,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;420,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;647,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/upper-mount-gravatt-4122-qld&quot;&gt;Upper Mount Gravatt&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;718,0000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;756,250&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;397,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;494,500&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/eight-mile-plains-4113-qld&quot;&gt;Eight Mile Plains&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;628,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;795,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;400,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/sunnybank-4109-qld&quot;&gt;Sunnybank&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;682,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;790,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;415,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/sunnybank-hills-4109-qld&quot;&gt;Sunnybank Hill&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;585,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;710,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;372,000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/inala-4077-qld&quot;&gt;Inala&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;342,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;380,000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;437,500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;BR for bedroom&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To do: 学区信息&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qgso.qld.gov.au/maps/edmap/&quot;&gt;edmap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.myschool.edu.au/&quot;&gt;myschool&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/law/housing-and-neighbours/buying-and-selling-a-property/buying-a-home&quot;&gt;advice from QLD government&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.corelogic.com.au/our-data/mapping-market&quot;&gt;CoreLogic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 03 Sep 2021 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2021/09/03/brisbane-house.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/09/03/brisbane-house.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Genetic Relationship Matrix (GRM)</title>
+        <description>&lt;p&gt;GRM, short for genetic relationship matrix, is a important matrix used in genetic analysis of human complex traits.&lt;/p&gt;
+
+&lt;p&gt;This blog is my study note for GRM.&lt;/p&gt;
+
+&lt;h2 id=&quot;mixed-linear-model-mlm&quot;&gt;Mixed linear model (MLM)&lt;/h2&gt;
+
+&lt;p&gt;Based on &lt;a href=&quot;https://doi.org/10.1016/j.ajhg.2010.11.011&quot;&gt;Yang et al., AJHG, 2011&lt;/a&gt;&lt;/p&gt;
+
+\[\pmb{y}_{n \times 1}=\pmb{X}_{n \times k}\pmb{\beta}_{k \times 1}+\pmb{W}_{n \times m}\pmb{u}_{m \times 1}+\pmb{\epsilon}_{n \times 1}\]
+
+&lt;ul&gt;
+  &lt;li&gt;$\pmb{y}$ is a vector of phenotypes; n: the number of individuals;&lt;/li&gt;
+  &lt;li&gt;$\pmb{X}$ is a matrix for variables with fixed effects; k: the number of fixed effect factors;&lt;/li&gt;
+  &lt;li&gt;$\pmb{\beta}$ is a vector of fixed effects;&lt;/li&gt;
+  &lt;li&gt;$\pmb{u}$ is a vector of random effects; $\pmb{u} \sim N(0, \pmb{I}\sigma_u^2)$, where $\pmb{I}$ is a $n \times n$ identity matrix, and m i the number of SNPs;&lt;/li&gt;
+  &lt;li&gt;$\pmb{W}$ is a matrix for standardized genotype matrix, where its element for i-th SNP of j-th individual $w_{ij}=(x_{ij}-2p_i)/\sqrt{2p_i(1-p_i)}$ with $x_{ij}$ being the genotype value coded as the number of copies of the reference alleles {0, 1, 2};&lt;/li&gt;
+&lt;/ul&gt;
+
+\[Var(\pmb{y})=\pmb{V}_{n \times n}=\pmb{W}\pmb{W}^T\sigma_u^2+\pmb{I}\sigma_{\epsilon}^2\]
+
+&lt;p&gt;If define $\sigma_g^2=m\sigma_u^2$ (the variance explained by all the SNPs), $\pmb{g}=\pmb{W}\pmb{u}$ and $\pmb{A}=\pmb{W}\pmb{W}^T/m$ (genetic relationship matrix (GRM) between individuals),&lt;/p&gt;
+
+\[\pmb{y}=\pmb{X}\pmb{\beta}+\pmb{g}+\pmb{\sigma}\text{ and }\pmb{V}=\pmb{A}\sigma_g^2+\pmb{I}\sigma_{\epsilon}^2\]
+
+&lt;h2 id=&quot;practice&quot;&gt;Practice&lt;/h2&gt;
+
+&lt;h3 id=&quot;simulate-the-genotype-matrix&quot;&gt;Simulate the genotype matrix&lt;/h3&gt;
+
+&lt;p&gt;I use the R language to simulate a genotype matrix for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;n&lt;/code&gt; individuals and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;m&lt;/code&gt; SNPs&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;R code&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;n=5; m=3
+set.seed(10)
+p = runif(m, min=0.2, max=0.5) ### allele frequency were draw from a uniform distribution
+x_A1 = t(replicate(n, rbinom(m, 1, p)))   ### for the plink ped file
+x_A2 = t(replicate(n, rbinom(m, 1, p)))
+x = x_A1 + x_A2
+colnames(x) = paste(&quot;SNP&quot;,1:m,sep=&quot;&quot;)
+rownames(x) = paste(&quot;indi&quot;, 1:n, sep=&quot;&quot;)
+x
+#### now we save the matrix x, convert to plink bfile, and then calculate GRM using GCTA
+x_A1 = ifelse(x_A1==0, &quot;a&quot;, &quot;A&quot;)
+x_A2 = ifelse(x_A2==0, &quot;a&quot;, &quot;A&quot;)
+dir.create(&quot;toy&quot;)
+write.table(cbind(data.frame(FID=rownames(x), IID=rownames(x), 0, 0, 0, 0), cbind(x_A1, x_A2)[,order(c(1:m, 1:m+0.5))]), &quot;toy/toy.ped&quot;, quote=F, sep=&quot;\t&quot;, row.names=F, col.names=F)
+write.table(data.frame(CHR=1, SNP=colnames(x), cM=0, BP=10000+1:ncol(x)), &quot;toy/toy.map&quot;, quote=F, sep=&quot;\t&quot;, row.names=F, col.names=F)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##       SNP1 SNP2 SNP3
+## indi1    1    1    1
+## indi2    0    1    0
+## indi3    0    0    1
+## indi4    0    1    0
+## indi5    0    0    0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;after-standardization&quot;&gt;After standardization&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;R code&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;p_hat = apply(x, 2, sum)/(2*n)
+w = apply(rbind(x,p_hat), 2, function(x) (x-2*x[length(x)])/sqrt(2*x[length(x)]*(1-x[length(x)])))[1:n,]
+w
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##             SNP1       SNP2       SNP3
+## indi1  1.8856181  0.6172134  1.0606602
+## indi2 -0.4714045  0.6172134 -0.7071068
+## indi3 -0.4714045 -0.9258201  1.0606602
+## indi4 -0.4714045  0.6172134 -0.7071068
+## indi5 -0.4714045 -0.9258201 -0.7071068
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;calculate-the-grm&quot;&gt;Calculate the GRM&lt;/h3&gt;
+
+&lt;p&gt;The diagonal elements in GRM&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;R code&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;A = w %*% t(w) /m
+A
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##            indi1       indi2      indi3       indi4       indi5
+## indi1  1.6871693 -0.41931217 -0.1117725 -0.41931217 -0.73677249
+## indi2 -0.4193122  0.36772487 -0.3664021  0.36772487  0.05026455
+## indi3 -0.1117725 -0.36640212  0.7347884 -0.36640212  0.10978836
+## indi4 -0.4193122  0.36772487 -0.3664021  0.36772487  0.05026455
+## indi5 -0.7367725  0.05026455  0.1097884  0.05026455  0.52645503
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;R code&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;diag(A)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##     indi1     indi2     indi3     indi4     indi5 
+## 1.6871693 0.3677249 0.7347884 0.3677249 0.5264550
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The off-diagonal elelments in GRM&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;R code&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A[row(A)&amp;lt;col(A)]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##  [1] -0.41931217 -0.11177249 -0.36640212 -0.41931217  0.36772487 -0.36640212
+##  [7] -0.73677249  0.05026455  0.10978836  0.05026455
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;R code&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A[row(A)&amp;gt;col(A)]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##  [1] -0.41931217 -0.11177249 -0.41931217 -0.73677249 -0.36640212  0.36772487
+##  [7]  0.05026455 -0.36640212  0.10978836  0.05026455
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;run-the-make-grm-using-gcta&quot;&gt;Run the “make-grm” using GCTA&lt;/h3&gt;
+
+&lt;p&gt;Save the genotype matrix in Plink bfile formate&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;bash code&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;~/Software/PLINK2/plink --ped toy/toy.ped --map toy/toy.map --make-bed --out toy/toy   ### generate PLINK bfiles: .bim, .fam, .bed
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;log message&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## PLINK v1.90b4.4 64-bit (21 May 2017)           www.cog-genomics.org/plink/1.9/
+## (C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
+## Logging to toy/toy.log.
+## Options in effect:
+##   --make-bed
+##   --map toy/toy.map
+##   --out toy/toy
+##   --ped toy/toy.ped
+## 
+## 16384 MB RAM detected; reserving 8192 MB for main workspace.
+## Scanning .ped file... 0%20%40%60%80%100%
+.ped scan complete (for binary autoconversion).
+## Performing single-pass .bed write (3 variants, 5 people).
+## 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%
+--file: toy/toy-temporary.bed + toy/toy-temporary.bim + toy/toy-temporary.fam
+## written.
+## 3 variants loaded from .bim file.
+## 5 people (0 males, 0 females, 5 ambiguous) loaded from .fam.
+## Ambiguous sex IDs written to toy/toy.nosex .
+## Using 1 thread (no multithreaded calculations invoked).
+## Before main variant filters, 5 founders and 0 nonfounders present.
+## Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+## 3 variants and 5 people pass filters and QC.
+## Note: No phenotypes present.
+## --make-bed to toy/toy.bed + toy/toy.bim + toy/toy.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;bash code&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/Software/gcta_1.93.2beta_mac/gcta64 --bfile toy/toy --make-grm --out toy/toy.grm  ### generate grm using GCTA
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;log message&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## *******************************************************************
+## * Genome-wide Complex Trait Analysis (GCTA)
+## * version 1.93.2 beta Mac
+## * (C) 2010-present, Jian Yang, The University of Queensland
+## * Please report bugs to Jian Yang &amp;lt;jian.yang.qt@gmail.com&amp;gt;
+## *******************************************************************
+## Analysis started at 16:41:12 AEST on Tue Aug 03 2021.
+## Hostname: imb20-015312-lt
+## 
+## Options: 
+##  
+## --bfile toy/toy 
+## --make-grm 
+## --out toy/toy.grm 
+## 
+## Note: GRM is computed using the SNPs on the autosome.
+## Reading PLINK FAM file from [toy/toy.fam]...
+## 5 individuals to be included from FAM file.
+## 5 individuals to be included. 0 males, 0 females, 5 unknown.
+## Reading PLINK BIM file from [toy/toy.bim]...
+## 3 SNPs to be included from BIM file(s).
+## Computing the genetic relationship matrix (GRM) v2 ...
+## Subset 1/1, no. subject 1-5
+##   5 samples, 3 markers, 15 GRM elements
+## IDs for the GRM file has been saved in the file [toy/toy.grm.grm.id]
+## Computing GRM...
+##   100% finished in 0.0 sec
+## 3 SNPs have been processed.
+##   Used 3 valid SNPs.
+## The GRM computation is completed.
+## Saving GRM...
+## GRM has been saved in the file [toy/toy.grm.grm.bin]
+## Number of SNPs in each pair of individuals has been saved in the file [toy/toy.grm.grm.N.bin]
+## 
+## Analysis finished at 16:41:12 AEST on Tue Aug 03 2021
+## Overall computational time: 0.00 sec.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;read-gcta-grm-output-in-r&quot;&gt;Read GCTA-GRM output in R&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;R code&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;### ReadGRMBin function copied from GCTA website
+ReadGRMBin=function(prefix, AllN=F, size=4){
+  sum_i=function(i){
+    return(sum(1:i))
+  }
+  BinFileName=paste(prefix,&quot;.grm.bin&quot;,sep=&quot;&quot;)
+  NFileName=paste(prefix,&quot;.grm.N.bin&quot;,sep=&quot;&quot;)
+  IDFileName=paste(prefix,&quot;.grm.id&quot;,sep=&quot;&quot;)
+  id = read.table(IDFileName)
+  n=dim(id)[1]
+  BinFile=file(BinFileName, &quot;rb&quot;);
+  grm=readBin(BinFile, n=n*(n+1)/2, what=numeric(0), size=size)
+  NFile=file(NFileName, &quot;rb&quot;);
+  if(AllN==T){
+    N=readBin(NFile, n=n*(n+1)/2, what=numeric(0), size=size)
+  }
+  else N=readBin(NFile, n=1, what=numeric(0), size=size)
+  i=sapply(1:n, sum_i)
+  return(list(diag=grm[i], off=grm[-i], id=id, N=N))
+}
+data = ReadGRMBin(&quot;toy/toy.grm&quot;)
+data
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## $diag
+## [1] 1.6871693 0.3677249 0.7347884 0.3677249 0.5264550
+## 
+## $off
+##  [1] -0.41931218 -0.11177249 -0.36640212 -0.41931218  0.36772487 -0.36640212
+##  [7] -0.73677248  0.05026455  0.10978836  0.05026455
+## 
+## $id
+##      V1    V2
+## 1 indi1 indi1
+## 2 indi2 indi2
+## 3 indi3 indi3
+## 4 indi4 indi4
+## 5 indi5 indi5
+## 
+## $N
+## [1] 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 20 Aug 2021 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2021/08/20/GRM.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/08/20/GRM.html</guid>
+        
+        <category>GWAS</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>宝宝用品购物清单</title>
+        <description>&lt;p&gt;我们的宝宝6月1日在布里斯班的RBWH医院出生，怀孩子/生孩子/养孩子都不是容易的事，需要很多准备。&lt;/p&gt;
+
+&lt;p&gt;此博客记录我们购买的一些宝宝用品。这一定是一份不完整的清单，因为需要买的东西很多很杂不断更新，还因为我们有很多朋友送给我们很多东西。&lt;/p&gt;
+
+&lt;h3 id=&quot;宝宝用品&quot;&gt;宝宝用品&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;大类&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;物品&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;参考价格（刀）&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;链接&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;最终购买&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;睡觉&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Cot（婴儿床）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;200-300&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ikea1，ikea2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Sundvik （179, 9/May/2021）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Cot mattress (婴儿床垫)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;50-100&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ikea1, ikea2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;JATTEROTT (99)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Cot bedlinen/sheets (床单)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;25/4-piece&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ikea1, ikea2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;LENAST(16.99/2-pack)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;交通&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Restrain/car seat（安全座椅）：rear-facing child car seat, forward-facing child car seat， booster seat&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;200-1000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;babybunting&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Britax Graphene (469) from Babybunting&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;stroller/pram (婴儿推车）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;100-2000&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;babybunting&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;second-hand, bugboo fox, 20/Jun/2021, $750&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;baby carrier (婴儿背带）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;50-500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;babybunting&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ergobaby omni 360 air mesh, 2nd-hand (100 AUD, including 15 AUD delivery fee), 26/May/2021&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;喂养/尿布/洗澡&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Nappies (尿不湿）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;0.14-0.25/nappy&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Aldi&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Huggies newborn 108PACK up to 5kg (30);MAMIA 28 nappies (3.99);Huggies 2 infant 96PACK 4-8 kg (30 + 24.99)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;wipes&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Wipes 480 pack (7.5)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Nappy bags&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Nappy bags 200 pack (3)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;change table (换尿布台)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;100-300&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ikea1, ikea2, ikea3&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Gulliver (99)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;baskets&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ONSKLIG (14.99)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Baby-care mat&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;SKOTSAM (14.99)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Cover for babycare mat&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;SKOTSAM(6*2)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;哺乳枕 (nursing pillow) + cover&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;40+4&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ikea1, ikea2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;朋友赠送&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;哺乳椅（feeding chair）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;free, 2nd-hand&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;小摇床（Bounce and sway）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tiny Love bounce and sway 55，2nd-hand&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;breast pump (吸奶器)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;25-500&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;babybunting, kmart, chemical warehouse&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Viki赠送&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;bottle(奶瓶）+ teats(奶嘴）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;20-40+5-10&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;kmart, chemical warehouse Target&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Medela bottle 150 3 pack (18.86)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;UV/ Steam steriliser （消毒器）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;没买，决定用沸水消毒&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;bottle-washing items（奶瓶清洗器）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;baby bathtub (洗澡盆)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;15&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ikea&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;LATTSAM (14.99)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;水温温度计	｜&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;体温计｜&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Body wash	Aveeno Baby Daily Wash &amp;amp; Shampoo （15）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Coles/ Woolworths/ chemist warehouse&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Baby oil&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Washing liquid （洗衣液）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;洗衣机消毒液&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;衣物&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Bath robe/Towel with hood(浴巾)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;9-30&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ikea&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;NA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Sleeping bag (睡袋)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;15-20&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ikea, Uniqlo, babybunting&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Baby hat&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2-4	kmart&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;baby wraps/blankets&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;7-20&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ikea&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Baby clothes: baby jumpsuits (连身裤); singlets or vests for underneath; cardigans（开襟衫）;jumpers;袜子; Bibs&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;uniqlo, babybunting, kmart&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Bibs 3pack (7)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;其他&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;crawl cushion/ playmat (婴儿爬垫）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;40&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ikea&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Kmart Play mat (29)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;baby gym&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ikea&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;15，2nd-hand&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;妈妈用品&quot;&gt;妈妈用品&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;物品&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;链接&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;最终购买&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;sanitary napkin/pad (女性卫生巾)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Coles&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;nursing bra (哺乳胸罩)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;已买&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;nursing/breast pad(乳垫)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;已买&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cleaner(私处清洗器）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;已买&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;pregnancy cloth&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;已买&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;maternity cloth/ breastfeeding cloth&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;kmart&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Viki赠送&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;睡衣&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;已买&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;国内带来&quot;&gt;国内带来&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;品牌&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;名称&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;特征（颜色/图案/厚度）&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;件数&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;好宜家&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;硅胶奶瓶刷清洗工具（Silicone bottle brush tool）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Dr Brown’s&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;婴儿奶瓶（Bottle）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;乐康&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;肛门冲洗器（Portable water flosser）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;日康&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;婴儿剪刀（Baby safety scissors）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;贝彤&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;竹纤维纱布抱披&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;白色，轻薄&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;贝彤&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;竹纤维瞬吸尿垫&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;白色&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;竹棉童被&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;白色，卡通，轻薄&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;被子&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;白色，小卡通，薄&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;被子&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;粉色，无图案，轻薄&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;被子&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;白色，小卡通，薄&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tongtai&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;被子&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;白色，小卡通，薄&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;福荣达&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;四季被&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;白色，小卡通，薄&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;棉被&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;条纹，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;棉被&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;条纹，卡通，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;布（可做尿布）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;窄&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;若干&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;十月结晶&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;立体型防溢乳垫&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;很多片&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;白色护手套&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;白色&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2副&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;红色福字肚兜&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;红色&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;粉色小卡通围兜&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;粉色&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hello Dr&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;连体婴儿衣+帽子&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;浅蓝底，会树枝图案，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tongtai&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;连体婴儿衣&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;浅蓝色，小图案，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tongtai&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;连体婴儿衣&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;浅黄色，小图案，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tongtai&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;连体婴儿衣&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;浅蓝色，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;小龙人&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;连体婴儿衣（包脚）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;灰色，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;婴之选&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;上下婴儿衣&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;浅蓝色，斑点，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;婴之选&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;上下婴儿衣&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;浅黄色，斑点，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tongtai&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;上身露腰婴儿衣&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;浅黄，卡通，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tongtai&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;上身露腰婴儿衣&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;浅蓝，卡通，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tongtai&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;上身露腰婴儿衣&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;纯灰，厚&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;白色红遍婴儿上下衣+帽子+毯子&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;薄&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;待产包&quot;&gt;待产包&lt;/h3&gt;
+
+&lt;h4 id=&quot;for-mothers&quot;&gt;For mothers&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Your Pregnancy Health Record&lt;/li&gt;
+  &lt;li&gt;个人洗漱用品 （牙刷，浴巾，吹风机,手机充电器）&lt;/li&gt;
+  &lt;li&gt;Comfortable clothing (宽大T恤，睡衣，哺乳衣服)&lt;/li&gt;
+  &lt;li&gt;Maternity bras+一次性内裤+拖鞋+月子鞋+溢乳垫&lt;/li&gt;
+  &lt;li&gt;Massage oil, barley sugar, glucose drinks or music for labour+水杯+热水壶&lt;/li&gt;
+  &lt;li&gt;Current medications&lt;/li&gt;
+  &lt;li&gt;Maternity sanitary pads+一次性护垫+冲洗器&lt;/li&gt;
+  &lt;li&gt;Toiletries and tissues&lt;/li&gt;
+  &lt;li&gt;吸奶器，乳头霜&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;for-baby&quot;&gt;For baby&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;24 newborn size nappies&lt;/li&gt;
+  &lt;li&gt;Baby wipes or cotton wool + 屁屁霜&lt;/li&gt;
+  &lt;li&gt;Newborn clothes including singlets, jumpsuits or warm outfits +袜子+帽子&lt;/li&gt;
+  &lt;li&gt;Small cotton blankets&lt;/li&gt;
+  &lt;li&gt;Face washers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;参考资料&quot;&gt;参考资料&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Raising children website:
+    &lt;ul&gt;
+      &lt;li&gt;“New baby checklist: home and baby equipment”&lt;/li&gt;
+      &lt;li&gt;“Bottle-feeding: cleaning and sterilising equipment”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;“Buying for baby on a budget” from babycenter website&lt;/li&gt;
+  &lt;li&gt;美国儿科学会-育儿百科，第19页+第436页&lt;/li&gt;
+  &lt;li&gt;二手网站：gumtree，Facebook market&lt;/li&gt;
+  &lt;li&gt;RBWH：&lt;a href=&quot;https://metronorth.health.qld.gov.au/rbwh/healthcare-services/maternity-services/preparing-for-labour&quot;&gt;待产包&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 12 Jul 2021 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2021/07/12/baby-items.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/07/12/baby-items.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>澳洲租房经历2</title>
+        <description>&lt;p&gt;我和然然自2017年4月来澳洲&lt;a href=&quot;/2020/03/26/rent.html&quot;&gt;一直住在Dell Road&lt;/a&gt;，但是由于&lt;a href=&quot;/2020/01/27/coronavirus.html&quot;&gt;疫情困在中国&lt;/a&gt;在房东的允许下我们于2020年4月&lt;a href=&quot;/2020/03/26/rent.html&quot;&gt;停止了租房&lt;/a&gt;。2021年3月我回到澳洲，然然也怀孕了，于是我们需要找一个新的住处。&lt;/p&gt;
+
+&lt;p&gt;这次找房与之前不同，是比较正式地与中介签约，独立租住，自己买家具。这篇博客就记录我们找新房子的过程。&lt;/p&gt;
+
+&lt;p&gt;注意，不同人租房子的经历可能不同，博客内容仅供参考，租房者应该咨询专业的机构（下面“租房咨询”）。&lt;/p&gt;
+
+&lt;h3 id=&quot;暂住同学家3月3日-28日&quot;&gt;暂住同学家（3月3日-28日）&lt;/h3&gt;
+
+&lt;p&gt;因为找房子往往需要时间，所以我隔离结束后先临时住在同学燕飞家（也是之前然然回澳洲后住的地方），在Taringa。&lt;/p&gt;
+
+&lt;h4 id=&quot;租房咨询&quot;&gt;租房咨询&lt;/h4&gt;
+
+&lt;p&gt;昆士兰大学是提供关于租房的咨询服务，我在隔离期间和他们的工作人员视频聊过半个小时。有很多有用的信息：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;UQ student service: &lt;a href=&quot;https://my.uq.edu.au/student-support/accommodation&quot;&gt;accommodation&lt;/a&gt;, &lt;a href=&quot;https://future-students.uq.edu.au/university-life/living-in-brisbane/cost-living&quot;&gt;cost of living&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RTA Queensland website: &lt;a href=&quot;https://www.rta.qld.gov.au/renting/before-you-rent/students&quot;&gt;for students&lt;/a&gt;, &lt;a href=&quot;https://www.rta.qld.gov.au/sites/default/files/2020-11/RTA-entry-condition-report-form1a.pdf&quot;&gt;entry condition report (Form 1a)&lt;/a&gt;, &lt;a href=&quot;https://www.rta.qld.gov.au/sites/default/files/2020-09/RTA-pocket-guide-for-tenants-house-and-units-form-17a.pdf&quot;&gt;pocket guide (form 17a)&lt;/a&gt;, &lt;a href=&quot;https://www.rta.qld.gov.au/sites/default/files/media/Publications/Publications%20for%20tenants/New%20tenant%20checklist%20General%20tenancies.pdf&quot;&gt;checklist&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/channel/UC0eMbYCBVHydzatoUUyHXcA&quot;&gt;Youtube channel&lt;/a&gt;, &lt;a href=&quot;https://www.rta.qld.gov.au/forms-resources/forms/forms-for-general-tenancies/general-tenancy-agreement-form-18a&quot;&gt;General tenancy agreement (Form 18a)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;网站搜索看房申请&quot;&gt;网站搜索、看房、申请&lt;/h3&gt;
+
+&lt;h4 id=&quot;网站搜索&quot;&gt;网站搜索&lt;/h4&gt;
+&lt;p&gt;我们是在&lt;a href=&quot;https://www.realestate.com.au/rent/&quot;&gt;realestate&lt;/a&gt;上搜索的，最开始的想法是：在Herston（然然工作的QIMR所在区）及附近区域，找一个价格在400刀左右/周的2室1卫1车库的房子。&lt;/p&gt;
+
+&lt;h4 id=&quot;看房inspection&quot;&gt;看房（inspection）&lt;/h4&gt;
+&lt;p&gt;在realestate看到感兴趣的房子后，就可以预约看房（有些会在网站列上看房时间，有些需要去询问中介）。我们前后总共看了13套房子（6日-9日看了6套，13日看了3套，16日看了4套）&lt;/p&gt;
+
+&lt;p&gt;随着看房，我们关注的点也越来越多，例如地面（我们偏地板&amp;gt;瓷砖&amp;gt;地毯），周围环境安静与否，离工作地点的交通，空调，吊扇，洗碗机，纱窗，楼层高低，车库还是车位，入住时间，不喜欢淋浴下面是浴缸，房间的大小，房间新旧，是否有家具等等。最后签的房子没有抽油烟机，但是看房的时候没留意。&lt;/p&gt;
+
+&lt;p&gt;13日看房后，想法也从Herston转到了St Lucia（我工作的UQ所在区），因为St Lucia更便宜、可选择更多。&lt;/p&gt;
+
+&lt;h4 id=&quot;申请application&quot;&gt;申请（application）&lt;/h4&gt;
+
+&lt;p&gt;我们看过的13套房子中，6套提交了申请。6日-9日看的6套申请了2套，都被拒了；13日看的3套申请了2套，1套成功；16日看的4套申请了2套，2套均成功。&lt;/p&gt;
+
+&lt;p&gt;申请时候是可以和中介商量价格的。若中介通过了你的申请，一般你有24小时来决定是否决定签约。&lt;/p&gt;
+
+&lt;h3 id=&quot;签约&quot;&gt;签约&lt;/h3&gt;
+
+&lt;p&gt;正式的签约是以签订&lt;a href=&quot;https://www.rta.qld.gov.au/forms-resources/forms/forms-for-general-tenancies/general-tenancy-agreement-form-18a&quot;&gt;lease&lt;/a&gt;和交了预付款（bond+rent in advance）为标志的。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3月19日: 签约，付了bond（四周的房租，由中介提交给RTA），付了rent in advance（两周的房租）&lt;/li&gt;
+  &lt;li&gt;3月22日 4:30pm: 拿到了钥匙&lt;/li&gt;
+  &lt;li&gt;3月23日: 租约正式开始，定期十二个月&lt;/li&gt;
+  &lt;li&gt;3月25日: 返还了&lt;a href=&quot;https://www.rta.qld.gov.au/sites/default/files/2020-11/RTA-entry-condition-report-form1a.pdf&quot;&gt;entry condition report (Form 1a)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;3月27日晚：开始住在新房子里&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;通电和网买家具搬家&quot;&gt;通电和网，买家具，搬家&lt;/h3&gt;
+
+&lt;h4 id=&quot;电&quot;&gt;电&lt;/h4&gt;
+
+&lt;p&gt;我们选的是&lt;a href=&quot;https://www.originenergy.com.au/electricity-gas/plans.html&quot;&gt;Origin&lt;/a&gt;，22日网上下单，25日上午电工来检查和通电的（注意：我们租的房子之前电停了，重新通电的时候，要求我们家里必须有人在）。&lt;/p&gt;
+
+&lt;p&gt;其他的选择包括：Energy Australia，AGL等&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;6月3日更新，第一次电费单，225.66刀（25/Mar-31/May），相当于每天3.32刀。&lt;/li&gt;
+  &lt;li&gt;8月31日再次更新，第二次电费单348.9刀（1/June-25/Aug），相当于每天4.05刀（这个时间段我们开空调了，由于是冬天，还有小孩刚出生）。&lt;/li&gt;
+  &lt;li&gt;第三次电费单（26/Aug-24/Nov）226.93刀&lt;/li&gt;
+  &lt;li&gt;第四次电费单（25/Nov-2/Mar/22）273.76刀&lt;/li&gt;
+  &lt;li&gt;3 Mar 22 – 31 May 22: 220.85&lt;/li&gt;
+  &lt;li&gt;1 Jun 22 – 28 Aug 22: 275.80&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;网&quot;&gt;网&lt;/h4&gt;
+
+&lt;p&gt;我们选的是&lt;a href=&quot;https://www.tpg.com.au/nbn&quot;&gt;TPG&lt;/a&gt;, 6个月（与“No Lock-in”相比，没有安装费），60刀/月，无限流量，12Mbps，WiFi Modem（调制解调器）需要10刀。23日在网上下单，25日邮寄到了Modem，26日又邮寄到了NBN box，我自己安装上了。&lt;/p&gt;
+
+&lt;p&gt;其他的选择包括：Telsta，Kogan，Optus等&lt;/p&gt;
+
+&lt;h4 id=&quot;买家具&quot;&gt;买家具&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;新买：
+    &lt;ul&gt;
+      &lt;li&gt;冰箱：CHIQ 432L Bottom Mount Refrigerator（$721.65）&lt;/li&gt;
+      &lt;li&gt;洗衣机：HAIER 7.5kg Front Load Washer （$423.30）&lt;/li&gt;
+      &lt;li&gt;我们是从the good guys上买的，运费（door-to-door delivery，不负责拆包和安装，55刀）&lt;/li&gt;
+      &lt;li&gt;22日下单，24日运到（但是因为我人不在又走了），25日再次运过来，签收&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;二手：我们认识一个朋友的朋友，正打算卖房子。22日去他们家看了家具，28日去把买的家具搬了回来
+    &lt;ul&gt;
+      &lt;li&gt;沙发300刀，餐桌+6把餐椅150刀，2个宜家小桌子10刀，queen size床220刀，共680刀；最后还打了一个九折，612刀。&lt;/li&gt;
+      &lt;li&gt;还免费送了我们一个吸尘器，一个微波炉，几个垃圾桶，一个鞋架，两个床头柜&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;朋友相送：感谢我们之前的一些朋友（阿霞/张平，燕飞，菲菲, jiahui等），零零散散地送了我们一些东西（锅碗瓢盆，椅子，桌布等等）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;搬家&quot;&gt;搬家&lt;/h4&gt;
+
+&lt;p&gt;感觉搬家公司太贵，于是是自己和找朋友搬的，会在&lt;a href=&quot;https://www.goget.com.au/&quot;&gt;goget网站&lt;/a&gt;上租一个van。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;25日：租了一个van，找了朋友yang wu从暂住处搬了一些；（Plan是GoOCCASIONAL-Pay&amp;amp;Go，开了2小时，每小时11.9刀；开了5公里，每公里再收0.4刀；一共25.8刀（=11.9 * 2 + 0.4 * 5））&lt;/li&gt;
+  &lt;li&gt;26日-27日：自己开自己的Ford Fiesta搬了一些；&lt;/li&gt;
+  &lt;li&gt;28日：租了一个van（3小时，38公里，一共50.9刀（= 11.9 * 3 + 0.4 * 38）），找了朋友qing dan，zhijian，xiaoyu，yang wu，xiaodong去搬了家具&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 01 Apr 2021 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2021/04/01/rent.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/04/01/rent.html</guid>
+        
+        <category>life</category>
         
         
       </item>
