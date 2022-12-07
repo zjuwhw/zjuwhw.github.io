@@ -6,9 +6,91 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Nov 2022 16:46:30 +1000</pubDate>
-    <lastBuildDate>Fri, 18 Nov 2022 16:46:30 +1000</lastBuildDate>
+    <pubDate>Thu, 08 Dec 2022 09:45:52 +1000</pubDate>
+    <lastBuildDate>Thu, 08 Dec 2022 09:45:52 +1000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    
+      <item>
+        <title>父母来澳大利亚准备过程</title>
+        <description>&lt;p&gt;一直希望父母能来澳大利亚看孙子，他们终于在2022年11月30日抵达布里斯班。这个博客记录的是相关的准备过程。&lt;/p&gt;
+
+&lt;p&gt;办护照：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2021年3月11日邮寄材料回家&lt;/li&gt;
+  &lt;li&gt;2021年3月30日邮寄材料收到&lt;/li&gt;
+  &lt;li&gt;2021年4月：护照办理成功&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;办签证：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;妈妈: submitted at 30/Apr/2021&lt;/li&gt;
+  &lt;li&gt;爸爸: submitted at 3/May/2021&lt;/li&gt;
+  &lt;li&gt;Online complain submitted at 5/May/2022
+=	Phone call at 31/May/2022&lt;/li&gt;
+  &lt;li&gt;Visa enquiry online form at 1/July/2022&lt;/li&gt;
+  &lt;li&gt;health examination require at 1/Aug/2022;&lt;/li&gt;
+  &lt;li&gt;health examination at Shenyang: 10/Aug/2022&lt;/li&gt;
+  &lt;li&gt;Visa granted at 15/Aug/2022 for 妈妈 and at 17/Aug/2022 for 爸爸&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;来澳洲&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2022年11月27日-30日，本溪-沈阳-上海-奥克兰-布里斯班&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;时间&lt;/th&gt;
+      &lt;th&gt;起点-终点&lt;/th&gt;
+      &lt;th&gt;交通工具&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;27日&lt;/td&gt;
+      &lt;td&gt;本溪-沈阳桃仙机场&lt;/td&gt;
+      &lt;td&gt;联系的出车师傅&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;28日&lt;/td&gt;
+      &lt;td&gt;沈阳桃仙机场-上海浦东机场&lt;/td&gt;
+      &lt;td&gt;飞机&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;28日&lt;/td&gt;
+      &lt;td&gt;上海浦东机场-旅店&lt;/td&gt;
+      &lt;td&gt;旅店接机&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;29日&lt;/td&gt;
+      &lt;td&gt;旅店-上海浦东机场&lt;/td&gt;
+      &lt;td&gt;旅店送机&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;29日&lt;/td&gt;
+      &lt;td&gt;上海浦东-新西兰奥克兰&lt;/td&gt;
+      &lt;td&gt;飞机&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;30日&lt;/td&gt;
+      &lt;td&gt;新西兰奥克兰-布里斯班&lt;/td&gt;
+      &lt;td&gt;飞机&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Thu, 08 Dec 2022 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2022/12/08/parents.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/12/08/parents.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>澳大利亚绿卡申请时间线</title>
@@ -156,6 +238,20 @@ res %&amp;gt;% summarise(sum(new_confirmed), sum(new_asympt), sum(new_death), n(
       <item>
         <title>数据中国：健康</title>
         <description>&lt;p&gt;我想通过数据来了解/研究中国，本博客关注健康领域，数据来源自&lt;a href=&quot;https://ourworldindata.org/&quot;&gt;Our World in Data&lt;/a&gt;，计划选取美国、澳洲、日本、新加坡、马来西亚来做对比。&lt;/p&gt;
+
+&lt;p&gt;根据这些数据，中国的&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;预期寿命（76.9）高于世界平均水平（72.6）&lt;/li&gt;
+  &lt;li&gt;儿童死亡率（0.79%）低于世界水平（3.77%）&lt;/li&gt;
+  &lt;li&gt;产妇死亡率（27每10万新生儿）低于世界水平（316）&lt;/li&gt;
+  &lt;li&gt;疾病负担低于世界水平&lt;/li&gt;
+  &lt;li&gt;癌症比例高于世界水平&lt;/li&gt;
+  &lt;li&gt;空气污染导致死亡高于世界水平&lt;/li&gt;
+  &lt;li&gt;肥胖导致死亡低于世界水平&lt;/li&gt;
+  &lt;li&gt;吸烟导致死亡高于世界水平&lt;/li&gt;
+  &lt;li&gt;自杀导致死亡地狱世界水平&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;预期寿命life-expectancy&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/life-expectancy&quot;&gt;预期寿命（life expectancy）&lt;/a&gt;&lt;/h3&gt;
 
@@ -1344,120 +1440,6 @@ data
         <pubDate>Mon, 12 Jul 2021 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2021/07/12/baby-items.html</link>
         <guid isPermaLink="true">http://localhost:4000/2021/07/12/baby-items.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>澳洲租房经历2</title>
-        <description>&lt;p&gt;我和然然自2017年4月来澳洲&lt;a href=&quot;/2020/03/26/rent.html&quot;&gt;一直住在Dell Road&lt;/a&gt;，但是由于&lt;a href=&quot;/2020/01/27/coronavirus.html&quot;&gt;疫情困在中国&lt;/a&gt;在房东的允许下我们于2020年4月&lt;a href=&quot;/2020/03/26/rent.html&quot;&gt;停止了租房&lt;/a&gt;。2021年3月我回到澳洲，然然也怀孕了，于是我们需要找一个新的住处。&lt;/p&gt;
-
-&lt;p&gt;这次找房与之前不同，是比较正式地与中介签约，独立租住，自己买家具。这篇博客就记录我们找新房子的过程。&lt;/p&gt;
-
-&lt;p&gt;注意，不同人租房子的经历可能不同，博客内容仅供参考，租房者应该咨询专业的机构（下面“租房咨询”）。&lt;/p&gt;
-
-&lt;h3 id=&quot;暂住同学家3月3日-28日&quot;&gt;暂住同学家（3月3日-28日）&lt;/h3&gt;
-
-&lt;p&gt;因为找房子往往需要时间，所以我隔离结束后先临时住在同学燕飞家（也是之前然然回澳洲后住的地方），在Taringa。&lt;/p&gt;
-
-&lt;h4 id=&quot;租房咨询&quot;&gt;租房咨询&lt;/h4&gt;
-
-&lt;p&gt;昆士兰大学是提供关于租房的咨询服务，我在隔离期间和他们的工作人员视频聊过半个小时。有很多有用的信息：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;UQ student service: &lt;a href=&quot;https://my.uq.edu.au/student-support/accommodation&quot;&gt;accommodation&lt;/a&gt;, &lt;a href=&quot;https://future-students.uq.edu.au/university-life/living-in-brisbane/cost-living&quot;&gt;cost of living&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;RTA Queensland website: &lt;a href=&quot;https://www.rta.qld.gov.au/renting/before-you-rent/students&quot;&gt;for students&lt;/a&gt;, &lt;a href=&quot;https://www.rta.qld.gov.au/sites/default/files/2020-11/RTA-entry-condition-report-form1a.pdf&quot;&gt;entry condition report (Form 1a)&lt;/a&gt;, &lt;a href=&quot;https://www.rta.qld.gov.au/sites/default/files/2020-09/RTA-pocket-guide-for-tenants-house-and-units-form-17a.pdf&quot;&gt;pocket guide (form 17a)&lt;/a&gt;, &lt;a href=&quot;https://www.rta.qld.gov.au/sites/default/files/media/Publications/Publications%20for%20tenants/New%20tenant%20checklist%20General%20tenancies.pdf&quot;&gt;checklist&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/channel/UC0eMbYCBVHydzatoUUyHXcA&quot;&gt;Youtube channel&lt;/a&gt;, &lt;a href=&quot;https://www.rta.qld.gov.au/forms-resources/forms/forms-for-general-tenancies/general-tenancy-agreement-form-18a&quot;&gt;General tenancy agreement (Form 18a)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;网站搜索看房申请&quot;&gt;网站搜索、看房、申请&lt;/h3&gt;
-
-&lt;h4 id=&quot;网站搜索&quot;&gt;网站搜索&lt;/h4&gt;
-&lt;p&gt;我们是在&lt;a href=&quot;https://www.realestate.com.au/rent/&quot;&gt;realestate&lt;/a&gt;上搜索的，最开始的想法是：在Herston（然然工作的QIMR所在区）及附近区域，找一个价格在400刀左右/周的2室1卫1车库的房子。&lt;/p&gt;
-
-&lt;h4 id=&quot;看房inspection&quot;&gt;看房（inspection）&lt;/h4&gt;
-&lt;p&gt;在realestate看到感兴趣的房子后，就可以预约看房（有些会在网站列上看房时间，有些需要去询问中介）。我们前后总共看了13套房子（6日-9日看了6套，13日看了3套，16日看了4套）&lt;/p&gt;
-
-&lt;p&gt;随着看房，我们关注的点也越来越多，例如地面（我们偏地板&amp;gt;瓷砖&amp;gt;地毯），周围环境安静与否，离工作地点的交通，空调，吊扇，洗碗机，纱窗，楼层高低，车库还是车位，入住时间，不喜欢淋浴下面是浴缸，房间的大小，房间新旧，是否有家具等等。最后签的房子没有抽油烟机，但是看房的时候没留意。&lt;/p&gt;
-
-&lt;p&gt;13日看房后，想法也从Herston转到了St Lucia（我工作的UQ所在区），因为St Lucia更便宜、可选择更多。&lt;/p&gt;
-
-&lt;h4 id=&quot;申请application&quot;&gt;申请（application）&lt;/h4&gt;
-
-&lt;p&gt;我们看过的13套房子中，6套提交了申请。6日-9日看的6套申请了2套，都被拒了；13日看的3套申请了2套，1套成功；16日看的4套申请了2套，2套均成功。&lt;/p&gt;
-
-&lt;p&gt;申请时候是可以和中介商量价格的。若中介通过了你的申请，一般你有24小时来决定是否决定签约。&lt;/p&gt;
-
-&lt;h3 id=&quot;签约&quot;&gt;签约&lt;/h3&gt;
-
-&lt;p&gt;正式的签约是以签订&lt;a href=&quot;https://www.rta.qld.gov.au/forms-resources/forms/forms-for-general-tenancies/general-tenancy-agreement-form-18a&quot;&gt;lease&lt;/a&gt;和交了预付款（bond+rent in advance）为标志的。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;3月19日: 签约，付了bond（四周的房租，由中介提交给RTA），付了rent in advance（两周的房租）&lt;/li&gt;
-  &lt;li&gt;3月22日 4:30pm: 拿到了钥匙&lt;/li&gt;
-  &lt;li&gt;3月23日: 租约正式开始，定期十二个月&lt;/li&gt;
-  &lt;li&gt;3月25日: 返还了&lt;a href=&quot;https://www.rta.qld.gov.au/sites/default/files/2020-11/RTA-entry-condition-report-form1a.pdf&quot;&gt;entry condition report (Form 1a)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;3月27日晚：开始住在新房子里&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;通电和网买家具搬家&quot;&gt;通电和网，买家具，搬家&lt;/h3&gt;
-
-&lt;h4 id=&quot;电&quot;&gt;电&lt;/h4&gt;
-
-&lt;p&gt;我们选的是&lt;a href=&quot;https://www.originenergy.com.au/electricity-gas/plans.html&quot;&gt;Origin&lt;/a&gt;，22日网上下单，25日上午电工来检查和通电的（注意：我们租的房子之前电停了，重新通电的时候，要求我们家里必须有人在）。&lt;/p&gt;
-
-&lt;p&gt;其他的选择包括：Energy Australia，AGL等&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;6月3日更新，第一次电费单，225.66刀（25/Mar-31/May），相当于每天3.32刀。&lt;/li&gt;
-  &lt;li&gt;8月31日再次更新，第二次电费单348.9刀（1/June-25/Aug），相当于每天4.05刀（这个时间段我们开空调了，由于是冬天，还有小孩刚出生）。&lt;/li&gt;
-  &lt;li&gt;第三次电费单（26/Aug-24/Nov）226.93刀&lt;/li&gt;
-  &lt;li&gt;第四次电费单（25/Nov-2/Mar/22）273.76刀&lt;/li&gt;
-  &lt;li&gt;3 Mar 22 – 31 May 22: 220.85&lt;/li&gt;
-  &lt;li&gt;1 Jun 22 – 28 Aug 22: 275.80&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;网&quot;&gt;网&lt;/h4&gt;
-
-&lt;p&gt;我们选的是&lt;a href=&quot;https://www.tpg.com.au/nbn&quot;&gt;TPG&lt;/a&gt;, 6个月（与“No Lock-in”相比，没有安装费），60刀/月，无限流量，12Mbps，WiFi Modem（调制解调器）需要10刀。23日在网上下单，25日邮寄到了Modem，26日又邮寄到了NBN box，我自己安装上了。&lt;/p&gt;
-
-&lt;p&gt;其他的选择包括：Telsta，Kogan，Optus等&lt;/p&gt;
-
-&lt;h4 id=&quot;买家具&quot;&gt;买家具&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;新买：
-    &lt;ul&gt;
-      &lt;li&gt;冰箱：CHIQ 432L Bottom Mount Refrigerator（$721.65）&lt;/li&gt;
-      &lt;li&gt;洗衣机：HAIER 7.5kg Front Load Washer （$423.30）&lt;/li&gt;
-      &lt;li&gt;我们是从the good guys上买的，运费（door-to-door delivery，不负责拆包和安装，55刀）&lt;/li&gt;
-      &lt;li&gt;22日下单，24日运到（但是因为我人不在又走了），25日再次运过来，签收&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;二手：我们认识一个朋友的朋友，正打算卖房子。22日去他们家看了家具，28日去把买的家具搬了回来
-    &lt;ul&gt;
-      &lt;li&gt;沙发300刀，餐桌+6把餐椅150刀，2个宜家小桌子10刀，queen size床220刀，共680刀；最后还打了一个九折，612刀。&lt;/li&gt;
-      &lt;li&gt;还免费送了我们一个吸尘器，一个微波炉，几个垃圾桶，一个鞋架，两个床头柜&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;朋友相送：感谢我们之前的一些朋友（阿霞/张平，燕飞，菲菲, jiahui等），零零散散地送了我们一些东西（锅碗瓢盆，椅子，桌布等等）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;搬家&quot;&gt;搬家&lt;/h4&gt;
-
-&lt;p&gt;感觉搬家公司太贵，于是是自己和找朋友搬的，会在&lt;a href=&quot;https://www.goget.com.au/&quot;&gt;goget网站&lt;/a&gt;上租一个van。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;25日：租了一个van，找了朋友yang wu从暂住处搬了一些；（Plan是GoOCCASIONAL-Pay&amp;amp;Go，开了2小时，每小时11.9刀；开了5公里，每公里再收0.4刀；一共25.8刀（=11.9 * 2 + 0.4 * 5））&lt;/li&gt;
-  &lt;li&gt;26日-27日：自己开自己的Ford Fiesta搬了一些；&lt;/li&gt;
-  &lt;li&gt;28日：租了一个van（3小时，38公里，一共50.9刀（= 11.9 * 3 + 0.4 * 38）），找了朋友qing dan，zhijian，xiaoyu，yang wu，xiaodong去搬了家具&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 01 Apr 2021 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2021/04/01/rent.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/04/01/rent.html</guid>
         
         <category>life</category>
         
