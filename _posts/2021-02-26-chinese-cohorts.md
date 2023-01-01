@@ -22,10 +22,13 @@ tags: ["genetics", "China"]
 - gut microbiome and blood metabolites from BGI-Shenzhen, "3,432 Chinese individuals with whole-genome, whole-metagenome, anthropometric and blood metabolic trait data" - [Liu et al. Nature Genetics 2022](https://www.nature.com/articles/s41588-021-00968-y)
 - COVID gwas from Wang Chaolong group at Wuhan, "genotyped 1457 (598/859 with severe/mild symptoms) and sequenced 1141 (severe/mild: 474/667) patients of Chinese ancestry" - [Wu et al. Communications biology, 2021](https://www.nature.com/articles/s42003-021-02549-5)
 - fingerprint gwas from Jin Li group at Fudan/Shanghai, "9,909 individuals from three Han Chinese cohorts" - [Li et al. Cell, 2022](https://doi.org/10.1016/j.cell.2021.12.008)
-
-- [zhishifenzi: 中国百万人群大队列，何去何从？](http://zhishifenzi.com/news/multiple/12221.html)
-
 - NyuWa Chinese Population Variant Database (NCVD): [paper](https://www.sciencedirect.com/science/article/pii/S2211124721014996?via%3Dihub), [website](http://bigdata.ibp.ac.cn/NyuWa_variants/index.phps)
 - Chinese Millionome Database: [paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac638/6649379), [website](http://cmdb.bgi.com/cmdb/about)
-
 - [China Kadoorie Biobank](https://www.medrxiv.org/content/10.1101/2022.05.02.22274487v1)
+
+评论文章：
+
+- [zhishifenzi: 中国百万人群大队列，何去何从？](http://zhishifenzi.com/news/multiple/12221.html)
+- 饶议科学:
+	- [公开和共享中国人基因序列的好处](https://mp.weixin.qq.com/s/ViCWdNba_ubZ3QmfbKGJRw)
+	- [外国人要利用中国病人的样本资源吗？](https://mp.weixin.qq.com/s/S3AENlGdZTkPMxQmRRLk_A)

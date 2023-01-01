@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Dec 2022 20:12:00 +1000</pubDate>
-    <lastBuildDate>Sat, 10 Dec 2022 20:12:00 +1000</lastBuildDate>
+    <pubDate>Mon, 02 Jan 2023 06:49:32 +1000</pubDate>
+    <lastBuildDate>Mon, 02 Jan 2023 06:49:32 +1000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     
       <item>
@@ -232,7 +232,7 @@ res %&amp;gt;% summarise(sum(new_confirmed), sum(new_asympt), sum(new_death), n(
         <description>&lt;p&gt;我想通过这个博客，搜集一些关于中国生命科学领域发展的资料。&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;BioArt的CNS全景图：&lt;a href=&quot;http://www.bioart.com.cn/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=21&amp;amp;id=9236&quot;&gt;2021&lt;/a&gt;, &lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MzQyNjY1MQ==&amp;amp;mid=2652519914&amp;amp;idx=1&amp;amp;sn=883d5e038ed7631619152a67d73e4d6b&amp;amp;chksm=84e1ae5eb3962748274ce896057511f9d9dc2d038d9fda268363b1ab0ec7e618d9eb4fa3a395&amp;amp;scene=21#wechat_redirect&quot;&gt;2020&lt;/a&gt;, &lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MzQyNjY1MQ==&amp;amp;mid=2652479539&amp;amp;idx=1&amp;amp;sn=2ebb02ea84482334647cdade1b28b60e&amp;amp;chksm=84e23387b395ba91b33f63a78d6e1474741a3d367f79a5b5497769244d50336735977ab9b858&amp;amp;scene=21&amp;amp;rd2werd=1#wechat_redirect&quot;&gt;2019&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;BioArt的CNS全景图：&lt;a href=&quot;https://mp.weixin.qq.com/s/O0k02WhtuTOtU1izl_jv4Q&quot;&gt;2022&lt;/a&gt;, &lt;a href=&quot;http://www.bioart.com.cn/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=21&amp;amp;id=9236&quot;&gt;2021&lt;/a&gt;, &lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MzQyNjY1MQ==&amp;amp;mid=2652519914&amp;amp;idx=1&amp;amp;sn=883d5e038ed7631619152a67d73e4d6b&amp;amp;chksm=84e1ae5eb3962748274ce896057511f9d9dc2d038d9fda268363b1ab0ec7e618d9eb4fa3a395&amp;amp;scene=21#wechat_redirect&quot;&gt;2020&lt;/a&gt;, &lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MzQyNjY1MQ==&amp;amp;mid=2652479539&amp;amp;idx=1&amp;amp;sn=2ebb02ea84482334647cdade1b28b60e&amp;amp;chksm=84e23387b395ba91b33f63a78d6e1474741a3d367f79a5b5497769244d50336735977ab9b858&amp;amp;scene=21&amp;amp;rd2werd=1#wechat_redirect&quot;&gt;2019&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Nature index: &lt;a href=&quot;https://www.natureindex.com/annual-tables/2022&quot;&gt;2022 table&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/annual-tables/2021&quot;&gt;2021 table&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/annual-tables/2020&quot;&gt;2020 table&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/supplements/nature-index-2022-big-5&quot;&gt;Big 5 science nations&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/supplements/nature-index-2021-young-universities&quot;&gt;2021 Young universities&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;“知识分子”文章
     &lt;ul&gt;
