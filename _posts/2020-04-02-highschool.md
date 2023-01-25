@@ -5,6 +5,8 @@ date: 2020-04-02
 tags: ["life"]
 ---
 
+![](/images/highschool/highschool2023.jpeg)
+
 ![](/images/highschool/2021-1.jpeg)
 
 ![](/images/highschool/2021-2.jpeg)
