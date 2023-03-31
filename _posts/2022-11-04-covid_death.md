@@ -5,6 +5,11 @@ date: 2022-11-04
 tags: ["China", "life"]
 ---
 
+更新：
+
+- [纽约时报：放弃“清零”后，中国到底有多少人死于新冠？](https://www.nytimes.com/zh-hans/interactive/2023/02/16/chinese/china-covid-death-estimates-chinese.html)
+- [中国疾病预防控制中心: 全国新型冠状病毒感染诊疗和监测数据概述 ](https://weekly.chinacdc.cn/fileCCDCW/cms/news/info/upload/ccdcw-surveillance-202212-202301-cn.pdf)
+
 根据[国家卫健委的统计数据](https://weekly.chinacdc.cn/news/TrackingtheEpidemic.htm)，
 
 - 从2022年1月1日到2022年10月26日，国内共有新增确诊病例累计156087，新增无症状感染者累计785801，新增死亡累计590。死亡率仅为0.0006264014（万分之六）
