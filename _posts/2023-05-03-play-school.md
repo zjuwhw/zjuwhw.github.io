@@ -1,0 +1,59 @@
+---
+layout: post
+title: 英文儿歌cd
+date: 2023-05-03
+tags: ["life"]
+---
+
+['Play School: 50 Best Songs'](https://www.jbhifi.com.au/products/cd-play-school-play-school-50-best-songs-cd)
+
+- Play School Theme 0:40
+- Twinkle Twinkle Little Star 1:31
+- I Can Sing a Rainbow 2:44
+- Incy Wincy Spider 1:05
+- Hokey Pokey 1:35
+- Wiggerly Woo 1:33
+- Do Your Ears Hang Low? 1:04
+- Old McDonald 1:47
+- Big Adventure 1:51
+- Let's Play Together 2:19
+- Shake My Sillies Out 0:44
+- I'm a Little Teapot 1:52
+- Teddy Bear Twist 2:31
+- Dino Stomp 1:23
+- Heads and Shoulders 0:51
+- Row Row Row Your Boat 2:08
+- Little Peter Rabbit 0:42
+- Splish, Splash, Splosh 1:01
+- Baa Baa Black Sheep 0:58
+- Kookaburra Sits in the Old Gum Tree 0:55
+- Six Little Ducks 1:16
+- If You're Happy and You Know It 1:07
+- The Grand Old Duke of York 1:14
+- I'm a Train 2:12
+- Hippopotamus Song (Mud Glorious Mud) 1:08
+- Humpty Dumpty 1:05
+- Let Me See You Do the Monkey 2:28
+- Hey Diddle Diddle 1:13
+- Polly Put the Kettle On 0:53
+- Bear Hunt 3:53
+- What Do You Think My Name Is? 1:34
+- Dingle Dangle Scarecrow 1:08
+- Chicken Talk 2:46
+- My Little Puppy 0:59
+- Mr Frog 1:11
+- She'll Be Coming Round the Mountain 1:12
+- Driving in the Car 1:23
+- Leopard Has Lots of Spots (Spotty Song) 0:48
+- A Sailor Went to Sea 2:01
+- Der Glumph 1:14
+- Singing a Cowboy Song 2:42
+- This Little Piggy 0:49
+- You Can Stamp Your Feet 1:40
+- R-O-B-O-T 1:48
+- Little Shell 1:27
+- Hickory Dickory Dock 1:24
+- Teddy Bear's Picnic 1:15
+- Walking in the Bush 1:45
+- Down in the Meadow 2:00
+- Teddy Bear, Teddy Bear 0:56
