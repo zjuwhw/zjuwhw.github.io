@@ -57,3 +57,46 @@ tags: ["life"]
 - Walking in the Bush 1:45
 - Down in the Meadow 2:00
 - Teddy Bear, Teddy Bear 0:56
+
+[We’re All Fruit Salad!: The Wiggles’ Greatest Hits](https://www.jbhifi.com.au/products/cd-wiggles-the-were-all-fruit-salad-the-wiggles-greatest-hits-cd)
+
+- Get Ready to Wiggle
+- Rock-a-Bye Your Bear
+- Hot Potato
+- Fruit Salad
+- Dorothy the Dinosaur
+- The Monkey Dance
+- D.O.R.O.T.H.Y (My Favourite Dinosaur)
+- Can You (Point Your Fingers and Do the Twist?)
+- Romp Bomp a Stomp
+- Go Santa Go!
+- Toot Toot, Chugga Chugga, Big Red Car
+- Captain Feathersword Fell Asleep On His Pirate Ship (Quack Quack)
+- Food Food Food (Oh How I Love My Food)
+- Here Come the Reindeer
+- Wiggle Bay
+- Anthony's Workshop
+- Getting Strong!
+- Follow the Leader
+- Do the Propeller!
+- I've Got My Glasses On!
+- Ready, Steady, Wiggle!
+- Say the Dance, Do the Dance
+- Wake Up Lachy!
+- Apples and Bananas
+- Simon Says
+- Who's in the Wiggle House?
+- The Wonder of Wiggle Town
+- Henry's Christmas Merengue
+- Emma's Theme
+- Welcome to the Lachy Wiggle Show
+- I Went to the Library
+- Hey, Wags!
+- The Toilet Song
+- Shirley Shawn the Unicorn
+- Emma's Yellow Bow
+- H.O.L.I.D.A.Y
+- Here Come The Wiggles
+- Handwashing Song
+- Everybody Wiggle Along
+- We're All Fruit Salad!
