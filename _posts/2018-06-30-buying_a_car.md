@@ -112,7 +112,7 @@ tags: ["life"]
 
 ## 个人经历
 
-- 2018年11月18日，在朋友的帮助下查看了一辆车（[2008 Honda Civic](https://www.carsales.com.au/cars/details/Honda-Civic-2008/SSE-AD-5765728/?_ga=2.131300687.1711095904.1542417375-1183647803.1539662075)），最终没买；
+- 2018年11月18日，在朋友Wenhan的帮助下查看了一辆车（[2008 Honda Civic](https://www.carsales.com.au/cars/details/Honda-Civic-2008/SSE-AD-5765728/?_ga=2.131300687.1711095904.1542417375-1183647803.1539662075)），最终没买；
 - 2018年12月10日，签了合同，交了钱（6500刀），买了一辆车（[2012 Ford Fiesta](https://www.carsales.com.au/cars/details/Ford-Fiesta-2012/SSE-AD-5805973?_ga=2.28691772.1474406298.1544055276-1183647803.1539662075&from=singlemessage)）
 - 2018年12月11日，去[交通局](https://www.qld.gov.au/transport/contacts/centres/view?title=Toowong%20Transport%20and%20Main%20Roads%20Customer%20Service%20Centre)办理了[注册转移](https://www.qld.gov.au/transport/registration/transfer/rego)，交了43.5刀。另外还买了RACQ的全险（[comprehensive car insurance](https://www.racq.com.au/insurance/get-insurance/car-insurance/comprehensive-car-insurance)）706.75刀，从11/Dec/2018-11/Dec/2019.
 - 2019年9月12日，接到了safety recall，去Metro Ford（Woolloongabba）免费更换了门闩（？）。
@@ -132,12 +132,15 @@ tags: ["life"]
 - 2022年2月20日，黄色指示灯问题再次出现，无法倒车，手动推车，导致车撞围栏，后玻璃撞碎。
 - 2022年3月1日，到Vulture Street Car service，修后玻璃，380刀。
 - 2022年3月25日，再次去Ford dealer（Newstead），这次说需要等待3个月去更换TCM。
+- 2022年3月9日，RACQ roadside assistant 113刀，insurance 848.78刀。
 - 2022年4月19日，13ford免费安排了一辆europcar公司的rental car。
 - 2022年5月9日，TCM更换完毕，取回Ford，免费。
 - 2022年5月10日，还了europcar。
 - 2022年8月25日，车保养165刀。
 - 2023年1月31日，更新了rego，775.55刀。
 - 2023年2月24日，车保养175刀。
+- 2023年3月8日，RACQ roadside assistant 118刀 + insurance 937.47刀。
+- 2023年6月16日，右前车胎爆了，叫的RACQ roadside assistant，拖车到了Vulture Street Car Service更换了轮胎。花费110刀。
 
 Ford TCM recall：
 
