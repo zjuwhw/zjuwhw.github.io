@@ -54,12 +54,15 @@ Shiny:
 
 - [LD and allele frequency](https://huanwei.shinyapps.io/ldfrq/)
 
+![](/images/Huanwei_Wang_Jun2023.jpg)
 
+Jun 2023
+
+![Alt text](/images/Huanwei_Wang_2017May.JPG)
+
+May 2017
 
 ![Alt text](/images/me.jpg)
 
 2012
 
-![Alt text](/images/Huanwei_Wang_2017May.JPG)
-
-May 2017
