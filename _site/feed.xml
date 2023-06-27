@@ -6,9 +6,364 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 Mar 2023 15:18:03 +1000</pubDate>
-    <lastBuildDate>Fri, 31 Mar 2023 15:18:03 +1000</lastBuildDate>
+    <pubDate>Tue, 27 Jun 2023 10:09:26 +1000</pubDate>
+    <lastBuildDate>Tue, 27 Jun 2023 10:09:26 +1000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    
+      <item>
+        <title>小高姐做饭</title>
+        <description>&lt;p&gt;“&lt;a href=&quot;https://www.youtube.com/@MagicIngredients&quot;&gt;小高姐&lt;/a&gt;”的做饭视频笔记。&lt;/p&gt;
+
+&lt;h3 id=&quot;糕点&quot;&gt;糕点&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nYQ5uc6plCs&quot;&gt;戚风蛋糕&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;大鸡蛋5个；油75g；低筋面粉100g；牛奶75g；白醋10g；糖75g&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=CfKFiBhqP5U&quot;&gt;香蕉面包&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=HV-vaC7nDlo&quot;&gt;轻乳酪蛋糕&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;面食&quot;&gt;面食&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6InWqwKEKGY&amp;amp;t=151s&quot;&gt;花卷&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;中筋面粉 500克; 酵母 4克; 温水 290克; 葱 两根; 油 20克; 盐 4克&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=mmZURDPBj8s&quot;&gt;高筋粉、中筋粉、低筋粉&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Vj9lM6iBo1U&quot;&gt;发面、汤面、死面&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;做菜&quot;&gt;做菜&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=T9ujysGFgYw&quot;&gt;炒西兰花&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=tRLYIYClKnQ&quot;&gt;拔丝地瓜&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;中英文对照&quot;&gt;中英文对照&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;泡打粉：baking powder&lt;/li&gt;
+  &lt;li&gt;中筋面粉：all purpose flour&lt;/li&gt;
+  &lt;li&gt;高筋面粉：bread flour&lt;/li&gt;
+  &lt;li&gt;低筋面粉：cake flour&lt;/li&gt;
+  &lt;li&gt;小苏打：baking soda&lt;/li&gt;
+  &lt;li&gt;酵母：yeast&lt;/li&gt;
+  &lt;li&gt;奶油：cream&lt;/li&gt;
+  &lt;li&gt;奶酪/芝士/起司：cheese&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2023/06/11/xiaogaojie.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/06/11/xiaogaojie.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>搬家之后的汽油钱</title>
+        <description>&lt;p&gt;由于换了一个房子租，过上了上下班开车的生活。油钱随之也增加了，下面的最近一段时间的油钱记录。大约每周在50刀左右。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;加油日期&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;加油钱数&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;距上次加油天数&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;油钱/每天&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;油钱/每7天&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;油钱/每7天（去掉3个值）&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;备注&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;15-Mar&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;59.7&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;19-Mar&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;40.51&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10.1275&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;70.8925&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;70.8925&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;27-Mar&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;54.55&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6.81875&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;47.73125&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;47.73125&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1-Apr&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29.31&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5.862&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;41.034&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;41.034&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7-Apr&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;32.3	6&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5.383333333&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;37.6833333&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;37.68333333&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9-Apr&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;30.76&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;15.38&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;107.66&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4月9日 去看骆驼&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18-Apr&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;62.2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6.911111111&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;48.37777778&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;48.37777778&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;24-Apr&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;44.87&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7.478333333&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;52.3483333&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;52.34833333&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;25-Apr&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;15.48&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;15.48&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;108.36&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4月25日去的阳光海岸&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29-Apr&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;31.32&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7.83&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;54.81&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;54.81&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5-May&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;60.5&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10.08333333&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;70.58333333&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5月1日去的黄金海岸&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;13-May&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;33.59&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4.19875&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29.39125&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29.39125&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;60.80652525&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;47.78355556&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;平均值&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;计算方式是因为，我每次加油都会把油箱加满。所以从一次加油邮箱加满之后，下一次加油所画的钱，就是过去这段时间耗油的钱。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 May 2023 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2023/05/29/petrol.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/05/29/petrol.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>英文儿歌cd</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.jbhifi.com.au/products/cd-play-school-play-school-50-best-songs-cd&quot;&gt;‘Play School: 50 Best Songs’&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Play School Theme 0:40&lt;/li&gt;
+  &lt;li&gt;Twinkle Twinkle Little Star 1:31&lt;/li&gt;
+  &lt;li&gt;I Can Sing a Rainbow 2:44&lt;/li&gt;
+  &lt;li&gt;Incy Wincy Spider 1:05&lt;/li&gt;
+  &lt;li&gt;Hokey Pokey 1:35&lt;/li&gt;
+  &lt;li&gt;Wiggerly Woo 1:33&lt;/li&gt;
+  &lt;li&gt;Do Your Ears Hang Low? 1:04&lt;/li&gt;
+  &lt;li&gt;Old McDonald 1:47&lt;/li&gt;
+  &lt;li&gt;Big Adventure 1:51&lt;/li&gt;
+  &lt;li&gt;Let’s Play Together 2:19&lt;/li&gt;
+  &lt;li&gt;Shake My Sillies Out 0:44&lt;/li&gt;
+  &lt;li&gt;I’m a Little Teapot 1:52&lt;/li&gt;
+  &lt;li&gt;Teddy Bear Twist 2:31&lt;/li&gt;
+  &lt;li&gt;Dino Stomp 1:23&lt;/li&gt;
+  &lt;li&gt;Heads and Shoulders 0:51&lt;/li&gt;
+  &lt;li&gt;Row Row Row Your Boat 2:08&lt;/li&gt;
+  &lt;li&gt;Little Peter Rabbit 0:42&lt;/li&gt;
+  &lt;li&gt;Splish, Splash, Splosh 1:01&lt;/li&gt;
+  &lt;li&gt;Baa Baa Black Sheep 0:58&lt;/li&gt;
+  &lt;li&gt;Kookaburra Sits in the Old Gum Tree 0:55&lt;/li&gt;
+  &lt;li&gt;Six Little Ducks 1:16&lt;/li&gt;
+  &lt;li&gt;If You’re Happy and You Know It 1:07&lt;/li&gt;
+  &lt;li&gt;The Grand Old Duke of York 1:14&lt;/li&gt;
+  &lt;li&gt;I’m a Train 2:12&lt;/li&gt;
+  &lt;li&gt;Hippopotamus Song (Mud Glorious Mud) 1:08&lt;/li&gt;
+  &lt;li&gt;Humpty Dumpty 1:05&lt;/li&gt;
+  &lt;li&gt;Let Me See You Do the Monkey 2:28&lt;/li&gt;
+  &lt;li&gt;Hey Diddle Diddle 1:13&lt;/li&gt;
+  &lt;li&gt;Polly Put the Kettle On 0:53&lt;/li&gt;
+  &lt;li&gt;Bear Hunt 3:53&lt;/li&gt;
+  &lt;li&gt;What Do You Think My Name Is? 1:34&lt;/li&gt;
+  &lt;li&gt;Dingle Dangle Scarecrow 1:08&lt;/li&gt;
+  &lt;li&gt;Chicken Talk 2:46&lt;/li&gt;
+  &lt;li&gt;My Little Puppy 0:59&lt;/li&gt;
+  &lt;li&gt;Mr Frog 1:11&lt;/li&gt;
+  &lt;li&gt;She’ll Be Coming Round the Mountain 1:12&lt;/li&gt;
+  &lt;li&gt;Driving in the Car 1:23&lt;/li&gt;
+  &lt;li&gt;Leopard Has Lots of Spots (Spotty Song) 0:48&lt;/li&gt;
+  &lt;li&gt;A Sailor Went to Sea 2:01&lt;/li&gt;
+  &lt;li&gt;Der Glumph 1:14&lt;/li&gt;
+  &lt;li&gt;Singing a Cowboy Song 2:42&lt;/li&gt;
+  &lt;li&gt;This Little Piggy 0:49&lt;/li&gt;
+  &lt;li&gt;You Can Stamp Your Feet 1:40&lt;/li&gt;
+  &lt;li&gt;R-O-B-O-T 1:48&lt;/li&gt;
+  &lt;li&gt;Little Shell 1:27&lt;/li&gt;
+  &lt;li&gt;Hickory Dickory Dock 1:24&lt;/li&gt;
+  &lt;li&gt;Teddy Bear’s Picnic 1:15&lt;/li&gt;
+  &lt;li&gt;Walking in the Bush 1:45&lt;/li&gt;
+  &lt;li&gt;Down in the Meadow 2:00&lt;/li&gt;
+  &lt;li&gt;Teddy Bear, Teddy Bear 0:56&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.jbhifi.com.au/products/cd-wiggles-the-were-all-fruit-salad-the-wiggles-greatest-hits-cd&quot;&gt;We’re All Fruit Salad!: The Wiggles’ Greatest Hits&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get Ready to Wiggle&lt;/li&gt;
+  &lt;li&gt;Rock-a-Bye Your Bear&lt;/li&gt;
+  &lt;li&gt;Hot Potato&lt;/li&gt;
+  &lt;li&gt;Fruit Salad&lt;/li&gt;
+  &lt;li&gt;Dorothy the Dinosaur&lt;/li&gt;
+  &lt;li&gt;The Monkey Dance&lt;/li&gt;
+  &lt;li&gt;D.O.R.O.T.H.Y (My Favourite Dinosaur)&lt;/li&gt;
+  &lt;li&gt;Can You (Point Your Fingers and Do the Twist?)&lt;/li&gt;
+  &lt;li&gt;Romp Bomp a Stomp&lt;/li&gt;
+  &lt;li&gt;Go Santa Go!&lt;/li&gt;
+  &lt;li&gt;Toot Toot, Chugga Chugga, Big Red Car&lt;/li&gt;
+  &lt;li&gt;Captain Feathersword Fell Asleep On His Pirate Ship (Quack Quack)&lt;/li&gt;
+  &lt;li&gt;Food Food Food (Oh How I Love My Food)&lt;/li&gt;
+  &lt;li&gt;Here Come the Reindeer&lt;/li&gt;
+  &lt;li&gt;Wiggle Bay&lt;/li&gt;
+  &lt;li&gt;Anthony’s Workshop&lt;/li&gt;
+  &lt;li&gt;Getting Strong!&lt;/li&gt;
+  &lt;li&gt;Follow the Leader&lt;/li&gt;
+  &lt;li&gt;Do the Propeller!&lt;/li&gt;
+  &lt;li&gt;I’ve Got My Glasses On!&lt;/li&gt;
+  &lt;li&gt;Ready, Steady, Wiggle!&lt;/li&gt;
+  &lt;li&gt;Say the Dance, Do the Dance&lt;/li&gt;
+  &lt;li&gt;Wake Up Lachy!&lt;/li&gt;
+  &lt;li&gt;Apples and Bananas&lt;/li&gt;
+  &lt;li&gt;Simon Says&lt;/li&gt;
+  &lt;li&gt;Who’s in the Wiggle House?&lt;/li&gt;
+  &lt;li&gt;The Wonder of Wiggle Town&lt;/li&gt;
+  &lt;li&gt;Henry’s Christmas Merengue&lt;/li&gt;
+  &lt;li&gt;Emma’s Theme&lt;/li&gt;
+  &lt;li&gt;Welcome to the Lachy Wiggle Show&lt;/li&gt;
+  &lt;li&gt;I Went to the Library&lt;/li&gt;
+  &lt;li&gt;Hey, Wags!&lt;/li&gt;
+  &lt;li&gt;The Toilet Song&lt;/li&gt;
+  &lt;li&gt;Shirley Shawn the Unicorn&lt;/li&gt;
+  &lt;li&gt;Emma’s Yellow Bow&lt;/li&gt;
+  &lt;li&gt;H.O.L.I.D.A.Y&lt;/li&gt;
+  &lt;li&gt;Here Come The Wiggles&lt;/li&gt;
+  &lt;li&gt;Handwashing Song&lt;/li&gt;
+  &lt;li&gt;Everybody Wiggle Along&lt;/li&gt;
+  &lt;li&gt;We’re All Fruit Salad!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 03 May 2023 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2023/05/03/play-school.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/05/03/play-school.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>澳洲租房经历3</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://zjuwhw.github.io/2021/04/01/rent.html&quot;&gt;Carmody Road的房子&lt;/a&gt;从2021年3月份租了两年，房东决定买房，就算我提出将房租涨到450刀/周甚至以上，房东还是决定不租了。所以我们被迫要第三次找房子了。这次租房正好赶上&lt;a href=&quot;https://www.abc.net.au/news/2023-02-20/share-house-costs-rents-prices-household-size-flatmates/101976084&quot;&gt;澳大利亚房租市场特别火爆&lt;/a&gt;，租金大涨，所以还是费一些力气和时间的。&lt;/p&gt;
+
+&lt;h2 id=&quot;找房过程&quot;&gt;找房过程&lt;/h2&gt;
+
+&lt;p&gt;我们在realestate网站上查了超过50套房子的信息，从1月28日到21日看了（inspection）23套（1月28日，2月4日6套，2月11日8套，2月15日2套，2月17日1套，2月18日3套，2月21日1套），申请了11套，失败了8套，在第一套成功offer下来了就接受了，所以后面有两套打电话问是否还感兴趣的时候就直接撤销了申请。&lt;/p&gt;
+
+&lt;p&gt;主要搜索范围限定在三个区域：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;离我工作地点昆士兰大学St Lucia校区附近的区：St Lucia，Toowong，Taringa，和indooroopilly&lt;/li&gt;
+  &lt;li&gt;离我老婆工作地点近的附近的区：Herston，Keven Grove，Windsor&lt;/li&gt;
+  &lt;li&gt;离我老婆工作地点向南的区域（因为我可以开车先送他再去上班）：Gordon Park，Chermside，Everton Park，ENOGGERA， Ashgrove等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;签约&quot;&gt;签约&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;接受了Stafford Road, Gordon Park, Qld 4031（主要原因：市场热不好租，430租金可以，基本条件都满足）。&lt;/li&gt;
+  &lt;li&gt;3月14日，搬家。自己打包，搬家公司搬，自己也帮忙了（300刀/3小时）&lt;/li&gt;
+  &lt;li&gt;3月14日，取钥匙，填entry condition form&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;电费&quot;&gt;电费&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;14 Mar 23 – 24 May 23: $337.88&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 29 Apr 2023 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2023/04/29/rent.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/04/29/rent.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>R语言学习资料</title>
@@ -311,388 +666,6 @@ res %&amp;gt;% summarise(sum(new_confirmed), sum(new_asympt), sum(new_death), n(
         <category>China</category>
         
         <category>bio</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>数据中国：健康</title>
-        <description>&lt;p&gt;我想通过数据来了解/研究中国，本博客关注健康领域，数据来源自&lt;a href=&quot;https://ourworldindata.org/&quot;&gt;Our World in Data&lt;/a&gt;，计划选取美国、澳洲、日本、新加坡、马来西亚来做对比。&lt;/p&gt;
-
-&lt;p&gt;根据这些数据，中国的&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;预期寿命（76.9）高于世界平均水平（72.6）&lt;/li&gt;
-  &lt;li&gt;儿童死亡率（0.79%）低于世界水平（3.77%）&lt;/li&gt;
-  &lt;li&gt;产妇死亡率（27每10万新生儿）低于世界水平（316）&lt;/li&gt;
-  &lt;li&gt;疾病负担低于世界水平&lt;/li&gt;
-  &lt;li&gt;癌症比例高于世界水平&lt;/li&gt;
-  &lt;li&gt;空气污染导致死亡高于世界水平&lt;/li&gt;
-  &lt;li&gt;肥胖导致死亡低于世界水平&lt;/li&gt;
-  &lt;li&gt;吸烟导致死亡高于世界水平&lt;/li&gt;
-  &lt;li&gt;自杀导致死亡地狱世界水平&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;预期寿命life-expectancy&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/life-expectancy&quot;&gt;预期寿命（life expectancy）&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/life_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/life_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;儿童死亡率child-mortality&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/child-mortality&quot;&gt;儿童死亡率（child mortality）&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/child_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/child_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;产妇死亡率maternal-mortality-&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/maternal-mortality&quot;&gt;产妇死亡率Maternal Mortality &lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/maternal_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/maternal_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;疾病负担burden-of-disease&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/maternal-mortality&quot;&gt;疾病负担Burden of Disease&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/disease_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/disease_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;癌症cancer&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/cancer&quot;&gt;癌症cancer&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/cancer_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/cancer_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;空气污染air-pollution&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/air-pollution&quot;&gt;空气污染Air Pollution&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/airpollution_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/airpollution_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;肥胖obesity&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/obesity&quot;&gt;肥胖Obesity&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/obesity_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/obesity_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;吸烟smoking&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/smoking&quot;&gt;吸烟smoking&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/smoking_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/smoking_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;自杀suicide&quot;&gt;&lt;a href=&quot;https://ourworldindata.org/suicide&quot;&gt;自杀suicide&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/suicide_map.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/health/suicide_line.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 22 Jan 2022 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2022/01/22/china-health.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2022/01/22/china-health.html</guid>
-        
-        <category>life</category>
-        
-        <category>medi</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>My PhD timeline</title>
-        <description>&lt;p&gt;Below is my personal PhD timeline. But everyone could be different.
-So I refer you to the &lt;a href=&quot;https://my.uq.edu.au/information-and-services/higher-degree-research/my-thesis&quot;&gt;UQ website&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;study commence: 12/April/2017&lt;/li&gt;
-  &lt;li&gt;Milestone 1: 12/April/2018&lt;/li&gt;
-  &lt;li&gt;Milestone 2: 11/April/2019&lt;/li&gt;
-  &lt;li&gt;Milestone 3: 16/April/2020&lt;/li&gt;
-  &lt;li&gt;initial thesis submission: 21/Jan/2021&lt;/li&gt;
-  &lt;li&gt;examiner report received: 24/Mar/2021&lt;/li&gt;
-  &lt;li&gt;oral examination: 20/April/2021&lt;/li&gt;
-  &lt;li&gt;examination outcome received: 14/May/2021&lt;/li&gt;
-  &lt;li&gt;corrected thesis submission: 14/July/2021&lt;/li&gt;
-  &lt;li&gt;degree awarded: 30/July/2021&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 22 Oct 2021 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2021/10/22/PhD.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/10/22/PhD.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>营养成分表</title>
-        <description>&lt;p&gt;关注一些食品袋上的营养成分表（Nutrition information）。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/nutrition/nutrition01_198.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition02_211.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition03_218.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition04_359.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition05_546.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition06_735.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition07_750.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition08_793.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition09_950.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition10_1020.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition11_1040.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition12_1489.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition13_1490.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nnutrition/utrition14_1490.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition15_1680.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition16_1700.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition17_1870.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition18_1950.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition19_2175.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition20_2443.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition21_2443.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;
-&lt;img src=&quot;/images/nutrition/nutrition22_2558.jpeg&quot; alt=&quot;&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Sep 2021 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2021/09/18/nutrition.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/09/18/nutrition.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>澳洲房价</title>
-        <description>&lt;p&gt;尽管博客的题目是“澳洲房价”，但是我想写的是我所生活的澳大利亚昆士兰州布里斯班市的各个区（suburbs）的房价情况。之前写过一篇中国房价的博客，&lt;a href=&quot;http://zjuwhw.github.io/2020/02/25/house.html&quot;&gt;可以点击这里&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Brisbane&quot;&gt;布里斯班&lt;/a&gt;，是昆士兰州的首府，澳大利亚人口第三大的城市（仅次于悉尼、墨尔本），是我目前的工作地点。布里斯班有很多个suburbs（&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_Brisbane_suburbs&quot;&gt;列表&lt;/a&gt;，&lt;a href=&quot;https://ontheworldmap.com/australia/city/brisbane/brisbane-suburbs-map.jpg&quot;&gt;地图&lt;/a&gt;），房价和租金会有所差异。这个博客中的数据来源自&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/&quot;&gt;realestate网站&lt;/a&gt;，网站的数据会不定时更新，我这里只是选取我访问时的数据。&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;suburb&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;House (2 BR)&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;House (3 BR)&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;House (4 BR)&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Unit (2 BR)&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Unit (3 BR)&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/st-lucia-4067-qld&quot;&gt;St Lucia&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1,100,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1,502,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;425,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;730,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/toowong-4066-qld&quot;&gt;Toowong&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;889,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1,400,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;445,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;731,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/taringa-4068-qld&quot;&gt;Taringa&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;888,250&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1,327,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;410,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;680,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/indooroopilly-4068-qld&quot;&gt;Indooroopilly&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;787,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1,273,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;430,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;620,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/auchenflower-4066-qld&quot;&gt;Auchenflower&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1,080,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1,413,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;422,665&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;675,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/herston-4006-qld&quot;&gt;Herston&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;447,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/kelvin-grove-4059-qld&quot;&gt;Kelvin Grove&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;870,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;440,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;629,607&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/newmarket-4051-qld&quot;&gt;Newmarket&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;820,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1,100,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;411,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;557,500&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/alderley-4051-qld&quot;&gt;Alderley&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;850,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1,037,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;380,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;632,500&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/enoggera-4051-qld&quot;&gt;Enoggera&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;637,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;743,750&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;950,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;416,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;499,100&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/chermside-4032-qld&quot;&gt;Chermside&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;690,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;830,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;374,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;461,250&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/chermside-west-4032-qld&quot;&gt;Chermside West&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;643,750&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;710,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/the-gap-4061-qld&quot;&gt;The Gap&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;750,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;890,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;682,500&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/everton-park-4053-qld&quot;&gt;Everton Park&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;535,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;678,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;721,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;368,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;507,500&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/kenmore-4069-qld&quot;&gt;Kenmore&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;750,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;847,750&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;725,500&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/kenmore-hills-4069-qld&quot;&gt;Kenmore Hills&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;980,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/west-end-4101-qld&quot;&gt;West End&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1,150,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1,235,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;534,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;884,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/annerley-4103-qld&quot;&gt;Annerley&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;765,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;807,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;890,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;386,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;580,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/fairfield-4103-qld&quot;&gt;Fairfield&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;822,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;420,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;647,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/upper-mount-gravatt-4122-qld&quot;&gt;Upper Mount Gravatt&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;718,0000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;756,250&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;397,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;494,500&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/eight-mile-plains-4113-qld&quot;&gt;Eight Mile Plains&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;628,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;795,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;400,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/sunnybank-4109-qld&quot;&gt;Sunnybank&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;682,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;790,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;415,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/sunnybank-hills-4109-qld&quot;&gt;Sunnybank Hill&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;585,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;710,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;372,000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.realestate.com.au/neighbourhoods/inala-4077-qld&quot;&gt;Inala&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;342,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;380,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;437,500&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;BR for bedroom&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To do: 学区信息&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.qgso.qld.gov.au/maps/edmap/&quot;&gt;edmap&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.myschool.edu.au/&quot;&gt;myschool&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.qld.gov.au/law/housing-and-neighbours/buying-and-selling-a-property/buying-a-home&quot;&gt;advice from QLD government&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.corelogic.com.au/our-data/mapping-market&quot;&gt;CoreLogic&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 03 Sep 2021 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2021/09/03/brisbane-house.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/09/03/brisbane-house.html</guid>
-        
-        <category>life</category>
         
         
       </item>
