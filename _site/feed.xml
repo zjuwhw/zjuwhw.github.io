@@ -6,9 +6,73 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Jun 2023 10:09:26 +1000</pubDate>
-    <lastBuildDate>Tue, 27 Jun 2023 10:09:26 +1000</lastBuildDate>
+    <pubDate>Tue, 26 Sep 2023 10:37:25 +1000</pubDate>
+    <lastBuildDate>Tue, 26 Sep 2023 10:37:25 +1000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    
+      <item>
+        <title>永居持有者的旅行限制</title>
+        <description>&lt;p&gt;我们是2022年8月22日获得的澳大利亚&lt;a href=&quot;http://zjuwhw.github.io/2022/11/18/PR.html&quot;&gt;永居（PR，permanent residency visa，俗称绿卡）&lt;/a&gt;。获得永居后，永居的持有者可能会受到境外旅行的限制，这个博客试图记录一些相关的信息。&lt;/p&gt;
+
+&lt;p&gt;注：博客只是我阅读这些政策时候的一些记录，不负法律责任，若有相关方面的计划，请咨询专业机构。&lt;/p&gt;
+
+&lt;h2 id=&quot;澳洲&quot;&gt;澳洲：&lt;/h2&gt;
+
+&lt;h3 id=&quot;overseas-travel-as-a-permanent-resident页面信息&quot;&gt;&lt;a href=&quot;https://immi.homeaffairs.gov.au/visas/permanent-resident/overseas-travel&quot;&gt;Overseas travel as a permanent resident页面信息&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/PR1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;travel-facility旅行限制&quot;&gt;“travel facility”/“旅行限制”&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;澳大利亚的永居持有者从境外返回澳洲需要符合“travel facility”（旅行期限，俗称“移民监”）的要求&lt;/li&gt;
+  &lt;li&gt;一般永居第一次获批，都会给5年的“旅行期限”，5年内随意出入境&lt;/li&gt;
+  &lt;li&gt;5年后，“旅行期限”过期，或者申请&lt;a href=&quot;https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/resident-return-visa-155-157&quot;&gt;resident return visa（RRV，回居签证，俗称“回头签”）&lt;/a&gt;，或者加入&lt;a href=&quot;https://immi.homeaffairs.gov.au/citizenship/become-a-citizen&quot;&gt;澳洲国籍&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;当“旅行期限”过期后，通过“临时签证”入境澳洲会有负面影响&lt;/li&gt;
+  &lt;li&gt;若既没入籍，也没申请RRV，还想要以永居身份入境，可以考虑再次申请永居，例如Former Resident visa, a family visa or a skilled visa&lt;/li&gt;
+  &lt;li&gt;“旅行期限”快到期（60天内）的时候，政府会发一个“Travel Facility Expiry Reminder (TFER)”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;resident-return-visa回居签证&quot;&gt;“resident return visa”/回居签证&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;可以申请“回居签证”，如果：
+    &lt;ul&gt;
+      &lt;li&gt;“旅行限制”已经过期或者将要过期人在澳洲境外
+        &lt;ul&gt;
+          &lt;li&gt;是前PR持有者，且，最后一个PR不是被取消的&lt;/li&gt;
+          &lt;li&gt;是前澳洲国籍者，且，丢失或者放弃了国籍身份&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;只有“回居签证”被批准，才能以永居身份返澳&lt;/li&gt;
+      &lt;li&gt;每个永居持有者的家庭成员，需要申请自己的“回居签证”&lt;/li&gt;
+      &lt;li&gt;如果你是永居，且，不打算出境澳洲，你不需要申请“回居签证”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 26 Sep 2023 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2023/09/26/pr.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/09/26/pr.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>健康饮食</title>
+        <description>&lt;p&gt;澳大利亚饮食指南：https://www.eatforhealth.gov.au/sites/default/files/2022-09/n55a_australian_dietary_guidelines_summary_131014_1.pdf&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Aug 2023 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2023/08/01/eating.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/08/01/eating.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>小高姐做饭</title>
@@ -332,7 +396,11 @@
 
 &lt;h2 id=&quot;找房过程&quot;&gt;找房过程&lt;/h2&gt;
 
-&lt;p&gt;我们在realestate网站上查了超过50套房子的信息，从1月28日到21日看了（inspection）23套（1月28日，2月4日6套，2月11日8套，2月15日2套，2月17日1套，2月18日3套，2月21日1套），申请了11套，失败了8套，在第一套成功offer下来了就接受了，所以后面有两套打电话问是否还感兴趣的时候就直接撤销了申请。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;网上查询：我们在realestate网站上查了超过50套房子的信息&lt;/li&gt;
+  &lt;li&gt;现场看房inspection：从1月28日到21日看了（inspection）23套（1月28日，2月4日6套，2月11日8套，2月15日2套，2月17日1套，2月18日3套，2月21日1套）&lt;/li&gt;
+  &lt;li&gt;申请：申请了11套，失败了8套，在第一套成功offer下来了就接受了，所以后面有两套打电话问是否还感兴趣的时候就直接撤销了申请。&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;主要搜索范围限定在三个区域：&lt;/p&gt;
 
@@ -573,99 +641,6 @@
         <guid isPermaLink="true">http://localhost:4000/2022/11/18/PR.html</guid>
         
         <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>中国新冠死亡率</title>
-        <description>&lt;p&gt;更新：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/zh-hans/interactive/2023/02/16/chinese/china-covid-death-estimates-chinese.html&quot;&gt;纽约时报：放弃“清零”后，中国到底有多少人死于新冠？&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://weekly.chinacdc.cn/fileCCDCW/cms/news/info/upload/ccdcw-surveillance-202212-202301-cn.pdf&quot;&gt;中国疾病预防控制中心: 全国新型冠状病毒感染诊疗和监测数据概述 &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;根据&lt;a href=&quot;https://weekly.chinacdc.cn/news/TrackingtheEpidemic.htm&quot;&gt;国家卫健委的统计数据&lt;/a&gt;，&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;从2022年1月1日到2022年10月26日，国内共有新增确诊病例累计156087，新增无症状感染者累计785801，新增死亡累计590。死亡率仅为0.0006264014（万分之六）&lt;/li&gt;
-  &lt;li&gt;从2022年5月28日算起，国内新增死亡病例为0，但却累计新增了确诊病例34331，无症状感染者111841。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;不知道我的计算是否有误，代码见下方。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/covid_death.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;data = readLines(&quot;china_cdc.txt&quot;)
-days = data[grepl(&quot;2022$&quot;,data) &amp;amp; !grepl(&quot;National Health Commission Update&quot;, data)]
-new_confirmed = as.integer(sapply(strsplit(data[grep(&quot;Confirmed:&quot;, data)], &quot;Confirmed: | new&quot;), function(x) sub(&quot;,&quot;, &quot;&quot;,x[2])))
-new_asympt = as.integer(sapply(strsplit(data[grep(&quot;Asymptomatic:&quot;, data)], &quot;Asymptomatic: | new&quot;), function(x) sub(&quot;,&quot;, &quot;&quot;,x[2])))
-new_death = as.integer(sapply(strsplit(data[grep(&quot;Deaths:&quot;, data)], &quot;Deaths: | new&quot;), function(x) sub(&quot;,&quot;, &quot;&quot;,x[3])))
-res = data.frame(days=as.Date(days, &quot;%b %d, %Y&quot;), new_confirmed, new_asympt, new_death)
-
-library(ggplot2); library(tidyverse)
-ggplot(res %&amp;gt;% pivot_longer(-days), aes(x=days, y=value)) + 
-    geom_point() + xlab(&quot;&quot;)+ ylab(&quot;counts&quot;)+
-    facet_wrap(vars(name), scales=&quot;free_y&quot;) + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + geom_vline(xintercept=as.Date(&quot;2022-05-28&quot;))
-
-res %&amp;gt;% filter(days &amp;gt;= as.Date(&quot;2022-05-28&quot;)) %&amp;gt;% summarise(sum(new_confirmed), sum(new_asympt), sum(new_death), n())
-###  sum(new_confirmed) sum(new_asympt) sum(new_death) n()
-### 1              34331          111841              0 152
-
-res %&amp;gt;% summarise(sum(new_confirmed), sum(new_asympt), sum(new_death), n())
-###   sum(new_confirmed) sum(new_asympt) sum(new_death) n()
-### 1             156087          785801            590 299
-
-590/(156087+785801)
-### [1] 0.0006264014
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Fri, 04 Nov 2022 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2022/11/04/covid_death.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2022/11/04/covid_death.html</guid>
-        
-        <category>China</category>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>中国生命科学领域的发展</title>
-        <description>&lt;p&gt;我想通过这个博客，搜集一些关于中国生命科学领域发展的资料。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;BioArt的CNS全景图：&lt;a href=&quot;https://mp.weixin.qq.com/s/O0k02WhtuTOtU1izl_jv4Q&quot;&gt;2022&lt;/a&gt;, &lt;a href=&quot;http://www.bioart.com.cn/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=21&amp;amp;id=9236&quot;&gt;2021&lt;/a&gt;, &lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MzQyNjY1MQ==&amp;amp;mid=2652519914&amp;amp;idx=1&amp;amp;sn=883d5e038ed7631619152a67d73e4d6b&amp;amp;chksm=84e1ae5eb3962748274ce896057511f9d9dc2d038d9fda268363b1ab0ec7e618d9eb4fa3a395&amp;amp;scene=21#wechat_redirect&quot;&gt;2020&lt;/a&gt;, &lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MzQyNjY1MQ==&amp;amp;mid=2652479539&amp;amp;idx=1&amp;amp;sn=2ebb02ea84482334647cdade1b28b60e&amp;amp;chksm=84e23387b395ba91b33f63a78d6e1474741a3d367f79a5b5497769244d50336735977ab9b858&amp;amp;scene=21&amp;amp;rd2werd=1#wechat_redirect&quot;&gt;2019&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Nature index: &lt;a href=&quot;https://www.natureindex.com/annual-tables/2022&quot;&gt;2022 table&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/annual-tables/2021&quot;&gt;2021 table&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/annual-tables/2020&quot;&gt;2020 table&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/supplements/nature-index-2022-big-5&quot;&gt;Big 5 science nations&lt;/a&gt;, &lt;a href=&quot;https://www.natureindex.com/supplements/nature-index-2021-young-universities&quot;&gt;2021 Young universities&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;“知识分子”文章
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://zhishifenzi.blog.caixin.com/archives/247470&quot;&gt;“联合国最新报告：中国创新驱动发展到了十字路口”&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://zhishifenzi.com/depth/depth/6878.html&quot;&gt;专访杨卫：中国科学何时真正崛起？&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://zhishifenzi.blog.caixin.com/archives/253292&quot;&gt;饶毅总结二十世纪中国生命科学八项重要研究&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;中国科协生命科学学会联合体-中国生命科学十大进展：&lt;a href=&quot;http://www.culss.org.cn/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=48&amp;amp;id=271&quot;&gt;2020&lt;/a&gt;，&lt;a href=&quot;http://www.culss.org.cn/index.php?m=content&amp;amp;c=index&amp;amp;a=show&amp;amp;catid=48&amp;amp;id=216&quot;&gt;2019&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;科技部-高技术研究发展中心-中国科学十大进展：&lt;a href=&quot;http://www.htrdc.com/gjszx/gsxw02/3865.shtml&quot;&gt;2021&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.qiushi.org/html/huojiangren/award_history/&quot;&gt;求是科学奖获奖者&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.futureprize.org/cn/laureates/list.html?listBy=prize&quot;&gt;未来科学大奖获奖人&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.hlhl.org.cn/news/findnews/showtech.asp&quot;&gt;何梁何利基金会&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://baike.baidu.com/item/%E8%B0%88%E5%AE%B6%E6%A1%A2%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E5%A5%96/3862850&quot;&gt;谈家桢生命科学奖&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://baike.baidu.com/item/%E5%90%B4%E7%91%9E%E5%A5%96%E5%AD%A6%E9%87%91/2111444&quot;&gt;吴瑞奖学金&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://xplorerprize.org/awardee/index&quot;&gt;科学探索奖&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://casad.cas.cn/ysxx2017/ysmdyjj/qtysmd_124280/&quot;&gt;中国科学院院士&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cae.cn/cae/html/main/col48/column_48_1.html&quot;&gt;中国工程院院士&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.innovatorsunder35.com/the-list/2021/china/biotechnology-medicine&quot;&gt;MIT Technology Review - “Innovators under 35”&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 28 Mar 2022 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2022/03/28/china-bio.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2022/03/28/china-bio.html</guid>
-        
-        <category>China</category>
-        
-        <category>bio</category>
         
         
       </item>
