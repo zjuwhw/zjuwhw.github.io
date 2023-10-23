@@ -5,6 +5,16 @@ date: 2020-01-27
 tags: ["life", "medi"]
 ---
 
+updated at 11/Oct/2023:
+
+- ["放弃“清零”后，中国到底有多少人死于新冠？"](https://www.nytimes.com/zh-hans/interactive/2023/02/16/chinese/china-covid-death-estimates-chinese.html), 纽约时报，2023年2月6日
+- ["Estimate of COVID-19 Deaths, China, December 2022–February 2023"](https://wwwnc.cdc.gov/eid/article/29/10/23-0585_article), 美国CDC，2023年10月
+- ["Excess All-Cause Mortality in China After Ending the Zero COVID Policy"](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2808734), 
+- ["Estimates of COVID- 19 deaths in Mainland China after abandoning zero COVID policy"](https://onlinelibrary.wiley.com/doi/full/10.1111/eci.13956)
+
+
+-------------------------
+
 今年春节（2020年1月25日）我和老婆请假（1月18日-2月9日）回国过年，赶上“[新型冠状病毒](https://zh.wikipedia.org/wiki/2019%EF%BC%8D2020%E5%B9%B4%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%BA%8B%E4%BB%B6)”疫情爆发和随之而来的交通限制，取消了1月28日去然然老家（河北邢台隆尧县）的机票。又由于2月1日澳大利亚政府颁布的旅行限制令，取消了2月9日返回澳洲的机票。2月10日起，远程工作（remote working）写论文，工作效率非常低。3月9日，和导师Skype视频，效率得到很大改善。4月16日完成了第三年的答辩。1月24日到5月23日，一直呆在我家中（[辽宁省本溪市](https://zh.wikipedia.org/zh-hans/%E6%9C%AC%E6%BA%AA%E5%B8%82)）。5月23日到8月5日，在老婆家中（河北邢台隆尧县）。
 
 8月5日开始，我在杭州西湖大学访问学生，希望有更好的学习环境。8月17日起，然然也在西湖大学[蒋敏实验室](https://www.westlake.edu.cn/info/1606/3768.htm)开始做访问工作人员。然然9月24日拿到澳洲的入境豁免，11月底离职，12月8日坐飞机返澳。我是2021年1月1日，从杭州西湖大学离开返回辽宁本溪家中。2021年2月2日豁免，2月17日到达Brisbane，3月3日解除隔离。
