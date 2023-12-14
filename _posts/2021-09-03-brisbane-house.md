@@ -54,3 +54,4 @@ To do: 学区信息
 - [crime map](https://qps-ocm.s3-ap-southeast-2.amazonaws.com/index.html)
 - [Find your land valuation](https://www.qld.gov.au/environment/land/title/valuation/annual/find-your-land-valuation)
 - [QLD State Planning Policy Interactive Mapping System (Noise included)](https://spp.dsdip.esriaustraliaonline.com.au/geoviewer/map/planmaking)
+- [bushfire](https://www.qfes.qld.gov.au/postcode-checker)

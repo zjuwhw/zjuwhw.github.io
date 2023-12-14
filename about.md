@@ -50,6 +50,7 @@ Notebooks:
 - [Evolution and Selection Quantitative Traits](https://zjuwhw.github.io/notebook-esqt/)
 - [Principles of Population Genetics (4th edition), Daniel L. Hartl & Andrew G. Clark](https://zjuwhw.github.io/notebook-ppg/)
 - [A User’s Guide to Principal Components (1st edition)](https://zjuwhw.github.io/notebook-pca/)
+- [An Owner’s Guide to the Human Genome](https://zjuwhw.github.io/notebook-hgbook/)
 
 Shiny:
 
