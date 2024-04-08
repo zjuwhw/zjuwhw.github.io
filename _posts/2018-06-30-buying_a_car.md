@@ -143,6 +143,10 @@ tags: ["life"]
 - 2023年4月12日，更换刹车片，195刀。
 - 2023年6月16日，右前车胎爆了，叫的RACQ roadside assistant，拖车到了Vulture Street Car Service。更换了轮胎，花费110刀。
 - 2023年9月6日，车保养185刀。
+- 2024年1月24日，更新rego，793.10刀
+- 2024年3月9日，RACQ road side assistance, 116 AUD
+- 2024年3月11日，RACQ全险937.74
+- 2024年3月8日，车保养+补一个轮胎，220刀
 
 Ford TCM recall：
 
