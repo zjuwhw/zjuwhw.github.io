@@ -25,6 +25,9 @@ tags: ["life"]
 - [高校求职投完简历之后的准备](https://www.bilibili.com/video/BV1vy4y1Y748)
 - [高校求职系列之五-拿到offer该谈什么、注意什么？](https://www.bilibili.com/video/BV1Yy4y1J7gi)
 
+### rao yi
+- [回国“指南”：2024版](https://mp.weixin.qq.com/s/GWz0C3y_feGpRCKnhgc3_Q)
+
 ### “四青”
 
 - 海外优青：[国家自然科学基金优秀青年科学基金项目（海外）项目指南](https://www.nsfc.gov.cn/publish/portal0/tab442/info79819.htm)
