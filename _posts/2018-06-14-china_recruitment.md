@@ -28,6 +28,10 @@ tags: ["life"]
 ### rao yi
 - [回国“指南”：2024版](https://mp.weixin.qq.com/s/GWz0C3y_feGpRCKnhgc3_Q)
 
+### zhishifenzi
+
+- [那些“对赌”失败的青椒们](https://mp.weixin.qq.com/s/77oZkh-QyixFC7IhtPYmaA)
+
 ### “四青”
 
 - 海外优青：[国家自然科学基金优秀青年科学基金项目（海外）项目指南](https://www.nsfc.gov.cn/publish/portal0/tab442/info79819.htm)
