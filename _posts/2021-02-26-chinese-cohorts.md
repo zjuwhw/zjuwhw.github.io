@@ -12,7 +12,7 @@ tags: ["genetics", "China"]
 
 - ChinaMap with 10k individuals: [paper](https://www.nature.com/articles/s41422-020-0322-9)
 - WeGene with 0.1m individuals: [paper](https://www.biorxiv.org/content/10.1101/2020.07.03.166413v1)
-- China Kadoorie Biobank with 0.5m individuals: [paper](https://academic.oup.com/ije/article/40/6/1652/799869), [website](https://www.ckbiobank.org/)
+- China Kadoorie Biobank with 0.5m individuals: [paper](https://academic.oup.com/ije/article/40/6/1652/799869), [paper2]((https://www.medrxiv.org/content/10.1101/2022.05.02.22274487v1)), [website](https://www.ckbiobank.org/)
 - Taizhou longitudinal study with 0.2m individuals: [news](https://hupi.fudan.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1041&wbnewsid=1577)
 - Chinese National Twin Registry with 61k twin pairs: [paper](https://onlinelibrary.wiley.com/doi/full/10.1111/joim.12926)
 - Westlake BioBank for Chinese (WBBC): [paper1](https://www.biorxiv.org/content/10.1101/2021.02.06.430086v1), [paper2](https://www.medrxiv.org/content/10.1101/2020.12.16.20248291v1), [website](https://wbbc.westlake.edu.cn/index.html)
@@ -24,7 +24,7 @@ tags: ["genetics", "China"]
 - fingerprint gwas from Jin Li group at Fudan/Shanghai, "9,909 individuals from three Han Chinese cohorts" - [Li et al. Cell, 2022](https://doi.org/10.1016/j.cell.2021.12.008)
 - NyuWa Chinese Population Variant Database (NCVD): [paper](https://www.sciencedirect.com/science/article/pii/S2211124721014996?via%3Dihub), [website](http://bigdata.ibp.ac.cn/NyuWa_variants/index.phps)
 - Chinese Millionome Database: [paper](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac638/6649379), [website](http://cmdb.bgi.com/cmdb/about)
-- [China Kadoorie Biobank](https://www.medrxiv.org/content/10.1101/2022.05.02.22274487v1)
+- [Born in Guangzhou Cohort Study (BIGCS)](https://www.bigcs.com.cn/)
 
 评论文章：
 

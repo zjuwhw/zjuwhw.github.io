@@ -7,6 +7,10 @@ tags: ["life"]
 
 我是2017年4月到的布里斯班，之后经常会组织/参加一些聚会，下面是一些合照。
 
+2024
+
+![](/images/brisbane/brisbane2024.jpg)
+
 2023
 
 ![](/images/brisbane/brisbane2023.png)
