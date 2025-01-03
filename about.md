@@ -7,7 +7,7 @@ permalink: /about/
 I am Huanwei Wang (王焕威), a postdoctoral researcher  in Univeristy of Queensland. My research field is quantitative genetics now.
 
 CV:
-- [2024 May CV](/documents/CV_huanwei_May16.pdf)
+- [2024 Aug CV](/documents/CV_huanwei_20240809.pdf)
 
 thesis:
 
