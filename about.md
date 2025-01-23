@@ -51,6 +51,10 @@ Notebooks:
 - [Principles of Population Genetics (4th edition), Daniel L. Hartl & Andrew G. Clark](https://zjuwhw.github.io/notebook-ppg/)
 - [A User’s Guide to Principal Components (1st edition)](https://zjuwhw.github.io/notebook-pca/)
 - [An Owner’s Guide to the Human Genome](https://zjuwhw.github.io/notebook-hgbook/)
+- [Bayesian Essentials with R](https://zjuwhw.github.io/notebook-BayesEssential/)
+- [Robust Statistics - Theory and Methods (with R) (2nd edition)](https://zjuwhw.github.io/notebook-robust)
+- [Applied Survival Analysis using R](https://zjuwhw.github.io/notebook-surivialR)
+- [method paper reading notes collection](https://zjuwhw.github.io/notebook-mtdpaper/)
 
 Shiny:
 
