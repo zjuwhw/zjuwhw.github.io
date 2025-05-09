@@ -1,0 +1,142 @@
+# basic equations for survival analysis and cox-regresion
+
+More details can be found in my notebook https://zjuwhw.github.io/notebook-surivialR/
+  
+- Survival function, the probability of surviving up to a point t: $S(t)=pr(T>t), 0<t<\infty$
+- Hazard function is the instantaneous failure rate: $h(t) = \lim\limits_{\delta \to \infty}\frac{pr(t<T<t+\delta|T>t)}{\delta}$
+- Cumulative distribution function (CDF): $F(t) = pr(T \le t) = 1-S(t), 0<t<\infty$
+- Probability density function (PDF): 
+  - $f(t) = \frac{d}{dt} F(t) = \frac{d}{dt}[1-S(t)]=-\frac{d}{dt}S(t)$
+  - $f(t) = h(t)S(t)$
+- cumulative hazard function, the area under the hazard function up to time t:
+  - $H(t)=\int_0^th(u)du$
+  - $H(t) = -log[S(t)]$
+  
+Cox-regression
+
+$$h_1(t)=\psi h_0(t); \psi = e^{z\beta}$$
+
+- $\beta$: the effect size for the covariate
+- $h_0(t)$: baseline hazard function; "baseline" means z=0
+- $z$ is the covariate
+- $z\beta$ is called "linear predictor" (log-hazard score)
+- $\psi = e^{z\beta}$ is hazard ratio
+
+- baseline cumulative hazard function: $H_0(t)=\int_0^th_0(t)dt$
+- baseline survival function: $S_0(t)=exp[-H_0(t)]$
+- survival function for a particular individual with covariate value z: $S(t|z)=[S_0(t)]^{exp(z\hat{\beta})}$
+- absolute risk at time t with covariate value z: $1-S(t|z)$
+
+### R code
+
+##### toy example data
+
+```{r}
+### simple example with a dummy variable
+library(survival)
+tt = c(6, 7, 10, 15, 19, 25)
+delta = c(1, 0, 1, 1, 0, 1)  ### 0 means censored; 1 means observed
+summary(survfit(Surv(tt,delta)~1))
+```
+
+
+#### binary variable: baseline hazard function will be defined on the variable is 0
+
+```{r}
+trt = c(0, 0, 1, 0, 1, 1)  ## group 0 or 1
+#### cox regression
+result.cox = coxph(Surv(tt, delta)~trt, x=T, y=T)
+summary(result.cox) ## beta is -1.3261
+
+### no mean correction for binary variable
+result.cox$means
+
+#### linear predictor: beta*z
+result.cox$linear.predictor
+result.cox$coefficients*c(0,1)
+predict(result.cox, type="lp")
+predict(result.cox, newdata=data.frame(trt=c(0,1)), type="lp")  ## use the predict function with type="lp"
+
+#### risk in the predict() function: exp(beta*z)
+predict(result.cox, newdata=data.frame(trt=c(0,1)), type="risk")
+exp(result.cox$linear.predictor)
+
+### hazard ratio
+exp(result.cox$coefficients)  ### HR<1 means decrease the risk
+
+### baseline cumulative hazard function
+#Be sure to use the option “centered = F” to cause it to estimate the cumulative hazard at
+#beta= 0. The default is to estimate it at the mean of the covariates. This will often not
+#make sense, particularly for categorical covariates such as treatment indicator, sex, or race
+basehaz(result.cox, centered=F)
+basehaz(result.cox, centered=T)
+### no difference between centered=T and F return results in basehaz
+
+### use the function survfit
+base_surv = survfit(result.cox)
+summary(base_surv)
+base_hazard <- data.frame(
+  time = base_surv$time,
+  cumhaz = base_surv$cumhaz,
+  surv = base_surv$surv
+)
+base_hazard 
+
+### absolute risk at a time point: 1-S(t|z)
+library(pec)
+1-pec::predictSurvProb(result.cox, newdata=data.frame(trt=c(0,1)), time=25)
+1 - base_hazard$surv[base_hazard$time==25]^(predict(result.cox, newdata=data.frame(trt=c(0,1)), type="risk")) 
+```
+
+##### continuous variable: baseline hazard function will be defined on the variable is at mean value
+
+
+```{r}
+age = c(50,30,50,34,65,90)
+result.cox2 = coxph(Surv(tt, delta)~age,x=T, y=T)
+summary(result.cox2)   ## coef: -0.03785
+
+### mean correction
+result.cox2$means
+mean(age)
+
+### linear predictor
+result.cox2$linear.predictor
+result.cox2$coefficients*(age-result.cox2$means)
+predict(result.cox2, type="lp") 
+predict(result.cox2, newdata = data.frame(age-mean(age)), type="lp") 
+
+#### risk in the predict() function: exp(beta*z)
+predict(result.cox2, type="risk") 
+exp(predict(result.cox2, type="lp"))
+predict(result.cox2, newdata = data.frame(age-mean(age)), type="lp") 
+
+### hazard ratio
+exp(result.cox2$coefficients)
+
+### baseline cumulative hazard function
+basehaz(result.cox2, centered=F) # age at 0
+basehaz(result.cox2, centered=T) # age at the mean
+basehaz(result.cox2, centered=F)$hazard * exp(mean(age)*result.cox2$coefficients)
+
+### use the function survfit: same withe basehaz() with centered=T, default
+base_surv2 = survfit(result.cox2)
+summary(base_surv2)
+
+base_hazard2 <- data.frame(
+  time = base_surv2$time,
+  cumhaz = base_surv2$cumhaz,
+  surv = base_surv2$surv
+)
+base_hazard2 
+
+### absolute risk at a time point: 1-S(t|z)
+library(pec)
+
+1-pec::predictSurvProb(result.cox2, newdata=data.frame(age=mean(age)), time=6)
+1 - base_hazard2$surv[base_hazard2$time==6]^(predict(result.cox2, newdata=data.frame(age=mean(age)), type="risk"))
+
+
+1-pec::predictSurvProb(result.cox2, newdata=data.frame(age=50), time=6)
+1 - base_hazard2$surv[base_hazard2$time==6]^(predict(result.cox2, newdata=data.frame(age=50), type="risk"))
+```

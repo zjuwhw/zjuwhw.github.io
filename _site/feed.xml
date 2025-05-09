@@ -6,9 +6,247 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jan 2024 10:41:01 +1000</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2024 10:41:01 +1000</lastBuildDate>
+    <pubDate>Fri, 09 May 2025 18:52:10 +1000</pubDate>
+    <lastBuildDate>Fri, 09 May 2025 18:52:10 +1000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    
+      <item>
+        <title>美国签证申请</title>
+        <description>&lt;p&gt;记录一下2023年时候申请美国B1旅行签证的过程。当时是要去参加&lt;a href=&quot;https://www.ashg.org/meetings/2023meeting/&quot;&gt;2023年ASHG年会&lt;/a&gt;，但是最后签证下来的时候已经错过了ASHG，改成参加&lt;a href=&quot;https://meetings.cshl.edu/meetings.aspx?meet=GENOME&amp;amp;year=24&quot;&gt;2024年的冷泉港会议&lt;/a&gt;了。&lt;/p&gt;
+
+&lt;h3 id=&quot;相关资料&quot;&gt;相关资料&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;US travel docs:
+    &lt;ul&gt;
+      &lt;li&gt;nonimmigrant visa: https://ustraveldocs.com/au/en/nonimmigrant-visa/#visa-steps&lt;/li&gt;
+      &lt;li&gt;B1/B2 visitor visa: https://ustraveldocs.com/au/en/business-visa/&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Travel state gov
+    &lt;ul&gt;
+      &lt;li&gt;US visa: https://travel.state.gov/content/travel/en/us-visas.html&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;DS-160 online form: https://ceac.state.gov/GenNIV/Default.aspx&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;我的时间线&quot;&gt;我的时间线&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2023年5月31日，提交DS-160，付款256 AUD&lt;/li&gt;
+  &lt;li&gt;6月7日，提交的abstract&lt;/li&gt;
+  &lt;li&gt;这期间护照到期，更新了护照耽误了一些时间&lt;/li&gt;
+  &lt;li&gt;预约面试：https://portal.ustraveldocs.com/?country=Australia&amp;amp;language=English
+    &lt;ul&gt;
+      &lt;li&gt;尝试了一次emergency request，8月21日提交，8月23日得知失败&lt;/li&gt;
+      &lt;li&gt;频繁的刷网站，找到了珀斯8月31日的预定&lt;/li&gt;
+      &lt;li&gt;8月31日，去珀斯面试&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;9月1日，回布里斯班后，邮件提交了一些补充材料&lt;/li&gt;
+  &lt;li&gt;9月11日，收到邮件确认补充材料收到&lt;/li&gt;
+  &lt;li&gt;10月6日，下签（但是通知下签的邮件是10月10日收到的）&lt;/li&gt;
+  &lt;li&gt;10月17日，按照要求寄了护照（19日抵达）&lt;/li&gt;
+  &lt;li&gt;11月3日，收到了贴有签证的护照，错过了11月1日开幕的会议&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 08 May 2025 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2025/05/08/us-visa.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/05/08/us-visa.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>survival analysis and cox-regression</title>
+        <description>&lt;p&gt;总结一下关于生存分析（survival analysis）和cox regression相关的公式和R代码：&lt;a href=&quot;/rmd/basic_equations.pdf&quot;&gt;pdf笔记在这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;More details can be found in my notebook
+&lt;a href=&quot;https://zjuwhw.github.io/notebook-surivialR/&quot;&gt;https://zjuwhw.github.io/notebook-surivialR/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 19 Mar 2025 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2025/03/19/cox-regression.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/03/19/cox-regression.html</guid>
+        
+        <category>statistics</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>notes for bayesian linear regression with Gibbs sampling in R</title>
+        <description>&lt;p&gt;我想学一些Bayesian statistics以及估计方法（例如Gibbs samppling，MCMC等等），因为我们领域（人类遗传）中的很多常用的软件和方法是基于bayesian开发的，例如&lt;a href=&quot;https://www.nature.com/articles/s41467-019-12653-0&quot;&gt;SBayesR&lt;/a&gt;，&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0002929715003651&quot;&gt;LDpred&lt;/a&gt;等。&lt;/p&gt;
+
+&lt;p&gt;于是我在网上找到了些博客：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ljwolf.org/teaching/gibbs.html&quot;&gt;Gibbs sampling a simple linear regression, authored by Levi John Wolf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jonnylaw.rocks/posts/2019-06-14-bayesian-linear-regression/&quot;&gt;Bayesian Linear Regression with Gibbs Sampling in R, authored by Jonny Law&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kieranrcampbell.github.io/posts/bayesian-linear-regression/&quot;&gt;Gibbs sampling for Bayesian linear regression in Python, authored by Kieran R Campbell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/rmd/gibbs-sampling.pdf&quot;&gt;这里&lt;/a&gt;是阅读博客的笔记。&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 17 Jun 2024 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2024/06/17/gibbs-sampling.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/06/17/gibbs-sampling.html</guid>
+        
+        <category>statistics</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>第二个博后工作的申请过程</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;4月24日，现导师告知，年底不续&lt;a href=&quot;https://zjuwhw.github.io/2023/09/28/postdoc.html&quot;&gt;合同&lt;/a&gt;了&lt;/li&gt;
+  &lt;li&gt;4月24日，联系了导师A，当天回复，需要等NHMRC investigator grant的结果&lt;/li&gt;
+  &lt;li&gt;5月2日，导师A没拿到grant;口头与导师B交流，也没拿到grant&lt;/li&gt;
+  &lt;li&gt;5月2日，发邮件给导师C、D、E、F，申请了导师G的招聘广告&lt;/li&gt;
+  &lt;li&gt;5月7日，导师C回复，约了面试时间&lt;/li&gt;
+  &lt;li&gt;5月7日，导师D回复，可能过段时间会放出招聘广告，到时可以申请&lt;/li&gt;
+  &lt;li&gt;5月12日，导师E回复，目前已经overcommitted&lt;/li&gt;
+  &lt;li&gt;5月16日，导师F回复，会和导师C一起面试&lt;/li&gt;
+  &lt;li&gt;5月16日，与导师C、导师F、另一个导师，面试&lt;/li&gt;
+  &lt;li&gt;5月17日，导师C确认推荐人和推荐信&lt;/li&gt;
+  &lt;li&gt;5月17日，接到导师G的电话，约面试时间&lt;/li&gt;
+  &lt;li&gt;5月21日，导师C提供了口头offer&lt;/li&gt;
+  &lt;li&gt;5月21日，告知导师G已经接了一个offer&lt;/li&gt;
+  &lt;li&gt;5月22日，导师G取消了原定5月24日的面试&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;由于刚买的房子，还需要在布里斯班待一段时间。感谢联系的这7个导师都回复我了(没有直接无视邮件)&lt;/p&gt;
+
+&lt;p&gt;面向未来，拥抱变化&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 May 2024 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2024/05/24/2ndpostdoc.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/05/24/2ndpostdoc.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>心脑血管疾病的种类</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Cardiovascular disease：心血管疾病&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mayoclinic.org/diseases-conditions/coronary-artery-disease/symptoms-causes/syc-20350613&quot;&gt;Coronary artery disease/coronary heart disease&lt;/a&gt;：&lt;a href=&quot;https://www.mayoclinic.org/zh-hans/diseases-conditions/coronary-artery-disease/symptoms-causes/syc-20350613&quot;&gt;冠状动脉疾病/冠心病&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mayoclinic.org/diseases-conditions/angina/symptoms-causes/syc-20369373&quot;&gt;angina/angina pectoris&lt;/a&gt;：&lt;a href=&quot;https://www.mayoclinic.org/zh-hans/diseases-conditions/angina/symptoms-causes/syc-20369373&quot;&gt;心绞痛/狭心症&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mayoclinic.org/diseases-conditions/heart-attack/symptoms-causes/syc-20373106&quot;&gt;Heart attack/myocardial infarction.&lt;/a&gt;：&lt;a href=&quot;https://www.mayoclinic.org/zh-hans/diseases-conditions/heart-attack/symptoms-causes/syc-20373106&quot;&gt;心脏病发作/心肌梗死&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mayoclinic.org/diseases-conditions/heart-failure/symptoms-causes/syc-20373142&quot;&gt;Heart failure&lt;/a&gt;：&lt;a href=&quot;https://www.mayoclinic.org/zh-hans/diseases-conditions/heart-failure/symptoms-causes/syc-20373142&quot;&gt;心力衰竭&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mayoclinic.org/diseases-conditions/heart-arrhythmia/symptoms-causes/syc-20350668&quot;&gt;Heart arrhythmia&lt;/a&gt;: &lt;a href=&quot;https://www.mayoclinic.org/zh-hans/diseases-conditions/heart-arrhythmia/symptoms-causes/syc-20350668&quot;&gt;心律不齐&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mayoclinic.org/diseases-conditions/stroke/symptoms-causes/syc-20350113&quot;&gt;Stroke&lt;/a&gt;: &lt;a href=&quot;https://www.mayoclinic.org/zh-hans/diseases-conditions/stroke/symptoms-causes/syc-20350113&quot;&gt;脑卒中&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Ischemic stroke: 缺血性脑卒中&lt;/li&gt;
+      &lt;li&gt;Hemorrhagic stroke: 出血性脑卒中&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mayoclinic.org/diseases-conditions/myocardial-ischemia/symptoms-causes/syc-20375417&quot;&gt;Myocardial ischemia&lt;/a&gt;: &lt;a href=&quot;https://www.mayoclinic.org/zh-hans/diseases-conditions/myocardial-ischemia/symptoms-causes/syc-20375417&quot;&gt;心肌缺血&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 04 Apr 2024 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2024/04/04/CVD.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/04/04/CVD.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>童书中的英文</title>
+        <description>&lt;h2 id=&quot;恐龙&quot;&gt;恐龙&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;霸王龙 (Tyrannosaurus rex)&lt;/li&gt;
+  &lt;li&gt;暴龙 (Allosaurus)&lt;/li&gt;
+  &lt;li&gt;三角龙 (Triceratops)&lt;/li&gt;
+  &lt;li&gt;剑龙 (Stegosaurus)&lt;/li&gt;
+  &lt;li&gt;细长颈龙 (Brachiosaurus)&lt;/li&gt;
+  &lt;li&gt;梁龙 (Diplodocus)&lt;/li&gt;
+  &lt;li&gt;铠甲龙 (Ankylosaurus)&lt;/li&gt;
+  &lt;li&gt;鸭嘴龙 (Hadrosaurus)&lt;/li&gt;
+  &lt;li&gt;棘龙 (Spinosaurus)&lt;/li&gt;
+  &lt;li&gt;梁龙 (Diplodocus)&lt;/li&gt;
+  &lt;li&gt;迅猛龙 (Velociraptor)&lt;/li&gt;
+  &lt;li&gt;铁甲龙 (Styracosaurus)&lt;/li&gt;
+  &lt;li&gt;龙王 (Carnotaurus)&lt;/li&gt;
+  &lt;li&gt;银龙 (Argentinosaurus)&lt;/li&gt;
+  &lt;li&gt;翼龙 (Pterosaur)&lt;/li&gt;
+  &lt;li&gt;始祖鸟 (Archaeopteryx)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;机械车&quot;&gt;机械车&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;汽车 - Car&lt;/li&gt;
+  &lt;li&gt;卡车 - Truck&lt;/li&gt;
+  &lt;li&gt;摩托车 - Motorcycle&lt;/li&gt;
+  &lt;li&gt;公共汽车 - Bus&lt;/li&gt;
+  &lt;li&gt;坦克 - Tank&lt;/li&gt;
+  &lt;li&gt;自行车 - Bicycle&lt;/li&gt;
+  &lt;li&gt;拖拉机 - Tractor&lt;/li&gt;
+  &lt;li&gt;巴士 - Coach&lt;/li&gt;
+  &lt;li&gt;垃圾车 - Garbage truck&lt;/li&gt;
+  &lt;li&gt;消防车 - Fire truck&lt;/li&gt;
+  &lt;li&gt;救护车 - Ambulance&lt;/li&gt;
+  &lt;li&gt;警车 - Police car&lt;/li&gt;
+  &lt;li&gt;挖掘机 - Excavator&lt;/li&gt;
+  &lt;li&gt;推土机 - Bulldozer&lt;/li&gt;
+  &lt;li&gt;汽车运输卡车 - Car transporter truck&lt;/li&gt;
+  &lt;li&gt;混凝土搅拌车 - Concrete mixer truck&lt;/li&gt;
+  &lt;li&gt;汽车拖车 - Car trailer&lt;/li&gt;
+  &lt;li&gt;挖掘装载机 - Backhoe loader&lt;/li&gt;
+  &lt;li&gt;电动车 - Electric vehicle&lt;/li&gt;
+  &lt;li&gt;轻轨列车 - Light rail train&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;鲸鱼&quot;&gt;鲸鱼&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;蓝鲸 - Blue Whale&lt;/li&gt;
+  &lt;li&gt;座头鲸 - Humpback Whale&lt;/li&gt;
+  &lt;li&gt;抹香鲸 - Sperm Whale&lt;/li&gt;
+  &lt;li&gt;须鲸 - Baleen Whale&lt;/li&gt;
+  &lt;li&gt;长须鲸 - Gray Whale&lt;/li&gt;
+  &lt;li&gt;北极鲸 - Beluga Whale&lt;/li&gt;
+  &lt;li&gt;虎鲸 - Killer Whale (Orca)&lt;/li&gt;
+  &lt;li&gt;一角鲸 - Narwhal&lt;/li&gt;
+  &lt;li&gt;灰鲸 - Pilot Whale&lt;/li&gt;
+  &lt;li&gt;长鼻鲸 - Minke Whale&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;鲨鱼&quot;&gt;鲨鱼&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;鲨鱼 - Shark&lt;/li&gt;
+  &lt;li&gt;白鲨 - Great White Shark&lt;/li&gt;
+  &lt;li&gt;鼠鲨 - Nurse Shark&lt;/li&gt;
+  &lt;li&gt;斑点鲨 - Leopard Shark&lt;/li&gt;
+  &lt;li&gt;锤头鲨 - Hammerhead Shark&lt;/li&gt;
+  &lt;li&gt;银鲨 - Silky Shark&lt;/li&gt;
+  &lt;li&gt;鲸鲨 - Whale Shark&lt;/li&gt;
+  &lt;li&gt;蓝鲨 - Blue Shark&lt;/li&gt;
+  &lt;li&gt;斯氏鲨 - Thresher Shark&lt;/li&gt;
+  &lt;li&gt;长鳍狗鲨 - Goblin Shark&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 11 Mar 2024 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2024/03/11/children_english.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/03/11/children_english.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>澳洲眼睛检查和配眼镜</title>
@@ -141,421 +379,6 @@ swiming goggles：游泳眼镜&lt;/p&gt;
         <guid isPermaLink="true">http://localhost:4000/2023/09/26/pr.html</guid>
         
         <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>健康饮食</title>
-        <description>&lt;p&gt;澳大利亚饮食指南：https://www.eatforhealth.gov.au/sites/default/files/2022-09/n55a_australian_dietary_guidelines_summary_131014_1.pdf&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Aug 2023 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2023/08/01/eating.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/08/01/eating.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>小高姐做饭</title>
-        <description>&lt;p&gt;“&lt;a href=&quot;https://www.youtube.com/@MagicIngredients&quot;&gt;小高姐&lt;/a&gt;”的做饭视频笔记。&lt;/p&gt;
-
-&lt;h3 id=&quot;糕点&quot;&gt;糕点&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nYQ5uc6plCs&quot;&gt;戚风蛋糕&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;大鸡蛋5个；油75g；低筋面粉100g；牛奶75g；白醋10g；糖75g&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=CfKFiBhqP5U&quot;&gt;香蕉面包&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=HV-vaC7nDlo&quot;&gt;轻乳酪蛋糕&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;面食&quot;&gt;面食&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6InWqwKEKGY&amp;amp;t=151s&quot;&gt;花卷&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;中筋面粉 500克; 酵母 4克; 温水 290克; 葱 两根; 油 20克; 盐 4克&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=mmZURDPBj8s&quot;&gt;高筋粉、中筋粉、低筋粉&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Vj9lM6iBo1U&quot;&gt;发面、汤面、死面&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;做菜&quot;&gt;做菜&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=T9ujysGFgYw&quot;&gt;炒西兰花&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=tRLYIYClKnQ&quot;&gt;拔丝地瓜&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;中英文对照&quot;&gt;中英文对照&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;泡打粉：baking powder&lt;/li&gt;
-  &lt;li&gt;中筋面粉：all purpose flour&lt;/li&gt;
-  &lt;li&gt;高筋面粉：bread flour&lt;/li&gt;
-  &lt;li&gt;低筋面粉：cake flour&lt;/li&gt;
-  &lt;li&gt;小苏打：baking soda&lt;/li&gt;
-  &lt;li&gt;酵母：yeast&lt;/li&gt;
-  &lt;li&gt;奶油：cream&lt;/li&gt;
-  &lt;li&gt;奶酪/芝士/起司：cheese&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2023/06/11/xiaogaojie.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/06/11/xiaogaojie.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>搬家之后的汽油钱</title>
-        <description>&lt;p&gt;由于换了一个房子租，过上了上下班开车的生活。油钱随之也增加了，下面的最近一段时间的油钱记录。大约每周在50刀左右。&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;加油日期&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;加油钱数&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;距上次加油天数&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;油钱/每天&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;油钱/每7天&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;油钱/每7天（去掉3个值）&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;备注&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;15-Mar&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;59.7&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;19-Mar&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;40.51&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10.1275&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;70.8925&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;70.8925&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;27-Mar&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;54.55&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;6.81875&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;47.73125&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;47.73125&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1-Apr&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;29.31&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5.862&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;41.034&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;41.034&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;7-Apr&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;32.3	6&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5.383333333&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;37.6833333&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;37.68333333&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;9-Apr&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;30.76&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;15.38&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;107.66&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4月9日 去看骆驼&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;18-Apr&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;62.2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;9&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;6.911111111&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;48.37777778&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;48.37777778&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;24-Apr&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;44.87&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;7.478333333&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;52.3483333&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;52.34833333&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;25-Apr&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;15.48&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;15.48&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;108.36&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4月25日去的阳光海岸&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;29-Apr&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;31.32&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;7.83&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;54.81&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;54.81&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5-May&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;60.5&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10.08333333&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;70.58333333&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5月1日去的黄金海岸&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;13-May&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;33.59&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4.19875&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;29.39125&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;29.39125&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;60.80652525&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;47.78355556&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;平均值&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;计算方式是因为，我每次加油都会把油箱加满。所以从一次加油邮箱加满之后，下一次加油所画的钱，就是过去这段时间耗油的钱。&lt;/p&gt;
-</description>
-        <pubDate>Mon, 29 May 2023 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2023/05/29/petrol.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/05/29/petrol.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>英文儿歌cd</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.jbhifi.com.au/products/cd-play-school-play-school-50-best-songs-cd&quot;&gt;‘Play School: 50 Best Songs’&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Play School Theme 0:40&lt;/li&gt;
-  &lt;li&gt;Twinkle Twinkle Little Star 1:31&lt;/li&gt;
-  &lt;li&gt;I Can Sing a Rainbow 2:44&lt;/li&gt;
-  &lt;li&gt;Incy Wincy Spider 1:05&lt;/li&gt;
-  &lt;li&gt;Hokey Pokey 1:35&lt;/li&gt;
-  &lt;li&gt;Wiggerly Woo 1:33&lt;/li&gt;
-  &lt;li&gt;Do Your Ears Hang Low? 1:04&lt;/li&gt;
-  &lt;li&gt;Old McDonald 1:47&lt;/li&gt;
-  &lt;li&gt;Big Adventure 1:51&lt;/li&gt;
-  &lt;li&gt;Let’s Play Together 2:19&lt;/li&gt;
-  &lt;li&gt;Shake My Sillies Out 0:44&lt;/li&gt;
-  &lt;li&gt;I’m a Little Teapot 1:52&lt;/li&gt;
-  &lt;li&gt;Teddy Bear Twist 2:31&lt;/li&gt;
-  &lt;li&gt;Dino Stomp 1:23&lt;/li&gt;
-  &lt;li&gt;Heads and Shoulders 0:51&lt;/li&gt;
-  &lt;li&gt;Row Row Row Your Boat 2:08&lt;/li&gt;
-  &lt;li&gt;Little Peter Rabbit 0:42&lt;/li&gt;
-  &lt;li&gt;Splish, Splash, Splosh 1:01&lt;/li&gt;
-  &lt;li&gt;Baa Baa Black Sheep 0:58&lt;/li&gt;
-  &lt;li&gt;Kookaburra Sits in the Old Gum Tree 0:55&lt;/li&gt;
-  &lt;li&gt;Six Little Ducks 1:16&lt;/li&gt;
-  &lt;li&gt;If You’re Happy and You Know It 1:07&lt;/li&gt;
-  &lt;li&gt;The Grand Old Duke of York 1:14&lt;/li&gt;
-  &lt;li&gt;I’m a Train 2:12&lt;/li&gt;
-  &lt;li&gt;Hippopotamus Song (Mud Glorious Mud) 1:08&lt;/li&gt;
-  &lt;li&gt;Humpty Dumpty 1:05&lt;/li&gt;
-  &lt;li&gt;Let Me See You Do the Monkey 2:28&lt;/li&gt;
-  &lt;li&gt;Hey Diddle Diddle 1:13&lt;/li&gt;
-  &lt;li&gt;Polly Put the Kettle On 0:53&lt;/li&gt;
-  &lt;li&gt;Bear Hunt 3:53&lt;/li&gt;
-  &lt;li&gt;What Do You Think My Name Is? 1:34&lt;/li&gt;
-  &lt;li&gt;Dingle Dangle Scarecrow 1:08&lt;/li&gt;
-  &lt;li&gt;Chicken Talk 2:46&lt;/li&gt;
-  &lt;li&gt;My Little Puppy 0:59&lt;/li&gt;
-  &lt;li&gt;Mr Frog 1:11&lt;/li&gt;
-  &lt;li&gt;She’ll Be Coming Round the Mountain 1:12&lt;/li&gt;
-  &lt;li&gt;Driving in the Car 1:23&lt;/li&gt;
-  &lt;li&gt;Leopard Has Lots of Spots (Spotty Song) 0:48&lt;/li&gt;
-  &lt;li&gt;A Sailor Went to Sea 2:01&lt;/li&gt;
-  &lt;li&gt;Der Glumph 1:14&lt;/li&gt;
-  &lt;li&gt;Singing a Cowboy Song 2:42&lt;/li&gt;
-  &lt;li&gt;This Little Piggy 0:49&lt;/li&gt;
-  &lt;li&gt;You Can Stamp Your Feet 1:40&lt;/li&gt;
-  &lt;li&gt;R-O-B-O-T 1:48&lt;/li&gt;
-  &lt;li&gt;Little Shell 1:27&lt;/li&gt;
-  &lt;li&gt;Hickory Dickory Dock 1:24&lt;/li&gt;
-  &lt;li&gt;Teddy Bear’s Picnic 1:15&lt;/li&gt;
-  &lt;li&gt;Walking in the Bush 1:45&lt;/li&gt;
-  &lt;li&gt;Down in the Meadow 2:00&lt;/li&gt;
-  &lt;li&gt;Teddy Bear, Teddy Bear 0:56&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.jbhifi.com.au/products/cd-wiggles-the-were-all-fruit-salad-the-wiggles-greatest-hits-cd&quot;&gt;We’re All Fruit Salad!: The Wiggles’ Greatest Hits&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Get Ready to Wiggle&lt;/li&gt;
-  &lt;li&gt;Rock-a-Bye Your Bear&lt;/li&gt;
-  &lt;li&gt;Hot Potato&lt;/li&gt;
-  &lt;li&gt;Fruit Salad&lt;/li&gt;
-  &lt;li&gt;Dorothy the Dinosaur&lt;/li&gt;
-  &lt;li&gt;The Monkey Dance&lt;/li&gt;
-  &lt;li&gt;D.O.R.O.T.H.Y (My Favourite Dinosaur)&lt;/li&gt;
-  &lt;li&gt;Can You (Point Your Fingers and Do the Twist?)&lt;/li&gt;
-  &lt;li&gt;Romp Bomp a Stomp&lt;/li&gt;
-  &lt;li&gt;Go Santa Go!&lt;/li&gt;
-  &lt;li&gt;Toot Toot, Chugga Chugga, Big Red Car&lt;/li&gt;
-  &lt;li&gt;Captain Feathersword Fell Asleep On His Pirate Ship (Quack Quack)&lt;/li&gt;
-  &lt;li&gt;Food Food Food (Oh How I Love My Food)&lt;/li&gt;
-  &lt;li&gt;Here Come the Reindeer&lt;/li&gt;
-  &lt;li&gt;Wiggle Bay&lt;/li&gt;
-  &lt;li&gt;Anthony’s Workshop&lt;/li&gt;
-  &lt;li&gt;Getting Strong!&lt;/li&gt;
-  &lt;li&gt;Follow the Leader&lt;/li&gt;
-  &lt;li&gt;Do the Propeller!&lt;/li&gt;
-  &lt;li&gt;I’ve Got My Glasses On!&lt;/li&gt;
-  &lt;li&gt;Ready, Steady, Wiggle!&lt;/li&gt;
-  &lt;li&gt;Say the Dance, Do the Dance&lt;/li&gt;
-  &lt;li&gt;Wake Up Lachy!&lt;/li&gt;
-  &lt;li&gt;Apples and Bananas&lt;/li&gt;
-  &lt;li&gt;Simon Says&lt;/li&gt;
-  &lt;li&gt;Who’s in the Wiggle House?&lt;/li&gt;
-  &lt;li&gt;The Wonder of Wiggle Town&lt;/li&gt;
-  &lt;li&gt;Henry’s Christmas Merengue&lt;/li&gt;
-  &lt;li&gt;Emma’s Theme&lt;/li&gt;
-  &lt;li&gt;Welcome to the Lachy Wiggle Show&lt;/li&gt;
-  &lt;li&gt;I Went to the Library&lt;/li&gt;
-  &lt;li&gt;Hey, Wags!&lt;/li&gt;
-  &lt;li&gt;The Toilet Song&lt;/li&gt;
-  &lt;li&gt;Shirley Shawn the Unicorn&lt;/li&gt;
-  &lt;li&gt;Emma’s Yellow Bow&lt;/li&gt;
-  &lt;li&gt;H.O.L.I.D.A.Y&lt;/li&gt;
-  &lt;li&gt;Here Come The Wiggles&lt;/li&gt;
-  &lt;li&gt;Handwashing Song&lt;/li&gt;
-  &lt;li&gt;Everybody Wiggle Along&lt;/li&gt;
-  &lt;li&gt;We’re All Fruit Salad!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 03 May 2023 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2023/05/03/play-school.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/05/03/play-school.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>澳洲租房经历3</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://zjuwhw.github.io/2021/04/01/rent.html&quot;&gt;Carmody Road的房子&lt;/a&gt;从2021年3月份租了两年，房东决定买房，就算我提出将房租涨到450刀/周甚至以上，房东还是决定不租了。所以我们被迫要第三次找房子了。这次租房正好赶上&lt;a href=&quot;https://www.abc.net.au/news/2023-02-20/share-house-costs-rents-prices-household-size-flatmates/101976084&quot;&gt;澳大利亚房租市场特别火爆&lt;/a&gt;，租金大涨，所以还是费一些力气和时间的。&lt;/p&gt;
-
-&lt;h2 id=&quot;找房过程&quot;&gt;找房过程&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;网上查询：我们在realestate网站上查了超过50套房子的信息&lt;/li&gt;
-  &lt;li&gt;现场看房inspection：从1月28日到21日看了（inspection）23套（1月28日，2月4日6套，2月11日8套，2月15日2套，2月17日1套，2月18日3套，2月21日1套）&lt;/li&gt;
-  &lt;li&gt;申请：申请了11套，失败了8套，在第一套成功offer下来了就接受了，所以后面有两套打电话问是否还感兴趣的时候就直接撤销了申请。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;主要搜索范围限定在三个区域：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;离我工作地点昆士兰大学St Lucia校区附近的区：St Lucia，Toowong，Taringa，和indooroopilly&lt;/li&gt;
-  &lt;li&gt;离我老婆工作地点近的附近的区：Herston，Keven Grove，Windsor&lt;/li&gt;
-  &lt;li&gt;离我老婆工作地点向南的区域（因为我可以开车先送他再去上班）：Gordon Park，Chermside，Everton Park，ENOGGERA， Ashgrove等&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;签约&quot;&gt;签约&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;接受了Stafford Road, Gordon Park, Qld 4031（主要原因：市场热不好租，430租金可以，基本条件都满足）。&lt;/li&gt;
-  &lt;li&gt;3月14日，搬家。自己打包，搬家公司搬，自己也帮忙了（300刀/3小时）&lt;/li&gt;
-  &lt;li&gt;3月14日，取钥匙，填entry condition form&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;电费&quot;&gt;电费&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;14 Mar 23 – 24 May 23: $337.88&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 29 Apr 2023 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2023/04/29/rent.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/04/29/rent.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>R语言学习资料</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;R官网：&lt;a href=&quot;https://www.r-project.org/&quot;&gt;https://www.r-project.org/&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://cran.r-project.org/manuals.html&quot;&gt;R manuals&lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf&quot;&gt;R-intro pdf&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://posit.co/&quot;&gt;Rstudio&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://rmarkdown.rstudio.com/index.html&quot;&gt;Rmarkdown&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.shinyapps.io/&quot;&gt;Shinyapp&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tidyverse.org/&quot;&gt;tidyverse&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://ggplot2.tidyverse.org/&quot;&gt;ggplot2&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://dplyr.tidyverse.org/&quot;&gt;dplyr&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://tidyr.tidyverse.org/&quot;&gt;tidyr&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://r-graph-gallery.com/&quot;&gt;R gallery&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hadley.nz/&quot;&gt;Hadley Wickham&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://r4ds.had.co.nz/&quot;&gt;R for Data Science&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://adv-r.hadley.nz/&quot;&gt;advanced R&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://r-pkgs.org/&quot;&gt;R packages&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://yihui.org/&quot;&gt;Yihui Xie&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 07 Feb 2023 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2023/02/07/R-resource.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/02/07/R-resource.html</guid>
-        
-        <category>cs</category>
         
         
       </item>
