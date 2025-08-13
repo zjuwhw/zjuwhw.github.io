@@ -6,9 +6,99 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 May 2025 18:52:10 +1000</pubDate>
-    <lastBuildDate>Fri, 09 May 2025 18:52:10 +1000</lastBuildDate>
+    <pubDate>Thu, 14 Aug 2025 05:56:09 +1000</pubDate>
+    <lastBuildDate>Thu, 14 Aug 2025 05:56:09 +1000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    
+      <item>
+        <title>昆士兰州内的大学</title>
+        <description>&lt;h2 id=&quot;昆士兰州的大学&quot;&gt;昆士兰州的大学&lt;/h2&gt;
+
+&lt;p&gt;我目前生活在澳大利亚的昆士兰州。我查询了目前州内大学的qs排名和上交排名：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;university&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.topuniversities.com/world-university-rankings&quot;&gt;qs ranking&lt;/a&gt;（2015年6月19日发布版本）&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.shanghairanking.com/rankings/arwu/2024&quot;&gt;shanghai ranking&lt;/a&gt;(2024)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Bond University&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;591&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;NA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;CQUniversity&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;499&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;NA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Griffith University&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;268&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;201-300&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;James Cook University&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;440&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;301-400&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Queensland University of Technology (QUT)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;226&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;201-300&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;University of Queensland (UQ)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;42&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;63&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;University of Southern Queensland (UniSQ)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;410&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;601-700&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;University of the Sunshine Coast (USC)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1001-1200&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;701-800&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;注：&lt;a href=&quot;https://www.shanghairanking.com/institution/bond-university&quot;&gt;Bond&lt;/a&gt;和&lt;a href=&quot;https://www.shanghairanking.com/institution/central-queensland-university&quot;&gt;CQUniversity&lt;/a&gt;在shanghai ranking网站，只有分科排名，没有总排名（“Academic Ranking of World Universities”）&lt;/p&gt;
+
+&lt;h2 id=&quot;中国的大学&quot;&gt;中国的大学&lt;/h2&gt;
+
+&lt;p&gt;中国的大学一般都有所谓的一个金字塔分层：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%A0%A1%E8%81%94%E7%9B%9F&quot;&gt;C9&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;浙江大学：49（qs）；27（shanghai）&lt;/li&gt;
+      &lt;li&gt;上海交通大学：47（qs）；38（shanghai）&lt;/li&gt;
+      &lt;li&gt;西安交通大学：305（qs）；95（shanghai）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/985%E5%B7%A5%E7%A8%8B&quot;&gt;985&lt;/a&gt; (39所)
+    &lt;ul&gt;
+      &lt;li&gt;大连理工：482（qs ranking）；201-300（shanghai ranking）&lt;/li&gt;
+      &lt;li&gt;东北大学：201-300（shanghai ranking）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/211%E5%B7%A5%E7%A8%8B&quot;&gt;211&lt;/a&gt; （112所）&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 14 Aug 2025 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2025/08/14/qld-uni.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/08/14/qld-uni.html</guid>
+        
+        <category>life</category>
+        
+        
+      </item>
     
       <item>
         <title>美国签证申请</title>
@@ -322,61 +412,6 @@ swiming goggles：游泳眼镜&lt;/p&gt;
         <pubDate>Thu, 28 Sep 2023 00:00:00 +1000</pubDate>
         <link>http://localhost:4000/2023/09/28/postdoc.html</link>
         <guid isPermaLink="true">http://localhost:4000/2023/09/28/postdoc.html</guid>
-        
-        <category>life</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>澳洲永居持有者的旅行限制</title>
-        <description>&lt;p&gt;我们是2022年8月22日获得的澳大利亚&lt;a href=&quot;http://zjuwhw.github.io/2022/11/18/PR.html&quot;&gt;永居（PR，permanent residency visa，俗称绿卡）&lt;/a&gt;。获得永居后，永居的持有者可能会受到境外旅行的限制，这个博客试图记录一些相关的信息。&lt;/p&gt;
-
-&lt;p&gt;注：博客只是我阅读这些政策时候的一些记录，不负法律责任，若有相关方面的计划，请咨询专业机构。&lt;/p&gt;
-
-&lt;h2 id=&quot;overseas-travel-as-a-permanent-resident页面&quot;&gt;&lt;a href=&quot;https://immi.homeaffairs.gov.au/visas/permanent-resident/overseas-travel&quot;&gt;Overseas travel as a permanent resident页面&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/PR1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;travel-facility旅行限制&quot;&gt;“travel facility”/“旅行限制”&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;澳大利亚的永居持有者从境外返回澳洲需要符合“travel facility”（旅行期限，俗称“移民监”）的要求&lt;/li&gt;
-  &lt;li&gt;一般永居第一次获批，都会给5年的“旅行期限”，5年内随意出入境&lt;/li&gt;
-  &lt;li&gt;5年后，“旅行期限”过期，或者申请&lt;a href=&quot;https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/resident-return-visa-155-157&quot;&gt;resident return visa（RRV，回居签证，俗称“回头签”）&lt;/a&gt;，或者加入&lt;a href=&quot;https://immi.homeaffairs.gov.au/citizenship/become-a-citizen&quot;&gt;澳洲国籍&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;当“旅行期限”过期后，通过“临时签证”入境澳洲会有负面影响&lt;/li&gt;
-  &lt;li&gt;若既没入籍，也没申请RRV，还想要以永居身份入境，可以考虑再次申请永居，例如Former Resident visa, a family visa or a skilled visa&lt;/li&gt;
-  &lt;li&gt;“旅行期限”快到期（60天内）的时候，政府会发一个“Travel Facility Expiry Reminder (TFER)”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;resident-return-visarrv回居签证&quot;&gt;“resident return visa（RRV）”/回居签证&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;可以申请RRV，如果：
-    &lt;ul&gt;
-      &lt;li&gt;“旅行限制”已经过期或者将要过期人在澳洲境外
-        &lt;ul&gt;
-          &lt;li&gt;是前PR持有者，且，最后一个PR不是被取消的&lt;/li&gt;
-          &lt;li&gt;是前澳洲国籍者，且，丢失或者放弃了国籍身份&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;只有“回居签证”被批准，才能以永居身份返澳&lt;/li&gt;
-      &lt;li&gt;每个永居持有者的家庭成员，需要申请自己的RRV&lt;/li&gt;
-      &lt;li&gt;如果你是永居，且，不打算出境澳洲，你不需要申请RRV&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;resident-return-visa签证信息页面&quot;&gt;&lt;a href=&quot;https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/resident-return-visa-155-157&quot;&gt;“resident return visa”签证信息页面&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/PR2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;还没看完。。。&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 26 Sep 2023 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/2023/09/26/pr.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2023/09/26/pr.html</guid>
         
         <category>life</category>
         
